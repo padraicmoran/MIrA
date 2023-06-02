@@ -6,14 +6,12 @@ if (file_exists('data/places.xml')) {
 
 	// get place info
 	$filter = $xml_places->xpath('//place[@id="' . $id . '"]');
-
 	if ($filter) {
 		$place = $filter[0];
 		
 		if ($tidyURLs) $linkBack = '/places/';
 		else $linkBack = '/index.php?page=places';
 		print '<div class="h5 text-secondary"><a href="' . $linkBack . '">Places</a></div>';
-
 ?>
 
 <div class="row">
@@ -21,15 +19,18 @@ if (file_exists('data/places.xml')) {
 <?php
 
 		print '<h2>' . $place->name . '</h2>';
-		if ($place->xpath('name[@lang="lat"]')) print '<p><i>' . $place->xpath('name[@lang="lat"]')[0] . '</i></p>';
+		print '<p>';
+		if ($place->xpath('name[@lang="de"]')) print 'German: ' . $place->xpath('name[@lang="de"]')[0] . '<br/>';
+		if ($place->xpath('name[@lang="la"]')) print 'Latin: ' . $place->xpath('name[@lang="la"]')[0] . '<br/>';
+		print '</p>';
 
 		// if region: show sub-locations
 		if ($place['type'] == 'region') {
-			$filterContains = $xml_places->xpath('//place[@partof="' . $id . '"]');
-			if ($filterContains) {
+			$subPlaces = $xml_places->xpath('//place[@id="' . $id . '"]/place');
+			if ($subPlaces) {
 				print '<p>Region, including the following places:</p> ';
 				print '<ul>';
-				foreach ($filterContains as $p) {
+				foreach ($subPlaces as $p) {
 					print '<li><a href="' . getLink('places', $p['id']) . '">' . $p->name . '</a></li>';
 				}				
 				print '</ul>';
@@ -41,12 +42,9 @@ if (file_exists('data/places.xml')) {
 		}
 		// if not region: check if part of a region
 		else {
-			if ($place['partof']) print '<p>Part of region: <a href="' . getLink('places', $place['partof']) . '">' . $place['partof'] . '</a></p>';
+			$priorPlace = $xml_places->xpath('//place[@id="' . $id . '"]/ancestor::place');
+			if ($priorPlace) print '<p>Part of region: <a href="' . getLink('places', $priorPlace[0]['id']) . '">' . $priorPlace[0]->name . '</a></p>';
 		}
-
-
-
-
 
 ?>
 	</div>
@@ -61,7 +59,13 @@ if (file_exists('data/places.xml')) {
 
 <?php
 		// find related manuscripts
-		$results = $xml_mss->xpath('//place[@id="' . $id . '"]/ancestor::manuscript');
+		$xpath = '//place[@id="' . $id . '"]/ancestor::manuscript';
+		// if this place is a region, also search all sub-places
+		if ($subPlaces) {
+			foreach ($subPlaces as $p) $xpath .= ' | //place[@id="' . $p['id'] . '"]/ancestor::manuscript';
+		}
+		$results = $xml_mss->xpath($xpath);
+		
 		if ($results) {
 
 			// sorting
