@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!-- 
+Temporary data structure for testing purposes. 
+-->
+<document>
+   <person id="dungal">
+      <surname></surname>
+      <firstNames>Dúngal</firstNames>
+      <lifetime from="" to=""></lifetime>
+   </person>
+   <person id="eriugena">
+      <surname>Scottus/Eriugena</surname>
+      <firstNames>John </firstNames>
+      <lifetime from="" to=""></lifetime>
+   </person>
+   <person id="i2">
+      <surname>(assistant of Eriugena)</surname>
+      <firstNames>i2</firstNames>
+      <lifetime from="" to=""></lifetime>
+   </person>
+   <person id="martin">
+      <surname>of Laon, Hiberniensis</surname>
+      <firstNames>Martin</firstNames>
+      <lifetime from="" to=""></lifetime>
+   </person>
+   <person id="sedulius">
+      <surname>Scottus</surname>
+      <firstNames>Sedulius</firstNames>
+      <lifetime from="" to=""></lifetime>
+   </person>
+   <person id="virgil_salzburg">
+      <surname>of Salzburg</surname>
+      <firstNames>Virgil</firstNames>
+      <lifetime from="" to=""></lifetime>
+   </person>
+   
+</document>

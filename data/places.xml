@@ -1,0 +1,365 @@
+<?xml version="1.0"?>
+<document>
+<!--
+   <place id="">
+      <name></name>
+      <name lang="lat"></name>
+      <description></description>
+      <coords></coords>
+   </place>
+-->
+	<!-- regions -->
+
+   <place id="ireland" type="region">
+      <name>Ireland</name>
+      <description></description>
+      <coords>53.416667, -8</coords>
+   </place>
+
+   <place id="italy" type="region">
+      <name>Italy</name>
+      <description></description>
+      <coords>43, 12</coords>
+
+		<place id="bobbio">
+		   <name>Bobbio</name>
+		   <name lang="lat">Bobbium</name>
+		   <coords>44.770624,9.385757</coords>
+		</place>
+		<place id="verona">
+		   <name>Verona</name>
+		   <description>Episcopal school, scriptorium.</description>
+		   <coords>45.442006,10.995485</coords>
+		</place>
+   </place>
+
+   <place id="switzerland" type="region">
+      <name>Switzerland</name>
+      <description></description>
+      <coords>46.833333, 8.333333</coords>
+
+		<place id="stgall">
+		   <name>St Gall (Sankt Gallen)</name>
+		   <name lang="lat">Sanctogallum</name>
+		   <coords>47.423195,9.37667</coords>
+		</place>
+   </place>
+
+
+
+
+	<!-- cities/monasteries -->
+
+   <place id="augsburg">
+      <name>Augsburg</name>
+      <description>Bishopric</description>
+      <coords>48.368889, 10.897778</coords>
+   </place>
+   <place id="auxerre">
+      <name>Auxerre</name>
+      <name lang="lat">Antisiodorum urbs</name>
+      <description>Israel (perhaps AS, cf. Lapidge). Murethach (cf. Holtz).</description>
+      <coords>47.797474,3.574677</coords>
+   </place>
+   <place id="canterbury">
+      <name>Canterbury</name>
+      <name lang="lat">Cantuaria, Durrovernum</name>
+      <description><![CDATA[Augustine 597. Theodore & Hadrian 669.]]></description>
+      <coords>51.279656,1.083194</coords>
+   </place>
+   <place id="corbie">
+      <name>Corbie</name>
+      <name lang="lat">Corbeia</name>
+      <description>Founded from Luxeuil, c. 660. Associated with Péronne.</description>
+      <coords>49.912325,2.491837</coords>
+   </place>
+   <place id="echternach">
+      <name>Echternach</name>
+      <name lang="lat">Epternacum</name>
+      <description>Founded by Willibrord, 698.</description>
+      <coords>49.812872,6.42213</coords>
+   </place>
+   <place id="fleury">
+      <name>Fleury</name>
+      <name lang="lat">Floriacum</name>
+      <description>7th cent. Burned by Vikings in 865. Height until Abbo (d. 1004). Extensive library dispersed in 1562. Today Saint-Benoît-sur-Loire.</description>
+      <coords>47.810464,2.306024</coords>
+   </place>
+   <place id="fulda">
+      <name>Fulda</name>
+      <name lang="lat">Fuldense coen.</name>
+      <description>First important Carolingian school after court school; Hrabanus Maurus student of Alcuin at Tours. Founded by St Sturm 744, pupil of Boniface.</description>
+      <coords>50.553744,9.67432</coords>
+   </place>
+   <place id="fussen">
+      <name>Füssen</name>
+      <name lang="lat"></name>
+      <description></description>
+      <coords>47.5857813,10.6199995</coords>
+   </place>
+   <place id="laon">
+      <name>Laon</name>
+      <name lang="lat">Laudunum (Lao-, Lo-; Laudunensis urbs, Lugdunum clavatum)</name>
+      <description>Cathedral school. Martinus. Elias. </description>
+      <coords>49.564415,3.624115</coords>
+   </place>
+   <place id="luxeuil">
+		<name>Luxeuil</name>
+		<name lang="lat">Luxovium</name>
+      <description>590. Founded from Annegray.</description>
+      <coords>47.817535,6.379967</coords>
+   </place>
+   <place id="lyon">
+      <name>Lyon</name>
+      <name lang="lat">Leona, Lugdunum</name>
+      <description>Cathedral school. Bishop Agobard, deacon Florus, 9th cent.</description>
+      <coords>45.767299,4.834329</coords>
+   </place>
+   <place id="mainz">
+      <name>Mainz</name>
+      <name lang="lat">Moguntiacum</name>
+      <description>Episcopal school, scriptorium. Boniface archbishop c. 739. Martianus Scotus, banished from Moville, wrote Chronicle of World History.</description>
+      <coords>49.995123,8.267426</coords>
+   </place>
+   <place id="paris">
+      <name>Paris</name>
+      <name lang="lat"></name>
+      <description></description>
+      <coords>48.8589466,2.2769952</coords>
+   </place>
+   <place id="peronne">
+      <name>Péronne</name>
+      <name lang="lat">Peronna</name>
+      <description>Fursa buried here by Erchinoald, mayor of Neustria.</description>
+      <coords>49.92824,2.931976</coords>
+   </place>
+   <place id="reims">
+      <name>Reims</name>
+      <name lang="lat">Remi civitas</name>
+      <description>Cathedral school. Centre for Eriugena. Dunchad. Hincmar archbiship from 845.</description>
+      <coords>49.256602,4.032669</coords>
+   </place>
+   <place id="regensburg">
+      <name>Regensburg</name>
+      <description>Marianus (Muredach mac Robartaig), 1067.</description>
+      <coords>49.016491,12.100904</coords>
+   </place>
+   <place id="reichenau">
+      <name>Reichenau</name>
+      <name lang="lat">Augia insula</name>
+      <description>Founded 724 (St Pirmin). Walahfried Strabo abbot, 838.</description>
+      <coords>47.688966,9.063721</coords>
+   </place>
+   <place id="saint-amand">
+      <name>Saint-Amand</name>
+      <name lang="lat"></name>
+      <description></description>
+      <coords>50.449722, 3.428611</coords>
+   </place>
+   <place id="saint-denis">
+      <name>Saint-Denis</name>
+      <name lang="lat">Dionysianum</name>
+      <description>Oratory for martyr St Geneviève from 5th cent., in memory of Bishop Dionysius of Paris. Monastery made a religious centre of kingdom by Childebert, c. 550. Abbot Hilduin made first trans. of Dionysiac works received in 827. Dúngal.</description>
+      <coords>48.936065,2.364883</coords>
+   </place>
+   <place id="salzburg">
+      <name>Salzburg</name>
+      <name lang="lat">Salina</name>
+      <description>Vergil.</description>
+      <coords>47.800472,13.044376</coords>
+   </place>
+   <place id="soissons">
+      <name>Soissons</name>
+      <name lang="lat">Suessonae</name>
+      <description>School, associated with Eriugena.</description>
+      <coords>49.381032,3.32448</coords>
+   </place>
+   <place id="strasbourg">
+      <name>Strasbourg</name>
+      <name lang="lat"></name>
+      <description></description>
+      <coords>48.583333, 7.755833</coords>
+   </place>
+   <place id="tours">
+      <name>Tours</name>
+      <name lang="lat">Augusta Turonum, Turonica civitas, etc.</name>
+      <description>Alcuin abbot 796–804.</description>
+      <coords>47.390294,0.688851</coords>
+   </place>
+   <place id="trier">
+      <name>Trier</name>
+      <name lang="lat">Augusta Trevirorum</name>
+      <description>Episcopal school, scriptorium.</description>
+      <coords>49.753735,6.646247</coords>
+   </place>
+   <place id="verdun">
+      <name>Verdun</name>
+      <name lang="lat">Verodunum</name>
+      <description><![CDATA[Psalter of Sedulius, Bibl. de l'Arsenal	8407.]]></description>
+      <coords>49.174522,5.383301</coords>
+   </place>
+   <place id="werden">
+      <name>Werden</name>
+      <name lang="lat"></name>
+      <description>*** To do</description>
+      <coords>51.3876159,6.9699084</coords>
+   </place>
+   <place id="wurzburg">
+      <name>Würzburg</name>
+      <name lang="lat">Vurceburgum, Wirceburgum, Herbipolis</name>
+      <description>Cillian (Kilian), killed c. 689.</description>
+      <coords>49.793677,9.926834</coords>
+   </place>
+<!--
+
+   <place id="">
+      <name></name>
+      <name lang="lat"></name>
+      <description></description>
+      <coords></coords>
+   </place>
+
+
+   <place id="aachen">
+      <name>Aachen</name>
+      <name lang="lat">Aquisgranum, Aquensis</name>
+      <description><![CDATA[Charlemagne's court in winters between 792 and his death in 814. Alcuin 782-796, suceeded by Clemens Scottus.]]></description>
+      <coords>50.775984,6.082306</coords>
+   </place>
+   <place id="">
+      <name>Angoulême</name>
+      <name lang="lat">Engolisma</name>
+      <description>Elias (circle of Eriugena). Also Aquesina + variations.</description>
+      <coords>45.64834,0.160924</coords>
+   </place>
+   <place id="">
+      <name>Annegray</name>
+      <coords>47.821252,6.557121</coords>
+   </place>
+   <place id="">
+      <name>Burgh Castle</name>
+      <description>Founded by Fursa, after 630, in reign of Sigbert (d. 644). Succeeded by his brother Foillan. Destroyed by Norse in 880.</description>
+      <coords>52.586166,1.654298</coords>
+      <private_notes>= Cnoberesburgh?</private_notes>
+   </place>
+   <place id="">
+      <name>Cologne</name>
+      <name lang="lat">Colonia</name>
+      <description>Episcopal school, scriptorium.</description>
+      <coords>50.940664,6.959912</coords>
+   </place>
+   <place id="">
+      <name>Compiègne</name>
+      <name lang="lat">Coatia silva</name>
+      <description>Palace school of Charles the Bald. Associated with Eriugena.</description>
+      <coords>49.415748,2.822456</coords>
+   </place>
+   <place id="">
+      <name>Ferrières</name>
+      <name lang="lat">Segestae aquae, Ferrariae</name>
+      <description>Abbo appointed abbot by Charles the Bald in 840. Collector of Classical MSS. Student was Heiric of Auxerre.</description>
+      <coords>48.093299,2.794264</coords>
+   </place>
+   <place id="">
+      <name>Fiesole</name>
+      <description>Donatus.</description>
+      <coords>43.806933,11.292766</coords>
+   </place>
+   <place id="">
+      <name>Fontaine</name>
+      <coords>47.856942,6.333618</coords>
+   </place>
+   <place id="">
+      <name>Ivrea</name>
+      <description>Episcopal school, scriptorium.</description>
+      <coords>45.466605,7.875945</coords>
+   </place>
+   <place id="">
+      <name>Lagny</name>
+      <name lang="lat">Latiniacum</name>
+      <description>Founded by Fursa. Succeeded by Eloquius.</description>
+      <coords>48.878433,2.701778</coords>
+   </place>
+   <place id="">
+      <name>Liège</name>
+      <name lang="lat">Leodium</name>
+      <description>Sedulius (founded school?). Electus (? = Fergus) Scottigena of Liège.</description>
+      <coords>50.640752,5.571442</coords>
+   </place>
+   <place id="">
+      <name>Lindisfarne</name>
+      <description>Founded by Áedán 635 (granted from Oswald). Finan, bishop-abbot 651-61. Colmán, bishop-abbot 661-64.</description>
+      <coords>-55.677778,1.795</coords>
+   </place>
+   <place id="">
+      <name>Lucca</name>
+      <name lang="lat">Luccensis</name>
+      <description>Episcopal school, scriptorium.</description>
+      <coords>43.843014,10.507994</coords>
+   </place>
+   <place id="">
+      <name>Malmesbury</name>
+      <name lang="lat">Maldunense coen., Malmesburia</name>
+      <description>Founded c. 637 by Maíldub. Aldhelm (c. 640–709), abbot c. 674. William of Malmesbury, born c. 1095.</description>
+      <coords>-51.584732,2.098335</coords>
+   </place>
+   <place id="">
+      <name>Metz</name>
+      <description>Murethach</description>
+      <coords>49.1193089,6.1757156</coords>
+   </place>
+   <place id="">
+      <name>Monte Cassino</name>
+      <name lang="lat">Casinum</name>
+      <description>Benedict, 520s. Destroyed by Lombards, c. 570. Refounded c. 718 with support of Duke of Benevento.</description>
+      <coords>41.49,13.813889</coords>
+   </place>
+   <place id="">
+      <name>Novara</name>
+      <description>Episcopal school, scriptorium.</description>
+      <coords>45.445084,8.618671</coords>
+   </place>
+   <place id="">
+      <name>Orléans</name>
+      <name lang="lat">Aurelianense palatium</name>
+      <description><![CDATA[Cathedral school. Bishop Theodulf, active a Charlemagne's court from 780.]]></description>
+      <coords>47.901387,1.903976</coords>
+   </place>
+   <place id="">
+      <name>Pavia</name>
+      <description>Dungal, bishop (formerly at Saint-Denis and Bobbio).</description>
+      <coords>45.18588,9.156594</coords>
+   </place>
+   <place id="">
+      <name>Ripon</name>
+      <description>Founded 661. Wilfrid, abbot 661-669 (afterwards bishop of York).</description>
+      <coords>-54.13878,1.524212</coords>
+   </place>
+   <place id="">
+      <name>Saint-Riquier</name>
+      <description>Assoc. with Corbie, Péronne.</description>
+      <coords>50.133894,1.946468</coords>
+   </place>
+   <place id="">
+      <name>Saint-Trond</name>
+      <description><![CDATA[Columbanus, ? abbot of Saint-Trond	fl. c. 780 × c. 815 (Lapidge & Sharpe 650–656)]]></description>
+      <coords>50.818835,5.1819977</coords>
+   </place>
+   <place id="">
+      <name>Vivarium</name>
+      <description>Approx site. Founded by Cassiodorus, c. 555.</description>
+      <coords>38.760976,16.569581</coords>
+   </place>
+   <place id="">
+      <name>Wearmouth-Jarrow</name>
+      <description>Benedict Biscop founded W 674, J 682 (first abbot Ceolfrith).</description>
+      <coords>-54.97861,1.483733</coords>
+   </place>
+   <place id="">
+      <name>York</name>
+      <name lang="lat">Eboracum</name>
+      <description>See restored in 664 with Wilfrid.</description>
+      <coords>-53.956086,1.087646</coords>
+   </place>
+-->
+</document>
