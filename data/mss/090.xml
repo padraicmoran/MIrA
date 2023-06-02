@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="90">
+   <identifier libraryID="munich">
+      <shelfmark>Clm 29300/2</shelfmark>
+      <shelfmark_indexer>Clm 29300/2</shelfmark_indexer>
+      <link type="images">https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00061144-7</link>
+      <link type="iiif">https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00061144/manifest</link>
+   </identifier>
+   <description>
+      <type>Binding frag.</type>
+      <folios />
+      <page_h />
+      <page_w />
+      <contents>Sacramentarium Celticum: Officium Mortuorum</contents>
+      <script>Irish majuscule</script>
+   </description>
+   <history>
+      <date_desc>VIII</date_desc>
+      <term_post>701</term_post>
+      <term_ante>800</term_ante>
+      <origin><place id="ireland">Ireland</place></origin>
+      <provenance>St Emmeram, <place id="regensburg">Regensburg</place></provenance>
+   </history>
+   <xrefs>
+      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/2103">S.1797</xref>
+      <xref type="tresmegistos">TM 67923</xref>
+      <xref type="bischoff_ssb">2.247</xref>
+      <link type="foundations" href="http://foundationsirishculture.ie/record/?id=71">[external link, with image]</link>
+   </xrefs>
+   <notes>
+      <categories>or-ire;sc-ire</categories>
+      <project_notes>Formerly part of binding of Clm 14747 (10th cent.).</project_notes>
+   </notes>
+</manuscript>
+

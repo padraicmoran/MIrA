@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="89">
+   <identifier libraryID="munich">
+      <shelfmark>Clm 14846</shelfmark>
+      <shelfmark_indexer>Clm 14846</shelfmark_indexer>
+      <link type="images">https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00104066-3</link>
+      <link type="iiif">https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00104066/manifest</link>
+   </identifier>
+   <description>
+      <type />
+      <folios>123</folios>
+      <page_h>121</page_h>
+      <page_w>95</page_w>
+      <contents>Erchanbertus, <i>Commentarius in Donatum</i>; Sortilegia Celtica</contents>
+      <script />
+   </description>
+   <history>
+      <date_desc>IX ex/X in</date_desc>
+      <term_post>880</term_post>
+      <term_ante>920</term_ante>
+      <origin>Lake Constance area?</origin>
+      <provenance><place id="regensburg">Regensburg</place></provenance>
+   </history>
+   <xrefs>
+      <xref type="dhbm" href="https://ircabritt.nuigalway.ie/handlist/catalogue/90">#90</xref>
+      <xref type="bischoff_ssb">2.246</xref>
+      <xref type="bischoff_kat">3273</xref>
+      <xref type="thesaurus">2.236–237</xref>
+      <xref type="bronner">p. 34</xref>
+   </xrefs>
+   <notes>
+      <categories>ex-ire;vern</categories>
+      <project_notes>Old Irish, Britonnic, Old High German glosses. Irish abbreviations point to Irish exemplar.</project_notes>
+   </notes>
+</manuscript>
+

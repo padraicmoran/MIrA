@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="204">
+   <identifier libraryID="cambridge_ul">
+      <shelfmark>Ff.4.42 (1285)</shelfmark>
+      <link type="images">https://cudl.lib.cam.ac.uk/view/MS-FF-00004-00042/1</link>
+      <link type="iiif">https://cudl.lib.cam.ac.uk//iiif/MS-FF-00004-00042</link>
+   </identifier>
+   <description>
+      <type />
+      <folios />
+      <page_h />
+      <page_w />
+      <contents>Juvencus</contents>
+      <script />
+   </description>
+   <history>
+      <date_desc>IX²</date_desc>
+      <term_post>850</term_post>
+      <term_ante>900</term_ante>
+      <origin>Wales</origin>
+      <provenance>Worcester</provenance>
+   </history>
+   <xrefs>
+      <xref type="thesaurus">2.44</xref>
+      <xref type="bronner">p. 6</xref>
+   </xrefs>
+   <notes>
+      <categories>vern</categories>
+      <project_notes>Many Brittonic, a few Old Irish glosses. </project_notes>
+   </notes>
+</manuscript>
+

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="113">
+   <identifier libraryID="florence">
+      <shelfmark>Plut. 45.14</shelfmark>
+      <link type="images">http://teca.bmlonline.it/ImageViewer/servlet/ImageViewer?idr=TECA0000624876</link>
+   </identifier>
+   <description>
+      <type />
+      <folios>228</folios>
+      <page_h>367</page_h>
+      <page_w>280</page_w>
+      <contents>Virgil commentary (Philargyrius, <i>Brevis expositio</i>)</contents>
+      <script>Caroline minuscule</script>
+   </description>
+   <history>
+      <date_desc>IX 2/3</date_desc>
+      <term_post>833</term_post>
+      <term_ante>866</term_ante>
+      <origin>Central (?) France</origin>
+      <provenance><place id="lyon">Lyon</place></provenance>
+   </history>
+   <xrefs>
+      <xref type="bischoff_kat">1226</xref>
+      <xref type="thesaurus">2.46–48, 2.418</xref>
+      <xref type="bronner">pp 15–16</xref>
+   </xrefs>
+   <notes>
+      <categories>vern</categories>
+      <project_notes>Old Irish glosses (ed. Lambert 1986***); language c. 800.</project_notes>
+   </notes>
+</manuscript>
+

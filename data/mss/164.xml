@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="164">
+   <identifier libraryID="leiden">
+      <shelfmark>Voss. Lat. F. 30</shelfmark>
+      <shelfmark_indexer>Voss. Lat. F. 030</shelfmark_indexer>
+      <ms_name>Codex Oblongus</ms_name>
+   </identifier>
+   <description>
+      <type />
+      <folios>192</folios>
+      <page_h>325</page_h>
+      <page_w>210</page_w>
+      <contents>Lucretius</contents>
+      <script>Caroline minuscule</script>
+   </description>
+   <history>
+      <date_desc>IX 1–2/4</date_desc>
+      <term_post>800</term_post>
+      <term_ante>850</term_ante>
+      <origin>NW Germany?</origin>
+      <provenance><place id="mainz">Mainz</place></provenance>
+   </history>
+   <xrefs>
+      <xref type="bischoff_kat">2189</xref>
+   </xrefs>
+   <notes>
+      <categories>scribe</categories>
+      <project_notes>Emendations by <person id="dungal">Dúngal</person>.</project_notes>
+      <private_notes>Check source</private_notes>
+   </notes>
+</manuscript>
+

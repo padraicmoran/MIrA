@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="28">
+   <identifier libraryID="paris_bnf">
+      <shelfmark>Lat. 10290</shelfmark>
+      <shelfmark_indexer>Lat. 10290</shelfmark_indexer>
+      <link type="images">https://gallica.bnf.fr/ark:/12148/btv1b84790031</link>
+      <link type="iiif">https://gallica.bnf.fr/iiif/ark:/12148/btv1b84790031/manifest.json</link>
+   </identifier>
+   <description>
+      <type />
+      <folios />
+      <page_h />
+      <page_w />
+      <contents><text id="priscian_ars">Priscian</text></contents>
+      <script>Caroline minuscule</script>
+   </description>
+   <history>
+      <date_desc>IX²</date_desc>
+      <term_post>850</term_post>
+      <term_ante>900</term_ante>
+      <origin>prob. Brittany</origin>
+      <provenance><place id="echternach">Echternach</place></provenance>
+   </history>
+   <xrefs>
+      <xref type="dhbm" href="https://ircabritt.nuigalway.ie/handlist/catalogue/146">#146</xref>
+      <xref type="bischoff_kat">4623</xref>
+      <xref type="bronner">pp 40–41</xref>
+   </xrefs>
+   <notes>
+   	<categories>vern</categories>
+      <project_notes>Latin, Old Irish, Old Breton, Old Welsh glosses. </project_notes>
+   </notes>
+</manuscript>
+

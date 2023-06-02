@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="157">
+   <identifier libraryID="turin">
+      <shelfmark>F.VI.2, fasc. 4</shelfmark>
+      <shelfmark_indexer>F.006.002 (004)</shelfmark_indexer>
+   </identifier>
+   <description>
+      <type />
+      <folios />
+      <page_h />
+      <page_w />
+      <contents>Liber questionum in evangeliis (frag.)</contents>
+      <script />
+   </description>
+   <history>
+      <date_desc>IX?</date_desc>
+      <term_post>800</term_post>
+      <term_ante>900</term_ante>
+      <origin><place id="bobbio">Bobbio</place></origin>
+   </history>
+   <xrefs>
+      <xref type="thesaurus">1.484</xref>
+      <xref type="bronner">p. 52</xref>
+   </xrefs>
+   <notes>
+      <categories>vern</categories>
+      <project_notes>Old Irish gloss (1). </project_notes>
+   </notes>
+</manuscript>
+

@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="23">
+   <identifier libraryID="paris_bnf">
+      <shelfmark>Lat. 3088 (ff 108–121)</shelfmark>
+      <shelfmark_indexer>Lat. 03088 (108)</shelfmark_indexer>
+      <link type="images">https://gallica.bnf.fr/ark:/12148/btv1b100238563</link>
+      <link type="iiif">https://gallica.bnf.fr/iiif/ark:/12148/btv1b100238563/manifest.json</link>
+   </identifier>
+   <description>
+      <type />
+      <folios>14</folios>
+      <page_h>220</page_h>
+      <page_w>192</page_w>
+      <contents>Eriugena, <i>Glossae divinae historiae</i> (110v–115v)</contents>
+      <script />
+   </description>
+   <history>
+      <date_desc>IX 3/4</date_desc>
+      <term_post>875</term_post>
+      <term_ante>900</term_ante>
+      <origin><place id="reims">Reims</place>?</origin>
+      <provenance>(owned by Pierre Daniel)</provenance>
+   </history>
+   <xrefs>
+      <xref type="bischoff_kat">4273</xref>
+      <xref type="bronner">p. 39</xref>
+   </xrefs>
+   <notes>
+   	<categories>vern;text</categories>
+      <project_notes>Composite MS. 68 Old Irish entries; ed. Contreni &amp; Ó Néill 1997***.</project_notes>
+   </notes>
+</manuscript>
+

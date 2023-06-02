@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="53">
+   <identifier libraryID="karlsruhe">
+      <shelfmark>Aug. perg. 18</shelfmark>
+      <shelfmark_indexer>Aug. perg. 0018</shelfmark_indexer>
+      <link type="images">http://digital.blb-karlsruhe.de/id/20869</link>
+      <link type="iiif">https://digital.blb-karlsruhe.de/i3f/v20/20869/manifest</link>
+   </identifier>
+   <description>
+      <type />
+      <folios />
+      <page_h />
+      <page_w />
+      <contents>Canon law, incl. Collectio Canonum Hibernensis</contents>
+      <script />
+   </description>
+   <history>
+      <date_desc>IX 1/4</date_desc>
+      <term_post>800</term_post>
+      <term_ante>825</term_ante>
+      <origin><place id="reichenau">Reichenau</place></origin>
+   </history>
+   <xrefs>
+      <xref type="bischoff_kat">1590</xref>
+      <xref type="bronner">p. 18</xref>
+   </xrefs>
+   <notes>
+      <categories>text;vern</categories>
+      <project_notes>Old Irish glosses (2). Irish glosses embedded in CCH (82r).</project_notes>
+   </notes>
+</manuscript>
+

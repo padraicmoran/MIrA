@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="218">
+   <identifier libraryID="harvard">
+      <shelfmark>Typ. 620</shelfmark>
+      <ms_name>Rosenthal fragment</ms_name>
+      <link type="images">http://nrs.harvard.edu/urn-3:FHCL.HOUGH:3429165</link>
+		<link type="iiif">https://iiif.lib.harvard.edu/manifests/drs:14679519</link>
+   </identifier>
+   <description>
+      <type>1-leaf binding frag.</type>
+      <folios>1</folios>
+      <page_h />
+      <page_w />
+      <contents>Gospels (Vetus Latina, Lc 16.27–17.26)</contents>
+      <script>Irish majuscule</script>
+   </description>
+   <history>
+      <date_desc>VIII²</date_desc>
+      <term_post>751</term_post>
+      <term_ante>800</term_ante>
+      <origin><place id="ireland">Ireland</place></origin>
+   </history>
+   <xrefs>
+      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/2125">S1.1819</xref>
+      <xref type="tresmegistos">TM 68689</xref>
+   </xrefs>
+   <notes>
+      <categories>or-ire;sc-ire</categories>
+      <project_notes />
+   </notes>
+</manuscript>
+

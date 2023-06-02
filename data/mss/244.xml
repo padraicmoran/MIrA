@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="244">
+   <identifier libraryID="leiden">
+      <shelfmark>Voss. Lat. F. 96 A</shelfmark>
+      <shelfmark_indexer>Voss. Lat. F. 096A</shelfmark_indexer>
+      <ms_name>Leiden Leechbook</ms_name>
+      <link type="images">https://socrates.leidenuniv.nl/view/item/3218234</link>
+   </identifier>
+   <description>
+      <type />
+      <folios>2</folios>
+      <page_h>183</page_h>
+      <page_w>147</page_w>
+      <contents>Medical text</contents>
+      <script>Insular minuscule</script>
+   </description>
+   <history>
+      <date_desc>prob. VIII/IX or IX in</date_desc>
+      <term_post>880</term_post>
+      <term_ante>920</term_ante>
+      <origin>Brittany (or <place id="fleury">Fleury</place>?)</origin>
+      <provenance><place id="fleury">Fleury</place></provenance>
+   </history>
+   <xrefs>
+      <xref type="dhbm" href="https://ircabritt.nuigalway.ie/handlist/catalogue/63">#63</xref>
+      <xref type="bischoff_kat">2208</xref>
+      <xref type="bronner">p. 64</xref>
+      <xref type="tresmegistos" />
+   </xrefs>
+   <notes>
+      <categories>sc-ins;vern</categories>
+      <project_notes>Old Irish interlinear gloss on f. 1v.</project_notes>
+      <private_notes />
+   </notes>
+</manuscript>
+

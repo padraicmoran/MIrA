@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="215">
+   <identifier libraryID="oxford_bodleian">
+      <shelfmark>Auctarium D.II.19 [S.C. 3946]</shelfmark>
+      <ms_name>Mac Regol/Rushworth Gospels</ms_name>
+      <link type="images">https://digital.bodleian.ox.ac.uk/objects/b708f563-b804-42b5-bd0f-2826dfaeb5cc/</link>
+      <link type="iiif">https://iiif.bodleian.ox.ac.uk/iiif/manifest/b708f563-b804-42b5-bd0f-2826dfaeb5cc.json</link>
+   </identifier>
+   <description>
+      <type />
+      <folios />
+      <page_h />
+      <page_w />
+      <contents>Gospels (Lc, Mc, Mt, Io)</contents>
+      <script>Irish majuscule</script>
+   </description>
+   <history>
+      <date_desc>VIII–IX (ante 822)</date_desc>
+      <term_post>780</term_post>
+      <term_ante>821</term_ante>
+      <origin><place id="ireland">Ireland</place></origin>
+   </history>
+   <xrefs>
+      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/549">2.231</xref>
+      <xref type="tresmegistos">TM 66322</xref>
+   </xrefs>
+   <notes>
+      <categories>or-ire;sc-ire</categories>
+      <project_notes>Old English gloss. </project_notes>
+   </notes>
+</manuscript>
+

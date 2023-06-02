@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="116">
+   <identifier libraryID="milan">
+      <shelfmark>C 26 sup.</shelfmark>
+      <shelfmark_indexer>C 026 sup.</shelfmark_indexer>
+   </identifier>
+   <description>
+      <type />
+      <folios />
+      <page_h />
+      <page_w />
+      <contents>Basilius Caesariensis, <i>Regula</i> (imperf.)</contents>
+      <script>Irish majuscule verging on minuscule</script>
+   </description>
+   <history>
+      <date_desc>VII ex</date_desc>
+      <term_post>676</term_post>
+      <term_ante>700</term_ante>
+      <origin>prob. <place id="bobbio">Bobbio</place></origin>
+   </history>
+   <xrefs>
+      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/649">3.312</xref>
+      <xref type="tresmegistos">TM 66409</xref>
+      <link type="foundations" href="http://foundationsirishculture.ie/record/?id=8">[external link, with image]</link>
+   </xrefs>
+   <notes>
+      <categories>sc-ire</categories>
+      <project_notes>Similar to Bobbio Orosius.</project_notes>
+   </notes>
+</manuscript>
+

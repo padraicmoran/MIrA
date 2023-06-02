@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="76">
+   <identifier libraryID="kassel">
+      <shelfmark>Theol. fol. 22</shelfmark>
+      <link type="images">http://orka.bibliothek.uni-kassel.de/viewer/image/1328187128694/1/</link>
+   </identifier>
+   <description>
+      <type />
+      <folios>38</folios>
+      <page_h>340</page_h>
+      <page_w>260</page_w>
+      <contents>Jerome, <i>Commentarii in Prophetas Minores</i></contents>
+      <script>Irish minuscule</script>
+   </description>
+   <history>
+      <date_desc>VIII</date_desc>
+      <term_post>701</term_post>
+      <term_ante>800</term_ante>
+      <origin><place id="ireland">Ireland</place></origin>
+      <provenance><place id="fulda">Fulda</place></provenance>
+   </history>
+   <xrefs>
+      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/1605">8.1135</xref>
+      <xref type="tresmegistos">TM 67274</xref>
+   </xrefs>
+   <notes>
+      <categories>or-ire;sc-ire</categories>
+      <project_notes />
+   </notes>
+</manuscript>
+

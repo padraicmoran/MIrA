@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="75">
+   <identifier libraryID="karlsruhe">
+      <shelfmark>Fragm. Aug. 107</shelfmark>
+      <shelfmark_indexer>Fragm. Aug. 0107</shelfmark_indexer>
+      <link type="images">https://nbn-resolving.de/urn:nbn:de:bsz:31-1110</link>
+		<link type="iiif">https://digital.blb-karlsruhe.de/i3f/v20/23521/manifest</link>
+   </identifier>
+   <description>
+      <type />
+      <folios />
+      <page_h />
+      <page_w />
+      <contents>Figurae ad Chronologiam Spectantes, etc.</contents>
+      <script>Insular (Irish?) minuscule</script>
+   </description>
+   <history>
+      <date_desc>VIII ex</date_desc>
+      <term_post>776</term_post>
+      <term_ante>800</term_ante>
+      <origin>Poss. Insular centre on Continent</origin>
+      <provenance><place id="reichenau">Reichenau</place></provenance>
+   </history>
+   <xrefs>
+      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/1590">8.1123</xref>
+      <xref type="tresmegistos">TM 67263</xref>
+   </xrefs>
+   <notes>
+      <categories>sc-ins</categories>
+      <project_notes>Binding of Aug. 193.</project_notes>
+   </notes>
+</manuscript>
+

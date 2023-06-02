@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="130">
+   <identifier libraryID="milan">
+      <shelfmark>G 82 sup. (Studemunt) [palimpsest new]</shelfmark>
+      <shelfmark_indexer>G 082 sup.</shelfmark_indexer>
+   </identifier>
+   <description>
+      <type />
+      <folios />
+      <page_h />
+      <page_w />
+      <contents>Old Testament (Vulgata, 1 Sm 13.14–4 Rg 23.25)</contents>
+      <script>Half-Uncial</script>
+   </description>
+   <history>
+      <date_desc>VI²</date_desc>
+      <term_post>551</term_post>
+      <term_ante>600</term_ante>
+      <origin>Origin uncertain</origin>
+      <provenance><place id="bobbio">Bobbio</place></provenance>
+   </history>
+   <xrefs>
+      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/680">3.344a</xref>
+      <xref type="tresmegistos">TM 66444</xref>
+   </xrefs>
+   <notes>
+      <categories>sc-ire</categories>
+      <project_notes>CLA: "Origin uncertain. Written before Bobbio was founded, but apparently by Irish scribes".</project_notes>
+   </notes>
+</manuscript>
+

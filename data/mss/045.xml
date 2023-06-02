@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="45">
+   <identifier libraryID="berlin">
+      <shelfmark>Phillipps 1708 (Rose 51)</shelfmark>
+   </identifier>
+   <description>
+      <type />
+      <folios />
+      <page_h />
+      <page_w />
+      <contents>Claudius Taurinensis, <i>In evangelium Mathhaei</i></contents>
+      <script />
+   </description>
+   <history>
+      <date_desc>IX 3/3</date_desc>
+      <term_post>866</term_post>
+      <term_ante>900</term_ante>
+      <origin><place id="soissons">Soissons</place></origin>
+   </history>
+   <xrefs>
+      <xref type="bischoff_kat">413</xref>
+   </xrefs>
+   <notes>
+      <categories>sc-ire</categories>
+      <project_notes>Small glosses and corr. in Irish hand. </project_notes>
+   </notes>
+</manuscript>
+

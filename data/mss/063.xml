@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="63">
+   <identifier libraryID="karlsruhe">
+      <shelfmark>Aug. perg. 167 (ff 24, 25, 27?, 29, 33?, 35, 36) [palimpsest old]</shelfmark>
+      <shelfmark_indexer>Aug. perg. 0167 (024)</shelfmark_indexer>
+      <link type="images">https://nbn-resolving.de/urn:nbn:de:bsz:31-1596</link>
+		<link type="iiif">https://digital.blb-karlsruhe.de/i3f/v20/20736/manifest</link>
+   </identifier>
+   <description>
+      <type>Palimpsest</type>
+      <folios>7</folios>
+      <page_h />
+      <page_w />
+      <contents>(Apparently biblical or liturgical)</contents>
+      <script>Majuscule</script>
+   </description>
+   <history>
+      <date_desc>VIII</date_desc>
+      <term_post>700</term_post>
+      <term_ante>800</term_ante>
+      <origin><place id="ireland">Ireland</place></origin>
+      <provenance><place id="reichenau">Reichenau</place></provenance>
+   </history>
+   <xrefs>
+      <xref type="cla">8.1085</xref>
+      <link type="foundations" href="http://foundationsirishculture.ie/record/?id=61">[external link, with image]</link>
+   </xrefs>
+   <notes>
+      <categories>or-ire;sc-ire</categories>
+      <project_notes>One of five palimpsested manuscripts, probably originating in Ireland, combined and <ms id="60">rewritten with Bede</ms>. See foliation notes for <i>CLA</i> 8.1085 in the <a href="http://foundationsirishculture.ie/record/?id=61">Foundations of Irish Culture</a> catalogue. </project_notes>
+   </notes>
+</manuscript>
+

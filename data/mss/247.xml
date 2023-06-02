@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="247">
+   <identifier libraryID="paris_bnf">
+      <shelfmark>Lat. 9382</shelfmark>
+      <shelfmark_indexer>Lat. 09382</shelfmark_indexer>
+      <link type="images">https://gallica.bnf.fr/ark:/12148/btv1b90767290</link>
+      <link type="iiif">https://gallica.bnf.fr/iiif/ark:/12148/btv1b90767290/manifest.json</link>
+   </identifier>
+   <description>
+      <type />
+      <folios />
+      <page_h />
+      <page_w />
+      <contents>Old Testament, Prophets (Vulgata, Ier–Mal). </contents>
+      <script>Anglo-Saxon majuscule</script>
+   </description>
+   <history>
+      <date_desc>VIII in</date_desc>
+      <term_post>700</term_post>
+      <term_ante>720</term_ante>
+      <origin>Anglo-Saxon centre on the Continent</origin>
+      <provenance><place id="echternach">Echternach</place></provenance>
+   </history>
+   <xrefs>
+      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/941">5.577</xref>
+      <xref type="bronner">p. 66</xref>
+      <xref type="tresmegistos" />
+   </xrefs>
+   <notes>
+      <categories>vern</categories>
+      <project_notes>Formerly Suppl. lat. 828, formerly 1423. Possible Old Irish dry-point gloss.</project_notes>
+      <private_notes />
+   </notes>
+</manuscript>
+

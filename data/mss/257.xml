@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="257">
+   <identifier libraryID="laon">
+      <shelfmark>273</shelfmark>
+      <shelfmark_indexer>273</shelfmark_indexer>
+   </identifier>
+   <description>
+      <folios>174</folios>
+      <page_h>282</page_h>
+      <page_w>240</page_w>
+      <contents>Poetae christiani (Alcimus Avitus, etc.); Wigbodus, <i>De Octateucho</i>.</contents>
+      <script>Caroline minuscule</script>
+   </description>
+   <history>
+      <date_desc>IX 3/4</date_desc>
+      <term_post>850</term_post>
+      <term_ante>875</term_ante>
+      <origin>prob. NE France</origin>
+      <provenance><place id="laon">Laon</place></provenance>
+   </history>
+   <xrefs>
+      <xref type="bischoff_kat">2099</xref>
+      <xref type="tresmegistos" />
+   </xrefs>
+   <notes>
+      <categories>scribe</categories>
+      <project_notes>Hand of <person id="martin">Martin</person> (numerous marginal chresimon signs).</project_notes>
+      <private_notes />
+   </notes>
+</manuscript>
+

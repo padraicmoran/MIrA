@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="270">
+   <identifier libraryID="paris_bnf">
+      <shelfmark>Lat. 2709</shelfmark>
+      <shelfmark_indexer>Lat. 02709</shelfmark_indexer>
+      <link type="images">https://gallica.bnf.fr/ark:/12148/btv1b100371369</link>
+      <link type="iiif">https://gallica.bnf.fr/iiif/ark:/12148/btv1b100371369/manifest.json</link>
+   </identifier>
+   <description>
+      <type />
+      <folios>206</folios>
+      <page_h>233</page_h>
+      <page_w>146</page_w>
+      <contents>Ps-Augustine, <i>De quaestionibus Veteris et Novi Testamenti</i></contents>
+      <script>Caroline minuscule</script>
+   </description>
+   <history>
+      <date_desc>IX in</date_desc>
+      <term_post>800</term_post>
+      <term_ante>820</term_ante>
+      <origin><place id="augsburg">Augsburg</place> area</origin>
+   </history>
+   <xrefs>
+      <xref type="bischoff_ssb">2.203</xref>
+      <xref type="bischoff_kat">4216</xref>
+   </xrefs>
+   <notes>
+      <categories>ex-ins</categories>
+      <project_notes>Insular exemplar. (Same scriptorium as <ms id="270">Augburg, Bischöfliche Ordinariatsbibliothek, 2</ms>.)</project_notes>
+      <private_notes />
+   </notes>
+</manuscript>
+

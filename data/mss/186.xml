@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="186">
+   <identifier libraryID="st-gall">
+      <shelfmark>258</shelfmark>
+      <shelfmark_indexer>0258</shelfmark_indexer>
+      <link type="images">http://www.e-codices.unifr.ch/de/list/one/csg/0258</link>
+      <link type="iiif">http://www.e-codices.unifr.ch/metadata/iiif/csg-0258/manifest.json</link>
+   </identifier>
+   <description>
+      <type />
+      <folios />
+      <page_h />
+      <page_w />
+      <contents>Alcuin, Commentary on John</contents>
+      <script>Caroline minuscule</script>
+   </description>
+   <history>
+      <date_desc>IX med</date_desc>
+      <term_post>840</term_post>
+      <term_ante>860</term_ante>
+      <origin>E France (<place id="reims">Reims</place>?)</origin>
+      <provenance><place id="stgall">St Gall</place></provenance>
+   </history>
+   <xrefs>
+      <xref type="bischoff_kat">5699</xref>
+      <xref type="ocorrain">391b</xref>
+      <xref type="bronner">p. 46</xref>
+   </xrefs>
+   <notes>
+      <categories>vern</categories>
+      <project_notes>Latin &amp; (1) Old Irish glosses. </project_notes>
+   </notes>
+</manuscript>
+

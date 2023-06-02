@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="107">
+   <identifier libraryID="dublin_tcd">
+      <shelfmark>56 (A.IV.6)</shelfmark>
+      <ms_name>Garland of Howth/Codex Usserianus Secundus</ms_name>
+      <link type="images">https://digitalcollections.tcd.ie/concern/works/2801pk96j</link>
+      <link type="iiif">https://digitalcollections.tcd.ie/concern/works/2801pk96j/manifest</link>
+   </identifier>
+   <description>
+      <type />
+      <folios>86</folios>
+      <page_h>192</page_h>
+      <page_w>241</page_w>
+      <contents>Gospels (Vetus latina, Mt, Mc, Lc, Io)</contents>
+      <script>Irish majuscule</script>
+   </description>
+   <history>
+      <date_desc>VIII–IX</date_desc>
+      <term_post>780</term_post>
+      <term_ante>820</term_ante>
+      <origin><place id="ireland">Ireland</place></origin>
+   </history>
+   <xrefs>
+      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/591">2.272</xref>
+      <xref type="tresmegistos">TM 66358</xref>
+   </xrefs>
+   <notes>
+      <categories>or-ire;sc-ire</categories>
+      <project_notes />
+   </notes>
+</manuscript>
+

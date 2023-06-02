@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="122">
+   <identifier libraryID="milan">
+      <shelfmark>*D 23 sup.</shelfmark>
+      <shelfmark_indexer>D 023 sup.</shelfmark_indexer>
+      <link type="iiif">http://213.21.172.25/manifests/public/0b02da8280051be6.json</link>
+   </identifier>
+   <description>
+      <type />
+      <folios>2</folios>
+      <page_h />
+      <page_w />
+      <contents>Isidore, <i>Liber Differentiarum</i> (38.146–40.167)</contents>
+      <script>Irish majuscule</script>
+   </description>
+   <history>
+      <date_desc>VIII</date_desc>
+      <term_post>701</term_post>
+      <term_ante>800</term_ante>
+      <origin><place id="ireland">Ireland</place>?</origin>
+   </history>
+   <xrefs>
+      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/665">3.329</xref>
+      <xref type="tresmegistos">TM 66426</xref>
+      <link type="foundations" href="http://foundationsirishculture.ie/record/?id=12">[external link, with image]</link>
+   </xrefs>
+   <notes>
+      <categories>or-ire;sc-ire</categories>
+      <project_notes>Fly leaves to <ms id="121">Bobbio Orosius</ms>.</project_notes>
+   </notes>
+</manuscript>
+

@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="138">
+   <identifier libraryID="milan">
+      <shelfmark>S 45 sup. [palimpsest new]</shelfmark>
+      <shelfmark_indexer>S 045 sup.</shelfmark_indexer>
+   </identifier>
+   <description>
+      <type />
+      <folios />
+      <page_h />
+      <page_w />
+      <contents>Jerome, <i>Commentarii in Isaiam</i></contents>
+      <script>Half-Uncial verging on minuscule</script>
+   </description>
+   <history>
+      <date_desc>VII (ante 622)</date_desc>
+      <term_post>600</term_post>
+      <term_ante>621</term_ante>
+      <origin><place id="bobbio">Bobbio</place></origin>
+   </history>
+   <xrefs>
+      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/703">3.365</xref>
+      <xref type="tresmegistos">TM 66467</xref>
+   </xrefs>
+   <notes>
+      <categories>sc-ire</categories>
+      <project_notes>Older text is Wulfila; script has Irish and Merovingian influence.</project_notes>
+      <private_notes>See Van Den Hout on Gothic MSS at Bobbio.</private_notes>
+   </notes>
+</manuscript>
+

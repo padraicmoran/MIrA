@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="237">
+   <identifier libraryID="montecassino">
+      <shelfmark>320 (pp 5–398)</shelfmark>
+   </identifier>
+   <description>
+      <type />
+      <folios>394</folios>
+      <page_h>310</page_h>
+      <page_w>245</page_w>
+      <contents>Isidore, <i>Etymologiae</i></contents>
+      <script />
+   </description>
+   <history>
+      <date_desc>IX/X or IX in</date_desc>
+      <term_post>880</term_post>
+      <term_ante>920</term_ante>
+      <origin><place id="italy">Italy</place>? </origin>
+   </history>
+   <xrefs>
+      <xref type="bischoff_kat">2810</xref>
+      <xref type="tresmegistos" />
+   </xrefs>
+   <notes>
+      <categories>ex-ire</categories>
+      <project_notes>Bischoff: Irish exemplar?</project_notes>
+      <private_notes />
+   </notes>
+</manuscript>
+

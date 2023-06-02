@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="56">
+   <identifier libraryID="karlsruhe">
+      <shelfmark>Aug. perg. 132 [palimpsest new]</shelfmark>
+      <shelfmark_indexer>Aug. perg. 0132</shelfmark_indexer>
+      <ms_name>Karlsruhe Priscian</ms_name>
+      <link type="images">https://nbn-resolving.de/urn:nbn:de:bsz:31-7326</link>
+		<link type="iiif">https://digital.blb-karlsruhe.de/i3f/v20/64199/manifest</link>
+   </identifier>
+   <description>
+      <type />
+      <folios>107</folios>
+      <page_h>300</page_h>
+      <page_w>215</page_w>
+      <contents><text id="priscian_ars">Priscian</text></contents>
+      <script>Irish minuscule</script>
+   </description>
+   <history>
+      <date_desc>IX 2/4</date_desc>
+      <term_post>825</term_post>
+      <term_ante>850</term_ante>
+      <origin><place id="soissons">Soissons</place>/NE France</origin>
+      <provenance><place id="reichenau">Reichenau</place></provenance>
+   </history>
+   <xrefs>
+      <xref type="bischoff_kat">1656</xref>
+      <xref type="thesaurus">2.225–230</xref>
+      <xref type="bronner">pp 18–19</xref>
+   </xrefs>
+   <notes>
+      <categories>vern</categories>
+      <project_notes>Old Irish glosses. </project_notes>
+   </notes>
+</manuscript>
+

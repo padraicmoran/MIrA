@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="279">
+   <identifier libraryID="munich">
+      <shelfmark>Clm 14248</shelfmark>
+      <shelfmark_indexer>Clm 14248</shelfmark_indexer>
+      <link type="images">https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00046840-6</link>
+      <link type="iiif">https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00046840/manifest</link>
+   </identifier>
+   <description>
+      <type />
+      <folios>176</folios>
+      <page_h>298</page_h>
+      <page_w>188</page_w>
+      <contents>Augustine <i>in Psalmum CXVIII</i>; Hymni; Preces; etc.</contents>
+      <script />
+   </description>
+   <history>
+      <date_desc>IX 1/4</date_desc>
+      <term_post>800</term_post>
+      <term_ante>825</term_ante>
+      <origin><place id="regensburg">Regensburg</place></origin>
+   </history>
+   <xrefs>
+      <xref type="cla" href="" />
+      <xref type="bischoff_ssb">1.193 (no. 13)</xref>
+      <xref type="bischoff_kat">3143</xref>
+   </xrefs>
+   <notes>
+      <categories>text</categories>
+      <project_notes>Bischoff, <i>SSB</i>: prayers on f. 163ff of Irish origin.</project_notes>
+      <private_notes>Check Front in Journal of Theo. Studies 30 (1929), p. 32f.</private_notes>
+   </notes>
+</manuscript>
+

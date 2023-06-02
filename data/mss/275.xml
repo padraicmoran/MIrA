@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="275">
+   <identifier libraryID="st-gall">
+      <shelfmark>1346</shelfmark>
+      <shelfmark_indexer>1346</shelfmark_indexer>
+      <link type="images">http://www.e-codices.ch/en/csg/1346/1/0/</link>
+      <link type="iiif">http://www.e-codices.unifr.ch/metadata/iiif/csg-1346/manifest.json</link>
+   </identifier>
+   <description>
+      <type />
+      <folios>60</folios>
+      <page_h />
+      <page_w />
+      <contents>Columbanus, <i>Instructiones, Epistulae</i></contents>
+      <script>Modern hand</script>
+   </description>
+   <history>
+      <date_desc>c. 1611</date_desc>
+      <term_post>1611</term_post>
+      <term_ante>1611</term_ante>
+      <origin><place id="stgall">St Gall</place></origin>
+   </history>
+   <xrefs>
+   </xrefs>
+   <notes>
+      <categories>ex-ire</categories>
+      <project_notes>A copy by Jodocus Metzler (1574–1639) of the Abbey of <place id="stgall">St Gall</place>, apparently from a lost <place id="bobbio">Bobbio</place> codex in Irish script. The only MS witness for Columbanus, Letter 1–5.</project_notes>
+      <private_notes />
+   </notes>
+</manuscript>
+

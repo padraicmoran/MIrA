@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="239">
+   <identifier libraryID="munich">
+      <shelfmark>Clm 14497</shelfmark>
+      <shelfmark_indexer>Clm 14497</shelfmark_indexer>
+      <link type="images">https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00046298-1</link>
+      <link type="iiif">https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00046298/manifest</link>
+   </identifier>
+   <description>
+      <type />
+      <folios>56</folios>
+      <page_h>245</page_h>
+      <page_w>135</page_w>
+      <contents>Excerpta ex Isidoro, etc.</contents>
+      <script>Caroline minuscule</script>
+   </description>
+   <history>
+      <date_desc>c. 800</date_desc>
+      <term_post>790</term_post>
+      <term_ante>810</term_ante>
+      <origin>S Germany</origin>
+   </history>
+   <xrefs>
+      <xref type="bischoff_ssb">1.247–248</xref>
+      <xref type="bischoff_kat">3219</xref>
+   </xrefs>
+   <notes>
+      <categories>ex-ire</categories>
+      <project_notes>Bischoff, <i>SSB</i> and <i>Kat.</i>: exemplar possibly Irish (Insular influence in script and abbreviations).</project_notes>
+      <private_notes />
+   </notes>
+</manuscript>
+

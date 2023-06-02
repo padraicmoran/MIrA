@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="161">
+   <identifier libraryID="leiden">
+      <shelfmark>BPL 88 (ff 168–181)</shelfmark>
+      <shelfmark_indexer>BPL 0088</shelfmark_indexer>
+      <link type="images">http://hdl.handle.net/1887.1/item:2028417</link>
+      <link type="iiif">https://digitalcollections.universiteitleiden.nl/iiif_manifest/item:2028417/manifest</link>
+   </identifier>
+   <description>
+      <type />
+      <folios>14</folios>
+      <page_h>258</page_h>
+      <page_w>238</page_w>
+      <contents>Martianus Capella (lib. 9)</contents>
+      <script />
+   </description>
+   <history>
+      <date_desc>IX 3/4</date_desc>
+      <term_post>875</term_post>
+      <term_ante>900</term_ante>
+      <origin><place id="reims">Reims</place> area</origin>
+   </history>
+   <xrefs>
+      <xref type="bischoff_kat">2146</xref>
+   </xrefs>
+   <notes>
+      <categories>scribe</categories>
+      <project_notes>Bischoff: hands of <person id="eriugena">Eriugena</person> and <person id="i2">i2</person>.</project_notes>
+   </notes>
+</manuscript>
+

@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="139">
+   <identifier unit="1" libraryID="milan">
+      <shelfmark>S.P. II 97 (ff A, B) [palimpsest new]</shelfmark>
+   </identifier>
+   <identifier unit="2" libraryID="vienna">
+      <shelfmark>Lat. 954 [palimpsest new]</shelfmark>
+      <shelfmark_indexer>Lat. 00954</shelfmark_indexer>
+      <link type="images" href="http://data.onb.ac.at/dtl/4412610">Vienna, Lat. 954</link>
+   </identifier>
+   <description>
+      <type />
+      <folios>15</folios>
+      <page_h>190</page_h>
+      <page_w>125</page_w>
+      <contents>Jerome, <i>Epistulae</i></contents>
+      <script>Irish and cursive minuscule</script>
+   </description>
+   <history>
+      <date_desc>VIII</date_desc>
+      <term_post>701</term_post>
+      <term_ante>800</term_ante>
+      <origin><place id="bobbio">Bobbio</place></origin>
+   </history>
+   <xrefs>
+      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/211">10.1492</xref>
+      <xref type="tresmegistos">TM 67679</xref>
+      <link type="foundations" href="http://foundationsirishculture.ie/record/?id=62" />
+   </xrefs>
+   <notes>
+      <categories>sc-ire</categories>
+      <project_notes>Irish minuscule (ff 1–11v) &amp; Italian cursive minuscule (ff 13v–15). Same Irish hand as one of scribes of Naples, Lat. 2 (ff 42*–75).</project_notes>
+   </notes>
+</manuscript>
+

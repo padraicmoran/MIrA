@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="293">
+   <identifier libraryID="munich">
+      <shelfmark>Clm 6434 (ff 41–422)</shelfmark>
+      <shelfmark_indexer>Clm 06434 (041)</shelfmark_indexer>
+      <link type="images">https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00065411-0</link>
+      <link type="iiif" index="81">https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00065411/manifest</link>
+   </identifier>
+   <description>
+      <type />
+      <folios>81</folios>
+      <page_h>180</page_h>
+      <page_w>130</page_w>
+      <contents>Collectio Canonum Hibernensis (fragm.); Audax. </contents>
+      <script>Early Caroline minuscule</script>
+   </description>
+   <history>
+      <date_desc>VIII ex</date_desc>
+      <term_post>776</term_post>
+      <term_ante>800</term_ante>
+      <origin>Freising</origin>
+   </history>
+   <xrefs>
+      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/1777">9.1285</xref>
+      <xref type="tresmegistos">TM 67427</xref>
+      <xref type="bischoff_ssb">1.80–81 (no. 16b)</xref>
+   </xrefs>
+   <notes>
+      <categories>ex-ire;text</categories>
+      <project_notes>Bischoff, <i>SSB</i>: exemplar prob. Irish.</project_notes>
+   </notes>
+</manuscript>
+

@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="49">
+   <identifier libraryID="dresden">
+      <shelfmark>Dc 182 (ff 63–135)</shelfmark>
+   </identifier>
+   <description>
+      <type />
+      <folios>73</folios>
+      <page_h>220</page_h>
+      <page_w>180</page_w>
+      <contents>Vegetius, <i>Epitoma rei militaris</i></contents>
+      <script>Caroline minuscule</script>
+   </description>
+   <history>
+      <date_desc>IX²</date_desc>
+      <term_post>850</term_post>
+      <term_ante>900</term_ante>
+      <origin><place id="reims">Reims</place> area</origin>
+   </history>
+   <xrefs>
+      <xref type="bischoff_kat">1042</xref>
+   </xrefs>
+   <notes>
+      <categories>sc-ire</categories>
+      <project_notes>Glosses and scholia in Irish hand. </project_notes>
+      <private_notes>Images not found.</private_notes>
+   </notes>
+</manuscript>
+

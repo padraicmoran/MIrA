@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="64">
+   <identifier libraryID="karlsruhe">
+      <shelfmark>Aug. perg. 167 (fol. 38, 40–47, 49) [palimpsest old]</shelfmark>
+      <shelfmark_indexer>Aug. perg. 0167 (038)</shelfmark_indexer>
+      <link type="images">https://nbn-resolving.de/urn:nbn:de:bsz:31-1596</link>
+		<link type="iiif">https://digital.blb-karlsruhe.de/i3f/v20/20736/manifest</link>
+   </identifier>
+   <description>
+      <type />
+      <folios />
+      <page_h />
+      <page_w />
+      <contents>(Grammatical)</contents>
+      <script>Minuscule</script>
+   </description>
+   <history>
+      <date_desc>IX</date_desc>
+      <term_post>801</term_post>
+      <term_ante>900</term_ante>
+      <origin />
+   </history>
+   <xrefs>
+      <xref type="cla">8.1085</xref>
+   </xrefs>
+   <notes>
+      <categories>or-ire;sc-ire</categories>
+      <project_notes>One of five palimpsested manuscripts, probably originating in <place id="ireland">Ireland</place>, combined and <ms id="60">rewritten with Bede</ms>. See foliation notes for <i>CLA</i> 8.1085 in the <a href="http://foundationsirishculture.ie/record/?id=61">Foundations of Irish Culture</a> catalogue. </project_notes>
+      <private_notes>Check note: more leg. on 41v. Really need to investigate this!</private_notes>
+   </notes>
+</manuscript>
+

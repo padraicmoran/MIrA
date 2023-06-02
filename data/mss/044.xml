@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="44">
+   <identifier libraryID="bamberg">
+      <shelfmark>Patr.46 (Q.VI.32) (ff 22–45)</shelfmark>
+      <link type="images">https://nbn-resolving.org/urn:nbn:de:bvb:12-sbb00000156-8</link>
+   </identifier>
+   <description>
+      <type />
+      <folios>24</folios>
+      <page_h>190</page_h>
+      <page_w>158</page_w>
+      <contents>Candidus Arrianus; Marius Victorinus; etc.</contents>
+      <script>Caroline minuscule</script>
+   </description>
+   <history>
+      <date_desc>IX 3/3</date_desc>
+      <term_post>866</term_post>
+      <term_ante>900</term_ante>
+      <origin><place id="reims">Reims</place>/circle of <person id="eriugena">Eriugena</person></origin>
+   </history>
+   <xrefs>
+      <xref type="bischoff_kat">234</xref>
+   </xrefs>
+   <notes>
+      <categories>scribe</categories>
+      <project_notes>Formerly Dombibliothek. Hand of <person id="i2">i2</person>.</project_notes>
+      <private_notes />
+   </notes>
+</manuscript>
+

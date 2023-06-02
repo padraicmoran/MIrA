@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="280">
+   <identifier libraryID="munich">
+      <shelfmark>Clm 14387 (ff 14–19)</shelfmark>
+      <shelfmark_indexer>Clm 14387</shelfmark_indexer>
+      <link type="images">https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00046515-2</link>
+      <link type="iiif" index="27">https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00046515/manifest</link>
+   </identifier>
+   <description>
+      <type />
+      <folios>6</folios>
+      <page_h>275</page_h>
+      <page_w>170</page_w>
+      <contents>Bede, <i>De orthographia</i></contents>
+      <script>Frankish (Breton?) script</script>
+   </description>
+   <history>
+      <date_desc>IX²</date_desc>
+      <term_post>850</term_post>
+      <term_ante>900</term_ante>
+      <origin>W Germany?</origin>
+   </history>
+   <xrefs>
+      <xref type="dhbm" href="https://ircabritt.nuigalway.ie/handlist/catalogue/89">#89</xref>
+      <xref type="bischoff_ssb">1.240; 2.242</xref>
+      <xref type="bischoff_kat">3170</xref>
+   </xrefs>
+   <notes>
+      <categories>sc-ire</categories>
+      <project_notes>Bischoff <i>SBB</i>: A few corrections in an Insular, prob. Irish, hand (e.g. f. 15r); identified in Addenda with hand of <person id="sedulius">Sedulius Scottus</person> in the <ms id="37">Arsenal Psalter</ms>.</project_notes>
+      <private_notes>See Bischoff, "Irische Schreiber", p. 51.</private_notes>
+   </notes>
+</manuscript>
+

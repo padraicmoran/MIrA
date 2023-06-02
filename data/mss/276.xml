@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="276">
+   <identifier libraryID="munich">
+      <shelfmark>Clm 14425</shelfmark>
+      <shelfmark_indexer>Clm 14425</shelfmark_indexer>
+      <link type="images">https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00046482-7</link>
+      <link type="iiif">https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00046482/manifest</link>
+   </identifier>
+   <description>
+      <type />
+      <folios>159</folios>
+      <page_h>260</page_h>
+      <page_w>165</page_w>
+      <contents>Jerome, <i>In Hieremiam prophetam</i></contents>
+      <script>Early Caroline minuscule</script>
+   </description>
+   <history>
+      <date_desc>VIII/IX</date_desc>
+      <term_post>780</term_post>
+      <term_ante>820</term_ante>
+      <origin>Regenburg</origin>
+   </history>
+   <xrefs>
+      <xref type="cla" href="" />
+      <xref type="bischoff_ssb">1.190ff; 2.236f.</xref>
+      <xref type="bischoff_kat">3191</xref>
+      <xref type="tresmegistos" />
+   </xrefs>
+   <notes>
+      <categories>sc-ire</categories>
+      <project_notes><i>CLA</i>: "An Insular hand added various critical signs passim in the margins, as l for 'lege', quotation-marks, and entire words (foll. 73v, 85v): it is the hand of the scribe of CLM 14666 (saec. IX)." Signs identified as Irish in Steinová 2017: 66***.</project_notes>
+      <private_notes />
+   </notes>
+</manuscript>
+

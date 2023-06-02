@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="160">
+   <identifier libraryID="leiden">
+      <shelfmark>BPL 67D [palimpsest new]</shelfmark>
+      <shelfmark_indexer>BPL 0067D</shelfmark_indexer>
+      <link type="images">http://hdl.handle.net/1887.1/item:882931</link>
+      <link type="iiif">https://digitalcollections.universiteitleiden.nl/iiif_manifest/item:882931/manifest</link>
+   </identifier>
+   <description>
+      <type />
+      <folios>52</folios>
+      <page_h>298</page_h>
+      <page_w>193</page_w>
+      <contents>Epitome Libri Glossarum, etc.</contents>
+      <script>Caroline minuscule</script>
+   </description>
+   <history>
+      <date_desc>IX 3/4</date_desc>
+      <term_post>850</term_post>
+      <term_ante>875</term_ante>
+      <origin>prob. France (Irish scribe)</origin>
+   </history>
+   <xrefs>
+      <xref type="bischoff_kat">2140</xref>
+   </xrefs>
+   <notes>
+      <categories>ex-ire</categories>
+      <project_notes>Bischoff: strong Irish influence (via exemplar?); styleless (!) Irish minuscule, 51rv.</project_notes>
+   </notes>
+</manuscript>
+

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="221">
+   <identifier unit="1" libraryID="vatican">
+      <shelfmark>Lat. 5750 [palimpsest new]</shelfmark>
+      <shelfmark_indexer>Lat. 05750</shelfmark_indexer>
+      <link type="images">http://digi.vatlib.it/view/MSS_Vat.lat.5750</link>
+      <link type="iiif" index="43">https://digi.vatlib.it/iiif/MSS_Vat.lat.5750/manifest.json</link>
+   </identifier>
+   <identifier unit="2" libraryID="milan">
+      <shelfmark>E. 147 sup. [palimpsest new]</shelfmark>
+   </identifier>
+   <description>
+      <type />
+      <folios />
+      <page_h />
+      <page_w />
+      <contents>Acta Synodi I Chalcedonensis</contents>
+      <script>Half-Uncial</script>
+   </description>
+   <history>
+      <date_desc>VII</date_desc>
+      <term_post>601</term_post>
+      <term_ante>700</term_ante>
+      <origin><place id="bobbio">Bobbio</place></origin>
+   </history>
+   <xrefs>
+      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/32">1.26a</xref>
+      <xref type="tresmegistos">TM 66121</xref>
+   </xrefs>
+   <notes>
+      <categories>sc-ire</categories>
+      <project_notes>Just one abbr. (nostram) in Irish minuscule, p. 13.</project_notes>
+      <private_notes>Abbr. pres. the one in lower margin. Hard to see why this is Irish.</private_notes>
+   </notes>
+</manuscript>
+

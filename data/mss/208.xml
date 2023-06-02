@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="208">
+   <identifier libraryID="lichfield">
+      <shelfmark>I</shelfmark>
+      <ms_name>St Chad Gospels (L)</ms_name>
+      <link type="images">https://lichfield.ou.edu/st-chad-gospels</link>
+   </identifier>
+   <description>
+      <type />
+      <folios />
+      <page_h />
+      <page_w />
+      <contents>Gospels (Mt, Mc, Lc 1–3.9)</contents>
+      <script>Insular majuscule</script>
+   </description>
+   <history>
+      <date_desc>VIII¹</date_desc>
+      <term_post>701</term_post>
+      <term_ante>750</term_ante>
+      <origin>Wales (Irish tradition)</origin>
+   </history>
+   <xrefs>
+      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/474">2.159</xref>
+      <xref type="tresmegistos">TM 66263</xref>
+   </xrefs>
+   <notes>
+      <categories>or-ins</categories>
+      <project_notes />
+   </notes>
+</manuscript>
+

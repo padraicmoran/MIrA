@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="249">
+   <identifier libraryID="st-gall">
+      <shelfmark>VadSlg Ms. 317</shelfmark>
+      <shelfmark_indexer>VadSlg Ms. 317 (ff 16–23)</shelfmark_indexer>
+      <link type="images">http://www.e-codices.unifr.ch/de/list/one/vad/0317</link>
+      <link type="iiif">http://www.e-codices.unifr.ch/metadata/iiif/vad-0317/manifest.json</link>
+   </identifier>
+   <description>
+      <type />
+      <folios>108</folios>
+      <page_h>230</page_h>
+      <page_w>180</page_w>
+      <contents>Vita Findani</contents>
+      <script>Caroline minuscule</script>
+   </description>
+   <history>
+      <date_desc>IX/X or XI in</date_desc>
+      <term_post>880</term_post>
+      <term_ante>1020</term_ante>
+      <origin>S Germany</origin>
+      <provenance><place id="stgall">St Gall</place></provenance>
+   </history>
+   <xrefs>
+      <xref type="thesaurus">2.258</xref>
+      <xref type="bronner">p. 67</xref>
+      <xref type="bischoff_kat">vol. 3, p. 296 (excluded)</xref>
+   </xrefs>
+   <notes>
+      <categories>vern</categories>
+      <project_notes>Passages in Old Irish (direct speech). Late dating in Bischoff, <i>Kat.</i>, 3.296.</project_notes>
+      <private_notes />
+   </notes>
+</manuscript>
+

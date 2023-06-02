@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="115">
+   <identifier libraryID="milan">
+      <shelfmark>C 5 inf.</shelfmark>
+      <shelfmark_indexer>C 005 inf.</shelfmark_indexer>
+      <ms_name>Bangor Antiphonary</ms_name>
+      <link type="iiif">http://213.21.172.25/manifests/public/0b02da8280051c10.json</link>
+   </identifier>
+   <description>
+      <type />
+      <folios />
+      <page_h />
+      <page_w />
+      <contents>Antiphonarium (Vetus Latina)</contents>
+      <script>Irish minuscule</script>
+   </description>
+   <history>
+      <date_desc>VII ex</date_desc>
+      <term_post>680</term_post>
+      <term_ante>691</term_ante>
+      <origin>Bangor (<place id="ireland">Ireland</place>)</origin>
+   </history>
+   <xrefs>
+      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/648">3.311</xref>
+      <xref type="tresmegistos">TM 66408</xref>
+      <xref type="thesaurus">2.xxxii</xref>
+      <xref type="bronner">p. 27</xref>
+      <link type="foundations" href="http://foundationsirishculture.ie/record/?id=7">[external link, with image]</link>
+   </xrefs>
+   <notes>
+      <categories>or-ire;sc-ire</categories>
+      <project_notes />
+   </notes>
+</manuscript>
+

@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="165">
+   <identifier unit="1" libraryID="leiden">
+      <shelfmark>Voss. Lat. F. 70 I (ff 1–66)</shelfmark>
+      <shelfmark_indexer>Voss. Lat. F. 070</shelfmark_indexer>
+   </identifier>
+   <identifier unit="2" libraryID="orleans">
+      <shelfmark>277 (233)</shelfmark>
+      <link type="images">https://bvmm.irht.cnrs.fr/resultRecherche/resultRecherche.php?COMPOSITION_ID=3067</link>
+   </identifier>
+   <identifier unit="3" libraryID="paris_bnf">
+      <shelfmark>N.A.L. 1630 (ff 14–16)</shelfmark>
+      <link type="images">http://gallica.bnf.fr/ark:/12148/btv1b10546494c</link>
+      <link type="iiif" index="36">https://gallica.bnf.fr/iiif/ark:/12148/btv1b10546494c/manifest.json</link>
+   </identifier>
+   <description>
+      <type />
+      <folios />
+      <page_h />
+      <page_w />
+      <contents>Boethius, <i>Commentarius in Ciceronis Topica</i>; Pseudo-Augustine, <i>Categoriae X</i>; Apuleius, <i>Peri ermenias</i>; Prothyrius, <i>Isagoge</i>; Macrobius; Cicero, <i>De inventione</i></contents>
+      <script>Caroline minuscule</script>
+   </description>
+   <history>
+      <date_desc>IX 3/4</date_desc>
+      <term_post>850</term_post>
+      <term_ante>875</term_ante>
+      <origin>W France</origin>
+   </history>
+   <xrefs>
+      <xref type="bischoff_kat">2196</xref>
+   </xrefs>
+   <notes>
+      <categories>sc-ire</categories>
+      <project_notes>Bischoff: traces of an Irishman, Leiden 44v–48v.</project_notes>
+      <private_notes>Check location of Paris MS.</private_notes>
+   </notes>
+</manuscript>
+

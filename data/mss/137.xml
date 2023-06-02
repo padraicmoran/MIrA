@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="137">
+   <identifier libraryID="milan">
+      <shelfmark>O 212 sup.</shelfmark>
+      <shelfmark_indexer>O 212 sup.</shelfmark_indexer>
+   </identifier>
+   <description>
+      <type />
+      <folios />
+      <page_h />
+      <page_w />
+      <contents>Gennadius, <i>De Ecclesiastis Dogmatibus; Fides Bachiarii; Fides ‘Quicumque Vult’; Fides ‘Hieronymi’</i></contents>
+      <script>Irish majuscule verging on minuscule</script>
+   </description>
+   <history>
+      <date_desc>VII ex</date_desc>
+      <term_post>676</term_post>
+      <term_ante>700</term_ante>
+      <origin><place id="bobbio">Bobbio</place></origin>
+   </history>
+   <xrefs>
+      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/699">3.361</xref>
+      <xref type="tresmegistos">TM 66463</xref>
+      <link type="foundations" href="http://foundationsirishculture.ie/record/?id=20">[external link, with image]</link>
+   </xrefs>
+   <notes>
+      <categories>sc-ire</categories>
+      <project_notes />
+   </notes>
+</manuscript>
+

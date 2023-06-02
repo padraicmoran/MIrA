@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="228">
+   <identifier libraryID="vatican">
+      <shelfmark>Arch.Cap.S.Pietro.H.25</shelfmark>
+      <shelfmark_indexer>Arch.Cap.S.Pietro.H.25</shelfmark_indexer>
+      <link type="images">https://digi.vatlib.it/view/MSS_Arch.Cap.S.Pietro.H.25</link>
+      <link type="iiif">https://digi.vatlib.it/iiif/MSS_Arch.Cap.S.Pietro.H.25/manifest.json</link>
+   </identifier>
+   <description>
+      <type />
+      <folios />
+      <page_h />
+      <page_w />
+      <contents>Cicero, <i>In Pisonem</i> (32–74)</contents>
+      <script>Uncial (artificial)</script>
+   </description>
+   <history>
+      <date_desc>VIII–IX</date_desc>
+      <term_post>780</term_post>
+      <term_ante>820</term_ante>
+      <origin>France? <place id="italy">Italy</place>?</origin>
+   </history>
+   <xrefs>
+      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/5">1.3</xref>
+   </xrefs>
+   <notes>
+      <categories>sc-ire</categories>
+      <project_notes>Corrections in Irish hand and Caroline hand with Irish influence.</project_notes>
+      <private_notes>See Texts &amp; Trans. 73.)</private_notes>
+   </notes>
+</manuscript>
+

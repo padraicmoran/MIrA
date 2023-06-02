@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="33">
+   <identifier libraryID="paris_bnf">
+      <shelfmark>Lat. 11884 (ff 7–19)</shelfmark>
+      <shelfmark_indexer>Lat. 11884 (007)</shelfmark_indexer>
+      <link type="images">https://gallica.bnf.fr/ark:/12148/btv1b9066803t</link>
+      <link type="iiif" index="7">https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066803t/manifest.json</link>
+   </identifier>
+   <description>
+      <type />
+      <folios />
+      <page_h />
+      <page_w />
+      <contents>Gregory the Great, <i>Homiliae</i></contents>
+      <script />
+   </description>
+   <history>
+      <date_desc>IX</date_desc>
+      <term_post>800</term_post>
+      <term_ante>900</term_ante>
+      <origin><place id="ireland">Ireland</place>?</origin>
+   </history>
+   <xrefs>
+      <xref type="bronner">p. 32</xref>
+   </xrefs>
+   <notes>
+   	<categories>or-ire;sc-ire;vern</categories>
+      <project_notes>Old Irish marginal comment (f. 10v marg. inf.).</project_notes>
+      <private_notes>Script looks remarkably late to me (cf. YBL).</private_notes>
+   </notes>
+</manuscript>
+

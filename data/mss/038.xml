@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="38">
+   <identifier unit="1" libraryID="paris_mazarine">
+      <shelfmark>561 (1025)</shelfmark>
+   </identifier>
+   <identifier unit="2" libraryID="vatican">
+      <shelfmark>Reg. lat. 596 (f. 9)</shelfmark>
+      <link type="images">http://digi.vatlib.it/view/MSS_Reg.lat.596</link>
+      <link type="iiif" index="25">https://digi.vatlib.it/iiif/MSS_Reg.lat.596/manifest.json</link>
+   </identifier>
+   <description>
+      <type />
+      <folios>221</folios>
+      <page_h>248</page_h>
+      <page_w>207</page_w>
+      <contents>Maximus Confessor, Ambigua Iohanne Scoto interprete</contents>
+      <script>Caroline minuscule</script>
+   </description>
+   <history>
+      <date_desc>IX 3/4</date_desc>
+      <term_post>850</term_post>
+      <term_ante>875</term_ante>
+      <origin>Circle of <person id="eriugena">Eriugena</person> (<place id="soissons">Soissons</place>)</origin>
+   </history>
+   <xrefs>
+      <xref type="bischoff_kat">3936</xref>
+   </xrefs>
+   <notes>
+   	<categories>scribe;text</categories>
+      <project_notes>Bischoff: corr. by hand <person id="i2">i2</person>, 67v.</project_notes>
+   </notes>
+</manuscript>
+

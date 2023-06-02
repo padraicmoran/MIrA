@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="268">
+   <identifier libraryID="reims">
+      <shelfmark>875</shelfmark>
+      <shelfmark_indexer>875</shelfmark_indexer>
+      <link type="images">https://bvmm.irht.cnrs.fr/resultRecherche/resultRecherche.php?COMPOSITION_ID=16085</link>
+   </identifier>
+   <description>
+      <folios />
+      <page_h />
+      <page_w />
+      <contents>Eriugena, <i>De divisione naturae</i></contents>
+      <script />
+   </description>
+   <history>
+      <date_desc>IX</date_desc>
+      <term_post>800</term_post>
+      <term_ante>900</term_ante>
+      <origin />
+      <provenance><place id="reims">Reims</place></provenance>
+   </history>
+   <xrefs>
+      <xref type="bischoff_kat">5304</xref>
+      <xref type="tresmegistos" />
+   </xrefs>
+   <notes>
+      <categories>scribe</categories>
+      <project_notes>Autograph of <person id="eriugena">Eriugena</person>.</project_notes>
+      <private_notes>Check origin. See Katalog for refs.</private_notes>
+   </notes>
+</manuscript>
+

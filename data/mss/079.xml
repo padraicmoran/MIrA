@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="79">
+   <identifier libraryID="munich">
+      <shelfmark>Clm 6235</shelfmark>
+      <shelfmark_indexer>Clm 06235</shelfmark_indexer>
+      <link type="images">https://mdz-nbn-resolving.de/details:bsb00022463</link>
+      <link type="iiif">https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00022463/manifest</link>
+   </identifier>
+   <description>
+      <type />
+      <folios />
+      <page_h />
+      <page_w />
+      <contents>Anonymi Scoti Commentarius in epistulas Pauli; Pseudo-Jerome, <i>In IV evangelia</i></contents>
+      <script />
+   </description>
+   <history>
+      <date_desc>IX 3/4</date_desc>
+      <term_post>850</term_post>
+      <term_ante>875</term_ante>
+      <origin>N. <place id="italy">Italy</place> (<place id="bobbio">Bobbio</place>?)</origin>
+      <provenance>Freising</provenance>
+   </history>
+   <xrefs>
+      <xref type="bischoff_kat">2996</xref>
+      <xref type="bischoff_ssb">1.132</xref>
+      <xref type="bronner">pp 30–31</xref>
+   </xrefs>
+   <notes>
+      <categories>text;vern;ex-ire</categories>
+      <project_notes>Old Irish glosses (embedded). Bischoff, <i>SSB</i>: Irish exemplar.</project_notes>
+   </notes>
+</manuscript>
+

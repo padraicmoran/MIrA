@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="17">
+   <identifier libraryID="laon">
+      <shelfmark>448</shelfmark>
+      <shelfmark_indexer>448</shelfmark_indexer>
+   </identifier>
+   <description>
+      <type />
+      <folios>44</folios>
+      <page_h>220</page_h>
+      <page_w>157</page_w>
+      <contents>Bede, <i>De schematibus et tropis</i>; Alcuin, <i>Ars grammatica</i>, <i>Deo orthographia</i></contents>
+      <script />
+   </description>
+   <history>
+      <date_desc>IX 2/3</date_desc>
+      <term_post>833</term_post>
+      <term_ante>866</term_ante>
+      <origin>NE France</origin>
+   </history>
+   <xrefs>
+      <xref type="bischoff_kat">2125</xref>
+   </xrefs>
+   <notes>
+   	<categories>sc-ins</categories>
+      <project_notes>Bischoff: Insular (prob. Irish) ductus.</project_notes>
+   </notes>
+</manuscript>
+

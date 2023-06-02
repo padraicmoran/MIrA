@@ -4,7 +4,7 @@
 <div class="row gx-5">
 <div class="col-lg-8">
 
-<p>Data compiled and website developed by <a target="_blank" href="http://www.pmoran.ie/">Pádraic Moran</a>, Classics, National University of Ireland, Galway.</p>
+<p>Data compiled and website developed by <a target="_blank" href="http://www.pmoran.ie/">Pádraic Moran</a>, Classics, University of Galway (Ireland).</p>
 
 <p>Additions, corrections, suggestions welcome: <a href="mailto:padraic.moran@universityofgalway.ie">padraic.moran@universityofgalway.ie</a>.</p>
 
@@ -53,7 +53,8 @@
 <li>0.1 (beta): May 2021. Initial version. Manuscript list, date chart, libraries map, basic search.</li>
 </ul>
 
-
+<p>View source code and data (from v0.3) at:
+<a href="https://github.com/padraicmoran/MIrA">https://github.com/padraicmoran/MIrA</a>
 
 
 

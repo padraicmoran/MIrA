@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="242">
+   <identifier libraryID="cambridge_stjohns">
+      <shelfmark>C.9 (olim 59)</shelfmark>
+      <ms_name>Southampton Psalter</ms_name>
+      <link type="images">https://cudl.lib.cam.ac.uk/view/MS-SJC-C-00009/1</link>
+      <link type="iiif">https://cudl.lib.cam.ac.uk//iiif/MS-SJC-C-00009</link>
+   </identifier>
+   <description>
+      <type />
+      <folios />
+      <page_h />
+      <page_w />
+      <contents>Psalter</contents>
+      <script>Irish minuscule</script>
+   </description>
+   <history>
+      <date_desc>late 10th or early 11th cent.</date_desc>
+      <term_post>980</term_post>
+      <term_ante>1120</term_ante>
+      <origin><place id="ireland">Ireland</place></origin>
+      <provenance>Dover (St Martin's Priory)</provenance>
+   </history>
+   <xrefs>
+      <xref type="thesaurus">1.4–6</xref>
+      <xref type="bronner">p. 59</xref>
+   </xrefs>
+   <notes>
+      <categories>or-ire;sc-ire;vern</categories>
+      <project_notes>Old Irish glosses, dated to 1st half of 9th cent.</project_notes>
+      <private_notes />
+   </notes>
+</manuscript>
+

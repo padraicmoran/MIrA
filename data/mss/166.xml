@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="166">
+   <identifier libraryID="gniezo">
+      <shelfmark>1</shelfmark>
+   </identifier>
+   <description>
+      <type />
+      <folios>151</folios>
+      <page_h>190</page_h>
+      <page_w>155</page_w>
+      <contents>Evangelia (incomplete)</contents>
+      <script><place id="reims">Reims</place> minuscule</script>
+   </description>
+   <history>
+      <date_desc>IX 3/4</date_desc>
+      <term_post>875</term_post>
+      <term_ante>900</term_ante>
+      <origin><place id="reims">Reims</place></origin>
+   </history>
+   <xrefs>
+      <xref type="bischoff_kat">1398</xref>
+   </xrefs>
+   <notes>
+      <categories>sc-ire</categories>
+      <project_notes>Bischoff: 87 pericope notes in Irish hand (half-uncial and capitals).</project_notes>
+      <private_notes>Can't find Gniezno library on map.</private_notes>
+   </notes>
+</manuscript>
+

@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="11">
+   <identifier libraryID="laon">
+      <shelfmark>26 (ff 1–27)</shelfmark>
+      <shelfmark_indexer>026 (1)</shelfmark_indexer>
+   </identifier>
+   <description>
+      <type />
+      <folios>27</folios>
+      <page_h>237</page_h>
+      <page_w>195</page_w>
+      <contents>Cassiodorus, <i>Expositio psalmorum</i></contents>
+      <script>Irish minuscule</script>
+   </description>
+   <history>
+      <date_desc>IX 1/2</date_desc>
+      <term_post>800</term_post>
+      <term_ante>850</term_ante>
+      <origin><place id="ireland">Ireland</place>? Irish colony in NE France?</origin>
+   </history>
+   <xrefs>
+      <xref type="bischoff_kat">2047</xref>
+      <xref type="bronner">pp 21–22</xref>
+   </xrefs>
+   <notes>
+   	<categories>or-ire;sc-ire;vern</categories>
+      <project_notes>Old Irish glosses. </project_notes>
+   </notes>
+</manuscript>
+

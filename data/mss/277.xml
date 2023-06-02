@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="277">
+   <identifier libraryID="munich">
+      <shelfmark>Clm 14666 (ff 1–54)</shelfmark>
+      <shelfmark_indexer>Clm 14666</shelfmark_indexer>
+      <link type="images">https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00082357-3</link>
+      <link type="iiif">https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00082357/manifest</link>
+   </identifier>
+   <description>
+      <type />
+      <folios>54</folios>
+      <page_h>168</page_h>
+      <page_w>118</page_w>
+      <contents>Consentius, <i>Ars</i></contents>
+      <script>Caroline minuscule and Irish miniscule</script>
+   </description>
+   <history>
+      <date_desc>IX med</date_desc>
+      <term_post>840</term_post>
+      <term_ante>860</term_ante>
+      <origin>S Germany</origin>
+   </history>
+   <xrefs>
+      <xref type="bischoff_ssb">1.220 (no. 71)</xref>
+      <xref type="bischoff_kat">3240</xref>
+   </xrefs>
+   <notes>
+      <categories>sc-ire</categories>
+      <project_notes>Bischoff, <i>Kat</i>, identifies scribe as prob. British. But apparently also the same hand as the (Irish) annotator of Clm 14425. </project_notes>
+      <private_notes />
+   </notes>
+</manuscript>
+

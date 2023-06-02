@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="134">
+   <identifier libraryID="milan">
+      <shelfmark>L 22 sup.</shelfmark>
+      <shelfmark_indexer>L 022 sup.</shelfmark_indexer>
+      <ms_name>Ars Ambrosiana</ms_name>
+   </identifier>
+   <description>
+      <type />
+      <folios>145</folios>
+      <page_h>180</page_h>
+      <page_w>115</page_w>
+      <contents>Ars Ambrosiana</contents>
+      <script />
+   </description>
+   <history>
+      <date_desc>IX 3/4</date_desc>
+      <term_post>875</term_post>
+      <term_ante>900</term_ante>
+      <origin><place id="bobbio">Bobbio</place> or N <place id="italy">Italy</place></origin>
+   </history>
+   <xrefs>
+      <xref type="bischoff_kat">2641</xref>
+      <xref type="bronner">pp 29–30</xref>
+   </xrefs>
+   <notes>
+      <categories>vern</categories>
+      <project_notes />
+   </notes>
+</manuscript>
+

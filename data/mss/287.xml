@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="287">
+   <identifier libraryID="munich">
+      <shelfmark>Clm 29280/5 + Clm 18119</shelfmark>
+      <shelfmark_indexer>Clm 29280/5</shelfmark_indexer>
+      <link type="images">https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00111315-7</link>
+      <link type="iiif">https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00111315/manifest</link>
+   </identifier>
+   <description>
+      <type />
+      <folios>32</folios>
+      <page_h>170</page_h>
+      <page_w>110</page_w>
+      <contents>Commentum (Scoti cuiusdam?) in Matthaeum</contents>
+      <script />
+   </description>
+   <history>
+      <date_desc>IX med</date_desc>
+      <term_post>840</term_post>
+      <term_ante>860</term_ante>
+      <origin><place id="salzburg">Salzburg</place></origin>
+   </history>
+   <xrefs>
+      <xref type="bischoff_ssb">2.157 (no. 162)</xref>
+      <xref type="bischoff_kat">3383</xref>
+   </xrefs>
+   <notes>
+      <categories>ex-ire;text</categories>
+      <project_notes>See note to <ms id="283">Vienna, Lat. 2195</ms>. (Images for Clm 18119 not found.) </project_notes>
+      <private_notes />
+   </notes>
+</manuscript>
+

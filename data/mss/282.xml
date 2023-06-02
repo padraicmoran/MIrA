@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="282">
+   <identifier unit="1" libraryID="munich">
+      <shelfmark>Clm 29270/1 [palimpsest new]</shelfmark>
+      <shelfmark_indexer>Clm 29270/1</shelfmark_indexer>
+   </identifier>
+   <identifier unit="2" libraryID="vienna">
+      <shelfmark>Lat. 313*</shelfmark>
+      <shelfmark_indexer>Lat. 00313</shelfmark_indexer>
+      <link type="images">https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00001703-2</link>
+      <link type="iiif">https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00001703/manifest</link>
+   </identifier>
+   <description>
+      <type>Flyleaves</type>
+      <folios>3</folios>
+      <page_h>225</page_h>
+      <page_w>160</page_w>
+      <contents>Maximus Victorinus, <i>De ratione metrorum</i>; Metrorius, <i>De finalibus syllabis</i> </contents>
+      <script />
+   </description>
+   <history>
+      <date_desc>VIII–IX</date_desc>
+      <term_post>780</term_post>
+      <term_ante>820</term_ante>
+      <origin><place id="salzburg">Salzburg</place></origin>
+      <provenance>Minuscule</provenance>
+   </history>
+   <xrefs>
+      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/193">10.1475</xref>
+      <xref type="bischoff_ssb">2.84 (no. 2)</xref>
+      <xref type="bischoff_kat">7108</xref>
+      <xref type="tresmegistos">TM 67661</xref>
+   </xrefs>
+   <notes>
+      <categories>ex-ire</categories>
+      <project_notes>Two mutilated bifolia in Vienna, one in Munich. Older palimpsest text in Munich is Matthew (Vetus Latina). 
+      Bischoff, <i>SSB</i>: Insular orthography (incl. <i>-ís</i>) points to Irish exemplar.</project_notes>
+      <private_notes />
+   </notes>
+</manuscript>
+

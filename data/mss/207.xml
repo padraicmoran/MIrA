@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="207">
+   <identifier libraryID="durham">
+      <shelfmark>A.II.16 (ff 24–33, 87–101)</shelfmark>
+      <link type="iiif">https://iiif.durham.ac.uk/manifests/trifle/32150/t2/mq/j7/t2mqj72p7126/manifest</link>
+   </identifier>
+   <description>
+      <type />
+      <folios />
+      <page_h />
+      <page_w />
+      <contents>Gospels (Mt 23.3–28.14, Lc 16.15–24)</contents>
+      <script>Insular majuscule</script>
+   </description>
+   <history>
+      <date_desc>VIII</date_desc>
+      <term_post>701</term_post>
+      <term_ante>800</term_ante>
+      <origin>Northumbria (Irish tradition)</origin>
+   </history>
+   <xrefs>
+      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/462">2.148b</xref>
+      <xref type="tresmegistos">TM 66249</xref>
+   </xrefs>
+   <notes>
+      <categories>or-ins</categories>
+      <project_notes />
+   </notes>
+</manuscript>
+

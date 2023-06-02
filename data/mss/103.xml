@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="103">
+   <identifier libraryID="dublin_tcd">
+      <shelfmark>60 (A.I.15)</shelfmark>
+      <ms_name>Book of Mulling</ms_name>
+      <link type="images">https://digitalcollections.tcd.ie/concern/works/9019s695d</link>
+      <link type="iiif">https://digitalcollections.tcd.ie/concern/works/9019s695d/manifest</link>
+   </identifier>
+   <description>
+      <type />
+      <folios>84</folios>
+      <page_h>165</page_h>
+      <page_w />
+      <contents>Gospels (Vetus Latina, Mt 26.42–27.35, Mc 1.1–4.8, 5.18–6.35)</contents>
+      <script>Irish minuscule</script>
+   </description>
+   <history>
+      <date_desc>VIII²</date_desc>
+      <term_post>751</term_post>
+      <term_ante>800</term_ante>
+      <origin><place id="ireland">Ireland</place></origin>
+   </history>
+   <xrefs>
+      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/595">2.276</xref>
+      <xref type="tresmegistos">TM 66362</xref>
+   </xrefs>
+   <notes>
+      <categories>or-ire;sc-ire</categories>
+      <project_notes />
+   </notes>
+</manuscript>
+

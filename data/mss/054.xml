@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="54">
+   <identifier libraryID="karlsruhe">
+      <shelfmark>Aug. perg. 132 (f. 18) [palimpsest old]</shelfmark>
+      <shelfmark_indexer>Aug. perg. 0132 [old] (018)</shelfmark_indexer>
+      <link type="images">https://nbn-resolving.de/urn:nbn:de:bsz:31-7326</link>
+		<link type="iiif" index="33">https://digital.blb-karlsruhe.de/i3f/v20/64199/manifest</link>
+   </identifier>
+   <description>
+      <type />
+      <folios>1</folios>
+      <page_h>261</page_h>
+      <page_w>180</page_w>
+      <contents>Sacramentarium Celticum (fragm.)</contents>
+      <script>Irish majuscule</script>
+   </description>
+   <history>
+      <date_desc>VIII</date_desc>
+      <term_post>701</term_post>
+      <term_ante>800</term_ante>
+      <origin><place id="ireland">Ireland</place></origin>
+      <provenance><place id="reichenau">Reichenau</place></provenance>
+   </history>
+   <xrefs>
+      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/1549">8.1083</xref>
+      <xref type="tresmegistos">TM 67223</xref>
+      <link type="foundations" href="http://foundationsirishculture.ie/record/?id=59">[external link, with image]</link>
+   </xrefs>
+   <notes>
+      <categories>or-ire;sc-ire</categories>
+      <project_notes />
+   </notes>
+</manuscript>
+

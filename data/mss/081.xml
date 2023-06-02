@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="81">
+   <identifier libraryID="munich">
+      <shelfmark>Clm 6415 (ff 1–45)</shelfmark>
+      <shelfmark_indexer>Clm 06415</shelfmark_indexer>
+      <link type="images">https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00012883-8</link>
+      <link type="iiif">https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00012883/manifest</link>
+   </identifier>
+   <description>
+      <type />
+      <folios>45</folios>
+      <page_h>192</page_h>
+      <page_w>152</page_w>
+      <contents>Donatus Ortigraphus</contents>
+      <script />
+   </description>
+   <history>
+      <date_desc>IX 2/4</date_desc>
+      <term_post>825</term_post>
+      <term_ante>850</term_ante>
+      <origin>N. <place id="italy">Italy</place> (<place id="bobbio">Bobbio</place>? Monza?)</origin>
+      <provenance>Freising</provenance>
+   </history>
+   <xrefs>
+      <xref type="bischoff_ssb">1.134</xref>
+      <xref type="bischoff_kat">3081</xref>
+      <xref type="bronner">pp 31–32</xref>
+   </xrefs>
+   <notes>
+      <categories>vern</categories>
+      <project_notes>One Old Irish (embedded, 41v). Exemplar prob. from Bobbio.</project_notes>
+   </notes>
+</manuscript>
+

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="201">
+   <identifier unit="1" libraryID="cambridge_trinity">
+      <shelfmark>B.10.5</shelfmark>
+      <link type="images">https://mss-cat.trin.cam.ac.uk/Manuscript/B.10.5/UV</link>
+      <link type="iiif">https://mss-cat.trin.cam.ac.uk/Manuscript/B.10.5/manifest.json</link>
+   </identifier>
+   <identifier unit="2" libraryID="london_bl">
+      <shelfmark>Cotton Vitellius C. VIII (ff 86–90)</shelfmark>
+      <link type="images">http://access.bl.uk/item/viewer/ark:/81055/vdc_100059907888.0x000001</link>
+      <link type="iiif" index="174">https://api.bl.uk/metadata/iiif/ark:/81055/vdc_100059907888.0x000001/manifest.json</link>
+   </identifier>
+   <description>
+      <type />
+      <folios>72</folios>
+      <page_h>305</page_h>
+      <page_w>245</page_w>
+      <contents>Pauline Epistles (Vulgata, Rm, 1 Cor, 2 Cor, Gal, Eph, Phil, Col, 1 Th, 2 Th, 1 Tim, 2 Tim, Tit, Phlm, Hbr)</contents>
+      <script>Insular minuscule</script>
+   </description>
+   <history>
+      <date_desc>VIII</date_desc>
+      <term_post>701</term_post>
+      <term_ante>800</term_ante>
+      <origin>England (Irish scribe)</origin>
+   </history>
+   <xrefs>
+      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/446">2.133</xref>
+      <xref type="tresmegistos">TM 66237</xref>
+   </xrefs>
+   <notes>
+      <categories>sc-ire</categories>
+      <project_notes>Glosses. </project_notes>
+   </notes>
+</manuscript>
+

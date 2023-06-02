@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="133">
+   <identifier unit="1" libraryID="milan">
+      <shelfmark>L 22 sup. (ff 146, 147)</shelfmark>
+      <shelfmark_indexer>L 022 sup. (146)</shelfmark_indexer>
+   </identifier>
+   <identifier unit="2" libraryID="nancy">
+      <shelfmark>317 (flyleaf)</shelfmark>
+   </identifier>
+   <identifier unit="3" libraryID="vatican">
+      <shelfmark>Lat. 5755 (p. 3–6)</shelfmark>
+      <link type="images">https://digi.vatlib.it/view/MSS_Vat.lat.5755/0011</link>
+      <link type="iiif" index="9">https://digi.vatlib.it/iiif/MSS_Vat.lat.5755/manifest.json</link>
+   </identifier>
+   <description>
+      <type>Binding frag.</type>
+      <folios />
+      <page_h />
+      <page_w />
+      <contents>Computus; Calculus</contents>
+      <script>Irish minuscule</script>
+   </description>
+   <history>
+      <date_desc>VIII–IX vel IX¹</date_desc>
+      <term_post>780</term_post>
+      <term_ante>825</term_ante>
+      <origin><place id="ireland">Ireland</place></origin>
+      <provenance><place id="bobbio">Bobbio</place></provenance>
+   </history>
+   <xrefs>
+      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/2039">S.1734</xref>
+      <xref type="tresmegistos">TM 67874</xref>
+      <xref type="thesaurus">2.39–41</xref>
+      <xref type="bronner">p. 8</xref>
+      <link type="foundations" href="http://foundationsirishculture.ie/record/?id=68" />
+   </xrefs>
+   <notes>
+      <categories>or-ire;sc-ire;vern</categories>
+      <project_notes>Latin &amp; Old Irish glosses (Vat.). Reused for binding at Bobbio. Heavily glossed.</project_notes>
+   </notes>
+</manuscript>
+

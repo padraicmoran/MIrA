@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="5">
+   <identifier libraryID="vienna">
+      <shelfmark>Lat. 940</shelfmark>
+      <shelfmark_indexer>Lat. 00940</shelfmark_indexer>
+      <link type="images">http://data.onb.ac.at/dtl/5897339</link>
+   </identifier>
+   <description>
+      <type />
+      <folios />
+      <page_h />
+      <page_w />
+      <contents>Commentary on Matthew (13r–142v); + Jerome, <i>Epistula ad Damasum papam</i>; Gospel canons; Sedulius Scotus, <i>Argumenta</i>, etc.</contents>
+      <script />
+   </description>
+   <history>
+      <date_desc>IX in</date_desc>
+      <term_post>800</term_post>
+      <term_ante>820</term_ante>
+      <origin><place id="salzburg">Salzburg</place> (or <place id="saint-amand">Saint-Amand</place>)</origin>
+   </history>
+   <xrefs>
+      <xref type="bischoff_kat">7178</xref>
+      <xref type="bronner">p. 53</xref>
+      <xref type="ocorrain">73</xref>
+   </xrefs>
+   <notes>
+   	<categories>ex-ins;vern</categories>
+      <project_notes>Old Irish text (101v). Insular exemplar.</project_notes>
+   </notes>
+</manuscript>
+

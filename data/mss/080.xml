@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="80">
+   <identifier libraryID="munich">
+      <shelfmark>Clm 6302</shelfmark>
+      <shelfmark_indexer>Clm 06302</shelfmark_indexer>
+      <link type="images">http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00047253-2</link>
+      <link type="iiif">https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00047253/manifest</link>
+   </identifier>
+   <description>
+      <type />
+      <folios />
+      <page_h />
+      <page_w />
+      <contents>Ps-Isidore, <i>De Ordine Creaturarum</i>; etc.</contents>
+      <script>Early Caroline minuscule</script>
+   </description>
+   <history>
+      <date_desc>VIII ex</date_desc>
+      <term_post>776</term_post>
+      <term_ante>800</term_ante>
+      <origin>Freising</origin>
+   </history>
+   <xrefs>
+      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/1757">9.1267</xref>
+      <xref type="tresmegistos">TM 67408</xref>
+   </xrefs>
+   <notes>
+      <categories>text</categories>
+      <project_notes>Texts suggest Irish connection.</project_notes>
+   </notes>
+</manuscript>
+

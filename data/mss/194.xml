@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="194">
+   <identifier libraryID="st-gall">
+      <shelfmark>1399 a 1</shelfmark>
+      <shelfmark_indexer>1399</shelfmark_indexer>
+   </identifier>
+   <description>
+      <type>Binding frag.</type>
+      <folios />
+      <page_h />
+      <page_w />
+      <contents>Isidore, <i>Etymologiae</i> (11.1.43–46, 51–53)</contents>
+      <script>Irish cursive minuscule</script>
+   </description>
+   <history>
+      <date_desc>VII</date_desc>
+      <term_post>636</term_post>
+      <term_ante>700</term_ante>
+      <origin>Irish centre (poss. <place id="bobbio">Bobbio</place>)</origin>
+   </history>
+   <xrefs>
+      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/1461">7.995</xref>
+      <xref type="tresmegistos">TM 67140</xref>
+      <link type="foundations" href="http://foundationsirishculture.ie/record/?id=51" />
+   </xrefs>
+   <notes>
+      <categories>sc-ire</categories>
+      <project_notes />
+   </notes>
+</manuscript>
+

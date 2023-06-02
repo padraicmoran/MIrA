@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="109">
+   <identifier libraryID="dublin_museum">
+      <shelfmark>n/a</shelfmark>
+      <ms_name>Fadden More Psalter</ms_name>
+      <link type="images">https://www.museum.ie/Archaeology/Exhibitions/Current-Exhibitions/The-Treasury/Gallery-1-Iron-Age-to-12th-Century/Gallery-2-The-Faddan-More-Psalter-(1)</link>
+   </identifier>
+   <description>
+      <type />
+      <folios>60</folios>
+      <page_h />
+      <page_w />
+      <contents>Old Testament (Ps.)</contents>
+      <script>Irish minuscule</script>
+   </description>
+   <history>
+      <date_desc>c. 800</date_desc>
+      <term_post>800</term_post>
+      <term_ante>800</term_ante>
+      <origin><place id="ireland">Ireland</place></origin>
+   </history>
+   <xrefs>
+   </xrefs>
+   <notes>
+      <categories>or-ire;sc-ire</categories>
+      <project_notes>Discovered 2006.</project_notes>
+      <private_notes>No xrefs?</private_notes>
+   </notes>
+</manuscript>
+

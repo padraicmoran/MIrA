@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="72">
+   <identifier libraryID="karlsruhe">
+      <shelfmark>Fragm. Aug. 18 [palimpsest old]</shelfmark>
+      <shelfmark_indexer>Fragm. Aug. 0018</shelfmark_indexer>
+      <link type="images">https://nbn-resolving.de/urn:nbn:de:bsz:31-1965</link>
+		<link type="iiif">https://digital.blb-karlsruhe.de/i3f/v20/21598/manifest</link>
+   </identifier>
+   <description>
+      <type>Binding frag.</type>
+      <folios />
+      <page_h />
+      <page_w />
+      <contents>Sacramentarium (Antiphonarium)</contents>
+      <script>Compressed Irish majuscule</script>
+   </description>
+   <history>
+      <date_desc>VIII</date_desc>
+      <term_post>701</term_post>
+      <term_ante>800</term_ante>
+      <origin><place id="ireland">Ireland</place></origin>
+      <provenance><place id="reichenau">Reichenau</place></provenance>
+   </history>
+   <xrefs>
+      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/1583">8.1116</xref>
+      <xref type="tresmegistos">TM 67256</xref>
+      <xref type="thesaurus">2.256</xref>
+      <xref type="bronner">p. 17</xref>
+   </xrefs>
+   <notes>
+      <categories>or-ire;sc-ire;scribe;vern</categories>
+      <project_notes>This and Fragm. Aug. 17 detached from binding of Aug. 167 (Bede). Re-written Clondalkin, 9th cent. Upper script: "(Libe)r trinitatis et sci cronáni filii lugaedón."</project_notes>
+      <private_notes>Need to find a record for the 9th cent. </private_notes>
+   </notes>
+</manuscript>
+

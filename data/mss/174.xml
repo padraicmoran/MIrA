@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="174">
+   <identifier libraryID="bern">
+      <shelfmark>224 (ff 3–226)</shelfmark>
+      <link type="images">http://e-codices.ch/en/searchresult/list/one/bbb/0224</link>
+      <link type="iiif" index="2">http://www.e-codices.unifr.ch/metadata/iiif/bbb-0224/manifest.json</link>
+   </identifier>
+   <description>
+      <type />
+      <folios>224</folios>
+      <page_h>300</page_h>
+      <page_w>215</page_w>
+      <contents>Isidore, <i>Etymologiae</i>, etc.; Eucherius; Glossaria</contents>
+      <script />
+   </description>
+   <history>
+      <date_desc>IX 1/3</date_desc>
+      <term_post>800</term_post>
+      <term_ante>833</term_ante>
+      <origin>France</origin>
+   </history>
+   <xrefs>
+      <xref type="bischoff_kat">557</xref>
+   </xrefs>
+   <notes>
+      <categories>sc-ire</categories>
+      <project_notes>Glosses in Irish hand. Numbers, technical signs and glosses and glosses in Irish hand (15v, 16v, 20r, <place id="strasbourg">Strasbourg</place>?). (See also Steinová 2017: 67***)</project_notes>
+   </notes>
+</manuscript>
+

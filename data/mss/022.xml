@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="22">
+   <identifier libraryID="paris_bnf">
+      <shelfmark>Lat. 2384 (ff 1–153)</shelfmark>
+      <shelfmark_indexer>Lat. 02384</shelfmark_indexer>
+   </identifier>
+   <description>
+      <type />
+      <folios>153</folios>
+      <page_h>270</page_h>
+      <page_w>205</page_w>
+      <contents>Anonymi Scotti Commentarius in Matthaeum; Bede, <i>Libellus retractationis in Actus apostolorum</i>; <i>Liber Questionum in Evangeliis</i>; etc.</contents>
+      <script />
+   </description>
+   <history>
+      <date_desc>c. 820</date_desc>
+      <term_post>820</term_post>
+      <term_ante>820</term_ante>
+      <origin><place id="saint-denis">Saint-Denis</place></origin>
+   </history>
+   <xrefs>
+      <xref type="bischoff_kat">4180</xref>
+      <xref type="bronner">p. 39</xref>
+   </xrefs>
+   <notes>
+   	<categories>vern</categories>
+      <project_notes>Old Irish gloss (1, embedded); ed. Rittmueller 2003: 83; gloss early 8th cent.</project_notes>
+   </notes>
+</manuscript>
+

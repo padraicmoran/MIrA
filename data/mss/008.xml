@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="8">
+   <identifier libraryID="cambrai">
+      <shelfmark>679 (619)</shelfmark>
+      <link type="images">http://bvmm.irht.cnrs.fr/consult/consult.php?reproductionId=10419</link>
+   </identifier>
+   <description>
+      <type />
+      <folios />
+      <page_h />
+      <page_w />
+      <contents>Collectio Canonum Hibernensis (incl. Cambrai Homily)</contents>
+      <script>Early Caroline minuscule</script>
+   </description>
+   <history>
+      <date_desc>VIII²</date_desc>
+      <term_post>763</term_post>
+      <term_ante>790</term_ante>
+      <origin>prob. Cambrai (or <place id="personne">Péronne</place>?)</origin>
+   </history>
+   <xrefs>
+      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/1147">6.741</xref>
+      <xref type="dhbm" href="https://ircabritt.nuigalway.ie/handlist/catalogue/30">#30</xref>
+      <xref type="tresmegistos">TM 66910</xref>
+      <xref type="thesaurus">2.244–247</xref>
+      <xref type="bronner">p. 4</xref>
+   </xrefs>
+   <notes>
+   	<categories>vern;text</categories>
+      <project_notes>Old Irish text on ff 37–38.</project_notes>
+   </notes>
+</manuscript>
+

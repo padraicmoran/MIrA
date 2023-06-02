@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="118">
+   <identifier libraryID="milan">
+      <shelfmark>C 74 sup.</shelfmark>
+      <shelfmark_indexer>C 074 sup.</shelfmark_indexer>
+      <link type="iiif">http://213.21.172.25/manifests/public/0b02da8280051bde.json</link>
+   </identifier>
+   <description>
+      <type />
+      <folios />
+      <page_h />
+      <page_w />
+      <contents>Venantius Forunatus; Arator; Paulinus Nolanus, etc.</contents>
+      <script>Caroline minuscule</script>
+   </description>
+   <history>
+      <date_desc>c. 825</date_desc>
+      <term_post>825</term_post>
+      <term_ante>825</term_ante>
+      <origin><place id="paris">Paris</place> area (written for <person id="dungal">Dúngal</person>)</origin>
+   </history>
+   <xrefs>
+      <xref type="bischoff_kat">2630</xref>
+   </xrefs>
+   <notes>
+      <categories>scribe</categories>
+      <project_notes>Hand of <person id="dungal">Dúngal</person>, 28r.</project_notes>
+   </notes>
+</manuscript>
+

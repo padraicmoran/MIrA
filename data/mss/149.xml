@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="149">
+   <identifier libraryID="turin">
+      <shelfmark>A.II.2 [lost]</shelfmark>
+   </identifier>
+   <description>
+      <type />
+      <folios>?</folios>
+      <page_h />
+      <page_w />
+      <contents>Iulius Valerius, <i>Historia Alexandri Magni</i>; Rutilius Namatianus, <i>De Reditu Suo</i> (2)</contents>
+      <script>Cursive minuscule</script>
+   </description>
+   <history>
+      <date_desc>VIII in</date_desc>
+      <term_post>701</term_post>
+      <term_ante>725</term_ante>
+      <origin>N <place id="italy">Italy</place> (prob. <place id="bobbio">Bobbio</place>)</origin>
+   </history>
+   <xrefs>
+      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/785">4.439</xref>
+      <xref type="tresmegistos">TM 66545</xref>
+   </xrefs>
+   <notes>
+      <categories>sc-ire</categories>
+      <project_notes>Destroyed by fire 1904. (Written over Codex Theodosianus.) Marginalia and correction in Irish minuscule.</project_notes>
+   </notes>
+</manuscript>
+

@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="162">
+   <identifier libraryID="leiden">
+      <shelfmark>BPL 135 (ff 87–112)</shelfmark>
+      <shelfmark_indexer>BPL 0135</shelfmark_indexer>
+      <ms_name>Codex Burmannianus</ms_name>
+      <link type="images">http://hdl.handle.net/1887.1/item:1616565</link>
+      <link type="iiif">https://digitalcollections.universiteitleiden.nl/iiif_manifest/item:1616565/manifest</link>
+   </identifier>
+   <description>
+      <type />
+      <folios>25</folios>
+      <page_h>227</page_h>
+      <page_w>125</page_w>
+      <contents>Clemens Scottus, <i>Expositio in Barbarismo</i>; Martianus Capella (frag. on grammar); excerpts from <i>Georgicorum Brevis Expositio</i> (Virgilii)</contents>
+      <script />
+   </description>
+   <history>
+      <date_desc>IX 2/4</date_desc>
+      <term_post>825</term_post>
+      <term_ante>850</term_ante>
+      <origin>NE France</origin>
+      <provenance>Saint-Omer</provenance>
+   </history>
+   <xrefs>
+      <xref type="bischoff_kat">2156</xref>
+      <xref type="thesaurus">2.418</xref>
+      <xref type="bronner">p. 25</xref>
+   </xrefs>
+   <notes>
+      <categories>vern</categories>
+      <project_notes>Old Irish glosses recorded in <i>Thesaurus</i>, addendum to p. 48, lines 35, 36. </project_notes>
+   </notes>
+</manuscript>
+

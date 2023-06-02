@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="292">
+   <identifier libraryID="munich">
+      <shelfmark>Clm 14171</shelfmark>
+      <shelfmark_indexer>Clm 14171</shelfmark_indexer>
+      <link type="images">https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00036225-7</link>
+      <link type="iiif">https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00036225/manifest</link>
+   </identifier>
+   <description>
+      <type />
+      <folios>229</folios>
+      <page_h>307</page_h>
+      <page_w>240</page_w>
+      <contents>Augustine, <i>Sermones de verbis domini et apostoli</i></contents>
+      <script>Caroline minuscule</script>
+   </description>
+   <history>
+      <date_desc>IX 3/4</date_desc>
+      <term_post>850</term_post>
+      <term_ante>875</term_ante>
+      <origin><place id="soissons">Soissons</place></origin>
+      <provenance />
+   </history>
+   <xrefs>
+      <xref type="bischoff_ssb">1.234, 2.242</xref>
+      <xref type="bischoff_kat">3135</xref>
+   </xrefs>
+   <notes>
+      <categories>orCon;scribe</categories>
+      <project_notes>Circle of <person id="eriugena">Eriugena</person>.</project_notes>
+      <private_notes />
+   </notes>
+</manuscript>
+

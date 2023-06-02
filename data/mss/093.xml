@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="93">
+   <identifier libraryID="wurzburg">
+      <shelfmark>M.p.th.f.12</shelfmark>
+      <shelfmark_indexer>M.p.th.f.012</shelfmark_indexer>
+      <ms_name>Würzburg Glosses</ms_name>
+      <link type="images">http://vb.uni-wuerzburg.de/ub/permalink/mpthf12</link>
+   </identifier>
+   <description>
+      <type />
+      <folios>36</folios>
+      <page_h>320</page_h>
+      <page_w>23	5</page_w>
+      <contents>Pauline Epistles (Vulgata, Rm, 1 Cor, 2 Cor, Gal, Eph, Phil, Col, 1 Th, 2 Th, 1 Tim, 2 Tim, Tit, Phlm, Hbr)</contents>
+      <script>Irish minuscule</script>
+   </description>
+   <history>
+      <date_desc>VIII ex</date_desc>
+      <term_post>776</term_post>
+      <term_ante>800</term_ante>
+      <origin><place id="ireland">Ireland</place></origin>
+      <provenance><place id="wurzburg">Würzburg</place></provenance>
+   </history>
+   <xrefs>
+      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/1907">9.1403</xref>
+      <xref type="thesaurus">1.499–712</xref>
+      <xref type="bronner">pp 54–55</xref>
+      <xref type="tresmegistos">TM 67542</xref>
+   </xrefs>
+   <notes>
+      <categories>or-ire;sc-ire;vern</categories>
+      <project_notes>Old Irish glosses. Brought by Clemens Scottus?</project_notes>
+   </notes>
+</manuscript>
+

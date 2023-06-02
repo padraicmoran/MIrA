@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="180">
+   <identifier libraryID="schaffhausen">
+      <shelfmark>Gen. 1</shelfmark>
+      <ms_name>Schaffhausen Adomnán</ms_name>
+      <link type="images">http://www.e-codices.unifr.ch/en/sbs/0001</link>
+      <link type="iiif">http://www.e-codices.unifr.ch/metadata/iiif/sbs-0001/manifest.json</link>
+   </identifier>
+   <description>
+      <type />
+      <folios />
+      <page_h />
+      <page_w />
+      <contents>Adamnanus, <i>Vita S Columbae</i></contents>
+      <script>Irish minuscule</script>
+   </description>
+   <history>
+      <date_desc>VII–VIII (ante 713)</date_desc>
+      <term_post>680</term_post>
+      <term_ante>712</term_ante>
+      <origin>Iona</origin>
+      <provenance><place id="reichenau">Reichenau</place></provenance>
+   </history>
+   <xrefs>
+      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/1464">7.998</xref>
+      <xref type="tresmegistos">TM 67143</xref>
+      <link type="foundations" href="http://foundationsirishculture.ie/record/?id=52">[external link, with image]</link>
+   </xrefs>
+   <notes>
+      <categories>or-ire;sc-ire</categories>
+      <project_notes />
+   </notes>
+</manuscript>
+

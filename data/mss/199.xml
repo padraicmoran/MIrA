@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="199">
+   <identifier libraryID="zurich_zentral">
+      <shelfmark>Rh. 73 (ff 1–29)</shelfmark>
+   </identifier>
+   <description>
+      <type />
+      <folios>29</folios>
+      <page_h />
+      <page_w />
+      <contents>Adamnán, <i>De locis sanctis</i>; etc.</contents>
+      <script>Caroline minuscule</script>
+   </description>
+   <history>
+      <date_desc>842</date_desc>
+      <term_post>842</term_post>
+      <term_ante>842</term_ante>
+      <origin><place id="reichenau">Reichenau</place></origin>
+      <provenance>Rheinau</provenance>
+   </history>
+   <xrefs>
+   </xrefs>
+   <notes>
+      <xref type="bischoff_kat">7621</xref>
+      <xref type="bronner">p. 57</xref>
+      <categories>vern</categories>
+      <project_notes>Old Irish gloss (1). Scribe Walahfrid Strabo?</project_notes>
+   </notes>
+</manuscript>
+

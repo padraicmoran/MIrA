@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="241">
+   <identifier libraryID="bern">
+      <shelfmark>258</shelfmark>
+      <link type="images">http://e-codices.ch/en/searchresult/list/one/bbb/0258</link>
+      <link type="iiif">http://www.e-codices.unifr.ch/metadata/iiif/bbb-0258/manifest.json</link>
+   </identifier>
+   <description>
+      <type />
+      <folios />
+      <page_h />
+      <page_w />
+      <contents>Glossary with glosses from Haimo of Auxerre and <person id="eriugena">Eriugena</person>, <i>Glossae divinae historiae</i></contents>
+      <script />
+   </description>
+   <history>
+      <date_desc>X or XI</date_desc>
+      <term_post>900</term_post>
+      <term_ante>1100</term_ante>
+      <origin>Angers</origin>
+      <provenance><place id="fleury">Fleury</place></provenance>
+   </history>
+   <xrefs>
+      <xref type="bischoff_kat">vol. 1, p 120 (excluded)</xref>
+      <xref type="thesaurus">1.2–3</xref>
+      <xref type="bronner">p. 58</xref>
+   </xrefs>
+   <notes>
+      <categories>vern</categories>
+      <project_notes>s. X (Contreni &amp; Ó Néill 1997), XI (Bischoff, <i>Kat.</i>). 12 Old Irish glosses, dated 830 × 850 (Contreni &amp; Ó Neill 1997).</project_notes>
+      <private_notes />
+   </notes>
+</manuscript>
+

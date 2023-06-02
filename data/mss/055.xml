@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="55">
+   <identifier libraryID="karlsruhe">
+      <shelfmark>Aug. perg. 132 (ff 86, 91, 92, 97–99, 101–104, 106, 107) [palimpsest old]</shelfmark>
+      <shelfmark_indexer>Aug. perg. 0132 [old] (086)</shelfmark_indexer>
+      <link type="images">https://nbn-resolving.de/urn:nbn:de:bsz:31-7326</link>
+		<link type="iiif" index="169">https://digital.blb-karlsruhe.de/i3f/v20/64199/manifest</link>
+   </identifier>
+   <description>
+      <type />
+      <folios>12</folios>
+      <page_h>300</page_h>
+      <page_w>212</page_w>
+      <contents>Old Testament, Prophets (Vetus Latina, Dn, fragm.)</contents>
+      <script>Irish majuscule</script>
+   </description>
+   <history>
+      <date_desc>VIII</date_desc>
+      <term_post>701</term_post>
+      <term_ante>800</term_ante>
+      <origin><place id="ireland">Ireland</place></origin>
+      <provenance><place id="reichenau">Reichenau</place></provenance>
+   </history>
+   <xrefs>
+      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/1550">8.1084</xref>
+      <xref type="tresmegistos">TM 67224</xref>
+      <link type="foundations" href="http://foundationsirishculture.ie/record/?id=60">[external link, with image]</link>
+   </xrefs>
+   <notes>
+      <categories>or-ire;sc-ire</categories>
+      <project_notes>Rewritten with Priscian; little original script visible.</project_notes>
+   </notes>
+</manuscript>
+

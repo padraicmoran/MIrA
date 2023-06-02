@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="10">
+   <identifier libraryID="laon">
+      <shelfmark>26 (ff A–C)</shelfmark>
+      <shelfmark_indexer>026 (A)</shelfmark_indexer>
+   </identifier>
+   <description>
+      <type />
+      <folios>3</folios>
+      <page_h>230</page_h>
+      <page_w>195</page_w>
+      <contents>Augustine, <i>De vera religione</i></contents>
+      <script>Irish minuscule</script>
+   </description>
+   <history>
+      <date_desc>IX 2/3</date_desc>
+      <term_post>833</term_post>
+      <term_ante>866</term_ante>
+      <origin>Irish colony in NE France?</origin>
+   </history>
+   <xrefs>
+      <xref type="bischoff_kat">2046</xref>
+   </xrefs>
+   <notes>
+   	<categories>sc-ire</categories>
+      <project_notes>Bischoff: poss. same origin as Aug. perg. 195.</project_notes>
+   </notes>
+</manuscript>
+

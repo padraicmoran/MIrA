@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="248">
+   <identifier libraryID="paris_bnf">
+      <shelfmark>Lat. 12021 (ff 33–139)</shelfmark>
+      <shelfmark_indexer>Lat. 12021 (033)</shelfmark_indexer>
+      <link type="images">https://gallica.bnf.fr/ark:/12148/btv1b9066657p</link>
+      <link type="iiif" index="34">https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066657p/manifest.json</link>
+   </identifier>
+   <description>
+      <type />
+      <folios />
+      <page_h />
+      <page_w />
+      <contents>Canones</contents>
+      <script>Caroline minuscule</script>
+   </description>
+   <history>
+      <date_desc>IX 3/4 or X</date_desc>
+      <term_post>850</term_post>
+      <term_ante>1000</term_ante>
+      <origin>Brittany</origin>
+      <provenance><place id="corbie">Corbie</place></provenance>
+   </history>
+   <xrefs>
+      <xref type="dhbm" href="https://ircabritt.nuigalway.ie/handlist/catalogue/151">#151</xref>
+      <xref type="bischoff_kat">4724</xref>
+      <xref type="thesaurus">2.38</xref>
+      <xref type="bronner">pp 66–67</xref>
+   </xrefs>
+   <notes>
+      <categories>vern</categories>
+      <project_notes>Formerly Sangermanensis 121. Scribe: Arbedoc. Two Old Irish embedded glosses.</project_notes>
+      <private_notes />
+   </notes>
+</manuscript>
+

@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="169">
+   <identifier libraryID="basel">
+      <shelfmark>F III 15d</shelfmark>
+      <link type="homepage">http://www.e-codices.unifr.ch/en/list/one/ubb/F-III-0015d</link>
+      <link type="doi">http://dx.doi.org/10.5076/e-codices-ubb-F-III-0015d</link>
+      <link type="images">http://www.e-codices.unifr.ch/en/ubb/F-III-0015d</link>
+      <link type="iiif">http://www.e-codices.unifr.ch/metadata/iiif/ubb-F-III-0015d/manifest.json</link>
+   </identifier>
+   <description>
+      <type />
+      <folios>16</folios>
+      <page_h>275</page_h>
+      <page_w>237</page_w>
+      <script>Irish minuscule</script>
+      <contents>
+      	<summary>Marius Victorinus, <i>Ars Grammatica</i>; Isidore Iunior, <i>De Vitiis et Virtutibus</i></summary>
+			<msItem>
+				<locus>1ra–9rb</locus>
+				<author personID="Isidore_iunior">Isidore iunior Hispalensis</author>
+				<title textID="de_devitiis">De Vitiis</title>
+			</msItem>
+			<msItem>
+				<locus>9rb–15vb</locus>
+				<author personID="consentius">Consentius</author>
+				<title textID="de_barbarismis">De barbarismis et metaplasmis</title>
+			</msItem>
+			<msItem>
+				<locus>15rb–16vb</locus>
+				<author personID="victorinus">Victorinus</author>
+				<title textID="de_barbarismis">De soloecismo et barbarismo</title>
+			</msItem>
+   	</contents>
+   </description>
+   <history>
+      <date_desc>VIII</date_desc>
+      <term_post>701</term_post>
+      <term_ante>800</term_ante>
+      <origin><place id="ireland">Ireland</place></origin>
+      <provenance><place id="fulda">Fulda</place></provenance>
+   </history>
+   <xrefs>
+      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/1300">7.847</xref>
+      <xref type="tresmegistos">TM 66986</xref>
+      <link type="foundations" href="http://foundationsirishculture.ie/record/?id=42">[external link, with image]</link>
+   </xrefs>
+   <notes>
+      <categories>or-ire;sc-ire</categories>
+      <project_notes />
+   </notes>
+</manuscript>
+

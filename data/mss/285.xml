@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="285">
+   <identifier libraryID="vienna">
+      <shelfmark>Lat. 2233</shelfmark>
+      <shelfmark_indexer>Lat. 02233</shelfmark_indexer>
+      <link type="images">http://data.onb.ac.at/dtl/3833902</link>
+   </identifier>
+   <description>
+      <type />
+      <folios>93</folios>
+      <page_h>195</page_h>
+      <page_w>113</page_w>
+      <contents>Poenitentiale Vindobonense (Poen. Ps.-Cummeani; Poen. Vinniani)</contents>
+      <script>Caroline minuscule</script>
+   </description>
+   <history>
+      <date_desc>VIII ex</date_desc>
+      <term_post>776</term_post>
+      <term_ante>800</term_ante>
+      <origin><place id="salzburg">Salzburg</place></origin>
+   </history>
+   <xrefs>
+      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/232">10.1509</xref>
+      <xref type="tresmegistos">TM 67696</xref>
+      <xref type="bischoff_ssb">2.90 (no. 17)</xref>
+   </xrefs>
+   <notes>
+      <categories>ex-ire;text</categories>
+      <project_notes>Possibly from the time of <person id="virgil_salzburg">Virgil of Salzburg</person>. See note to <ms id="283">Vienna, Lat. 2195</ms>.</project_notes>
+      <private_notes />
+   </notes>
+</manuscript>
+

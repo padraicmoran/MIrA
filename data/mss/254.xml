@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="254">
+   <identifier libraryID="laon">
+      <shelfmark>86</shelfmark>
+      <shelfmark_indexer>086</shelfmark_indexer>
+   </identifier>
+   <description>
+      <folios>68</folios>
+      <page_h>220</page_h>
+      <page_w>165</page_w>
+      <contents>Augustine, In Johannis epistulam ad Parthos tractatus X</contents>
+      <script>Caroline minuscule</script>
+   </description>
+   <history>
+      <date_desc>IX 3/3</date_desc>
+      <term_post>866</term_post>
+      <term_ante>900</term_ante>
+      <origin>prob. <place id="lyon">Lyon</place></origin>
+   </history>
+   <xrefs>
+      <xref type="bischoff_kat">2066</xref>
+      <xref type="tresmegistos" />
+   </xrefs>
+   <notes>
+      <categories>scribe</categories>
+      <project_notes>Hand of <person id="martin">Martin</person>.</project_notes>
+      <private_notes />
+   </notes>
+</manuscript>
+

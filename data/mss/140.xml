@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="140">
+   <identifier libraryID="naples">
+      <shelfmark>Lat. 2 (ff 76–111, 140–156, 159)</shelfmark>
+      <shelfmark_indexer>Lat. 2 (076)</shelfmark_indexer>
+   </identifier>
+   <description>
+      <type />
+      <folios />
+      <page_h />
+      <page_w />
+      <contents>Probus, <i>De Catholicis</i>, <i>De Prosodia ad Marcellum</i>; <text id="charisius">Charisius, <i>Ars Grammatica</i></text>; Excerpta</contents>
+      <script>Quarter-Uncial</script>
+   </description>
+   <history>
+      <date_desc>V</date_desc>
+      <term_post>401</term_post>
+      <term_ante>500</term_ante>
+      <origin><place id="italy">Italy</place>; additions in <place id="bobbio">Bobbio</place></origin>
+   </history>
+   <xrefs>
+      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/734">3.397a</xref>
+      <xref type="tresmegistos">TM 66500</xref>
+   </xrefs>
+   <notes>
+      <categories>sc-ire</categories>
+      <project_notes><i>CLA</i>: "Irish hands at <place id="bobbio">Bobbio</place> in the eighth century restored in the margin damaged portions of the original text (foll. 109–110) and made two large additions… The text of Servius de Finalibus was entered, doubtless at Bobbio, by an eighth-century Irish hand on fol. 139v—a page left blank at the end of the MS of Claudius Sacerdos described in the next item—and continued on foll. 140–141v over an erased text of <text id="charisius">Charisius</text>."</project_notes>
+   </notes>
+</manuscript>
+

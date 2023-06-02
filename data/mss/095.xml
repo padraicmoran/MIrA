@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="95">
+   <identifier libraryID="wurzburg">
+      <shelfmark>M.p.th.f.61 [palimpsest new]</shelfmark>
+      <shelfmark_indexer>M.p.th.f.061</shelfmark_indexer>
+      <link type="images">http://vb.uni-wuerzburg.de/ub/permalink/mpthf61</link>
+   </identifier>
+   <description>
+      <type />
+      <folios />
+      <page_h />
+      <page_w />
+      <contents>Gospels (Vulgata, Mt)</contents>
+      <script>Irish majuscule</script>
+   </description>
+   <history>
+      <date_desc>VIII²</date_desc>
+      <term_post>751</term_post>
+      <term_ante>800</term_ante>
+      <origin><place id="ireland">Ireland</place></origin>
+   </history>
+   <xrefs>
+      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/1923">9.1415</xref>
+      <xref type="bronner">pp 55–56</xref>
+      <xref type="tresmegistos">TM 67554</xref>
+   </xrefs>
+   <notes>
+      <categories>or-ire;sc-ire;vern</categories>
+      <project_notes>Old Irish glosses (5). Several inserted slips (s. VIII or IX in), with glosses.</project_notes>
+   </notes>
+</manuscript>
+

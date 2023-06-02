@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="48">
+   <identifier libraryID="dresden">
+      <shelfmark>A.145.b</shelfmark>
+      <ms_name>Codex Boernerianus</ms_name>
+      <link type="images">http://digital.slub-dresden.de/id274591448</link>
+      <link type="iiif">https://iiif.slub-dresden.de/iiif/2/274591448/manifest.json</link>
+   </identifier>
+   <description>
+      <type />
+      <folios>111</folios>
+      <page_h>247</page_h>
+      <page_w>190</page_w>
+      <contents>Pauline Epistles (Greek, Latin interlinear)</contents>
+      <script>Irish minuscule</script>
+   </description>
+   <history>
+      <date_desc>IX med</date_desc>
+      <term_post>833</term_post>
+      <term_ante>866</term_ante>
+      <origin><place id="stgall">St Gall</place>?</origin>
+   </history>
+   <xrefs>
+      <xref type="bischoff_kat">1040</xref>
+      <xref type="thesaurus">2.296–296</xref>
+      <xref type="bronner">p. 9</xref>
+   </xrefs>
+   <notes>
+      <categories>vern</categories>
+      <project_notes>Interlinear gloss. Old Irish verse</project_notes>
+   </notes>
+</manuscript>
+

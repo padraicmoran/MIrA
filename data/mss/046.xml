@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="46">
+   <identifier libraryID="berlin">
+      <shelfmark>Lat. Qu. 690 (ff 65–188)</shelfmark>
+   </identifier>
+   <description>
+      <type />
+      <folios />
+      <page_h />
+      <page_w />
+      <contents>Augustine, <i>Enchiridion</i></contents>
+      <script>Caroline minuscule</script>
+   </description>
+   <history>
+      <date_desc>IX 2/4 or IX med</date_desc>
+      <term_post>825</term_post>
+      <term_ante>860</term_ante>
+      <origin><place id="reichenau">Reichenau</place>? <place id="mainz">Mainz</place> (circle of Probus)?</origin>
+      <provenance><place id="trier">Trier</place></provenance>
+   </history>
+   <xrefs>
+      <xref type="bischoff_kat">393</xref>
+      <xref type="bronner">p. 1</xref>
+   </xrefs>
+   <notes>
+      <categories>vern</categories>
+      <project_notes>Old Irish glosses. (Former shelfmark: Lat. 4ᴼ 690 = Görres 87.)</project_notes>
+   </notes>
+</manuscript>
+

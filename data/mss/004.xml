@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="4">
+   <identifier libraryID="vienna">
+      <shelfmark>Lat. 15298</shelfmark>
+      <shelfmark_indexer>Lat. 15298</shelfmark_indexer>
+      <link type="images">http://data.onb.ac.at/dtl/8650790</link>
+   </identifier>
+   <description>
+      <type />
+      <folios>4</folios>
+      <page_h>300</page_h>
+      <page_w>245</page_w>
+      <contents>Bede, <i>De Temporum Ratione</i> (7–22)</contents>
+      <script>Irish minuscule</script>
+   </description>
+   <history>
+      <date_desc>VIII–IX</date_desc>
+      <term_post>780</term_post>
+      <term_ante>820</term_ante>
+      <origin><place id="ireland">Ireland</place></origin>
+   </history>
+   <xrefs>
+      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/234">10.1511</xref>
+      <xref type="tresmegistos">TM 67698</xref>
+      <xref type="thesaurus">2.31–37</xref>
+      <xref type="bronner">p. 54</xref>
+      <link type="foundations" href="http://foundationsirishculture.ie/record/?id=63">[external link, with image]</link>
+   </xrefs>
+   <notes>
+   	<categories>or-ire;sc-ire;vern</categories>
+      <project_notes />
+      <private_notes>CLA shelfmark changed from L. to Lat.</private_notes>
+   </notes>
+</manuscript>
+

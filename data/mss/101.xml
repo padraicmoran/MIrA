@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="101">
+   <identifier libraryID="dublin_tcd">
+      <shelfmark>58 (A.I.6)</shelfmark>
+      <ms_name>Book of Kells</ms_name>
+      <link type="images">https://digitalcollections.tcd.ie/concern/works/hm50tr726</link>
+      <link type="iiif">https://digitalcollections.tcd.ie/concern/works/hm50tr726/manifest</link>
+   </identifier>
+   <description>
+      <type />
+      <folios>340</folios>
+      <page_h>330</page_h>
+      <page_w>250</page_w>
+      <contents>Gospels (Mt, Mc, Lc, Io)</contents>
+      <script>Irish majuscule</script>
+   </description>
+   <history>
+      <date_desc>VIII²</date_desc>
+      <term_post>751</term_post>
+      <term_ante>800</term_ante>
+      <origin>Northumbrian tradition</origin>
+   </history>
+   <xrefs>
+      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/593">2.274</xref>
+      <xref type="tresmegistos">TM 66360</xref>
+   </xrefs>
+   <notes>
+      <categories>or-ins;sc-ire</categories>
+      <project_notes />
+   </notes>
+</manuscript>
+

@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="102">
+   <identifier libraryID="dublin_tcd">
+      <shelfmark>59 (A.IV.23)</shelfmark>
+      <ms_name>Book of Dimma</ms_name>
+      <link type="images">https://digitalcollections.tcd.ie/concern/works/9306t370s</link>
+      <link type="iiif">https://digitalcollections.tcd.ie/concern/works/9306t370s/manifest</link>
+   </identifier>
+   <description>
+      <type />
+      <folios>74</folios>
+      <page_h>175</page_h>
+      <page_w>142</page_w>
+      <contents>Gospels (Mt, Mc, Lc, Io)</contents>
+      <script>Irish cursive</script>
+   </description>
+   <history>
+      <date_desc>VIII²</date_desc>
+      <term_post>751</term_post>
+      <term_ante>800</term_ante>
+      <origin><place id="ireland">Ireland</place> (Roscrea)</origin>
+   </history>
+   <xrefs>
+      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/594">2.275</xref>
+      <xref type="tresmegistos">TM 66361</xref>
+      <xref type="thesaurus">2.257</xref>
+      <xref type="bronner">p. 14</xref>
+   </xrefs>
+   <notes>
+      <categories>or-ire;sc-ire;vern</categories>
+      <project_notes>12th cent. cumdach.</project_notes>
+   </notes>
+</manuscript>
+

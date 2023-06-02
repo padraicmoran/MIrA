@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="286">
+   <identifier libraryID="vienna">
+      <shelfmark>Lat. 997</shelfmark>
+      <shelfmark_indexer>Lat. 00997</shelfmark_indexer>
+      <link type="images">http://data.onb.ac.at/dtl/7336151</link>
+   </identifier>
+   <description>
+      <type />
+      <folios>128</folios>
+      <page_h>270</page_h>
+      <page_w>200</page_w>
+      <contents>Anonymi Scoti Commentarii in evangelia Lucae et Iohannis; Jerome, <i>Interpretationes</i>; etc.</contents>
+      <script>Caroline minuscule</script>
+   </description>
+   <history>
+      <date_desc>IX in</date_desc>
+      <term_post>800</term_post>
+      <term_ante>820</term_ante>
+      <origin><place id="salzburg">Salzburg</place></origin>
+   </history>
+   <xrefs>
+      <xref type="bischoff_ssb">2.137 (no. 108)</xref>
+      <xref type="bischoff_kat">7194</xref>
+   </xrefs>
+   <notes>
+      <categories>ex-ire;text</categories>
+      <project_notes>See note to <ms id="283">Vienna, Lat. 2195</ms>. Very finely written and decorated. <place id="saint-amand">Saint-Amand</place> trained scribe.</project_notes>
+      <private_notes>Bischoff has no notes on Insular palaeographical features; pres. Irish on the basis of text. </private_notes>
+   </notes>
+</manuscript>
+

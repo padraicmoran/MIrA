@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="238">
+   <identifier libraryID="munich">
+      <shelfmark>Clm 14420 (ff 1–20)</shelfmark>
+      <shelfmark_indexer>Clm 14420 (001)</shelfmark_indexer>
+      <link type="images">https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00036895-0</link>
+      <link type="iiif" index="27">https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00036895/manifest</link>
+   </identifier>
+   <description>
+      <type />
+      <folios>20</folios>
+      <page_h>255</page_h>
+      <page_w>180</page_w>
+      <contents>Bede, <i>De arte metrica</i>, etc.</contents>
+      <script>Caroline minuscule</script>
+   </description>
+   <history>
+      <date_desc>IX²</date_desc>
+      <term_post>850</term_post>
+      <term_ante>900</term_ante>
+      <origin>Germany?</origin>
+   </history>
+   <xrefs>
+      <xref type="bischoff_ssb">1.242</xref>
+      <xref type="bischoff_kat">3185</xref>
+   </xrefs>
+   <notes>
+      <categories>ex-ire</categories>
+      <project_notes>Bischoff, <i>SSB</i>: strong influence of Irish exemplar in abbreviations.</project_notes>
+      <private_notes />
+   </notes>
+</manuscript>
+

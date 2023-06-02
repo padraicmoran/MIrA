@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="34">
+   <identifier libraryID="paris_bnf">
+      <shelfmark>Lat. 12292 [flyleaves]</shelfmark>
+      <shelfmark_indexer>Lat. 12292</shelfmark_indexer>
+      <link type="images">https://gallica.bnf.fr/ark:/12148/btv1b85721911</link>
+      <link type="iiif" index="4">https://gallica.bnf.fr/iiif/ark:/12148/btv1b85721911/manifest.json</link>
+   </identifier>
+   <description>
+      <type />
+      <folios>4</folios>
+      <page_h />
+      <page_w />
+      <contents>Anonymous, <i>Commentarii in Matthaeum</i> (fragm.)</contents>
+      <script>Irish minuscule</script>
+   </description>
+   <history>
+      <date_desc>VIII–IX</date_desc>
+      <term_post>780</term_post>
+      <term_ante>820</term_ante>
+      <origin>prob. <place id="ireland">Ireland</place></origin>
+      <provenance><place id="corbie">Corbie</place></provenance>
+   </history>
+   <xrefs>
+      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/1019">5.642</xref>
+      <xref type="tresmegistos">TM 66809</xref>
+      <link type="foundations" href="http://foundationsirishculture.ie/record/?id=37">[external link, with image]</link>
+   </xrefs>
+   <notes>
+   	<categories>or-ire;sc-ire</categories>
+      <project_notes />
+   </notes>
+</manuscript>
+

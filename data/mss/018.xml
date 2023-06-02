@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="18">
+   <identifier libraryID="laon">
+      <shelfmark>468 (ff 1–61)</shelfmark>
+      <shelfmark_indexer>468</shelfmark_indexer>
+      <link type="images">https://bibliotheque-numerique.ville-laon.fr/idurl/1/1473</link>
+   </identifier>
+   <description>
+      <type />
+      <folios>61</folios>
+      <page_h>310</page_h>
+      <page_w>230</page_w>
+      <contents>Commentarii in Virgilium, Sedulium artesque liberales</contents>
+      <script>Caroline minuscule</script>
+   </description>
+   <history>
+      <date_desc>IX 3/4</date_desc>
+      <term_post>875</term_post>
+      <term_ante>900</term_ante>
+      <origin><place id="laon">Laon</place></origin>
+   </history>
+   <xrefs>
+      <xref type="bischoff_kat">2128</xref>
+   </xrefs>
+   <notes>
+   	<categories>scribe;ex-ire</categories>
+      <project_notes>Hand of <person id="martin">Martin</person>. Evidence for use of an Irish archetype. (Contreni 1972, etc.***)</project_notes>
+   </notes>
+</manuscript>
+

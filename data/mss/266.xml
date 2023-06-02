@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="266">
+   <identifier unit="1" libraryID="berlin">
+      <shelfmark>Phillipps 1830 (Rose 129)</shelfmark>
+      <link type="images">http://resolver.staatsbibliothek-berlin.de/SBB000017B900000000</link>
+   </identifier>
+   <identifier unit="2" libraryID="berlin">
+      <shelfmark>Phillipps 1832 (Rose 130) </shelfmark>
+   </identifier>
+   <description>
+      <folios>104</folios>
+      <page_h>300</page_h>
+      <page_w>237</page_w>
+      <contents>Dionysius Exiguus, <i>Cyclus decennovennalis</i> (MS 1830); Bede, <i>De natura rerum</i>; etc. (MS 1832)</contents>
+      <script>Caroline minuscule</script>
+   </description>
+   <history>
+      <date_desc>IX 3/3</date_desc>
+      <term_post>866</term_post>
+      <term_ante>900</term_ante>
+      <origin><place id="reims">Reims</place> (or <place id="lyon">Lyon</place>?)</origin>
+   </history>
+   <xrefs>
+      <xref type="bischoff_kat">436</xref>
+      <xref type="tresmegistos" />
+   </xrefs>
+   <notes>
+      <categories>scribe</categories>
+      <project_notes>Hand of <person id="martin">Martin</person>.</project_notes>
+   </notes>
+</manuscript>
+

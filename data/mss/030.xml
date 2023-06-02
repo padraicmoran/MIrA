@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="30">
+   <identifier unit="1" libraryID="paris_bnf">
+      <shelfmark>Lat. 10400 (ff 109–110)</shelfmark>
+      <shelfmark_indexer>Lat. 10400 (109)</shelfmark_indexer>
+      <link type="images">https://gallica.bnf.fr/ark:/12148/btv1b9066770w</link>
+      <link type="iiif" index="205">https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066770w/manifest.json</link>
+   </identifier>
+   <identifier unit="2" libraryID="paris_bnf">
+      <shelfmark>11411 (ff 124–125)</shelfmark>
+      <shelfmark_indexer>Lat. 11411 (124)</shelfmark_indexer>
+      <link type="images">https://gallica.bnf.fr/ark:/12148/btv1b84386681</link>
+      <link type="iiif" index="258">https://gallica.bnf.fr/iiif/ark:/12148/btv1b84386681/manifest.json</link>
+   </identifier>
+   <description>
+      <type />
+      <folios>4</folios>
+      <page_h />
+      <page_w />
+      <contents>Eutyches, <i>De Verbo</i> (fragm.)</contents>
+      <script>Irish minuscule</script>
+   </description>
+   <history>
+      <date_desc>VIII–IX</date_desc>
+      <term_post>780</term_post>
+      <term_ante>820</term_ante>
+      <origin><place id="ireland">Ireland</place></origin>
+      <provenance><place id="echternach">Echternach</place></provenance>
+   </history>
+   <xrefs>
+      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/966">5.599</xref>
+      <xref type="tresmegistos">TM 66730</xref>
+      <xref type="bischoff_kat">4639a</xref>
+      <xref type="thesaurus">2.42</xref>
+      <xref type="bronner">p. 42</xref>
+      <link type="foundations" href="http://foundationsirishculture.ie/record/?id=35">[external link, with image]</link>
+   </xrefs>
+   <notes>
+   	<categories>or-ire;sc-ire;vern</categories>
+      <project_notes>Old Irish glosses. ("Lat. 14111" in ELMSS is an error.)</project_notes>
+   </notes>
+</manuscript>
+

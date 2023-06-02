@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="24">
+   <identifier libraryID="paris_bnf">
+      <shelfmark>Lat. 7730</shelfmark>
+      <shelfmark_indexer>Lat. 07730</shelfmark_indexer>
+      <link type="images">https://gallica.bnf.fr/ark:/12148/btv1b8478988x</link>
+      <link type="iiif">https://gallica.bnf.fr/iiif/ark:/12148/btv1b8478988x/manifest.json</link>
+   </identifier>
+   <description>
+      <type />
+      <folios>107</folios>
+      <page_h>312</page_h>
+      <page_w>252</page_w>
+      <contents>Chirius Fortunatianus, etc.</contents>
+      <script>Caroline minuscule</script>
+   </description>
+   <history>
+      <date_desc>IX 4/4</date_desc>
+      <term_post>865</term_post>
+      <term_ante>900</term_ante>
+      <origin>NE France (?)</origin>
+   </history>
+   <xrefs>
+      <xref type="bischoff_kat">4498</xref>
+   </xrefs>
+   <notes>
+   	<categories>sc-ire</categories>
+      <project_notes>Bischoff: corr. in contemp. Irish hand (62v, 63r, etc.) with Caroline influence.</project_notes>
+   </notes>
+</manuscript>
+

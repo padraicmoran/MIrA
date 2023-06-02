@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="170">
+   <identifier libraryID="basel">
+      <shelfmark>B III 3</shelfmark>
+   </identifier>
+   <description>
+      <type />
+      <folios />
+      <page_h />
+      <page_w />
+      <contents>Sermones II; Augustine, <i>Tractatus in evangelium Iohannis</i></contents>
+      <script>Caroline minuscule</script>
+   </description>
+   <history>
+      <date_desc>IX 2/4</date_desc>
+      <term_post>825</term_post>
+      <term_ante>850</term_ante>
+      <origin><place id="switzerland">Switzerland</place>?</origin>
+   </history>
+   <xrefs>
+      <xref type="bischoff_kat">261</xref>
+   </xrefs>
+   <notes>
+      <categories>sc-ire</categories>
+      <project_notes>Bischoff: Irish corr. 284r–289v, esp. 286r.</project_notes>
+      <private_notes>Not currently on e-Codices.</private_notes>
+   </notes>
+</manuscript>
+

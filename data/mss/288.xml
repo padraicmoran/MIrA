@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="288">
+   <identifier libraryID="vienna">
+      <shelfmark>Lat. 921</shelfmark>
+      <shelfmark_indexer>Lat. 00921</shelfmark_indexer>
+   </identifier>
+   <description>
+      <type />
+      <folios>250</folios>
+      <page_h>330</page_h>
+      <page_w>230</page_w>
+      <contents><text id="lathcen">Lathcen, <i>Ecloga ex Gregorii Magni Moralibus in Iob</i></text></contents>
+      <script>Caroline minuscule</script>
+   </description>
+   <history>
+      <date_desc>IX med (time of Bishop Liuphram)</date_desc>
+      <term_post>836</term_post>
+      <term_ante>859</term_ante>
+      <origin><place id="salzburg">Salzburg</place></origin>
+   </history>
+   <xrefs>
+      <xref type="bischoff_ssb">2.158–159 (no. 168)</xref>
+      <xref type="bischoff_kat">7173</xref>
+   </xrefs>
+   <notes>
+      <categories>ex-ire;text</categories>
+      <project_notes>See note to <ms id="283">Vienna, Lat. 2195</ms>.</project_notes>
+      <private_notes />
+   </notes>
+</manuscript>
+

@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="13">
+   <identifier libraryID="laon">
+      <shelfmark>55 [incl. frag.]</shelfmark>
+      <shelfmark_indexer>055</shelfmark_indexer>
+   </identifier>
+   <description>
+      <type />
+      <folios>2</folios>
+      <page_h>260</page_h>
+      <page_w>152</page_w>
+      <contents>Bede, <i>Commentarius in Parabolas Salomonis</i> + (frag.) Augustine, <i>De quantitate animae</i></contents>
+      <script />
+   </description>
+   <history>
+      <date_desc>IX 2/3</date_desc>
+      <term_post>833</term_post>
+      <term_ante>866</term_ante>
+      <origin><place id="ireland">Ireland</place> (?); circle of <person id="eriugena">Eriugena</person></origin>
+   </history>
+   <xrefs>
+      <xref type="bischoff_kat">2054</xref>
+      <xref type="thesaurus">2, app. V</xref>
+      <xref type="bronner">pp 22–23</xref>
+   </xrefs>
+   <notes>
+   	<categories>or-ire;sc-ire;scribe;vern</categories>
+      <project_notes>Old Irish glosses. Hand of <person id="i2">i2</person> (assistant of <person id="eriugena">Eriugena</person>). Bischoff: Augustine prob. written in <place id="ireland">Ireland</place>; rest by i2.</project_notes>
+   </notes>
+</manuscript>
+

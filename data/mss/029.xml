@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="29">
+   <identifier libraryID="paris_bnf">
+      <shelfmark>Lat. 10399 (ff 35–36) + Lat. 9528 (fol. 201)</shelfmark>
+      <shelfmark_indexer>Lat. 10399 (035)</shelfmark_indexer>
+      <link type="images">https://gallica.bnf.fr/ark:/12148/btv1b9072585p</link>
+      <link type="iiif" index="76">https://gallica.bnf.fr/iiif/ark:/12148/btv1b9072585p/manifest.json</link>
+   </identifier>
+   <description>
+      <type>Binding fragment</type>
+      <folios />
+      <page_h />
+      <page_w />
+      <contents>Computistica (Dionysius Exiguus, <i>Tabula Paschalis</i>; Anatolius, <i>Canon Paschalis</i>); Augustine, <i>De Genesi ad Literam</i> (2.14); Gaudentius, <i>Tractatus I in Exodum</i></contents>
+      <script>Mixed Anglo-Saxon majuscule and minuscule</script>
+   </description>
+   <history>
+      <date_desc>VIII</date_desc>
+      <term_post>701</term_post>
+      <term_ante>800</term_ante>
+      <origin>England? <place id="ireland">Ireland</place>? <place id="echternach">Echternach</place>?</origin>
+   </history>
+   <xrefs>
+      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/950">5.585</xref>
+      <xref type="tresmegistos">TM 66716</xref>
+      <xref type="bronner">p. 41</xref>
+   </xrefs>
+   <notes>
+   	<categories>or-ins;or-ire;vern</categories>
+      <project_notes>Latin &amp; Old Irish glosses. </project_notes>
+      <private_notes>No fol. 201 in Lat. 9528. Possibly the erased opening fly-leaf? https://gallica.bnf.fr/ark:/12148/btv1b10465809d/f15.item.r=latin%209528.zoom</private_notes>
+   </notes>
+</manuscript>
+

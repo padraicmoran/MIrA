@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="110">
+   <identifier libraryID="dublin_tcd">
+      <shelfmark>52</shelfmark>
+      <ms_name>Book of Armagh</ms_name>
+      <link type="images">https://digitalcollections.tcd.ie/concern/works/3j333696h</link>
+      <link type="iiif">https://digitalcollections.tcd.ie/concern/works/3j333696h/manifest</link>
+   </identifier>
+   <description>
+      <type />
+      <folios>215</folios>
+      <page_h>195</page_h>
+      <page_w>145</page_w>
+      <contents>Muirchú, <i>Vita Sancti Patricii</i>; <i>Dicta Patricii</i>; Tírechán, <i>Collectanea de Vita S Patricii</i>; Patricius, <i>Confessio</i>; Gospels (Vetus Latina passim, Mt, Mc, Lc, Io); Sulpicius Severus, <i>Vita S Martini, Dialogi de S Martino, Epistulae</i></contents>
+      <script>Irish minuscule</script>
+   </description>
+   <history>
+      <date_desc>IX in (ca. 807)</date_desc>
+      <term_post>807</term_post>
+      <term_ante>815</term_ante>
+      <origin><place id="ireland">Ireland</place> (Armagh)</origin>
+   </history>
+   <xrefs>
+      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/589">2.270</xref>
+      <xref type="tresmegistos">TM 66356</xref>
+      <xref type="thesaurus">1.494–498, 2.238–243</xref>
+      <xref type="bronner">pp 11–13</xref>
+   </xrefs>
+   <notes>
+      <categories>or-ire;sc-ire;vern</categories>
+      <project_notes>Old Irish glosses. </project_notes>
+   </notes>
+</manuscript>
+

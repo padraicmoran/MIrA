@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="111">
+   <identifier libraryID="bologna">
+      <shelfmark>797</shelfmark>
+   </identifier>
+   <description>
+      <type />
+      <folios>117</folios>
+      <page_h>210</page_h>
+      <page_w>125</page_w>
+      <contents>Priscian, <i>Institutio de nomine</i></contents>
+      <script />
+   </description>
+   <history>
+      <date_desc>IX 3/4</date_desc>
+      <term_post>875</term_post>
+      <term_ante>900</term_ante>
+      <origin>prob. <place id="reims">Reims</place> area</origin>
+   </history>
+   <xrefs>
+      <xref type="bischoff_kat">649</xref>
+   </xrefs>
+   <notes>
+      <categories>sc-ire</categories>
+      <project_notes>Marginalia, mostly in Irish hand. </project_notes>
+   </notes>
+</manuscript>
+

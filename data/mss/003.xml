@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="3">
+   <identifier libraryID="vienna">
+      <shelfmark>Lat. 15269 + Lat. Ser. nov. 37</shelfmark>
+      <shelfmark_indexer>Lat. 15269</shelfmark_indexer>
+   </identifier>
+   <description>
+      <type>Binding frag.</type>
+      <folios />
+      <page_h />
+      <page_w />
+      <contents>Gregorius of Tours, <i>De Cursu Stellarum</i>; Macrobius, <i>Saturnalia</i> (1); Solinus, Opus Incertum?</contents>
+      <script>Caroline minuscule</script>
+   </description>
+   <history>
+      <date_desc>VIII ex</date_desc>
+      <term_post>776</term_post>
+      <term_ante>800</term_ante>
+      <origin><place id="salzburg">Salzburg</place></origin>
+   </history>
+   <xrefs>
+      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/233">10.1510</xref>
+      <xref type="bischoff_ssb">2.86 (no. 8)</xref>
+      <xref type="tresmegistos">TM 67697</xref>
+   </xrefs>
+   <notes>
+   	<categories>ex-ire</categories>
+      <project_notes>Irish exemplar (perhaps owned by <person id="virgil_salzburg">Virgil of Salzburg</person>).</project_notes>
+      <private_notes>Shelfmark from CLA changed from L to Lat.</private_notes>
+   </notes>
+</manuscript>
+

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="60">
+   <identifier libraryID="karlsruhe">
+      <shelfmark>Aug. perg. 167 [palimpsest new]</shelfmark>
+      <shelfmark_indexer>Aug. perg. 0167</shelfmark_indexer>
+      <ms_name>Karlsruhe Bede</ms_name>
+      <link type="images">https://nbn-resolving.de/urn:nbn:de:bsz:31-1596</link>
+		<link type="iiif">https://digital.blb-karlsruhe.de/i3f/v20/20736/manifest</link>
+   </identifier>
+   <description>
+      <type />
+      <folios>49</folios>
+      <page_h>281</page_h>
+      <page_w>199</page_w>
+      <contents>Computistica; Bede, <i>De natura rerum</i>, <i>De temporum ratione</i></contents>
+      <script>Irish minuscule</script>
+   </description>
+   <history>
+      <date_desc>IX 1/2</date_desc>
+      <term_post>800</term_post>
+      <term_ante>850</term_ante>
+      <origin>NE France (<place id="soissons">Soissons</place>?)? <place id="ireland">Ireland</place>?</origin>
+      <provenance><place id="reichenau">Reichenau</place></provenance>
+   </history>
+   <xrefs>
+      <xref type="bischoff_kat">1676</xref>
+      <xref type="thesaurus">2.10–30, 283</xref>
+      <xref type="bronner">pp 19–20</xref>
+   </xrefs>
+   <notes>
+      <categories>or-ire;sc-ire;vern</categories>
+      <project_notes>Old Irish glosses. Rewritten over four older manuscript fragments: 
+      MIrA <ms id="61">61</ms>, <ms id="62">62</ms>, <ms id="63">63</ms>, <ms id="59">59</ms>, <ms id="64">64</ms>.</project_notes>
+   </notes>
+</manuscript>
+

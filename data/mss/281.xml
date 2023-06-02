@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="281">
+   <identifier libraryID="munich">
+      <shelfmark>Clm 6411</shelfmark>
+      <shelfmark_indexer>Clm 06411</shelfmark_indexer>
+      <link type="images">http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00012886-4</link>
+      <link type="iiif">https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00012886/manifest</link>
+   </identifier>
+   <description>
+      <type />
+      <folios>96</folios>
+      <page_h>215</page_h>
+      <page_w>140</page_w>
+      <contents>Euthyches, <i>Ars de verbo</i>; Isidore, <i>Etymologiae</i> (excerpts); etc.</contents>
+      <script />
+   </description>
+   <history>
+      <date_desc>IX 1/4</date_desc>
+      <term_post>800</term_post>
+      <term_ante>825</term_ante>
+      <origin>Bavaria</origin>
+   </history>
+   <xrefs>
+      <xref type="bischoff_ssb">1.150</xref>
+      <xref type="bischoff_kat">3078</xref>
+   </xrefs>
+   <notes>
+      <categories>ex-ire</categories>
+      <project_notes>Bischoff, <i>SSB</i>: At least uncalligraphic hands. Strong Insular, esp. Irish, influence in script and contents.</project_notes>
+      <private_notes>This one needs a detailed exploration.</private_notes>
+   </notes>
+</manuscript>
+

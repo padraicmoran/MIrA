@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="159">
+   <identifier libraryID="leiden">
+      <shelfmark>BPL 67</shelfmark>
+      <shelfmark_indexer>BPL 0067</shelfmark_indexer>
+      <ms_name>Leiden Priscian</ms_name>
+      <link type="images">http://hdl.handle.net/1887.1/item:1603880</link>
+      <link type="iiif">https://digitalcollections.universiteitleiden.nl/iiif_manifest/item:1603880/manifest</link>
+   </identifier>
+   <description>
+      <type />
+      <folios>207</folios>
+      <page_h>280</page_h>
+      <page_w>210</page_w>
+      <contents>Priscian, <i>Periegesis</i>, <text id="priscian_ars"><i>Ars grammatica</i></text>, <i>Institutio de Nomine, pronomine et verbo</i></contents>
+      <script>Irish minuscule</script>
+   </description>
+   <history>
+      <date_desc>838</date_desc>
+      <term_post>838</term_post>
+      <term_ante>838</term_ante>
+      <origin>France</origin>
+      <provenance>Egmond</provenance>
+   </history>
+   <xrefs>
+      <xref type="bischoff_kat">2139</xref>
+      <xref type="thesaurus">2.231, 2.422</xref>
+      <xref type="bronner">p. 24</xref>
+
+   </xrefs>
+   <notes>
+      <categories>scribe;vern</categories>
+      <project_notes>Lat. &amp; Old Irish glosses. Scribes incl. Dubthach, <person id="eriugena">Eriugena</person> (e.g. 65r).</project_notes>
+   </notes>
+</manuscript>
+

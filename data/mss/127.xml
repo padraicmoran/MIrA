@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="127">
+   <identifier libraryID="milan">
+      <shelfmark>F 60 sup. (ff 47–49, 55–57, 58) [palimpsest new]</shelfmark>
+      <shelfmark_indexer>F 060 sup. (047)</shelfmark_indexer>
+   </identifier>
+   <description>
+      <type />
+      <folios />
+      <page_h />
+      <page_w />
+      <contents>Excerpta ex Patribus</contents>
+      <script>Irish minuscule</script>
+   </description>
+   <history>
+      <date_desc>VIII ex</date_desc>
+      <term_post>776</term_post>
+      <term_ante>800</term_ante>
+      <origin><place id="bobbio">Bobbio</place></origin>
+   </history>
+   <xrefs>
+      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/673">3.337</xref>
+      <xref type="tresmegistos">TM 66437</xref>
+      <xref type="bronner">pp 29–30</xref>
+      <link type="foundations" href="http://foundationsirishculture.ie/record/?id=14">[external link, with image]</link>
+   </xrefs>
+   <notes>
+      <categories>sc-ire</categories>
+      <project_notes>Several hands, Continental influence.</project_notes>
+   </notes>
+</manuscript>
+

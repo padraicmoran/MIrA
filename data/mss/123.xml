@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="123">
+   <identifier libraryID="milan">
+      <shelfmark>D 36 sup.</shelfmark>
+      <shelfmark_indexer>D 036 sup.</shelfmark_indexer>
+   </identifier>
+   <description>
+      <type />
+      <folios />
+      <page_h />
+      <page_w />
+      <contents>Prudentius, <i>Carmina</i></contents>
+      <script>Uncial</script>
+   </description>
+   <history>
+      <date_desc>VI</date_desc>
+      <term_post>501</term_post>
+      <term_ante>600</term_ante>
+      <origin><place id="italy">Italy</place></origin>
+   </history>
+   <xrefs>
+      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/667">3.331</xref>
+      <xref type="bischoff_kat">2632a</xref>
+      <xref type="tresmegistos">TM 66428</xref>
+   </xrefs>
+   <notes>
+      <categories>scribe</categories>
+      <project_notes>Corrections and marginalia in Irish hands (incl. that of <person id="dungal">Dúngal</person>).</project_notes>
+   </notes>
+</manuscript>
+

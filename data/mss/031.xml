@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="31">
+   <identifier libraryID="paris_bnf">
+      <shelfmark>Lat. 11308</shelfmark>
+      <shelfmark_indexer>Lat. 11308</shelfmark_indexer>
+      <link type="images">https://gallica.bnf.fr/ark:/12148/btv1b100324714</link>
+      <link type="iiif" index="256">https://gallica.bnf.fr/iiif/ark:/12148/btv1b100324714/manifest.json</link>
+   </identifier>
+   <description>
+      <type />
+      <folios />
+      <page_h />
+      <page_w />
+      <contents>Philargyrius; Georgicorum Brevis Expositio; Vita Virgilii; Commentum Aeneidos</contents>
+      <script />
+   </description>
+   <history>
+      <date_desc>IX 2/4</date_desc>
+      <term_post>825</term_post>
+      <term_ante>850</term_ante>
+      <origin><place id="reims">Reims</place></origin>
+   </history>
+   <xrefs>
+      <xref type="bischoff_kat">4676</xref>
+      <xref type="thesaurus">2.360–363</xref>
+      <xref type="bronner">p. 42</xref>
+   </xrefs>
+   <notes>
+   	<categories>vern</categories>
+      <project_notes>Old Irish glosses. </project_notes>
+   </notes>
+</manuscript>
+

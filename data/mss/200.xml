@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="200">
+   <identifier libraryID="cambridge_corpus">
+      <shelfmark>144</shelfmark>
+      <link type="images">https://parker.stanford.edu/parker/catalog/mz111xq7301</link>
+      <link type="iiif">https://dms-data.stanford.edu/data/manifests/Parker/mz111xq7301/manifest.json</link>
+   </identifier>
+   <description>
+      <type />
+      <folios />
+      <page_h />
+      <page_w />
+      <contents>Corpus Glossary</contents>
+      <script>Insular minuscule</script>
+   </description>
+   <history>
+      <date_desc>VIII (or IX?)</date_desc>
+      <term_post>700</term_post>
+      <term_ante>800</term_ante>
+      <origin>England</origin>
+      <provenance><place id="canterbury">Canterbury</place></provenance>
+   </history>
+   <xrefs>
+      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/435">2.122</xref>
+      <xref type="tresmegistos">TM 66226</xref>
+      <xref type="bronner">p. 5</xref>
+   </xrefs>
+   <notes>
+      <categories>vern</categories>
+      <project_notes>Old Irish glosses. Old Irish lemmata, 45r.</project_notes>
+      <private_notes>No category for English origin!</private_notes>
+   </notes>
+</manuscript>
+

@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="20">
+   <identifier libraryID="nancy">
+      <shelfmark>317 (356)</shelfmark>
+   </identifier>
+   <description>
+      <type />
+      <folios />
+      <page_h />
+      <page_w />
+      <contents>Grammatici Latini; Virgilius Maro; computus fragment</contents>
+      <script>Irish minuscule</script>
+   </description>
+   <history>
+      <date_desc>IX 1/4</date_desc>
+      <term_post>800</term_post>
+      <term_ante>825</term_ante>
+      <origin><place id="bobbio">Bobbio</place> (<place id="ireland">Ireland</place>?)</origin>
+   </history>
+   <xrefs>
+      <xref type="bischoff_kat">3570</xref>
+      <xref type="thesaurus">2.41</xref>
+      <xref type="bronner">p. 35</xref>
+   </xrefs>
+   <notes>
+   	<categories>or-ire;sc-ire;vern</categories>
+      <project_notes>Old Irish glosses. </project_notes>
+   </notes>
+</manuscript>
+

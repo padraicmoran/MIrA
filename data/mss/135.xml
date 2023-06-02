@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="135">
+   <identifier libraryID="milan">
+      <shelfmark>L 99 sup. [palimpsest new]</shelfmark>
+      <shelfmark_indexer>L 099 sup.</shelfmark_indexer>
+   </identifier>
+   <description>
+      <type />
+      <folios />
+      <page_h />
+      <page_w />
+      <contents>Isidore, <i>Etymologiae </i>(1–10)</contents>
+      <script>North Italian Pre-Caroline minuscule</script>
+   </description>
+   <history>
+      <date_desc>VIII²</date_desc>
+      <term_post>751</term_post>
+      <term_ante>800</term_ante>
+      <origin />
+   </history>
+   <xrefs>
+      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/691">3.353</xref>
+      <xref type="tresmegistos">TM 66454</xref>
+   </xrefs>
+   <notes>
+      <categories>sc-ire</categories>
+      <project_notes>Scribe shows Irish influence.</project_notes>
+   </notes>
+</manuscript>
+

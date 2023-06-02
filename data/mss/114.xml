@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="114">
+   <identifier libraryID="milan">
+      <shelfmark>A 138 sup.</shelfmark>
+      <shelfmark_indexer>A 138 sup.</shelfmark_indexer>
+   </identifier>
+   <description>
+      <type>Flyleaf</type>
+      <folios />
+      <page_h />
+      <page_w />
+      <contents><text id="priscian_ars">Priscian</text> (frag.)</contents>
+      <script>Irish minuscule</script>
+   </description>
+   <history>
+      <date_desc>IX</date_desc>
+      <term_post>800</term_post>
+      <term_ante>900</term_ante>
+      <origin><place id="bobbio">Bobbio</place>? <place id="ireland">Ireland</place>?</origin>
+   </history>
+   <xrefs>
+      <xref type="thesaurus">2.232</xref>
+      <xref type="bronner">p. 26</xref>
+   </xrefs>
+   <notes>
+      <categories>or-ire;sc-ire;vern</categories>
+      <project_notes>Old Irish glosses (9). Flyleaf for 11th cent. Bobbio MS.</project_notes>
+   </notes>
+</manuscript>
+

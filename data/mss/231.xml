@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="231">
+   <identifier libraryID="berlin">
+      <shelfmark>Ms. Theol. Lat. Fol. 364 (Rose 791)</shelfmark>
+   </identifier>
+   <description>
+      <type />
+      <folios>118</folios>
+      <page_h>268</page_h>
+      <page_w>205</page_w>
+      <contents>Passiones et Vitae Sanctorum</contents>
+      <script />
+   </description>
+   <history>
+      <date_desc>IX 3/4</date_desc>
+      <term_post>850</term_post>
+      <term_ante>875</term_ante>
+      <origin>prob. N. France</origin>
+      <provenance><place id="werden">Werden</place></provenance>
+   </history>
+   <xrefs>
+      <xref type="bischoff_kat">462</xref>
+   </xrefs>
+   <notes>
+      <categories>ex-ire</categories>
+      <project_notes>Bischoff: Irish exemplar?</project_notes>
+      <private_notes />
+   </notes>
+</manuscript>
+

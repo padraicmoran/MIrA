@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="172">
+   <identifier libraryID="bern">
+      <shelfmark>A 756 / 76</shelfmark>
+   </identifier>
+   <description>
+      <type />
+      <folios />
+      <page_h />
+      <page_w />
+      <contents>Commentarius in Leviticum</contents>
+      <script>Irish minuscule</script>
+   </description>
+   <history>
+      <date_desc>VIII</date_desc>
+      <term_post>701</term_post>
+      <term_ante>800</term_ante>
+      <origin>Continent</origin>
+   </history>
+   <xrefs>
+      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/1322">7.869</xref>
+      <xref type="tresmegistos">TM 67013</xref>
+   </xrefs>
+   <notes>
+      <categories>sc-ire</categories>
+      <project_notes />
+   </notes>
+</manuscript>
+

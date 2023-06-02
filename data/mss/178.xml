@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="178">
+   <identifier libraryID="einsiedeln">
+      <shelfmark>321 (647) (ff 27–156)</shelfmark>
+      <link type="images">http://www.e-codices.unifr.ch/de/list/one/sbe/0321</link>
+      <link type="iiif">http://www.e-codices.unifr.ch/metadata/iiif/sbe-0321/manifest.json</link>
+   </identifier>
+   <description>
+      <type />
+      <folios>65</folios>
+      <page_h>220</page_h>
+      <page_w>170</page_w>
+      <contents>Computus</contents>
+      <script>Caroline minuscule</script>
+   </description>
+   <history>
+      <date_desc>IX 2/3</date_desc>
+      <term_post>866</term_post>
+      <term_ante>900</term_ante>
+      <origin>Lake Constance area/<place id="strasbourg">Strasbourg</place></origin>
+      <provenance>Einsiedeln</provenance>
+   </history>
+   <xrefs>
+      <xref type="bischoff_kat">1131</xref>
+      <xref type="bronner">p. 15</xref>
+   </xrefs>
+   <notes>
+      <categories>vern</categories>
+      <project_notes>Old Irish glosses. </project_notes>
+   </notes>
+</manuscript>
+

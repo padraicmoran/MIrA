@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="271">
+   <identifier libraryID="basel">
+      <shelfmark>F III 15l</shelfmark>
+      <link type="images">http://www.e-codices.unifr.ch/en/ubb/F-III-0015l</link>
+      <link type="iiif">http://www.e-codices.unifr.ch/metadata/iiif/ubb-F-III-0015l/manifest.json</link>
+   </identifier>
+   <description>
+      <type />
+      <folios />
+      <page_h />
+      <page_w />
+      <contents>Isidore, <i>Differentiae</i>; Gennadius, <i>De Ecclesiasticis Dogmatibus</i></contents>
+      <script>Anglo-Saxon minuscule</script>
+   </description>
+   <history>
+      <date_desc>VIII</date_desc>
+      <term_post>700</term_post>
+      <term_ante>800</term_ante>
+      <origin>Anglo-Saxon centre, prob. on Continent</origin>
+      <provenance><place id="fulda">Fulda</place></provenance>
+   </history>
+   <xrefs>
+      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/1302">7.849</xref>
+      <xref type="tresmegistos" />
+   </xrefs>
+   <notes>
+      <categories>ex-ire</categories>
+      <project_notes><i>CLA</i>: "The manuscript opens with the formula: 'In nomine dei uiui’, found elsewhere only in the Irish Orosius, Milan Ambros. D. 23 Sup. (CLA 3.328), which suggests that the exemplar may have been Irish."</project_notes>
+      <private_notes />
+   </notes>
+</manuscript>
+

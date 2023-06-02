@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="216">
+   <identifier libraryID="oxford_bodleian">
+      <shelfmark>Rawlinson G 167 [S.C. 14890]</shelfmark>
+      <ms_name>Rawlinson Gospels</ms_name>
+      <link type="images">https://digital.bodleian.ox.ac.uk/objects/73013093-a051-4679-b62b-b17ea32e42ab/</link>
+      <link type="iiif">https://iiif.bodleian.ox.ac.uk/iiif/manifest/73013093-a051-4679-b62b-b17ea32e42ab.json</link>
+   </identifier>
+   <description>
+      <type />
+      <folios />
+      <page_h />
+      <page_w />
+      <contents>Gospels (Lc 1–24.47, Io 1.14–6.54, 7.1, 21.16)</contents>
+      <script>Insular majuscule</script>
+   </description>
+   <history>
+      <date_desc>VIII–IX</date_desc>
+      <term_post>780</term_post>
+      <term_ante>820</term_ante>
+      <origin><place id="ireland">Ireland</place></origin>
+   </history>
+   <xrefs>
+      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/575">2.256</xref>
+      <xref type="tresmegistos">TM 66342</xref>
+   </xrefs>
+   <notes>
+      <categories>or-ire;sc-ire</categories>
+      <project_notes />
+   </notes>
+</manuscript>
+

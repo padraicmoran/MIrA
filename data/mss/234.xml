@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="234">
+   <identifier libraryID="hereford">
+      <shelfmark>O.III.2</shelfmark>
+   </identifier>
+   <description>
+      <type />
+      <folios>205</folios>
+      <page_h>248</page_h>
+      <page_w>193</page_w>
+      <contents>Jerome, <i>De viris illustribus</i>; <i>Decretum Gelasianum</i>; Gennadius, <i>De viris illustribus</i>; Isidore, <i>De viris illustribus</i>; Augustine <i>Retractationes</i>; 
+      Cassiodorus, <i>Institutiones</i> (book 1); Isidore, <i>Prohemia</i>, extracts from <i>De ecclesiasticis officiis, De ortu et obitu sanctorum patrum, Allegoriae</i></contents>
+      <script>Caroline minuscule</script>
+   </description>
+   <history>
+      <date_desc>IX 3/4</date_desc>
+      <term_post>850</term_post>
+      <term_ante>875</term_ante>
+      <origin>France?</origin>
+      <provenance><place id="canterbury">Canterbury</place> (c. 1100)</provenance>
+   </history>
+   <xrefs>
+      <xref type="bischoff_kat">1523</xref>
+      <xref type="tresmegistos" />
+   </xrefs>
+   <notes>
+      <categories>ex-ire;vern</categories>
+      <project_notes>Bischoff: Irish exemplar? Mynors (ed.), <i>Cassiodori Senatoris Institutiones</i> (Oxford, 1937), pp XV–XVI: Irish abbreviations for <i>autem</i> and <i>per</i> sometimes taken over, sometimes wrongly interpreted. 
+      Two embedded Irish glosses misunderstood: <i>sitipio</i> (sc. <i>stibio</i>): <i>id est o dub dabrom</i> (John Fraser: <i>ó dub da bró</i>); <i>fenus</i>: <i>id est amthi</i> (cf. <a href="http://www.stgallpriscian.ie/index.php?kV=2&amp;kP=273&amp;id=7041#hi">Sg. 11b19 l</a>: <i>foenus</i>: <i>aithi</i>). </project_notes>
+      <private_notes>Not in Bronner. Finally, also a citation from Terrentius (could not find elsewhere; check Terrentius in VMG).</private_notes>
+   </notes>
+</manuscript>
+

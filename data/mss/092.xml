@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="92">
+   <identifier libraryID="wurzburg">
+      <shelfmark>M.p.th.f.1 + M.p.th.f.18 + M.p.j.f.7 + M.p.j.f.5 + M.p.th.f.78 [binding]</shelfmark>
+      <shelfmark_indexer>1</shelfmark_indexer>
+   </identifier>
+   <description>
+      <type>Binding frag.</type>
+      <folios />
+      <page_h />
+      <page_w />
+      <contents>Grammatica (fragm.)</contents>
+      <script>Irish minuscule</script>
+   </description>
+   <history>
+      <date_desc>VIII ex</date_desc>
+      <term_post>776</term_post>
+      <term_ante>800</term_ante>
+      <origin><place id="ireland">Ireland</place>?</origin>
+   </history>
+   <xrefs>
+      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/1903">9.1399</xref>
+      <xref type="tresmegistos">TM 67538</xref>
+   </xrefs>
+   <notes>
+      <categories>or-ire;sc-ire</categories>
+      <project_notes>Same scribe who wrote <ms id="52">Jena Charisius fragment</ms>. Possibly brought to <place id="wurzburg">Würzburg</place> by Clemens Scottus after 826.</project_notes>
+      <private_notes>Check contents! (Charisius?)</private_notes>
+   </notes>
+</manuscript>
+

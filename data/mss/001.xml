@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="1">
+   <identifier libraryID="st-paul">
+      <shelfmark>Cod. 86b/1</shelfmark>
+      <ms_name>Reichenauer Schulheft</ms_name>
+      <link type="images">https://hildegard.tristram.de/schulheft/</link>
+   </identifier>
+   <description>
+      <type />
+      <folios />
+      <page_h />
+      <page_w />
+      <contents>Vita Virgilii; Ambrose, <i>Hexameron</i> (extracts); Old Irish poems; scholia on the <i>Aeneid</i>; astronomical table; Greek paradigms; Greek–Latin glossaries; etc.</contents>
+      <script>Irish minuscule</script>
+   </description>
+   <history>
+      <date_desc>840s</date_desc>
+      <term_post>840</term_post>
+      <term_ante>849</term_ante>
+      <origin>NE France (<place id="laon">Laon</place>? <place id="soissons">Soissons</place>?)</origin>
+      <provenance><place id="reichenau">Reichenau</place></provenance>
+   </history>
+   <xrefs>
+      <xref type="kenney">535</xref>
+      <xref type="bischoff_kat">5943</xref>
+      <xref type="ocorrain">812</xref>
+      <xref type="thesaurus">2.293–295</xref>
+      <xref type="bronner">pp 49–50</xref>
+   </xrefs>
+   <notes>
+   	<categories>sc-ire;vern</categories>
+      <project_notes>From same centre as <ms id="70">Aug. perg. 195</ms>. </project_notes>
+   </notes>
+</manuscript>
+

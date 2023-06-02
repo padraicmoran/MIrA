@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="173">
+   <identifier unit="1" libraryID="bern">
+      <shelfmark>207</shelfmark>
+      <link type="images">http://e-codices.ch/en/searchresult/list/one/bbb/0207</link>
+      <link type="iiif">http://www.e-codices.unifr.ch/metadata/iiif/bbb-0207/manifest.json</link>
+   </identifier>
+   <identifier unit="2" libraryID="paris_bnf">
+      <shelfmark>Lat. 7520 (ff 1–24)</shelfmark>
+      <shelfmark_indexer>Lat. 07520 (001)</shelfmark_indexer>
+      <link type="images">http://gallica.bnf.fr/ark:/12148/btv1b84900632</link>
+      <link type="iiif">https://gallica.bnf.fr/iiif/ark:/12148/btv1b84900632/manifest.json</link>
+   </identifier>
+   <description>
+      <type />
+      <folios>195</folios>
+      <page_h />
+      <page_w />
+      <contents>Donatus; Maximus Victorinus, <i>De Finalibus Metrorum</i>; Asper; Sergius; Alcuin, <i>De Grammatica</i>; Bede, <i>De Schematibus et Tropis</i>; Isidore, <i>Etymologiae</i> (1); Julian of Toledo; Probus, <i>De Ultimis Syllabis</i></contents>
+      <script>Mixed minuscule</script>
+   </description>
+   <history>
+      <date_desc>779–797</date_desc>
+      <term_post>779</term_post>
+      <term_ante>797</term_ante>
+      <origin><place id="fleury">Fleury</place></origin>
+   </history>
+   <xrefs>
+      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/930">5.568</xref>
+      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/1260">7.**568</xref>
+      <xref type="dhbm" href="https://ircabritt.nuigalway.ie/handlist/catalogue/22">#22</xref>
+      <xref type="bischoff_kat">551a</xref>
+      <xref type="kenney">207</xref>
+      <xref type="tresmegistos">TM 66699</xref>
+      <xref type="bronner">p. 2</xref>
+	</xrefs>
+   <notes>
+      <categories>vern</categories>
+      <project_notes>Old Irish glosses on Sergius, 146v and 148r (<i>papae: amre</i>). </project_notes>
+      <private_notes>Glosses need further investigation. See refs in Bronner.</private_notes>
+   </notes>
+</manuscript>
+

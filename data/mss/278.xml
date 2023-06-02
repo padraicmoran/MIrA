@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="278">
+   <identifier libraryID="munich">
+      <shelfmark>Clm 14166 (ff 72–201)</shelfmark>
+      <shelfmark_indexer>Clm 14166</shelfmark_indexer>
+      <link type="images">https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00065411-0</link>
+      <link type="iiif" index="143">https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00034750/manifest</link>
+   </identifier>
+   <description>
+      <type />
+      <folios>130</folios>
+      <page_h>295</page_h>
+      <page_w>215</page_w>
+      <contents>Isidore, <i>Quaestiones in Vetus Testamentum</i></contents>
+      <script>Pre-Caroline minuscule</script>
+   </description>
+   <history>
+      <date_desc>VIII ex</date_desc>
+      <term_post>776</term_post>
+      <term_ante>800</term_ante>
+      <origin><place id="regensburg">Regensburg</place></origin>
+   </history>
+   <xrefs>
+      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/1786">9.1291</xref>
+      <xref type="bischoff_ssb">1.188–189 (no. 8)</xref>
+      <xref type="tresmegistos">TM 67435</xref>
+   </xrefs>
+   <notes>
+      <categories>ex-ins</categories>
+      <project_notes>Insular exemplar. <i>CLA</i>: "whole words or sentences are for no good reason transcribed in Greek letters—an Insular trick (on foll. 132, 136v, 172v)".</project_notes>
+      <private_notes>CLA: MS (72v) says Heptateuch ("super eptaticum"), Bischoff Pentateuch, CLA Octateuch!</private_notes>
+   </notes>
+</manuscript>
+

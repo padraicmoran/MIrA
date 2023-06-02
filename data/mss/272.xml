@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="272">
+   <identifier libraryID="london_bl">
+      <shelfmark>Egerton 2831 (ff 110–143)</shelfmark>
+      <link type="images">http://access.bl.uk/item/viewer/ark:/81055/vdc_100056031595.0x000001</link>
+      <link type="iiif" index="223">https://api.bl.uk/metadata/iiif/ark:/81055/vdc_100056031595.0x000001/manifest.json</link>
+   </identifier>
+   <description>
+      <type />
+      <folios />
+      <page_h />
+      <page_w />
+      <contents>Jerome, <i>In Isaiam</i> (14–18)</contents>
+      <script>Insular minuscule</script>
+   </description>
+   <history>
+      <date_desc>VIII²</date_desc>
+      <term_post>750</term_post>
+      <term_ante>800</term_ante>
+      <origin><place id="tours">Tours</place></origin>
+   </history>
+   <xrefs>
+      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/513">2.196b</xref>
+      <xref type="tresmegistos" />
+   </xrefs>
+   <notes>
+      <categories>sc-ins</categories>
+      <project_notes><i>CLA</i>: "resembles certain hands in Vatic. Pal. Lat. 235 (CLA 1.87) and probably the work of a Northumbrian scribe schooled in the Irish tradition"</project_notes>
+      <private_notes />
+   </notes>
+</manuscript>
+

@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="25">
+   <identifier libraryID="paris_bnf">
+      <shelfmark>Lat. 9488 (ff 3–4)</shelfmark>
+      <shelfmark_indexer>Lat. 09488 (003)</shelfmark_indexer>
+      <link type="images">https://gallica.bnf.fr/ark:/12148/btv1b84324568</link>
+      <link type="iiif" index="10">https://gallica.bnf.fr/iiif/ark:/12148/btv1b84324568/manifest.json</link>
+   </identifier>
+   <description>
+      <type />
+      <folios>2</folios>
+      <page_h />
+      <page_w />
+      <contents>Sacramentarium (fragm.)</contents>
+      <script>Insular majuscule</script>
+   </description>
+   <history>
+      <date_desc>VIII</date_desc>
+      <term_post>701</term_post>
+      <term_ante>800</term_ante>
+      <origin><place id="ireland">Ireland</place> or N England</origin>
+   </history>
+   <xrefs>
+      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/946">5.581</xref>
+      <xref type="tresmegistos">TM 66712</xref>
+      <link type="foundations" href="http://foundationsirishculture.ie/record/?id=32">[external link, with image]</link>
+   </xrefs>
+   <notes>
+    	<categories>or-ins;or-ire</categories>
+     <glosses />
+      <project_notes />
+   </notes>
+</manuscript>
+

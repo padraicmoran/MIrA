@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="209">
+   <identifier libraryID="london_getty">
+      <shelfmark>na</shelfmark>
+   </identifier>
+   <description>
+      <type />
+      <folios>1</folios>
+      <page_h>182</page_h>
+      <page_w>140</page_w>
+      <contents>Rufinus, <i>Historia Ecclesiastica</i> (1.1–3, 10)</contents>
+      <script>Irish Half-Uncial</script>
+   </description>
+   <history>
+      <date_desc>VII</date_desc>
+      <term_post>601</term_post>
+      <term_ante>700</term_ante>
+      <origin><place id="ireland">Ireland</place></origin>
+   </history>
+   <xrefs>
+      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/2172">S1.1864</xref>
+      <xref type="tresmegistos">TM 68726</xref>
+   </xrefs>
+   <notes>
+      <categories>or-ire;sc-ire</categories>
+      <project_notes>1 bifolium (now 130 mm width; 2 cols)</project_notes>
+   </notes>
+</manuscript>
+

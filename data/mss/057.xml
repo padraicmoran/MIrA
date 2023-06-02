@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="57">
+   <identifier libraryID="karlsruhe">
+      <shelfmark>Aug. perg. 135 (ff 1–105)</shelfmark>
+      <shelfmark_indexer>Aug. perg. 0135 (001)</shelfmark_indexer>
+      <link type="images">https://nbn-resolving.de/urn:nbn:de:bsz:31-16288</link>
+		<link type="iiif">https://digital.blb-karlsruhe.de/i3f/v20/246446/manifest</link>
+   </identifier>
+   <description>
+      <type />
+      <folios>105</folios>
+      <page_h>298</page_h>
+      <page_w>213</page_w>
+      <contents>Bede, <i>Super Actus apostolorum expositio</i>; Glossae in partem Veteris Testamenti</contents>
+      <script>Caroline minuscule</script>
+   </description>
+   <history>
+      <date_desc>IX 2/3</date_desc>
+      <term_post>833</term_post>
+      <term_ante>866</term_ante>
+      <origin>prob. <place id="reichenau">Reichenau</place></origin>
+   </history>
+   <xrefs>
+      <xref type="bischoff_kat">1658</xref>
+   </xrefs>
+   <notes>
+      <categories>ex-ire</categories>
+      <project_notes>Bischoff: numerous Irish abbreviations.</project_notes>
+   </notes>
+</manuscript>
+

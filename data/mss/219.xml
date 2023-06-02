@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="219">
+   <identifier unit="1" libraryID="harvard">
+      <shelfmark>Typ. 613 (20688) (ff 1–8)</shelfmark>
+      <link type="images">http://nrs.harvard.edu/urn-3:FHCL.HOUGH:1124603</link>
+		<link type="iiif">https://iiif.lib.harvard.edu/manifests/drs:6650256</link>
+   </identifier>
+   <identifier unit="2" libraryID="munich">
+      <shelfmark>Clm 14938 (29051)(b)</shelfmark>
+      <shelfmark_indexer>Clm 14938</shelfmark_indexer>
+   </identifier>
+   <identifier unit="3" libraryID="munich">
+      <shelfmark>Clm 29410/2</shelfmark>
+      <shelfmark_indexer>Clm 29410/2</shelfmark_indexer>
+      <link type="images">http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00071374-7</link>
+      <link type="iiif">https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00071374/manifest</link>
+   </identifier>
+   <identifier unit="4" libraryID="columbia">
+      <shelfmark>Plimpton Collection 127</shelfmark>
+      <link type="images">http://ds.lib.berkeley.edu/PlimptonMS127_20</link>
+   </identifier>
+   <identifier unit="5" libraryID="regensburg">
+      <shelfmark>Fragm. 1</shelfmark>
+   </identifier>
+   <description>
+      <type />
+      <folios>34</folios>
+      <page_h>205</page_h>
+      <page_w>140</page_w>
+      <contents>Isidore, <i>Etymologiae</i> (1, 11, fragm.), <i>Interrogationes et Responsiones</i> (fragm.); Arnobius Iunior, Opus Incertum(?), <i>Expositio in Evangelia</i>, <i>Computus</i>; Caesarius Arelatensis, <i>Homiliae</i> (fragm.)</contents>
+      <script>Irish majuscule</script>
+   </description>
+   <history>
+      <date_desc>VIII–IX</date_desc>
+      <term_post>780</term_post>
+      <term_ante>820</term_ante>
+      <origin>Irish centre</origin>
+      <provenance>St Emmeram, <place id="regensburg">Regensburg</place></provenance>
+   </history>
+   <xrefs>
+      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/457">2.144</xref>
+      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/1709">9.**144</xref>
+      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/328">11.**144</xref>
+      <xref type="bischoff_ssb">1.257; 2.246–247</xref>
+      <xref type="bischoff_kat">3458</xref>
+      <xref type="tresmegistos">TM 66244</xref>
+   </xrefs>
+   <notes>
+      <categories>sc-ire</categories>
+      <project_notes />
+      <private_notes>Bischoff, <i>Kat</i>: + Weinheim, s.n. 
+      Need to check parts. Bischoff, SSB: also Cheltenham, Phillipps 20688 (ff 1–8)?; counts 6 ff from Clm 29051, 8 Cheltenham, 4 NY.
+      See also https://isidore.sd.di.huc.knaw.nl/#detail/M0122</private_notes>
+   </notes>
+</manuscript>
+

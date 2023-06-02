@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="83">
+   <identifier libraryID="munich">
+      <shelfmark>Clm 14423 (ff 1–76)</shelfmark>
+      <shelfmark_indexer>Clm 14423</shelfmark_indexer>
+      <link type="images">https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00046484-8</link>
+      <link type="iiif">https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00046484/manifest</link>
+   </identifier>
+   <description>
+      <type />
+      <folios>76</folios>
+      <page_h>255</page_h>
+      <page_w>185</page_w>
+      <contents>Isidore (excerpts); Eucherius, <i>Instructiones</i>; etc.</contents>
+      <script>Irish and Caroline minuscule</script>
+   </description>
+   <history>
+      <date_desc>IX²</date_desc>
+      <term_post>850</term_post>
+      <term_ante>900</term_ante>
+      <origin>S. Germany (Irish scribe)</origin>
+   </history>
+   <xrefs>
+      <xref type="bischoff_ssb">1.243</xref>
+      <xref type="bischoff_kat">3189</xref>
+   </xrefs>
+   <notes>
+      <categories>sc-ire</categories>
+      <project_notes>ff 1r–33v, 54r–76v in Irish hand (same as in <ms id="85">Clm 14429</ms> and <ms id="87">Clm 14459</ms>), 34r–53v Caroline.
+      Bischoff, <i>SSB</i>: Copied from <place id="reichenau">Reichenau</place> MS Karlruhe Aug. 111 (s. IX in), so Irish scribe prob. worked at Reichenau also.</project_notes>
+      <private_notes>Bischoff: scribe poss. the Iob who came to Regensburg ("venit in monasterium sancti Emmerammi"), in ?894.</private_notes>
+   </notes>
+</manuscript>
+

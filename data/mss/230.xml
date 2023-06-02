@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="230">
+   <identifier libraryID="bamberg">
+      <shelfmark>Class.31 (E.III.22)</shelfmark>
+      <link type="images">https://nbn-resolving.org/urn:nbn:de:bvb:12-sbb00000095-5</link>
+   </identifier>
+   <description>
+      <type />
+      <folios>107</folios>
+      <page_h>200</page_h>
+      <page_w>140</page_w>
+      <contents>Dares; Rufius Festus, <i>Breviarium</i>; Florus</contents>
+      <script>Caroline minuscule</script>
+   </description>
+   <history>
+      <date_desc>IX/X or X in</date_desc>
+      <term_post>880</term_post>
+      <term_ante>920</term_ante>
+      <origin>prob. <place id="italy">Italy</place></origin>
+   </history>
+   <xrefs>
+      <xref type="bischoff_kat">208</xref>
+      <xref type="tresmegistos" />
+   </xrefs>
+   <notes>
+      <categories>ex-ire</categories>
+      <project_notes>Bischoff: Irish exemplar (Dares)?</project_notes>
+      <private_notes />
+   </notes>
+</manuscript>
+

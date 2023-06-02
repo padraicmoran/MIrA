@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="35">
+   <identifier libraryID="paris_bnf">
+      <shelfmark>Lat. 13026 (ff 121–181)</shelfmark>
+      <shelfmark_indexer>Lat. 13026</shelfmark_indexer>
+      <link type="images">https://gallica.bnf.fr/ark:/12148/btv1b100390963</link>
+      <link type="iiif" index="129">https://gallica.bnf.fr/iiif/ark:/12148/btv1b100390963/manifest.json</link>
+   </identifier>
+   <description>
+      <type />
+      <folios />
+      <page_h />
+      <page_w />
+      <contents>Eutyches, Cruindmel, Donatus Ortigraphus, Ars Malsachani (ff 161r–181v), etc.</contents>
+      <script />
+   </description>
+   <history>
+      <date_desc>IX 1/4</date_desc>
+      <term_post>800</term_post>
+      <term_ante>825</term_ante>
+      <origin><place id="corbie">Corbie</place></origin>
+      <provenance><place id="paris">Paris</place> area</provenance>
+   </history>
+   <xrefs>
+      <xref type="bischoff_kat">4864</xref>
+      <xref type="bronner">p. 44</xref>
+   </xrefs>
+   <notes>
+   	<categories>vern;text</categories>
+      <project_notes>Latin glosses and Old Irish gloss, f. 173v.</project_notes>
+   </notes>
+</manuscript>
+

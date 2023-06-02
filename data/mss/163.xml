@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="163">
+   <identifier libraryID="leiden">
+      <shelfmark>BPL 2391 a</shelfmark>
+      <shelfmark_indexer>BPL 2391a</shelfmark_indexer>
+      <link type="images">http://hdl.handle.net/1887.1/item:761096</link>
+      <link type="iiif">https://digitalcollections.universiteitleiden.nl/iiif_manifest/item:761096/manifest</link>
+   </identifier>
+   <description>
+      <type />
+      <folios>1</folios>
+      <page_h>315</page_h>
+      <page_w>210</page_w>
+      <contents>Boethius, <i>De institutione arithmetica</i> (frag.)</contents>
+      <script>Irish minuscule</script>
+   </description>
+   <history>
+      <date_desc>IX 2/4</date_desc>
+      <term_post>825</term_post>
+      <term_ante>850</term_ante>
+      <origin><place id="ireland">Ireland</place>? Continent?</origin>
+   </history>
+   <xrefs>
+      <xref type="bronner">p. 25</xref>
+   </xrefs>
+   <notes>
+      <categories>or-ire;sc-ire;vern</categories>
+      <project_notes>Old Irish glosses. </project_notes>
+   </notes>
+</manuscript>
+

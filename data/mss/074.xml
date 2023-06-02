@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="74">
+   <identifier libraryID="karlsruhe">
+      <shelfmark>Fragm. Aug. 20</shelfmark>
+      <shelfmark_indexer>Fragm. Aug. 0020</shelfmark_indexer>
+      <link type="images">https://nbn-resolving.de/urn:nbn:de:bsz:31-1996</link>
+		<link type="iiif">https://digital.blb-karlsruhe.de/i3f/v20/21701/manifest</link>
+   </identifier>
+   <description>
+      <type />
+      <folios />
+      <page_h />
+      <page_w />
+      <contents>Consuetudines Monasticae (fragm.)</contents>
+      <script>Irish majuscule</script>
+   </description>
+   <history>
+      <date_desc>VIII–IX</date_desc>
+      <term_post>780</term_post>
+      <term_ante>820</term_ante>
+      <origin><place id="ireland">Ireland</place> (Tallaght)</origin>
+      <provenance><place id="reichenau">Reichenau</place></provenance>
+   </history>
+   <xrefs>
+      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/1585">8.1118</xref>
+      <xref type="tresmegistos">TM 67258</xref>
+   </xrefs>
+   <notes>
+      <categories>or-ire;sc-ire</categories>
+      <project_notes />
+   </notes>
+</manuscript>
+

@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="98">
+   <identifier libraryID="dublin_tcd">
+      <shelfmark>55 (A.IV.15)</shelfmark>
+      <ms_name>Codex Usserianus Primus</ms_name>
+      <link type="images">https://digitalcollections.tcd.ie/concern/works/kk91fn47w</link>
+      <link type="iiif">https://digitalcollections.tcd.ie/concern/works/kk91fn47w/manifest</link>
+   </identifier>
+   <description>
+      <type />
+      <folios>182</folios>
+      <page_h>125</page_h>
+      <page_w>175</page_w>
+      <contents>Gospels (Vetus latina, Mt, Mc, Lc, Io fragm.)</contents>
+      <script>Irish Half-Uncial</script>
+   </description>
+   <history>
+      <date_desc>VII in</date_desc>
+      <term_post>601</term_post>
+      <term_ante>625</term_ante>
+      <origin>Irish centre</origin>
+   </history>
+   <xrefs>
+      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/590">2.271</xref>
+      <xref type="tresmegistos">TM 66357</xref>
+      <xref type="bronner">pp 13–14</xref>
+   </xrefs>
+   <notes>
+      <categories>vern</categories>
+      <project_notes>Latin and Old Irish glosses (dry point). Damage indicates lost cumdach.</project_notes>
+   </notes>
+</manuscript>
+

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="227">
+   <identifier libraryID="vatican">
+      <shelfmark>Reg. Lat. 215</shelfmark>
+      <shelfmark_indexer>Reg. Lat 215</shelfmark_indexer>
+      <link type="images">http://digi.vatlib.it/view/MSS_Reg.lat.215</link>
+      <link type="iiif">https://digi.vatlib.it/iiif/MSS_Reg.lat.215/manifest.json</link>
+   </identifier>
+   <description>
+      <type />
+      <folios />
+      <page_h />
+      <page_w />
+      <contents>OT glossary</contents>
+      <script>Continental hand</script>
+   </description>
+   <history>
+      <date_desc>876/7</date_desc>
+      <term_post>876</term_post>
+      <term_ante>877</term_ante>
+      <origin>Limousin? <place id="tours">Tours</place>? <place id="laon">Laon</place>?</origin>
+   </history>
+   <xrefs>
+      <xref type="thesaurus">1.1–2</xref>
+      <xref type="bronner">p. 7</xref>
+   </xrefs>
+   <notes>
+      <categories>vern</categories>
+      <project_notes>Old Irish glosses (41). Glosses from Haimo of <place id="auxerre">Auxerre</place> and <person id="eriugena">Eriugena</person>.</project_notes>
+   </notes>
+</manuscript>
+

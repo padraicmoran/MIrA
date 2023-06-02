@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="258">
+   <identifier libraryID="laon">
+      <shelfmark>298</shelfmark>
+      <shelfmark_indexer>298</shelfmark_indexer>
+   </identifier>
+   <description>
+      <folios>150</folios>
+      <page_h>226</page_h>
+      <page_w>118</page_w>
+      <contents>Origen, <i>Homiliae in librum Numerorum</i></contents>
+      <script>Caroline minuscule</script>
+   </description>
+   <history>
+      <date_desc>IX 1/3</date_desc>
+      <term_post>800</term_post>
+      <term_ante>833</term_ante>
+      <origin><place id="saint-amand">Saint-Amand</place></origin>
+      <provenance><place id="laon">Laon</place></provenance>
+   </history>
+   <xrefs>
+      <xref type="bischoff_kat">2103</xref>
+      <xref type="tresmegistos" />
+   </xrefs>
+   <notes>
+      <categories>scribe</categories>
+      <project_notes>Hand of <person id="martin">Martin</person>.</project_notes>
+      <private_notes />
+   </notes>
+</manuscript>
+

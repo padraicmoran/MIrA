@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="175">
+   <identifier libraryID="bern">
+      <shelfmark>234 (ff 1–53)</shelfmark>
+      <link type="images">http://e-codices.ch/en/searchresult/list/one/bbb/0234</link>
+      <link type="iiif">http://www.e-codices.unifr.ch/metadata/iiif/bbb-0234/manifest.json</link>
+   </identifier>
+   <description>
+      <type />
+      <folios>53</folios>
+      <page_h>298</page_h>
+      <page_w>213</page_w>
+      <contents>Cassiodorus, <i>Institutiones</i>; etc.</contents>
+      <script />
+   </description>
+   <history>
+      <date_desc>IX 2/3</date_desc>
+      <term_post>825</term_post>
+      <term_ante>850</term_ante>
+      <origin><place id="fulda">Fulda</place></origin>
+   </history>
+   <xrefs>
+      <xref type="bischoff_kat">558</xref>
+   </xrefs>
+   <notes>
+      <categories>sc-ire</categories>
+      <project_notes>Gloss (1) in Irish hand. </project_notes>
+   </notes>
+</manuscript>
+

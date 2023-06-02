@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="85">
+   <identifier libraryID="munich">
+      <shelfmark>Clm 14429 [palimpsest new]</shelfmark>
+      <shelfmark_indexer>Clm 14429</shelfmark_indexer>
+      <link type="images">https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00046470-1</link>
+      <link type="iiif">https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00046470/manifest</link>
+   </identifier>
+   <description>
+      <type />
+      <folios>228</folios>
+      <page_h>250</page_h>
+      <page_w>180</page_w>
+      <contents>Liber Glossarum (ff 3r–221v), etc.</contents>
+      <script />
+   </description>
+   <history>
+      <date_desc>IX²</date_desc>
+      <term_post>850</term_post>
+      <term_ante>900</term_ante>
+      <origin><place id="reichenau">Reichenau</place> or S Germany</origin>
+      <provenance><place id="regensburg">Regensburg</place></provenance>
+   </history>
+   <xrefs>
+      <xref type="bischoff_ssb">1.243–244</xref>
+      <xref type="bischoff_kat">3193</xref>
+      <xref type="bronner">32–33</xref>
+   </xrefs>
+   <notes>
+      <categories>sc-ire;vern</categories>
+      <project_notes>Old Irish glosses. Bischoff: Irish scribe (same as in <ms id="83">Clm 14423</ms> and <ms id="87">Clm 14459</ms>).</project_notes>
+      <private_notes>1r: pen trials (Caroline and one Irish, Gen. 7:16); 1v–2v: Hebrew names</private_notes>
+   </notes>
+</manuscript>
+

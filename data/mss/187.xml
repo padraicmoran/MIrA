@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="187">
+   <identifier libraryID="st-gall">
+      <shelfmark>904</shelfmark>
+      <shelfmark_indexer>0904</shelfmark_indexer>
+      <link type="images">http://www.e-codices.unifr.ch/de/list/one/csg/0904</link>
+      <link type="iiif">http://www.e-codices.unifr.ch/metadata/iiif/csg-0904/manifest.json</link>
+   </identifier>
+   <description>
+      <type />
+      <folios />
+      <page_h />
+      <page_w />
+      <contents><text id="priscian_ars">Priscian</text></contents>
+      <script />
+   </description>
+   <history>
+      <date_desc>851</date_desc>
+      <term_post>851</term_post>
+      <term_ante>851</term_ante>
+      <origin><place id="ireland">Ireland</place></origin>
+   </history>
+   <xrefs>
+      <xref type="kenney">364</xref>
+      <xref type="ocorrain">380</xref>
+      <xref type="thesaurus">2.49–244</xref>
+      <xref type="bronner">pp 46–48</xref>
+   </xrefs>
+   <notes>
+      <categories>or-ire;sc-ire;vern</categories>
+      <project_notes>Old Irish glosses. </project_notes>
+   </notes>
+</manuscript>
+

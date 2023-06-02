@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="12">
+   <identifier libraryID="laon">
+      <shelfmark>50</shelfmark>
+      <shelfmark_indexer>050</shelfmark_indexer>
+   </identifier>
+   <description>
+      <type />
+      <folios>185</folios>
+      <page_h>300</page_h>
+      <page_w>235</page_w>
+      <contents><text id="lathcen">Lathcen, <i>Ecloga Gregorii Moralium in Iob</i></text></contents>
+      <script>Early Caroline minuscule</script>
+   </description>
+   <history>
+      <date_desc>VIII–IX</date_desc>
+      <term_post>780</term_post>
+      <term_ante>820</term_ante>
+      <origin>N France</origin>
+   </history>
+   <xrefs>
+      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/1171">6.763</xref>
+      <xref type="bischoff_kat">2053</xref>
+      <xref type="tresmegistos">TM 66933</xref>
+   </xrefs>
+   <notes>
+   	<categories>ex-ire;scribe;text</categories>
+      <project_notes>Hand of <person id="martin">Martin</person>. Bischoff: Irish exemplar.</project_notes>
+   </notes>
+</manuscript>
+

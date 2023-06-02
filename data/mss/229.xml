@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="229">
+   <identifier libraryID="munich">
+      <shelfmark>Clm 6398</shelfmark>
+      <shelfmark_indexer>Clm 06398</shelfmark_indexer>
+      <link type="images">http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00065392-8</link>
+      <link type="iiif">https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00065392/manifest</link>
+   </identifier>
+   <description>
+      <type />
+      <folios>135</folios>
+      <page_h>275</page_h>
+      <page_w>175</page_w>
+      <contents><text id="priscian_ars">Priscian, <i>Institutiones grammaticae</i></text></contents>
+      <script />
+   </description>
+   <history>
+      <date_desc>IX med</date_desc>
+      <term_post>840</term_post>
+      <term_ante>860</term_ante>
+      <origin>Freising</origin>
+   </history>
+   <xrefs>
+      <xref type="bischoff_kat">3071</xref>
+      <xref type="bischoff_ssb">1.117</xref>
+   </xrefs>
+   <notes>
+      <categories>ex-ire</categories>
+      <project_notes>Bischoff, <i>SBB</i>: Insular abbreviations, prob. Irish exemplar.</project_notes>
+      <private_notes>Glosses in various Caroline hands.</private_notes>
+   </notes>
+</manuscript>
+

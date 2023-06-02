@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="240">
+   <identifier libraryID="munich">
+      <shelfmark>Clm 14715 (ff 1–56)</shelfmark>
+      <shelfmark_indexer>Clm 14715 (001) </shelfmark_indexer>
+      <link type="images">https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00103988-3</link>
+      <link type="iiif">https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00103988/manifest</link>
+   </identifier>
+   <description>
+      <type />
+      <folios>56</folios>
+      <page_h>190</page_h>
+      <page_w>140</page_w>
+      <contents><i>Eclogae tractatorum in psalterium</i></contents>
+      <script>Caroline minuscule</script>
+   </description>
+   <history>
+      <date_desc>IX²</date_desc>
+      <term_post>850</term_post>
+      <term_ante>900</term_ante>
+      <origin>S Germany</origin>
+   </history>
+   <xrefs>
+      <xref type="bischoff_ssb">1.253, 2.244</xref>
+      <xref type="bischoff_kat">3245</xref>
+   </xrefs>
+   <notes>
+      <categories>ex-ire;text</categories>
+      <project_notes>Bischoff, <i>SSB</i>: apparently Insular exemplar (1.253); title of Irish compilation mentioned in St Gall, MS 261 (2.244). Bischoff, <i>Kat.</i>: Irish exemplar.</project_notes>
+      <private_notes />
+   </notes>
+</manuscript>
+

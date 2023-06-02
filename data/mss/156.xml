@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="156">
+   <identifier unit="1" libraryID="turin">
+      <shelfmark>F.III.16 (ff 176–181)</shelfmark>
+      <shelfmark_indexer>F.003.016</shelfmark_indexer>
+   </identifier>
+   <identifier unit="2" libraryID="vatican">
+      <shelfmark>Lat. 5755 (pp 7–94,123–147) [palimpsest]</shelfmark>
+      <shelfmark_indexer>F.003.016</shelfmark_indexer>
+      <link type="images">https://digi.vatlib.it/view/MSS_Vat.lat.5755</link>
+      <link type="iiif" index="21">https://digi.vatlib.it/iiif/MSS_Vat.lat.5755/manifest.json</link>
+   </identifier>
+   <description>
+      <type />
+      <folios />
+      <page_h />
+      <page_w />
+      <contents>?</contents>
+      <script />
+   </description>
+   <history>
+      <date_desc>IX</date_desc>
+      <term_post>800</term_post>
+      <term_ante>900</term_ante>
+      <origin>Irish on Continent?</origin>
+   </history>
+   <xrefs>
+      <xref type="bischoff_kat">6297</xref>
+   </xrefs>
+   <notes>
+      <categories />
+      <project_notes />
+      <private_notes>*** Check</private_notes>
+   </notes>
+</manuscript>
+

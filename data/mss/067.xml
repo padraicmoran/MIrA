@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="67">
+   <identifier libraryID="karlsruhe">
+      <shelfmark>Aug. perg. 195 (fol. 35) [palimpsest old]</shelfmark>
+      <shelfmark_indexer>Aug. perg. 0195 (035)</shelfmark_indexer>
+      <link type="images">https://nbn-resolving.de/urn:nbn:de:bsz:31-57754</link>
+		<link type="iiif">https://digital.blb-karlsruhe.de/i3f/v20/3298726/manifest</link>
+   </identifier>
+   <description>
+      <type />
+      <folios />
+      <page_h />
+      <page_w />
+      <contents>Fragmentum Liturgicum (Sacramentarium (?))</contents>
+      <script>Irish majuscule</script>
+   </description>
+   <history>
+      <date_desc>VIII</date_desc>
+      <term_post>701</term_post>
+      <term_ante>800</term_ante>
+      <origin><place id="ireland">Ireland</place></origin>
+      <provenance><place id="reichenau">Reichenau</place></provenance>
+   </history>
+   <xrefs>
+      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/1558">8.1092</xref>
+      <xref type="tresmegistos">TM 67232</xref>
+   </xrefs>
+   <notes>
+      <categories>or-ire;sc-ire</categories>
+      <project_notes>Rewritten with Augustine</project_notes>
+   </notes>
+</manuscript>
+

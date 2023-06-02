@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="125">
+   <identifier libraryID="milan">
+      <shelfmark>D 547 inf.</shelfmark>
+      <shelfmark_indexer>D 547 inf.</shelfmark_indexer>
+   </identifier>
+   <description>
+      <type />
+      <folios />
+      <page_h />
+      <page_w />
+      <contents>Augustine, <i>Enarrationes in Psalmos</i></contents>
+      <script />
+   </description>
+   <history>
+      <date_desc>IX 3/4</date_desc>
+      <term_post>850</term_post>
+      <term_ante>875</term_ante>
+      <origin><place id="bobbio">Bobbio</place></origin>
+   </history>
+   <xrefs>
+      <xref type="bischoff_kat">2617</xref>
+   </xrefs>
+   <notes>
+      <categories>sc-ire</categories>
+      <project_notes>Bischoff: Irish corr. (s. IX ex): 10r, 11v, 29r, 230r, etc.</project_notes>
+   </notes>
+</manuscript>
+

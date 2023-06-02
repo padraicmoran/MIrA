@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="196">
+   <identifier libraryID="zurich">
+      <shelfmark>A.G. 19 No. 36 (fol. 57 = p. 117–118)</shelfmark>
+   </identifier>
+   <description>
+      <type />
+      <folios>1</folios>
+      <page_h />
+      <page_w />
+      <contents>Sacramentarium Celticum (fragm.)</contents>
+      <script>Irish minuscule</script>
+   </description>
+   <history>
+      <date_desc>VIII</date_desc>
+      <term_post>701</term_post>
+      <term_ante>800</term_ante>
+      <origin><place id="ireland">Ireland</place></origin>
+   </history>
+   <xrefs>
+      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/1283">7.1012</xref>
+      <xref type="tresmegistos">TM 67157</xref>
+      <link type="foundations" href="http://foundationsirishculture.ie/record/?id=58">[external link, with image]</link>
+   </xrefs>
+   <notes>
+      <categories>or-ire;sc-ire</categories>
+      <project_notes>Discarded in 11th cent.</project_notes>
+   </notes>
+</manuscript>
+

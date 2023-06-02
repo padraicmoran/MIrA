@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="213">
+   <identifier libraryID="london_lambeth">
+      <shelfmark>1370</shelfmark>
+      <ms_name>MacDurnan’s Gospels</ms_name>
+      <link type="images">https://images.lambethpalacelibrary.org.uk/luna/servlet/view/all/what/Gospel/Illuminated%2BManuscripts?sort=creator%2Ctype%2Cdate%2Ctitle</link>
+   </identifier>
+   <description>
+      <type />
+      <folios />
+      <page_h>158</page_h>
+      <page_w>111</page_w>
+      <contents>New Testament</contents>
+      <script />
+   </description>
+   <history>
+      <date_desc>IX²</date_desc>
+      <term_post>850</term_post>
+      <term_ante>900</term_ante>
+      <origin><place id="ireland">Ireland</place> (Armagh?)</origin>
+      <provenance><place id="canterbury">Canterbury</place></provenance>
+   </history>
+   <xrefs>
+      <xref type="thesaurus">1.484</xref>
+      <xref type="bronner">p. 26</xref>
+   </xrefs>
+   <notes>
+      <categories>or-ire;sc-ire;vern</categories>
+      <project_notes>One Old Irish gloss. </project_notes>
+   </notes>
+</manuscript>
+

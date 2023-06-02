@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="104">
+   <identifier libraryID="dublin_ria">
+      <shelfmark>D II 3 (ff 1–11)</shelfmark>
+      <shelfmark_indexer>D II 3 (ff 01–11)</shelfmark_indexer>
+      <link type="iiif">https://www.isos.dias.ie/static/manifests/RIA_MS_D_ii_3.json</link>
+   </identifier>
+   <description>
+      <type />
+      <folios />
+      <page_h />
+      <page_w />
+      <contents>Gospels (Io, excerpta)</contents>
+      <script>Irish minuscule</script>
+   </description>
+   <history>
+      <date_desc>VIII–IX</date_desc>
+      <term_post>780</term_post>
+      <term_ante>820</term_ante>
+      <origin><place id="ireland">Ireland</place></origin>
+   </history>
+   <xrefs>
+      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/586">2.267</xref>
+      <xref type="tresmegistos">TM 66353</xref>
+   </xrefs>
+   <notes>
+      <categories>or-ire;sc-ire</categories>
+      <project_notes>Bound with Stowe Missal.</project_notes>
+   </notes>
+</manuscript>
+

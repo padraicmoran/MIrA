@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="212">
+   <identifier libraryID="london_bl">
+      <shelfmark>Cotton MS Nero A.II (ff 14–45)</shelfmark>
+      <link type="images">http://access.bl.uk/item/viewer/ark:/81055/vdc_100064359517.0x000001</link>
+      <link type="iiif" index="40">https://api.bl.uk/metadata/iiif/ark:/81055/vdc_100064359517.0x000001/manifest.json</link>
+   </identifier>
+   <description>
+      <type />
+      <folios>32</folios>
+      <page_h>160</page_h>
+      <page_w>110</page_w>
+      <contents>Theologica et Ascetica Varia. Cursus Scottorum</contents>
+      <script>Pre-Caroline minuscule</script>
+   </description>
+   <history>
+      <date_desc>VIII–IX</date_desc>
+      <term_post>780</term_post>
+      <term_ante>820</term_ante>
+      <origin>Uncertain (<place id="verona">Verona</place>?)</origin>
+   </history>
+   <xrefs>
+      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/501">2.186</xref>
+      <xref type="bischoff_kat">2421</xref>
+      <xref type="tresmegistos">TM 66290</xref>
+   </xrefs>
+   <notes>
+      <categories>ex-ire</categories>
+      <project_notes><i>CLA</i>: Exemplar from an Irish centre, written in 767 (see fol. 35v).</project_notes>
+   </notes>
+</manuscript>
+

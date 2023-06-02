@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="176">
+   <identifier libraryID="bern">
+      <shelfmark>363</shelfmark>
+   </identifier>
+   <description>
+      <type />
+      <folios />
+      <page_h />
+      <page_w />
+      <contents>Dioscorides; Servius (<i>Ecl., Geo., Aen</i> to 7.16); Chirius Fortunatus; Augustine on dialectic and rhetoric; 
+      Horace (<i>Odes, Epodes, Carmen Saeculare, Ars Poetica, Satires</i> to 3.134);
+      extracts from Ovid, <i>Metamorphoses</i>; Bede, <i>History</i>; Priscian, <i>De laude Anastasii imperatoris</i>;
+      poems</contents>
+      <script>Irish minuscule</script>
+   </description>
+   <history>
+      <date_desc>IX med</date_desc>
+      <term_post>840</term_post>
+      <term_ante>860</term_ante>
+      <origin>N. <place id="italy">Italy</place> (Milan?)? <place id="strasbourg">Strasbourg</place>? <place id="stgall">St Gall</place>?</origin>
+   </history>
+   <xrefs>
+      <xref type="bischoff_kat">585</xref>
+      <xref type="thesaurus">2.235</xref>
+      <xref type="bronner">p. 3</xref>
+   </xrefs>
+   <notes>
+      <categories>vern</categories>
+      <project_notes>Old Irish glosses. Written by Caunchobrach, Fergus, Domhnach and Suadbar; dedicated to Colgu. Several other Irish names in margins. </project_notes>
+      <private_notes>Still not on e-Codices.</private_notes>
+   </notes>
+</manuscript>
+

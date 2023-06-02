@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="177">
+   <identifier libraryID="einsiedeln">
+      <shelfmark>191 (277)</shelfmark>
+      <link type="images">http://www.e-codices.unifr.ch/de/sbe/0191</link>
+      <link type="iiif">http://www.e-codices.unifr.ch/metadata/iiif/sbe-0191/manifest.json</link>
+   </identifier>
+   <description>
+      <type />
+      <folios>237</folios>
+      <page_h>317</page_h>
+      <page_w>227</page_w>
+      <contents>Collectio Canonum Quesnelliana</contents>
+      <script>Caroline minuscule</script>
+   </description>
+   <history>
+      <date_desc>VIII–IX</date_desc>
+      <term_post>780</term_post>
+      <term_ante>820</term_ante>
+      <origin>N or NE France</origin>
+   </history>
+   <xrefs>
+      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/1327">7.874</xref>
+      <xref type="bischoff_kat">1116</xref>
+      <xref type="tresmegistos">TM 67018</xref>
+   </xrefs>
+   <notes>
+      <categories>sc-ire</categories>
+      <project_notes>Corrections in Irish hand, f. 8v.</project_notes>
+   </notes>
+</manuscript>
+

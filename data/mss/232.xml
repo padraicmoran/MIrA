@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="232">
+   <identifier libraryID="beuron">
+      <shelfmark>Fragm. 41</shelfmark>
+   </identifier>
+   <description>
+      <type />
+      <folios />
+      <page_h />
+      <page_w />
+      <contents>Abbreviatio Moralium Gregorii Magni</contents>
+      <script>Caroline minuscule</script>
+   </description>
+   <history>
+      <date_desc>IX 3/3</date_desc>
+      <term_post>866</term_post>
+      <term_ante>900</term_ante>
+      <origin>prob. <place id="reichenau">Reichenau</place></origin>
+   </history>
+   <xrefs>
+      <xref type="bischoff_kat">636</xref>
+      <xref type="tresmegistos" />
+   </xrefs>
+   <notes>
+      <categories>ex-ire</categories>
+      <project_notes>(Not Lathcen, <i>Ecloga Gregorii Magni Moralium in Iob</i>.) Bischoff: Irish exemplar. </project_notes>
+      <private_notes />
+   </notes>
+</manuscript>
+

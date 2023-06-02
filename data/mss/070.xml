@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="70">
+   <identifier libraryID="karlsruhe">
+      <shelfmark>Aug. perg. 195 [palimpsest new]</shelfmark>
+      <shelfmark_indexer>Aug. perg. 0195</shelfmark_indexer>
+      <link type="images">https://nbn-resolving.de/urn:nbn:de:bsz:31-57754</link>
+		<link type="iiif">https://digital.blb-karlsruhe.de/i3f/v20/3298726/manifest</link>
+   </identifier>
+   <description>
+      <type />
+      <folios>47</folios>
+      <page_h />
+      <page_w />
+      <contents>Augustine, <i>Soliloquia</i></contents>
+      <script>Irish minuscule (&amp; Half-Uncial)</script>
+   </description>
+   <history>
+      <date_desc>IX 1/2</date_desc>
+      <term_post>800</term_post>
+      <term_ante>850</term_ante>
+      <origin>NE France (<place id="soissons">Soissons</place>?)? Ireland?</origin>
+   </history>
+   <xrefs>
+      <xref type="bischoff_kat">1692</xref>
+      <xref type="thesaurus">1.1–9</xref>
+      <xref type="bronner">pp 20–21</xref>
+   </xrefs>
+   <notes>
+      <categories>or-ire;sc-ire;vern</categories>
+      <project_notes>Old Irish glosses. Bischoff: cf. Laon 26 (frag.).</project_notes>
+   </notes>
+</manuscript>
+

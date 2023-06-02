@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="100">
+   <identifier libraryID="dublin_tcd">
+      <shelfmark>57 (A.IV.5)</shelfmark>
+      <ms_name>Book of Durrow</ms_name>
+      <link type="images">https://digitalcollections.tcd.ie/concern/works/wm117t53k</link>
+      <link type="iiif">https://digitalcollections.tcd.ie/concern/works/wm117t53k/manifest</link>
+   </identifier>
+   <description>
+      <type />
+      <folios>248</folios>
+      <page_h>247</page_h>
+      <page_w>160</page_w>
+      <contents>Gospels (Mt, Mc, Lc, Io)</contents>
+      <script>Insular majuscule</script>
+   </description>
+   <history>
+      <date_desc>VII²</date_desc>
+      <term_post>650</term_post>
+      <term_ante>700</term_ante>
+      <origin>Northumbria (Irish tradition)</origin>
+      <provenance>Durrow, Offaly</provenance>
+   </history>
+   <xrefs>
+      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/592">2.273</xref>
+      <xref type="tresmegistos">TM 66359</xref>
+   </xrefs>
+   <notes>
+      <categories>or-ins;sc-ins</categories>
+      <project_notes>Cumdach lost. (Old Irish material presented from Book of Durrow in <i>Thes.</i> 2.257 really belongs with Book of Dimma.)</project_notes>
+   </notes>
+</manuscript>
+

@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="39">
+   <identifier libraryID="paris_arsenal">
+      <shelfmark>237 (ff 1–184)</shelfmark>
+      <link type="images">http://gallica.bnf.fr/ark:/12148/btv1b7100626f</link>
+      <link type="iiif">https://gallica.bnf.fr/iiif/ark:/12148/btv1b7100626f/manifest.json</link>
+   </identifier>
+   <description>
+      <type />
+      <folios>184</folios>
+      <page_h>247</page_h>
+      <page_w>202</page_w>
+      <contents>Maximus Confessor, Ambigua Iohanne Scoto interprete</contents>
+      <script>Caroline minuscule</script>
+   </description>
+   <history>
+      <date_desc>862</date_desc>
+      <term_post>862</term_post>
+      <term_ante>862</term_ante>
+      <origin>Circle of <person id="eriugena">Eriugena</person></origin>
+   </history>
+   <xrefs>
+      <xref type="bischoff_kat">3916</xref>
+   </xrefs>
+   <notes>
+   	<categories>text</categories>
+      <project_notes>Bischoff: apograph of Marazine MS.</project_notes>
+   </notes>
+</manuscript>
+

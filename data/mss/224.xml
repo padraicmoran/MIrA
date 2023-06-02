@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="224">
+   <identifier libraryID="vatican">
+      <shelfmark>Lat. 491 (ff 1–33)</shelfmark>
+      <shelfmark_indexer>Lat. 0491 (001)</shelfmark_indexer>
+      <link type="images">http://digi.vatlib.it/view/MSS_Vat.lat.491</link>
+      <link type="iiif" index="7">https://digi.vatlib.it/iiif/MSS_Vat.lat.491/manifest.json</link>
+   </identifier>
+   <description>
+      <type />
+      <folios />
+      <page_h />
+      <page_w />
+      <contents>Augustine, <i>In Epistulas Pauli ad Romanos et ad Galatas</i></contents>
+      <script>Insular minuscule</script>
+   </description>
+   <history>
+      <date_desc>VIII</date_desc>
+      <term_post>701</term_post>
+      <term_ante>800</term_ante>
+      <origin>Insular centre, N. <place id="italy">Italy</place></origin>
+   </history>
+   <xrefs>
+      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/7">1.5a</xref>
+      <xref type="tresmegistos">TM 66103</xref>
+      <link type="foundations" href="http://foundationsirishculture.ie/record/?id=1" />
+   </xrefs>
+   <notes>
+      <categories>sc-ins</categories>
+      <project_notes />
+   </notes>
+</manuscript>
+

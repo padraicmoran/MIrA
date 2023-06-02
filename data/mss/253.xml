@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="253">
+   <identifier libraryID="laon">
+      <shelfmark>80</shelfmark>
+      <shelfmark_indexer>080</shelfmark_indexer>
+   </identifier>
+   <description>
+      <folios>80</folios>
+      <page_h>217</page_h>
+      <page_w>167</page_w>
+      <contents>Commentarius in evangelium Iohannis</contents>
+      <script>Caroline minuscule</script>
+   </description>
+   <history>
+      <date_desc>IX med</date_desc>
+      <term_post>840</term_post>
+      <term_ante>860</term_ante>
+      <origin><place id="saint-amand">Saint-Amand</place></origin>
+   </history>
+   <xrefs>
+      <xref type="bischoff_kat">2062</xref>
+      <xref type="tresmegistos" />
+   </xrefs>
+   <notes>
+      <categories>scribe</categories>
+      <project_notes>Hand of <person id="martin">Martin</person>.</project_notes>
+      <private_notes />
+   </notes>
+</manuscript>
+

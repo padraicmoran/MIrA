@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="51">
+   <identifier libraryID="fulda">
+      <shelfmark>Bonifatianus 3</shelfmark>
+      <ms_name>Cadmug Gospels</ms_name>
+      <link type="images">https://fuldig.hs-fulda.de/viewer/resolver?urn=urn:nbn:de:hebis:66:fuldig-2615398</link>
+      <link type="iiif">https://fuldig.hs-fulda.de/viewer/rest/iiif/manifests/PPN325292043/manifest</link>
+   </identifier>
+   <description>
+      <type />
+      <folios />
+      <page_h />
+      <page_w />
+      <contents>Gospels (Vulgata, Mt 1.1–9.27, 11.25–28.20, Mc 1.1–10.1, 12.1–37, 14.1–16.20, Lc, Io 1.1–18.15, 19.27–21.25)</contents>
+      <script>Irish minuscule</script>
+   </description>
+   <history>
+      <date_desc>VIII</date_desc>
+      <term_post>701</term_post>
+      <term_ante>800</term_ante>
+      <origin><place id="fulda">Fulda</place> (or <place id="ireland">Ireland</place>?)</origin>
+   </history>
+   <xrefs>
+      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/1674">8.1198</xref>
+      <xref type="tresmegistos">TM 67339</xref>
+      <xref type="bronner">p. 16</xref>
+   </xrefs>
+   <notes>
+      <categories>or-ire;sc-ire;vern</categories>
+      <project_notes>Old Irish glosses (16). </project_notes>
+   </notes>
+</manuscript>
+

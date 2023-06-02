@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="87">
+   <identifier libraryID="munich">
+      <shelfmark>Clm 14459 (ff 49–61)</shelfmark>
+      <shelfmark_indexer>Clm 14459 (049)</shelfmark_indexer>
+      <link type="images">https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00073100-9</link>
+      <link type="iiif">https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00073100/manifest</link>
+   </identifier>
+   <description>
+      <type />
+      <folios>12</folios>
+      <page_h>242</page_h>
+      <page_w>190</page_w>
+      <contents>Eucherius, <i>Formulae</i>; Augustine, excepts etc.</contents>
+      <script>Irish and Caroline minuscule</script>
+   </description>
+   <history>
+      <date_desc>IX²</date_desc>
+      <term_post>850</term_post>
+      <term_ante>900</term_ante>
+      <origin>?</origin>
+   </history>
+   <xrefs>
+      <xref type="bischoff_ssb">1.243–244</xref>
+      <xref type="bischoff_kat">3204</xref>
+   </xrefs>
+   <notes>
+      <categories>sc-ire</categories>
+      <project_notes>Bischoff: Irish scribe, ff 59r (l. 11)–61r (same as in <ms id="83">Clm 14423</ms> and <ms id="85">Clm 14429</ms>).</project_notes>
+   </notes>
+</manuscript>
+

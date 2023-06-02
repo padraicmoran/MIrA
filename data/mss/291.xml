@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="291">
+   <identifier libraryID="vienna">
+      <shelfmark>Lat. 740</shelfmark>
+      <shelfmark_indexer>Lat. 00740</shelfmark_indexer>
+   </identifier>
+   <description>
+      <type />
+      <folios>157</folios>
+      <page_h>322</page_h>
+      <page_w>265</page_w>
+      <contents>Sedulius Scottus, <i>Commentarius in Matthaeum</i>; Excerpta varia</contents>
+      <script>Caroline minuscule</script>
+   </description>
+   <history>
+      <date_desc>IX 3/4</date_desc>
+      <term_post>875</term_post>
+      <term_ante>900</term_ante>
+      <origin>prob. E France</origin>
+   </history>
+   <xrefs>
+      <xref type="bischoff_ssb">2.262</xref>
+      <xref type="bischoff_kat">7151</xref>
+   </xrefs>
+   <notes>
+      <categories>ex-ire;text</categories>
+      <project_notes>Bischoff, <i>SSB</i>: Irish abbreviations indicates proximity to original.</project_notes>
+      <private_notes />
+   </notes>
+</manuscript>
+

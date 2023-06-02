@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="42">
+   <identifier libraryID="valenciennes">
+      <shelfmark>412 (393 bis) [rear flyleaf?]</shelfmark>
+   </identifier>
+   <description>
+      <type />
+      <folios />
+      <page_h />
+      <page_w />
+      <contents>Commentarius in Virgilium</contents>
+      <script>Caroline minuscule</script>
+   </description>
+   <history>
+      <date_desc>IX 1/2 or med.</date_desc>
+      <term_post>800</term_post>
+      <term_ante>860</term_ante>
+      <origin>Irish on Continent</origin>
+   </history>
+   <xrefs>
+      <xref type="bischoff_kat">6398</xref>
+   </xrefs>
+   <notes>
+      <categories />
+      <project_notes />
+      <private_notes />
+   </notes>
+</manuscript>
+

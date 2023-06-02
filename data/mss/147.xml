@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="147">
+   <identifier libraryID="turin">
+      <shelfmark>G.V.37</shelfmark>
+      <shelfmark_indexer>G.005.037</shelfmark_indexer>
+   </identifier>
+   <description>
+      <type />
+      <folios />
+      <page_h />
+      <page_w />
+      <contents>Cyprianus, <i>De Opere et Eleemosynis</i>, <i>De Sacramento Calicis</i></contents>
+      <script>Uncial</script>
+   </description>
+   <history>
+      <date_desc>V</date_desc>
+      <term_post>401</term_post>
+      <term_ante>500</term_ante>
+      <origin />
+      <provenance><place id="bobbio">Bobbio</place></provenance>
+   </history>
+   <xrefs>
+      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/810">4.464</xref>
+      <xref type="tresmegistos">TM 66571</xref>
+   </xrefs>
+   <notes>
+      <categories>sc-ire</categories>
+      <project_notes>Corrections in 8th cent. Irish script. </project_notes>
+   </notes>
+</manuscript>
+

@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="36">
+   <identifier libraryID="paris_bnf">
+      <shelfmark>Lat. 13048 (ff 1–30)</shelfmark>
+      <shelfmark_indexer>Lat. 13048</shelfmark_indexer>
+      <link type="images">https://gallica.bnf.fr/ark:/12148/btv1b9066696s</link>
+      <link type="iiif" index="129">https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066696s/manifest.json</link>
+   </identifier>
+   <description>
+      <type />
+      <folios>30</folios>
+      <page_h />
+      <page_w />
+      <contents>Adamnán, <i>De locis sanctis</i>; Venantius Fortunatus</contents>
+      <script />
+   </description>
+   <history>
+      <date_desc>IX¹</date_desc>
+      <term_post>800</term_post>
+      <term_ante>850</term_ante>
+      <origin><place id="corbie">Corbie</place></origin>
+      <provenance>Saint-Germain-des-Prés</provenance>
+   </history>
+   <xrefs>
+      <xref type="bischoff_kat">4869</xref>
+      <xref type="bronner">p. 44</xref>
+   </xrefs>
+   <notes>
+   	<categories>vern</categories>
+      <project_notes>Old Irish gloss (1). </project_notes>
+   </notes>
+</manuscript>
+

@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="21">
+   <identifier libraryID="orleans">
+      <shelfmark>65 (olim 62) (pp 273–378)</shelfmark>
+   </identifier>
+   <description>
+      <type />
+      <folios>53</folios>
+      <page_h>250</page_h>
+      <page_w>165</page_w>
+      <contents><i>Liber Questionum in Evangeliis</i></contents>
+      <script />
+   </description>
+   <history>
+      <date_desc>IX med</date_desc>
+      <term_post>840</term_post>
+      <term_ante>860</term_ante>
+      <origin><place id="fleury">Fleury</place></origin>
+   </history>
+   <xrefs>
+      <xref type="bischoff_kat">3675</xref>
+      <xref type="bronner">p. 38</xref>
+   </xrefs>
+   <notes>
+   	<categories>vern</categories>
+      <project_notes>Old Irish glosses. </project_notes>
+      <private_notes>Three parts, Kat. 3763–3675. Check Rittmueller ed.</private_notes>
+   </notes>
+</manuscript>
+

@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="171">
+   <identifier libraryID="basel">
+      <shelfmark>A VII 3</shelfmark>
+      <link type="images">http://www.e-codices.unifr.ch/en/ubb/A-VII-0003</link>
+      <link type="iiif">http://www.e-codices.unifr.ch/metadata/iiif/ubb-A-VII-0003/manifest.json</link>
+   </identifier>
+   <description>
+      <type />
+      <folios>99</folios>
+      <page_h>226</page_h>
+      <page_w>175</page_w>
+      <contents>Psalter (Greek, Latin interlinear)</contents>
+      <script>Irish minuscule</script>
+   </description>
+   <history>
+      <date_desc>IX 3/4</date_desc>
+      <term_post>875</term_post>
+      <term_ante>900</term_ante>
+      <origin><place id="stgall">St Gall</place>?</origin>
+   </history>
+   <xrefs>
+      <xref type="bischoff_kat">255</xref>
+   </xrefs>
+   <notes>
+      <categories>sc-ire</categories>
+      <project_notes />
+   </notes>
+</manuscript>
+

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="71">
+   <identifier libraryID="karlsruhe">
+      <shelfmark>Aug. perg. 233 (ff 1–40)</shelfmark>
+      <shelfmark_indexer>Aug. perg. 0233</shelfmark_indexer>
+      <link type="images">https://nbn-resolving.de/urn:nbn:de:bsz:31-1709</link>
+		<link type="iiif">https://digital.blb-karlsruhe.de/i3f/v20/20848/manifest</link>
+   </identifier>
+   <description>
+      <type />
+      <folios>40</folios>
+      <page_h>228</page_h>
+      <page_w>148</page_w>
+      <contents>Commentary on Catholic Epistles</contents>
+      <script>Minuscule, some Alemannic character</script>
+   </description>
+   <history>
+      <date_desc>IX 1/3</date_desc>
+      <term_post>800</term_post>
+      <term_ante>833</term_ante>
+      <origin><place id="reichenau">Reichenau</place></origin>
+   </history>
+   <xrefs>
+      <xref type="bischoff_kat">1721</xref>
+      <xref type="bronner">p. 21</xref>
+   </xrefs>
+   <notes>
+      <categories>text;vern</categories>
+      <project_notes>Hiberno-Latin commentary (ed. McNally CCSL 108B***). Two embedded Irish words.</project_notes>
+   </notes>
+</manuscript>
+

@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="43">
+   <identifier libraryID="bamberg">
+      <shelfmark>Ph.2(1) (HJ.IV.5)</shelfmark>
+      <link type="images">https://nbn-resolving.org/urn:nbn:de:bvb:12-sbb00000177-4</link>
+   </identifier>
+   <description>
+      <type />
+      <folios>230</folios>
+      <page_h>271</page_h>
+      <page_w>226</page_w>
+      <contents>Eriugena, <i>Peri physeon</i> (lib. 1–3)</contents>
+      <script>Caroline minuscule (Soissons style)</script>
+   </description>
+   <history>
+      <date_desc>IX 3/4</date_desc>
+      <term_post>850</term_post>
+      <term_ante>875</term_ante>
+      <origin>Circle of <person id="eriugena">Eriugena</person>; presumably <place id="soissons">Soissons</place>.</origin>
+   </history>
+   <xrefs>
+      <xref type="bischoff_kat">242</xref>
+   </xrefs>
+   <notes>
+      <categories>scribe</categories>
+      <project_notes>Formerly Dombibliothek. Hand of <person id="i2">i2</person>.</project_notes>
+   </notes>
+</manuscript>
+

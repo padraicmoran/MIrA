@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="246">
+   <identifier libraryID="paris_bnf">
+      <shelfmark>Lat. 7960</shelfmark>
+      <shelfmark_indexer>Lat. 07960</shelfmark_indexer>
+      <link type="images">https://gallica.bnf.fr/ark:/12148/btv1b9066486q</link>
+      <link type="iiif">https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066486q/manifest.json</link>
+   </identifier>
+   <description>
+      <type />
+      <folios />
+      <page_h />
+      <page_w />
+      <contents>Virgil commentary (Philargyrius, <i>Brevis expositio</i>)</contents>
+      <script />
+   </description>
+   <history>
+      <date_desc>IX med or X</date_desc>
+      <term_post>840</term_post>
+      <term_ante>1000</term_ante>
+      <origin><place id="auxerre">Auxerre</place>?</origin>
+      <provenance><place id="auxerre">Auxerre</place></provenance>
+   </history>
+   <xrefs>
+      <xref type="bischoff_kat">4517</xref>
+      <xref type="kenney">pp 65–66</xref>
+      <xref type="tresmegistos" />
+   </xrefs>
+   <notes>
+      <categories>vern</categories>
+      <project_notes>Old Irish glosses.</project_notes>
+      <private_notes />
+   </notes>
+</manuscript>
+

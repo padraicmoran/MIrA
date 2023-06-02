@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="225">
+   <identifier libraryID="vatican">
+      <shelfmark>Lat. 13501/XXIV (ff 44–45)</shelfmark>
+      <shelfmark_indexer>Lat. 13501/XXIV</shelfmark_indexer>
+      <link type="images">http://digi.vatlib.it/view/MSS_Vat.lat.13501</link>
+      <link type="iiif" index="91">https://digi.vatlib.it/iiif/MSS_Vat.lat.13501/manifest.json</link>
+   </identifier>
+   <description>
+      <type />
+      <folios />
+      <page_h />
+      <page_w />
+      <contents>Fragment on month names</contents>
+      <script>Irish minuscule</script>
+   </description>
+   <history>
+      <date_desc>IX</date_desc>
+      <term_post>800</term_post>
+      <term_ante>900</term_ante>
+      <origin>NE France (<place id="soissons">Soissons</place>?)? <place id="ireland">Ireland</place>?</origin>
+   </history>
+   <xrefs>
+      <xref type="bischoff_kat">6953</xref>
+      <xref type="bronner">p. 8</xref>
+   </xrefs>
+   <notes>
+      <categories>sc-ire;vern</categories>
+      <project_notes>Old Irish glosses. Bischoff: from the same scriptorium as the Karlruhe Bede (<ms id="60">Aug. perg. 167</ms>). 
+      <i>CLA</i> S.1734 suggests a connection with the <ms id="133">compustistical binding fragments</ms> from <place id="bobbio">Bobbio</place>.</project_notes>
+      <private_notes />
+   </notes>
+</manuscript>
+

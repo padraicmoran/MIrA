@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="145">
+   <identifier libraryID="naples">
+      <shelfmark>IV.A.34</shelfmark>
+      <shelfmark_indexer>IV.A.034</shelfmark_indexer>
+   </identifier>
+   <description>
+      <type />
+      <folios>289</folios>
+      <page_h>302</page_h>
+      <page_w>213</page_w>
+      <contents>Grammatica (Virgilius Maro Grammaticus, Sergius, Eutyches, Phocas, Consentius, Iulianus Toletanus, Malsachanus)</contents>
+      <script />
+   </description>
+   <history>
+      <date_desc>IX 1/4</date_desc>
+      <term_post>800</term_post>
+      <term_ante>825</term_ante>
+      <origin>Luxeuil</origin>
+   </history>
+   <xrefs>
+      <xref type="bischoff_kat">3573</xref>
+      <xref type="bronner">pp 37–38</xref>
+   </xrefs>
+   <notes>
+      <categories>vern</categories>
+      <project_notes>Latin &amp; Old Irish glosses. Glosses date to 8th cent.</project_notes>
+   </notes>
+</manuscript>
+

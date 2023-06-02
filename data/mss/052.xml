@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="52">
+   <identifier libraryID="jena">
+      <shelfmark>1</shelfmark>
+   </identifier>
+   <description>
+      <type />
+      <folios>2</folios>
+      <page_h />
+      <page_w />
+      <contents><text id="charisius">Charisius, <i>Ars Grammatica</i></text> (excerpta)</contents>
+      <script>Irish minuscule</script>
+   </description>
+   <history>
+      <date_desc>VIII ex</date_desc>
+      <term_post>776</term_post>
+      <term_ante>800</term_ante>
+      <origin>Uncertain</origin>
+      <provenance><place id="wurzburg">Würzburg</place>?</provenance>
+   </history>
+   <xrefs>
+      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/1706">8.1227</xref>
+      <xref type="bronner">p. 17</xref>
+      <xref type="tresmegistos">TM 67361</xref>
+   </xrefs>
+   <notes>
+      <categories>sc-ire;vern</categories>
+      <project_notes>1 Old Irish gloss and glosses on Greek. Same scribe as <ms id="92">Würzburg grammatical fragments</ms>. </project_notes>
+      <private_notes>Check origin. Gloss astuidim. Possibly brought to Würzburg by Clement. </private_notes>
+   </notes>
+</manuscript>
+

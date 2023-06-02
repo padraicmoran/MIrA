@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="289">
+   <identifier libraryID="vienna">
+      <shelfmark>Lat. 1003</shelfmark>
+      <shelfmark_indexer>Lat. 01003</shelfmark_indexer>
+      <link type="images">http://data.onb.ac.at/dtl/9138434</link>
+   </identifier>
+   <description>
+      <type />
+      <folios>211</folios>
+      <page_h>270</page_h>
+      <page_w>166</page_w>
+      <contents>Excerptiones super Ezechielem; etc.</contents>
+      <script>Caroline minuscule</script>
+   </description>
+   <history>
+      <date_desc>IX med (time of Bishop Liuphram)</date_desc>
+      <term_post>836</term_post>
+      <term_ante>859</term_ante>
+      <origin><place id="salzburg">Salzburg</place></origin>
+   </history>
+   <xrefs>
+      <xref type="bischoff_ssb">2.159–160 (no. 169)</xref>
+      <xref type="bischoff_kat">7196</xref>
+   </xrefs>
+   <notes>
+      <categories>ex-ire</categories>
+      <project_notes>See note to <ms id="283">Vienna, Lat. 2195</ms>.</project_notes>
+      <private_notes>Hard to see why Irish exemplar. Perhaps just the inter (?) abbreviation (not noted as Irish).</private_notes>
+   </notes>
+</manuscript>
+

@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="206">
+   <identifier unit="1" libraryID="durham">
+      <shelfmark>A.II.17 (ff 2-102)</shelfmark>
+      <ms_name>Durham Gospels</ms_name>
+   </identifier>
+   <identifier unit="2" libraryID="cambridge_magdalen">
+      <shelfmark>Pepysian MS 2981 (19)</shelfmark>
+      <ms_name>Durham Gospels</ms_name>
+      <link type="iiif">https://iiif.durham.ac.uk/manifests/trifle/32150/t2/mm/p4/t2mmp48sc76z/manifest</link>
+   </identifier>
+   <description>
+      <type />
+      <folios />
+      <page_h />
+      <page_w />
+      <contents>Gospels (Mt 25.35–fin., Mc, Lc 1–8, 12–22, Io 1–29)</contents>
+      <script>Insular majuscule</script>
+   </description>
+   <history>
+      <date_desc>VIII</date_desc>
+      <term_post>701</term_post>
+      <term_ante>800</term_ante>
+      <origin>Northumbria (Irish tradition) or <place id="ireland">Ireland</place></origin>
+   </history>
+   <xrefs>
+      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/464">2.149</xref>
+      <xref type="tresmegistos">TM 66253</xref>
+   </xrefs>
+   <notes>
+      <categories>or-ins;or-ire</categories>
+      <project_notes />
+   </notes>
+</manuscript>
+

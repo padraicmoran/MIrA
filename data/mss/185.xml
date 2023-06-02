@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="185">
+   <identifier libraryID="st-gall">
+      <shelfmark>136</shelfmark>
+      <shelfmark_indexer>0136</shelfmark_indexer>
+      <link type="images">http://www.e-codices.unifr.ch/de/list/one/csg/0136</link>
+      <link type="iiif">http://www.e-codices.unifr.ch/metadata/iiif/csg-0136/manifest.json</link>
+   </identifier>
+   <description>
+      <type />
+      <folios />
+      <page_h />
+      <page_w />
+      <contents>Prudentius</contents>
+      <script />
+   </description>
+   <history>
+      <date_desc>IX med</date_desc>
+      <term_post>840</term_post>
+      <term_ante>860</term_ante>
+      <origin><place id="stgall">St Gall</place></origin>
+   </history>
+   <xrefs>
+      <xref type="bischoff_kat">5593</xref>
+      <xref type="ocorrain">391a</xref>
+      <xref type="thesaurus">2.233</xref>
+      <xref type="bronner">pp 45–46</xref>
+   </xrefs>
+   <notes>
+      <categories>vern</categories>
+      <project_notes>Lat., OHG and (2) Old Irish glosses. Glosses copied 9/10 cent.</project_notes>
+   </notes>
+</manuscript>
+

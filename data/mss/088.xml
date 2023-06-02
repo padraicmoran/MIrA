@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="88">
+   <identifier libraryID="munich">
+      <shelfmark>Clm 14747 (ff 1–62)</shelfmark>
+      <shelfmark_indexer>Clm 14747 (001)</shelfmark_indexer>
+      <link type="images">https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00096536-2</link>
+      <link type="iiif">https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00096536/manifest</link>
+   </identifier>
+   <description>
+      <type />
+      <folios>62</folios>
+      <page_h>173</page_h>
+      <page_w>127</page_w>
+      <contents>Commentarius in VII epistulas canonicas; Glossae Latinae-Theotiscae</contents>
+      <script>Caroline minuscule (untrained)</script>
+   </description>
+   <history>
+      <date_desc>IX med or 3/4</date_desc>
+      <term_post>840</term_post>
+      <term_ante>875</term_ante>
+      <origin>Germany</origin>
+   </history>
+   <xrefs>
+      <xref type="bischoff_ssb">2.244–245</xref>
+      <xref type="bischoff_kat">3259</xref>
+   </xrefs>
+   <notes>
+      <categories>sc-ire</categories>
+      <project_notes>Bischoff, <i>SSB</i>: Apparently the work of an Irish scribe who had learnt Caroline script (cf. <person id="martin">Martin</person>), though retained some Irish abbreviations.</project_notes>
+   </notes>
+</manuscript>
+

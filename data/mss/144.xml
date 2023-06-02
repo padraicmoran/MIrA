@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="144">
+   <identifier libraryID="naples">
+      <shelfmark>Lat. 2 (ff 157–158)</shelfmark>
+      <shelfmark_indexer>Lat. 2 (157)</shelfmark_indexer>
+   </identifier>
+   <description>
+      <type />
+      <folios />
+      <page_h />
+      <page_w />
+      <contents>Excerpta ex Macrobio</contents>
+      <script>Irish minuscule</script>
+   </description>
+   <history>
+      <date_desc>VIII</date_desc>
+      <term_post>701</term_post>
+      <term_ante>800</term_ante>
+      <origin><place id="bobbio">Bobbio</place></origin>
+   </history>
+   <xrefs>
+      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/735">3.397b</xref>
+      <xref type="tresmegistos">TM 66502</xref>
+      <link type="foundations" href="http://foundationsirishculture.ie/record/?id=23" />
+   </xrefs>
+   <notes>
+      <categories>sc-ire</categories>
+      <project_notes />
+   </notes>
+</manuscript>
+

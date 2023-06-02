@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="77">
+   <identifier libraryID="kassel">
+      <shelfmark>4° theol. 170 + 4° Mus 77/2–6, 8–10, 12–14</shelfmark>
+      <link type="images">https://orka.bibliothek.uni-kassel.de/viewer/image/1327588533494/1/</link>
+   </identifier>
+   <description>
+      <type />
+      <folios>28</folios>
+      <page_h>258</page_h>
+      <page_w>195</page_w>
+      <contents>Anonymi Scotti Commentarius in evangelium Marci</contents>
+      <script>Minuscule</script>
+   </description>
+   <history>
+      <date_desc>IX 2/4</date_desc>
+      <term_post>825</term_post>
+      <term_ante>850</term_ante>
+      <origin>S Germany?</origin>
+   </history>
+   <xrefs>
+      <xref type="bischoff_kat">1831</xref>
+   </xrefs>
+   <notes>
+      <categories>text</categories>
+      <project_notes />
+      <private_notes>? (Erklärungen in irischer Sprache überstrichen). Bischoff: inzwischen abgelöst</private_notes>
+   </notes>
+</manuscript>
+
