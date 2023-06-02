@@ -3,7 +3,7 @@
 Map of manuscript libraries
 */
 
-function libraryMap($results) {
+function mapLibraries($results) {
 	global $libraries;
 
 	// collect data

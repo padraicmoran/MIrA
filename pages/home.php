@@ -20,7 +20,7 @@ It currently contains a catalogue of <a href="/mss"><b><?php print $totalMSS; ?>
 
 <h3 class="h2 mt-5">Manuscript libraries</h3>
 <?php
-libraryMap($xml_mss);
+mapLibraries($xml_mss);
 ?>
 
 

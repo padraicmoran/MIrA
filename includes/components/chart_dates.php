@@ -3,7 +3,7 @@
 Bar chart for manuscript dates
 */
 
-function dateChart($data) {
+function chartDates($data) {
 	//
 	// compile chart data
 	//

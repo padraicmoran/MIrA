@@ -113,7 +113,7 @@ if ($filter) {
 	// library map
 	if ($libraries[$libraryID]['coords'] != '') {
 		print '<h3 class="h3 mt-5">Library ' . switchSgPl($identifierCount, 'location', 'locations') . '</h3> ';
-		libraryMap($filter);
+		mapLibraries($filter);
 	}
 
 		// stable URL

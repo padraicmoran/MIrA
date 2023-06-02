@@ -1,6 +1,6 @@
 <?php
 /* 
-Draws in all the available avilable and loads in data
+Draws in all the available avilable and loads in core data (manuscripts, categories, libraries)
 */
 
 // load config variables, general functions and page elements
@@ -13,10 +13,11 @@ require('includes/components/chart_shared.php');
 require('includes/components/chart_dates.php');
 require('includes/components/chart_folios.php');
 require('includes/components/chart_sizes.php');
+require('includes/components/list_mss.php');
 require('includes/components/map_libraries.php');
 require('includes/components/map_places.php');
 require('includes/components/mirador.php');
-require('includes/components/ms_list.php');
+require('includes/components/search_mss.php');
 $romNum = array('', 'I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X');
 
 if ($debug) {

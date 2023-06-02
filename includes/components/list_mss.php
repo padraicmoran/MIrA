@@ -3,17 +3,49 @@
 Results page for MS searches
 */
 
-function listMSS($resultsSorted) {
+function listMSS($results) {
 	global $page, $id, $search, $searchCat, $searchLib;
 	global $libraries, $msCategories, $tidyURLs;
 
-	$matches = count($resultsSorted);	
+	// sort results
+	// cannot sort a SimpleXML object, so transfer top-level objects into an array instead
+	$sort = cleanInput('sort') ?? '';
+	$resultsSorted = array();
+	foreach($results as $node) {
+		$resultsSorted[] = $node;
+	}
+	
+	// default sort is by city, library, shelfmark; change for other options below
+	if ($sort == '') usort($resultsSorted, 'sortLocation');
+	elseif ($sort == 'script') usort($resultsSorted, 'sortScript');
+	elseif ($sort == 'date') usort($resultsSorted, 'sortDate');
+//		elseif ($sort == 'origin') usort($resultsSorted, 'sortOrigin');
+//		elseif ($sort == 'prov') usort($resultsSorted, 'sortProv');
+
+	// total and results and sort form
+	print '<form class="pb-4" id="sortForm" action="/index.php">';
+
+	// pass information about current page
+	print '<input type="hidden" name="page" value="' . $page  . '" />';
+	print '<input type="hidden" name="id" value="' . $id  . '" />';
+	if ($search != '') print '<input type="hidden" name="search" value="' . $search . '" />';
+	if ($searchCat != '') print '<input type="hidden" name="cat" value="' . $searchCat . '" />';
+
+	// write total
+	$matches = count($results);	
 	print '' . $matches . switchSgPl($matches, ' manuscript', ' manuscripts') . '. ';
 
-	// Output raw list
-	// foreach ($resultsSorted as $ms) print "'" . $ms['id'] . "', ";
+	// write sort options
+	print '<label for="sort" class="form-label">Sort by</label> ';
+	print '<select name="sort" class="" onchange="sortForm.submit(); ">';
+	writeOption('', 'location', $sort);
+	writeOption('script', 'script', $sort);
+	writeOption('date', 'date', $sort);
+//		writeOption('origin', 'origin', $sort);
+//		writeOption('prov', 'provenance', $sort);
+	print '</select>';
 
-
+	print '</form>';
 ?>
 
 <div class="table-responsive-sm pt-2 pb-3">
@@ -80,8 +112,7 @@ function listMSS($resultsSorted) {
 </table>
 
 <?php
-// link to download CSV
-
+	// link to download CSV
 	$queryString = 'page=' . $page;
 	$queryString .= '&id=' . $id;
 	$queryString .= '&search=' . $search;
@@ -89,34 +120,54 @@ function listMSS($resultsSorted) {
 	$queryString .= '&lib=' . $searchLib;
 	print '<p class="mt-5"><a class="small" href="/csv.php?' . $queryString . '">Export this list</a> as a CSV file.</p>';
 
-
 ?>
-
 
 </div>
 
 <!-- Library map -->
 <h3 class="mt-5 pt-2">Manuscript libraries</h4> 
 <?php
-	libraryMap($resultsSorted);
+	mapLibraries($resultsSorted);
 ?>
 
 <!-- Date chart -->
 <h3 class="mt-5 pt-2">Manuscript dates (approx.)</h4>
 <?php
-	dateChart($resultsSorted);
+	chartDates($resultsSorted);
 ?>
 
 <!-- Size chart -->
 <h3 class="mt-5 pt-2">Page sizes</h4> 
 <?php
-	sizesChart($resultsSorted);
+	chartSizes($resultsSorted);
 ?>
 
 <!-- Folios chart -->
 <h3 class="mt-5 pt-2">Folios</h4> 
 <?php
-	foliosChart($resultsSorted);
+	chartFolios($resultsSorted);
 
 }
+
+
+//
+// sorting functions
+function sortScript($a, $b) {
+	return strnatcmp($a->description->script, $b->description->script);
+}
+function sortDate($a, $b) {
+	return strnatcmp($a->history->term_post, $b->history->term_post);
+}
+function sortLocation($a, $b) {
+	return strnatcmp($a->identifier['libraryID'], $b->identifier['libraryID']);
+}
+/*
+function sortOrigin($a, $b) {
+	return strnatcmp($a->history->origin, $b->history->origin);
+}
+function sortProv($a, $b) {
+	return strnatcmp($a->history->provenance, $b->history->provenance);
+}
+*/
+
 ?>

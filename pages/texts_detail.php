@@ -12,7 +12,7 @@ if (file_exists('data/texts.xml')) {
 		else $linkBack = '/index.php?page=texts';
 		print '<div class="h5 text-secondary"><a href="' . $linkBack . '">Texts</a></div>';
 
-		print '<h2>' . $text->author . ', <i>' . $text->title . '</i></h2>';
+		print '<h2 class="mb-4">' . $text->author . ', <i>' . $text->title . '</i></h2>';
 
 		// find related manuscripts
 		$results = $xml_mss->xpath('//text[@id="' . $id . '"]/ancestor::manuscript');
@@ -25,7 +25,6 @@ if (file_exists('data/texts.xml')) {
 		}
 
 		// display results
-		print '<h3 class="mt-5">Associated manuscripts</h3>';
 		listMSS($resultsSorted);
 
 		// stable URL

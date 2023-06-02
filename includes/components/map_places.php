@@ -3,7 +3,7 @@
 Map for place entries
 */
 
-function buildPlacesMap($results, $selectedID) {
+function mapPlaces($results, $selectedID) {
 	global $tidyURLs;
 ?>
 

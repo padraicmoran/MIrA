@@ -3,7 +3,7 @@
 Bar chart for folio sizes
 */
 
-function sizesChart($data) {
+function chartSizes($data) {
 	global $libraries;
 
 	//

@@ -12,7 +12,7 @@ if (file_exists('data/people.xml')) {
 		else $linkBack = '/index.php?page=people';
 		print '<div class="h5 text-secondary"><a href="' . $linkBack . '">People</a></div>';
 
-		print '<h2>' . $person->firstNames . ' ' . $person->surname . '</h2>';
+		print '<h2 class="mb-4">' . $person->firstNames . ' ' . $person->surname . '</h2>';
 		print '<p>' . $person->lifetime . '</p>';
 		
 
@@ -26,7 +26,6 @@ if (file_exists('data/people.xml')) {
 			$resultsSorted[] = $node;
 		}
 		// display results
-		print '<h3 class="mt-5">Associated manuscripts</h4>';
 		listMSS($resultsSorted);
 		
 		// stable URL

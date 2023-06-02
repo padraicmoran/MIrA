@@ -3,7 +3,7 @@
 Bar chart for number of folios
 */
 
-function foliosChart($data) {
+function chartFolios($data) {
 	global $libraries;
 
 	//

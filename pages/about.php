@@ -53,7 +53,7 @@
 <li>0.1 (beta): May 2021. Initial version. Manuscript list, date chart, libraries map, basic search.</li>
 </ul>
 
-<p>View source code and data (from v0.3) at:
+<p>View source code and data (v0.3 on) at:
 <a href="https://github.com/padraicmoran/MIrA">https://github.com/padraicmoran/MIrA</a>
 
 

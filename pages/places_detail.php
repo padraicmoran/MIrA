@@ -53,7 +53,7 @@ if (file_exists('data/places.xml')) {
 
 	<div class="col-lg mb-5">
 <?php
-		buildPlacesMap($xml_places, $id);
+		mapPlaces($xml_places, $id);
 ?>
 	</div>
 </div>
@@ -72,7 +72,6 @@ if (file_exists('data/places.xml')) {
 			}
 
 			// display results
-			print '<h3 class="mt-5">Associated manuscripts</h4>';
 			listMSS($resultsSorted);
 
 			// stable URL
