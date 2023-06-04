@@ -17,6 +17,7 @@ require('includes/components/list_mss.php');
 require('includes/components/map_libraries.php');
 require('includes/components/map_places.php');
 require('includes/components/mirador.php');
+require('includes/components/network_graph.php');
 require('includes/components/search_mss.php');
 $romNum = array('', 'I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X');
 $languages = array(

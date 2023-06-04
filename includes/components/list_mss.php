@@ -146,7 +146,12 @@ function listMSS($results) {
 <h3 class="mt-5 pt-2">Folios</h4> 
 <?php
 	chartFolios($resultsSorted);
+	?>
 
+<!-- Network graph -->
+<h3 class="mt-5 pt-2">Network graph</h4> 
+<?php
+	networkGraph($resultsSorted);
 }
 
 
