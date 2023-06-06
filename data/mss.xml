@@ -10,7 +10,7 @@
       <folios />
       <page_h />
       <page_w />
-      <contents>Vita Virgilii; Ambrose, <i>Hexameron</i> (extracts); Old Irish poems; scholia on the <i>Aeneid</i>; astronomical table; Greek paradigms; Greek–Latin glossaries; etc.</contents>
+      <contents><i>Vita Virgilii</i>; Ambrose, <i>Hexameron</i> (extracts); Old Irish poems; scholia on the <i>Aeneid</i>; astronomical table; Greek paradigms; Greek–Latin glossaries; etc.</contents>
       <script>Irish minuscule</script>
    </description>
    <history>
@@ -1853,7 +1853,7 @@
       <date_desc>IX</date_desc>
       <term_post>801</term_post>
       <term_ante>900</term_ante>
-      <origin />
+      <origin><place id="ireland">Ireland</place></origin>
    </history>
    <xrefs>
       <xref type="cla">8.1085</xref>
@@ -4227,7 +4227,7 @@
       <date_desc>IX 1/4</date_desc>
       <term_post>800</term_post>
       <term_ante>825</term_ante>
-      <origin>Luxeuil</origin>
+      <origin><place id="luxeuil">Luxeuil</place></origin>
    </history>
    <xrefs>
       <xref type="bischoff_kat">3573</xref>
