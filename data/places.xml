@@ -22,7 +22,7 @@
       <coords>43, 12</coords>
 
 		<place id="bobbio">
-		   <name>Bobbio</name>
+		   <name lang="en">Bobbio</name>
 		   <name lang="la">Bobbium</name>
 		   <coords>44.770624,9.385757</coords>
 		</place>

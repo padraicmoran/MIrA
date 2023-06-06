@@ -61,15 +61,35 @@ if (file_exists('data/ms_categories.xml')) {
 if (file_exists('data/libraries.xml')) {
 	$xml_libraries = simplexml_load_file('data/libraries.xml');
 
-	// build category associative array; key = shorthand code, value = label
+	// build associative array
 	$libraries = array();
 	foreach ($xml_libraries->library as $lib) {
-		$libraries[strval($lib['id'])]['id'] = strval($lib['id']);
-		$libraries[strval($lib['id'])]['country'] = strval($lib->country);
-		$libraries[strval($lib['id'])]['city'] = strval($lib->city);
-		$libraries[strval($lib['id'])]['name'] = strval($lib->name);
-		$libraries[strval($lib['id'])]['coords'] = strval($lib->coords);
-		$libraries[strval($lib['id'])]['searchIndex'] = simpleText(strval($lib->country . $lib->city . $lib->name));
+		$id = strval($lib['id']);
+		$libraries[$id] = [
+			'id' => $id,
+			'country' => strval($lib->country),
+			'city' => strval($lib->city),
+			'name' => strval($lib->name),
+			'coords' => strval($lib->coords),
+			'searchIndex' => simpleText(strval($lib->country . $lib->city . $lib->name))
+		];
+	}
+}
+
+// load places
+if (file_exists('data/places.xml')) {
+	$xml_places = simplexml_load_file('data/places.xml');
+	$extractPlaces = $xml_places->xpath ('//place');
+
+	// build associative array
+	$placeInfo = array();
+	foreach ($extractPlaces as $place) {
+	  $i = strval($place['id']);
+	  $placeInfo[$i] = [
+		 'id' => $i,
+		 'name' => strval($place->name[0]),
+		 'coords' => strval($place->coords)
+	  ];
 	}
 }
 

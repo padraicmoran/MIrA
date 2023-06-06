@@ -4,7 +4,7 @@ Configuration options
 */
 
 $version = '0.4 dev';
-$debug = false;
+$debug = true;
 
 
 // Set as true if there is a .htaccess file in the root directory and server permission for URL rewrites.

@@ -16,7 +16,7 @@
       <date_desc>IX 1/4</date_desc>
       <term_post>800</term_post>
       <term_ante>825</term_ante>
-      <origin>Luxeuil</origin>
+      <origin><place id="luxeuil">Luxeuil</place></origin>
    </history>
    <xrefs>
       <xref type="bischoff_kat">3573</xref>
@@ -27,4 +27,3 @@
       <project_notes>Latin &amp; Old Irish glosses. Glosses date to 8th cent.</project_notes>
    </notes>
 </manuscript>
-
