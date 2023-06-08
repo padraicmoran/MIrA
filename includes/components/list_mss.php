@@ -150,11 +150,6 @@ function listMSS($results) {
 
 <!-- Network graph -->
 <h3 class="mt-5 pt-2">Network graph (experimental)</h4> 
-<p>Black arrows indicate origin, blue arrows indicate provenance.
-To view a manuscript, enter the number here: 
-<input type="text" id="msNum" class="" style="width: 50px; ">
-<button class="btn btn-success" onclick="x = document.getElementById('msNum').value; location.href='/' + x">go</button>
-</p>
 <?php
 	networkGraph($resultsSorted);
 }

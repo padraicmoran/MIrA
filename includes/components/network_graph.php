@@ -36,8 +36,8 @@ function networkGraph($results) {
       // add to list if new
       if (! in_array($placeID, $placeList)) array_push($placeList, $placeID);
       // build edge list
-      array_push($edgeFrom, $placeID);
-      array_push($edgeTo, $msID);
+      array_push($edgeFrom, $msID);
+      array_push($edgeTo, $placeID);
       array_push($edgeTypes, 'prov');
     }
   }
@@ -45,7 +45,15 @@ function networkGraph($results) {
 
 <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
 
-<div id="networkGraph" class="border border-secondary rounded shadow" id="mapLibrariesContainer" style="height: 480px; ">
+<p><b style="color: #000; ">Black</b> arrows indicate origin, <b style="color: #00f; ">blue</b> arrows indicate provenance.
+To view a manuscript, enter the number here: 
+<input type="text" id="msNum" class="" style="width: 50px; ">
+<button class="btn btn-success" onclick="x = document.getElementById('msNum').value; location.href='/' + x">go</button>
+
+<button class="btn btn-secondary float-end" onclick="fullScreen(document.getElementById('networkGraph'));">Full screen</button>
+</p>
+
+<div id="networkGraph" class="border border-secondary rounded shadow bg-light" style="height: 480px; ">
 </div>
 
 <script type="text/javascript">
@@ -65,17 +73,18 @@ var nodes = new vis.DataSet([
 
   // write nodes for places
   foreach ($placeList as $place) {
-    /*
-    $coords = explode(',', $placeInfo[$place]['coords']);
-    $x = $coords[0] * -200;
-    $y = $coords[1] * 50;
-    JS:   x: ' . $x . ', y: ' . $y . ', fixed: { x: true, y: true }  
-    */
 
+    // handle map coords
+    $coords = explode(',', $placeInfo[$place]['coords']);
+    $x = $coords[1] * 150;
+    $y = $coords[0] * -200;
+    $geoInfo = ', x: ' . $x . ', y: ' . $y . ', fixed: { x: true, y: true } ';
+    
     print '{ id: "' . $place . '", 
       label: "' . $placeInfo[$place]['name'] . '", 
       shape: "box", 
       color: "green"
+      ' . $geoInfo . ' 
     },' . "\n";
   }
 ?>
@@ -99,22 +108,37 @@ var data = {
   edges: edges,
 };
 var options = {
-  nodes: {
-    font: {
-      color: 'white',
-      size: 20
-    }
+  configure: {
+    enabled: false  /* config panel */
   },
   interaction: {
     navigationButtons: true,
     hover: true
   },
-  physics: true
+  layout: {
+  },
+  nodes: {
+    font: {
+      color: 'white',
+      size: 25
+    }
+  }
 };
 var network = new vis.Network(container, data, options);
+
+</script>
+
+<script type="text/javascript">
+
+function fullScreen(el) {
+  if (el.requestFullscreen) el.requestFullscreen();
+  else if (el.webkitRequestFullscreen) el.webkitRequestFullscreen(); /* Safari */
+  else if (el.msRequestFullscreen) { el.msRequestFullscreen() /* IE11 */  }
+
+}
+
 </script>
 
 <?php
-//var_dump($placeList);
 }
 ?>
