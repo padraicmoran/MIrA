@@ -1,11 +1,6 @@
-_Archive/custom.php
-_Archive/leaflet-iiif.js
-_Archive/list_2021-04-19.php
-_Archive/list_elmss.php
-_Archive/private/custom_search.php
-pages/__biblio.php
-pages/__search.php
+_Archive/*
+pages/__*.php
 Build.code-workspace
-_Archive/munich_isidore.jpg
 MIrA.code-workspace
-.gitignore
+
+
