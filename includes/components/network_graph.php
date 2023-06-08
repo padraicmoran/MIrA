@@ -15,7 +15,8 @@ function networkGraph($results) {
   
   foreach($results as $ms) {
     $msID = strval($ms['id']);
-    
+    $edgeAssigned = false;
+
     // check for places and retrieve IDs
     // check orgins first
     $checkOriginPlaces = $ms->xpath ('//manuscript[@id="' . $msID  . '"]//origin/place/@id');
@@ -27,6 +28,7 @@ function networkGraph($results) {
       array_push($edgeFrom, $placeID);
       array_push($edgeTo, $msID);
       array_push($edgeTypes, 'origin');
+      $edgeAssigned = true;
     }
   
     // same for provenances
@@ -39,13 +41,22 @@ function networkGraph($results) {
       array_push($edgeFrom, $msID);
       array_push($edgeTo, $placeID);
       array_push($edgeTypes, 'prov');
+      $edgeAssigned = true;
+    }
+
+    // find MSS without a place assigned; assigned them to fake place "ubique"
+    // (if not linked to a fixed node, they will drift far away)
+    if (! $edgeAssigned) {
+      array_push($edgeFrom, $msID);
+      array_push($edgeTo, 'ubique');
+      array_push($edgeTypes, 'hidden');
     }
   }
 ?>
 
 <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
 
-<p><b style="color: #000; ">Black</b> arrows indicate origin, <b style="color: #00f; ">blue</b> arrows indicate provenance.
+<p>Black lines indicate origin, blue arrows provenance.
 To view a manuscript, enter the number here: 
 <input type="text" id="msNum" class="" style="width: 50px; ">
 <button class="btn btn-success" onclick="x = document.getElementById('msNum').value; location.href='/' + x">go</button>
@@ -60,6 +71,14 @@ To view a manuscript, enter the number here:
 
 // create an array with nodes
 var nodes = new vis.DataSet([
+  // node for MSS without location
+  { id: "ubique", 
+    label: "Not yet assigned", 
+      shape: "box", 
+      color: "grey",
+      x: -1100, y: -8900, fixed: { x: true, y: true }  
+    },
+
 <?php
   // write nodes for MSS
   foreach ($results as $ms) {
@@ -97,8 +116,11 @@ var edges = new vis.DataSet([
     if ($edgeTypes[$n] == 'origin') {
       print '{ from: "' . $edgeFrom[$n] . '", to: "' . $edgeTo[$n] . '", color: "black", width: 2 },' . "\n";
     }  
-    else {
-      print '{ from: "' . $edgeFrom[$n] . '", to: "' . $edgeTo[$n] . '", arrows: "to", color: "blue", width: 2  },' . "\n";
+    elseif ($edgeTypes[$n] == 'prov') {
+      print '{ from: "' . $edgeFrom[$n] . '", to: "' . $edgeTo[$n] . '", arrows: "to", color: "blue", width: 2 },' . "\n";
+    }
+    else {  // hidden edges
+      print '{ from: "' . $edgeFrom[$n] . '", to: "' . $edgeTo[$n] . '", hidden: true  },' . "\n";
     }
   }
 ?>
