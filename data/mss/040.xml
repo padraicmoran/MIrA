@@ -18,7 +18,7 @@
       <date_desc>post 875</date_desc>
       <term_post>875</term_post>
       <term_ante>900</term_ante>
-      <origin>NE France (<place id="laon">Laon</place>?)</origin>
+      <origin>NE <place id="france">France</place> (<place id="laon">Laon</place>?)</origin>
    </history>
    <xrefs>
       <xref type="bischoff_kat">4119</xref>
@@ -29,4 +29,3 @@
       <private_notes>No online image. Full cat entry: https://archivesetmanuscrits.bnf.fr/ark:/12148/cc60216r</private_notes>
    </notes>
 </manuscript>
-

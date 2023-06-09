@@ -18,7 +18,7 @@
       <date_desc>IX²</date_desc>
       <term_post>850</term_post>
       <term_ante>900</term_ante>
-      <origin>W Germany?</origin>
+      <origin>W <place id="germany">Germany</place>?</origin>
    </history>
    <xrefs>
       <xref type="dhbm" href="https://ircabritt.nuigalway.ie/handlist/catalogue/89">#89</xref>
@@ -31,4 +31,3 @@
       <private_notes>See Bischoff, "Irische Schreiber", p. 51.</private_notes>
    </notes>
 </manuscript>
-

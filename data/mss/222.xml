@@ -19,7 +19,7 @@
       <term_post>701</term_post>
       <term_ante>800</term_ante>
       <origin>England? (poss. <place id="ireland">Ireland</place>?)</origin>
-      <provenance>Germany, prob. Lorsch</provenance>
+      <provenance><place id="germany">Germany</place>, prob. Lorsch</provenance>
    </history>
    <xrefs>
       <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/89">1.78</xref>
@@ -34,4 +34,3 @@
       See Psalter of Caimín (Dublin, UCD, Franciscan A 1, late 11th cent.), where most of the glosses correspond verbatim.</project_notes>
    </notes>
 </manuscript>
-

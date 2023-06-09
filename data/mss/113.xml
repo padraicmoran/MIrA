@@ -16,7 +16,7 @@
       <date_desc>IX 2/3</date_desc>
       <term_post>833</term_post>
       <term_ante>866</term_ante>
-      <origin>Central (?) France</origin>
+      <origin>Central (?) <place id="france">France</place></origin>
       <provenance><place id="lyon">Lyon</place></provenance>
    </history>
    <xrefs>
@@ -29,4 +29,3 @@
       <project_notes>Old Irish glosses (ed. Lambert 1986***); language c. 800.</project_notes>
    </notes>
 </manuscript>
-

@@ -17,7 +17,7 @@
       <date_desc>840s</date_desc>
       <term_post>840</term_post>
       <term_ante>849</term_ante>
-      <origin>NE France (<place id="laon">Laon</place>? <place id="soissons">Soissons</place>?)</origin>
+      <origin>NE <place id="france">France</place> (<place id="laon">Laon</place>? <place id="soissons">Soissons</place>?)</origin>
       <provenance><place id="reichenau">Reichenau</place></provenance>
    </history>
    <xrefs>

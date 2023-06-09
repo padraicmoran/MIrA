@@ -16,7 +16,7 @@
       <date_desc>VIII–IX</date_desc>
       <term_post>780</term_post>
       <term_ante>820</term_ante>
-      <origin>N France</origin>
+      <origin>N <place id="france">France</place></origin>
    </history>
    <xrefs>
       <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/1171">6.763</xref>
@@ -28,4 +28,3 @@
       <project_notes>Hand of <person id="martin">Martin</person>. Bischoff: Irish exemplar.</project_notes>
    </notes>
 </manuscript>
-

@@ -19,7 +19,7 @@
       <term_post>825</term_post>
       <term_ante>850</term_ante>
       <origin>N. <place id="italy">Italy</place> (<place id="bobbio">Bobbio</place>? Monza?)</origin>
-      <provenance>Freising</provenance>
+      <provenance><place id="freising">Freising</place></provenance>
    </history>
    <xrefs>
       <xref type="bischoff_ssb">1.134</xref>
@@ -31,4 +31,3 @@
       <project_notes>One Old Irish (embedded, 41v). Exemplar prob. from Bobbio.</project_notes>
    </notes>
 </manuscript>
-

@@ -16,7 +16,7 @@
       <date_desc>IX²</date_desc>
       <term_post>850</term_post>
       <term_ante>900</term_ante>
-      <origin>E France (<place id="verdun">Verdun</place>?)</origin>
+      <origin>E <place id="france">France</place> (<place id="verdun">Verdun</place>?)</origin>
       <provenance><place id="verdun">Verdun</place></provenance>
    </history>
    <xrefs>
@@ -29,4 +29,3 @@
       <private_notes />
    </notes>
 </manuscript>
-

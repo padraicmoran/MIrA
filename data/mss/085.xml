@@ -18,7 +18,7 @@
       <date_desc>IX²</date_desc>
       <term_post>850</term_post>
       <term_ante>900</term_ante>
-      <origin><place id="reichenau">Reichenau</place> or S Germany</origin>
+      <origin><place id="reichenau">Reichenau</place> or S <place id="germany">Germany</place></origin>
       <provenance><place id="regensburg">Regensburg</place></provenance>
    </history>
    <xrefs>
@@ -32,4 +32,3 @@
       <private_notes>1r: pen trials (Caroline and one Irish, Gen. 7:16); 1v–2v: Hebrew names</private_notes>
    </notes>
 </manuscript>
-

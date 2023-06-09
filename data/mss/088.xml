@@ -18,7 +18,7 @@
       <date_desc>IX med or 3/4</date_desc>
       <term_post>840</term_post>
       <term_ante>875</term_ante>
-      <origin>Germany</origin>
+      <origin><place id="germany">Germany</place></origin>
    </history>
    <xrefs>
       <xref type="bischoff_ssb">2.244–245</xref>
@@ -29,4 +29,3 @@
       <project_notes>Bischoff, <i>SSB</i>: Apparently the work of an Irish scribe who had learnt Caroline script (cf. <person id="martin">Martin</person>), though retained some Irish abbreviations.</project_notes>
    </notes>
 </manuscript>
-

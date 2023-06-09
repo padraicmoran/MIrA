@@ -87,6 +87,7 @@ if (file_exists('data/places.xml')) {
 	  $i = strval($place['id']);
 	  $placeInfo[$i] = [
 		 'id' => $i,
+		 'type' => strval($place['type']),
 		 'name' => strval($place->name[0]),
 		 'coords' => strval($place->coords)
 	  ];

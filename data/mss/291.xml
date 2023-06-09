@@ -16,7 +16,7 @@
       <date_desc>IX 3/4</date_desc>
       <term_post>875</term_post>
       <term_ante>900</term_ante>
-      <origin>prob. E France</origin>
+      <origin>prob. E <place id="france">France</place></origin>
    </history>
    <xrefs>
       <xref type="bischoff_ssb">2.262</xref>
@@ -28,4 +28,3 @@
       <private_notes />
    </notes>
 </manuscript>
-

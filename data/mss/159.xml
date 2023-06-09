@@ -19,7 +19,7 @@
       <date_desc>838</date_desc>
       <term_post>838</term_post>
       <term_ante>838</term_ante>
-      <origin>France</origin>
+      <origin><place id="france">France</place></origin>
       <provenance>Egmond</provenance>
    </history>
    <xrefs>
@@ -33,4 +33,3 @@
       <project_notes>Lat. &amp; Old Irish glosses. Scribes incl. Dubthach, <person id="eriugena">Eriugena</person> (e.g. 65r).</project_notes>
    </notes>
 </manuscript>
-

@@ -19,7 +19,7 @@
       <date_desc>IX 2/4</date_desc>
       <term_post>825</term_post>
       <term_ante>850</term_ante>
-      <origin>NE France</origin>
+      <origin>NE <place id="france">France</place></origin>
       <provenance>Saint-Omer</provenance>
    </history>
    <xrefs>
@@ -32,4 +32,3 @@
       <project_notes>Old Irish glosses recorded in <i>Thesaurus</i>, addendum to p. 48, lines 35, 36. </project_notes>
    </notes>
 </manuscript>
-

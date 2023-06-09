@@ -5,6 +5,8 @@ Map for place entries
 
 function mapPlaces($results, $selectedID) {
 	global $tidyURLs;
+
+	// set up map
 ?>
 
 <div class="border border-secondary rounded shadow mt-5" id="mapPlacesContainer" style="height: 400px; "></div>
@@ -27,43 +29,19 @@ var bounds = new L.LatLngBounds();
 
 	// write data from array
    $n = 0;
-	$radius = 8;
 	$selectedCoords = '';
 	foreach ($results as $place) {
 		$n ++;
 
 		// prepare content
-		$coords = $place->coords;
-		if ($coords <> '') {
+		if ($place->coords <> '') {
 		
-			// prepare popup text 
-			$content = '<div class="fs-6">';
-			if ($place['id'] != $selectedID) {
-				$link = getLink('places', $place['id']);
-				$content .= '<a class="" href="' . $link . '">' . $place->name . '</a><br/>';
-			}
-			else {
-				$content .= '<b>' . $place->name . '</b><br/>';
-			}
-//			$content .= $place->description;
-			$content .= '<span class="small"><a href="#" onclick="mapPlaces.setView([' . $coords . '], 13); mapPlaces.closePopup(); return false; ">Zoom in</a></span>';
-			$content .= '</div>';
-									
-			// write marker
-			if ($place['type'] == 'region') $appearance = 'radius: ' . ($radius * 3) . ', color: "none", fillColor: "darkblue", fillOpacity: 0.4';  
-			else $appearance = 'radius: ' . $radius . ', color: "none", fillColor: "darkblue", fillOpacity: 0.7';
-			
-			print 'markers[' . $n . '] = L.circleMarker([' . $coords . '], { ' . $appearance . ' }).addTo(mapPlaces); ';
-			print 'markers[' . $n . '].bindPopup(\'' . addSlashes($content) . '\'); ';
-			print 'markers[' . $n . '].on("click", function(e) { this.openPopup; }); ';
-			print "\n";
-			
-			// add to bounds object (to zoom to show all markers)
-			print 'bounds.extend(markers[' . $n . '].getLatLng());';
-
+			if ($place['type'] == 'region') writeRegionMarker($place, $n, $selectedID);
+			else writePlaceMarker($place, $n, $selectedID);
+		
 			// check whether selected
 			if ($place['id'] == $selectedID) { 
-				$selectedCoords = $coords;
+				$selectedCoords = $place->coords;
 				$selectedNum = $n;
 			}
 		}
@@ -84,4 +62,37 @@ mapPlaces.addControl(new L.Control.Fullscreen());
 <?php
 }
 
+function writeRegionMarker($place, $n, $selectedID) {
+	writePlaceMarker($place, $n, $selectedID);
+
+	// check for sub-places
+	foreach ($place->place as $subPlace) writePlaceMarker($subPlace, $n, $selectedID);
+}
+
+function writePlaceMarker($place, $n, $selectedID) {
+	// prepare popup text 
+	$content = '<div class="fs-6">';
+	if ($place['id'] != $selectedID) {
+		$link = getLink('places', $place['id']);
+		$content .= '<a class="" href="' . $link . '">' . $place->name . '</a><br/>';
+	}
+	else {
+		$content .= '<b>' . $place->name . '</b><br/>';
+	}
+	//	$content .= $place->description;
+	$content .= '<span class="small"><a href="#" onclick="mapPlaces.setView([' . $place->coords . '], 13); mapPlaces.closePopup(); return false; ">Zoom in</a></span>';
+	$content .= '</div>';
+							
+	if ($place['type'] == 'region') $appearance = 'radius: 18, color: "none", fillColor: "darkblue", fillOpacity: 0.4';  
+	else $appearance = 'radius: 8, color: "none", fillColor: "darkblue", fillOpacity: 0.7';
+
+	// write marker
+	print 'markers[' . $n . '] = L.circleMarker([' . $place->coords . '], { ' . $appearance . ' }).addTo(mapPlaces); ';
+	print 'markers[' . $n . '].bindPopup(\'' . addSlashes($content) . '\'); ';
+	print 'markers[' . $n . '].on("click", function(e) { this.openPopup; }); ';
+	print "\n";
+	
+	// add to bounds object (to zoom to show all markers)
+	print 'bounds.extend(markers[' . $n . '].getLatLng());';
+}
 ?>

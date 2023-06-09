@@ -19,7 +19,7 @@
       <date_desc>IX 2/4</date_desc>
       <term_post>825</term_post>
       <term_ante>850</term_ante>
-      <origin><place id="soissons">Soissons</place>/NE France</origin>
+      <origin><place id="soissons">Soissons</place>/NE <place id="france">France</place></origin>
       <provenance><place id="reichenau">Reichenau</place></provenance>
    </history>
    <xrefs>
@@ -32,4 +32,3 @@
       <project_notes>Old Irish glosses. </project_notes>
    </notes>
 </manuscript>
-

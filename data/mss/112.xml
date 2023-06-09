@@ -21,7 +21,7 @@
       <date_desc>VIII ex</date_desc>
       <term_post>776</term_post>
       <term_ante>800</term_ante>
-      <origin>Insular centre, N. <place id="italy">Italy</place></origin>
+      <origin>Insular centre, N <place id="italy">Italy</place></origin>
    </history>
    <xrefs>
       <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/8">1.5b</xref>
@@ -36,4 +36,3 @@
       <project_notes />
    </notes>
 </manuscript>
-

@@ -19,7 +19,7 @@
       <date_desc>IX 1/2</date_desc>
       <term_post>800</term_post>
       <term_ante>850</term_ante>
-      <origin>NE France (<place id="soissons">Soissons</place>?)? <place id="ireland">Ireland</place>?</origin>
+      <origin>NE <place id="france">France</place> (<place id="soissons">Soissons</place>?)? <place id="ireland">Ireland</place>?</origin>
       <provenance><place id="reichenau">Reichenau</place></provenance>
    </history>
    <xrefs>
@@ -33,4 +33,3 @@
       MIrA <ms id="61">61</ms>, <ms id="62">62</ms>, <ms id="63">63</ms>, <ms id="59">59</ms>, <ms id="64">64</ms>.</project_notes>
    </notes>
 </manuscript>
-

@@ -18,7 +18,7 @@
       <date_desc>VIII ex</date_desc>
       <term_post>776</term_post>
       <term_ante>800</term_ante>
-      <origin>Freising</origin>
+      <origin><place id="freising">Freising</place></origin>
    </history>
    <xrefs>
       <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/1757">9.1267</xref>
@@ -29,4 +29,3 @@
       <project_notes>Texts suggest Irish connection.</project_notes>
    </notes>
 </manuscript>
-

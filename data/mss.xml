@@ -17,7 +17,7 @@
       <date_desc>840s</date_desc>
       <term_post>840</term_post>
       <term_ante>849</term_ante>
-      <origin>NE France (<place id="laon">Laon</place>? <place id="soissons">Soissons</place>?)</origin>
+      <origin>NE <place id="france">France</place> (<place id="laon">Laon</place>? <place id="soissons">Soissons</place>?)</origin>
       <provenance><place id="reichenau">Reichenau</place></provenance>
    </history>
    <xrefs>
@@ -278,7 +278,7 @@
       <date_desc>IX 2/3</date_desc>
       <term_post>833</term_post>
       <term_ante>866</term_ante>
-      <origin>Irish colony in NE France?</origin>
+      <origin>Irish colony in NE <place id="france">France</place>?</origin>
    </history>
    <xrefs>
       <xref type="bischoff_kat">2046</xref>
@@ -304,7 +304,7 @@
       <date_desc>IX 1/2</date_desc>
       <term_post>800</term_post>
       <term_ante>850</term_ante>
-      <origin><place id="ireland">Ireland</place>? Irish colony in NE France?</origin>
+      <origin><place id="ireland">Ireland</place>? Irish colony in NE <place id="france">France</place>?</origin>
    </history>
    <xrefs>
       <xref type="bischoff_kat">2047</xref>
@@ -331,7 +331,7 @@
       <date_desc>VIII–IX</date_desc>
       <term_post>780</term_post>
       <term_ante>820</term_ante>
-      <origin>N France</origin>
+      <origin>N <place id="france">France</place></origin>
    </history>
    <xrefs>
       <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/1171">6.763</xref>
@@ -474,7 +474,7 @@
       <date_desc>IX 2/3</date_desc>
       <term_post>833</term_post>
       <term_ante>866</term_ante>
-      <origin>NE France</origin>
+      <origin>NE <place id="france">France</place></origin>
    </history>
    <xrefs>
       <xref type="bischoff_kat">2125</xref>
@@ -527,7 +527,7 @@
       <date_desc>IX 2/3</date_desc>
       <term_post>833</term_post>
       <term_ante>866</term_ante>
-      <origin>prob. NE France</origin>
+      <origin>prob. NE <place id="france">France</place></origin>
    </history>
    <xrefs>
       <xref type="bischoff_kat">2045</xref>
@@ -667,7 +667,7 @@
       <date_desc>IX 4/4</date_desc>
       <term_post>865</term_post>
       <term_ante>900</term_ante>
-      <origin>NE France (?)</origin>
+      <origin>NE <place id="france">France</place> (?)</origin>
    </history>
    <xrefs>
       <xref type="bischoff_kat">4498</xref>
@@ -1154,7 +1154,7 @@
       <date_desc>post 875</date_desc>
       <term_post>875</term_post>
       <term_ante>900</term_ante>
-      <origin>NE France (<place id="laon">Laon</place>?)</origin>
+      <origin>NE <place id="france">France</place> (<place id="laon">Laon</place>?)</origin>
    </history>
    <xrefs>
       <xref type="bischoff_kat">4119</xref>
@@ -1613,7 +1613,7 @@
       <date_desc>IX 2/4</date_desc>
       <term_post>825</term_post>
       <term_ante>850</term_ante>
-      <origin><place id="soissons">Soissons</place>/NE France</origin>
+      <origin><place id="soissons">Soissons</place>/NE <place id="france">France</place></origin>
       <provenance><place id="reichenau">Reichenau</place></provenance>
    </history>
    <xrefs>
@@ -1672,7 +1672,7 @@
       <date_desc>IX 3/3</date_desc>
       <term_post>866</term_post>
       <term_ante>900</term_ante>
-      <origin>SW Germany (prob. <place id="reichenau">Reichenau</place>)</origin>
+      <origin>SW <place id="germany">Germany</place> (prob. <place id="reichenau">Reichenau</place>)</origin>
    </history>
    <xrefs>
       <xref type="bischoff_kat">1662</xref>
@@ -1732,7 +1732,7 @@
       <date_desc>IX 1/2</date_desc>
       <term_post>800</term_post>
       <term_ante>850</term_ante>
-      <origin>NE France (<place id="soissons">Soissons</place>?)? <place id="ireland">Ireland</place>?</origin>
+      <origin>NE <place id="france">France</place> (<place id="soissons">Soissons</place>?)? <place id="ireland">Ireland</place>?</origin>
       <provenance><place id="reichenau">Reichenau</place></provenance>
    </history>
    <xrefs>
@@ -2032,7 +2032,7 @@
       <date_desc>IX 1/2</date_desc>
       <term_post>800</term_post>
       <term_ante>850</term_ante>
-      <origin>NE France (<place id="soissons">Soissons</place>?)? Ireland?</origin>
+      <origin>NE <place id="france">France</place> (<place id="soissons">Soissons</place>?)? Ireland?</origin>
    </history>
    <xrefs>
       <xref type="bischoff_kat">1692</xref>
@@ -2240,7 +2240,7 @@
       <date_desc>IX 2/4</date_desc>
       <term_post>825</term_post>
       <term_ante>850</term_ante>
-      <origin>S Germany?</origin>
+      <origin>S <place id="germany">Germany</place>?</origin>
    </history>
    <xrefs>
       <xref type="bischoff_kat">1831</xref>
@@ -2295,8 +2295,8 @@
       <date_desc>IX 3/4</date_desc>
       <term_post>850</term_post>
       <term_ante>875</term_ante>
-      <origin>N. <place id="italy">Italy</place> (<place id="bobbio">Bobbio</place>?)</origin>
-      <provenance>Freising</provenance>
+      <origin>N <place id="italy">Italy</place> (<place id="bobbio">Bobbio</place>?)</origin>
+      <provenance><place id="freising">Freising</place></provenance>
    </history>
    <xrefs>
       <xref type="bischoff_kat">2996</xref>
@@ -2326,7 +2326,7 @@
       <date_desc>VIII ex</date_desc>
       <term_post>776</term_post>
       <term_ante>800</term_ante>
-      <origin>Freising</origin>
+      <origin><place id="freising">Freising</place></origin>
    </history>
    <xrefs>
       <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/1757">9.1267</xref>
@@ -2356,7 +2356,7 @@
       <term_post>825</term_post>
       <term_ante>850</term_ante>
       <origin>N. <place id="italy">Italy</place> (<place id="bobbio">Bobbio</place>? Monza?)</origin>
-      <provenance>Freising</provenance>
+      <provenance><place id="freising">Freising</place></provenance>
    </history>
    <xrefs>
       <xref type="bischoff_ssb">1.134</xref>
@@ -2386,7 +2386,7 @@
       <date_desc>VIII ex</date_desc>
       <term_post>776</term_post>
       <term_ante>800</term_ante>
-      <origin>Freising</origin>
+      <origin><place id="freising">Freising</place></origin>
    </history>
    <xrefs>
       <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/1776">9.1284</xref>
@@ -2416,7 +2416,7 @@
       <date_desc>IX²</date_desc>
       <term_post>850</term_post>
       <term_ante>900</term_ante>
-      <origin>S. Germany (Irish scribe)</origin>
+      <origin>S <place id="germany">Germany</place> (Irish scribe)</origin>
    </history>
    <xrefs>
       <xref type="bischoff_ssb">1.243</xref>
@@ -2478,7 +2478,7 @@
       <date_desc>IX²</date_desc>
       <term_post>850</term_post>
       <term_ante>900</term_ante>
-      <origin><place id="reichenau">Reichenau</place> or S Germany</origin>
+      <origin><place id="reichenau">Reichenau</place> or S <place id="germany">Germany</place></origin>
       <provenance><place id="regensburg">Regensburg</place></provenance>
    </history>
    <xrefs>
@@ -2541,7 +2541,7 @@
       <date_desc>IX²</date_desc>
       <term_post>850</term_post>
       <term_ante>900</term_ante>
-      <origin>?</origin>
+      <origin>origin uncertain</origin>
    </history>
    <xrefs>
       <xref type="bischoff_ssb">1.243–244</xref>
@@ -2570,7 +2570,7 @@
       <date_desc>IX med or 3/4</date_desc>
       <term_post>840</term_post>
       <term_ante>875</term_ante>
-      <origin>Germany</origin>
+      <origin><place id="germany">Germany</place></origin>
    </history>
    <xrefs>
       <xref type="bischoff_ssb">2.244–245</xref>
@@ -3271,7 +3271,7 @@
       <date_desc>VIII ex</date_desc>
       <term_post>776</term_post>
       <term_ante>800</term_ante>
-      <origin>Insular centre, N. <place id="italy">Italy</place></origin>
+      <origin>Insular centre, N <place id="italy">Italy</place></origin>
    </history>
    <xrefs>
       <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/8">1.5b</xref>
@@ -3302,7 +3302,7 @@
       <date_desc>IX 2/3</date_desc>
       <term_post>833</term_post>
       <term_ante>866</term_ante>
-      <origin>Central (?) France</origin>
+      <origin>Central (?) <place id="france">France</place></origin>
       <provenance><place id="lyon">Lyon</place></provenance>
    </history>
    <xrefs>
@@ -3941,7 +3941,7 @@
       <date_desc>VIII²</date_desc>
       <term_post>751</term_post>
       <term_ante>800</term_ante>
-      <origin />
+      <origin><place id="bobbio">Bobbio</place></origin>
    </history>
    <xrefs>
       <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/691">3.353</xref>
@@ -4632,7 +4632,7 @@
       <date_desc>838</date_desc>
       <term_post>838</term_post>
       <term_ante>838</term_ante>
-      <origin>France</origin>
+      <origin><place id="france">France</place></origin>
       <provenance>Egmond</provenance>
    </history>
    <xrefs>
@@ -4664,7 +4664,7 @@
       <date_desc>IX 3/4</date_desc>
       <term_post>850</term_post>
       <term_ante>875</term_ante>
-      <origin>prob. France (Irish scribe)</origin>
+      <origin>prob. <place id="france">France</place> (Irish scribe)</origin>
    </history>
    <xrefs>
       <xref type="bischoff_kat">2140</xref>
@@ -4721,7 +4721,7 @@
       <date_desc>IX 2/4</date_desc>
       <term_post>825</term_post>
       <term_ante>850</term_ante>
-      <origin>NE France</origin>
+      <origin>NE <place id="france">France</place></origin>
       <provenance>Saint-Omer</provenance>
    </history>
    <xrefs>
@@ -4779,7 +4779,7 @@
       <date_desc>IX 1–2/4</date_desc>
       <term_post>800</term_post>
       <term_ante>850</term_ante>
-      <origin>NW Germany?</origin>
+      <origin>NW <place id="germany">Germany</place>?</origin>
       <provenance><place id="mainz">Mainz</place></provenance>
    </history>
    <xrefs>
@@ -4816,7 +4816,7 @@
       <date_desc>IX 3/4</date_desc>
       <term_post>850</term_post>
       <term_ante>875</term_ante>
-      <origin>W France</origin>
+      <origin>W <place id="france">France</place></origin>
    </history>
    <xrefs>
       <xref type="bischoff_kat">2196</xref>
@@ -5091,7 +5091,7 @@
       <date_desc>IX 1/3</date_desc>
       <term_post>800</term_post>
       <term_ante>833</term_ante>
-      <origin>France</origin>
+      <origin><place id="france">France</place></origin>
    </history>
    <xrefs>
       <xref type="bischoff_kat">557</xref>
@@ -5146,7 +5146,7 @@
       <date_desc>IX med</date_desc>
       <term_post>840</term_post>
       <term_ante>860</term_ante>
-      <origin>N. <place id="italy">Italy</place> (Milan?)? <place id="strasbourg">Strasbourg</place>? <place id="stgall">St Gall</place>?</origin>
+      <origin>N <place id="italy">Italy</place> (Milan?)? <place id="strasbourg">Strasbourg</place>? <place id="stgall">St Gall</place>?</origin>
    </history>
    <xrefs>
       <xref type="bischoff_kat">585</xref>
@@ -5176,7 +5176,7 @@
       <date_desc>VIII–IX</date_desc>
       <term_post>780</term_post>
       <term_ante>820</term_ante>
-      <origin>N or NE France</origin>
+      <origin>N or NE <place id="france">France</place></origin>
    </history>
    <xrefs>
       <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/1327">7.874</xref>
@@ -5445,7 +5445,7 @@
       <date_desc>IX med</date_desc>
       <term_post>840</term_post>
       <term_ante>860</term_ante>
-      <origin>E France (<place id="reims">Reims</place>?)</origin>
+      <origin>E <place id="france">France</place> (<place id="reims">Reims</place>?)</origin>
       <provenance><place id="stgall">St Gall</place></provenance>
    </history>
    <xrefs>
@@ -6523,7 +6523,7 @@
       <term_post>701</term_post>
       <term_ante>800</term_ante>
       <origin>England? (poss. <place id="ireland">Ireland</place>?)</origin>
-      <provenance>Germany, prob. Lorsch</provenance>
+      <provenance><place id="germany">Germany</place>, prob. Lorsch</provenance>
    </history>
    <xrefs>
       <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/89">1.78</xref>
@@ -6586,7 +6586,7 @@
       <date_desc>VIII</date_desc>
       <term_post>701</term_post>
       <term_ante>800</term_ante>
-      <origin>Insular centre, N. <place id="italy">Italy</place></origin>
+      <origin>Insular centre, N <place id="italy">Italy</place></origin>
    </history>
    <xrefs>
       <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/7">1.5a</xref>
@@ -6616,7 +6616,7 @@
       <date_desc>IX</date_desc>
       <term_post>800</term_post>
       <term_ante>900</term_ante>
-      <origin>NE France (<place id="soissons">Soissons</place>?)? <place id="ireland">Ireland</place>?</origin>
+      <origin>NE <place id="france">France</place> (<place id="soissons">Soissons</place>?)? <place id="ireland">Ireland</place>?</origin>
    </history>
    <xrefs>
       <xref type="bischoff_kat">6953</xref>
@@ -6705,7 +6705,7 @@
       <date_desc>VIII–IX</date_desc>
       <term_post>780</term_post>
       <term_ante>820</term_ante>
-      <origin>France? <place id="italy">Italy</place>?</origin>
+      <origin><place id="france">France</place>? <place id="italy">Italy</place>?</origin>
    </history>
    <xrefs>
       <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/5">1.3</xref>
@@ -6734,7 +6734,7 @@
       <date_desc>IX med</date_desc>
       <term_post>840</term_post>
       <term_ante>860</term_ante>
-      <origin>Freising</origin>
+      <origin><place id="freising">Freising</place></origin>
    </history>
    <xrefs>
       <xref type="bischoff_kat">3071</xref>
@@ -6789,7 +6789,7 @@
       <date_desc>IX 3/4</date_desc>
       <term_post>850</term_post>
       <term_ante>875</term_ante>
-      <origin>prob. N. France</origin>
+      <origin>prob. N <place id="france">France</place></origin>
       <provenance><place id="werden">Werden</place></provenance>
    </history>
    <xrefs>
@@ -6844,7 +6844,7 @@
       <date_desc>IX²</date_desc>
       <term_post>850</term_post>
       <term_ante>900</term_ante>
-      <origin>E France (<place id="verdun">Verdun</place>?)</origin>
+      <origin>E <place id="france">France</place> (<place id="verdun">Verdun</place>?)</origin>
       <provenance><place id="verdun">Verdun</place></provenance>
    </history>
    <xrefs>
@@ -6873,7 +6873,7 @@
       <date_desc>IX 3/4</date_desc>
       <term_post>850</term_post>
       <term_ante>875</term_ante>
-      <origin>France?</origin>
+      <origin><place id="france">France</place>?</origin>
       <provenance><place id="canterbury">Canterbury</place> (c. 1100)</provenance>
    </history>
    <xrefs>
@@ -6961,7 +6961,7 @@
       <date_desc>IX²</date_desc>
       <term_post>850</term_post>
       <term_ante>900</term_ante>
-      <origin>Germany?</origin>
+      <origin><place id="germany">Germany</place>?</origin>
    </history>
    <xrefs>
       <xref type="bischoff_ssb">1.242</xref>
@@ -6991,7 +6991,7 @@
       <date_desc>c. 800</date_desc>
       <term_post>790</term_post>
       <term_ante>810</term_ante>
-      <origin>S Germany</origin>
+      <origin>S <place id="germany">Germany</place></origin>
    </history>
    <xrefs>
       <xref type="bischoff_ssb">1.247–248</xref>
@@ -7021,7 +7021,7 @@
       <date_desc>IX²</date_desc>
       <term_post>850</term_post>
       <term_ante>900</term_ante>
-      <origin>S Germany</origin>
+      <origin>S <place id="germany">Germany</place></origin>
    </history>
    <xrefs>
       <xref type="bischoff_ssb">1.253, 2.244</xref>
@@ -7306,7 +7306,7 @@
       <date_desc>IX/X or XI in</date_desc>
       <term_post>880</term_post>
       <term_ante>1020</term_ante>
-      <origin>S Germany</origin>
+      <origin>S <place id="germany">Germany</place></origin>
       <provenance><place id="stgall">St Gall</place></provenance>
    </history>
    <xrefs>
@@ -7362,7 +7362,7 @@
       <date_desc>IX 2/4</date_desc>
       <term_post>825</term_post>
       <term_ante>850</term_ante>
-      <origin>prob. N France</origin>
+      <origin>prob. N <place id="france">France</place></origin>
       <provenance><place id="laon">Laon</place></provenance>
    </history>
    <xrefs>
@@ -7499,7 +7499,7 @@
       <date_desc>IX 1/3 &amp; 2/3</date_desc>
       <term_post>800</term_post>
       <term_ante>866</term_ante>
-      <origin><place id="saint-amand">Saint-Amand</place> &amp; NE France</origin>
+      <origin><place id="saint-amand">Saint-Amand</place> &amp; NE <place id="france">France</place></origin>
       <provenance><place id="laon">Laon</place></provenance>
    </history>
    <xrefs>
@@ -7527,7 +7527,7 @@
       <date_desc>IX 3/4</date_desc>
       <term_post>850</term_post>
       <term_ante>875</term_ante>
-      <origin>prob. NE France</origin>
+      <origin>prob. NE <place id="france">France</place></origin>
       <provenance><place id="laon">Laon</place></provenance>
    </history>
    <xrefs>
@@ -7639,7 +7639,7 @@
       <date_desc>IX 3/4</date_desc>
       <term_post>850</term_post>
       <term_ante>875</term_ante>
-      <origin>NE France?</origin>
+      <origin>NE <place id="france">France</place>?</origin>
    </history>
    <xrefs>
       <xref type="bischoff_kat">2108</xref>
@@ -7666,7 +7666,7 @@
       <date_desc>IX 1/4 or 2/4</date_desc>
       <term_post>800</term_post>
       <term_ante>850</term_ante>
-      <origin>NE France (near <place id="saint-amand">Saint-Amand</place>)</origin>
+      <origin>NE <place id="france">France</place> (near <place id="saint-amand">Saint-Amand</place>)</origin>
    </history>
    <xrefs>
       <xref type="bischoff_kat">2113</xref>
@@ -7694,7 +7694,7 @@
       <date_desc>IX 2/4</date_desc>
       <term_post>825</term_post>
       <term_ante>850</term_ante>
-      <origin>France? N <place id="italy">Italy</place>?</origin>
+      <origin><place id="france">France</place>? N <place id="italy">Italy</place>?</origin>
    </history>
    <xrefs>
       <xref type="bischoff_kat">2116</xref>
@@ -7721,7 +7721,7 @@
       <date_desc>IX 2/3</date_desc>
       <term_post>833</term_post>
       <term_ante>866</term_ante>
-      <origin>NE France</origin>
+      <origin>NE <place id="france">France</place></origin>
       <provenance><place id="laon">Laon</place></provenance>
    </history>
    <xrefs>
@@ -7749,7 +7749,7 @@
       <date_desc>IX 2/4</date_desc>
       <term_post>825</term_post>
       <term_ante>850</term_ante>
-      <origin>NE France</origin>
+      <origin>NE <place id="france">France</place></origin>
       <provenance><place id="laon">Laon</place></provenance>
    </history>
    <xrefs>
@@ -7808,7 +7808,7 @@
       <date_desc>IX 3/4</date_desc>
       <term_post>875</term_post>
       <term_ante>900</term_ante>
-      <origin>NE France (Arras?)</origin>
+      <origin>NE <place id="france">France</place> (Arras?)</origin>
    </history>
    <xrefs>
       <xref type="bischoff_kat">4853</xref>
@@ -8110,7 +8110,7 @@
       <date_desc>IX med</date_desc>
       <term_post>840</term_post>
       <term_ante>860</term_ante>
-      <origin>S Germany</origin>
+      <origin>S <place id="germany">Germany</place></origin>
    </history>
    <xrefs>
       <xref type="bischoff_ssb">1.220 (no. 71)</xref>
@@ -8202,7 +8202,7 @@
       <date_desc>IX²</date_desc>
       <term_post>850</term_post>
       <term_ante>900</term_ante>
-      <origin>W Germany?</origin>
+      <origin>W <place id="germany">Germany</place>?</origin>
    </history>
    <xrefs>
       <xref type="dhbm" href="https://ircabritt.nuigalway.ie/handlist/catalogue/89">#89</xref>
@@ -8534,7 +8534,7 @@
       <date_desc>IX 3/4</date_desc>
       <term_post>875</term_post>
       <term_ante>900</term_ante>
-      <origin>prob. E France</origin>
+      <origin>prob. E <place id="france">France</place></origin>
    </history>
    <xrefs>
       <xref type="bischoff_ssb">2.262</xref>
@@ -8595,7 +8595,7 @@
       <date_desc>VIII ex</date_desc>
       <term_post>776</term_post>
       <term_ante>800</term_ante>
-      <origin>Freising</origin>
+      <origin><place id="freising">Freising</place></origin>
    </history>
    <xrefs>
       <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/1777">9.1285</xref>

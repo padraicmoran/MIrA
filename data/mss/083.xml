@@ -18,7 +18,7 @@
       <date_desc>IX²</date_desc>
       <term_post>850</term_post>
       <term_ante>900</term_ante>
-      <origin>S. Germany (Irish scribe)</origin>
+      <origin>S <place id="germany">Germany</place> (Irish scribe)</origin>
    </history>
    <xrefs>
       <xref type="bischoff_ssb">1.243</xref>
@@ -31,4 +31,3 @@
       <private_notes>Bischoff: scribe poss. the Iob who came to Regensburg ("venit in monasterium sancti Emmerammi"), in ?894.</private_notes>
    </notes>
 </manuscript>
-

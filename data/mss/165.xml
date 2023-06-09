@@ -25,7 +25,7 @@
       <date_desc>IX 3/4</date_desc>
       <term_post>850</term_post>
       <term_ante>875</term_ante>
-      <origin>W France</origin>
+      <origin>W <place id="france">France</place></origin>
    </history>
    <xrefs>
       <xref type="bischoff_kat">2196</xref>
@@ -36,4 +36,3 @@
       <private_notes>Check location of Paris MS.</private_notes>
    </notes>
 </manuscript>
-

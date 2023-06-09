@@ -21,11 +21,11 @@ function networkGraph($results) {
     $edgeAssigned = false;
 
     // check for places and retrieve IDs
-    // check orgins first
+    // check if this MS links to one or more origin places
     $checkOriginPlaces = $ms->xpath ('//manuscript[@id="' . $msID  . '"]//origin/place/@id');
     foreach ($checkOriginPlaces as $placeFound) {
       $placeID = strval($placeFound['id']);
-      // add to list if new
+      // add ID to place list if new
       if (! in_array($placeID, $placeList)) array_push($placeList, $placeID);
       // build edge list
       array_push($edgeFrom, $placeID);
@@ -33,8 +33,8 @@ function networkGraph($results) {
       array_push($edgeTypes, 'origin');
       $edgeAssigned = true;
     }
-  
-    // same for provenances
+      
+    // check if this MS links to one or more provenance places
     $checkProvPlaces = $ms->xpath ('//manuscript[@id="' . $msID  . '"]//provenance/place/@id'); // don't understand why this works! expect //place/@id, but no results
     foreach ($checkProvPlaces as $placeFound) {
       $placeID = strval($placeFound['id']);
@@ -55,7 +55,6 @@ function networkGraph($results) {
       array_push($edgeTypes, 'hidden');
     }
   }
-
 
 ?>
 
@@ -112,13 +111,17 @@ var nodes = new vis.DataSet([
     $coords = explode(',', $placeInfo[$place]['coords']);
     $x = $coords[1] * 150;
     $y = $coords[0] * -200;
-    $geoInfo = ', x: ' . $x . ', y: ' . $y . ', fixed: { x: true, y: true } ';
+    $geoInfo = ', x: ' . $x . ', y: ' . $y . ', fixed: { x: true, y: true }';
+
+    $regionAttributes = '';
+    if ($placeInfo[$place]['type'] == 'region') $regionAttributes = ', font: { size: 46 } ';
     
     print '{ id: "' . $place . '", 
       label: "' . $placeInfo[$place]['name'] . '", 
       shape: "box", 
       color: "green"
       ' . $geoInfo . ' 
+      ' . $regionAttributes . ' 
     },' . "\n";
   }
 ?>

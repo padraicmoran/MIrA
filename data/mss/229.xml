@@ -18,7 +18,7 @@
       <date_desc>IX med</date_desc>
       <term_post>840</term_post>
       <term_ante>860</term_ante>
-      <origin>Freising</origin>
+      <origin><place id="freising">Freising</place></origin>
    </history>
    <xrefs>
       <xref type="bischoff_kat">3071</xref>
@@ -30,4 +30,3 @@
       <private_notes>Glosses in various Caroline hands.</private_notes>
    </notes>
 </manuscript>
-

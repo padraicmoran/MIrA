@@ -18,7 +18,7 @@
       <date_desc>IX²</date_desc>
       <term_post>850</term_post>
       <term_ante>900</term_ante>
-      <origin>S Germany</origin>
+      <origin>S <place id="germany">Germany</place></origin>
    </history>
    <xrefs>
       <xref type="bischoff_ssb">1.253, 2.244</xref>
@@ -30,4 +30,3 @@
       <private_notes />
    </notes>
 </manuscript>
-

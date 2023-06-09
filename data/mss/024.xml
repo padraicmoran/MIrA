@@ -18,7 +18,7 @@
       <date_desc>IX 4/4</date_desc>
       <term_post>865</term_post>
       <term_ante>900</term_ante>
-      <origin>NE France (?)</origin>
+      <origin>NE <place id="france">France</place> (?)</origin>
    </history>
    <xrefs>
       <xref type="bischoff_kat">4498</xref>
@@ -28,4 +28,3 @@
       <project_notes>Bischoff: corr. in contemp. Irish hand (62v, 63r, etc.) with Caroline influence.</project_notes>
    </notes>
 </manuscript>
-

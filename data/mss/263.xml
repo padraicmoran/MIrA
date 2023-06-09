@@ -16,7 +16,7 @@
       <date_desc>IX 2/4</date_desc>
       <term_post>825</term_post>
       <term_ante>850</term_ante>
-      <origin>France? N <place id="italy">Italy</place>?</origin>
+      <origin><place id="france">France</place>? N <place id="italy">Italy</place>?</origin>
    </history>
    <xrefs>
       <xref type="bischoff_kat">2116</xref>
@@ -28,4 +28,3 @@
       <private_notes />
    </notes>
 </manuscript>
-

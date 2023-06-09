@@ -18,8 +18,8 @@
       <date_desc>IX 3/4</date_desc>
       <term_post>850</term_post>
       <term_ante>875</term_ante>
-      <origin>N. <place id="italy">Italy</place> (<place id="bobbio">Bobbio</place>?)</origin>
-      <provenance>Freising</provenance>
+      <origin>N <place id="italy">Italy</place> (<place id="bobbio">Bobbio</place>?)</origin>
+      <provenance><place id="freising">Freising</place></provenance>
    </history>
    <xrefs>
       <xref type="bischoff_kat">2996</xref>
@@ -31,4 +31,3 @@
       <project_notes>Old Irish glosses (embedded). Bischoff, <i>SSB</i>: Irish exemplar.</project_notes>
    </notes>
 </manuscript>
-

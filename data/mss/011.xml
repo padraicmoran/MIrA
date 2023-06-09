@@ -16,7 +16,7 @@
       <date_desc>IX 1/2</date_desc>
       <term_post>800</term_post>
       <term_ante>850</term_ante>
-      <origin><place id="ireland">Ireland</place>? Irish colony in NE France?</origin>
+      <origin><place id="ireland">Ireland</place>? Irish colony in NE <place id="france">France</place>?</origin>
    </history>
    <xrefs>
       <xref type="bischoff_kat">2047</xref>
@@ -27,4 +27,3 @@
       <project_notes>Old Irish glosses. </project_notes>
    </notes>
 </manuscript>
-

@@ -18,7 +18,7 @@
       <date_desc>IX med</date_desc>
       <term_post>840</term_post>
       <term_ante>860</term_ante>
-      <origin>E France (<place id="reims">Reims</place>?)</origin>
+      <origin>E <place id="france">France</place> (<place id="reims">Reims</place>?)</origin>
       <provenance><place id="stgall">St Gall</place></provenance>
    </history>
    <xrefs>
@@ -31,4 +31,3 @@
       <project_notes>Latin &amp; (1) Old Irish glosses. </project_notes>
    </notes>
 </manuscript>
-

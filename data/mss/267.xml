@@ -17,7 +17,7 @@
       <date_desc>IX 3/4</date_desc>
       <term_post>875</term_post>
       <term_ante>900</term_ante>
-      <origin>NE France (Arras?)</origin>
+      <origin>NE <place id="france">France</place> (Arras?)</origin>
    </history>
    <xrefs>
       <xref type="bischoff_kat">4853</xref>
@@ -28,4 +28,3 @@
       <project_notes>Possibly hand of <person id="martin">Martin</person> (Contreni 1972; rejected by Bischoff, 'Irish scribes', n. 52***).</project_notes>
    </notes>
 </manuscript>
-

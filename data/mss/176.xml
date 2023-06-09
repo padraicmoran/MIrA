@@ -18,7 +18,7 @@
       <date_desc>IX med</date_desc>
       <term_post>840</term_post>
       <term_ante>860</term_ante>
-      <origin>N. <place id="italy">Italy</place> (Milan?)? <place id="strasbourg">Strasbourg</place>? <place id="stgall">St Gall</place>?</origin>
+      <origin>N <place id="italy">Italy</place> (Milan?)? <place id="strasbourg">Strasbourg</place>? <place id="stgall">St Gall</place>?</origin>
    </history>
    <xrefs>
       <xref type="bischoff_kat">585</xref>
@@ -31,4 +31,3 @@
       <private_notes>Still not on e-Codices.</private_notes>
    </notes>
 </manuscript>
-

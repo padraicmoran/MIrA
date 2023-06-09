@@ -18,7 +18,7 @@
       <date_desc>IX 1/2</date_desc>
       <term_post>800</term_post>
       <term_ante>850</term_ante>
-      <origin>NE France (<place id="soissons">Soissons</place>?)? Ireland?</origin>
+      <origin>NE <place id="france">France</place> (<place id="soissons">Soissons</place>?)? Ireland?</origin>
    </history>
    <xrefs>
       <xref type="bischoff_kat">1692</xref>
@@ -30,4 +30,3 @@
       <project_notes>Old Irish glosses. Bischoff: cf. Laon 26 (frag.).</project_notes>
    </notes>
 </manuscript>
-

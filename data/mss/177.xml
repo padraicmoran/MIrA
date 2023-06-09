@@ -17,7 +17,7 @@
       <date_desc>VIII–IX</date_desc>
       <term_post>780</term_post>
       <term_ante>820</term_ante>
-      <origin>N or NE France</origin>
+      <origin>N or NE <place id="france">France</place></origin>
    </history>
    <xrefs>
       <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/1327">7.874</xref>
@@ -29,4 +29,3 @@
       <project_notes>Corrections in Irish hand, f. 8v.</project_notes>
    </notes>
 </manuscript>
-

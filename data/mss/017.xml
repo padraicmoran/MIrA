@@ -16,7 +16,7 @@
       <date_desc>IX 2/3</date_desc>
       <term_post>833</term_post>
       <term_ante>866</term_ante>
-      <origin>NE France</origin>
+      <origin>NE <place id="france">France</place></origin>
    </history>
    <xrefs>
       <xref type="bischoff_kat">2125</xref>
@@ -26,4 +26,3 @@
       <project_notes>Bischoff: Insular (prob. Irish) ductus.</project_notes>
    </notes>
 </manuscript>
-

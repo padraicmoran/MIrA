@@ -18,7 +18,7 @@
       <date_desc>VIII ex</date_desc>
       <term_post>776</term_post>
       <term_ante>800</term_ante>
-      <origin>Freising</origin>
+      <origin><place id="freising">Freising</place></origin>
    </history>
    <xrefs>
       <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/1776">9.1284</xref>
@@ -30,4 +30,3 @@
       <project_notes>Irish exemplar. Insular, prob. Irish, corrections (esp. ff 18r, 21v, 26v).</project_notes>
    </notes>
 </manuscript>
-

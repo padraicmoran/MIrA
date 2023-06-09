@@ -18,7 +18,7 @@
       <date_desc>IX 3/3</date_desc>
       <term_post>866</term_post>
       <term_ante>900</term_ante>
-      <origin>SW Germany (prob. <place id="reichenau">Reichenau</place>)</origin>
+      <origin>SW <place id="germany">Germany</place> (prob. <place id="reichenau">Reichenau</place>)</origin>
    </history>
    <xrefs>
       <xref type="bischoff_kat">1662</xref>
@@ -28,4 +28,3 @@
       <project_notes>Bischoff: doubtless Irish exemplar.</project_notes>
    </notes>
 </manuscript>
-
