@@ -143,7 +143,7 @@ function listMSS($results) {
 ?>
 
 <!-- Folios chart -->
-<h3 class="mt-5 pt-2">Folios</h4> 
+<h3 class="mt-5 pt-2">Folio count</h4> 
 <?php
 	chartFolios($resultsSorted);
 	?>

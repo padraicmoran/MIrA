@@ -61,7 +61,7 @@ if (file_exists('data/places.xml')) {
 		// find related manuscripts
 		$xpath = '//place[@id="' . $id . '"]/ancestor::manuscript';
 		// if this place is a region, also search all sub-places
-		if ($subPlaces) {
+		if (isset($subPlaces)) {
 			foreach ($subPlaces as $p) $xpath .= ' | //place[@id="' . $p['id'] . '"]/ancestor::manuscript';
 		}
 		$results = $xml_mss->xpath($xpath);

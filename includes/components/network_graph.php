@@ -5,6 +5,9 @@ Network graph
 function networkGraph($results) {
   global $placeInfo;
 
+  /* PREPARE DATA
+  */
+
   // set up some blank arrays
   $placeList = array();
   $edgeFrom = $edgeTo = $edgeTypes = array();
@@ -52,17 +55,22 @@ function networkGraph($results) {
       array_push($edgeTypes, 'hidden');
     }
   }
+
+
 ?>
 
 <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
 
-<p>Black lines indicate origin, blue arrows provenance.
+<button class="btn btn-secondary float-end" onclick="fullScreen(document.getElementById('networkGraph'));">Full screen</button>
+
+<form>
+Black lines indicate origin, blue arrows provenance.
 To view a manuscript, enter the number here: 
 <input type="text" id="msNum" class="" style="width: 50px; ">
-<button class="btn btn-success" onclick="x = document.getElementById('msNum').value; location.href='/' + x">go</button>
+<input type="submit" class="btn btn-success" value="go" onclick="n = document.getElementById('msNum').value; if (n.length > 0) { location.href= '/' + n; } return false; ">
+</form>
 
-<button class="btn btn-secondary float-end" onclick="fullScreen(document.getElementById('networkGraph'));">Full screen</button>
-</p>
+
 
 <div id="networkGraph" class="border border-secondary rounded shadow bg-light" style="height: 480px; ">
 </div>
@@ -71,15 +79,22 @@ To view a manuscript, enter the number here:
 
 // create an array with nodes
 var nodes = new vis.DataSet([
-  // node for MSS without location
-  { id: "ubique", 
+
+<?php
+
+  /* OUTPUT DATA
+  */
+  
+  // node for MSS without location (if needed)
+  if (in_array('hidden', $edgeTypes)) {
+  print '{ id: "ubique", 
     label: "Not yet assigned", 
       shape: "box", 
       color: "grey",
       x: -1100, y: -8900, fixed: { x: true, y: true }  
-    },
+    }, ';
+  }
 
-<?php
   // write nodes for MSS
   foreach ($results as $ms) {
     print '{ id: ' . $ms['id'] . ', 
@@ -107,10 +122,13 @@ var nodes = new vis.DataSet([
     },' . "\n";
   }
 ?>
-  ]);
+]);
+
+
 
 // create an array with edges
 var edges = new vis.DataSet([
+
 <?php
   for ($n = 0; $n < count($edgeFrom); $n++) {
     if ($edgeTypes[$n] == 'origin') {
@@ -124,9 +142,12 @@ var edges = new vis.DataSet([
     }
   }
 ?>
+
 ]);
 
-// create a network
+
+
+// create the network object
 var container = document.getElementById("networkGraph");
 var data = {
   nodes: nodes,
