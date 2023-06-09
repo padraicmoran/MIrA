@@ -4,7 +4,7 @@ Map for place entries
 */
 
 function mapPlaces($results, $selectedID) {
-	global $tidyURLs;
+	global $tidyURLs, $placeInfo;
 
 	// set up map
 ?>
@@ -28,29 +28,20 @@ var bounds = new L.LatLngBounds();
 <?php
 
 	// write data from array
-   $n = 0;
 	$selectedCoords = '';
 	foreach ($results as $place) {
-		$n ++;
-
+		
 		// prepare content
 		if ($place->coords <> '') {
-		
-			if ($place['type'] == 'region') writeRegionMarker($place, $n, $selectedID);
-			else writePlaceMarker($place, $n, $selectedID);
-		
-			// check whether selected
-			if ($place['id'] == $selectedID) { 
-				$selectedCoords = $place->coords;
-				$selectedNum = $n;
-			}
+			if ($place['type'] == 'region') writeRegionMarker($place, $selectedID);
+			else writePlaceMarker($place, $selectedID);
 		}
 	}
 
 	// if showing one result, centre map
-	if ($selectedCoords != '') {
-		print 'mapPlaces.setView([' . $selectedCoords . '], 8); ';
-		print 'markers[' . $selectedNum . '].openPopup(); ';	
+	if ($selectedID != '') {
+		print 'mapPlaces.setView([' . $placeInfo[$selectedID]['coords'] . '], 8); ';
+		print 'markers["' . $selectedID . '"].openPopup(); ';	
 	}
 	else print 'mapPlaces.fitBounds(bounds); ';
 
@@ -62,14 +53,16 @@ mapPlaces.addControl(new L.Control.Fullscreen());
 <?php
 }
 
-function writeRegionMarker($place, $n, $selectedID) {
-	writePlaceMarker($place, $n, $selectedID);
+function writeRegionMarker($place, $selectedID) {
+	writePlaceMarker($place, $selectedID);
 
 	// check for sub-places
-	foreach ($place->place as $subPlace) writePlaceMarker($subPlace, $n, $selectedID);
+	foreach ($place->place as $subPlace) writePlaceMarker($subPlace, $selectedID);
 }
 
-function writePlaceMarker($place, $n, $selectedID) {
+function writePlaceMarker($place, $selectedID) {
+	$id = $place['id'];
+
 	// prepare popup text 
 	$content = '<div class="fs-6">';
 	if ($place['id'] != $selectedID) {
@@ -87,12 +80,11 @@ function writePlaceMarker($place, $n, $selectedID) {
 	else $appearance = 'radius: 8, color: "none", fillColor: "darkblue", fillOpacity: 0.7';
 
 	// write marker
-	print 'markers[' . $n . '] = L.circleMarker([' . $place->coords . '], { ' . $appearance . ' }).addTo(mapPlaces); ';
-	print 'markers[' . $n . '].bindPopup(\'' . addSlashes($content) . '\'); ';
-	print 'markers[' . $n . '].on("click", function(e) { this.openPopup; }); ';
-	print "\n";
-	
+	print 'markers["' . $id . '"] = L.circleMarker([' . $place->coords . '], { ' . $appearance . ' }).addTo(mapPlaces); ';
+	print 'markers["' . $id . '"].bindPopup(\'' . addSlashes($content) . '\'); ';
+	print 'markers["' . $id . '"].on("click", function(e) { this.openPopup; }); ';
+		
 	// add to bounds object (to zoom to show all markers)
-	print 'bounds.extend(markers[' . $n . '].getLatLng());';
+	print 'bounds.extend(markers["' . $id . '"].getLatLng());' . "\n";
 }
 ?>
