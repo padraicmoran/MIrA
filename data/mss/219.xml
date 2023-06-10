@@ -27,7 +27,7 @@
       <folios>34</folios>
       <page_h>205</page_h>
       <page_w>140</page_w>
-      <contents>Isidore, <i>Etymologiae</i> (1, 11, fragm.), <i>Interrogationes et Responsiones</i> (fragm.); Arnobius Iunior, Opus Incertum(?), <i>Expositio in Evangelia</i>, <i>Computus</i>; Caesarius Arelatensis, <i>Homiliae</i> (fragm.)</contents>
+      <contents><person id="isidore">Isidore</person>, <i>Etymologiae</i> (1, 11, fragm.), <i>Interrogationes et Responsiones</i> (fragm.); Arnobius Iunior, Opus Incertum(?), <i>Expositio in Evangelia</i>, <i>Computus</i>; Caesarius Arelatensis, <i>Homiliae</i> (fragm.)</contents>
       <script>Irish majuscule</script>
    </description>
    <history>
@@ -53,4 +53,3 @@
       See also https://isidore.sd.di.huc.knaw.nl/#detail/M0122</private_notes>
    </notes>
 </manuscript>
-

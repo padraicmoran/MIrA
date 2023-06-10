@@ -10,12 +10,12 @@
       <folios>61</folios>
       <page_h>310</page_h>
       <page_w>230</page_w>
-      <contents>Commentarii in Virgilium, Sedulium artesque liberales</contents>
+      <contents><i>Commentarii in Virgilium</i>, Sedulium artesque liberales</contents>
       <script>Caroline minuscule</script>
    </description>
    <history>
       <date_desc>IX 3/4</date_desc>
-      <term_post>875</term_post>
+      <term_post>876</term_post>
       <term_ante>900</term_ante>
       <origin><place id="laon">Laon</place></origin>
    </history>
@@ -27,4 +27,3 @@
       <project_notes>Hand of <person id="martin">Martin</person>. Evidence for use of an Irish archetype. (Contreni 1972, etc.***)</project_notes>
    </notes>
 </manuscript>
-

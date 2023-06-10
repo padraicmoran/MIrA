@@ -11,12 +11,12 @@
       <folios>40</folios>
       <page_h>180</page_h>
       <page_w>130</page_w>
-      <contents>Arnobius Iunior, <i>Interpretatio Evangeliorum</i> (incompl.); Jerome, <i>Epistulae</i> (<i>Ad Nepotianum, Ad Paulinum</i>)</contents>
+      <contents>Arnobius Iunior, <i>Interpretatio Evangeliorum</i> (incompl.); <person id="jerome">Jerome</person>, <i>Epistulae</i> (<i>Ad Nepotianum, Ad Paulinum</i>)</contents>
       <script>Early Caroline minuscule</script>
    </description>
    <history>
       <date_desc>VIII ex</date_desc>
-      <term_post>776</term_post>
+      <term_post>786</term_post>
       <term_ante>800</term_ante>
       <origin><place id="freising">Freising</place></origin>
    </history>

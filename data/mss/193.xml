@@ -11,7 +11,7 @@
       <folios />
       <page_h />
       <page_w />
-      <contents>Augustine, <i>De Musica</i> (5.5)</contents>
+      <contents><person id="augustine">Augustine</person>, <i>De Musica</i> (5.5)</contents>
       <script>Irish minuscule</script>
    </description>
    <history>
@@ -30,4 +30,3 @@
       <project_notes />
    </notes>
 </manuscript>
-

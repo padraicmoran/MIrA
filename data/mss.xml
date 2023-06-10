@@ -10,7 +10,7 @@
       <folios />
       <page_h />
       <page_w />
-      <contents><i>Vita Virgilii</i>; Ambrose, <i>Hexameron</i> (extracts); Old Irish poems; scholia on the <i>Aeneid</i>; astronomical table; Greek paradigms; Greek–Latin glossaries; etc.</contents>
+      <contents><i>Vita Virgilii</i>; <person id="ambrose">Ambrose</person> , <i>Hexameron</i> (extracts); Old Irish poems; scholia on the <i>Aeneid</i>; astronomical table; Greek paradigms; Greek–Latin glossaries; etc.</contents>
       <script>Irish minuscule</script>
    </description>
    <history>
@@ -46,7 +46,7 @@
    </description>
    <history>
       <date_desc>VIII ex</date_desc>
-      <term_post>776</term_post>
+      <term_post>786</term_post>
       <term_ante>800</term_ante>
       <origin><place id="salzburg">Salzburg</place></origin>
    </history>
@@ -74,7 +74,7 @@
    </description>
    <history>
       <date_desc>VIII ex</date_desc>
-      <term_post>776</term_post>
+      <term_post>786</term_post>
       <term_ante>800</term_ante>
       <origin><place id="salzburg">Salzburg</place></origin>
    </history>
@@ -131,13 +131,13 @@
       <folios />
       <page_h />
       <page_w />
-      <contents>Commentary on Matthew (13r–142v); + Jerome, <i>Epistula ad Damasum papam</i>; Gospel canons; Sedulius Scotus, <i>Argumenta</i>, etc.</contents>
+      <contents>Commentary on Matthew (13r–142v); <person id="jerome">Jerome</person>, <i>Epistula ad Damasum papam</i>; Gospel canons; Sedulius Scotus, <i>Argumenta</i>, etc.</contents>
       <script />
    </description>
    <history>
       <date_desc>IX in</date_desc>
       <term_post>800</term_post>
-      <term_ante>820</term_ante>
+      <term_ante>815</term_ante>
       <origin><place id="salzburg">Salzburg</place> (or <place id="saint-amand">Saint-Amand</place>)</origin>
    </history>
    <xrefs>
@@ -271,12 +271,12 @@
       <folios>3</folios>
       <page_h>230</page_h>
       <page_w>195</page_w>
-      <contents>Augustine, <i>De vera religione</i></contents>
+      <contents><person id="augustine">Augustine</person>, <i>De vera religione</i></contents>
       <script>Irish minuscule</script>
    </description>
    <history>
       <date_desc>IX 2/3</date_desc>
-      <term_post>833</term_post>
+      <term_post>834</term_post>
       <term_ante>866</term_ante>
       <origin>Irish colony in NE <place id="france">France</place>?</origin>
    </history>
@@ -352,12 +352,12 @@
       <folios>2</folios>
       <page_h>260</page_h>
       <page_w>152</page_w>
-      <contents>Bede, <i>Commentarius in Parabolas Salomonis</i> + (frag.) Augustine, <i>De quantitate animae</i></contents>
+      <contents>Bede, <i>Commentarius in Parabolas Salomonis</i> + (frag.) <person id="augustine">Augustine</person>, <i>De quantitate animae</i></contents>
       <script />
    </description>
    <history>
       <date_desc>IX 2/3</date_desc>
-      <term_post>833</term_post>
+      <term_post>834</term_post>
       <term_ante>866</term_ante>
       <origin><place id="ireland">Ireland</place> (?); circle of <person id="eriugena">Eriugena</person></origin>
    </history>
@@ -381,12 +381,12 @@
       <folios>48</folios>
       <page_h>230</page_h>
       <page_w>165</page_w>
-      <contents>Eriugena, <i>Commentarius in evangelium Iohannis</i></contents>
+      <contents><person id="eriugena">Eriugena</person>, <i>Commentarius in evangelium Iohannis</i></contents>
       <script>Caroline minuscule</script>
    </description>
    <history>
       <date_desc>IX 3/4</date_desc>
-      <term_post>875</term_post>
+      <term_post>876</term_post>
       <term_ante>900</term_ante>
       <origin>Circle of <person id="eriugena">Eriugena</person></origin>
    </history>
@@ -414,7 +414,7 @@
    </description>
    <history>
       <date_desc>IX 3/4</date_desc>
-      <term_post>875</term_post>
+      <term_post>876</term_post>
       <term_ante>900</term_ante>
       <origin><place id="laon">Laon</place></origin>
    </history>
@@ -439,12 +439,12 @@
       <folios>204</folios>
       <page_h>345</page_h>
       <page_w>245</page_w>
-      <contents>Isidore, <i>Etymologiae</i></contents>
+      <contents><person id="isidore">Isidore</person>, <i>Etymologiae</i></contents>
       <script />
    </description>
    <history>
       <date_desc>IX 2/4</date_desc>
-      <term_post>825</term_post>
+      <term_post>826</term_post>
       <term_ante>850</term_ante>
       <origin><place id="mainz">Mainz</place></origin>
       <provenance><place id="laon">Laon</place></provenance>
@@ -472,7 +472,7 @@
    </description>
    <history>
       <date_desc>IX 2/3</date_desc>
-      <term_post>833</term_post>
+      <term_post>834</term_post>
       <term_ante>866</term_ante>
       <origin>NE <place id="france">France</place></origin>
    </history>
@@ -494,12 +494,12 @@
       <folios>61</folios>
       <page_h>310</page_h>
       <page_w>230</page_w>
-      <contents>Commentarii in Virgilium, Sedulium artesque liberales</contents>
+      <contents><i>Commentarii in Virgilium</i>, Sedulium artesque liberales</contents>
       <script>Caroline minuscule</script>
    </description>
    <history>
       <date_desc>IX 3/4</date_desc>
-      <term_post>875</term_post>
+      <term_post>876</term_post>
       <term_ante>900</term_ante>
       <origin><place id="laon">Laon</place></origin>
    </history>
@@ -520,12 +520,12 @@
       <folios />
       <page_h />
       <page_w />
-      <contents>Jerome, <i>Liber interpretationis Hebraicorum nominum</i></contents>
+      <contents><person id="jerome">Jerome</person>, <i>Liber interpretationis Hebraicorum nominum</i></contents>
       <script>Caroline minuscule</script>
    </description>
    <history>
       <date_desc>IX 2/3</date_desc>
-      <term_post>833</term_post>
+      <term_post>834</term_post>
       <term_ante>866</term_ante>
       <origin>prob. NE <place id="france">France</place></origin>
    </history>
@@ -601,7 +601,7 @@
       <folios>153</folios>
       <page_h>270</page_h>
       <page_w>205</page_w>
-      <contents>Anonymi Scotti Commentarius in Matthaeum; Bede, <i>Libellus retractationis in Actus apostolorum</i>; <i>Liber Questionum in Evangeliis</i>; etc.</contents>
+      <contents>Anonymi Scotti <i>Commentarius in Matthaeum</i>; Bede, <i>Libellus retractationis in Actus apostolorum</i>; <i>Liber Questionum in Evangeliis</i>; etc.</contents>
       <script />
    </description>
    <history>
@@ -630,12 +630,12 @@
       <folios>14</folios>
       <page_h>220</page_h>
       <page_w>192</page_w>
-      <contents>Eriugena, <i>Glossae divinae historiae</i> (110v–115v)</contents>
+      <contents><person id="eriugena">Eriugena</person>, <i>Glossae divinae historiae</i> (110v–115v)</contents>
       <script />
    </description>
    <history>
       <date_desc>IX 3/4</date_desc>
-      <term_post>875</term_post>
+      <term_post>876</term_post>
       <term_ante>900</term_ante>
       <origin><place id="reims">Reims</place>?</origin>
       <provenance>(owned by Pierre Daniel)</provenance>
@@ -665,7 +665,7 @@
    </description>
    <history>
       <date_desc>IX 4/4</date_desc>
-      <term_post>865</term_post>
+      <term_post>876</term_post>
       <term_ante>900</term_ante>
       <origin>NE <place id="france">France</place> (?)</origin>
    </history>
@@ -754,7 +754,7 @@
    </description>
    <history>
       <date_desc>VIII ex</date_desc>
-      <term_post>776</term_post>
+      <term_post>786</term_post>
       <term_ante>800</term_ante>
       <origin><place id="ireland">Ireland</place> or Irish traditions</origin>
    </history>
@@ -784,7 +784,7 @@
    </description>
    <history>
       <date_desc>IX²</date_desc>
-      <term_post>850</term_post>
+      <term_post>851</term_post>
       <term_ante>900</term_ante>
       <origin>prob. Brittany</origin>
       <provenance><place id="echternach">Echternach</place></provenance>
@@ -886,7 +886,7 @@
    </description>
    <history>
       <date_desc>IX 2/4</date_desc>
-      <term_post>825</term_post>
+      <term_post>826</term_post>
       <term_ante>850</term_ante>
       <origin><place id="reims">Reims</place></origin>
    </history>
@@ -1061,12 +1061,12 @@
       <folios>66</folios>
       <page_h>220</page_h>
       <page_w>153</page_w>
-      <contents>Greek Psalter; Cantica, etc.</contents>
+      <contents>Greek <text id="psalms">Psalms</text>; Cantica, etc.</contents>
       <script>Irish minuscule</script>
    </description>
    <history>
       <date_desc>IX 3/4</date_desc>
-      <term_post>850</term_post>
+      <term_post>851</term_post>
       <term_ante>875</term_ante>
       <origin>Irish centre on Continent</origin>
       <provenance><place id="verdun">Verdun</place></provenance>
@@ -1097,7 +1097,7 @@
    </description>
    <history>
       <date_desc>IX 3/4</date_desc>
-      <term_post>850</term_post>
+      <term_post>851</term_post>
       <term_ante>875</term_ante>
       <origin>Circle of <person id="eriugena">Eriugena</person> (<place id="soissons">Soissons</place>)</origin>
    </history>
@@ -1147,12 +1147,12 @@
       <folios>130</folios>
       <page_h>250</page_h>
       <page_w>192</page_w>
-      <contents>Pseudo-Augustine; Isidore; Hrabanus Maurus; Martinus Dumiensis; Fulgentius Ferrandus; Ambrosius Autpertus; Alcuin</contents>
+      <contents>Pseudo-Augustine; <person id="isidore">Isidore</person>; Hrabanus Maurus; Martinus Dumiensis; Fulgentius Ferrandus; Ambrosius Autpertus; Alcuin</contents>
       <script />
    </description>
    <history>
       <date_desc>post 875</date_desc>
-      <term_post>875</term_post>
+      <term_post>876</term_post>
       <term_ante>900</term_ante>
       <origin>NE <place id="france">France</place> (<place id="laon">Laon</place>?)</origin>
    </history>
@@ -1204,11 +1204,11 @@
       <folios />
       <page_h />
       <page_w />
-      <contents>Commentarius in Virgilium</contents>
+      <contents>Virgil commentary</contents>
       <script>Caroline minuscule</script>
    </description>
    <history>
-      <date_desc>IX 1/2 or med.</date_desc>
+      <date_desc>IX 1/2 or med</date_desc>
       <term_post>800</term_post>
       <term_ante>860</term_ante>
       <origin>Irish on Continent</origin>
@@ -1231,12 +1231,12 @@
       <folios>230</folios>
       <page_h>271</page_h>
       <page_w>226</page_w>
-      <contents>Eriugena, <i>Peri physeon</i> (lib. 1–3)</contents>
+      <contents><person id="eriugena">Eriugena</person>, <i>Peri physeon</i> (lib. 1–3)</contents>
       <script>Caroline minuscule (Soissons style)</script>
    </description>
    <history>
       <date_desc>IX 3/4</date_desc>
-      <term_post>850</term_post>
+      <term_post>851</term_post>
       <term_ante>875</term_ante>
       <origin>Circle of <person id="eriugena">Eriugena</person>; presumably <place id="soissons">Soissons</place>.</origin>
    </history>
@@ -1308,12 +1308,12 @@
       <folios />
       <page_h />
       <page_w />
-      <contents>Augustine, <i>Enchiridion</i></contents>
+      <contents><person id="augustine">Augustine</person>, <i>Enchiridion</i></contents>
       <script>Caroline minuscule</script>
    </description>
    <history>
       <date_desc>IX 2/4 or IX med</date_desc>
-      <term_post>825</term_post>
+      <term_post>826</term_post>
       <term_ante>860</term_ante>
       <origin><place id="reichenau">Reichenau</place>? <place id="mainz">Mainz</place> (circle of Probus)?</origin>
       <provenance><place id="trier">Trier</place></provenance>
@@ -1364,13 +1364,13 @@
       <folios>111</folios>
       <page_h>247</page_h>
       <page_w>190</page_w>
-      <contents>Pauline Epistles (Greek, Latin interlinear)</contents>
+      <contents><text id="paul">Pauline Epistles</text>  (Greek, Latin interlinear)</contents>
       <script>Irish minuscule</script>
    </description>
    <history>
       <date_desc>IX med</date_desc>
-      <term_post>833</term_post>
-      <term_ante>866</term_ante>
+      <term_post>840</term_post>
+      <term_ante>860</term_ante>
       <origin><place id="stgall">St Gall</place>?</origin>
    </history>
    <xrefs>
@@ -1396,7 +1396,7 @@
    </description>
    <history>
       <date_desc>IX²</date_desc>
-      <term_post>850</term_post>
+      <term_post>851</term_post>
       <term_ante>900</term_ante>
       <origin><place id="reims">Reims</place> area</origin>
    </history>
@@ -1455,7 +1455,7 @@
       <folios />
       <page_h />
       <page_w />
-      <contents>Gospels (Vulgata, Mt 1.1–9.27, 11.25–28.20, Mc 1.1–10.1, 12.1–37, 14.1–16.20, Lc, Io 1.1–18.15, 19.27–21.25)</contents>
+      <contents><text id="gospels">Gospels</text>  (Vulgata, Mt 1.1–9.27, 11.25–28.20, Mc 1.1–10.1, 12.1–37, 14.1–16.20, Lc, Io 1.1–18.15, 19.27–21.25)</contents>
       <script>Irish minuscule</script>
    </description>
    <history>
@@ -1487,7 +1487,7 @@
    </description>
    <history>
       <date_desc>VIII ex</date_desc>
-      <term_post>776</term_post>
+      <term_post>786</term_post>
       <term_ante>800</term_ante>
       <origin>Uncertain</origin>
       <provenance><place id="wurzburg">Würzburg</place>?</provenance>
@@ -1611,7 +1611,7 @@
    </description>
    <history>
       <date_desc>IX 2/4</date_desc>
-      <term_post>825</term_post>
+      <term_post>826</term_post>
       <term_ante>850</term_ante>
       <origin><place id="soissons">Soissons</place>/NE <place id="france">France</place></origin>
       <provenance><place id="reichenau">Reichenau</place></provenance>
@@ -1642,7 +1642,7 @@
    </description>
    <history>
       <date_desc>IX 2/3</date_desc>
-      <term_post>833</term_post>
+      <term_post>834</term_post>
       <term_ante>866</term_ante>
       <origin>prob. <place id="reichenau">Reichenau</place></origin>
    </history>
@@ -1891,7 +1891,7 @@
    </xrefs>
    <notes>
       <categories>or-ire;sc-ire</categories>
-      <project_notes>Rewritten with Augustine.</project_notes>
+      <project_notes>Rewritten with <person id="augustine">Augustine</person>.</project_notes>
    </notes>
 </manuscript><manuscript id="66">
    <identifier libraryID="karlsruhe">
@@ -1921,7 +1921,7 @@
    </xrefs>
    <notes>
       <categories>or-ire;sc-ire</categories>
-      <project_notes>Rewritten with Augustine</project_notes>
+      <project_notes>Rewritten with <person id="augustine">Augustine</person></project_notes>
    </notes>
 </manuscript><manuscript id="67">
    <identifier libraryID="karlsruhe">
@@ -1951,7 +1951,7 @@
    </xrefs>
    <notes>
       <categories>or-ire;sc-ire</categories>
-      <project_notes>Rewritten with Augustine</project_notes>
+      <project_notes>Rewritten with <person id="augustine">Augustine</person></project_notes>
    </notes>
 </manuscript><manuscript id="68">
    <identifier libraryID="karlsruhe">
@@ -2025,7 +2025,7 @@
       <folios>47</folios>
       <page_h />
       <page_w />
-      <contents>Augustine, <i>Soliloquia</i></contents>
+      <contents><person id="augustine">Augustine</person>, <i>Soliloquia</i></contents>
       <script>Irish minuscule (&amp; Half-Uncial)</script>
    </description>
    <history>
@@ -2182,7 +2182,7 @@
    </description>
    <history>
       <date_desc>VIII ex</date_desc>
-      <term_post>776</term_post>
+      <term_post>786</term_post>
       <term_ante>800</term_ante>
       <origin>Poss. Insular centre on Continent</origin>
       <provenance><place id="reichenau">Reichenau</place></provenance>
@@ -2205,7 +2205,7 @@
       <folios>38</folios>
       <page_h>340</page_h>
       <page_w>260</page_w>
-      <contents>Jerome, <i>Commentarii in Prophetas Minores</i></contents>
+      <contents><person id="jerome">Jerome</person>, <i>Commentarii in Prophetas Minores</i></contents>
       <script>Irish minuscule</script>
    </description>
    <history>
@@ -2238,7 +2238,7 @@
    </description>
    <history>
       <date_desc>IX 2/4</date_desc>
-      <term_post>825</term_post>
+      <term_post>826</term_post>
       <term_ante>850</term_ante>
       <origin>S <place id="germany">Germany</place>?</origin>
    </history>
@@ -2259,12 +2259,12 @@
       <folios />
       <page_h />
       <page_w />
-      <contents>Iuvencus, <i>Evangeliorum Libri Quattuor</i> (2.289–344, 562–616)</contents>
+      <contents>Juvencus, <i>Evangeliorum Libri Quattuor</i> (2.289–344, 562–616)</contents>
       <script>Insular majuscule</script>
    </description>
    <history>
       <date_desc>VII ex</date_desc>
-      <term_post>676</term_post>
+      <term_post>686</term_post>
       <term_ante>700</term_ante>
       <origin><place id="ireland">Ireland</place> (poss. Northumbria)</origin>
    </history>
@@ -2293,7 +2293,7 @@
    </description>
    <history>
       <date_desc>IX 3/4</date_desc>
-      <term_post>850</term_post>
+      <term_post>851</term_post>
       <term_ante>875</term_ante>
       <origin>N <place id="italy">Italy</place> (<place id="bobbio">Bobbio</place>?)</origin>
       <provenance><place id="freising">Freising</place></provenance>
@@ -2319,12 +2319,12 @@
       <folios />
       <page_h />
       <page_w />
-      <contents>Ps-Isidore, <i>De Ordine Creaturarum</i>; etc.</contents>
+      <contents>Pseudo-Isidore, <i>De Ordine Creaturarum</i>; etc.</contents>
       <script>Early Caroline minuscule</script>
    </description>
    <history>
       <date_desc>VIII ex</date_desc>
-      <term_post>776</term_post>
+      <term_post>786</term_post>
       <term_ante>800</term_ante>
       <origin><place id="freising">Freising</place></origin>
    </history>
@@ -2353,7 +2353,7 @@
    </description>
    <history>
       <date_desc>IX 2/4</date_desc>
-      <term_post>825</term_post>
+      <term_post>826</term_post>
       <term_ante>850</term_ante>
       <origin>N. <place id="italy">Italy</place> (<place id="bobbio">Bobbio</place>? Monza?)</origin>
       <provenance><place id="freising">Freising</place></provenance>
@@ -2379,12 +2379,12 @@
       <folios>40</folios>
       <page_h>180</page_h>
       <page_w>130</page_w>
-      <contents>Arnobius Iunior, <i>Interpretatio Evangeliorum</i> (incompl.); Jerome, <i>Epistulae</i> (<i>Ad Nepotianum, Ad Paulinum</i>)</contents>
+      <contents>Arnobius Iunior, <i>Interpretatio Evangeliorum</i> (incompl.); <person id="jerome">Jerome</person>, <i>Epistulae</i> (<i>Ad Nepotianum, Ad Paulinum</i>)</contents>
       <script>Early Caroline minuscule</script>
    </description>
    <history>
       <date_desc>VIII ex</date_desc>
-      <term_post>776</term_post>
+      <term_post>786</term_post>
       <term_ante>800</term_ante>
       <origin><place id="freising">Freising</place></origin>
    </history>
@@ -2409,12 +2409,12 @@
       <folios>76</folios>
       <page_h>255</page_h>
       <page_w>185</page_w>
-      <contents>Isidore (excerpts); Eucherius, <i>Instructiones</i>; etc.</contents>
+      <contents><person id="isidore">Isidore</person> (excerpts); Eucherius, <i>Instructiones</i>; etc.</contents>
       <script>Irish and Caroline minuscule</script>
    </description>
    <history>
       <date_desc>IX²</date_desc>
-      <term_post>850</term_post>
+      <term_post>851</term_post>
       <term_ante>900</term_ante>
       <origin>S <place id="germany">Germany</place> (Irish scribe)</origin>
    </history>
@@ -2476,7 +2476,7 @@
    </description>
    <history>
       <date_desc>IX²</date_desc>
-      <term_post>850</term_post>
+      <term_post>851</term_post>
       <term_ante>900</term_ante>
       <origin><place id="reichenau">Reichenau</place> or S <place id="germany">Germany</place></origin>
       <provenance><place id="regensburg">Regensburg</place></provenance>
@@ -2509,7 +2509,7 @@
    </description>
    <history>
       <date_desc>IX 2/4</date_desc>
-      <term_post>825</term_post>
+      <term_post>826</term_post>
       <term_ante>850</term_ante>
       <origin><place id="regensburg">Regensburg</place></origin>
    </history>
@@ -2534,12 +2534,12 @@
       <folios>12</folios>
       <page_h>242</page_h>
       <page_w>190</page_w>
-      <contents>Eucherius, <i>Formulae</i>; Augustine, excepts etc.</contents>
+      <contents>Eucherius, <i>Formulae</i>; <person id="augustine">Augustine</person>, excepts etc.</contents>
       <script>Irish and Caroline minuscule</script>
    </description>
    <history>
       <date_desc>IX²</date_desc>
-      <term_post>850</term_post>
+      <term_post>851</term_post>
       <term_ante>900</term_ante>
       <origin>origin uncertain</origin>
    </history>
@@ -2563,7 +2563,7 @@
       <folios>62</folios>
       <page_h>173</page_h>
       <page_w>127</page_w>
-      <contents>Commentarius in VII epistulas canonicas; Glossae Latinae-Theotiscae</contents>
+      <contents><i>Commentarius in VII epistulas canonicas</i>; Glossae Latinae-Theotiscae</contents>
       <script>Caroline minuscule (untrained)</script>
    </description>
    <history>
@@ -2597,8 +2597,8 @@
    </description>
    <history>
       <date_desc>IX ex/X in</date_desc>
-      <term_post>880</term_post>
-      <term_ante>920</term_ante>
+      <term_post>886</term_post>
+      <term_ante>915</term_ante>
       <origin>Lake Constance area?</origin>
       <provenance><place id="regensburg">Regensburg</place></provenance>
    </history>
@@ -2687,7 +2687,7 @@
    </description>
    <history>
       <date_desc>VIII ex</date_desc>
-      <term_post>776</term_post>
+      <term_post>786</term_post>
       <term_ante>800</term_ante>
       <origin><place id="ireland">Ireland</place>?</origin>
    </history>
@@ -2712,12 +2712,12 @@
       <folios>36</folios>
       <page_h>320</page_h>
       <page_w>23	5</page_w>
-      <contents>Pauline Epistles (Vulgata, Rm, 1 Cor, 2 Cor, Gal, Eph, Phil, Col, 1 Th, 2 Th, 1 Tim, 2 Tim, Tit, Phlm, Hbr)</contents>
+      <contents><text id="paul">Pauline Epistles</text>  (Vulgata, Rm, 1 Cor, 2 Cor, Gal, Eph, Phil, Col, 1 Th, 2 Th, 1 Tim, 2 Tim, Tit, Phlm, Hbr)</contents>
       <script>Irish minuscule</script>
    </description>
    <history>
       <date_desc>VIII ex</date_desc>
-      <term_post>776</term_post>
+      <term_post>786</term_post>
       <term_ante>800</term_ante>
       <origin><place id="ireland">Ireland</place></origin>
       <provenance><place id="wurzburg">Würzburg</place></provenance>
@@ -2772,7 +2772,7 @@
       <folios />
       <page_h />
       <page_w />
-      <contents>Gospels (Vulgata, Mt)</contents>
+      <contents><text id="gospels">Gospels</text>  (Vulgata, Mt)</contents>
       <script>Irish majuscule</script>
    </description>
    <history>
@@ -2829,7 +2829,7 @@
       <folios>58</folios>
       <page_h>270</page_h>
       <page_w>190</page_w>
-      <contents>Old Testament (Ps 30.10–105.13)</contents>
+      <contents>Old Testament (<text id="psalms">Psalms</text> 30.10–105.13)</contents>
       <script>Early Irish majuscule</script>
    </description>
    <history>
@@ -2858,7 +2858,7 @@
       <folios>182</folios>
       <page_h>125</page_h>
       <page_w>175</page_w>
-      <contents>Gospels (Vetus latina, Mt, Mc, Lc, Io fragm.)</contents>
+      <contents><text id="gospels">Gospels</text>  (Vetus latina, Mt, Mc, Lc, Io fragm.)</contents>
       <script>Irish Half-Uncial</script>
    </description>
    <history>
@@ -2886,7 +2886,7 @@
       <folios>6</folios>
       <page_h>77</page_h>
       <page_w>210</page_w>
-      <contents>Old Testament (Vetus Latina, Ps 30–32)</contents>
+      <contents>Old Testament (Vetus Latina, <text id="psalms">Psalms</text> 30–32)</contents>
       <script>Early Irish minuscule</script>
    </description>
    <history>
@@ -2915,12 +2915,12 @@
       <folios>248</folios>
       <page_h>247</page_h>
       <page_w>160</page_w>
-      <contents>Gospels (Mt, Mc, Lc, Io)</contents>
+      <contents><text id="gospels">Gospels</text>  (Mt, Mc, Lc, Io)</contents>
       <script>Insular majuscule</script>
    </description>
    <history>
       <date_desc>VII²</date_desc>
-      <term_post>650</term_post>
+      <term_post>651</term_post>
       <term_ante>700</term_ante>
       <origin>Northumbria (Irish tradition)</origin>
       <provenance>Durrow, Offaly</provenance>
@@ -2945,7 +2945,7 @@
       <folios>340</folios>
       <page_h>330</page_h>
       <page_w>250</page_w>
-      <contents>Gospels (Mt, Mc, Lc, Io)</contents>
+      <contents><text id="gospels">Gospels</text>  (Mt, Mc, Lc, Io)</contents>
       <script>Irish majuscule</script>
    </description>
    <history>
@@ -2974,7 +2974,7 @@
       <folios>74</folios>
       <page_h>175</page_h>
       <page_w>142</page_w>
-      <contents>Gospels (Mt, Mc, Lc, Io)</contents>
+      <contents><text id="gospels">Gospels</text>  (Mt, Mc, Lc, Io)</contents>
       <script>Irish cursive</script>
    </description>
    <history>
@@ -3005,7 +3005,7 @@
       <folios>84</folios>
       <page_h>165</page_h>
       <page_w />
-      <contents>Gospels (Vetus Latina, Mt 26.42–27.35, Mc 1.1–4.8, 5.18–6.35)</contents>
+      <contents><text id="gospels">Gospels</text>  (Vetus Latina, Mt 26.42–27.35, Mc 1.1–4.8, 5.18–6.35)</contents>
       <script>Irish minuscule</script>
    </description>
    <history>
@@ -3033,7 +3033,7 @@
       <folios />
       <page_h />
       <page_w />
-      <contents>Gospels (Io, excerpta)</contents>
+      <contents><text id="gospels">Gospels</text>  (Io, excerpta)</contents>
       <script>Irish minuscule</script>
    </description>
    <history>
@@ -3092,7 +3092,7 @@
       <folios />
       <page_h />
       <page_w />
-      <contents>Gospels (Mt, Mc, Lc, Io fragm.)</contents>
+      <contents><text id="gospels">Gospels</text>  (Mt, Mc, Lc, Io fragm.)</contents>
       <script>Irish majuscule</script>
    </description>
    <history>
@@ -3121,7 +3121,7 @@
       <folios>86</folios>
       <page_h>192</page_h>
       <page_w>241</page_w>
-      <contents>Gospels (Vetus latina, Mt, Mc, Lc, Io)</contents>
+      <contents><text id="gospels">Gospels</text>  (Vetus latina, Mt, Mc, Lc, Io)</contents>
       <script>Irish majuscule</script>
    </description>
    <history>
@@ -3149,7 +3149,7 @@
       <folios />
       <page_h />
       <page_w />
-      <contents>Gospels (Mt. 26.42–28.35, Mc 1.1–4.8, 5.18–6.35)</contents>
+      <contents><text id="gospels">Gospels</text>  (Mt. 26.42–28.35, Mc 1.1–4.8, 5.18–6.35)</contents>
       <script>Irish minuscule</script>
    </description>
    <history>
@@ -3177,13 +3177,13 @@
       <folios>60</folios>
       <page_h />
       <page_w />
-      <contents>Old Testament (Ps.)</contents>
+      <contents>Old Testament (<text id="psalms">Psalms</text>)</contents>
       <script>Irish minuscule</script>
    </description>
    <history>
       <date_desc>c. 800</date_desc>
-      <term_post>800</term_post>
-      <term_ante>800</term_ante>
+      <term_post>790</term_post>
+      <term_ante>810</term_ante>
       <origin><place id="ireland">Ireland</place></origin>
    </history>
    <xrefs>
@@ -3205,7 +3205,7 @@
       <folios>215</folios>
       <page_h>195</page_h>
       <page_w>145</page_w>
-      <contents>Muirchú, <i>Vita Sancti Patricii</i>; <i>Dicta Patricii</i>; Tírechán, <i>Collectanea de Vita S Patricii</i>; Patricius, <i>Confessio</i>; Gospels (Vetus Latina passim, Mt, Mc, Lc, Io); Sulpicius Severus, <i>Vita S Martini, Dialogi de S Martino, Epistulae</i></contents>
+      <contents>Muirchú, <i>Vita Sancti Patricii</i>; <i>Dicta Patricii</i>; Tírechán, <i>Collectanea de Vita S Patricii</i>; Patricius, <i>Confessio</i>; <text id="gospels">Gospels</text>  (Vetus Latina passim, Mt, Mc, Lc, Io); Sulpicius Severus, <i>Vita S Martini, Dialogi de S Martino, Epistulae</i></contents>
       <script>Irish minuscule</script>
    </description>
    <history>
@@ -3238,7 +3238,7 @@
    </description>
    <history>
       <date_desc>IX 3/4</date_desc>
-      <term_post>875</term_post>
+      <term_post>876</term_post>
       <term_ante>900</term_ante>
       <origin>prob. <place id="reims">Reims</place> area</origin>
    </history>
@@ -3264,12 +3264,12 @@
       <folios />
       <page_h />
       <page_w />
-      <contents>Ps-Augustine, <i>Hypomnesticon</i>; Ambrosiaster, <i>Commentarii in Epistulas Pauli</i></contents>
+      <contents>Pseudo-Augustine, <i>Hypomnesticon</i>; Ambrosiaster, <i>Commentarii in Epistulas Pauli</i></contents>
       <script>Irish minuscule</script>
    </description>
    <history>
       <date_desc>VIII ex</date_desc>
-      <term_post>776</term_post>
+      <term_post>786</term_post>
       <term_ante>800</term_ante>
       <origin>Insular centre, N <place id="italy">Italy</place></origin>
    </history>
@@ -3300,7 +3300,7 @@
    </description>
    <history>
       <date_desc>IX 2/3</date_desc>
-      <term_post>833</term_post>
+      <term_post>834</term_post>
       <term_ante>866</term_ante>
       <origin>Central (?) <place id="france">France</place></origin>
       <provenance><place id="lyon">Lyon</place></provenance>
@@ -3329,7 +3329,7 @@
    </description>
    <history>
       <date_desc>IX</date_desc>
-      <term_post>800</term_post>
+      <term_post>801</term_post>
       <term_ante>900</term_ante>
       <origin><place id="bobbio">Bobbio</place>? <place id="ireland">Ireland</place>?</origin>
    </history>
@@ -3388,7 +3388,7 @@
    </description>
    <history>
       <date_desc>VII ex</date_desc>
-      <term_post>676</term_post>
+      <term_post>686</term_post>
       <term_ante>700</term_ante>
       <origin>prob. <place id="bobbio">Bobbio</place></origin>
    </history>
@@ -3444,7 +3444,7 @@
    </description>
    <history>
       <date_desc>c. 825</date_desc>
-      <term_post>825</term_post>
+      <term_post>826</term_post>
       <term_ante>825</term_ante>
       <origin><place id="paris">Paris</place> area (written for <person id="dungal">Dúngal</person>)</origin>
    </history>
@@ -3498,7 +3498,7 @@
       <folios />
       <page_h />
       <page_w />
-      <contents>Gospels (Vulgata, Mt 17.4–9, 19.4–12)</contents>
+      <contents><text id="gospels">Gospels</text>  (Vulgata, Mt 17.4–9, 19.4–12)</contents>
       <script>Irish majuscule</script>
    </description>
    <history>
@@ -3557,7 +3557,7 @@
       <folios>2</folios>
       <page_h />
       <page_w />
-      <contents>Isidore, <i>Liber Differentiarum</i> (38.146–40.167)</contents>
+      <contents><person id="isidore">Isidore</person>, <i>Liber Differentiarum</i> (38.146–40.167)</contents>
       <script>Irish majuscule</script>
    </description>
    <history>
@@ -3613,7 +3613,7 @@
       <folios />
       <page_h />
       <page_w />
-      <contents>Ambrosius, <i>De Spiritu Sancto</i></contents>
+      <contents><person id="ambrose">Ambrose</person> , <i>De Spiritu Sancto</i></contents>
       <script>Cursive minuscule</script>
    </description>
    <history>
@@ -3640,12 +3640,12 @@
       <folios />
       <page_h />
       <page_w />
-      <contents>Augustine, <i>Enarrationes in Psalmos</i></contents>
+      <contents><person id="augustine">Augustine</person>, <i>Enarrationes in Psalmos</i></contents>
       <script />
    </description>
    <history>
       <date_desc>IX 3/4</date_desc>
-      <term_post>850</term_post>
+      <term_post>851</term_post>
       <term_ante>875</term_ante>
       <origin><place id="bobbio">Bobbio</place></origin>
    </history>
@@ -3703,7 +3703,7 @@
    </description>
    <history>
       <date_desc>VIII ex</date_desc>
-      <term_post>776</term_post>
+      <term_post>786</term_post>
       <term_ante>800</term_ante>
       <origin><place id="bobbio">Bobbio</place></origin>
    </history>
@@ -3727,12 +3727,12 @@
       <folios />
       <page_h />
       <page_w />
-      <contents>Ambrosius, <i>Expositio in Evangelium Iohannis</i></contents>
+      <contents><person id="ambrose">Ambrose</person> , <i>Expositio in Evangelium Iohannis</i></contents>
       <script>Irish minuscule</script>
    </description>
    <history>
       <date_desc>VIII ex</date_desc>
-      <term_post>776</term_post>
+      <term_post>786</term_post>
       <term_ante>800</term_ante>
       <origin><place id="bobbio">Bobbio</place></origin>
    </history>
@@ -3760,7 +3760,7 @@
    </description>
    <history>
       <date_desc>VIII ex</date_desc>
-      <term_post>776</term_post>
+      <term_post>786</term_post>
       <term_ante>800</term_ante>
       <origin><place id="bobbio">Bobbio</place></origin>
    </history>
@@ -3839,7 +3839,7 @@
       <folios />
       <page_h />
       <page_w />
-      <contents>Gospels (Vulgata, Mt, Mc, Lc, Io, Act)</contents>
+      <contents><text id="gospels">Gospels</text>  (Vulgata, Mt, Mc, Lc, Io, Act)</contents>
       <script>Irish majuscule</script>
    </description>
    <history>
@@ -3912,7 +3912,7 @@
    </description>
    <history>
       <date_desc>IX 3/4</date_desc>
-      <term_post>875</term_post>
+      <term_post>876</term_post>
       <term_ante>900</term_ante>
       <origin><place id="bobbio">Bobbio</place> or N <place id="italy">Italy</place></origin>
    </history>
@@ -3934,7 +3934,7 @@
       <folios />
       <page_h />
       <page_w />
-      <contents>Isidore, <i>Etymologiae </i>(1–10)</contents>
+      <contents><person id="isidore">Isidore</person>, <i>Etymologiae </i>(1–10)</contents>
       <script>North Italian Pre-Caroline minuscule</script>
    </description>
    <history>
@@ -3961,7 +3961,7 @@
       <folios />
       <page_h />
       <page_w />
-      <contents>Augustine, Tractatus in Epistulam 1 Iohannis 4, 5–7</contents>
+      <contents><person id="augustine">Augustine</person>, Tractatus in Epistulam 1 Iohannis 4, 5–7</contents>
       <script>Irish minuscule</script>
    </description>
    <history>
@@ -3994,7 +3994,7 @@
    </description>
    <history>
       <date_desc>VII ex</date_desc>
-      <term_post>676</term_post>
+      <term_post>686</term_post>
       <term_ante>700</term_ante>
       <origin><place id="bobbio">Bobbio</place></origin>
    </history>
@@ -4017,12 +4017,12 @@
       <folios />
       <page_h />
       <page_w />
-      <contents>Jerome, <i>Commentarii in Isaiam</i></contents>
+      <contents><person id="jerome">Jerome</person>, <i>Commentarii in Isaiam</i></contents>
       <script>Half-Uncial verging on minuscule</script>
    </description>
    <history>
       <date_desc>VII (ante 622)</date_desc>
-      <term_post>600</term_post>
+      <term_post>601</term_post>
       <term_ante>621</term_ante>
       <origin><place id="bobbio">Bobbio</place></origin>
    </history>
@@ -4049,7 +4049,7 @@
       <folios>15</folios>
       <page_h>190</page_h>
       <page_w>125</page_w>
-      <contents>Jerome, <i>Epistulae</i></contents>
+      <contents><person id="jerome">Jerome</person>, <i>Epistulae</i></contents>
       <script>Irish and cursive minuscule</script>
    </description>
    <history>
@@ -4104,7 +4104,7 @@
       <folios />
       <page_h />
       <page_w />
-      <contents>Jerome et Gennadius, <i>De Viris Illustribus</i>; Augustine, <i>Epistulae</i></contents>
+      <contents><person id="jerome">Jerome</person> et Gennadius, <i>De Viris Illustribus</i>; <person id="augustine">Augustine</person>, <i>Epistulae</i></contents>
       <script>Irish minuscule</script>
    </description>
    <history>
@@ -4225,7 +4225,7 @@
    </description>
    <history>
       <date_desc>IX 1/4</date_desc>
-      <term_post>800</term_post>
+      <term_post>801</term_post>
       <term_ante>825</term_ante>
       <origin><place id="luxeuil">Luxeuil</place></origin>
    </history>
@@ -4301,7 +4301,7 @@
       <folios>110</folios>
       <page_h />
       <page_w />
-      <contents>Augustine, <i>Collatio cum Maximo</i>, <i>Contra Maximinum</i></contents>
+      <contents><person id="augustine">Augustine</person>, <i>Collatio cum Maximo</i>, <i>Contra Maximinum</i></contents>
       <script>Half-Uncial and Irish majuscule</script>
    </description>
    <history>
@@ -4472,7 +4472,7 @@
       <folios />
       <page_h />
       <page_w />
-      <contents>Gospels (Mt, Mc, Lc, Io) (fragm.)</contents>
+      <contents><text id="gospels">Gospels</text>  (Mt, Mc, Lc, Io) (fragm.)</contents>
       <script>Irish majuscule</script>
    </description>
    <history>
@@ -4500,7 +4500,7 @@
       <folios />
       <page_h />
       <page_w />
-      <contents>Ps-Jerome, <i>Commentarii in Marcum</i> (1.1–6, 14.52–15.21)</contents>
+      <contents>Pseudo-Jerome, <i>Commentarii in Marcum</i> (1.1–6, 14.52–15.21)</contents>
       <script>Irish minuscule</script>
    </description>
    <history>
@@ -4542,7 +4542,7 @@
    </description>
    <history>
       <date_desc>IX</date_desc>
-      <term_post>800</term_post>
+      <term_post>801</term_post>
       <term_ante>900</term_ante>
       <origin>Irish on Continent?</origin>
    </history>
@@ -4569,7 +4569,7 @@
    </description>
    <history>
       <date_desc>IX?</date_desc>
-      <term_post>800</term_post>
+      <term_post>801</term_post>
       <term_ante>900</term_ante>
       <origin><place id="bobbio">Bobbio</place></origin>
    </history>
@@ -4662,7 +4662,7 @@
    </description>
    <history>
       <date_desc>IX 3/4</date_desc>
-      <term_post>850</term_post>
+      <term_post>851</term_post>
       <term_ante>875</term_ante>
       <origin>prob. <place id="france">France</place> (Irish scribe)</origin>
    </history>
@@ -4690,7 +4690,7 @@
    </description>
    <history>
       <date_desc>IX 3/4</date_desc>
-      <term_post>875</term_post>
+      <term_post>876</term_post>
       <term_ante>900</term_ante>
       <origin><place id="reims">Reims</place> area</origin>
    </history>
@@ -4719,7 +4719,7 @@
    </description>
    <history>
       <date_desc>IX 2/4</date_desc>
-      <term_post>825</term_post>
+      <term_post>826</term_post>
       <term_ante>850</term_ante>
       <origin>NE <place id="france">France</place></origin>
       <provenance>Saint-Omer</provenance>
@@ -4750,7 +4750,7 @@
    </description>
    <history>
       <date_desc>IX 2/4</date_desc>
-      <term_post>825</term_post>
+      <term_post>826</term_post>
       <term_ante>850</term_ante>
       <origin><place id="ireland">Ireland</place>? Continent?</origin>
    </history>
@@ -4777,7 +4777,7 @@
    </description>
    <history>
       <date_desc>IX 1–2/4</date_desc>
-      <term_post>800</term_post>
+      <term_post>801</term_post>
       <term_ante>850</term_ante>
       <origin>NW <place id="germany">Germany</place>?</origin>
       <provenance><place id="mainz">Mainz</place></provenance>
@@ -4814,7 +4814,7 @@
    </description>
    <history>
       <date_desc>IX 3/4</date_desc>
-      <term_post>850</term_post>
+      <term_post>851</term_post>
       <term_ante>875</term_ante>
       <origin>W <place id="france">France</place></origin>
    </history>
@@ -4835,12 +4835,12 @@
       <folios>151</folios>
       <page_h>190</page_h>
       <page_w>155</page_w>
-      <contents>Evangelia (incomplete)</contents>
+      <contents><text id="gospels">Gospels</text>  (incomplete)</contents>
       <script><place id="reims">Reims</place> minuscule</script>
    </description>
    <history>
       <date_desc>IX 3/4</date_desc>
-      <term_post>875</term_post>
+      <term_post>876</term_post>
       <term_ante>900</term_ante>
       <origin><place id="reims">Reims</place></origin>
    </history>
@@ -4861,7 +4861,7 @@
       <folios />
       <page_h />
       <page_w />
-      <contents>Jerome, <i>Chronicon</i> (fragm.)</contents>
+      <contents><person id="jerome">Jerome</person>, <i>Chronicon</i> (fragm.)</contents>
       <script>Uncial</script>
    </description>
    <history>
@@ -4920,7 +4920,7 @@
       <page_w>237</page_w>
       <script>Irish minuscule</script>
       <contents>
-      	<summary>Marius Victorinus, <i>Ars Grammatica</i>; Isidore Iunior, <i>De Vitiis et Virtutibus</i></summary>
+      	<summary>Marius Victorinus, <i>Ars Grammatica</i>; <person id="isidore">Isidore</person> Iunior, <i>De Vitiis et Virtutibus</i></summary>
 			<msItem>
 				<locus>1ra–9rb</locus>
 				<author personID="Isidore_iunior">Isidore iunior Hispalensis</author>
@@ -4963,12 +4963,12 @@
       <folios />
       <page_h />
       <page_w />
-      <contents>Sermones II; Augustine, <i>Tractatus in evangelium Iohannis</i></contents>
+      <contents>Sermones II; <person id="augustine">Augustine</person>, <i>Tractatus in evangelium Iohannis</i></contents>
       <script>Caroline minuscule</script>
    </description>
    <history>
       <date_desc>IX 2/4</date_desc>
-      <term_post>825</term_post>
+      <term_post>826</term_post>
       <term_ante>850</term_ante>
       <origin><place id="switzerland">Switzerland</place>?</origin>
    </history>
@@ -4991,12 +4991,12 @@
       <folios>99</folios>
       <page_h>226</page_h>
       <page_w>175</page_w>
-      <contents>Psalter (Greek, Latin interlinear)</contents>
+      <contents><text id="psalms">Psalms</text> (Greek, Latin interlinear)</contents>
       <script>Irish minuscule</script>
    </description>
    <history>
       <date_desc>IX 3/4</date_desc>
-      <term_post>875</term_post>
+      <term_post>876</term_post>
       <term_ante>900</term_ante>
       <origin><place id="stgall">St Gall</place>?</origin>
    </history>
@@ -5016,7 +5016,7 @@
       <folios />
       <page_h />
       <page_w />
-      <contents>Commentarius in Leviticum</contents>
+      <contents><i>Commentarius in Leviticum</i></contents>
       <script>Irish minuscule</script>
    </description>
    <history>
@@ -5050,7 +5050,7 @@
       <folios>195</folios>
       <page_h />
       <page_w />
-      <contents>Donatus; Maximus Victorinus, <i>De Finalibus Metrorum</i>; Asper; Sergius; Alcuin, <i>De Grammatica</i>; Bede, <i>De Schematibus et Tropis</i>; Isidore, <i>Etymologiae</i> (1); Julian of Toledo; Probus, <i>De Ultimis Syllabis</i></contents>
+      <contents>Donatus; Maximus Victorinus, <i>De Finalibus Metrorum</i>; Asper; Sergius; Alcuin, <i>De Grammatica</i>; Bede, <i>De Schematibus et Tropis</i>; <person id="isidore">Isidore</person>, <i>Etymologiae</i> (1); Julian of Toledo; Probus, <i>De Ultimis Syllabis</i></contents>
       <script>Mixed minuscule</script>
    </description>
    <history>
@@ -5089,7 +5089,7 @@
    </description>
    <history>
       <date_desc>IX 1/3</date_desc>
-      <term_post>800</term_post>
+      <term_post>801</term_post>
       <term_ante>833</term_ante>
       <origin><place id="france">France</place></origin>
    </history>
@@ -5116,8 +5116,8 @@
    </description>
    <history>
       <date_desc>IX 2/3</date_desc>
-      <term_post>825</term_post>
-      <term_ante>850</term_ante>
+      <term_post>834</term_post>
+      <term_ante>866</term_ante>
       <origin><place id="fulda">Fulda</place></origin>
    </history>
    <xrefs>
@@ -5136,7 +5136,7 @@
       <folios />
       <page_h />
       <page_w />
-      <contents>Dioscorides; Servius (<i>Ecl., Geo., Aen</i> to 7.16); Chirius Fortunatus; Augustine on dialectic and rhetoric; 
+      <contents>Dioscorides; Servius (<i>Ecl., Geo., Aen</i> to 7.16); Chirius Fortunatus; <person id="augustine">Augustine</person> on dialectic and rhetoric; 
       Horace (<i>Odes, Epodes, Carmen Saeculare, Ars Poetica, Satires</i> to 3.134);
       extracts from Ovid, <i>Metamorphoses</i>; Bede, <i>History</i>; Priscian, <i>De laude Anastasii imperatoris</i>;
       poems</contents>
@@ -5230,7 +5230,7 @@
    </description>
    <history>
       <date_desc>VII ex</date_desc>
-      <term_post>676</term_post>
+      <term_post>686</term_post>
       <term_ante>700</term_ante>
       <origin><place id="ireland">Ireland</place></origin>
       <provenance>Schaffhausen</provenance>
@@ -5286,7 +5286,7 @@
       <folios />
       <page_h />
       <page_w />
-      <contents>Gospels (fragm.)</contents>
+      <contents><text id="gospels">Gospels</text>  (fragm.)</contents>
       <script>Insular majuscule</script>
    </description>
    <history>
@@ -5345,7 +5345,7 @@
       <folios />
       <page_h />
       <page_w />
-      <contents>Gospels (Vetus Latina, Mc, Mt, Lc, Io partim)</contents>
+      <contents><text id="gospels">Gospels</text>  (Vetus Latina, Mc, Mt, Lc, Io partim)</contents>
       <script>Irish majuscule</script>
    </description>
    <history>
@@ -5500,7 +5500,7 @@
       <folios />
       <page_h />
       <page_w />
-      <contents>Gospels (Vulgata, Lc 1.12–32, 2.43–3.9)</contents>
+      <contents><text id="gospels">Gospels</text>  (Vulgata, Lc 1.12–32, 2.43–3.9)</contents>
       <script>Irish majuscule</script>
    </description>
    <history>
@@ -5654,7 +5654,7 @@
       <folios />
       <page_h />
       <page_w />
-      <contents>Augustine, <i>De Musica</i> (5.5)</contents>
+      <contents><person id="augustine">Augustine</person>, <i>De Musica</i> (5.5)</contents>
       <script>Irish minuscule</script>
    </description>
    <history>
@@ -5853,8 +5853,8 @@
    </description>
    <history>
       <date_desc>VIII (or IX?)</date_desc>
-      <term_post>700</term_post>
-      <term_ante>800</term_ante>
+      <term_post>701</term_post>
+      <term_ante>900</term_ante>
       <origin>England</origin>
       <provenance><place id="canterbury">Canterbury</place></provenance>
    </history>
@@ -5884,7 +5884,7 @@
       <folios>72</folios>
       <page_h>305</page_h>
       <page_w>245</page_w>
-      <contents>Pauline Epistles (Vulgata, Rm, 1 Cor, 2 Cor, Gal, Eph, Phil, Col, 1 Th, 2 Th, 1 Tim, 2 Tim, Tit, Phlm, Hbr)</contents>
+      <contents><text id="paul">Pauline Epistles</text>  (Vulgata, Rm, 1 Cor, 2 Cor, Gal, Eph, Phil, Col, 1 Th, 2 Th, 1 Tim, 2 Tim, Tit, Phlm, Hbr)</contents>
       <script>Insular minuscule</script>
    </description>
    <history>
@@ -5915,7 +5915,7 @@
    </description>
    <history>
       <date_desc>825</date_desc>
-      <term_post>825</term_post>
+      <term_post>826</term_post>
       <term_ante>825</term_ante>
       <origin><place id="paris">Paris</place> (?) (circle of <person id="dungal">Dúngal</person>)</origin>
    </history>
@@ -5942,7 +5942,7 @@
    </description>
    <history>
       <date_desc>IX²</date_desc>
-      <term_post>850</term_post>
+      <term_post>851</term_post>
       <term_ante>900</term_ante>
       <origin><place id="tours">Tours</place></origin>
       <provenance>Worcester</provenance>
@@ -5973,7 +5973,7 @@
    </description>
    <history>
       <date_desc>IX²</date_desc>
-      <term_post>850</term_post>
+      <term_post>851</term_post>
       <term_ante>900</term_ante>
       <origin>Wales</origin>
       <provenance>Worcester</provenance>
@@ -6004,13 +6004,13 @@
       <folios />
       <page_h />
       <page_w />
-      <contents>Gospels (Mt 14–18, 22–25, 27–28; Mc 1–6, 8–14)</contents>
+      <contents><text id="gospels">Gospels</text>  (Mt 14–18, 22–25, 27–28; Mc 1–6, 8–14)</contents>
       <script>Insular majuscule</script>
    </description>
    <history>
       <date_desc>VII med</date_desc>
-      <term_post>626</term_post>
-      <term_ante>675</term_ante>
+      <term_post>640</term_post>
+      <term_ante>660</term_ante>
       <origin>Northumbria (Irish tradition)</origin>
    </history>
    <xrefs>
@@ -6036,7 +6036,7 @@
       <folios />
       <page_h />
       <page_w />
-      <contents>Gospels (Mt 25.35–fin., Mc, Lc 1–8, 12–22, Io 1–29)</contents>
+      <contents><text id="gospels">Gospels</text>  (Mt 25.35–fin., Mc, Lc 1–8, 12–22, Io 1–29)</contents>
       <script>Insular majuscule</script>
    </description>
    <history>
@@ -6063,7 +6063,7 @@
       <folios />
       <page_h />
       <page_w />
-      <contents>Gospels (Mt 23.3–28.14, Lc 16.15–24)</contents>
+      <contents><text id="gospels">Gospels</text>  (Mt 23.3–28.14, Lc 16.15–24)</contents>
       <script>Insular majuscule</script>
    </description>
    <history>
@@ -6091,7 +6091,7 @@
       <folios />
       <page_h />
       <page_w />
-      <contents>Gospels (Mt, Mc, Lc 1–3.9)</contents>
+      <contents><text id="gospels">Gospels</text>  (Mt, Mc, Lc 1–3.9)</contents>
       <script>Insular majuscule</script>
    </description>
    <history>
@@ -6169,7 +6169,7 @@
       <folios />
       <page_h />
       <page_w />
-      <contents>Gospels (Mt, Lc, Mc, Io, imperf.)</contents>
+      <contents><text id="gospels">Gospels</text>  (Mt, Lc, Mc, Io, imperf.)</contents>
       <script>Irish minuscule</script>
    </description>
    <history>
@@ -6226,12 +6226,12 @@
       <folios />
       <page_h>158</page_h>
       <page_w>111</page_w>
-      <contents>New Testament</contents>
+      <contents><text id="gospels">Gospels</text> </contents>
       <script />
    </description>
    <history>
       <date_desc>IX²</date_desc>
-      <term_post>850</term_post>
+      <term_post>851</term_post>
       <term_ante>900</term_ante>
       <origin><place id="ireland">Ireland</place> (Armagh?)</origin>
       <provenance><place id="canterbury">Canterbury</place></provenance>
@@ -6282,7 +6282,7 @@
       <folios />
       <page_h />
       <page_w />
-      <contents>Gospels (Lc, Mc, Mt, Io)</contents>
+      <contents><text id="gospels">Gospels</text>  (Lc, Mc, Mt, Io)</contents>
       <script>Irish majuscule</script>
    </description>
    <history>
@@ -6311,7 +6311,7 @@
       <folios />
       <page_h />
       <page_w />
-      <contents>Gospels (Lc 1–24.47, Io 1.14–6.54, 7.1, 21.16)</contents>
+      <contents><text id="gospels">Gospels</text>  (Lc 1–24.47, Io 1.14–6.54, 7.1, 21.16)</contents>
       <script>Insular majuscule</script>
    </description>
    <history>
@@ -6368,7 +6368,7 @@
       <folios>1</folios>
       <page_h />
       <page_w />
-      <contents>Gospels (Vetus Latina, Lc 16.27–17.26)</contents>
+      <contents><text id="gospels">Gospels</text>  (Vetus Latina, Lc 16.27–17.26)</contents>
       <script>Irish majuscule</script>
    </description>
    <history>
@@ -6413,7 +6413,7 @@
       <folios>34</folios>
       <page_h>205</page_h>
       <page_w>140</page_w>
-      <contents>Isidore, <i>Etymologiae</i> (1, 11, fragm.), <i>Interrogationes et Responsiones</i> (fragm.); Arnobius Iunior, Opus Incertum(?), <i>Expositio in Evangelia</i>, <i>Computus</i>; Caesarius Arelatensis, <i>Homiliae</i> (fragm.)</contents>
+      <contents><person id="isidore">Isidore</person>, <i>Etymologiae</i> (1, 11, fragm.), <i>Interrogationes et Responsiones</i> (fragm.); Arnobius Iunior, Opus Incertum(?), <i>Expositio in Evangelia</i>, <i>Computus</i>; Caesarius Arelatensis, <i>Homiliae</i> (fragm.)</contents>
       <script>Irish majuscule</script>
    </description>
    <history>
@@ -6450,12 +6450,12 @@
       <folios />
       <page_h />
       <page_w />
-      <contents>Augustine, Opuscula</contents>
+      <contents><person id="augustine">Augustine</person>, Opuscula</contents>
       <script>Uncial</script>
    </description>
    <history>
-      <date_desc>V ex.</date_desc>
-      <term_post>476</term_post>
+      <date_desc>V ex</date_desc>
+      <term_post>486</term_post>
       <term_ante>500</term_ante>
       <origin>prob. <place id="italy">Italy</place></origin>
       <provenance>prob. Lorsch</provenance>
@@ -6554,7 +6554,7 @@
    </description>
    <history>
       <date_desc>VIII ex</date_desc>
-      <term_post>776</term_post>
+      <term_post>786</term_post>
       <term_ante>800</term_ante>
       <origin><place id="ireland">Ireland</place> or Northumbria</origin>
    </history>
@@ -6579,7 +6579,7 @@
       <folios />
       <page_h />
       <page_w />
-      <contents>Augustine, <i>In Epistulas Pauli ad Romanos et ad Galatas</i></contents>
+      <contents><person id="augustine">Augustine</person>, <i>In Epistulas Pauli ad Romanos et ad Galatas</i></contents>
       <script>Insular minuscule</script>
    </description>
    <history>
@@ -6614,7 +6614,7 @@
    </description>
    <history>
       <date_desc>IX</date_desc>
-      <term_post>800</term_post>
+      <term_post>801</term_post>
       <term_ante>900</term_ante>
       <origin>NE <place id="france">France</place> (<place id="soissons">Soissons</place>?)? <place id="ireland">Ireland</place>?</origin>
    </history>
@@ -6645,7 +6645,7 @@
    </description>
    <history>
       <date_desc>IX¹</date_desc>
-      <term_post>800</term_post>
+      <term_post>801</term_post>
       <term_ante>850</term_ante>
       <origin>Loire area</origin>
    </history>
@@ -6761,7 +6761,7 @@
    <history>
       <date_desc>IX/X or X in</date_desc>
       <term_post>880</term_post>
-      <term_ante>920</term_ante>
+      <term_ante>915</term_ante>
       <origin>prob. <place id="italy">Italy</place></origin>
    </history>
    <xrefs>
@@ -6787,7 +6787,7 @@
    </description>
    <history>
       <date_desc>IX 3/4</date_desc>
-      <term_post>850</term_post>
+      <term_post>851</term_post>
       <term_ante>875</term_ante>
       <origin>prob. N <place id="france">France</place></origin>
       <provenance><place id="werden">Werden</place></provenance>
@@ -6842,7 +6842,7 @@
    </description>
    <history>
       <date_desc>IX²</date_desc>
-      <term_post>850</term_post>
+      <term_post>851</term_post>
       <term_ante>900</term_ante>
       <origin>E <place id="france">France</place> (<place id="verdun">Verdun</place>?)</origin>
       <provenance><place id="verdun">Verdun</place></provenance>
@@ -6865,13 +6865,13 @@
       <folios>205</folios>
       <page_h>248</page_h>
       <page_w>193</page_w>
-      <contents>Jerome, <i>De viris illustribus</i>; <i>Decretum Gelasianum</i>; Gennadius, <i>De viris illustribus</i>; Isidore, <i>De viris illustribus</i>; Augustine <i>Retractationes</i>; 
-      Cassiodorus, <i>Institutiones</i> (book 1); Isidore, <i>Prohemia</i>, extracts from <i>De ecclesiasticis officiis, De ortu et obitu sanctorum patrum, Allegoriae</i></contents>
+      <contents><person id="jerome">Jerome</person>, <i>De viris illustribus</i>; <i>Decretum Gelasianum</i>; Gennadius, <i>De viris illustribus</i>; <person id="isidore">Isidore</person>, <i>De viris illustribus</i>; <person id="augustine">Augustine</person> <i>Retractationes</i>; 
+      Cassiodorus, <i>Institutiones</i> (book 1); <person id="isidore">Isidore</person>, <i>Prohemia</i>, extracts from <i>De ecclesiasticis officiis, De ortu et obitu sanctorum patrum, Allegoriae</i></contents>
       <script>Caroline minuscule</script>
    </description>
    <history>
       <date_desc>IX 3/4</date_desc>
-      <term_post>850</term_post>
+      <term_post>851</term_post>
       <term_ante>875</term_ante>
       <origin><place id="france">France</place>?</origin>
       <provenance><place id="canterbury">Canterbury</place> (c. 1100)</provenance>
@@ -6930,7 +6930,7 @@
    <history>
       <date_desc>IX/X or IX in</date_desc>
       <term_post>880</term_post>
-      <term_ante>920</term_ante>
+      <term_ante>915</term_ante>
       <origin><place id="italy">Italy</place>? </origin>
    </history>
    <xrefs>
@@ -6959,7 +6959,7 @@
    </description>
    <history>
       <date_desc>IX²</date_desc>
-      <term_post>850</term_post>
+      <term_post>851</term_post>
       <term_ante>900</term_ante>
       <origin><place id="germany">Germany</place>?</origin>
    </history>
@@ -6984,7 +6984,7 @@
       <folios>56</folios>
       <page_h>245</page_h>
       <page_w>135</page_w>
-      <contents>Excerpta ex Isidoro, etc.</contents>
+      <contents>Excerpts from <person id="isidore">Isidore</person>, etc.</contents>
       <script>Caroline minuscule</script>
    </description>
    <history>
@@ -7019,7 +7019,7 @@
    </description>
    <history>
       <date_desc>IX²</date_desc>
-      <term_post>850</term_post>
+      <term_post>851</term_post>
       <term_ante>900</term_ante>
       <origin>S <place id="germany">Germany</place></origin>
    </history>
@@ -7048,7 +7048,7 @@
    </description>
    <history>
       <date_desc>X or XI</date_desc>
-      <term_post>900</term_post>
+      <term_post>901</term_post>
       <term_ante>1100</term_ante>
       <origin>Angers</origin>
       <provenance><place id="fleury">Fleury</place></provenance>
@@ -7075,7 +7075,7 @@
       <folios />
       <page_h />
       <page_w />
-      <contents>Psalter</contents>
+      <contents><text id="psalms">Psalms</text></contents>
       <script>Irish minuscule</script>
    </description>
    <history>
@@ -7106,12 +7106,12 @@
       <folios />
       <page_h />
       <page_w />
-      <contents>Evangelia; liturgical rite for visitation of the sick (28v–29r)</contents>
+      <contents><text id="gospels">Gospels</text>; liturgical rite for visitation of the sick (28v–29r)</contents>
       <script>Irish minuscule</script>
    </description>
    <history>
       <date_desc>c. 850–1000, prob. IX¹</date_desc>
-      <term_post>900</term_post>
+      <term_post>850</term_post>
       <term_ante>950</term_ante>
       <origin>Deer (Scotland)</origin>
       <provenance>Deer</provenance>
@@ -7143,7 +7143,7 @@
    <history>
       <date_desc>prob. VIII/IX or IX in</date_desc>
       <term_post>880</term_post>
-      <term_ante>920</term_ante>
+      <term_ante>915</term_ante>
       <origin>Brittany (or <place id="fleury">Fleury</place>?)</origin>
       <provenance><place id="fleury">Fleury</place></provenance>
    </history>
@@ -7170,12 +7170,12 @@
       <folios>170</folios>
       <page_h>267</page_h>
       <page_w>180</page_w>
-      <contents><i>Epistula Alexandri de mirabilibus Indiae</i>; Jerome, <i>Commentarii in evangelium Matthaei</i>; <i>Excerpta</i>; Pseudo-Jerome, <i>Expositio in IV evangelia</i>; etc.</contents>
+      <contents><i>Epistula Alexandri de mirabilibus Indiae</i>; <person id="jerome">Jerome</person>, <i>Commentarii in evangelium Matthaei</i>; <i>Excerpta</i>; Pseudo-Jerome, <i>Expositio in IV evangelia</i>; etc.</contents>
       <script />
    </description>
    <history>
       <date_desc>IX c. 1/4 or 2/4</date_desc>
-      <term_post>800</term_post>
+      <term_post>801</term_post>
       <term_ante>900</term_ante>
       <origin>N <place id="italy">Italy</place></origin>
       <provenance><place id="strasbourg">Strasbourg</place></provenance>
@@ -7239,8 +7239,8 @@
    </description>
    <history>
       <date_desc>VIII in</date_desc>
-      <term_post>700</term_post>
-      <term_ante>720</term_ante>
+      <term_post>701</term_post>
+      <term_ante>715</term_ante>
       <origin>Anglo-Saxon centre on the Continent</origin>
       <provenance><place id="echternach">Echternach</place></provenance>
    </history>
@@ -7271,7 +7271,7 @@
    </description>
    <history>
       <date_desc>IX 3/4 or X</date_desc>
-      <term_post>850</term_post>
+      <term_post>851</term_post>
       <term_ante>1000</term_ante>
       <origin>Brittany</origin>
       <provenance><place id="corbie">Corbie</place></provenance>
@@ -7305,7 +7305,7 @@
    <history>
       <date_desc>IX/X or XI in</date_desc>
       <term_post>880</term_post>
-      <term_ante>1020</term_ante>
+      <term_ante>1015</term_ante>
       <origin>S <place id="germany">Germany</place></origin>
       <provenance><place id="stgall">St Gall</place></provenance>
    </history>
@@ -7333,7 +7333,7 @@
    </description>
    <history>
       <date_desc>IX 3/4</date_desc>
-      <term_post>850</term_post>
+      <term_post>851</term_post>
       <term_ante>875</term_ante>
       <origin><place id="soissons">Soissons</place></origin>
    </history>
@@ -7355,12 +7355,12 @@
       <folios>139</folios>
       <page_h>300</page_h>
       <page_w>248</page_w>
-      <contents>Jerome, Commentarii in Prophetas minores (Ioel, Mi, Na, Hab)</contents>
+      <contents><person id="jerome">Jerome</person>, <i>Commentarii in Prophetas minores</i> (Ioel, Mi, Na, Hab)</contents>
       <script>Caroline minuscule</script>
    </description>
    <history>
       <date_desc>IX 2/4</date_desc>
-      <term_post>825</term_post>
+      <term_post>826</term_post>
       <term_ante>850</term_ante>
       <origin>prob. N <place id="france">France</place></origin>
       <provenance><place id="laon">Laon</place></provenance>
@@ -7383,12 +7383,12 @@
       <folios>215</folios>
       <page_h>318</page_h>
       <page_w>253</page_w>
-      <contents>Paschasius Radbertus, Commentarius in evangelium Matthaei</contents>
+      <contents>Paschasius Radbertus, <i>Commentarius in evangelium Matthaei</i></contents>
       <script>Caroline minuscule</script>
    </description>
    <history>
       <date_desc>IX 3/4</date_desc>
-      <term_post>850</term_post>
+      <term_post>851</term_post>
       <term_ante>875</term_ante>
       <origin><place id="corbie">Corbie</place></origin>
    </history>
@@ -7410,7 +7410,7 @@
       <folios>80</folios>
       <page_h>217</page_h>
       <page_w>167</page_w>
-      <contents>Commentarius in evangelium Iohannis</contents>
+      <contents><i>Commentarius in evangelium Iohannis</i></contents>
       <script>Caroline minuscule</script>
    </description>
    <history>
@@ -7437,7 +7437,7 @@
       <folios>68</folios>
       <page_h>220</page_h>
       <page_w>165</page_w>
-      <contents>Augustine, In Johannis epistulam ad Parthos tractatus X</contents>
+      <contents><person id="augustine">Augustine</person>, <i>In Johannis epistulam ad Parthos tractatus X</i></contents>
       <script>Caroline minuscule</script>
    </description>
    <history>
@@ -7469,7 +7469,7 @@
    </description>
    <history>
       <date_desc>IX</date_desc>
-      <term_post>800</term_post>
+      <term_post>801</term_post>
       <term_ante>900</term_ante>
       <origin><place id="reims">Reims</place> circle</origin>
       <provenance><place id="laon">Laon</place></provenance>
@@ -7497,7 +7497,7 @@
    </description>
    <history>
       <date_desc>IX 1/3 &amp; 2/3</date_desc>
-      <term_post>800</term_post>
+      <term_post>801</term_post>
       <term_ante>866</term_ante>
       <origin><place id="saint-amand">Saint-Amand</place> &amp; NE <place id="france">France</place></origin>
       <provenance><place id="laon">Laon</place></provenance>
@@ -7525,7 +7525,7 @@
    </description>
    <history>
       <date_desc>IX 3/4</date_desc>
-      <term_post>850</term_post>
+      <term_post>851</term_post>
       <term_ante>875</term_ante>
       <origin>prob. NE <place id="france">France</place></origin>
       <provenance><place id="laon">Laon</place></provenance>
@@ -7553,7 +7553,7 @@
    </description>
    <history>
       <date_desc>IX 1/3</date_desc>
-      <term_post>800</term_post>
+      <term_post>801</term_post>
       <term_ante>833</term_ante>
       <origin><place id="saint-amand">Saint-Amand</place></origin>
       <provenance><place id="laon">Laon</place></provenance>
@@ -7581,7 +7581,7 @@
    </description>
    <history>
       <date_desc>IX 1/4</date_desc>
-      <term_post>800</term_post>
+      <term_post>801</term_post>
       <term_ante>825</term_ante>
       <origin><place id="saint-amand">Saint-Amand</place></origin>
       <provenance><place id="laon">Laon</place></provenance>
@@ -7609,7 +7609,7 @@
    </description>
    <history>
       <date_desc>IX 1/4</date_desc>
-      <term_post>800</term_post>
+      <term_post>801</term_post>
       <term_ante>825</term_ante>
       <origin><place id="saint-amand">Saint-Amand</place></origin>
       <provenance><place id="laon">Laon</place></provenance>
@@ -7637,7 +7637,7 @@
    </description>
    <history>
       <date_desc>IX 3/4</date_desc>
-      <term_post>850</term_post>
+      <term_post>851</term_post>
       <term_ante>875</term_ante>
       <origin>NE <place id="france">France</place>?</origin>
    </history>
@@ -7664,7 +7664,7 @@
    </description>
    <history>
       <date_desc>IX 1/4 or 2/4</date_desc>
-      <term_post>800</term_post>
+      <term_post>801</term_post>
       <term_ante>850</term_ante>
       <origin>NE <place id="france">France</place> (near <place id="saint-amand">Saint-Amand</place>)</origin>
    </history>
@@ -7692,7 +7692,7 @@
    </description>
    <history>
       <date_desc>IX 2/4</date_desc>
-      <term_post>825</term_post>
+      <term_post>826</term_post>
       <term_ante>850</term_ante>
       <origin><place id="france">France</place>? N <place id="italy">Italy</place>?</origin>
    </history>
@@ -7719,7 +7719,7 @@
    </description>
    <history>
       <date_desc>IX 2/3</date_desc>
-      <term_post>833</term_post>
+      <term_post>834</term_post>
       <term_ante>866</term_ante>
       <origin>NE <place id="france">France</place></origin>
       <provenance><place id="laon">Laon</place></provenance>
@@ -7747,7 +7747,7 @@
    </description>
    <history>
       <date_desc>IX 2/4</date_desc>
-      <term_post>825</term_post>
+      <term_post>826</term_post>
       <term_ante>850</term_ante>
       <origin>NE <place id="france">France</place></origin>
       <provenance><place id="laon">Laon</place></provenance>
@@ -7801,12 +7801,12 @@
       <folios />
       <page_h />
       <page_w />
-      <contents>Eriugena, <i>Peri physeon</i></contents>
+      <contents><person id="eriugena">Eriugena</person>, <i>Peri physeon</i></contents>
       <script>Caroline minuscule</script>
    </description>
    <history>
       <date_desc>IX 3/4</date_desc>
-      <term_post>875</term_post>
+      <term_post>876</term_post>
       <term_ante>900</term_ante>
       <origin>NE <place id="france">France</place> (Arras?)</origin>
    </history>
@@ -7828,12 +7828,12 @@
       <folios />
       <page_h />
       <page_w />
-      <contents>Eriugena, <i>De divisione naturae</i></contents>
+      <contents><person id="eriugena">Eriugena</person>, <i>De divisione naturae</i></contents>
       <script />
    </description>
    <history>
       <date_desc>IX</date_desc>
-      <term_post>800</term_post>
+      <term_post>801</term_post>
       <term_ante>900</term_ante>
       <origin />
       <provenance><place id="reims">Reims</place></provenance>
@@ -7861,8 +7861,8 @@
    </description>
    <history>
       <date_desc>VIII ex or IX in</date_desc>
-      <term_post>780</term_post>
-      <term_ante>820</term_ante>
+      <term_post>786</term_post>
+      <term_ante>815</term_ante>
       <origin><place id="augsburg">Augsburg</place> area</origin>
       <provenance><place id="fussen">Füssen</place></provenance>
    </history>
@@ -7889,13 +7889,13 @@
       <folios>206</folios>
       <page_h>233</page_h>
       <page_w>146</page_w>
-      <contents>Ps-Augustine, <i>De quaestionibus Veteris et Novi Testamenti</i></contents>
+      <contents>Pseudo-Augustine, <i>De quaestionibus Veteris et Novi Testamenti</i></contents>
       <script>Caroline minuscule</script>
    </description>
    <history>
       <date_desc>IX in</date_desc>
-      <term_post>800</term_post>
-      <term_ante>820</term_ante>
+      <term_post>801</term_post>
+      <term_ante>815</term_ante>
       <origin><place id="augsburg">Augsburg</place> area</origin>
    </history>
    <xrefs>
@@ -7923,7 +7923,7 @@
    </description>
    <history>
       <date_desc>VIII</date_desc>
-      <term_post>700</term_post>
+      <term_post>701</term_post>
       <term_ante>800</term_ante>
       <origin>Anglo-Saxon centre, prob. on Continent</origin>
       <provenance><place id="fulda">Fulda</place></provenance>
@@ -7948,12 +7948,12 @@
       <folios />
       <page_h />
       <page_w />
-      <contents>Jerome, <i>In Isaiam</i> (14–18)</contents>
+      <contents><person id="jerome">Jerome</person>, <i>In Isaiam</i> (14–18)</contents>
       <script>Insular minuscule</script>
    </description>
    <history>
       <date_desc>VIII²</date_desc>
-      <term_post>750</term_post>
+      <term_post>751</term_post>
       <term_ante>800</term_ante>
       <origin><place id="tours">Tours</place></origin>
    </history>
@@ -7987,7 +7987,7 @@
    </description>
    <history>
       <date_desc>V</date_desc>
-      <term_post>400</term_post>
+      <term_post>401</term_post>
       <term_ante>500</term_ante>
       <origin><place id="italy">Italy</place>; additions in <place id="bobbio">Bobbio</place></origin>
    </history>
@@ -8013,12 +8013,12 @@
       <folios>395</folios>
       <page_h>225</page_h>
       <page_w>185</page_w>
-      <contents>Gospels (Greek, Latin interlinear)</contents>
+      <contents><text id="gospels">Gospels</text>  (Greek, Latin interlinear)</contents>
       <script>Irish minuscule</script>
    </description>
    <history>
       <date_desc>IX²</date_desc>
-      <term_post>850</term_post>
+      <term_post>851</term_post>
       <term_ante>900</term_ante>
       <origin><place id="stgall">St Gall</place>?</origin>
    </history>
@@ -8071,14 +8071,14 @@
       <folios>159</folios>
       <page_h>260</page_h>
       <page_w>165</page_w>
-      <contents>Jerome, <i>In Hieremiam prophetam</i></contents>
+      <contents><person id="jerome">Jerome</person>, <i>In Hieremiam prophetam</i></contents>
       <script>Early Caroline minuscule</script>
    </description>
    <history>
       <date_desc>VIII/IX</date_desc>
       <term_post>780</term_post>
       <term_ante>820</term_ante>
-      <origin><place id="regensberg">Regensburg</place></origin>
+      <origin><place id="regensburg">Regensburg</place></origin>
    </history>
    <xrefs>
       <xref type="cla" href="" />
@@ -8138,7 +8138,7 @@
    </description>
    <history>
       <date_desc>VIII ex</date_desc>
-      <term_post>776</term_post>
+      <term_post>786</term_post>
       <term_ante>800</term_ante>
       <origin><place id="regensburg">Regensburg</place></origin>
    </history>
@@ -8164,12 +8164,12 @@
       <folios>176</folios>
       <page_h>298</page_h>
       <page_w>188</page_w>
-      <contents>Augustine <i>in Psalmum CXVIII</i>; Hymni; Preces; etc.</contents>
+      <contents><person id="augustine">Augustine</person> <i>in Psalmum CXVIII</i>; Hymni; Preces; etc.</contents>
       <script />
    </description>
    <history>
       <date_desc>IX 1/4</date_desc>
-      <term_post>800</term_post>
+      <term_post>801</term_post>
       <term_ante>825</term_ante>
       <origin><place id="regensburg">Regensburg</place></origin>
    </history>
@@ -8200,7 +8200,7 @@
    </description>
    <history>
       <date_desc>IX²</date_desc>
-      <term_post>850</term_post>
+      <term_post>851</term_post>
       <term_ante>900</term_ante>
       <origin>W <place id="germany">Germany</place>?</origin>
    </history>
@@ -8211,7 +8211,7 @@
    </xrefs>
    <notes>
       <categories>sc-ire</categories>
-      <project_notes>Bischoff <i>SBB</i>: A few corrections in an Insular, prob. Irish, hand (e.g. f. 15r); identified in Addenda with hand of <person id="sedulius">Sedulius Scottus</person> in the <ms id="37">Arsenal Psalter</ms>.</project_notes>
+      <project_notes>Bischoff <i>SBB</i>: A few corrections in an Insular, prob. Irish, hand (e.g. f. 15r); identified in Addenda with hand of <person id="sedulius">Sedulius Scottus</person> in the <ms id="37">Arsenal <text id="psalms">Psalter</text></ms>.</project_notes>
       <private_notes>See Bischoff, "Irische Schreiber", p. 51.</private_notes>
    </notes>
 </manuscript><manuscript id="281">
@@ -8226,12 +8226,12 @@
       <folios>96</folios>
       <page_h>215</page_h>
       <page_w>140</page_w>
-      <contents>Euthyches, <i>Ars de verbo</i>; Isidore, <i>Etymologiae</i> (excerpts); etc.</contents>
+      <contents>Eutyches, <i>Ars de verbo</i>; <person id="isidore">Isidore</person>, <i>Etymologiae</i> (excerpts); etc.</contents>
       <script />
    </description>
    <history>
       <date_desc>IX 1/4</date_desc>
-      <term_post>800</term_post>
+      <term_post>801</term_post>
       <term_ante>825</term_ante>
       <origin>Bavaria</origin>
    </history>
@@ -8268,7 +8268,7 @@
       <term_post>780</term_post>
       <term_ante>820</term_ante>
       <origin><place id="salzburg">Salzburg</place></origin>
-      <provenance>Minuscule</provenance>
+      <provenance />
    </history>
    <xrefs>
       <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/193">10.1475</xref>
@@ -8298,7 +8298,7 @@
    </description>
    <history>
       <date_desc>VIII ex</date_desc>
-      <term_post>776</term_post>
+      <term_post>786</term_post>
       <term_ante>800</term_ante>
       <origin><place id="salzburg">Salzburg</place></origin>
    </history>
@@ -8328,7 +8328,7 @@
    </description>
    <history>
       <date_desc>VIII ex</date_desc>
-      <term_post>776</term_post>
+      <term_post>786</term_post>
       <term_ante>800</term_ante>
       <origin><place id="salzburg">Salzburg</place></origin>
    </history>
@@ -8353,12 +8353,12 @@
       <folios>93</folios>
       <page_h>195</page_h>
       <page_w>113</page_w>
-      <contents>Poenitentiale Vindobonense (Poen. Ps.-Cummeani; Poen. Vinniani)</contents>
+      <contents>Poenitentiale Vindobonense (Poen. Pseudo-Cummeani; Poen. Vinniani)</contents>
       <script>Caroline minuscule</script>
    </description>
    <history>
       <date_desc>VIII ex</date_desc>
-      <term_post>776</term_post>
+      <term_post>786</term_post>
       <term_ante>800</term_ante>
       <origin><place id="salzburg">Salzburg</place></origin>
    </history>
@@ -8383,13 +8383,13 @@
       <folios>128</folios>
       <page_h>270</page_h>
       <page_w>200</page_w>
-      <contents>Anonymi Scoti Commentarii in evangelia Lucae et Iohannis; Jerome, <i>Interpretationes</i>; etc.</contents>
+      <contents>Anonymi Scoti Commentarii in evangelia Lucae et Iohannis; <person id="jerome">Jerome</person>, <i>Interpretationes</i>; etc.</contents>
       <script>Caroline minuscule</script>
    </description>
    <history>
       <date_desc>IX in</date_desc>
-      <term_post>800</term_post>
-      <term_ante>820</term_ante>
+      <term_post>801</term_post>
+      <term_ante>815</term_ante>
       <origin><place id="salzburg">Salzburg</place></origin>
    </history>
    <xrefs>
@@ -8532,7 +8532,7 @@
    </description>
    <history>
       <date_desc>IX 3/4</date_desc>
-      <term_post>875</term_post>
+      <term_post>876</term_post>
       <term_ante>900</term_ante>
       <origin>prob. E <place id="france">France</place></origin>
    </history>
@@ -8557,12 +8557,12 @@
       <folios>229</folios>
       <page_h>307</page_h>
       <page_w>240</page_w>
-      <contents>Augustine, <i>Sermones de verbis domini et apostoli</i></contents>
+      <contents><person id="augustine">Augustine</person>, <i>Sermones de verbis domini et apostoli</i></contents>
       <script>Caroline minuscule</script>
    </description>
    <history>
       <date_desc>IX 3/4</date_desc>
-      <term_post>850</term_post>
+      <term_post>851</term_post>
       <term_ante>875</term_ante>
       <origin><place id="soissons">Soissons</place></origin>
       <provenance />
@@ -8593,7 +8593,7 @@
    </description>
    <history>
       <date_desc>VIII ex</date_desc>
-      <term_post>776</term_post>
+      <term_post>786</term_post>
       <term_ante>800</term_ante>
       <origin><place id="freising">Freising</place></origin>
    </history>

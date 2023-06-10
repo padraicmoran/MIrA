@@ -8,13 +8,13 @@
       <folios>205</folios>
       <page_h>248</page_h>
       <page_w>193</page_w>
-      <contents>Jerome, <i>De viris illustribus</i>; <i>Decretum Gelasianum</i>; Gennadius, <i>De viris illustribus</i>; Isidore, <i>De viris illustribus</i>; Augustine <i>Retractationes</i>; 
-      Cassiodorus, <i>Institutiones</i> (book 1); Isidore, <i>Prohemia</i>, extracts from <i>De ecclesiasticis officiis, De ortu et obitu sanctorum patrum, Allegoriae</i></contents>
+      <contents><person id="jerome">Jerome</person>, <i>De viris illustribus</i>; <i>Decretum Gelasianum</i>; Gennadius, <i>De viris illustribus</i>; <person id="isidore">Isidore</person>, <i>De viris illustribus</i>; <person id="augustine">Augustine</person> <i>Retractationes</i>; 
+      Cassiodorus, <i>Institutiones</i> (book 1); <person id="isidore">Isidore</person>, <i>Prohemia</i>, extracts from <i>De ecclesiasticis officiis, De ortu et obitu sanctorum patrum, Allegoriae</i></contents>
       <script>Caroline minuscule</script>
    </description>
    <history>
       <date_desc>IX 3/4</date_desc>
-      <term_post>850</term_post>
+      <term_post>851</term_post>
       <term_ante>875</term_ante>
       <origin><place id="france">France</place>?</origin>
       <provenance><place id="canterbury">Canterbury</place> (c. 1100)</provenance>

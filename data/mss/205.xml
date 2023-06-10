@@ -17,13 +17,13 @@
       <folios />
       <page_h />
       <page_w />
-      <contents>Gospels (Mt 14–18, 22–25, 27–28; Mc 1–6, 8–14)</contents>
+      <contents><text id="gospels">Gospels</text>  (Mt 14–18, 22–25, 27–28; Mc 1–6, 8–14)</contents>
       <script>Insular majuscule</script>
    </description>
    <history>
       <date_desc>VII med</date_desc>
-      <term_post>626</term_post>
-      <term_ante>675</term_ante>
+      <term_post>640</term_post>
+      <term_ante>660</term_ante>
       <origin>Northumbria (Irish tradition)</origin>
    </history>
    <xrefs>
@@ -35,4 +35,3 @@
       <project_notes />
    </notes>
 </manuscript>
-

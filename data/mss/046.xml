@@ -8,12 +8,12 @@
       <folios />
       <page_h />
       <page_w />
-      <contents>Augustine, <i>Enchiridion</i></contents>
+      <contents><person id="augustine">Augustine</person>, <i>Enchiridion</i></contents>
       <script>Caroline minuscule</script>
    </description>
    <history>
       <date_desc>IX 2/4 or IX med</date_desc>
-      <term_post>825</term_post>
+      <term_post>826</term_post>
       <term_ante>860</term_ante>
       <origin><place id="reichenau">Reichenau</place>? <place id="mainz">Mainz</place> (circle of Probus)?</origin>
       <provenance><place id="trier">Trier</place></provenance>
@@ -27,4 +27,3 @@
       <project_notes>Old Irish glosses. (Former shelfmark: Lat. 4ᴼ 690 = Görres 87.)</project_notes>
    </notes>
 </manuscript>
-

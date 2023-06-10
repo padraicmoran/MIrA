@@ -11,7 +11,7 @@
       <folios />
       <page_h />
       <page_w />
-      <contents>Gospels (Vulgata, Mt 1.1–9.27, 11.25–28.20, Mc 1.1–10.1, 12.1–37, 14.1–16.20, Lc, Io 1.1–18.15, 19.27–21.25)</contents>
+      <contents><text id="gospels">Gospels</text>  (Vulgata, Mt 1.1–9.27, 11.25–28.20, Mc 1.1–10.1, 12.1–37, 14.1–16.20, Lc, Io 1.1–18.15, 19.27–21.25)</contents>
       <script>Irish minuscule</script>
    </description>
    <history>
@@ -30,4 +30,3 @@
       <project_notes>Old Irish glosses (16). </project_notes>
    </notes>
 </manuscript>
-

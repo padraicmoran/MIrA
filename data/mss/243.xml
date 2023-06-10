@@ -11,12 +11,12 @@
       <folios />
       <page_h />
       <page_w />
-      <contents>Evangelia; liturgical rite for visitation of the sick (28v–29r)</contents>
+      <contents><text id="gospels">Gospels</text>; liturgical rite for visitation of the sick (28v–29r)</contents>
       <script>Irish minuscule</script>
    </description>
    <history>
       <date_desc>c. 850–1000, prob. IX¹</date_desc>
-      <term_post>900</term_post>
+      <term_post>850</term_post>
       <term_ante>950</term_ante>
       <origin>Deer (Scotland)</origin>
       <provenance>Deer</provenance>
@@ -31,4 +31,3 @@
       <private_notes />
    </notes>
 </manuscript>
-

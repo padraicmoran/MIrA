@@ -8,7 +8,7 @@
       <folios />
       <page_h />
       <page_w />
-      <contents>Gospels (Mt, Lc, Mc, Io, imperf.)</contents>
+      <contents><text id="gospels">Gospels</text>  (Mt, Lc, Mc, Io, imperf.)</contents>
       <script>Irish minuscule</script>
    </description>
    <history>
@@ -26,4 +26,3 @@
       <project_notes />
    </notes>
 </manuscript>
-

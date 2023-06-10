@@ -11,12 +11,12 @@
       <folios>12</folios>
       <page_h>242</page_h>
       <page_w>190</page_w>
-      <contents>Eucherius, <i>Formulae</i>; Augustine, excepts etc.</contents>
+      <contents>Eucherius, <i>Formulae</i>; <person id="augustine">Augustine</person>, excepts etc.</contents>
       <script>Irish and Caroline minuscule</script>
    </description>
    <history>
       <date_desc>IX²</date_desc>
-      <term_post>850</term_post>
+      <term_post>851</term_post>
       <term_ante>900</term_ante>
       <origin>origin uncertain</origin>
    </history>

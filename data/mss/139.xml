@@ -13,7 +13,7 @@
       <folios>15</folios>
       <page_h>190</page_h>
       <page_w>125</page_w>
-      <contents>Jerome, <i>Epistulae</i></contents>
+      <contents><person id="jerome">Jerome</person>, <i>Epistulae</i></contents>
       <script>Irish and cursive minuscule</script>
    </description>
    <history>
@@ -32,4 +32,3 @@
       <project_notes>Irish minuscule (ff 1–11v) &amp; Italian cursive minuscule (ff 13v–15). Same Irish hand as one of scribes of Naples, Lat. 2 (ff 42*–75).</project_notes>
    </notes>
 </manuscript>
-

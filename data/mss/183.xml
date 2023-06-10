@@ -11,7 +11,7 @@
       <folios />
       <page_h />
       <page_w />
-      <contents>Gospels (Vetus Latina, Mc, Mt, Lc, Io partim)</contents>
+      <contents><text id="gospels">Gospels</text>  (Vetus Latina, Mc, Mt, Lc, Io partim)</contents>
       <script>Irish majuscule</script>
    </description>
    <history>
@@ -31,4 +31,3 @@
       <private_notes>Why palimpsest new? What is palimpsest old?? p. 8 has collations with different text version.</private_notes>
    </notes>
 </manuscript>
-

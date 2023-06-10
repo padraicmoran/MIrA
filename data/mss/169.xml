@@ -14,7 +14,7 @@
       <page_w>237</page_w>
       <script>Irish minuscule</script>
       <contents>
-      	<summary>Marius Victorinus, <i>Ars Grammatica</i>; Isidore Iunior, <i>De Vitiis et Virtutibus</i></summary>
+      	<summary>Marius Victorinus, <i>Ars Grammatica</i>; <person id="isidore">Isidore</person> Iunior, <i>De Vitiis et Virtutibus</i></summary>
 			<msItem>
 				<locus>1ra–9rb</locus>
 				<author personID="Isidore_iunior">Isidore iunior Hispalensis</author>
@@ -49,4 +49,3 @@
       <project_notes />
    </notes>
 </manuscript>
-

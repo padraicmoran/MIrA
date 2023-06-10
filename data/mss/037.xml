@@ -10,12 +10,12 @@
       <folios>66</folios>
       <page_h>220</page_h>
       <page_w>153</page_w>
-      <contents>Greek Psalter; Cantica, etc.</contents>
+      <contents>Greek <text id="psalms">Psalms</text>; Cantica, etc.</contents>
       <script>Irish minuscule</script>
    </description>
    <history>
       <date_desc>IX 3/4</date_desc>
-      <term_post>850</term_post>
+      <term_post>851</term_post>
       <term_ante>875</term_ante>
       <origin>Irish centre on Continent</origin>
       <provenance><place id="verdun">Verdun</place></provenance>
@@ -28,4 +28,3 @@
       <project_notes>Autograph of <person id="sedulius">Sedulius Scottus</person> (f. 55r): cηδυλιοc . cκοττοc . εγω . εγραφα.</project_notes>
    </notes>
 </manuscript>
-

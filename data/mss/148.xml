@@ -8,7 +8,7 @@
       <folios>110</folios>
       <page_h />
       <page_w />
-      <contents>Augustine, <i>Collatio cum Maximo</i>, <i>Contra Maximinum</i></contents>
+      <contents><person id="augustine">Augustine</person>, <i>Collatio cum Maximo</i>, <i>Contra Maximinum</i></contents>
       <script>Half-Uncial and Irish majuscule</script>
    </description>
    <history>
@@ -27,4 +27,3 @@
       <project_notes>Destroyed by fire 1904.</project_notes>
    </notes>
 </manuscript>
-

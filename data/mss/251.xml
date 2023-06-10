@@ -8,12 +8,12 @@
       <folios>139</folios>
       <page_h>300</page_h>
       <page_w>248</page_w>
-      <contents>Jerome, Commentarii in Prophetas minores (Ioel, Mi, Na, Hab)</contents>
+      <contents><person id="jerome">Jerome</person>, <i>Commentarii in Prophetas minores</i> (Ioel, Mi, Na, Hab)</contents>
       <script>Caroline minuscule</script>
    </description>
    <history>
       <date_desc>IX 2/4</date_desc>
-      <term_post>825</term_post>
+      <term_post>826</term_post>
       <term_ante>850</term_ante>
       <origin>prob. N <place id="france">France</place></origin>
       <provenance><place id="laon">Laon</place></provenance>

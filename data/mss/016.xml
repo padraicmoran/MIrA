@@ -10,12 +10,12 @@
       <folios>204</folios>
       <page_h>345</page_h>
       <page_w>245</page_w>
-      <contents>Isidore, <i>Etymologiae</i></contents>
+      <contents><person id="isidore">Isidore</person>, <i>Etymologiae</i></contents>
       <script />
    </description>
    <history>
       <date_desc>IX 2/4</date_desc>
-      <term_post>825</term_post>
+      <term_post>826</term_post>
       <term_ante>850</term_ante>
       <origin><place id="mainz">Mainz</place></origin>
       <provenance><place id="laon">Laon</place></provenance>
@@ -29,4 +29,3 @@
       <project_notes>Hand of <person id="martin">Martin</person>. Latin and Old Irish glosses (33). Glossed by (Irishman) Probus of Mainz.</project_notes>
    </notes>
 </manuscript>
-

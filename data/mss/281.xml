@@ -11,12 +11,12 @@
       <folios>96</folios>
       <page_h>215</page_h>
       <page_w>140</page_w>
-      <contents>Euthyches, <i>Ars de verbo</i>; Isidore, <i>Etymologiae</i> (excerpts); etc.</contents>
+      <contents>Eutyches, <i>Ars de verbo</i>; <person id="isidore">Isidore</person>, <i>Etymologiae</i> (excerpts); etc.</contents>
       <script />
    </description>
    <history>
       <date_desc>IX 1/4</date_desc>
-      <term_post>800</term_post>
+      <term_post>801</term_post>
       <term_ante>825</term_ante>
       <origin>Bavaria</origin>
    </history>
@@ -30,4 +30,3 @@
       <private_notes>This one needs a detailed exploration.</private_notes>
    </notes>
 </manuscript>
-

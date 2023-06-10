@@ -10,7 +10,7 @@
       <folios />
       <page_h />
       <page_w />
-      <contents>Gospels (Mt, Mc, Lc 1–3.9)</contents>
+      <contents><text id="gospels">Gospels</text>  (Mt, Mc, Lc 1–3.9)</contents>
       <script>Insular majuscule</script>
    </description>
    <history>
@@ -28,4 +28,3 @@
       <project_notes />
    </notes>
 </manuscript>
-

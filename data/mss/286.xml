@@ -10,13 +10,13 @@
       <folios>128</folios>
       <page_h>270</page_h>
       <page_w>200</page_w>
-      <contents>Anonymi Scoti Commentarii in evangelia Lucae et Iohannis; Jerome, <i>Interpretationes</i>; etc.</contents>
+      <contents>Anonymi Scoti Commentarii in evangelia Lucae et Iohannis; <person id="jerome">Jerome</person>, <i>Interpretationes</i>; etc.</contents>
       <script>Caroline minuscule</script>
    </description>
    <history>
       <date_desc>IX in</date_desc>
-      <term_post>800</term_post>
-      <term_ante>820</term_ante>
+      <term_post>801</term_post>
+      <term_ante>815</term_ante>
       <origin><place id="salzburg">Salzburg</place></origin>
    </history>
    <xrefs>
@@ -29,4 +29,3 @@
       <private_notes>Bischoff has no notes on Insular palaeographical features; pres. Irish on the basis of text. </private_notes>
    </notes>
 </manuscript>
-

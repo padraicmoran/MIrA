@@ -9,7 +9,7 @@
       <folios />
       <page_h />
       <page_w />
-      <contents>Augustine, Tractatus in Epistulam 1 Iohannis 4, 5–7</contents>
+      <contents><person id="augustine">Augustine</person>, Tractatus in Epistulam 1 Iohannis 4, 5–7</contents>
       <script>Irish minuscule</script>
    </description>
    <history>
@@ -28,4 +28,3 @@
       <project_notes />
    </notes>
 </manuscript>
-

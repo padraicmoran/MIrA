@@ -10,13 +10,13 @@
       <folios />
       <page_h />
       <page_w />
-      <contents>Commentary on Matthew (13r–142v); + Jerome, <i>Epistula ad Damasum papam</i>; Gospel canons; Sedulius Scotus, <i>Argumenta</i>, etc.</contents>
+      <contents>Commentary on Matthew (13r–142v); <person id="jerome">Jerome</person>, <i>Epistula ad Damasum papam</i>; Gospel canons; Sedulius Scotus, <i>Argumenta</i>, etc.</contents>
       <script />
    </description>
    <history>
       <date_desc>IX in</date_desc>
       <term_post>800</term_post>
-      <term_ante>820</term_ante>
+      <term_ante>815</term_ante>
       <origin><place id="salzburg">Salzburg</place> (or <place id="saint-amand">Saint-Amand</place>)</origin>
    </history>
    <xrefs>
@@ -29,4 +29,3 @@
       <project_notes>Old Irish text (101v). Insular exemplar.</project_notes>
    </notes>
 </manuscript>
-

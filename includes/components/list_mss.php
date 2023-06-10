@@ -149,7 +149,7 @@ function listMSS($results) {
 	?>
 
 <!-- Network graph -->
-<h3 class="mt-5 pt-2">Network graph (experimental)</h4> 
+<h3 class="mt-5 pt-2">Network graph</h4> 
 <?php
 	networkGraph($resultsSorted);
 }

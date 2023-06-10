@@ -11,12 +11,12 @@
       <folios />
       <page_h />
       <page_w />
-      <contents>Augustine, Opuscula</contents>
+      <contents><person id="augustine">Augustine</person>, Opuscula</contents>
       <script>Uncial</script>
    </description>
    <history>
-      <date_desc>V ex.</date_desc>
-      <term_post>476</term_post>
+      <date_desc>V ex</date_desc>
+      <term_post>486</term_post>
       <term_ante>500</term_ante>
       <origin>prob. <place id="italy">Italy</place></origin>
       <provenance>prob. Lorsch</provenance>
@@ -32,4 +32,3 @@
       <private_notes>some letters?</private_notes>
    </notes>
 </manuscript>
-

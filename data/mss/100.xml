@@ -11,12 +11,12 @@
       <folios>248</folios>
       <page_h>247</page_h>
       <page_w>160</page_w>
-      <contents>Gospels (Mt, Mc, Lc, Io)</contents>
+      <contents><text id="gospels">Gospels</text>  (Mt, Mc, Lc, Io)</contents>
       <script>Insular majuscule</script>
    </description>
    <history>
       <date_desc>VII²</date_desc>
-      <term_post>650</term_post>
+      <term_post>651</term_post>
       <term_ante>700</term_ante>
       <origin>Northumbria (Irish tradition)</origin>
       <provenance>Durrow, Offaly</provenance>
@@ -30,4 +30,3 @@
       <project_notes>Cumdach lost. (Old Irish material presented from Book of Durrow in <i>Thes.</i> 2.257 really belongs with Book of Dimma.)</project_notes>
    </notes>
 </manuscript>
-

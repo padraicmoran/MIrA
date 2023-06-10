@@ -11,12 +11,12 @@
       <folios>170</folios>
       <page_h>267</page_h>
       <page_w>180</page_w>
-      <contents><i>Epistula Alexandri de mirabilibus Indiae</i>; Jerome, <i>Commentarii in evangelium Matthaei</i>; <i>Excerpta</i>; Pseudo-Jerome, <i>Expositio in IV evangelia</i>; etc.</contents>
+      <contents><i>Epistula Alexandri de mirabilibus Indiae</i>; <person id="jerome">Jerome</person>, <i>Commentarii in evangelium Matthaei</i>; <i>Excerpta</i>; Pseudo-Jerome, <i>Expositio in IV evangelia</i>; etc.</contents>
       <script />
    </description>
    <history>
       <date_desc>IX c. 1/4 or 2/4</date_desc>
-      <term_post>800</term_post>
+      <term_post>801</term_post>
       <term_ante>900</term_ante>
       <origin>N <place id="italy">Italy</place></origin>
       <provenance><place id="strasbourg">Strasbourg</place></provenance>
@@ -32,4 +32,3 @@
       <private_notes />
    </notes>
 </manuscript>
-

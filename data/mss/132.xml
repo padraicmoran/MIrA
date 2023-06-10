@@ -9,7 +9,7 @@
       <folios />
       <page_h />
       <page_w />
-      <contents>Gospels (Vulgata, Mt, Mc, Lc, Io, Act)</contents>
+      <contents><text id="gospels">Gospels</text>  (Vulgata, Mt, Mc, Lc, Io, Act)</contents>
       <script>Irish majuscule</script>
    </description>
    <history>
@@ -28,4 +28,3 @@
       <project_notes>ff 90–91: See CLA 3.351.</project_notes>
    </notes>
 </manuscript>
-

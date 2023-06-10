@@ -10,13 +10,13 @@
       <folios>60</folios>
       <page_h />
       <page_w />
-      <contents>Old Testament (Ps.)</contents>
+      <contents>Old Testament (<text id="psalms">Psalms</text>)</contents>
       <script>Irish minuscule</script>
    </description>
    <history>
       <date_desc>c. 800</date_desc>
-      <term_post>800</term_post>
-      <term_ante>800</term_ante>
+      <term_post>790</term_post>
+      <term_ante>810</term_ante>
       <origin><place id="ireland">Ireland</place></origin>
    </history>
    <xrefs>
@@ -27,4 +27,3 @@
       <private_notes>No xrefs?</private_notes>
    </notes>
 </manuscript>
-

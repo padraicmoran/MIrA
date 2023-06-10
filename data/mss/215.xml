@@ -11,7 +11,7 @@
       <folios />
       <page_h />
       <page_w />
-      <contents>Gospels (Lc, Mc, Mt, Io)</contents>
+      <contents><text id="gospels">Gospels</text>  (Lc, Mc, Mt, Io)</contents>
       <script>Irish majuscule</script>
    </description>
    <history>
@@ -29,4 +29,3 @@
       <project_notes>Old English gloss. </project_notes>
    </notes>
 </manuscript>
-

@@ -8,7 +8,7 @@
       <folios>68</folios>
       <page_h>220</page_h>
       <page_w>165</page_w>
-      <contents>Augustine, In Johannis epistulam ad Parthos tractatus X</contents>
+      <contents><person id="augustine">Augustine</person>, <i>In Johannis epistulam ad Parthos tractatus X</i></contents>
       <script>Caroline minuscule</script>
    </description>
    <history>
@@ -27,4 +27,3 @@
       <private_notes />
    </notes>
 </manuscript>
-

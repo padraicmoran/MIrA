@@ -10,12 +10,12 @@
       <folios />
       <page_h />
       <page_w />
-      <contents>Eriugena, <i>Peri physeon</i></contents>
+      <contents><person id="eriugena">Eriugena</person>, <i>Peri physeon</i></contents>
       <script>Caroline minuscule</script>
    </description>
    <history>
       <date_desc>IX 3/4</date_desc>
-      <term_post>875</term_post>
+      <term_post>876</term_post>
       <term_ante>900</term_ante>
       <origin>NE <place id="france">France</place> (Arras?)</origin>
    </history>

@@ -9,12 +9,12 @@
       <folios />
       <page_h />
       <page_w />
-      <contents>Jerome, <i>Commentarii in Isaiam</i></contents>
+      <contents><person id="jerome">Jerome</person>, <i>Commentarii in Isaiam</i></contents>
       <script>Half-Uncial verging on minuscule</script>
    </description>
    <history>
       <date_desc>VII (ante 622)</date_desc>
-      <term_post>600</term_post>
+      <term_post>601</term_post>
       <term_ante>621</term_ante>
       <origin><place id="bobbio">Bobbio</place></origin>
    </history>
@@ -28,4 +28,3 @@
       <private_notes>See Van Den Hout on Gothic MSS at Bobbio.</private_notes>
    </notes>
 </manuscript>
-

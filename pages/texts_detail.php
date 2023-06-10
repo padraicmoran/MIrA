@@ -12,7 +12,11 @@ if (file_exists('data/texts.xml')) {
 		else $linkBack = '/index.php?page=texts';
 		print '<div class="h5 text-secondary"><a href="' . $linkBack . '">Texts</a></div>';
 
-		print '<h2 class="mb-4">' . $text->author . ', <i>' . $text->title . '</i></h2>';
+		print '<h2 class="mb-4">';
+		if ($text->author != '') print $text->author . ', ';
+		if ($text->title['style'] == 'roman') print $text->title;
+		else print '<i>' . $text->title . '</i>';
+		 print '</h2>';
 
 		// find related manuscripts
 		$results = $xml_mss->xpath('//text[@id="' . $id . '"]/ancestor::manuscript');

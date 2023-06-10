@@ -11,7 +11,7 @@
       <folios>74</folios>
       <page_h>175</page_h>
       <page_w>142</page_w>
-      <contents>Gospels (Mt, Mc, Lc, Io)</contents>
+      <contents><text id="gospels">Gospels</text>  (Mt, Mc, Lc, Io)</contents>
       <script>Irish cursive</script>
    </description>
    <history>
@@ -31,4 +31,3 @@
       <project_notes>12th cent. cumdach.</project_notes>
    </notes>
 </manuscript>
-

@@ -11,12 +11,12 @@
       <folios>176</folios>
       <page_h>298</page_h>
       <page_w>188</page_w>
-      <contents>Augustine <i>in Psalmum CXVIII</i>; Hymni; Preces; etc.</contents>
+      <contents><person id="augustine">Augustine</person> <i>in Psalmum CXVIII</i>; Hymni; Preces; etc.</contents>
       <script />
    </description>
    <history>
       <date_desc>IX 1/4</date_desc>
-      <term_post>800</term_post>
+      <term_post>801</term_post>
       <term_ante>825</term_ante>
       <origin><place id="regensburg">Regensburg</place></origin>
    </history>
@@ -31,4 +31,3 @@
       <private_notes>Check Front in Journal of Theo. Studies 30 (1929), p. 32f.</private_notes>
    </notes>
 </manuscript>
-

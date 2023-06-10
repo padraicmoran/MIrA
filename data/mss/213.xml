@@ -10,12 +10,12 @@
       <folios />
       <page_h>158</page_h>
       <page_w>111</page_w>
-      <contents>New Testament</contents>
+      <contents><text id="gospels">Gospels</text> </contents>
       <script />
    </description>
    <history>
       <date_desc>IX²</date_desc>
-      <term_post>850</term_post>
+      <term_post>851</term_post>
       <term_ante>900</term_ante>
       <origin><place id="ireland">Ireland</place> (Armagh?)</origin>
       <provenance><place id="canterbury">Canterbury</place></provenance>
@@ -29,4 +29,3 @@
       <project_notes>One Old Irish gloss. </project_notes>
    </notes>
 </manuscript>
-

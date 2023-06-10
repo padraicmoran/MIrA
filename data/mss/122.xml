@@ -10,7 +10,7 @@
       <folios>2</folios>
       <page_h />
       <page_w />
-      <contents>Isidore, <i>Liber Differentiarum</i> (38.146–40.167)</contents>
+      <contents><person id="isidore">Isidore</person>, <i>Liber Differentiarum</i> (38.146–40.167)</contents>
       <script>Irish majuscule</script>
    </description>
    <history>
@@ -29,4 +29,3 @@
       <project_notes>Fly leaves to <ms id="121">Bobbio Orosius</ms>.</project_notes>
    </notes>
 </manuscript>
-

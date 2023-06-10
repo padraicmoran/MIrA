@@ -11,12 +11,12 @@
       <folios>130</folios>
       <page_h>250</page_h>
       <page_w>192</page_w>
-      <contents>Pseudo-Augustine; Isidore; Hrabanus Maurus; Martinus Dumiensis; Fulgentius Ferrandus; Ambrosius Autpertus; Alcuin</contents>
+      <contents>Pseudo-Augustine; <person id="isidore">Isidore</person>; Hrabanus Maurus; Martinus Dumiensis; Fulgentius Ferrandus; Ambrosius Autpertus; Alcuin</contents>
       <script />
    </description>
    <history>
       <date_desc>post 875</date_desc>
-      <term_post>875</term_post>
+      <term_post>876</term_post>
       <term_ante>900</term_ante>
       <origin>NE <place id="france">France</place> (<place id="laon">Laon</place>?)</origin>
    </history>

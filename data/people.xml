@@ -3,35 +3,54 @@
 Temporary data structure for testing purposes. 
 -->
 <document>
-   <person id="dungal">
+   <person id="ambrose">
+      <firstNames>Ambrose</firstNames>
       <surname></surname>
+      <lifetime from="" to=""></lifetime>
+   </person>
+   <person id="augustine">
+      <firstNames>Augustine</firstNames>
+      <surname></surname>
+      <lifetime from="" to=""></lifetime>
+   </person>
+   <person id="dungal">
       <firstNames>Dúngal</firstNames>
+      <surname></surname>
       <lifetime from="" to=""></lifetime>
    </person>
    <person id="eriugena">
-      <surname>Scottus/Eriugena</surname>
       <firstNames>John </firstNames>
+      <surname>Scottus/Eriugena</surname>
       <lifetime from="" to=""></lifetime>
    </person>
    <person id="i2">
-      <surname>(assistant of Eriugena)</surname>
       <firstNames>i2</firstNames>
+      <surname>(assistant of Eriugena)</surname>
+      <lifetime from="" to=""></lifetime>
+   </person>
+   <person id="isidore">
+      <firstNames>Isidore</firstNames>
+      <surname></surname>
+      <lifetime from="" to=""></lifetime>
+   </person>
+   <person id="jerome">
+      <firstNames>Jerome</firstNames>
+      <surname></surname>
       <lifetime from="" to=""></lifetime>
    </person>
    <person id="martin">
-      <surname>of Laon, Hiberniensis</surname>
       <firstNames>Martin</firstNames>
+      <surname>of Laon, Hiberniensis</surname>
       <lifetime from="" to=""></lifetime>
    </person>
    <person id="sedulius">
-      <surname>Scottus</surname>
       <firstNames>Sedulius</firstNames>
+      <surname>Scottus</surname>
       <lifetime from="" to=""></lifetime>
    </person>
    <person id="virgil_salzburg">
-      <surname>of Salzburg</surname>
       <firstNames>Virgil</firstNames>
+      <surname>of Salzburg</surname>
       <lifetime from="" to=""></lifetime>
    </person>
-   
 </document>

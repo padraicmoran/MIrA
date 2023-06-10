@@ -10,7 +10,7 @@
       <folios />
       <page_h />
       <page_w />
-      <contents>Gospels (Vulgata, Mt)</contents>
+      <contents><text id="gospels">Gospels</text>  (Vulgata, Mt)</contents>
       <script>Irish majuscule</script>
    </description>
    <history>
@@ -29,4 +29,3 @@
       <project_notes>Old Irish glosses (5). Several inserted slips (s. VIII or IX in), with glosses.</project_notes>
    </notes>
 </manuscript>
-

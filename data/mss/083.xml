@@ -11,12 +11,12 @@
       <folios>76</folios>
       <page_h>255</page_h>
       <page_w>185</page_w>
-      <contents>Isidore (excerpts); Eucherius, <i>Instructiones</i>; etc.</contents>
+      <contents><person id="isidore">Isidore</person> (excerpts); Eucherius, <i>Instructiones</i>; etc.</contents>
       <script>Irish and Caroline minuscule</script>
    </description>
    <history>
       <date_desc>IX²</date_desc>
-      <term_post>850</term_post>
+      <term_post>851</term_post>
       <term_ante>900</term_ante>
       <origin>S <place id="germany">Germany</place> (Irish scribe)</origin>
    </history>

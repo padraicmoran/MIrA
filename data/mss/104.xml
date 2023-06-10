@@ -10,7 +10,7 @@
       <folios />
       <page_h />
       <page_w />
-      <contents>Gospels (Io, excerpta)</contents>
+      <contents><text id="gospels">Gospels</text>  (Io, excerpta)</contents>
       <script>Irish minuscule</script>
    </description>
    <history>
@@ -28,4 +28,3 @@
       <project_notes>Bound with Stowe Missal.</project_notes>
    </notes>
 </manuscript>
-

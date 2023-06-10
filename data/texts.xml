@@ -10,6 +10,18 @@
    - L&S references
    - X-links to other canonical sites
 -->   
+
+   <!-- anonymous -->
+   <text id="gospels">
+      <author></author><!-- not anonymous (!), but will handle here for now -->
+      <title style="roman">Gospels</title>
+   </text>
+   <text id="psalms">
+      <author></author>
+      <title style="roman">Psalms</title>
+   </text>
+
+   <!-- named authors -->
    <text id="charisius">
       <author>Charisius</author>
       <title>Ars grammatica</title>
@@ -17,6 +29,10 @@
    <text id="lathcen">
       <author personID="">Lathcen</author>
       <title>Ecloga ex Gregorii Magni Moralibus in Iob</title>
+   </text>
+   <text id="paul">
+      <author>Paul</author>
+      <title>Epistles</title>
    </text>
    <text id="priscian_ars">
       <author>Priscian</author>

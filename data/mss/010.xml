@@ -9,12 +9,12 @@
       <folios>3</folios>
       <page_h>230</page_h>
       <page_w>195</page_w>
-      <contents>Augustine, <i>De vera religione</i></contents>
+      <contents><person id="augustine">Augustine</person>, <i>De vera religione</i></contents>
       <script>Irish minuscule</script>
    </description>
    <history>
       <date_desc>IX 2/3</date_desc>
-      <term_post>833</term_post>
+      <term_post>834</term_post>
       <term_ante>866</term_ante>
       <origin>Irish colony in NE <place id="france">France</place>?</origin>
    </history>

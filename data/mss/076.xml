@@ -9,7 +9,7 @@
       <folios>38</folios>
       <page_h>340</page_h>
       <page_w>260</page_w>
-      <contents>Jerome, <i>Commentarii in Prophetas Minores</i></contents>
+      <contents><person id="jerome">Jerome</person>, <i>Commentarii in Prophetas Minores</i></contents>
       <script>Irish minuscule</script>
    </description>
    <history>
@@ -28,4 +28,3 @@
       <project_notes />
    </notes>
 </manuscript>
-

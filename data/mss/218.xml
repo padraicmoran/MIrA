@@ -11,7 +11,7 @@
       <folios>1</folios>
       <page_h />
       <page_w />
-      <contents>Gospels (Vetus Latina, Lc 16.27–17.26)</contents>
+      <contents><text id="gospels">Gospels</text>  (Vetus Latina, Lc 16.27–17.26)</contents>
       <script>Irish majuscule</script>
    </description>
    <history>
@@ -29,4 +29,3 @@
       <project_notes />
    </notes>
 </manuscript>
-

@@ -11,7 +11,7 @@
       <folios>84</folios>
       <page_h>165</page_h>
       <page_w />
-      <contents>Gospels (Vetus Latina, Mt 26.42–27.35, Mc 1.1–4.8, 5.18–6.35)</contents>
+      <contents><text id="gospels">Gospels</text>  (Vetus Latina, Mt 26.42–27.35, Mc 1.1–4.8, 5.18–6.35)</contents>
       <script>Irish minuscule</script>
    </description>
    <history>
@@ -29,4 +29,3 @@
       <project_notes />
    </notes>
 </manuscript>
-

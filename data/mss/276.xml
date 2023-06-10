@@ -11,14 +11,14 @@
       <folios>159</folios>
       <page_h>260</page_h>
       <page_w>165</page_w>
-      <contents>Jerome, <i>In Hieremiam prophetam</i></contents>
+      <contents><person id="jerome">Jerome</person>, <i>In Hieremiam prophetam</i></contents>
       <script>Early Caroline minuscule</script>
    </description>
    <history>
       <date_desc>VIII/IX</date_desc>
       <term_post>780</term_post>
       <term_ante>820</term_ante>
-      <origin><place id="regensberg">Regensburg</place></origin>
+      <origin><place id="regensburg">Regensburg</place></origin>
    </history>
    <xrefs>
       <xref type="cla" href="" />

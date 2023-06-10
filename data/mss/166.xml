@@ -8,12 +8,12 @@
       <folios>151</folios>
       <page_h>190</page_h>
       <page_w>155</page_w>
-      <contents>Evangelia (incomplete)</contents>
+      <contents><text id="gospels">Gospels</text>  (incomplete)</contents>
       <script><place id="reims">Reims</place> minuscule</script>
    </description>
    <history>
       <date_desc>IX 3/4</date_desc>
-      <term_post>875</term_post>
+      <term_post>876</term_post>
       <term_ante>900</term_ante>
       <origin><place id="reims">Reims</place></origin>
    </history>
@@ -26,4 +26,3 @@
       <private_notes>Can't find Gniezno library on map.</private_notes>
    </notes>
 </manuscript>
-

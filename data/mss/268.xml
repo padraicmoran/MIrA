@@ -9,12 +9,12 @@
       <folios />
       <page_h />
       <page_w />
-      <contents>Eriugena, <i>De divisione naturae</i></contents>
+      <contents><person id="eriugena">Eriugena</person>, <i>De divisione naturae</i></contents>
       <script />
    </description>
    <history>
       <date_desc>IX</date_desc>
-      <term_post>800</term_post>
+      <term_post>801</term_post>
       <term_ante>900</term_ante>
       <origin />
       <provenance><place id="reims">Reims</place></provenance>
@@ -29,4 +29,3 @@
       <private_notes>Check origin. See Katalog for refs.</private_notes>
    </notes>
 </manuscript>
-

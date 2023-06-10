@@ -8,12 +8,12 @@
       <folios />
       <page_h />
       <page_w />
-      <contents>Iuvencus, <i>Evangeliorum Libri Quattuor</i> (2.289–344, 562–616)</contents>
+      <contents>Juvencus, <i>Evangeliorum Libri Quattuor</i> (2.289–344, 562–616)</contents>
       <script>Insular majuscule</script>
    </description>
    <history>
       <date_desc>VII ex</date_desc>
-      <term_post>676</term_post>
+      <term_post>686</term_post>
       <term_ante>700</term_ante>
       <origin><place id="ireland">Ireland</place> (poss. Northumbria)</origin>
    </history>
@@ -26,4 +26,3 @@
       <project_notes>CLA: "Insular majuscule with a strong Irish flavour".</project_notes>
    </notes>
 </manuscript>
-

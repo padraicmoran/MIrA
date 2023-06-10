@@ -11,7 +11,7 @@
       <folios />
       <page_h />
       <page_w />
-      <contents>Gospels (Lc 1–24.47, Io 1.14–6.54, 7.1, 21.16)</contents>
+      <contents><text id="gospels">Gospels</text>  (Lc 1–24.47, Io 1.14–6.54, 7.1, 21.16)</contents>
       <script>Insular majuscule</script>
    </description>
    <history>
@@ -29,4 +29,3 @@
       <project_notes />
    </notes>
 </manuscript>
-

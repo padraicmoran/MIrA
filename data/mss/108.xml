@@ -10,7 +10,7 @@
       <folios />
       <page_h />
       <page_w />
-      <contents>Gospels (Mt. 26.42–28.35, Mc 1.1–4.8, 5.18–6.35)</contents>
+      <contents><text id="gospels">Gospels</text>  (Mt. 26.42–28.35, Mc 1.1–4.8, 5.18–6.35)</contents>
       <script>Irish minuscule</script>
    </description>
    <history>
@@ -28,4 +28,3 @@
       <project_notes>Found in shrine with Book of Muling.</project_notes>
    </notes>
 </manuscript>
-

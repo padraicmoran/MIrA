@@ -11,12 +11,12 @@
       <folios>229</folios>
       <page_h>307</page_h>
       <page_w>240</page_w>
-      <contents>Augustine, <i>Sermones de verbis domini et apostoli</i></contents>
+      <contents><person id="augustine">Augustine</person>, <i>Sermones de verbis domini et apostoli</i></contents>
       <script>Caroline minuscule</script>
    </description>
    <history>
       <date_desc>IX 3/4</date_desc>
-      <term_post>850</term_post>
+      <term_post>851</term_post>
       <term_ante>875</term_ante>
       <origin><place id="soissons">Soissons</place></origin>
       <provenance />
@@ -31,4 +31,3 @@
       <private_notes />
    </notes>
 </manuscript>
-

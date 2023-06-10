@@ -16,7 +16,7 @@
    </description>
    <history>
       <date_desc>IX²</date_desc>
-      <term_post>850</term_post>
+      <term_post>851</term_post>
       <term_ante>900</term_ante>
       <origin>W <place id="germany">Germany</place>?</origin>
    </history>
@@ -27,7 +27,7 @@
    </xrefs>
    <notes>
       <categories>sc-ire</categories>
-      <project_notes>Bischoff <i>SBB</i>: A few corrections in an Insular, prob. Irish, hand (e.g. f. 15r); identified in Addenda with hand of <person id="sedulius">Sedulius Scottus</person> in the <ms id="37">Arsenal Psalter</ms>.</project_notes>
+      <project_notes>Bischoff <i>SBB</i>: A few corrections in an Insular, prob. Irish, hand (e.g. f. 15r); identified in Addenda with hand of <person id="sedulius">Sedulius Scottus</person> in the <ms id="37">Arsenal <text id="psalms">Psalter</text></ms>.</project_notes>
       <private_notes>See Bischoff, "Irische Schreiber", p. 51.</private_notes>
    </notes>
 </manuscript>

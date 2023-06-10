@@ -8,12 +8,12 @@
       <folios>215</folios>
       <page_h>318</page_h>
       <page_w>253</page_w>
-      <contents>Paschasius Radbertus, Commentarius in evangelium Matthaei</contents>
+      <contents>Paschasius Radbertus, <i>Commentarius in evangelium Matthaei</i></contents>
       <script>Caroline minuscule</script>
    </description>
    <history>
       <date_desc>IX 3/4</date_desc>
-      <term_post>850</term_post>
+      <term_post>851</term_post>
       <term_ante>875</term_ante>
       <origin><place id="corbie">Corbie</place></origin>
    </history>
@@ -27,4 +27,3 @@
       <private_notes />
    </notes>
 </manuscript>
-

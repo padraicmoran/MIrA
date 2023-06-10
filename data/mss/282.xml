@@ -23,7 +23,7 @@
       <term_post>780</term_post>
       <term_ante>820</term_ante>
       <origin><place id="salzburg">Salzburg</place></origin>
-      <provenance>Minuscule</provenance>
+      <provenance></provenance>
    </history>
    <xrefs>
       <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/193">10.1475</xref>
@@ -38,4 +38,3 @@
       <private_notes />
    </notes>
 </manuscript>
-

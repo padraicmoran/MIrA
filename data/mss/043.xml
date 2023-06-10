@@ -9,12 +9,12 @@
       <folios>230</folios>
       <page_h>271</page_h>
       <page_w>226</page_w>
-      <contents>Eriugena, <i>Peri physeon</i> (lib. 1–3)</contents>
+      <contents><person id="eriugena">Eriugena</person>, <i>Peri physeon</i> (lib. 1–3)</contents>
       <script>Caroline minuscule (Soissons style)</script>
    </description>
    <history>
       <date_desc>IX 3/4</date_desc>
-      <term_post>850</term_post>
+      <term_post>851</term_post>
       <term_ante>875</term_ante>
       <origin>Circle of <person id="eriugena">Eriugena</person>; presumably <place id="soissons">Soissons</place>.</origin>
    </history>
@@ -26,4 +26,3 @@
       <project_notes>Formerly Dombibliothek. Hand of <person id="i2">i2</person>.</project_notes>
    </notes>
 </manuscript>
-

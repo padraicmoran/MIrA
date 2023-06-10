@@ -10,12 +10,12 @@
       <folios>99</folios>
       <page_h>226</page_h>
       <page_w>175</page_w>
-      <contents>Psalter (Greek, Latin interlinear)</contents>
+      <contents><text id="psalms">Psalms</text> (Greek, Latin interlinear)</contents>
       <script>Irish minuscule</script>
    </description>
    <history>
       <date_desc>IX 3/4</date_desc>
-      <term_post>875</term_post>
+      <term_post>876</term_post>
       <term_ante>900</term_ante>
       <origin><place id="stgall">St Gall</place>?</origin>
    </history>
@@ -27,4 +27,3 @@
       <project_notes />
    </notes>
 </manuscript>
-

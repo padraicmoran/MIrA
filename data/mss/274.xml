@@ -12,12 +12,12 @@
       <folios>395</folios>
       <page_h>225</page_h>
       <page_w>185</page_w>
-      <contents>Gospels (Greek, Latin interlinear)</contents>
+      <contents><text id="gospels">Gospels</text>  (Greek, Latin interlinear)</contents>
       <script>Irish minuscule</script>
    </description>
    <history>
       <date_desc>IX²</date_desc>
-      <term_post>850</term_post>
+      <term_post>851</term_post>
       <term_ante>900</term_ante>
       <origin><place id="stgall">St Gall</place>?</origin>
    </history>
@@ -31,4 +31,3 @@
       <private_notes />
    </notes>
 </manuscript>
-

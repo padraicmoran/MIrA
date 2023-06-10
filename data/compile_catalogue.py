@@ -1,5 +1,5 @@
 # Compiles the collections of individual MS files in /data/mss into one file /data/mss.xml.
-# Run this file after updating individual manuscripts.
+# Run this file after updating individual manuscripts.  
 
 import os
 import sys
@@ -18,6 +18,7 @@ outputRoot = outputTree.getroot()
 mss = os.listdir(sourcePath)
 mss.sort()
 for ms in mss:
+    print(ms)
     msTree = ElementTree().parse(sourcePath + ms)
     outputRoot.append(msTree)        
 

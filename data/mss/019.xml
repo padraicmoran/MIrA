@@ -9,12 +9,12 @@
       <folios />
       <page_h />
       <page_w />
-      <contents>Jerome, <i>Liber interpretationis Hebraicorum nominum</i></contents>
+      <contents><person id="jerome">Jerome</person>, <i>Liber interpretationis Hebraicorum nominum</i></contents>
       <script>Caroline minuscule</script>
    </description>
    <history>
       <date_desc>IX 2/3</date_desc>
-      <term_post>833</term_post>
+      <term_post>834</term_post>
       <term_ante>866</term_ante>
       <origin>prob. NE <place id="france">France</place></origin>
    </history>
