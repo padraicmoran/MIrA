@@ -23,7 +23,7 @@
       <term_post>780</term_post>
       <term_ante>820</term_ante>
       <origin><place id="salzburg">Salzburg</place></origin>
-      <provenance></provenance>
+      <provenance />
    </history>
    <xrefs>
       <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/193">10.1475</xref>
@@ -35,6 +35,5 @@
       <categories>ex-ire</categories>
       <project_notes>Two mutilated bifolia in Vienna, one in Munich. Older palimpsest text in Munich is Matthew (Vetus Latina). 
       Bischoff, <i>SSB</i>: Insular orthography (incl. <i>-ís</i>) points to Irish exemplar.</project_notes>
-      <private_notes />
-   </notes>
+      </notes>
 </manuscript>
