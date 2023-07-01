@@ -95,15 +95,16 @@ if ($filter) {
 	// handeRowArray() checks array contents before sending contents to writeRow(); also allows for multiple rows.
 	// Where data needs custom presentation (CLA, Tresmegistos, Thes.), there is just a check for one array item.
 
-	handleRowArray('CLA/ELMSS', $ms->xrefs->xpath('xref[@type="cla"]'), $ms->xrefs->xpath('xref[@type="cla"]/@href'));
-	handleRowArray('DHBM', $ms->xrefs->xpath('xref[@type="dhbm"]'), $ms->xrefs->xpath('xref[@type="dhbm"]/@href'));
+	handleRowArray('Alexander, <i>Insular Manuscripts</i>', $ms->xrefs->xpath('xref[@type="alexander"]'), '');
+	handleRowArray('Bronner, <i>Verzeichnis</i>', $ms->xrefs->xpath('xref[@type="bronner"]'), '');
+	handleRowArray('<abbr title="Descriptive Handlist of Breton Manuscripts">DHBM</abbr>', $ms->xrefs->xpath('xref[@type="dhbm"]'), $ms->xrefs->xpath('xref[@type="dhbm"]/@href'));
 	handleRowArray('Bischoff, <i>SSB</i>', $ms->xrefs->xpath('xref[@type="bischoff_ssb"]'), '');
 	handleRowArray('Bischoff, <i>Katalog</i>', $ms->xrefs->xpath('xref[@type="bischoff_kat"]'), '');
-//	if ($ms->xrefs->xpath('xref[@type="tresmegistos"]')) writeRow('Tresmegistos', $ms->xrefs->xpath('xref[@type="tresmegistos"]')[0], str_replace('TM ', 'https://www.trismegistos.org/text/', $ms->xrefs->xpath('xref[@type="tresmegistos"]')[0]));
+	handleRowArray('CLA/ELMSS', $ms->xrefs->xpath('xref[@type="cla"]'), $ms->xrefs->xpath('xref[@type="cla"]/@href'));
 	handleRowArray('Foundations', $ms->xrefs->xpath('link[@type="foundations"]'), $ms->xrefs->xpath('link[@type="foundations"]/@href'));
 	if ($ms->xrefs->xpath('xref[@type="thesaurus"]')) handleRowArray('<i>Thesaurus Pal.</i>', parseThesaurusRef($ms->xrefs->xpath('xref[@type="thesaurus"]')[0]), '');
-	handleRowArray('Bronner, <i>Verzeichnis</i>', $ms->xrefs->xpath('xref[@type="bronner"]'), '');
-
+	if ($ms->xrefs->xpath('xref[@type="tresmegistos"]')) writeRow('Tresmegistos', $ms->xrefs->xpath('xref[@type="tresmegistos"]')[0], str_replace('TM ', 'https://www.trismegistos.org/text/', $ms->xrefs->xpath('xref[@type="tresmegistos"]')[0]));
+	
 	if ($ms->notes->project_notes != '') {
 		print '<tr><th colspan="2" ><h3 class="h3 mt-5">Notes</h3></th></tr>';
 		print '<tr><td colspan="2">' . processData($ms->notes->project_notes->asXML()) . '</td></tr>';

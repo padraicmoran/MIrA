@@ -85,8 +85,8 @@ function writeRow($header, $value, $link) {
 		$target = '';
 		if (substr($link, 0, 4) == 'http') $target = '_blank';
 		
-		if ($link != '') print '<tr><th width="300">' . $header . '</th><td><a href="' . $link . '" target="' . $target . '">' . $value . '</a></td></tr>';
-		else print '<tr><th width="300">' . $header . '</th><td>' . $value . '</td></tr>';
+		if ($link != '') print '<tr><th width="400">' . $header . '</th><td><a href="' . $link . '" target="' . $target . '">' . $value . '</a></td></tr>';
+		else print '<tr><th width="400">' . $header . '</th><td>' . $value . '</td></tr>';
 	}
 }
 
