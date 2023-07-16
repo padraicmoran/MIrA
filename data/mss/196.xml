@@ -6,8 +6,8 @@
    <description>
       <type />
       <folios>1</folios>
-      <page_h />
-      <page_w />
+      <page_h>212</page_h>
+      <page_w>165</page_w>
       <contents>Sacramentarium Celticum (fragm.)</contents>
       <script>Irish minuscule</script>
    </description>
@@ -27,4 +27,3 @@
       <project_notes>Discarded in 11th cent.</project_notes>
    </notes>
 </manuscript>
-

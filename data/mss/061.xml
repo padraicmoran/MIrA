@@ -9,8 +9,8 @@
    <description>
       <type>Palimpsest</type>
       <folios>2</folios>
-      <page_h />
-      <page_w />
+      <page_h>285</page_h>
+      <page_w>200</page_w>
       <contents>(illegible)</contents>
       <script>Minuscule</script>
    </description>
@@ -29,4 +29,3 @@
       <project_notes>One of five palimpsested manuscripts, probably originating in Ireland, combined and <ms id="60">rewritten with Bede</ms>. See foliation notes for <i>CLA</i> 8.1085 in the <a href="http://foundationsirishculture.ie/record/?id=61">Foundations of Irish Culture</a> catalogue. </project_notes>
    </notes>
 </manuscript>
-

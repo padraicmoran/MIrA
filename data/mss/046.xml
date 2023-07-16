@@ -5,9 +5,9 @@
    </identifier>
    <description>
       <type />
-      <folios />
-      <page_h />
-      <page_w />
+      <folios>124</folios>
+      <page_h>240</page_h>
+      <page_w>185</page_w>
       <contents><person id="augustine">Augustine</person>, <i>Enchiridion</i></contents>
       <script>Caroline minuscule</script>
    </description>

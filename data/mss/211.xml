@@ -5,9 +5,9 @@
    </identifier>
    <description>
       <type />
-      <folios />
-      <page_h />
-      <page_w />
+      <folios>66</folios>
+      <page_h>130</page_h>
+      <page_w>105</page_w>
       <contents><text id="gospels">Gospels</text>  (Mt, Lc, Mc, Io, imperf.)</contents>
       <script>Irish minuscule</script>
    </description>

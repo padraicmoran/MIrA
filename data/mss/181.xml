@@ -7,9 +7,9 @@
    </identifier>
    <description>
       <type />
-      <folios />
-      <page_h />
-      <page_w />
+      <folios>40</folios>
+      <page_h>245</page_h>
+      <page_w>170</page_w>
       <contents><text id="gospels">Gospels</text>  (fragm.)</contents>
       <script>Insular majuscule</script>
    </description>

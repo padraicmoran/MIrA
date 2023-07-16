@@ -9,8 +9,8 @@
    <description>
       <type />
       <folios>2</folios>
-      <page_h />
-      <page_w />
+      <page_h>240</page_h>
+      <page_w>190</page_w>
       <contents>Sacramentarium Celticum (Visitatio Infirmorum, fragm.)</contents>
       <script>Irish majuscule</script>
    </description>

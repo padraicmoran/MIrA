@@ -7,9 +7,9 @@
    </identifier>
    <description>
       <type />
-      <folios />
-      <page_h />
-      <page_w />
+      <folios>4</folios>
+      <page_h>245</page_h>
+      <page_w>170</page_w>
       <contents>Fragmenta Textus Incerti</contents>
       <script>Insular minuscule</script>
    </description>
@@ -29,4 +29,3 @@
       <project_notes><i>CLA</i>: Scribe "to all appearances Irish".</project_notes>
    </notes>
 </manuscript>
-

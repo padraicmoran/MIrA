@@ -8,9 +8,9 @@
    </identifier>
    <description>
       <type />
-      <folios />
-      <page_h />
-      <page_w />
+      <folios>10</folios>
+      <page_h>285</page_h>
+      <page_w>200</page_w>
       <contents>(Grammatical)</contents>
       <script>Minuscule</script>
    </description>

@@ -8,9 +8,9 @@
    </identifier>
    <description>
       <type />
-      <folios />
-      <page_h />
-      <page_w />
+      <folios>120</folios>
+      <page_h>390</page_h>
+      <page_w>285</page_w>
       <contents><text id="priscian_ars">Priscian</text></contents>
       <script />
    </description>

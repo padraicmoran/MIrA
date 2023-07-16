@@ -6,9 +6,9 @@
    </identifier>
    <description>
       <type>Binding frag.</type>
-      <folios />
-      <page_h />
-      <page_w />
+      <folios>1</folios>
+      <page_h>170</page_h>
+      <page_w>145</page_w>
       <contents>Isidore, <i>Etymologiae</i> (11.1.43–46, 51–53)</contents>
       <script>Irish cursive minuscule</script>
    </description>
@@ -28,4 +28,3 @@
       <project_notes />
    </notes>
 </manuscript>
-

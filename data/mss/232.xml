@@ -5,9 +5,9 @@
    </identifier>
    <description>
       <type />
-      <folios />
-      <page_h />
-      <page_w />
+      <folios>1</folios>
+      <page_h>180</page_h>
+      <page_w>200</page_w>
       <contents>Abbreviatio Moralium Gregorii Magni</contents>
       <script>Caroline minuscule</script>
    </description>

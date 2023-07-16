@@ -5,9 +5,9 @@
    </identifier>
    <description>
       <type />
-      <folios />
-      <page_h />
-      <page_w />
+      <folios>242</folios>
+      <page_h>263</page_h>
+      <page_w>250</page_w>
       <contents>Claudius Taurinensis, <i>In evangelium Mathhaei</i></contents>
       <script />
    </description>
@@ -25,4 +25,3 @@
       <project_notes>Small glosses and corr. in Irish hand. </project_notes>
    </notes>
 </manuscript>
-

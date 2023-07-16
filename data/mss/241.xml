@@ -7,9 +7,9 @@
    </identifier>
    <description>
       <type />
-      <folios />
-      <page_h />
-      <page_w />
+      <folios>192</folios>
+      <page_h>275</page_h>
+      <page_w>200</page_w>
       <contents>Glossary with glosses from Haimo of Auxerre and <person id="eriugena">Eriugena</person>, <i>Glossae divinae historiae</i></contents>
       <script />
    </description>

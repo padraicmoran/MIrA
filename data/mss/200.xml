@@ -7,9 +7,9 @@
    </identifier>
    <description>
       <type />
-      <folios />
-      <page_h />
-      <page_w />
+      <folios>65</folios>
+      <page_h>320</page_h>
+      <page_w>235</page_w>
       <contents>Corpus Glossary</contents>
       <script>Insular minuscule</script>
    </description>

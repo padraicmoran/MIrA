@@ -9,8 +9,8 @@
    <description>
       <type />
       <folios>1</folios>
-      <page_h />
-      <page_w />
+      <page_h>250</page_h>
+      <page_w>190</page_w>
       <contents>Consentius, <i>Excerpta ex Arte</i> (fragm.)</contents>
       <script>Insular majuscule and Insular minuscule</script>
    </description>
@@ -31,4 +31,3 @@
       <project_notes />
    </notes>
 </manuscript>
-

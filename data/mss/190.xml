@@ -8,9 +8,9 @@
    </identifier>
    <description>
       <type>Binding frag.</type>
-      <folios />
-      <page_h />
-      <page_w />
+      <folios>2</folios>
+      <page_h>240</page_h>
+      <page_w>190</page_w>
       <contents>Missa pro Defunctis (fragm.)</contents>
       <script>Irish minuscule</script>
    </description>
@@ -30,4 +30,3 @@
       <project_notes />
    </notes>
 </manuscript>
-

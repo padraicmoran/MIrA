@@ -8,9 +8,9 @@
    </identifier>
    <description>
       <type />
-      <folios />
-      <page_h />
-      <page_w />
+      <folios>90</folios>
+      <page_h>415</page_h>
+      <page_w>280</page_w>
       <contents>Canon law, incl. Collectio Canonum Hibernensis</contents>
       <script />
    </description>
@@ -29,4 +29,3 @@
       <project_notes>Old Irish glosses (2). Irish glosses embedded in CCH (82r).</project_notes>
    </notes>
 </manuscript>
-
