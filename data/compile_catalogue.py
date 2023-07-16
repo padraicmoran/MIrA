@@ -23,6 +23,9 @@ for ms in mss:
     outputRoot.append(msTree)        
 
 # sort output file
+# TO DO: sort by library, then shelfmark_indexer, then shelfmark
+
+
 # write output file
 outputTree.write("./data/mss.xml", encoding='utf-8', xml_declaration=True)    
 print("Done.")

@@ -16,6 +16,8 @@ function listMSS($results) {
 	}
 	
 	// default sort is by city, library, shelfmark; change for other options below
+	usort($resultsSorted, 'sortShelfmarkIndexer');
+	usort($resultsSorted, 'sortShelfmark');
 	if ($sort == '') usort($resultsSorted, 'sortLocation');
 	elseif ($sort == 'script') usort($resultsSorted, 'sortScript');
 	elseif ($sort == 'date') usort($resultsSorted, 'sortDate');
@@ -157,6 +159,12 @@ function listMSS($results) {
 
 //
 // sorting functions
+function sortShelfmark($a, $b) {
+	return strnatcmp($a->identifier->shelfmark, $b->identifier->shelfmark);
+}
+function sortShelfmarkIndexer($a, $b) {
+	return strnatcmp($a->identifier->shelfmark_indexer, $b->identifier->shelfmark_indexer);
+}
 function sortScript($a, $b) {
 	return strnatcmp($a->description->script, $b->description->script);
 }
