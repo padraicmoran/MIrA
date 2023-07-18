@@ -135,7 +135,7 @@ var edges = new vis.DataSet([
 <?php
   for ($n = 0; $n < count($edgeFrom); $n++) {
     if ($edgeTypes[$n] == 'origin') {
-      print '{ from: "' . $edgeFrom[$n] . '", to: "' . $edgeTo[$n] . '", color: "black", width: 2 },' . "\n";
+      print '{ from: "' . $edgeFrom[$n] . '", to: "' . $edgeTo[$n] . '", arrows: "to", color: "black", width: 2 },' . "\n";
     }  
     elseif ($edgeTypes[$n] == 'prov') {
       print '{ from: "' . $edgeFrom[$n] . '", to: "' . $edgeTo[$n] . '", arrows: "to", color: "blue", width: 2 },' . "\n";

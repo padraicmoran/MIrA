@@ -11,7 +11,7 @@
       <folios>134</folios>
       <page_h>295</page_h>
       <page_w>225</page_w>
-      <contents><text id="gospels">Gospels</text>  (Vetus Latina, Mc, Mt, Lc, Io partim)</contents>
+      <contents><text id="gospels">Gospels</text> (Vetus Latina, Mc, Mt, Lc, Io partim)</contents>
       <script>Irish majuscule</script>
    </description>
    <history>
@@ -22,10 +22,12 @@
    </history>
    <xrefs>
       <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/1359">7.901</xref>
-      <xref type="tresmegistos">TM 67045</xref>
+      <xref type="tresmegistos">67045</xref>
       <xref type="bischoff_kat">5536a</xref>
       <link type="foundations" href="http://foundationsirishculture.ie/record/?id=43">[external link, with image]</link>
-   <xref type="alexander">44</xref></xrefs>
+      <xref type="alexander">44</xref>
+      <xref type="mcgurk">117</xref>
+   </xrefs>
    <notes>
       <categories>or-ire;sc-ire</categories>
       </notes>

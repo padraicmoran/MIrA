@@ -3,7 +3,7 @@
 Configuration options
 */
 
-$version = '0.4 dev';
+$version = '0.4';
 $debug = true;
 
 

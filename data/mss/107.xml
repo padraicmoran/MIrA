@@ -9,8 +9,8 @@
    <description>
       <type />
       <folios>86</folios>
-      <page_h>192</page_h>
-      <page_w>241</page_w>
+      <page_h>241</page_h>
+      <page_w>192</page_w>
       <contents><text id="gospels">Gospels</text>  (Vetus latina, Mt, Mc, Lc, Io)</contents>
       <script>Irish majuscule</script>
    </description>
@@ -22,8 +22,10 @@
    </history>
    <xrefs>
       <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/591">2.272</xref>
-      <xref type="tresmegistos">TM 66358</xref>
-   <xref type="alexander">59</xref></xrefs>
+      <xref type="tresmegistos">66358</xref>
+      <xref type="alexander">59</xref>
+      <xref type="mcgurk">85</xref>
+   </xrefs>
    <notes>
       <categories>or-ire;sc-ire</categories>
       <project_notes />

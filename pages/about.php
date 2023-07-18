@@ -8,13 +8,16 @@
 
 <p>Additions, corrections, suggestions welcome: <a href="mailto:padraic.moran@universityofgalway.ie">padraic.moran@universityofgalway.ie</a>.</p>
 
-<p>The list was compiled initially from the following sources:<!-- a href="index.php?page=biblio">*</a --></p>
+<p>The list was compiled initially from the following sources (principally <i>CLA</i> and Bischoff in the first instance):<!-- a href="index.php?page=biblio">*</a --></p>
 <ul>
-<li>E. A. Lowe, <i>Codices Latini Antiquiores</i>, 12 vols (Oxford, 1934–1971), digitised and updated at <a target="_blank" href="http://elmss.nuigalway.ie/">Early Latin Manuscripts</a>.</li>
+<li>J.J.G. Alexander, <i>Insular manuscripts, 6th to the 9th century</i> (London, 1978).</li>
+<li>Jacopo Bisagni, <i><a href="https://ircabritt.nuigalway.ie/handlist" target="_blank">A Descriptive Handlist of Breton Manuscripts, c. AD 780–1100</a></i> (with contributions by Sarah Corrigan).</li>
 <li>Bernhard Bischoff, <i>Südostdeutschen Schreibschulen und Bibliotheken in der Karolingerzeit</i>, 2 vols (Wiesbaden, 1940–1980).</li>
 <li>Bernhard Bischoff, <i>Katalog der festländischen Handschriften des neunten Jahrhunderts</i>, 3 vols (Wiesbaden, 1998–2014).</li>
 <li>Dagmar Bronner, <i>Verzeichnis altirischen Glossen</i> (Marburg, 2013) [<a href="https://www.uni-marburg.de/fb09/lingbas/publikationen/pub/materialien/altirische-quellen.pdf">published in PDF</a>].</li>
 <li><a target="blank" href="http://www.foundationsirishculture.ie/">Foundations of Irish Culture</a> online catalogue (c. 2014).</li>
+<li>E. A. Lowe, <i>Codices Latini Antiquiores</i>, 12 vols (Oxford, 1934–1971), digitised and updated at <a target="_blank" href="http://elmss.nuigalway.ie/">Early Latin Manuscripts</a>.</li>
+<li>Patrick McGurk, <i>Gospel Books and Early Latin Manuscripts </i> (London, 1961).</li>
 </ul>
 
 <p>Content still to add (July 2022):</li>
@@ -43,17 +46,18 @@
 <p>Current version:</p>
 
 <ul>
-<li>0.3 (beta), 1 March 2023. Export manuscript list as CSV. Permanent references for multiple units. Minor corrections. </li>
+<li>0.4 (beta), 18 July 2023. Network diagrams. References for Alexander, McGurk, Trismegistos. New data for dimensions and folio counts (supplied by Lily Forrest). Developments to text, people, places indexes.</li>
 </ul>
 
 <p>Previous versions:</p>
 
 <ul>
+<li>0.3 (beta), 1 March 2023. Export manuscript list as CSV. Permanent references for multiple units. Minor corrections. </li>
 <li>0.2 (beta), 20 July 2022. Added data tables for texts, people, places (in development). New charts for page sizes, number of folios. Several minor interface improvements. Several minor corrections/improvements to data. </li>
 <li>0.1 (beta): May 2021. Initial version. Manuscript list, date chart, libraries map, basic search.</li>
 </ul>
 
-<p>View source code and data (v0.3 on) at:
+<p>View source code and data at:
 <a href="https://github.com/padraicmoran/MIrA">https://github.com/padraicmoran/MIrA</a>
 
 
@@ -63,6 +67,7 @@
 <p>Sincere thanks to the following for additions, corrections and suggestions: </p>
 <ul class="list-unstyled">
 <li>Jacopo Bisagni</li>
+<li>Lily Forrest</li>
 <li>Truc Ha Nguyen</li>
 <li>David Stifter</li>
 <li>Immo Warntjes</li>

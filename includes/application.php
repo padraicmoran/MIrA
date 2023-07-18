@@ -94,4 +94,22 @@ if (file_exists('data/places.xml')) {
 	}
 }
 
+// load xrefs
+/* IN DEVELOPMENT: HOLD FOR NOW
+if (file_exists('data/xrefs.xml')) {
+	$xml_xrefs = simplexml_load_file('data/places.xml');
+
+	// build associative array
+	$xrefs = array();
+	foreach ($xml_xrefs->source as $source) {
+		$id = strval($source['id']);
+		$libraries[$id] = [
+			'id' => $id,
+			'shortRef' => strval($source->shortRef),
+			'fullRef' => strval($source->fullRef)
+	  ];
+	}
+}
+*/
+
 ?>

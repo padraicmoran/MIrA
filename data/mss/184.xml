@@ -11,7 +11,7 @@
       <folios>35</folios>
       <page_h>270</page_h>
       <page_w>185</page_w>
-      <contents>Gospel (Vetus Latina, Io partim.)</contents>
+      <contents><text id="gospels">Gospels</text> (Vetus Latina, Io partim.)</contents>
       <script>Irish majuscule and Irish minuscule</script>
    </description>
    <history>
@@ -23,9 +23,11 @@
    <xrefs>
       <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/1360">7.902</xref>
       <xref type="ocorrain">379</xref>
-      <xref type="tresmegistos">TM 67046</xref>
+      <xref type="tresmegistos">67046</xref>
       <link type="foundations" href="http://foundationsirishculture.ie/record/?id=44">[external link, with image]</link>
-   <xref type="alexander">60</xref></xrefs>
+      <xref type="alexander">60</xref>
+      <xref type="mcgurk">118</xref>
+   </xrefs>
    <notes>
       <categories>or-ire;sc-ire</categories>
       <project_notes />

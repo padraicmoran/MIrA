@@ -8,8 +8,8 @@
    <description>
       <type />
       <folios>4</folios>
-      <page_h>165</page_h>
-      <page_w />
+      <page_h>155</page_h>
+      <page_w>120</page_w>
       <contents><text id="gospels">Gospels</text>  (Mt. 26.42–28.35, Mc 1.1–4.8, 5.18–6.35)</contents>
       <script>Irish minuscule</script>
    </description>
@@ -21,7 +21,8 @@
    </history>
    <xrefs>
       <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/596">2.277</xref>
-      <xref type="tresmegistos">TM 66363</xref>
+      <xref type="tresmegistos">66363</xref>
+      <xref type="mcgurk">90</xref>
    </xrefs>
    <notes>
       <categories>or-ire;sc-ire</categories>

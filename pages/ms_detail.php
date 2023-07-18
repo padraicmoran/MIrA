@@ -47,7 +47,7 @@ if ($filter) {
 
 		if ($identifierCount > 1) print '<tr><td colspan="2"><h4 class="h6 mt-3 mb-0">UNIT ' . $ms->identifier[$n]["unit"] . '</h4></td></tr>';
 
-		writeRow('Country', $libraries[$libraryID]['country'], '');
+		writeRow('Country', $libraries[$libraryID]['country'], '', '');
 		writeRow('Location', $libraries[$libraryID]['city'] . ', ' . $libraries[$libraryID]['name'], '/index.php?page=mss&lib=' . $libraryID);
 
 		$shelfmarkLink = $ms->identifier[$n]->shelfmark;
@@ -95,15 +95,16 @@ if ($filter) {
 	// handeRowArray() checks array contents before sending contents to writeRow(); also allows for multiple rows.
 	// Where data needs custom presentation (CLA, Tresmegistos, Thes.), there is just a check for one array item.
 
-	handleRowArray('Alexander, <i>Insular Manuscripts</i>', $ms->xrefs->xpath('xref[@type="alexander"]'), '');
-	handleRowArray('Bronner, <i>Verzeichnis</i>', $ms->xrefs->xpath('xref[@type="bronner"]'), '');
-	handleRowArray('<abbr title="Descriptive Handlist of Breton Manuscripts">DHBM</abbr>', $ms->xrefs->xpath('xref[@type="dhbm"]'), $ms->xrefs->xpath('xref[@type="dhbm"]/@href'));
-	handleRowArray('Bischoff, <i>SSB</i>', $ms->xrefs->xpath('xref[@type="bischoff_ssb"]'), '');
-	handleRowArray('Bischoff, <i>Katalog</i>', $ms->xrefs->xpath('xref[@type="bischoff_kat"]'), '');
-	handleRowArray('CLA/ELMSS', $ms->xrefs->xpath('xref[@type="cla"]'), $ms->xrefs->xpath('xref[@type="cla"]/@href'));
-	handleRowArray('Foundations', $ms->xrefs->xpath('link[@type="foundations"]'), $ms->xrefs->xpath('link[@type="foundations"]/@href'));
-	if ($ms->xrefs->xpath('xref[@type="thesaurus"]')) handleRowArray('<i>Thesaurus Pal.</i>', parseThesaurusRef($ms->xrefs->xpath('xref[@type="thesaurus"]')[0]), '');
-	if ($ms->xrefs->xpath('xref[@type="tresmegistos"]')) writeRow('Tresmegistos', $ms->xrefs->xpath('xref[@type="tresmegistos"]')[0], str_replace('TM ', 'https://www.trismegistos.org/text/', $ms->xrefs->xpath('xref[@type="tresmegistos"]')[0]));
+	handleRowArray('Alexander, <i>Insular Manuscripts</i>', $ms->xrefs->xpath('xref[@type="alexander"]'), '', '');
+	handleRowArray('Bischoff, <i>SSB</i>', $ms->xrefs->xpath('xref[@type="bischoff_ssb"]'), '', '');
+	handleRowArray('Bischoff, <i>Katalog</i>', $ms->xrefs->xpath('xref[@type="bischoff_kat"]'), '', '');
+	handleRowArray('Bronner, <i>Verzeichnis</i>', $ms->xrefs->xpath('xref[@type="bronner"]'), '', '');
+	handleRowArray('CLA/ELMSS', $ms->xrefs->xpath('xref[@type="cla"]'), $ms->xrefs->xpath('xref[@type="cla"]/@href'), '', '');
+	handleRowArray('<abbr title="Descriptive Handlist of Breton Manuscripts">DHBM</abbr>', $ms->xrefs->xpath('xref[@type="dhbm"]'), $ms->xrefs->xpath('xref[@type="dhbm"]/@href'), '');
+	handleRowArray('Foundations', $ms->xrefs->xpath('link[@type="foundations"]'), $ms->xrefs->xpath('link[@type="foundations"]/@href'), '', '');
+	if ($ms->xrefs->xpath('xref[@type="thesaurus"]'))  handleRowArray('<i>Thesaurus Pal.</i>', parseThesaurusRef($ms->xrefs->xpath('xref[@type="thesaurus"]')[0]), '', '');
+	handleRowArray('McGurk, <i>Gospel Books</i>', $ms->xrefs->xpath('xref[@type="mcgurk"]'), '', '');
+	handleRowArray('Tresmegistos', $ms->xrefs->xpath('xref[@type="tresmegistos"]'), $ms->xrefs->xpath('xref[@type="tresmegistos"]'), 'https://www.trismegistos.org/text/');
 	
 	if ($ms->notes->project_notes != '') {
 		print '<tr><th colspan="2" ><h3 class="h3 mt-5">Notes</h3></th></tr>';
@@ -125,5 +126,83 @@ else {
 	print '<!-- MS not found -->';
 	require('pages/home.php');
 }
+
+
+// PAGE FUNCTIONS
+// if row data is potentially in the form of an array, write a row for each array item
+function handleRowArray($header, $value, $link, $linkPrefix) {
+	if(is_array($value)) {
+		for ($x = 0; $x < count($value); $x++) {
+			if (is_array($link)) {
+				if (! empty($link)) writeRow($header, $value[$x], $linkPrefix . $link[$x]); 
+				else writeRow($header, $value[$x], '');
+			}
+			else writeRow($header, $value[$x], $linkPrefix . $link);
+		}	
+	}
+	else {
+		if ($link != '') writeRow($header, $value, $link, $linkPrefix);
+		else writeRow($header, $value, '', '');
+	}
+}
+
+// write table row with left cell as header; add a link if supplied
+function writeRow($header, $value, $link) {
+	if ($value == '' && $link != '') $value = '[external link]';
+	if ($value != '') {
+		$target = '';
+		if (substr($link, 0, 4) == 'http') $target = '_blank';
+		
+		if ($link != '') print '<tr><th width="400">' . $header . '</th><td><a href="' . $link . '" target="' . $target . '">' . $value . '</a></td></tr>';
+		else print '<tr><th width="400">' . $header . '</th><td>' . $value . '</td></tr>';
+	}
+}
+
+// special handling of Thesaurus Palaeohibernicus refs 
+function parseThesaurusRef($ref) {
+	$urlBase = array(
+		'1'=>'https://archive.org/details/thesauruspalaeo01stok/page/',
+		'2'=>'https://archive.org/details/thesauruspalaeo02stok/page/'
+	);
+
+	$x = '';
+	$refs = explode(', ', $ref);		// handle multiple Thes. refs
+	foreach ($refs as $r) {
+		if ($x != '') $x .= ', ';		// add a separator if necessary
+
+		$parts = preg_split('/[\.\-–]/', $r);
+		if (count($parts) >= 2 && ($parts[0] == '1' || $parts[0] == '2')) {			// if there appears to be a volume and page
+			$x .= '<a target="_blank" href="' . $urlBase[$parts[0]] . $parts[1] . '">'  . $r . '</a>';
+		}
+		else $x .= $r;						// just return the plain ref if something doesn't work
+	}
+	return $x;
+}
+
+// replace XML cross-references (data) with HTML links (application)
+function processData($str) {
+	global $tidyURLs;
+
+	$str = preg_replace('/<ms id="([0-9]*)">/', '<a href="\1">', $str);
+	$str = preg_replace('/<\/ms>/', '</a>', $str);
+
+	if ($tidyURLs) {
+		$str = preg_replace('/<person id="([a-z0-9_\-]*)">/', '<a href="/people/\1">', $str);
+		$str = preg_replace('/<place id="([a-z0-9_\-]*)">/', '<a href="/places/\1">', $str);
+		$str = preg_replace('/<text id="([a-z0-9_\-]*)">/', '<a href="/texts/\1">', $str);
+	}
+	else {
+		$str = preg_replace('/<person id="([a-z0-9_\-]*)">/', '<a href="index.php?page=people&id=\1">', $str);
+		$str = preg_replace('/<place id="([a-z0-9_\-]*)">/', '<a href="index.php?page=places&id=\1">', $str);
+		$str = preg_replace('/<text id="([a-z0-9_\-]*)">/', '<a href="index.php?page=texts&id=\1">', $str);
+	}
+	
+	$str = preg_replace('/<\/person>/', '</a>', $str);
+	$str = preg_replace('/<\/place>/', '</a>', $str);
+	$str = preg_replace('/<\/text>/', '</a>', $str);
+
+	return $str;
+}
+
 
 ?>
