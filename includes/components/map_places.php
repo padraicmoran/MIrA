@@ -16,7 +16,7 @@ var mapPlaces = L.map('mapPlacesContainer').setView([47, 6], 5);
 L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoicGFkcmFpY20iLCJhIjoiY2tuZXBrZDBqMjd1YzJ2bXFyNDc0bnAzOCJ9.-iVPCwPpOlIm3DXbXOwLYA', {
     attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
     maxZoom: 18,
-    id: 'mapbox/streets-v11',
+    id: 'mapbox/satellite-v9',
     tileSize: 512,
     zoomOffset: -1,
     accessToken: 'pk.eyJ1IjoicGFkcmFpY20iLCJhIjoiY2tuZXBrZDBqMjd1YzJ2bXFyNDc0bnAzOCJ9.-iVPCwPpOlIm3DXbXOwLYA'
@@ -76,8 +76,8 @@ function writePlaceMarker($place, $selectedID) {
 	$content .= '<span class="small"><a href="#" onclick="mapPlaces.setView([' . $place->coords . '], 13); mapPlaces.closePopup(); return false; ">Zoom in</a></span>';
 	$content .= '</div>';
 							
-	if ($place['type'] == 'region') $appearance = 'radius: 18, color: "none", fillColor: "darkblue", fillOpacity: 0.4';  
-	else $appearance = 'radius: 8, color: "none", fillColor: "darkblue", fillOpacity: 0.7';
+	if ($place['type'] == 'region') $appearance = 'radius: 18, color: "none", fillColor: "white", fillOpacity: 0.4';  
+	else $appearance = 'radius: 8, color: "none", fillColor: "white", fillOpacity: 0.7';
 
 	// write marker
 	print 'markers["' . $id . '"] = L.circleMarker([' . $place->coords . '], { ' . $appearance . ' }).addTo(mapPlaces); ';

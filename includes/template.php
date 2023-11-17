@@ -166,14 +166,15 @@ if ($activeNav == 0) print '<div class="container-fluid shadow p-0 overflow-auto
 
 
 function templateBottom() {
-	global $version;
+	global $version, $versionDate;
 ?>
 </div>
 
 <div class="container-fluid bg-dark bg-gradient mt-4 p-5 text-light">
 	<div class="container mb-0">
 
-<p><b>Cite this page:</b><br> Pádraic Moran, <i>Manuscripts with Irish Associations</i> (<i>MIrA</i>)</i>, version <?php print $version; ?> 
+<p><b>Cite this page:</b><br> Pádraic Moran, <i>Manuscripts with Irish Associations</i> (<i>MIrA</i>)</i>, 
+	version <?php print $version; ?> (<?php print $versionDate; ?>)
 <?php
 // URL and date
 print '&lt;<a class="text-light" href="' . $_SERVER['REQUEST_URI'] . '">http://www.mira.ie' . $_SERVER['REQUEST_URI'] . '</a>&gt; ';

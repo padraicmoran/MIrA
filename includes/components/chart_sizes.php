@@ -19,16 +19,14 @@ function chartSizes($data) {
 		$h = intval($ms->description->page_h);
 		$w = intval($ms->description->page_w);
 		if ($h <> 0 && $w <> 0) {
-			// prepare MS identifier
-			$libraryID = strval($ms->identifier['libraryID']);
-			$msIdentifier = $libraries[$libraryID]['city'] . ', ' . $libraries[$libraryID]['name'] . ', ' . $ms->identifier->shelfmark;
+			$heading = makeMsHeading($ms);
 
 			// store value in array (for later computation)		
 			$sizes[] = [ 
 				$h,  
 				$w, 
 				$ms['id'],
-				$msIdentifier
+				$heading
 			];
 
 			$totalH += $h;

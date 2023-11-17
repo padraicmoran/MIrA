@@ -5,19 +5,15 @@ if ($filter) {
 
 	// take first MS result only
 	$ms = $filter[0];
-	$identifierCount = count($ms->identifier);
-
+	
 	//
 	// HEADERS 
 	//
 	if ($tidyURLs) $linkBack = '/mss/';
 	else $linkBack = '/index.php?page=mss';
 
-	$libraryID = strval($ms->identifier['libraryID']);
-	$heading = $libraries[$libraryID]['city'] . ', ' . $libraries[$libraryID]['name'] . ', ' . $ms->identifier->shelfmark;
-	if ($ms->identifier->ms_name !='') $heading = $ms->identifier->ms_name . ': ' . $heading;
-	if ($identifierCount > 1) $heading .= ', etc.';
-	print '<h2>' . $heading . '</h2>';
+	$heading = makeMsHeading($ms);
+	print '<h2>' . $heading . ' (MIrA ' . $id . ')</h2>';
 
 	// write categories
 	if ($ms->notes->categories != '') {
@@ -42,10 +38,12 @@ if ($filter) {
 	print '<tr><th colspan="2"><h3 class="h3 mt-2">Identifiers</h3></th></tr>';
 
 	// list parts (perhaps more than one)
+	$identifierCount = count($ms->identifier);
 	for ($n = 0; $n < $identifierCount; $n ++) {
 		$libraryID = strval($ms->identifier[$n]['libraryID']);	
+		$unit = $ms->identifier[$n]["unit"];
 
-		if ($identifierCount > 1) print '<tr><td colspan="2"><h4 class="h6 mt-3 mb-0">UNIT ' . $ms->identifier[$n]["unit"] . '</h4></td></tr>';
+		if ($identifierCount > 1) print '<tr><td colspan="2"><h4 class="h6 mt-3 mb-0">UNIT ' . $unit . '</h4></td></tr>';
 
 		writeRow('Country', $libraries[$libraryID]['country'], '', '');
 		writeRow('Location', $libraries[$libraryID]['city'] . ', ' . $libraries[$libraryID]['name'], '/index.php?page=mss&lib=' . $libraryID);
@@ -56,6 +54,10 @@ if ($filter) {
 		}
 		writeRow('Shelfmark', $shelfmarkLink, '');
 		writeRow('MS name', $ms->identifier[$n]->ms_name, '');
+		
+		$miraRef = $id; 
+		if ($unit <> '') $miraRef .= '.' . $unit;
+		writeRow('MIrA number', $miraRef, '');
 	}
 
 	// description, incl. contents

@@ -19,14 +19,13 @@ function chartFolios($data) {
 		$f = intval($ms->description->folios);
 		if ($f <> 0) {
 			// prepare MS identifier
-			$libraryID = strval($ms->identifier['libraryID']);
-			$msIdentifier = $libraries[$libraryID]['city'] . ', ' . $libraries[$libraryID]['name'] . ', ' . $ms->identifier->shelfmark;
+			$heading = makeMsHeading($ms);
 
 			// store value in array (for later computation)		
 			$fols[] = [ 
 				$f,  
 				$ms['id'],
-				$msIdentifier
+				$heading
 			];
 
 			$totalF += $f;

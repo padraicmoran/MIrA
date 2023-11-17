@@ -17,7 +17,14 @@ function getLink($type, $id) {
 	return $link;
 }
 
+function makeMsHeading($ms) {
+	global $libraries;
 
-
+	$libraryID = strval($ms->identifier['libraryID']);
+	$heading = $libraries[$libraryID]['city'] . ', ' . $libraries[$libraryID]['name'] . ', ' . $ms->identifier->shelfmark;
+	if ($ms->identifier->ms_name !='') $heading = $ms->identifier->ms_name . ': ' . $heading;
+	if (count($ms->identifier) > 1) $heading .= ', etc.';
+	return $heading;	
+}
 
 ?>

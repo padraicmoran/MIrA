@@ -58,18 +58,14 @@ function networkGraph($results) {
 
 ?>
 
+<a name="network" id="network"></a>
 <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
 
 <button class="btn btn-secondary float-end" onclick="fullScreen(document.getElementById('networkGraph'));">Full screen</button>
 
-<form>
-Black lines indicate origin, blue arrows provenance.
-To view a manuscript, enter the number here: 
-<input type="text" id="msNum" class="" style="width: 50px; ">
-<input type="submit" class="btn btn-success" value="go" onclick="n = document.getElementById('msNum').value; if (n.length > 0) { location.href= '/' + n; } return false; ">
-</form>
-
-
+<p>Black lines indicate origin, blue arrows provenance.
+Double-click a node to see full details.
+</p>
 
 <div id="networkGraph" class="border border-secondary rounded shadow bg-light" style="height: 480px; ">
 </div>
@@ -98,9 +94,10 @@ var nodes = new vis.DataSet([
   foreach ($results as $ms) {
     print '{ id: ' . $ms['id'] . ', 
       label: "' . $ms['id'] . '", 
-      title: "' . $ms->identifier['libraryID'] . ', ' . $ms->identifier->shelfmark . '", 
+      title: "' . makeMsHeading($ms) . '", 
       shape: "circle", 
-      color: "darkred"  
+      color: "darkred", 
+      url: "/' . $ms['id'] . '"
     },' . "\n";
   }
 
@@ -121,7 +118,8 @@ var nodes = new vis.DataSet([
       shape: "box", 
       color: "green"
       ' . $geoInfo . ' 
-      ' . $regionAttributes . ' 
+      ' . $regionAttributes . ',
+      url: "/places/' . $place . '" 
     },' . "\n";
   }
 ?>
@@ -175,7 +173,27 @@ var options = {
 };
 var network = new vis.Network(container, data, options);
 
+// go to link on double click
+network.on('doubleClick', function (params) {
+  thisNode = params.nodes[0];
+  if (thisNode != undefined) {
+    url = data.nodes.get(thisNode).url;
+    if (url != undefined) window.location.href = url;
+  }
+});
+
+function test() {
+  allNodes = data.nodes.get();
+  for (x = 0; x < allNodes.length; x ++) {
+    thisId = allNodes[x].id;
+    nodes.updateOnly({ id: thisId, fixed: null });
+  }
+}
+
+
 </script>
+
+<a href="#" onclick="test(); return false; ">Test</a>
 
 <script type="text/javascript">
 
