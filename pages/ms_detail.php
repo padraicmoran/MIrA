@@ -13,7 +13,10 @@ if ($filter) {
 	else $linkBack = '/index.php?page=mss';
 
 	$heading = makeMsHeading($ms);
-	print '<h2>' . $heading . ' (MIrA ' . $id . ')</h2>';
+	print '<h2>MIrA ' . $id . ': ' . $heading . '</h2>';
+
+	// stable URL
+	print '<div class="text-secondary small">Stable URL: <a class="text-secondary" href="/' . $id . '">http://www.mira.ie/' . $id . '</a></div>';
 
 	// write categories
 	if ($ms->notes->categories != '') {
@@ -24,6 +27,7 @@ if ($filter) {
 		} 
 		print '</div>';
 	}
+
 
 	// Mirador viewer
 	$iiifLinks = $ms->xpath('identifier/link[@type="iiif"]');
@@ -119,10 +123,6 @@ if ($filter) {
 		print '<h3 class="h3 mt-5">Library ' . switchSgPl($identifierCount, 'location', 'locations') . '</h3> ';
 		mapLibraries($filter);
 	}
-
-		// stable URL
-	print '<div class="text-secondary small mt-5">Stable URL: <a class="text-secondary" href="/' . $id . '">http://www.mira.ie/' . $id . '</a></div>';
-	
 }
 else {
 	print '<!-- MS not found -->';

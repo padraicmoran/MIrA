@@ -15,11 +15,15 @@ if (file_exists('data/places.xml')) {
 ?>
 
 <div class="row">
-	<div class="col-lg">
+	<div class="col-lg-4">
 <?php
 
 		print '<h2>' . $place->name . '</h2>';
-		print '<p>';
+
+		// stable URL
+		print '<div class="text-secondary small mb-3">Stable URL: <a class="text-secondary" href="/places/' . $id . '">http://www.mira.ie/place/' . $id . '</a></div>';
+
+			print '<p>';
 		if ($place->xpath('name[@lang="de"]')) print 'German: ' . $place->xpath('name[@lang="de"]')[0] . '<br/>';
 		if ($place->xpath('name[@lang="la"]')) print 'Latin: ' . $place->xpath('name[@lang="la"]')[0] . '<br/>';
 		print '</p>';
@@ -49,7 +53,7 @@ if (file_exists('data/places.xml')) {
 ?>
 	</div>
 
-	<div class="col-lg mb-5">
+	<div class="col-lg-8 mb-5">
 <?php
 		mapPlaces($xml_places, $id);
 ?>
@@ -77,9 +81,6 @@ if (file_exists('data/places.xml')) {
 
 			// display results
 			listMSS($resultsSorted);
-
-			// stable URL
-			print '<div class="text-secondary small mt-5">Stable URL: <a class="text-secondary" href="/places/' . $id . '">http://www.mira.ie/place/' . $id . '</a></div>';
 
 		}
 	}

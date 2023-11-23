@@ -50,10 +50,10 @@ function chartSizes($data) {
 		$avgW = floor($totalW / $cntSizes);
 		
 		print '<p>';
-		print 'Data available for ' . $cntSizes . ' ' . switchSgPl($cntSizes, 'manuscript', 'manuscripts') . ' (' . intval($cntSizes / count($data) * 100) . '% of this list). ';
+		print 'Data available for ' . $cntSizes . ' ' . switchSgPl($cntSizes, 'manuscript', 'manuscripts') . ' (' . intval($cntSizes / count($data) * 100) . '% of this list). <br/>';
 		print 'Height range: ' . $minH . '–' . $maxH . ' mm (average ' . $avgH . ' mm). ';
-		print 'Width range: ' . $minW . '–' . $maxW . ' mm (average ' . $avgW . ' mm). ';
-		print '<br/>Heights charted below (with red line for average). Click on a bar to view manuscript.</p>';
+		print 'Width range: ' . $minW . '–' . $maxW . ' mm (average ' . $avgW . ' mm). <br/>';
+		print 'Heights charted below (with red line for average). Click on a bar to view manuscript.</p>';
 
 		// sort asc
 		usort($sizes, 'sortH');

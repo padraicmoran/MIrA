@@ -182,18 +182,7 @@ network.on('doubleClick', function (params) {
   }
 });
 
-function test() {
-  allNodes = data.nodes.get();
-  for (x = 0; x < allNodes.length; x ++) {
-    thisId = allNodes[x].id;
-    nodes.updateOnly({ id: thisId, fixed: null });
-  }
-}
-
-
 </script>
-
-<a href="#" onclick="test(); return false; ">Test</a>
 
 <script type="text/javascript">
 

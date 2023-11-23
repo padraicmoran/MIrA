@@ -1,7 +1,7 @@
 
 <h2>Texts</h2>
 
-<div class="bg-warning p-3 rounded border">Under development. Sample data for testing purposes.</div>	
+<p>(Indexing is still in progress.)</p>
 
 <?php
 if (file_exists('data/texts.xml')) {
@@ -10,7 +10,7 @@ if (file_exists('data/texts.xml')) {
 ?>
 
 <div class="table-responsive-sm mt-4">
-<table class="table table-striped table-hover">
+<table class="table table-striped table-hover border-secondary">
 <thead>
 <tr>
 <th>Author</th>

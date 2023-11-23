@@ -1,7 +1,7 @@
 
 <h2>People</h2>
 
-<div class="bg-warning p-3 rounded border">Under development. Sample data for testing purposes.</div>	
+<p>(Indexing is still in progress.)</p>
 
 <?php
 if (file_exists('data/people.xml')) {

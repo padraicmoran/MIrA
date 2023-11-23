@@ -12,11 +12,14 @@ if (file_exists('data/texts.xml')) {
 		else $linkBack = '/index.php?page=texts';
 		print '<div class="h5 text-secondary"><a href="' . $linkBack . '">Texts</a></div>';
 
-		print '<h2 class="mb-4">';
+		print '<h2 class="">';
 		if ($text->author != '') print $text->author . ', ';
 		if ($text->title['style'] == 'roman') print $text->title;
 		else print '<i>' . $text->title . '</i>';
 		 print '</h2>';
+
+		// stable URL
+		print '<div class="text-secondary small">Stable URL: <a class="text-secondary" href="/text/' . $id . '">http://www.mira.ie/texts/' . $id . '</a></div>';
 
 		// find related manuscripts
 		$results = $xml_mss->xpath('//text[@id="' . $id . '"]/ancestor::manuscript');
@@ -31,8 +34,6 @@ if (file_exists('data/texts.xml')) {
 		// display results
 		listMSS($resultsSorted);
 
-		// stable URL
-		print '<div class="text-secondary small mt-5">Stable URL: <a class="text-secondary" href="/text/' . $id . '">http://www.mira.ie/texts/' . $id . '</a></div>';
 	}
 	else {
 		// if no match, exit to general list

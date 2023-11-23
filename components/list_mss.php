@@ -25,7 +25,7 @@ function listMSS($results) {
 //		elseif ($sort == 'prov') usort($resultsSorted, 'sortProv');
 
 	// total and results and sort form
-	print '<form class="pb-4" id="sortForm" action="/index.php">';
+	print '<form class="mt-5 mb-2 px-3 py-2 rounded bg-secondary d-inline-flex align-items-center text-light" id="sortForm" action="/index.php">';
 
 	// pass information about current page
 	print '<input type="hidden" name="page" value="' . $page  . '" />';
@@ -35,10 +35,10 @@ function listMSS($results) {
 
 	// write total
 	$matches = count($results);	
-	print '' . $matches . switchSgPl($matches, ' manuscript', ' manuscripts') . '. ';
+	print '' . $matches . switchSgPl($matches, ' manuscript', ' manuscripts') . '. &nbsp;';
 
 	// write sort options
-	print '<label for="sort" class="form-label">Sort by</label> ';
+	print '<label for="sort">Sort by</label> &nbsp;';
 	print '<select name="sort" class="" onchange="sortForm.submit(); ">';
 	writeOption('', 'location', $sort);
 	writeOption('script', 'script', $sort);
@@ -51,7 +51,7 @@ function listMSS($results) {
 ?>
 
 <div class="table-responsive-sm pt-2 pb-3">
-<table class="table table-striped table-hover table-sm small">
+<table class="table table-striped table-hover table-sm small border-secondary">
 <thead>
 <tr>
 <th>City</th>
@@ -120,7 +120,7 @@ function listMSS($results) {
 	$queryString .= '&search=' . $search;
 	$queryString .= '&cat=' . $searchCat;
 	$queryString .= '&lib=' . $searchLib;
-	print '<p class="mt-5"><a class="small" href="/csv.php?' . $queryString . '">Export this list</a> as a CSV file.</p>';
+	print '<p><a class="small" href="/csv.php?' . $queryString . '">Export this list</a> as a CSV file.</p>';
 
 ?>
 

@@ -12,9 +12,11 @@ if (file_exists('data/people.xml')) {
 		else $linkBack = '/index.php?page=people';
 		print '<div class="h5 text-secondary"><a href="' . $linkBack . '">People</a></div>';
 
-		print '<h2 class="mb-4">' . $person->firstNames . ' ' . $person->surname . '</h2>';
+		print '<h2>' . $person->firstNames . ' ' . $person->surname . '</h2>';
 		print '<p>' . $person->lifetime . '</p>';
-		
+
+		// stable URL
+		print '<div class="text-secondary small">Stable URL: <a class="text-secondary" href="/people/' . $id . '">http://www.mira.ie/people/' . $id . '</a></div>';
 
 		// find related manuscripts
 		$results = $xml_mss->xpath('//person[@id="' . $id . '"]/ancestor::manuscript');
@@ -27,9 +29,6 @@ if (file_exists('data/people.xml')) {
 		}
 		// display results
 		listMSS($resultsSorted);
-		
-		// stable URL
-		print '<div class="text-secondary small mt-5">Stable URL: <a class="text-secondary" href="/people/' . $id . '">http://www.mira.ie/people/' . $id . '</a></div>';
 	}
 	else {
 		// if no match, exit to general list
