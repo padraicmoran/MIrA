@@ -123,6 +123,10 @@ if ($filter) {
 		print '<h3 class="h3 mt-5">Library ' . switchSgPl($identifierCount, 'location', 'locations') . '</h3> ';
 		mapLibraries($filter);
 	}
+
+	// download
+	print '<div class="text-secondary small mt-5">Download <a class="text-secondary" href="/data/mss/' . sprintf("%03d", $id) . '.xml">XML data</a> for this manuscript.</div>';
+
 }
 else {
 	print '<!-- MS not found -->';

@@ -11,12 +11,12 @@ $results = searchMSS($xml_mss, $search, $searchCat, $searchLib);
 //
 if ($search != '') {
 	// keyword search
-	print '<h2 class="mb-4">Searching for &ldquo;' .  $search . '&rdquo;</h2>';
+	print '<h2>Searching for &ldquo;' .  $search . '&rdquo;</h2>';
 }
 elseif ($searchCat != '') {
 	// browse by category 
 	if (isset($msCategories[$searchCat])) {
-		print '<h2 class="mb-4">Browse category: ';
+		print '<h2>Browse category: ';
 		writeCategoryButton($searchCat, false);		 
 		print '</h2>';
 	//	print '<a type="button" class="btn text-light" href="index.php?msid=001">' . $cat . '</a> ';
@@ -24,12 +24,12 @@ elseif ($searchCat != '') {
 }
 elseif ($searchLib != '') {
 	// browse by library
-	print '<h2 class="mb-4">Browse by library: ' .  $libraries[$searchLib]['city'] . ', ' .  $libraries[$searchLib]['name'] . '</h2>';
+	print '<h2>Browse by library: ' .  $libraries[$searchLib]['city'] . ', ' .  $libraries[$searchLib]['name'] . '</h2>';
 }
 
 else {
 	// show all entries
-	print '<h2 class="mb-4">All manuscripts</h2>';
+	print '<h2>All manuscripts</h2>';
 }
 
 

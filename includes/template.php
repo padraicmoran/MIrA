@@ -53,58 +53,16 @@ function templateTop($activeNav) {
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/@popperjs/core@2"></script>
 
-
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" />
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/>
 <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
 <script src="https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js"></script>
 <link href="https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css" rel="stylesheet" />
 
+<link rel="stylesheet" href="/includes/mira.css" />
+
 <title><?php print $pageTitles[$activeNav]; ?></title>
-
-<style type="text/css">
-
-body {
-	font-family: Roboto, sans-serif;
-	font-size: 1.25em;
-}
-a, a:hover, .leaflet-container a {
-	color: #8d2929;
-}
-a:hover {
-	text-decoration: none;
-}
-a[href^="http://"]:after, a[href^="https://"]:after {
-    content: "↗";
-    margin-left: 2px;
-    color: #aaaaaa;
-    font-weight: bold;
-}
-
-a.btn {
-	font-size: 0.9em;
-}
-span.btn {
-	font-size: 0.6em;
-}
-a.navbar-brand {
-	font-weight: bold;
-	font-size: 1.1em;
-}
-
-.chartFullScreen {
-	position: fixed;
-	top: 10%;
-	bottom: 10%;
-	left: 0;
-	width: 100%; 
-	height: 90%;
-	background-color: white;
-}
-
-
-</style>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-005FZL42EK"></script>
@@ -118,7 +76,7 @@ a.navbar-brand {
 </head>
 <body class="bg-light">
 
-<nav class="navbar navbar-expand-lg navbar-dark sticky-md-top bg-gradient shadow" style="background-color: #0e300e; z-index: 2000; ">
+<nav class="navbar navbar-expand-lg navbar-dark sticky-md-top shadow" style="z-index: 2000">
 	<div class="container-fluid px-5 py-2">
 
 	<a class="navbar-brand text-wrap" href="/">
@@ -156,7 +114,7 @@ a.navbar-brand {
 
 <?php
 // home page header
-if ($activeNav == 0) print '<div class="container-fluid shadow p-0 overflow-auto bg-dark bg-gradient"><a href="/110"><img class="img-fluid" src="/images/header_0-3.jpg" alt="Detail from the Book of Armagh"></a></div>';
+if ($activeNav == 0) print '<div class="container-fluid shadow p-0 overflow-auto bg-dark"><a href="/110"><img class="img-fluid" src="/images/header_0-3.jpg" alt="Detail from the Book of Armagh"></a></div>';
 ?>
 
 <!-- main content holder -->

@@ -10,9 +10,9 @@ if (file_exists('data/texts.xml')) {
 		
 		if ($tidyURLs) $linkBack = '/texts/';
 		else $linkBack = '/index.php?page=texts';
-		print '<div class="h5 text-secondary"><a href="' . $linkBack . '">Texts</a></div>';
 
-		print '<h2 class="">';
+		print '<h2>';
+		print '<a class="text-reset" href="' . $linkBack . '">Texts</a> ‣ ';
 		if ($text->author != '') print $text->author . ', ';
 		if ($text->title['style'] == 'roman') print $text->title;
 		else print '<i>' . $text->title . '</i>';

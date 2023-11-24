@@ -1,0 +1,50 @@
+body {
+	font-family: Roboto, sans-serif;
+	font-size: 1.25em;
+}
+
+nav, .bg-mira {
+	background-color: #0e300e; 
+}
+a.navbar-brand {
+	font-weight: bold;
+	font-size: 1.1em;
+}
+a.active {
+   text-decoration: underline;
+}
+
+
+a, a:hover, .leaflet-container a {
+	color: #8d2929;
+}
+a:hover {
+	text-decoration: none;
+}
+a[href^="http://"]:after, a[href^="https://"]:after {
+    content: "↗";
+    margin-left: 2px;
+    color: #aaaaaa;
+    font-weight: bold;
+}
+
+a.btn {
+	font-size: 0.9em;
+}
+span.btn {
+	font-size: 0.6em;
+}
+
+.chartFullScreen {
+	position: fixed;
+	top: 10%;
+	bottom: 10%;
+	left: 0;
+	width: 100%; 
+	height: 90%;
+	background-color: white;
+}
+
+.pointer-button {
+   color: #0e300e; 
+}

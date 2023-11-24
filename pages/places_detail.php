@@ -11,14 +11,15 @@ if (file_exists('data/places.xml')) {
 		
 		if ($tidyURLs) $linkBack = '/places/';
 		else $linkBack = '/index.php?page=places';
-		print '<div class="h5 text-secondary"><a href="' . $linkBack . '">Places</a></div>';
 ?>
 
 <div class="row">
 	<div class="col-lg-4">
 <?php
 
-		print '<h2>' . $place->name . '</h2>';
+		print '<h2>';
+		print '<a class="text-reset" href="' . $linkBack . '">Places</a>: ';
+		print $place->name . '</h2>';
 
 		// stable URL
 		print '<div class="text-secondary small mb-3">Stable URL: <a class="text-secondary" href="/places/' . $id . '">http://www.mira.ie/place/' . $id . '</a></div>';

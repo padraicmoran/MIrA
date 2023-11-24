@@ -46,12 +46,13 @@
 <p>Current version:</p>
 
 <ul>
-<li>0.4 (beta), 18 July 2023. Network diagrams. References for Alexander, McGurk, Trismegistos. New data for dimensions and folio counts (supplied by Lily Forrest). Developments to text, people, places indexes.</li>
+<li>0.5 (beta), DATE. Improved maps.</li>
 </ul>
 
 <p>Previous versions:</p>
 
 <ul>
+<li>0.4 (beta), 18 July 2023. Network diagrams. References for Alexander, McGurk, Trismegistos. New data for dimensions and folio counts (supplied by Lily Forrest). Developments to text, people, places indexes.</li>
 <li>0.3 (beta), 1 March 2023. Export manuscript list as CSV. Permanent references for multiple units. Minor corrections. </li>
 <li>0.2 (beta), 20 July 2022. Added data tables for texts, people, places (in development). New charts for page sizes, number of folios. Several minor interface improvements. Several minor corrections/improvements to data. </li>
 <li>0.1 (beta): May 2021. Initial version. Manuscript list, date chart, libraries map, basic search.</li>

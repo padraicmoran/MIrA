@@ -69,7 +69,7 @@
       <folios />
       <page_h />
       <page_w />
-      <contents>Gregorius of Tours, <i>De Cursu Stellarum</i>; Macrobius, <i>Saturnalia</i> (1); Solinus, Opus Incertum?</contents>
+      <contents>Gregory of Tours, <i>De Cursu Stellarum</i>; Macrobius, <i>Saturnalia</i> (1); Solinus, Opus Incertum?</contents>
       <script>Caroline minuscule</script>
    </description>
    <history>
@@ -129,7 +129,7 @@
       <folios />
       <page_h />
       <page_w />
-      <contents>Commentary on Matthew (13r–142v); <person id="jerome">Jerome</person>, <i>Epistula ad Damasum papam</i>; Gospel canons; Sedulius Scotus, <i>Argumenta</i>, etc.</contents>
+      <contents>Commentary on Matthew (13r–142v); <person id="jerome">Jerome</person>, <i>Epistula ad Damasum papam</i>; Gospel canons; <person id="sedulius">Sedulius Scotus</person>, <i>Argumenta</i>, etc.</contents>
       <script />
    </description>
    <history>
@@ -6134,7 +6134,7 @@
       <folios>1</folios>
       <page_h>65</page_h>
       <page_w>220</page_w>
-      <contents>Gregorius Magnus, <i>Dialogi</i> (3.31–32)</contents>
+      <contents>Gregory the Great, <i>Dialogi</i> (3.31–32)</contents>
       <script>Insular majuscule</script>
    </description>
    <history>
@@ -6791,7 +6791,7 @@
       <folios>1</folios>
       <page_h>180</page_h>
       <page_w>200</page_w>
-      <contents>Abbreviatio Moralium Gregorii Magni</contents>
+      <contents><i>Abbreviatio Moralium Gregorii Magni</i></contents>
       <script>Caroline minuscule</script>
    </description>
    <history>

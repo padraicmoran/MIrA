@@ -10,9 +10,11 @@ if (file_exists('data/people.xml')) {
 
 		if ($tidyURLs) $linkBack = '/people/';
 		else $linkBack = '/index.php?page=people';
-		print '<div class="h5 text-secondary"><a href="' . $linkBack . '">People</a></div>';
+		print '<div class="h5 text-secondary"></div>';
 
-		print '<h2>' . $person->firstNames . ' ' . $person->surname . '</h2>';
+		print '<h2>';
+		print '<a class="text-reset" href="' . $linkBack . '">People</a> ‣ ';
+		print $person->firstNames . ' ' . $person->surname . '</h2>';
 		print '<p>' . $person->lifetime . '</p>';
 
 		// stable URL
