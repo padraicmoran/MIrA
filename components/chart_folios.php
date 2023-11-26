@@ -6,6 +6,8 @@ Bar chart for number of folios
 function chartFolios($data) {
 	global $libraries;
 
+	print '<h3 class="mt-5 pt-2">Folio count</h4>';
+
 	//
 	// compile chart data
 	//

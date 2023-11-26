@@ -13,7 +13,7 @@ if ($filter) {
 	else $linkBack = '/index.php?page=mss';
 
 	$heading = makeMsHeading($ms);
-	print '<h2>MIrA ' . $id . ': ' . $heading . '</h2>';
+	print '<h1 class="h2">MIrA ' . $id . ': ' . $heading . '</h1>';
 
 	// stable URL
 	print '<div class="text-secondary small">Stable URL: <a class="text-secondary" href="/' . $id . '">http://www.mira.ie/' . $id . '</a></div>';
@@ -39,7 +39,7 @@ if ($filter) {
 	print '<table class="table">';
 
 	// identifiers
-	print '<tr><th colspan="2"><h3 class="h3 mt-2">Identifiers</h3></th></tr>';
+	print '<tr><th colspan="2"><h3 class="mt-2">Identifiers</h3></th></tr>';
 
 	// list parts (perhaps more than one)
 	$identifierCount = count($ms->identifier);
@@ -120,7 +120,6 @@ if ($filter) {
 
 	// library map
 	if ($libraries[$libraryID]['coords'] != '') {
-		print '<h3 class="h3 mt-5">Library ' . switchSgPl($identifierCount, 'location', 'locations') . '</h3> ';
 		mapLibraries($filter);
 	}
 

@@ -5,6 +5,8 @@ Network graph
 function networkGraph($results) {
   global $placeInfo;
 
+  print '<h3 class="mt-5 pt-2">Network graph</h3>';
+
   /* PREPARE DATA
   */
 
@@ -61,16 +63,25 @@ function networkGraph($results) {
 <a name="network" id="network"></a>
 <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
 
-<button class="btn btn-secondary float-end" onclick="fullScreen(document.getElementById('networkGraph'));">Full screen</button>
+<!-- custom control buttons -->
+<div class="float-end">
+<button id="btnToggleFixed" class="btn btn-secondary" onclick="toggleFixed(this); ">Geo-locations</button>
+<button class="btn btn-secondary" onclick="redraw(); ">Redraw</button>
+<button class="btn btn-secondary" onclick="fullScreen(document.getElementById('networkGraph'));">Full screen</button>
+</div>
 
 <p>Black lines indicate origin, blue arrows provenance.
 Double-click a node to see full details.
 </p>
 
 <div id="networkGraph" class="border border-secondary rounded shadow bg-light" style="height: 480px; ">
+Test
 </div>
 
+
 <script type="text/javascript">
+
+var fixed = true;
 
 // create an array with nodes
 var nodes = new vis.DataSet([
@@ -80,13 +91,14 @@ var nodes = new vis.DataSet([
   /* OUTPUT DATA
   */
   
-  // node for MSS without location (if needed)
+  // hidden node for MSS without location (if needed)
   if (in_array('hidden', $edgeTypes)) {
   print '{ id: "ubique", 
     label: "Not yet assigned", 
-      shape: "box", 
-      color: "grey",
-      x: -1100, y: -8900, fixed: { x: true, y: true }  
+    shape: "box", 
+    color: "grey",
+    x: -1100, y: 0, fixed: { x: false, y: false },
+    category: "place" 
     }, ';
   }
 
@@ -97,7 +109,8 @@ var nodes = new vis.DataSet([
       title: "' . makeMsHeading($ms) . '", 
       shape: "circle", 
       color: "darkred", 
-      url: "/' . $ms['id'] . '"
+      url: "/' . $ms['id'] . '",
+      category: "ms"
     },' . "\n";
   }
 
@@ -107,25 +120,24 @@ var nodes = new vis.DataSet([
     // handle map coords
     $coords = explode(',', $placeInfo[$place]['coords']);
     $x = $coords[1] * 150;
-    $y = $coords[0] * -200;
-    $geoInfo = ', x: ' . $x . ', y: ' . $y . ', fixed: { x: true, y: true }';
+    $y = ($coords[0] * -200) + 9400;
+    $geoInfo = 'x: ' . $x . ', y: ' . $y . ', fixed: { x: true, y: true  }, ';
 
     $regionAttributes = '';
-    if ($placeInfo[$place]['type'] == 'region') $regionAttributes = ', font: { size: 46 } ';
+    if ($placeInfo[$place]['type'] == 'region') $regionAttributes = 'font: { size: 46 }, ';
     
     print '{ id: "' . $place . '", 
       label: "' . $placeInfo[$place]['name'] . '", 
       shape: "box", 
-      color: "green"
+      color: "green", 
       ' . $geoInfo . ' 
-      ' . $regionAttributes . ',
-      url: "/places/' . $place . '" 
+      ' . $regionAttributes . '
+      url: "/places/' . $place . '",
+      category: "place"
     },' . "\n";
   }
 ?>
 ]);
-
-
 
 // create an array with edges
 var edges = new vis.DataSet([
@@ -133,7 +145,7 @@ var edges = new vis.DataSet([
 <?php
   for ($n = 0; $n < count($edgeFrom); $n++) {
     if ($edgeTypes[$n] == 'origin') {
-      print '{ from: "' . $edgeFrom[$n] . '", to: "' . $edgeTo[$n] . '", arrows: "to", color: "black", width: 2 },' . "\n";
+      print '{ from: "' . $edgeFrom[$n] . '", to: "' . $edgeTo[$n] . '", color: "black", width: 2 },' . "\n";
     }  
     elseif ($edgeTypes[$n] == 'prov') {
       print '{ from: "' . $edgeFrom[$n] . '", to: "' . $edgeTo[$n] . '", arrows: "to", color: "blue", width: 2 },' . "\n";
@@ -145,8 +157,6 @@ var edges = new vis.DataSet([
 ?>
 
 ]);
-
-
 
 // create the network object
 var container = document.getElementById("networkGraph");
@@ -172,6 +182,7 @@ var options = {
   }
 };
 var network = new vis.Network(container, data, options);
+toggleFixed(document.getElementById('btnToggleFixed'));
 
 // go to link on double click
 network.on('doubleClick', function (params) {
@@ -181,6 +192,39 @@ network.on('doubleClick', function (params) {
     if (url != undefined) window.location.href = url;
   }
 });
+
+
+// custom actions
+
+function toggleFixed(el) {
+  if (fixed) {
+    nodes.forEach(fixedOff);
+    fixed = false;
+    el.innerHTML = 'Geo-locations: off';
+  }
+  else {
+    nodes.forEach(fixedOn);
+    fixed = true;
+    el.innerHTML = 'Geo-locations: on';
+    redraw();
+  }
+//  network.redraw();
+}
+
+function fixedOn(thisNode) {
+  if (thisNode.category = 'place') {
+    nodes.update({ id: thisNode.id, fixed: { x: true, y: true } });
+  }
+}
+function fixedOff(thisNode) {
+  if (thisNode.category = 'place') {
+    nodes.update({ id: thisNode.id, fixed: { x: false, y: false } });
+  }
+}
+
+function redraw() {
+  network = new vis.Network(container, data, options);
+}
 
 </script>
 

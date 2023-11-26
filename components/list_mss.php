@@ -126,33 +126,11 @@ function listMSS($results) {
 
 </div>
 
-<!-- Library map -->
-<h3 class="mt-5 pt-2">Manuscript libraries</h4> 
 <?php
 	mapLibraries($resultsSorted);
-?>
-
-<!-- Date chart -->
-<h3 class="mt-5 pt-2">Manuscript dates (approx.)</h4>
-<?php
 	chartDates($resultsSorted);
-?>
-
-<!-- Size chart -->
-<h3 class="mt-5 pt-2">Page sizes</h4> 
-<?php
 	chartSizes($resultsSorted);
-?>
-
-<!-- Folios chart -->
-<h3 class="mt-5 pt-2">Folio count</h4> 
-<?php
 	chartFolios($resultsSorted);
-	?>
-
-<!-- Network graph -->
-<h3 class="mt-5 pt-2">Network graph</h4> 
-<?php
 	networkGraph($resultsSorted);
 }
 

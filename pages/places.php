@@ -4,13 +4,7 @@
 <p>(Indexing is still in progress.)</p>
 
 <p>This is a list of historical places associated with manuscripts in this catalogue (place of origin, provenance, etc.).
-	The data may be viewed on a variety of maps (selected by clicking on the icon at the top right).
-	The only historical map currently available is the <a href="https://dh.gu.se/dare/">Digital Atlas of the Roman Empire</a>. 
-	I hope to add other historical maps if they become available.
 </p>
-
-<p>Given the fluidity of political boundaries during the period in question, places are grouped by modern rather than historical region.
-	Modern regions are also used for localisation by Lowe and Bischoff. Regions appear on the map as a larger circles.
 
 <?php
 if (file_exists('data/places.xml')) {

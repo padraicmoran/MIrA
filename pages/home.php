@@ -18,17 +18,15 @@ It currently contains a catalogue of <a href="/mss"><b><?php print $totalMSS; ?>
 </div>
 
 
-<h3 class="h2 mt-5">Manuscript libraries</h3>
 <?php
 mapLibraries($xml_mss);
 ?>
 
 
-
 <div class="row mt-5">
 	<div class="col-lg-6">
 
-<h2 class="">IIIF images</h2>
+<h3>IIIF images</h3>
 
 <p>The catalogue makes use of <a href="https://iiif.io/" target="_blank">IIIF</a> services, where available (for 148 manuscripts currently). These facilitate:
 </p>
@@ -53,6 +51,3 @@ mapLibraries($xml_mss);
 
 	</div>
 </div>
-
-
-

@@ -39,4 +39,3 @@ if (file_exists('data/people.xml')) {
 }
 
 ?>
-

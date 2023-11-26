@@ -20,15 +20,15 @@ function mapLibraries($results) {
 				$libraryMarker[$libID]['lib_name'] = $libraries[$libID]['city'] . ', ' . $libraries[$libID]['name'] ;
 				$libraryMarker[$libID]['coords'] = $libraries[$libID]['coords'];
 				$libraryMarker[$libID]['link'] = '/index.php?page=mss&lib=' . $libID;
-				$libraryMarker[$libID]['total'] = 1;
-			}	
-			else {
-				$libraryMarker[$libID]['total'] += 1;
+				$libraryMarker[$libID]['total'] = 0;
 			}
+			$libraryMarker[$libID]['total'] += 1;
 		}
 	}
 
-?>
+	?>
+
+<h3 class="mt-5">Manuscript libraries</h3>
 
 <div class="border border-secondary rounded shadow" id="mapLibrariesContainer" style="height: 480px; "></div>
 <script type="text/javascript">
@@ -88,7 +88,7 @@ var bounds = new L.LatLngBounds();
 			$content .= '</div>';
 		
 			// write marker
-			print 'markers[' . $n . '] = L.circleMarker([' . $coords . '], { radius: ' . $radius . ', stroke: false, fillColor: "darkbrown", fillOpacity: 0.7 }).addTo(mapLibraries);';
+			print 'markers[' . $n . '] = L.circleMarker([' . $coords . '], { radius: ' . $radius . ', stroke: false, fillColor: "#0e0e30", fillOpacity: 0.7 }).addTo(mapLibraries);';
 			print 'markers[' . $n . '].bindPopup(\'' . addslashes($content) . '\');';
 			print 'markers[' . $n . '].on("click", function(e) { this.openPopup; });';
 			print "\n";
@@ -104,6 +104,10 @@ mapLibraries.fitBounds(bounds);
 mapLibraries.addControl(new L.Control.Fullscreen());
 	
 </script>
+
+<p class="small mt-2">The size of each data point is proportional to the number of manuscripts represented.
+</p>
+
 <?php
 
 }

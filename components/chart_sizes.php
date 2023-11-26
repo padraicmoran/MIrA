@@ -6,6 +6,8 @@ Bar chart for folio sizes
 function chartSizes($data) {
 	global $libraries;
 
+	print '<h3 class="mt-5 pt-2">Page sizes</h4>';
+
 	//
 	// compile chart data
 	//

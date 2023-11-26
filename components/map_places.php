@@ -9,7 +9,7 @@ function mapPlaces($results, $selectedID) {
 	// set up map
 ?>
 
-<div class="border border-secondary rounded shadow mt-5" id="mapPlacesContainer" style="height: 400px; "></div>
+<div class="border border-secondary rounded shadow" id="mapPlacesContainer" style="height: 400px; "></div>
 <script type="text/javascript">
 
 var streetmap = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -74,6 +74,20 @@ var bounds = new L.LatLngBounds();
 mapPlaces.addControl(new L.Control.Fullscreen());
 	
 </script>
+
+<p class="small mt-2">The data may be viewed on a variety of maps (selected by clicking on the icon at the top right).
+	The only historical map currently available is the <a href="https://dh.gu.se/dare/">Digital Atlas of the Roman Empire</a>. 
+	I hope to add other historical maps if they become available.
+</p>
+
+<p class="small">Places are grouped by modern rather than historical region, partly because of the fluidity of political boundaries during 
+	the period in question and partly because modern regions are often used for manuscripts localisations by Lowe and Bischoff. 
+	Regions are indicated on the map by larger, lighter circles.
+</p>
+
+
+
+
 <?php
 }
 
@@ -98,8 +112,8 @@ function writePlaceMarker($place, $selectedID) {
 	$content .= '<a href="#" onclick="mapPlaces.setView([' . $place->coords . '], 13); mapPlaces.closePopup(); return false; ">Zoom in</a>';
 	$content .= '</div>';
 							
-	if ($place['type'] == 'region') $appearance = 'radius: 18, stroke: false, fillColor: "darkblue", fillOpacity: 0.5';
-	else $appearance = 'radius: 8,  stroke: false, fillColor: "darkblue", fillOpacity: 0.5';
+	if ($place['type'] == 'region') $appearance = 'radius: 20, stroke: false, fillColor: "#300e0e", fillOpacity: 0.5';
+	else $appearance = 'radius: 8,  stroke: false, fillColor: "#300e0e", fillOpacity: 0.8';
 
 	// write marker
 	print 'markers["' . $id . '"] = L.circleMarker([' . $place->coords . '], { ' . $appearance . ' }).addTo(mapPlaces); ';
