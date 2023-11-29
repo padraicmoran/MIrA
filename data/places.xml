@@ -17,9 +17,10 @@
 
       <place id="auxerre">
          <name>Auxerre</name>
-         <name lang="la">Antisiodorum urbs</name>
+         <name lang="la">Autessiodurum</name>
          <description>Israel (perhaps AS, cf. Lapidge). Murethach (cf. Holtz).</description>
          <coords>47.797474,3.574677</coords>
+         <xref type="pelagios">138206</xref>
       </place>
       <place id="corbie">
          <name>Corbie</name>
@@ -38,24 +39,28 @@
          <name lang="la">Laudunum (Lao-, Lo-; Laudunensis urbs, Lugdunum clavatum)</name>
          <description>Cathedral school. Martinus. Elias. </description>
          <coords>49.564415,3.624115</coords>
+         <xref type="pelagios">109101</xref>
       </place>
       <place id="luxeuil">
          <name>Luxeuil</name>
          <name lang="la">Luxovium</name>
          <description>590. Founded from Annegray.</description>
-         <coords>47.817535,6.379967</coords>
+         <coords>47.8166493, 6.3821879</coords>
+         <xref type="pelagios">591471665</xref>
       </place>
       <place id="lyon">
          <name>Lyon</name>
          <name lang="la">Leona, Lugdunum</name>
          <description>Cathedral school. Bishop Agobard, deacon Florus, 9th cent.</description>
          <coords>45.767299,4.834329</coords>
+         <xref type="pelagios">167717</xref>
       </place>
       <place id="paris">
          <name>Paris</name>
          <name lang="la"></name>
          <description></description>
          <coords>48.8534,2.3488</coords>
+         <xref type="pelagios">109126</xref>
       </place>
       <place id="peronne">
          <name>Péronne</name>
@@ -68,6 +73,7 @@
          <name lang="la">Remi civitas</name>
          <description>Cathedral school. Centre for Eriugena. Dunchad. Hincmar archbiship from 845.</description>
          <coords>49.256602,4.032669</coords>
+         <xref type="pelagios">108945</xref>
       </place>
       <place id="saint-amand">
          <name>Saint-Amand</name>
@@ -83,9 +89,10 @@
       </place>
       <place id="soissons">
          <name>Soissons</name>
-         <name lang="la">Suessonae</name>
+         <name lang="la">Augusta Suessionum, Suessonae</name>
          <description>School, associated with Eriugena.</description>
          <coords>49.381032,3.32448</coords>
+         <xref type="pelagios">108772</xref>
       </place>
       <place id="strasbourg">
          <name>Strasbourg</name>
@@ -98,12 +105,14 @@
          <name lang="la">Augusta Turonum, Turonica civitas, etc.</name>
          <description>Alcuin abbot 796–804.</description>
          <coords>47.390294,0.688851</coords>
+         <xref type="pelagios">138255</xref>
       </place>
       <place id="trier">
          <name>Trier</name>
-         <name lang="la">Augusta Trevirorum</name>
+         <name lang="la">Augusta Treverorum</name>
          <description>Episcopal school, scriptorium.</description>
          <coords>49.753735,6.646247</coords>
+         <xref type="pelagios">108894</xref>
       </place>
       <place id="verdun">
          <name>Verdun</name>
@@ -121,8 +130,10 @@
    
       <place id="augsburg">
          <name>Augsburg</name>
+         <name lang="la">Augusta Vindelicum, Aelia Augusta</name>
          <description>Bishopric</description>
          <coords>48.368889, 10.897778</coords>
+         <xref type="pelagios">118580</xref>
       </place>
       <place id="freising">
          <name>Freising</name>
@@ -144,14 +155,17 @@
       </place>
       <place id="mainz">
          <name>Mainz</name>
-         <name lang="la">Moguntiacum</name>
+         <name lang="la">Mog0ntiacum</name>
          <description>Episcopal school, scriptorium. Boniface archbishop c. 739. Martianus Scotus, banished from Moville, wrote Chronicle of World History.</description>
          <coords>49.995123,8.267426</coords>
+         <xref type="pelagios">109169</xref>
       </place>
       <place id="regensburg">
          <name>Regensburg</name>
+         <name lang="la">Reginum, Castra Regina</name>
          <description>Marianus (Muredach mac Robartaig), 1067.</description>
          <coords>49.016491,12.100904</coords>
+         <xref type="pelagios">118929</xref>
       </place>
       <place id="reichenau">
          <name>Reichenau</name>
@@ -162,7 +176,6 @@
       <place id="werden">
          <name>Werden</name>
          <name lang="la"></name>
-         <description>*** To do</description>
          <coords>51.3876159,6.9699084</coords>
       </place>
       <place id="wurzburg">
@@ -180,6 +193,7 @@
       <name>Ireland</name>
       <description></description>
       <coords>53.416667, -8</coords>
+      <xref type="pelagios">20487</xref>
    </place>
 
 
@@ -198,6 +212,7 @@
 		   <name>Verona</name>
 		   <description>Episcopal school, scriptorium.</description>
 		   <coords>45.442006,10.995485</coords>
+         <xref type="pelagios">383816</xref>
 		</place>
    </place>
 
@@ -224,18 +239,21 @@
          <name lang="la">Cantuaria, Durrovernum</name>
          <description><![CDATA[Augustine 597. Theodore & Hadrian 669.]]></description>
          <coords>51.279656,1.083194</coords>
+         <xref type="pelagios"></xref>
       </place>
       <place id="echternach">
          <name>Echternach</name>
          <name lang="la">Epternacum</name>
          <description>Founded by Willibrord, 698.</description>
          <coords>49.812872,6.42213</coords>
+         <xref type="pelagios"></xref>
       </place>
       <place id="salzburg">
          <name>Salzburg</name>
-         <name lang="la">Salina</name>
+         <name lang="la">Iuvavum, Salina</name>
          <description>Vergil.</description>
          <coords>47.800472,13.044376</coords>
+         <xref type="pelagios">187432</xref>
       </place>
    <!--
 

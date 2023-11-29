@@ -34,6 +34,9 @@ if (file_exists('data/texts.xml')) {
 		// display results
 		listMSS($resultsSorted);
 
+		// download
+		print '<div class="text-secondary small mt-5">Download <a class="text-secondary" href="/data/texts.xml">XML data</a> for texts.</div>';
+
 	}
 	else {
 		// if no match, exit to general list

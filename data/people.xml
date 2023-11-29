@@ -17,11 +17,13 @@ Temporary data structure for testing purposes.
       <firstNames>Dúngal</firstNames>
       <surname></surname>
       <lifetime from="" to=""></lifetime>
+      <xref type="dib">dungal-a2840</xref>
    </person>
    <person id="eriugena">
       <firstNames>John </firstNames>
       <surname>Scottus/Eriugena</surname>
       <lifetime from="" to=""></lifetime>
+      <xref type="dib">john-scottus-eriugena-a4287</xref>
    </person>
    <person id="i2">
       <firstNames>i2</firstNames>
@@ -42,15 +44,18 @@ Temporary data structure for testing purposes.
       <firstNames>Martin</firstNames>
       <surname>of Laon, Hiberniensis</surname>
       <lifetime from="" to=""></lifetime>
+      <xref type="dib">martinus-martin-hiberniensis-a5470</xref>
    </person>
    <person id="sedulius">
       <firstNames>Sedulius</firstNames>
       <surname>Scottus</surname>
       <lifetime from="" to=""></lifetime>
+      <xref type="dib">sedulius-scottus-irishman-a7969</xref>
    </person>
    <person id="virgil_salzburg">
       <firstNames>Virgil</firstNames>
       <surname>of Salzburg</surname>
       <lifetime from="" to=""></lifetime>
+      <xref type="dib">virgil-virgilius-fergil-a3043</xref>
    </person>
 </document>

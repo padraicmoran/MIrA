@@ -25,7 +25,7 @@ function listMSS($results) {
 //		elseif ($sort == 'prov') usort($resultsSorted, 'sortProv');
 
 	// total and results and sort form
-	print '<form class="mt-5 mb-2 px-3 py-2 rounded bg-mira shadow d-inline-flex align-items-center text-light" id="sortForm" action="/index.php">';
+	print '<div><form class="mt-5 mb-2 px-3 py-2 rounded bg-mira shadow d-inline-flex align-items-center text-light" id="sortForm" action="/index.php">';
 
 	// pass information about current page
 	print '<input type="hidden" name="page" value="' . $page  . '" />';
@@ -47,7 +47,7 @@ function listMSS($results) {
 //		writeOption('prov', 'provenance', $sort);
 	print '</select>';
 
-	print '</form>';
+	print '</form></div>';
 
 ?>
 

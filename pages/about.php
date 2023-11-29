@@ -46,7 +46,7 @@
 <p>Current version:</p>
 
 <ul>
-<li>0.5 (beta), DATE. Improved maps.</li>
+<li>0.5 (beta), 29 November 2023. Improvements to maps, network graphs, linked data.</li>
 </ul>
 
 <p>Previous versions:</p>

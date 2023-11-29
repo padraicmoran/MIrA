@@ -20,6 +20,15 @@ if (file_exists('data/people.xml')) {
 		// stable URL
 		print '<div class="text-secondary small">Stable URL: <a class="text-secondary" href="/people/' . $id . '">http://www.mira.ie/people/' . $id . '</a></div>';
 
+		// linked data
+		$links = $person->xpath('xref');
+		if (sizeof($links) > 0) {
+			print '<h3 class="mt-5">Linked data</h3>';
+			foreach ($links as $link) {
+				if ($link['type'] == 'dib') print '<a href="https://www.dib.ie/biography/' . $link . '">Dictionary of Irish Biography</a>';
+			}
+		}
+
 		// find related manuscripts
 		$results = $xml_mss->xpath('//person[@id="' . $id . '"]/ancestor::manuscript');
 
@@ -31,6 +40,10 @@ if (file_exists('data/people.xml')) {
 		}
 		// display results
 		listMSS($resultsSorted);
+
+		// download
+		print '<div class="text-secondary small mt-5">Download <a class="text-secondary" href="/data/people.xml">XML data</a> for people.</div>';
+
 	}
 	else {
 		// if no match, exit to general list

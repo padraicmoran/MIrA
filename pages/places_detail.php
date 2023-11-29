@@ -24,9 +24,9 @@ if (file_exists('data/places.xml')) {
 		// stable URL
 		print '<div class="text-secondary small mb-3">Stable URL: <a class="text-secondary" href="/places/' . $id . '">http://www.mira.ie/place/' . $id . '</a></div>';
 
-			print '<p>';
-		if ($place->xpath('name[@lang="de"]')) print 'German: ' . $place->xpath('name[@lang="de"]')[0] . '<br/>';
-		if ($place->xpath('name[@lang="la"]')) print 'Latin: ' . $place->xpath('name[@lang="la"]')[0] . '<br/>';
+		// other language versions
+		print '<p>';
+		writeTrans($place->xpath('name'));
 		print '</p>';
 
 		// if region: show sub-locations
@@ -51,6 +51,15 @@ if (file_exists('data/places.xml')) {
 			if ($priorPlace) print '<p>Part of region: <a href="' . getLink('places', $priorPlace[0]['id']) . '">' . $priorPlace[0]->name . '</a></p>';
 		}
 
+		// linked data
+		$links = $place->xpath('xref');
+		if (sizeof($links) > 0) {
+			print '<h3 class="mt-5">Linked data</h3>';
+			foreach ($links as $link) {
+				if ($link['type'] == 'pelagios') print '<a href="https://pleiades.stoa.org/places/' . $link . '">Pelagios</a>';
+			}
+		}
+
 ?>
 	</div>
 
@@ -60,7 +69,6 @@ if (file_exists('data/places.xml')) {
 ?>
 	</div>
 </div>
-
 
 <?php
 		// find related manuscripts
@@ -72,7 +80,6 @@ if (file_exists('data/places.xml')) {
 		$results = $xml_mss->xpath($xpath);
 		
 		if ($results) {
-
 			// sorting
 			// cannot sort a SimpleXML object, so transfer top-level objects into an array instead
 			$resultsSorted = array();
@@ -82,12 +89,25 @@ if (file_exists('data/places.xml')) {
 
 			// display results
 			listMSS($resultsSorted);
-
 		}
+
+		// download
+		print '<div class="text-secondary small mt-5">Download <a class="text-secondary" href="/data/places.xml">XML data</a> for places.</div>';
+
 	}
 	else {
 		// if no match, exit to general list
 		require('pages/places.php');
 	}
+}
+
+function writeTrans($arr) {
+foreach ($arr as $name) {
+	if (trim($name) <> '') {
+		if ($name['lang'] == 'la') print 'Latin: <i>' . $name . '</i><br/>';
+		if ($name['lang'] == 'de') print 'German: <i>' . $name . '</i><br/>';
+	}
+}
+
 }
 ?>

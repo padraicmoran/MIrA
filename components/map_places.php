@@ -80,8 +80,8 @@ mapPlaces.addControl(new L.Control.Fullscreen());
 	I hope to add other historical maps if they become available.
 </p>
 
-<p class="small">Places are grouped by modern rather than historical region, partly because of the fluidity of political boundaries during 
-	the period in question and partly because modern regions are often used for manuscripts localisations by Lowe and Bischoff. 
+<p class="small">Places are grouped by modern rather than historical regions, partly because of the fluidity of historical boundaries and
+	partly because modern regions are often used for manuscript localisations by Lowe and Bischoff. 
 	Regions are indicated on the map by larger, lighter circles.
 </p>
 
