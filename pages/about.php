@@ -34,12 +34,31 @@
 <li>More refined search options.</li>
 </ul>
 
-<h3 class="mt-5">Linked data</h3>
+<h3 class="mt-5">Linked open data</h3>
 
-<p>
+<p>This resource aims to conform as fully as possible to <a href="https://www.go-fair.org/fair-principles/">FAIR Principles</a>, making digital assets 
+Findable, Accessible, Interoperable, and Reuseable.
 </p>
 
+<ul>
+<li>Persistent URLs (URIs) are supplied to identify manuscripts, texts, people and places. 
+</li>
 
+<li>Wherever possible, data is linked to other Linked Open Data resources.
+</li>
+
+<li>All data is available to 
+   download in XML format (from this site and on <a href="https://github.com/padraicmoran/MIrA/tree/master/data">GitHub</a>).
+   </li>
+
+<li>Database may be reused under the following Creative Commons licence (click for details): </br>
+<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+<img style="width: 200px" src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-sa.png" alt="CC BY-NC-SA" />
+</a></li>
+
+<li>Work is in progress to make data accessible in machine-readable format (probably RDF).
+   </li>
+</ul>
 
 </div>
 
