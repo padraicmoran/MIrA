@@ -14,19 +14,22 @@
       <page_w>237</page_w>
       <script>Irish minuscule</script>
       <contents>
-      	<summary>Marius Victorinus, <i>Ars Grammatica</i>; <person id="isidore">Isidore</person> Iunior, <i>De Vitiis et Virtutibus</i></summary>
+      	<summary>Marius Victorinus; Consentius; Isidore Iunior</summary>
 			<msItem>
-				<locus>1ra–9rb</locus>
-				<author personID="Isidore_iunior">Isidore iunior Hispalensis</author>
+				<locus_from>1ra</locus_from>
+				<locus_to>9rb</locus_to>
+				<author personID="isidore_iunior">Isidore iunior Hispalensis</author>
 				<title textID="de_devitiis">De Vitiis</title>
 			</msItem>
 			<msItem>
-				<locus>9rb–15vb</locus>
+				<locus_from>9rb</locus_from>
+				<locus_to>15vb</locus_to>
 				<author personID="consentius">Consentius</author>
 				<title textID="de_barbarismis">De barbarismis et metaplasmis</title>
 			</msItem>
 			<msItem>
-				<locus>15rb–16vb</locus>
+				<locus_from>15rb</locus_from>
+				<locus_to>16vb</locus_to>
 				<author personID="victorinus">Victorinus</author>
 				<title textID="de_barbarismis">De soloecismo et barbarismo</title>
 			</msItem>

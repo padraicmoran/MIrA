@@ -19,6 +19,7 @@ require('components/map_places.php');
 require('components/mirador.php');
 require('components/network_graph.php');
 require('components/search_mss.php');
+
 $romNum = array('', 'I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X');
 $languages = array(
 	'en'=>'English',
@@ -27,7 +28,6 @@ $languages = array(
 	'gr'=>'Greek',
 	'la'=>'Latin'
 );
-
 
 if ($debug) {
 	ini_set('display_errors', 1);

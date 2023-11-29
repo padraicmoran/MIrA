@@ -9,7 +9,7 @@ if (file_exists('data/people.xml')) {
 
 ?>
 <div class="table-responsive-sm mt-4">
-<table class="table table-striped table-hover">
+<table class="table table-striped table-hover border-secondary">
 <thead>
 <tr>
 <th>Name</th>
@@ -41,4 +41,3 @@ if (file_exists('data/people.xml')) {
 }
 
 ?>
-

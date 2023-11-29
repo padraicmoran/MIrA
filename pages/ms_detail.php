@@ -81,7 +81,7 @@ if ($filter) {
 		print '<table class="table table-sm">';
 		foreach ($ms->description->contents->msItem as $item) {
 			print '<tr>';
-			print '<th style="padding-right: 20px; font-weight: normal; font-style: italic; ">' . $item->locus . '</th>';
+			print '<td>' . $item->locus_from . '–' . $item->locus_to . '</td>';
 			print '<td>' . $item->author . ', <i>' . $item->title . '</i></td>';
 			print '<tr>';
 		}
@@ -95,21 +95,23 @@ if ($filter) {
 	writeRow('Provenance', processData($ms->history->provenance->asXML()), '');
 
 
-	print '<tr><th colspan="2" ><h3 class="h3 mt-5">References</h3></th></tr>';
+	print '<tr><th colspan="2" ><h3 class="mt-5">References</h3></th></tr>';
 
 	// XML data distinguished by @type is queried using XPath and results are returned in an array.
 	// handeRowArray() checks array contents before sending contents to writeRow(); also allows for multiple rows.
 	// Where data needs custom presentation (CLA, Tresmegistos, Thes.), there is just a check for one array item.
 
-	handleRowArray('Alexander, <i>Insular Manuscripts</i>', $ms->xrefs->xpath('xref[@type="alexander"]'), '', '');
+	handleRowArray('CLA/ELMSS', $ms->xrefs->xpath('xref[@type="cla"]'), $ms->xrefs->xpath('xref[@type="cla"]/@href'), '', '');
 	handleRowArray('Bischoff, <i>SSB</i>', $ms->xrefs->xpath('xref[@type="bischoff_ssb"]'), '', '');
 	handleRowArray('Bischoff, <i>Katalog</i>', $ms->xrefs->xpath('xref[@type="bischoff_kat"]'), '', '');
-	handleRowArray('Bronner, <i>Verzeichnis</i>', $ms->xrefs->xpath('xref[@type="bronner"]'), '', '');
-	handleRowArray('CLA/ELMSS', $ms->xrefs->xpath('xref[@type="cla"]'), $ms->xrefs->xpath('xref[@type="cla"]/@href'), '', '');
-	handleRowArray('<abbr title="Descriptive Handlist of Breton Manuscripts">DHBM</abbr>', $ms->xrefs->xpath('xref[@type="dhbm"]'), $ms->xrefs->xpath('xref[@type="dhbm"]/@href'), '');
+	handleRowArray('Alexander, <i>Insular Manuscripts</i>', $ms->xrefs->xpath('xref[@type="alexander"]'), '', '');
 	handleRowArray('Foundations', $ms->xrefs->xpath('link[@type="foundations"]'), $ms->xrefs->xpath('link[@type="foundations"]/@href'), '', '');
-	if ($ms->xrefs->xpath('xref[@type="thesaurus"]'))  handleRowArray('<i>Thesaurus Pal.</i>', parseThesaurusRef($ms->xrefs->xpath('xref[@type="thesaurus"]')[0]), '', '');
+	handleRowArray('<abbr title="Descriptive Handlist of Breton Manuscripts">DHBM</abbr>', $ms->xrefs->xpath('xref[@type="dhbm"]'), $ms->xrefs->xpath('xref[@type="dhbm"]/@href'), '');
 	handleRowArray('McGurk, <i>Gospel Books</i>', $ms->xrefs->xpath('xref[@type="mcgurk"]'), '', '');
+	handleRowArray('Bronner, <i>Verzeichnis</i>', $ms->xrefs->xpath('xref[@type="bronner"]'), '', '');
+	if ($ms->xrefs->xpath('xref[@type="thesaurus"]'))  handleRowArray('<i>Thesaurus Palaeohibernicus</i>', parseThesaurusRef($ms->xrefs->xpath('xref[@type="thesaurus"]')[0]), '', '');
+	
+	print '<tr><th colspan="2" ><h3 class="h3 mt-5">Linked data resources	</h3></th></tr>';
 	handleRowArray('Tresmegistos', $ms->xrefs->xpath('xref[@type="tresmegistos"]'), $ms->xrefs->xpath('xref[@type="tresmegistos"]'), 'https://www.trismegistos.org/text/');
 	
 	if ($ms->notes->project_notes != '') {
@@ -208,6 +210,5 @@ function processData($str) {
 
 	return $str;
 }
-
 
 ?>

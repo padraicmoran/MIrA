@@ -7,13 +7,11 @@ function cleanInput($key) {
 	if (isset($_GET[$key])) return htmlspecialchars($_GET[$key], ENT_QUOTES, 'UTF-8');
 }
 
-
 // return appropriate number of noun (e.g. "1 child", "3 children")
 function switchSgPl($val, $sg, $pl) {
 	if ($val == 1) return $sg;
 	else return $pl;
 }
-
 
 // write a form select opion
 function writeOption($val, $label, $currentVal) {
@@ -45,6 +43,11 @@ function simpleText($str) {
 		
 	);
 	return strtr($str, $subs);
+}
+
+// strip out HTML tags
+function stripTags($str, $keepSome) {
+	return preg_replace('/<[^>]*?>/', '', $str);
 }
 
 ?>

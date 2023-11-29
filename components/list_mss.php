@@ -48,6 +48,7 @@ function listMSS($results) {
 	print '</select>';
 
 	print '</form>';
+
 ?>
 
 <div class="table-responsive-sm pt-2 pb-3">
@@ -75,20 +76,24 @@ function listMSS($results) {
 		$link = getLink('ms', $ms['id']);
 	
 		$libraryID = strval($ms->identifier['libraryID']);	
-		print '<tr style="cursor: pointer; " onclick="location.href=\''. $link . '\'">';
+		print '<tr style="cursor: pointer; " onclick="location.href=\''. $link . '\'">' . "\n";
 		print '<td>' . $libraries[$libraryID]['city'] . '</td>';
-		print '<td>' . $libraries[$libraryID]['name'] . '</a></td>';
+		print '<td>' . $libraries[$libraryID]['name'] . '</td>';
 
 		print '<td>' . $ms->identifier->shelfmark;
 		if ($ms->identifier->ms_name != '') print ' (' . $ms->identifier->ms_name . ')';
 		$i = count($ms->identifier);
-		if ($i > 1) print '<br><span class="rounded bg-warning small p-1"><b>+ ' . ($i - 1) . ' other ' . switchSgPl(($i - 1), 'unit', 'units') . '<span></b>';
+		if ($i > 1) print '<br><span class="rounded bg-warning small p-1"><b>+ ' . ($i - 1) . ' other ' . switchSgPl(($i - 1), 'unit', 'units') . '</b></span>';
 		print '</td>';
 
-		print '<td>' . preg_replace('/\[(\/{0,1}[a-z])\]/', '<\1>', $ms->description->contents->asXML()) . '</td>';
+		print '<td>';
+		if ($ms->description->contents->summary) print stripTags($ms->description->contents->summary->asXML(), true);
+		else print stripTags($ms->description->contents->asXML(), true);
+		print '</td>';
+
 		print '<td>' . $ms->description->script . '</td>';
 		print '<td>' . $ms->history->date_desc . '</td>';
-		print '<td>' . $ms->history->origin->asXML() . '</td>';
+		print '<td>' . stripTags($ms->history->origin->asXML(), true) . '</td>';
 //			print '<td>' . $ms->history->provenance . '</td>';
 
 		// categories
@@ -106,7 +111,7 @@ function listMSS($results) {
 		if (count($ms->identifier->xpath('link[@type="iiif"]')) > 0) print '<a href="'. $link . '"><img src="/images/iiif_logo.png" width="30" alt="Embedded IIIF images available" /></a>';
 		print '</td>';
 		print '<td><a href="'. $link . '"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#0e300e" class="" viewBox="0 0 16 16"><path d="M0 14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v12zm4.5-6.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5a.5.5 0 0 1 0-1z"/></svg></a></td>';
-		print '</tr>';
+		print '</tr>' . "\n";
 	}
 
 ?>

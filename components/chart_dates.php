@@ -58,7 +58,7 @@ function chartDates($data) {
 	
 
 	// chart
-	print '<h3 class="mt-5 pt-2">Manuscript dates (approx.)</h4>';
+	print '<h3 class="mt-5 pt-2">Manuscript dates (approx.)</h3>';
 	print '<svg width="100%" height="280" style="border: none;">';
 
 	// write axes

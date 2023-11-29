@@ -3,60 +3,94 @@
 Network graph
 */
 function networkGraph($results) {
-  global $placeInfo;
+  global $placeInfo, $libraries;
 
   print '<h3 class="mt-5 pt-2">Network graph</h3>';
+  if (sizeof($results) > 50) print '<p class="bg-warning rounded py-1 px-3">Large result sets may take several seconds to draw.</p>';
 
   /* PREPARE DATA
   */
 
   // set up some blank arrays
-  $placeList = array();
-  $edgeFrom = $edgeTo = $edgeTypes = array();
+  $nodeList = array();    // containing arrays [id, label, x, y, type]
+  $edgeList = array();    // containing arrays [from, to, type]
+  $place_list = array();
+  $library_list = array();
 
-  // find all place IDs in this result set
-  // add unique IDs to a unique list (will be nodes later)
-  // create an edge record for each one
-  
+  // cycle through MSS in this result set
   foreach($results as $ms) {
     $msID = strval($ms['id']);
-    $edgeAssigned = false;
 
-    // check for places and retrieve IDs
-    // check if this MS links to one or more origin places
+    // add a node for this MS
+    array_push($nodeList, array(
+      $msID, 
+      makeMsHeading($ms),
+      null, 
+      null, 
+      'ms'
+    ));
+
+    // check origin place(s) for this manuscript
     $checkOriginPlaces = $ms->xpath ('//manuscript[@id="' . $msID  . '"]//origin/place/@id');
-    foreach ($checkOriginPlaces as $placeFound) {
-      $placeID = strval($placeFound['id']);
-      // add ID to place list if new
-      if (! in_array($placeID, $placeList)) array_push($placeList, $placeID);
-      // build edge list
-      array_push($edgeFrom, $placeID);
-      array_push($edgeTo, $msID);
-      array_push($edgeTypes, 'origin');
-      $edgeAssigned = true;
-    }
-      
-    // check if this MS links to one or more provenance places
-    $checkProvPlaces = $ms->xpath ('//manuscript[@id="' . $msID  . '"]//provenance/place/@id'); // don't understand why this works! expect //place/@id, but no results
-    foreach ($checkProvPlaces as $placeFound) {
-      $placeID = strval($placeFound['id']);
-      // add to list if new
-      if (! in_array($placeID, $placeList)) array_push($placeList, $placeID);
-      // build edge list
-      array_push($edgeFrom, $msID);
-      array_push($edgeTo, $placeID);
-      array_push($edgeTypes, 'prov');
-      $edgeAssigned = true;
+    foreach ($checkOriginPlaces as $place) {
+      // add to list
+      array_push($place_list, strval($place['id'])); 
+      // add edge
+      array_push($edgeList, array($msID, $place['id'], 'origin'));
     }
 
-    // find MSS without a place assigned; assigned them to fake place "ubique"
-    // (if not linked to a fixed node, they will drift far away)
-    if (! $edgeAssigned) {
-      array_push($edgeFrom, $msID);
-      array_push($edgeTo, 'ubique');
-      array_push($edgeTypes, 'hidden');
+    // check provenance place(s) for this manuscript
+    $checkProvPlaces = $ms->xpath ('//manuscript[@id="' . $msID  . '"]//provenance/place/@id');
+    foreach ($checkProvPlaces as $place) {
+      // add to list
+      array_push($place_list, strval($place['id']));  
+      // add edge
+      array_push($edgeList, array($msID, $place['id'], 'prov'));
     }
+/*
+    // DISABLING LIBRARY NODES UNTIL FURTHER TESTING
+
+    // check libraries for this manuscript
+    $checkLibraries = $ms->xpath ('//manuscript[@id="' . $msID  . '"]//identifier/@libraryID');
+    foreach ($checkLibraries as $libID) {
+      // add to list
+      array_push($library_list, strval($libID));
+      // add edge
+      array_push($edgeList, array($msID, 'library_' . strval($libID), 'prov'));
+    }
+*/
   }
+
+  // create node data for places
+  $place_list = array_unique($place_list);        // remove duplicates
+  foreach ($place_list as $placeID) {
+    $type = 'place';
+    if ($placeInfo[$placeID]['type'] == 'region') $type = 'region';
+    $coords = processCoords($placeInfo[$placeID]['coords']);
+    array_push($nodeList, array(
+      $placeID, 
+      $placeInfo[$placeID]['name'],
+      $coords[0], 
+      $coords[1], 
+      $type
+    ));
+  }
+/*
+  // create node data for libraries
+  $library_list = array_unique($library_list);        // remove duplicates
+  foreach ($library_list as $libID) {
+    $type = 'place';
+    $coords = processCoords($libraries[$libID]['coords']);
+    array_push($nodeList, array(
+      'library_' . $libID, 
+      'L: ' . $libID,
+      $coords[0], 
+      $coords[1], 
+      'library'
+    ));
+  }
+*/
+
 
 ?>
 
@@ -64,7 +98,7 @@ function networkGraph($results) {
 <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
 
 <!-- custom control buttons -->
-<div class="float-end">
+<div id="customButtons" class="float-end">
 <button id="btnToggleFixed" class="btn btn-secondary" onclick="toggleFixed(this); ">Geo-locations</button>
 <button class="btn btn-secondary" onclick="redraw(); ">Redraw</button>
 <button class="btn btn-secondary" onclick="fullScreen(document.getElementById('networkGraph'));">Full screen</button>
@@ -74,10 +108,9 @@ function networkGraph($results) {
 Double-click a node to see full details.
 </p>
 
+<!-- canvas -->
 <div id="networkGraph" class="border border-secondary rounded shadow bg-light" style="height: 480px; ">
-Test
 </div>
-
 
 <script type="text/javascript">
 
@@ -85,77 +118,22 @@ var fixed = true;
 
 // create an array with nodes
 var nodes = new vis.DataSet([
-
 <?php
-
-  /* OUTPUT DATA
-  */
-  
-  // hidden node for MSS without location (if needed)
-  if (in_array('hidden', $edgeTypes)) {
-  print '{ id: "ubique", 
-    label: "Not yet assigned", 
-    shape: "box", 
-    color: "grey",
-    x: -1100, y: 0, fixed: { x: false, y: false },
-    category: "place" 
-    }, ';
-  }
-
-  // write nodes for MSS
-  foreach ($results as $ms) {
-    print '{ id: ' . $ms['id'] . ', 
-      label: "' . $ms['id'] . '", 
-      title: "' . makeMsHeading($ms) . '", 
-      shape: "circle", 
-      color: "darkred", 
-      url: "/' . $ms['id'] . '",
-      category: "ms"
-    },' . "\n";
-  }
-
-  // write nodes for places
-  foreach ($placeList as $place) {
-
-    // handle map coords
-    $coords = explode(',', $placeInfo[$place]['coords']);
-    $x = $coords[1] * 150;
-    $y = ($coords[0] * -200) + 9400;
-    $geoInfo = 'x: ' . $x . ', y: ' . $y . ', fixed: { x: true, y: true  }, ';
-
-    $regionAttributes = '';
-    if ($placeInfo[$place]['type'] == 'region') $regionAttributes = 'font: { size: 46 }, ';
-    
-    print '{ id: "' . $place . '", 
-      label: "' . $placeInfo[$place]['name'] . '", 
-      shape: "box", 
-      color: "green", 
-      ' . $geoInfo . ' 
-      ' . $regionAttributes . '
-      url: "/places/' . $place . '",
-      category: "place"
-    },' . "\n";
+  // write nodes
+  foreach ($nodeList as $node) {
+    print nodeString($node);
   }
 ?>
 ]);
 
 // create an array with edges
 var edges = new vis.DataSet([
-
 <?php
-  for ($n = 0; $n < count($edgeFrom); $n++) {
-    if ($edgeTypes[$n] == 'origin') {
-      print '{ from: "' . $edgeFrom[$n] . '", to: "' . $edgeTo[$n] . '", color: "black", width: 2 },' . "\n";
-    }  
-    elseif ($edgeTypes[$n] == 'prov') {
-      print '{ from: "' . $edgeFrom[$n] . '", to: "' . $edgeTo[$n] . '", arrows: "to", color: "blue", width: 2 },' . "\n";
-    }
-    else {  // hidden edges
-      print '{ from: "' . $edgeFrom[$n] . '", to: "' . $edgeTo[$n] . '", hidden: true  },' . "\n";
-    }
+  // write edges
+  foreach ($edgeList as $edge) {
+    print edgeString($edge);
   }
 ?>
-
 ]);
 
 // create the network object
@@ -182,7 +160,11 @@ var options = {
   }
 };
 var network = new vis.Network(container, data, options);
+
+// turn off geo-locations on load; this results in a loose network, but stil with some geographical representation
 toggleFixed(document.getElementById('btnToggleFixed'));
+
+// custom actions
 
 // go to link on double click
 network.on('doubleClick', function (params) {
@@ -193,9 +175,7 @@ network.on('doubleClick', function (params) {
   }
 });
 
-
-// custom actions
-
+// toggle fixed geo-locations
 function toggleFixed(el) {
   if (fixed) {
     nodes.forEach(fixedOff);
@@ -208,9 +188,7 @@ function toggleFixed(el) {
     el.innerHTML = 'Geo-locations: on';
     redraw();
   }
-//  network.redraw();
 }
-
 function fixedOn(thisNode) {
   if (thisNode.category = 'place') {
     nodes.update({ id: thisNode.id, fixed: { x: true, y: true } });
@@ -226,10 +204,6 @@ function redraw() {
   network = new vis.Network(container, data, options);
 }
 
-</script>
-
-<script type="text/javascript">
-
 function fullScreen(el) {
   if (el.requestFullscreen) el.requestFullscreen();
   else if (el.webkitRequestFullscreen) el.webkitRequestFullscreen(); /* Safari */
@@ -241,4 +215,99 @@ function fullScreen(el) {
 
 <?php
 }
+
+// take coords string and return x, y values, adjusted for graph canvas
+function processCoords($strCoords) {
+  $coords = explode(',', $strCoords);
+  if (sizeof($coords) == 2) {
+    $x = $coords[1] * 150;
+    $y = ($coords[0] * -200) + 9400;
+  }
+  else {
+    $x = $y = null;
+  }
+  return array($x, $y);
+}
+
+// return a JavaScript object sting for each node
+function nodeString($node) {
+  switch($node[4]) {
+    case 'ms':
+      $str = '{
+        id: "' . $node[0] . '", 
+        label: "' . $node[0]  . '", 
+        title: "' . $node[1]  . '", 
+        shape: "circle", 
+        color: "darkred", 
+        url: "/' . $node[0] . '",
+        category: "ms"
+      },' . "\n";
+      break;
+    case 'place':
+    case 'region':
+      if ($node[4] == 'region') $fontSize = 45;
+      else $fontSize = 30;
+      $str = '{
+        id: "' . $node[0] . '", 
+        label: "' . $node[1]  . '", 
+        shape: "box", 
+        color: "green", 
+        url: "/places/' . $node[0] . '",
+        x: ' . $node[2] . ',
+        y: ' . $node[3] . ',
+        fixed: { x: true, y: true },
+        category: "place",
+        font: { size: ' . $fontSize . '}
+      },' . "\n";
+      break;
+    case 'library':
+        $str = '{
+          id: "' . $node[0] . '", 
+          label: "' . $node[1]  . '", 
+          shape: "box", 
+          color: "indianred", 
+          url: "/????/' . $node[0] . '",
+          x: ' . $node[2] . ',
+          y: ' . $node[3] . ',
+          fixed: { x: true, y: true },
+          category: "place"
+        },' . "\n";
+        break;
+    default:
+      $str = '';
+  }
+  return $str;
+
+}
+
+// return a JavaScript object string for each edge
+function edgeString($edge) {
+  switch($edge[2]) {
+    case 'origin':
+        $str = '{
+          from: "' . $edge[0] . '", 
+          to: "' . $edge[1] . '",
+          color: "black", 
+          width: 2
+        },' . "\n";
+        break;
+    case 'prov':
+        $str = '{
+          from: "' . $edge[0] . '", 
+          to: "' . $edge[1] . '",
+          arrows: "to", 
+          color: "blue", 
+          width: 2
+        },' . "\n";
+        break;
+    default: // hidden edges
+      $str = '{ 
+        from: "' . $edge[0] . '", 
+        to: "' . $edge[1] . '",
+        hidden: true
+      },' . "\n";
+    }
+  return $str;
+}
+
 ?>
