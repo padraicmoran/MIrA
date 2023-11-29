@@ -6,24 +6,28 @@ Temporary data structure for testing purposes.
    <person id="ambrose">
       <firstNames>Ambrose</firstNames>
       <surname></surname>
-      <lifetime from="" to=""></lifetime>
+      <lifetime from="" to="397"></lifetime>
+      <xref type="viaf">https://viaf.org/viaf/100227669</xref>
    </person>
    <person id="augustine">
       <firstNames>Augustine</firstNames>
       <surname></surname>
-      <lifetime from="" to=""></lifetime>
+      <lifetime from="354" to="430"></lifetime>
+      <xref type="viaf">https://viaf.org/viaf/66806872</xref>
    </person>
    <person id="dungal">
       <firstNames>Dúngal</firstNames>
       <surname></surname>
-      <lifetime from="" to=""></lifetime>
+      <lifetime from="" to="827"></lifetime>
       <xref type="dib">dungal-a2840</xref>
+      <xref type="viaf">https://viaf.org/viaf/431148995952359751002</xref>
    </person>
    <person id="eriugena">
       <firstNames>John </firstNames>
       <surname>Scottus/Eriugena</surname>
-      <lifetime from="" to=""></lifetime>
+      <lifetime from="c. 810" to="c. 877"></lifetime>
       <xref type="dib">john-scottus-eriugena-a4287</xref>
+      <xref type="viaf">https://viaf.org/viaf/90633393</xref>
    </person>
    <person id="i2">
       <firstNames>i2</firstNames>
@@ -33,29 +37,34 @@ Temporary data structure for testing purposes.
    <person id="isidore">
       <firstNames>Isidore</firstNames>
       <surname></surname>
-      <lifetime from="" to=""></lifetime>
+      <lifetime from="c. 560" to="636"></lifetime>
+      <xref type="viaf">https://viaf.org/viaf/803890</xref>
    </person>
    <person id="jerome">
       <firstNames>Jerome</firstNames>
       <surname></surname>
-      <lifetime from="" to=""></lifetime>
+      <lifetime from="c. 345" to="419/420"></lifetime>
+      <xref type="viaf">https://viaf.org/viaf/95147024</xref>
    </person>
    <person id="martin">
       <firstNames>Martin</firstNames>
       <surname>of Laon, Hiberniensis</surname>
-      <lifetime from="" to=""></lifetime>
+      <lifetime from="c. 819" to="875"></lifetime>
       <xref type="dib">martinus-martin-hiberniensis-a5470</xref>
+      <xref type="viaf">https://viaf.org/viaf/32388741</xref>
    </person>
    <person id="sedulius">
       <firstNames>Sedulius</firstNames>
       <surname>Scottus</surname>
-      <lifetime from="" to=""></lifetime>
+      <lifetime from="" to="c. 860"></lifetime>
       <xref type="dib">sedulius-scottus-irishman-a7969</xref>
+      <xref type="viaf">https://viaf.org/viaf/3266445</xref>
    </person>
    <person id="virgil_salzburg">
       <firstNames>Virgil</firstNames>
       <surname>of Salzburg</surname>
-      <lifetime from="" to=""></lifetime>
+      <lifetime from="" to="784"></lifetime>
       <xref type="dib">virgil-virgilius-fergil-a3043</xref>
+      <xref type="viaf">https://viaf.org/viaf/231969178</xref>
    </person>
 </document>

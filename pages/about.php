@@ -32,9 +32,14 @@
 
 <ul>
 <li>More refined search options.</li>
-<li>Map showing places of origin (probably by region).</li>
-<li>Various visualisations are planned, but will require some experimentation.</li>
 </ul>
+
+<h3 class="mt-5">Linked data</h3>
+
+<p>
+</p>
+
+
 
 </div>
 

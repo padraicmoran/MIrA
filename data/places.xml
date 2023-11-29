@@ -14,111 +14,121 @@
       <name>France</name>
       <description></description>
       <coords>48.403978, 4.710193</coords>
-
+      <xref type="viaf">https://viaf.org/viaf/264091107</xref>
+      
       <place id="auxerre">
          <name>Auxerre</name>
          <name lang="la">Autessiodurum</name>
          <description>Israel (perhaps AS, cf. Lapidge). Murethach (cf. Holtz).</description>
          <coords>47.797474,3.574677</coords>
-         <xref type="pelagios">138206</xref>
+         <xref type="pleiades">https://pleiades.stoa.org/places/138206</xref>
+         <xref type="viaf">https://viaf.org/viaf/146572630</xref>
       </place>
       <place id="corbie">
          <name>Corbie</name>
          <name lang="la">Corbeia</name>
          <description>Founded from Luxeuil, c. 660. Associated with Péronne.</description>
          <coords>49.912325,2.491837</coords>
+         <xref type="viaf">https://viaf.org/viaf/136479127</xref>
       </place>
       <place id="fleury">
          <name>Fleury</name>
          <name lang="la">Floriacum</name>
          <description>7th cent. Burned by Vikings in 865. Height until Abbo (d. 1004). Extensive library dispersed in 1562. Today Saint-Benoît-sur-Loire.</description>
          <coords>47.810464,2.306024</coords>
+         <xref type="viaf">https://viaf.org/viaf/136075721</xref>
       </place>
       <place id="laon">
          <name>Laon</name>
          <name lang="la">Laudunum (Lao-, Lo-; Laudunensis urbs, Lugdunum clavatum)</name>
          <description>Cathedral school. Martinus. Elias. </description>
          <coords>49.564415,3.624115</coords>
-         <xref type="pelagios">109101</xref>
+         <xref type="pleiades">https://pleiades.stoa.org/places/109101</xref>
+         <xref type="viaf">https://viaf.org/viaf/151286310</xref>
       </place>
       <place id="luxeuil">
          <name>Luxeuil</name>
          <name lang="la">Luxovium</name>
          <description>590. Founded from Annegray.</description>
          <coords>47.8166493, 6.3821879</coords>
-         <xref type="pelagios">591471665</xref>
+         <xref type="pleiades">https://pleiades.stoa.org/places/591471665</xref>
+         <xref type="viaf">https://viaf.org/viaf/155629701</xref>
       </place>
       <place id="lyon">
          <name>Lyon</name>
          <name lang="la">Leona, Lugdunum</name>
          <description>Cathedral school. Bishop Agobard, deacon Florus, 9th cent.</description>
          <coords>45.767299,4.834329</coords>
-         <xref type="pelagios">167717</xref>
+         <xref type="pleiades">https://pleiades.stoa.org/places/167717</xref>
+         <xref type="viaf">https://viaf.org/viaf/14144648224320957598</xref>
       </place>
       <place id="paris">
          <name>Paris</name>
          <name lang="la"></name>
          <description></description>
          <coords>48.8534,2.3488</coords>
-         <xref type="pelagios">109126</xref>
+         <xref type="pleiades">https://pleiades.stoa.org/places/109126</xref>
+         <xref type="viaf">https://viaf.org/viaf/158822968</xref>
       </place>
       <place id="peronne">
          <name>Péronne</name>
          <name lang="la">Peronna</name>
          <description>Fursa buried here by Erchinoald, mayor of Neustria.</description>
          <coords>49.92824,2.931976</coords>
+         <xref type="viaf">https://viaf.org/viaf/123260797</xref>
       </place>
       <place id="reims">
          <name>Reims</name>
          <name lang="la">Remi civitas</name>
          <description>Cathedral school. Centre for Eriugena. Dunchad. Hincmar archbiship from 845.</description>
          <coords>49.256602,4.032669</coords>
-         <xref type="pelagios">108945</xref>
+         <xref type="pleiades">https://pleiades.stoa.org/places/108945</xref>
+         <xref type="viaf">https://viaf.org/viaf/126609525</xref>
       </place>
       <place id="saint-amand">
          <name>Saint-Amand</name>
          <name lang="la"></name>
          <description></description>
          <coords>50.449722, 3.428611</coords>
+         <xref type="viaf">https://viaf.org/viaf/168044483</xref>
       </place>
       <place id="saint-denis">
          <name>Saint-Denis</name>
          <name lang="la">Dionysianum</name>
          <description>Oratory for martyr St Geneviève from 5th cent., in memory of Bishop Dionysius of Paris. Monastery made a religious centre of kingdom by Childebert, c. 550. Abbot Hilduin made first trans. of Dionysiac works received in 827. Dúngal.</description>
          <coords>48.936065,2.364883</coords>
+         <xref type="viaf">https://viaf.org/viaf/126179587</xref>
       </place>
       <place id="soissons">
          <name>Soissons</name>
          <name lang="la">Augusta Suessionum, Suessonae</name>
          <description>School, associated with Eriugena.</description>
          <coords>49.381032,3.32448</coords>
-         <xref type="pelagios">108772</xref>
+         <xref type="pleiades">https://pleiades.stoa.org/places/108772</xref>
+         <xref type="viaf">https://viaf.org/viaf/150707604</xref>
       </place>
       <place id="strasbourg">
          <name>Strasbourg</name>
          <name lang="la"></name>
          <description></description>
          <coords>48.583333,7.755833</coords>
+         <xref type="viaf">https://viaf.org/viaf/150696197</xref>
       </place>
       <place id="tours">
          <name>Tours</name>
          <name lang="la">Augusta Turonum, Turonica civitas, etc.</name>
          <description>Alcuin abbot 796–804.</description>
          <coords>47.390294,0.688851</coords>
-         <xref type="pelagios">138255</xref>
-      </place>
-      <place id="trier">
-         <name>Trier</name>
-         <name lang="la">Augusta Treverorum</name>
-         <description>Episcopal school, scriptorium.</description>
-         <coords>49.753735,6.646247</coords>
-         <xref type="pelagios">108894</xref>
+         <xref type="pleiades">https://pleiades.stoa.org/places/138255</xref>
+         <xref type="viaf">https://viaf.org/viaf/124287031</xref>
       </place>
       <place id="verdun">
          <name>Verdun</name>
-         <name lang="la">Verodunum</name>
+         <name lang="la">Viriodunum, Verodunum</name>
          <description><![CDATA[Psalter of Sedulius, Bibl. de l'Arsenal	8407.]]></description>
          <coords>49.174522,5.383301</coords>
+         <xref type="pleiades">https://pleiades.stoa.org/places/138255</xref>
+         <xref type="viaf">https://viaf.org/viaf/124087015</xref>
       </place>
    </place>
 
@@ -127,62 +137,80 @@
       <name>Germany</name>
       <description></description>
       <coords>49.107504, 9.905002</coords>
+      <xref type="viaf">https://viaf.org/viaf/189116956</xref>
    
       <place id="augsburg">
          <name>Augsburg</name>
          <name lang="la">Augusta Vindelicum, Aelia Augusta</name>
          <description>Bishopric</description>
          <coords>48.368889, 10.897778</coords>
-         <xref type="pelagios">118580</xref>
+         <xref type="pleiades">https://pleiades.stoa.org/places/118580</xref>
+         <xref type="viaf">https://viaf.org/viaf/153139306</xref>
       </place>
       <place id="freising">
          <name>Freising</name>
          <name></name>
          <description></description>
          <coords>48.5, 11.83</coords>
+         <xref type="viaf">https://viaf.org/viaf/153624368</xref>
       </place>
       <place id="fulda">
          <name>Fulda</name>
          <name lang="la">Fuldense coen.</name>
          <description>First important Carolingian school after court school; Hrabanus Maurus student of Alcuin at Tours. Founded by St Sturm 744, pupil of Boniface.</description>
          <coords>50.553744,9.67432</coords>
+         <xref type="viaf">https://viaf.org/viaf/146057689</xref>
       </place>
       <place id="fussen">
          <name>Füssen</name>
          <name lang="la"></name>
          <description></description>
          <coords>47.5857813,10.6199995</coords>
+         <xref type="viaf">https://viaf.org/viaf/157108934</xref>
       </place>
       <place id="mainz">
          <name>Mainz</name>
-         <name lang="la">Mog0ntiacum</name>
+         <name lang="la">Mogontiacum</name>
          <description>Episcopal school, scriptorium. Boniface archbishop c. 739. Martianus Scotus, banished from Moville, wrote Chronicle of World History.</description>
          <coords>49.995123,8.267426</coords>
-         <xref type="pelagios">109169</xref>
+         <xref type="pleiades">https://pleiades.stoa.org/places/109169</xref>
+         <xref type="viaf">https://viaf.org/viaf/155482669</xref>
       </place>
       <place id="regensburg">
          <name>Regensburg</name>
          <name lang="la">Reginum, Castra Regina</name>
          <description>Marianus (Muredach mac Robartaig), 1067.</description>
          <coords>49.016491,12.100904</coords>
-         <xref type="pelagios">118929</xref>
+         <xref type="pleiades">https://pleiades.stoa.org/places/118929</xref>
+         <xref type="viaf">https://viaf.org/viaf/233767411</xref>
       </place>
       <place id="reichenau">
          <name>Reichenau</name>
          <name lang="la">Augia insula</name>
          <description>Founded 724 (St Pirmin). Walahfried Strabo abbot, 838.</description>
          <coords>47.688966,9.063721</coords>
+         <xref type="viaf">https://viaf.org/viaf/158361712</xref>
+      </place>
+      <place id="trier">
+         <name>Trier</name>
+         <name lang="la">Augusta Treverorum</name>
+         <description>Episcopal school, scriptorium.</description>
+         <coords>49.753735,6.646247</coords>
+         <xref type="pleiades">https://pleiades.stoa.org/places/108894</xref>
+         <xref type="viaf">https://viaf.org/viaf/135701727</xref>
       </place>
       <place id="werden">
          <name>Werden</name>
          <name lang="la"></name>
          <coords>51.3876159,6.9699084</coords>
+         <xref type="viaf">https://viaf.org/viaf/159450192</xref>
       </place>
       <place id="wurzburg">
          <name>Würzburg</name>
          <name lang="la">Vurceburgum, Wirceburgum, Herbipolis</name>
          <description>Cillian (Kilian), killed c. 689.</description>
          <coords>49.793677,9.926834</coords>
+         <xref type="viaf">https://viaf.org/viaf/145418613</xref>
       </place>
    </place>
 
@@ -193,7 +221,8 @@
       <name>Ireland</name>
       <description></description>
       <coords>53.416667, -8</coords>
-      <xref type="pelagios">20487</xref>
+      <xref type="pleiades">https://pleiades.stoa.org/places/20487</xref>
+      <xref type="viaf">https://viaf.org/viaf/158208597/</xref>
    </place>
 
 
@@ -202,17 +231,20 @@
       <name>Italy</name>
       <description></description>
       <coords>43, 12</coords>
+      <xref type="viaf">https://viaf.org/viaf/152361066</xref>
 
 		<place id="bobbio">
 		   <name lang="en">Bobbio</name>
 		   <name lang="la">Bobbium</name>
 		   <coords>44.770624,9.385757</coords>
+         <xref type="viaf">https://viaf.org/viaf/153577673</xref>
 		</place>
 		<place id="verona">
 		   <name>Verona</name>
 		   <description>Episcopal school, scriptorium.</description>
 		   <coords>45.442006,10.995485</coords>
-         <xref type="pelagios">383816</xref>
+         <xref type="pleiades">https://pleiades.stoa.org/places/383816</xref>
+         <xref type="viaf">https://viaf.org/viaf/140704516</xref>
 		</place>
    </place>
 
@@ -220,40 +252,43 @@
       <name>Switzerland</name>
       <description></description>
       <coords>46.833333, 8.333333</coords>
+      <xref type="viaf">https://viaf.org/viaf/154323889</xref>
 
 		<place id="stgall">
 		   <name lang="en">St Gall</name>
 		   <name lang="de">Sankt Gallen</name>
 		   <name lang="la">Sanctogallum</name>
 		   <coords>47.423195,9.37667</coords>
+         <xref type="viaf">https://viaf.org/viaf/127834916</xref>
 		</place>
    </place>
 
 
 
 
-	<!-- cities/monasteries -->
+	<!-- cities/monasteries, unsorted -->
 
       <place id="canterbury">
          <name>Canterbury</name>
          <name lang="la">Cantuaria, Durrovernum</name>
          <description><![CDATA[Augustine 597. Theodore & Hadrian 669.]]></description>
          <coords>51.279656,1.083194</coords>
-         <xref type="pelagios"></xref>
+         <xref type="viaf">https://viaf.org/viaf/235007026</xref>
       </place>
       <place id="echternach">
          <name>Echternach</name>
          <name lang="la">Epternacum</name>
          <description>Founded by Willibrord, 698.</description>
          <coords>49.812872,6.42213</coords>
-         <xref type="pelagios"></xref>
+         <xref type="viaf">https://viaf.org/viaf/129107376</xref>
       </place>
       <place id="salzburg">
          <name>Salzburg</name>
          <name lang="la">Iuvavum, Salina</name>
          <description>Vergil.</description>
          <coords>47.800472,13.044376</coords>
-         <xref type="pelagios">187432</xref>
+         <xref type="pleiades">https://pleiades.stoa.org/places/187432</xref>
+         <xref type="viaf">https://viaf.org/viaf/143061561</xref>
       </place>
    <!--
 

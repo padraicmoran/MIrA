@@ -21,6 +21,15 @@ if (file_exists('data/texts.xml')) {
 		// stable URL
 		print '<div class="text-secondary small">Stable URL: <a class="text-secondary" href="/text/' . $id . '">http://www.mira.ie/texts/' . $id . '</a></div>';
 
+		// linked data
+		$links = $text->xpath('xref');
+		if (sizeof($links) > 0) {
+			print '<h3 class="mt-5">Linked data</h3>';
+			foreach ($links as $link) {
+				if ($link['type'] == 'viaf') print '<a href="' . $link . '">VIAF</a><br/>';
+			}
+		}
+
 		// find related manuscripts
 		$results = $xml_mss->xpath('//text[@id="' . $id . '"]/ancestor::manuscript');
 

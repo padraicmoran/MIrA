@@ -18,7 +18,7 @@ if (file_exists('data/places.xml')) {
 <?php
 
 		print '<h2>';
-		print '<a class="text-reset" href="' . $linkBack . '">Places</a>: ';
+		print '<a class="text-reset" href="' . $linkBack . '">Places</a> ‣ ';
 		print $place->name . '</h2>';
 
 		// stable URL
@@ -56,7 +56,8 @@ if (file_exists('data/places.xml')) {
 		if (sizeof($links) > 0) {
 			print '<h3 class="mt-5">Linked data</h3>';
 			foreach ($links as $link) {
-				if ($link['type'] == 'pelagios') print '<a href="https://pleiades.stoa.org/places/' . $link . '">Pelagios</a>';
+				if ($link['type'] == 'pleiades') print '<a href="' . $link . '">Pleiades</a><br/>';
+				if ($link['type'] == 'viaf') print '<a href="' . $link . '">VIAF</a><br/>';
 			}
 		}
 

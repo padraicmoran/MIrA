@@ -110,8 +110,6 @@ if ($filter) {
 	handleRowArray('McGurk, <i>Gospel Books</i>', $ms->xrefs->xpath('xref[@type="mcgurk"]'), '', '');
 	handleRowArray('Bronner, <i>Verzeichnis</i>', $ms->xrefs->xpath('xref[@type="bronner"]'), '', '');
 	if ($ms->xrefs->xpath('xref[@type="thesaurus"]'))  handleRowArray('<i>Thesaurus Palaeohibernicus</i>', parseThesaurusRef($ms->xrefs->xpath('xref[@type="thesaurus"]')[0]), '', '');
-	
-	print '<tr><th colspan="2" ><h3 class="h3 mt-5">Linked data resources	</h3></th></tr>';
 	handleRowArray('Tresmegistos', $ms->xrefs->xpath('xref[@type="tresmegistos"]'), $ms->xrefs->xpath('xref[@type="tresmegistos"]'), 'https://www.trismegistos.org/text/');
 	
 	if ($ms->notes->project_notes != '') {
@@ -119,6 +117,8 @@ if ($filter) {
 		print '<tr><td colspan="2">' . processData($ms->notes->project_notes->asXML()) . '</td></tr>';
 	}
 	print '</table>';
+
+	print '<div class="mt-5">Full details for the references above can be found on the <a href="/about">About</a> page.</div>';
 
 	// library map
 	if ($libraries[$libraryID]['coords'] != '') {
