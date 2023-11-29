@@ -34,7 +34,7 @@ mapLibraries($xml_mss);
 <ul>
 <li>Inline display of manuscript images.</li>
 <li>Inclusion of information from library websites (where provided).</li>
-<li>Viewing different manuscripts side-by-side. See e.g. 
+<li>Viewing different manuscripts side-by-side, including manuscripts now divided between different libraries, e.g. 
 	the <a href="205">Durham Gospel fragment</a>, 
 	<a href="030">Eutyches binding fragment</a>,
 	<a href="173">Fleury grammatical miscellany</a>, 
@@ -71,13 +71,13 @@ Findable, Accessible, Interoperable, and Reuseable.
 <li>Wherever possible, data is linked to other Linked Open Data resources.
 </li>
 
-<li>Data may be reused under the following Creative Commons licence: </br>
-<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
-<img class="mb-2" style="width: 200px" src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-sa.png" alt="CC BY-NC-SA" />
-</a></li>
+<li>Data may be reused under the <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons BY-NC-SA 4.0</a> licence.: </br>
+</li>
 
 <li>Work is in progress to make data accessible in machine-readable format (probably RDF).
-   </li>
+</li>
 </ul>
+
+<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img class="mb-2" style="width: 200px" src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-sa.png" alt="CC BY-NC-SA" /></a>
 
 </div>
