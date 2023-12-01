@@ -1,5 +1,5 @@
 <?php
-require('includes/application.php');
+require 'includes/application.php';
 
 // get inputs
 $page = cleanInput('page') ?? '';
@@ -10,32 +10,32 @@ $search = cleanInput('search') ?? '';
 if (isset($xml_mss)) {
 	if ($page == 'mss') {
 		templateTop(1);
-		if ($id != '') require('pages/ms_detail.php');
-		else require('pages/mss.php');
+		if ($id != '') require 'pages/ms_detail.php';
+		else require 'pages/mss.php';
 	}
 	elseif ($page == 'texts') {
 		templateTop(2);
-		if ($id != '') require('pages/texts_detail.php');
-		else require('pages/texts.php');
+		if ($id != '') require 'pages/texts_detail.php';
+		else require 'pages/texts.php';
 	}
 	elseif ($page == 'people') {
 		templateTop(3);
-		if ($id != '') require('pages/people_detail.php');
-		else require('pages/people.php');
+		if ($id != '') require 'pages/people_detail.php';
+		else require 'pages/people.php';
 	}
 	elseif ($page == 'places') {
 		templateTop(4);
-		if ($id != '') require('pages/places_detail.php');
-		else require('pages/places.php');
+		if ($id != '') require 'pages/places_detail.php';
+		else require 'pages/places.php';
 	}
 	elseif ($page == 'about') {
 		templateTop(5);
-		require('pages/about.php');
+		require 'pages/about.php';
 	}
 	else {	
 		// home page (in the last resort)
 		templateTop(0);
-		require('pages/home.php');
+		require 'pages/home.php';
 	}
 }
 else {

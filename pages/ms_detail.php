@@ -131,7 +131,7 @@ if ($filter) {
 }
 else {
 	print '<!-- MS not found -->';
-	require('pages/home.php');
+	require 'pages/home.php';
 }
 
 

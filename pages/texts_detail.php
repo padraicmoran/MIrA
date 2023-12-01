@@ -49,7 +49,7 @@ if (file_exists('data/texts.xml')) {
 	}
 	else {
 		// if no match, exit to general list
-		require('pages/texts.php');
+		require 'pages/texts.php';
 	}
 }
 ?>

@@ -48,7 +48,7 @@ if (file_exists('data/people.xml')) {
 	}
 	else {
 		// if no match, exit to general list
-		require('pages/people.php');
+		require 'pages/people.php';
 	}
 }
 

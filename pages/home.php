@@ -71,10 +71,10 @@ Findable, Accessible, Interoperable, and Reuseable.
 <li>Wherever possible, data is linked to other Linked Open Data resources.
 </li>
 
-<li>Data may be reused under the <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons BY-NC-SA 4.0</a> licence.: </br>
+<li>Data may be reused under the <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons BY-NC-SA 4.0</a> licence.
 </li>
 
-<li>Work is in progress to make data accessible in machine-readable format (probably RDF).
+<li>Work is in progress to make data accessible in machine-readable format (RDF).
 </li>
 </ul>
 

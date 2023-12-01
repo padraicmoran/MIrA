@@ -1,5 +1,5 @@
 <?php
-require('includes/application.php');
+require 'includes/application.php';
 
 // get inputs
 $page = cleanInput('page') ?? '';

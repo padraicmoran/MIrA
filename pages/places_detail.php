@@ -98,7 +98,7 @@ if (file_exists('data/places.xml')) {
 	}
 	else {
 		// if no match, exit to general list
-		require('pages/places.php');
+		require 'pages/places.php';
 	}
 }
 
