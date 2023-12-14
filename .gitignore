@@ -1,6 +1,7 @@
 _Archive/*
-pages/__*.php
 glosses/*
+mslink/*
+pages/__*.php
 MIrA.code-workspace
 
 
