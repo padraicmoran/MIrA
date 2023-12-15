@@ -27,7 +27,8 @@ if (file_exists('data/people.xml')) {
 			foreach ($links as $link) {
 				if ($link['type'] == 'dib') print '<a href="https://www.dib.ie/biography/' . $link . '">Dictionary of Irish Biography</a><br/>';
 				if ($link['type'] == 'viaf') print '<a href="' . $link . '">VIAF</a><br/>';
-					}
+				if ($link['type'] == 'wikidata') print '<a href="' . $link . '">Wikidata</a><br/>';
+			}
 		}
 
 		// find related manuscripts

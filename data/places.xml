@@ -15,6 +15,7 @@
       <description></description>
       <coords>48.403978, 4.710193</coords>
       <xref type="viaf">https://viaf.org/viaf/264091107</xref>
+      <xref type="wikidata">https://www.wikidata.org/wiki/Q142</xref>
       
       <place id="auxerre">
          <name>Auxerre</name>
@@ -23,6 +24,7 @@
          <coords>47.797474,3.574677</coords>
          <xref type="pleiades">https://pleiades.stoa.org/places/138206</xref>
          <xref type="viaf">https://viaf.org/viaf/146572630</xref>
+         <xref type="wikidata">https://www.wikidata.org/wiki/Q167600</xref>
       </place>
       <place id="corbie">
          <name>Corbie</name>
@@ -30,6 +32,7 @@
          <description>Founded from Luxeuil, c. 660. Associated with Péronne.</description>
          <coords>49.912325,2.491837</coords>
          <xref type="viaf">https://viaf.org/viaf/136479127</xref>
+         <xref type="wikidata">https://www.wikidata.org/wiki/Q71469</xref>
       </place>
       <place id="fleury">
          <name>Fleury</name>
@@ -37,6 +40,7 @@
          <description>7th cent. Burned by Vikings in 865. Height until Abbo (d. 1004). Extensive library dispersed in 1562. Today Saint-Benoît-sur-Loire.</description>
          <coords>47.810464,2.306024</coords>
          <xref type="viaf">https://viaf.org/viaf/136075721</xref>
+         <xref type="wikidata">https://www.wikidata.org/wiki/Q947030</xref>
       </place>
       <place id="laon">
          <name>Laon</name>
@@ -45,6 +49,7 @@
          <coords>49.564415,3.624115</coords>
          <xref type="pleiades">https://pleiades.stoa.org/places/109101</xref>
          <xref type="viaf">https://viaf.org/viaf/151286310</xref>
+         <xref type="wikidata">https://www.wikidata.org/wiki/Q167141</xref>
       </place>
       <place id="luxeuil">
          <name>Luxeuil</name>
@@ -53,6 +58,7 @@
          <coords>47.8166493, 6.3821879</coords>
          <xref type="pleiades">https://pleiades.stoa.org/places/591471665</xref>
          <xref type="viaf">https://viaf.org/viaf/155629701</xref>
+         <xref type="wikidata">https://www.wikidata.org/wiki/Q1232116</xref>
       </place>
       <place id="lyon">
          <name>Lyon</name>
@@ -61,6 +67,7 @@
          <coords>45.767299,4.834329</coords>
          <xref type="pleiades">https://pleiades.stoa.org/places/167717</xref>
          <xref type="viaf">https://viaf.org/viaf/14144648224320957598</xref>
+         <xref type="wikidata">https://www.wikidata.org/wiki/Q456</xref>
       </place>
       <place id="paris">
          <name>Paris</name>
@@ -69,6 +76,7 @@
          <coords>48.8534,2.3488</coords>
          <xref type="pleiades">https://pleiades.stoa.org/places/109126</xref>
          <xref type="viaf">https://viaf.org/viaf/158822968</xref>
+         <xref type="wikidata">https://www.wikidata.org/wiki/Q90</xref>
       </place>
       <place id="peronne">
          <name>Péronne</name>
@@ -76,6 +84,7 @@
          <description>Fursa buried here by Erchinoald, mayor of Neustria.</description>
          <coords>49.92824,2.931976</coords>
          <xref type="viaf">https://viaf.org/viaf/123260797</xref>
+         <xref type="wikidata">https://www.wikidata.org/wiki/Q217768</xref>
       </place>
       <place id="reims">
          <name>Reims</name>
@@ -84,6 +93,7 @@
          <coords>49.256602,4.032669</coords>
          <xref type="pleiades">https://pleiades.stoa.org/places/108945</xref>
          <xref type="viaf">https://viaf.org/viaf/126609525</xref>
+         <xref type="wikidata">https://www.wikidata.org/wiki/Q41876</xref>
       </place>
       <place id="saint-amand">
          <name>Saint-Amand</name>
@@ -91,6 +101,7 @@
          <description></description>
          <coords>50.449722, 3.428611</coords>
          <xref type="viaf">https://viaf.org/viaf/168044483</xref>
+         <xref type="wikidata">https://www.wikidata.org/wiki/Q1067570</xref>
       </place>
       <place id="saint-denis">
          <name>Saint-Denis</name>
@@ -98,6 +109,7 @@
          <description>Oratory for martyr St Geneviève from 5th cent., in memory of Bishop Dionysius of Paris. Monastery made a religious centre of kingdom by Childebert, c. 550. Abbot Hilduin made first trans. of Dionysiac works received in 827. Dúngal.</description>
          <coords>48.936065,2.364883</coords>
          <xref type="viaf">https://viaf.org/viaf/126179587</xref>
+         <xref type="wikidata">https://www.wikidata.org/wiki/Q160506</xref>
       </place>
       <place id="soissons">
          <name>Soissons</name>
@@ -106,6 +118,7 @@
          <coords>49.381032,3.32448</coords>
          <xref type="pleiades">https://pleiades.stoa.org/places/108772</xref>
          <xref type="viaf">https://viaf.org/viaf/150707604</xref>
+         <xref type="wikidata">https://www.wikidata.org/wiki/Q167152</xref>
       </place>
       <place id="strasbourg">
          <name>Strasbourg</name>
@@ -113,6 +126,7 @@
          <description></description>
          <coords>48.583333,7.755833</coords>
          <xref type="viaf">https://viaf.org/viaf/150696197</xref>
+         <xref type="wikidata">https://www.wikidata.org/wiki/Q6602</xref>
       </place>
       <place id="tours">
          <name>Tours</name>
@@ -121,6 +135,7 @@
          <coords>47.390294,0.688851</coords>
          <xref type="pleiades">https://pleiades.stoa.org/places/138255</xref>
          <xref type="viaf">https://viaf.org/viaf/124287031</xref>
+         <xref type="wikidata">https://www.wikidata.org/wiki/Q288</xref>
       </place>
       <place id="verdun">
          <name>Verdun</name>
@@ -129,6 +144,7 @@
          <coords>49.174522,5.383301</coords>
          <xref type="pleiades">https://pleiades.stoa.org/places/138255</xref>
          <xref type="viaf">https://viaf.org/viaf/124087015</xref>
+         <xref type="wikidata">https://www.wikidata.org/wiki/Q154748</xref>
       </place>
    </place>
 
@@ -138,6 +154,7 @@
       <description></description>
       <coords>49.107504, 9.905002</coords>
       <xref type="viaf">https://viaf.org/viaf/189116956</xref>
+      <xref type="wikidata">https://www.wikidata.org/wiki/Q183</xref>
    
       <place id="augsburg">
          <name>Augsburg</name>
@@ -146,6 +163,7 @@
          <coords>48.368889, 10.897778</coords>
          <xref type="pleiades">https://pleiades.stoa.org/places/118580</xref>
          <xref type="viaf">https://viaf.org/viaf/153139306</xref>
+         <xref type="wikidata">https://www.wikidata.org/wiki/Q2749</xref>
       </place>
       <place id="freising">
          <name>Freising</name>
@@ -153,6 +171,7 @@
          <description></description>
          <coords>48.5, 11.83</coords>
          <xref type="viaf">https://viaf.org/viaf/153624368</xref>
+         <xref type="wikidata">https://www.wikidata.org/wiki/Q6998</xref>
       </place>
       <place id="fulda">
          <name>Fulda</name>
@@ -160,6 +179,7 @@
          <description>First important Carolingian school after court school; Hrabanus Maurus student of Alcuin at Tours. Founded by St Sturm 744, pupil of Boniface.</description>
          <coords>50.553744,9.67432</coords>
          <xref type="viaf">https://viaf.org/viaf/146057689</xref>
+         <xref type="wikidata">https://www.wikidata.org/wiki/Q3963</xref>
       </place>
       <place id="fussen">
          <name>Füssen</name>
@@ -167,6 +187,7 @@
          <description></description>
          <coords>47.5857813,10.6199995</coords>
          <xref type="viaf">https://viaf.org/viaf/157108934</xref>
+         <xref type="wikidata">https://www.wikidata.org/wiki/Q262684</xref>
       </place>
       <place id="mainz">
          <name>Mainz</name>
@@ -175,6 +196,7 @@
          <coords>49.995123,8.267426</coords>
          <xref type="pleiades">https://pleiades.stoa.org/places/109169</xref>
          <xref type="viaf">https://viaf.org/viaf/155482669</xref>
+         <xref type="wikidata">https://www.wikidata.org/wiki/Q1720</xref>
       </place>
       <place id="regensburg">
          <name>Regensburg</name>
@@ -183,6 +205,7 @@
          <coords>49.016491,12.100904</coords>
          <xref type="pleiades">https://pleiades.stoa.org/places/118929</xref>
          <xref type="viaf">https://viaf.org/viaf/233767411</xref>
+         <xref type="wikidata">https://www.wikidata.org/wiki/Q2978</xref>
       </place>
       <place id="reichenau">
          <name>Reichenau</name>
@@ -190,6 +213,7 @@
          <description>Founded 724 (St Pirmin). Walahfried Strabo abbot, 838.</description>
          <coords>47.688966,9.063721</coords>
          <xref type="viaf">https://viaf.org/viaf/158361712</xref>
+         <xref type="wikidata">https://www.wikidata.org/wiki/Q632880</xref>
       </place>
       <place id="trier">
          <name>Trier</name>
@@ -198,12 +222,14 @@
          <coords>49.753735,6.646247</coords>
          <xref type="pleiades">https://pleiades.stoa.org/places/108894</xref>
          <xref type="viaf">https://viaf.org/viaf/135701727</xref>
+         <xref type="wikidata">https://www.wikidata.org/wiki/Q3138</xref>
       </place>
       <place id="werden">
          <name>Werden</name>
          <name lang="la"></name>
          <coords>51.3876159,6.9699084</coords>
          <xref type="viaf">https://viaf.org/viaf/159450192</xref>
+         <xref type="wikidata">https://www.wikidata.org/wiki/Q258391</xref>
       </place>
       <place id="wurzburg">
          <name>Würzburg</name>
@@ -211,6 +237,7 @@
          <description>Cillian (Kilian), killed c. 689.</description>
          <coords>49.793677,9.926834</coords>
          <xref type="viaf">https://viaf.org/viaf/145418613</xref>
+         <xref type="wikidata">https://www.wikidata.org/wiki/Q2999</xref>
       </place>
    </place>
 
@@ -223,6 +250,7 @@
       <coords>53.416667, -8</coords>
       <xref type="pleiades">https://pleiades.stoa.org/places/20487</xref>
       <xref type="viaf">https://viaf.org/viaf/158208597/</xref>
+      <xref type="wikidata">https://www.wikidata.org/wiki/Q22890</xref>
    </place>
 
 
@@ -232,12 +260,14 @@
       <description></description>
       <coords>43, 12</coords>
       <xref type="viaf">https://viaf.org/viaf/152361066</xref>
+      <xref type="wikidata">https://www.wikidata.org/wiki/Q38</xref>
 
 		<place id="bobbio">
 		   <name lang="en">Bobbio</name>
 		   <name lang="la">Bobbium</name>
 		   <coords>44.770624,9.385757</coords>
          <xref type="viaf">https://viaf.org/viaf/153577673</xref>
+         <xref type="wikidata">https://www.wikidata.org/wiki/Q11498</xref>
 		</place>
 		<place id="verona">
 		   <name>Verona</name>
@@ -245,6 +275,7 @@
 		   <coords>45.442006,10.995485</coords>
          <xref type="pleiades">https://pleiades.stoa.org/places/383816</xref>
          <xref type="viaf">https://viaf.org/viaf/140704516</xref>
+         <xref type="wikidata">https://www.wikidata.org/wiki/Q2028</xref>
 		</place>
    </place>
 
@@ -253,6 +284,7 @@
       <description></description>
       <coords>46.833333, 8.333333</coords>
       <xref type="viaf">https://viaf.org/viaf/154323889</xref>
+      <xref type="wikidata">https://www.wikidata.org/wiki/Q39</xref>
 
 		<place id="stgall">
 		   <name lang="en">St Gall</name>
@@ -260,6 +292,7 @@
 		   <name lang="la">Sanctogallum</name>
 		   <coords>47.423195,9.37667</coords>
          <xref type="viaf">https://viaf.org/viaf/127834916</xref>
+         <xref type="wikidata">https://www.wikidata.org/wiki/Q25607</xref>
 		</place>
    </place>
 
@@ -271,9 +304,10 @@
       <place id="canterbury">
          <name>Canterbury</name>
          <name lang="la">Cantuaria, Durrovernum</name>
-         <description><![CDATA[Augustine 597. Theodore & Hadrian 669.]]></description>
+         <description>Augustine 597. Theodore &amp; Hadrian 669.</description>
          <coords>51.279656,1.083194</coords>
          <xref type="viaf">https://viaf.org/viaf/235007026</xref>
+         <xref type="wikidata">https://www.wikidata.org/wiki/Q29303</xref>
       </place>
       <place id="echternach">
          <name>Echternach</name>
@@ -281,6 +315,7 @@
          <description>Founded by Willibrord, 698.</description>
          <coords>49.812872,6.42213</coords>
          <xref type="viaf">https://viaf.org/viaf/129107376</xref>
+         <xref type="wikidata">https://www.wikidata.org/wiki/Q204317</xref>
       </place>
       <place id="salzburg">
          <name>Salzburg</name>
@@ -289,6 +324,7 @@
          <coords>47.800472,13.044376</coords>
          <xref type="pleiades">https://pleiades.stoa.org/places/187432</xref>
          <xref type="viaf">https://viaf.org/viaf/143061561</xref>
+         <xref type="wikidata">https://www.wikidata.org/wiki/Q34713</xref>
       </place>
    <!--
 

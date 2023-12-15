@@ -27,6 +27,7 @@ if (file_exists('data/texts.xml')) {
 			print '<h3 class="mt-5">Linked data</h3>';
 			foreach ($links as $link) {
 				if ($link['type'] == 'viaf') print '<a href="' . $link . '">VIAF</a><br/>';
+				if ($link['type'] == 'wikidata') print '<a href="' . $link . '">Wikidata</a><br/>';
 			}
 		}
 

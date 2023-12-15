@@ -8,12 +8,14 @@ Temporary data structure for testing purposes.
       <surname></surname>
       <lifetime from="" to="397"></lifetime>
       <xref type="viaf">https://viaf.org/viaf/100227669</xref>
+      <xref type="wikidata">https://www.wikidata.org/wiki/Q43689</xref>
    </person>
    <person id="augustine">
       <firstNames>Augustine</firstNames>
       <surname></surname>
       <lifetime from="354" to="430"></lifetime>
       <xref type="viaf">https://viaf.org/viaf/66806872</xref>
+      <xref type="wikidata">https://www.wikidata.org/wiki/Q8018</xref>
    </person>
    <person id="dungal">
       <firstNames>Dúngal</firstNames>
@@ -21,6 +23,7 @@ Temporary data structure for testing purposes.
       <lifetime from="" to="827"></lifetime>
       <xref type="dib">dungal-a2840</xref>
       <xref type="viaf">https://viaf.org/viaf/431148995952359751002</xref>
+      <xref type="wikidata">https://www.wikidata.org/wiki/Q609201</xref>
    </person>
    <person id="eriugena">
       <firstNames>John </firstNames>
@@ -28,6 +31,7 @@ Temporary data structure for testing purposes.
       <lifetime from="c. 810" to="c. 877"></lifetime>
       <xref type="dib">john-scottus-eriugena-a4287</xref>
       <xref type="viaf">https://viaf.org/viaf/90633393</xref>
+      <xref type="wikidata">https://www.wikidata.org/wiki/Q184500</xref>
    </person>
    <person id="i2">
       <firstNames>i2</firstNames>
@@ -39,12 +43,14 @@ Temporary data structure for testing purposes.
       <surname></surname>
       <lifetime from="c. 560" to="636"></lifetime>
       <xref type="viaf">https://viaf.org/viaf/803890</xref>
+      <xref type="wikidata">https://www.wikidata.org/wiki/Q166876</xref>
    </person>
    <person id="jerome">
       <firstNames>Jerome</firstNames>
       <surname></surname>
       <lifetime from="c. 345" to="419/420"></lifetime>
       <xref type="viaf">https://viaf.org/viaf/95147024</xref>
+      <xref type="wikidata">https://www.wikidata.org/wiki/Q44248</xref>
    </person>
    <person id="martin">
       <firstNames>Martin</firstNames>
@@ -52,6 +58,7 @@ Temporary data structure for testing purposes.
       <lifetime from="c. 819" to="875"></lifetime>
       <xref type="dib">martinus-martin-hiberniensis-a5470</xref>
       <xref type="viaf">https://viaf.org/viaf/32388741</xref>
+      <xref type="wikidata">https://www.wikidata.org/wiki/Q94276</xref>
    </person>
    <person id="sedulius">
       <firstNames>Sedulius</firstNames>
@@ -59,6 +66,7 @@ Temporary data structure for testing purposes.
       <lifetime from="" to="c. 860"></lifetime>
       <xref type="dib">sedulius-scottus-irishman-a7969</xref>
       <xref type="viaf">https://viaf.org/viaf/3266445</xref>
+      <xref type="wikidata">https://www.wikidata.org/wiki/Q2609522</xref>
    </person>
    <person id="virgil_salzburg">
       <firstNames>Virgil</firstNames>
@@ -66,5 +74,6 @@ Temporary data structure for testing purposes.
       <lifetime from="" to="784"></lifetime>
       <xref type="dib">virgil-virgilius-fergil-a3043</xref>
       <xref type="viaf">https://viaf.org/viaf/231969178</xref>
+      <xref type="wikidata">https://www.wikidata.org/wiki/Q561251</xref>
    </person>
 </document>

@@ -16,11 +16,13 @@
       <author></author><!-- not anonymous (!), but will handle here for now -->
       <title style="roman">Gospels</title>
       <xref type="viaf">https://viaf.org/viaf/2150565435606250138</xref>
+      <xref type="wikidata">https://www.wikidata.org/wiki/Q5852633</xref>
    </text>
    <text id="psalms">
       <author></author>
       <title style="roman">Psalms</title>
       <xref type="viaf">https://viaf.org/viaf/189399370</xref>
+      <xref type="wikidata">https://www.wikidata.org/wiki/Q41064</xref>
    </text>
 
    <!-- named authors -->
@@ -37,11 +39,13 @@
       <author>Paul</author>
       <title>Epistles</title>
       <xref type="viaf">https://viaf.org/viaf/176999286</xref>
+      <xref type="wikidata">https://www.wikidata.org/wiki/Q265283</xref>
    </text>
    <text id="priscian_ars">
       <author>Priscian</author>
       <title>Ars grammatica</title>
       <xref type="viaf">https://viaf.org/viaf/202152138663010982482</xref>
+      <xref type="wikidata">https://www.wikidata.org/wiki/Q42191504</xref>
    </text>
 
 </document>
