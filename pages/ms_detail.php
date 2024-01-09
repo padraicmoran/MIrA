@@ -110,7 +110,7 @@ if ($filter) {
 	handleRowArray('McGurk, <i>Gospel Books</i>', $ms->xrefs->xpath('xref[@type="mcgurk"]'), '', '');
 	handleRowArray('Bronner, <i>Verzeichnis</i>', $ms->xrefs->xpath('xref[@type="bronner"]'), '', '');
 	if ($ms->xrefs->xpath('xref[@type="thesaurus"]'))  handleRowArray('<i>Thesaurus Palaeohibernicus</i>', parseThesaurusRef($ms->xrefs->xpath('xref[@type="thesaurus"]')[0]), '', '');
-	handleRowArray('Trismegistos', $ms->xrefs->xpath('xref[@type="trismegistos"]'), $ms->xrefs->xpath('xref[@type="trismegistos"]'), 'https://www.trismegistos.org/text/');
+	handleRowArray('Trismegistos', $ms->xrefs->xpath('link[@type="trismegistos"]'), $ms->xrefs->xpath('link[@type="trismegistos"]/@href'), '');
 	
 	if ($ms->notes->project_notes != '') {
 		print '<tr><th colspan="2" ><h3 class="h3 mt-5">Notes</h3></th></tr>';
