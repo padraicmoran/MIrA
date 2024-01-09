@@ -25,6 +25,7 @@ if (file_exists('data/people.xml')) {
 		if (sizeof($links) > 0) {
 			print '<h3 class="mt-5">Linked data</h3>';
 			foreach ($links as $link) {
+				if ($link['type'] == 'biblissima') print '<a href="' . $link . '">Biblissima</a><br/>';
 				if ($link['type'] == 'dib') print '<a href="https://www.dib.ie/biography/' . $link . '">Dictionary of Irish Biography</a><br/>';
 				if ($link['type'] == 'viaf') print '<a href="' . $link . '">VIAF</a><br/>';
 				if ($link['type'] == 'wikidata') print '<a href="' . $link . '">Wikidata</a><br/>';

@@ -99,7 +99,7 @@ if ($filter) {
 
 	// XML data distinguished by @type is queried using XPath and results are returned in an array.
 	// handeRowArray() checks array contents before sending contents to writeRow(); also allows for multiple rows.
-	// Where data needs custom presentation (CLA, Tresmegistos, Thes.), there is just a check for one array item.
+	// Where data needs custom presentation (CLA, trismegistos, Thes.), there is just a check for one array item.
 
 	handleRowArray('CLA/ELMSS', $ms->xrefs->xpath('xref[@type="cla"]'), $ms->xrefs->xpath('xref[@type="cla"]/@href'), '', '');
 	handleRowArray('Bischoff, <i>SSB</i>', $ms->xrefs->xpath('xref[@type="bischoff_ssb"]'), '', '');
@@ -110,7 +110,7 @@ if ($filter) {
 	handleRowArray('McGurk, <i>Gospel Books</i>', $ms->xrefs->xpath('xref[@type="mcgurk"]'), '', '');
 	handleRowArray('Bronner, <i>Verzeichnis</i>', $ms->xrefs->xpath('xref[@type="bronner"]'), '', '');
 	if ($ms->xrefs->xpath('xref[@type="thesaurus"]'))  handleRowArray('<i>Thesaurus Palaeohibernicus</i>', parseThesaurusRef($ms->xrefs->xpath('xref[@type="thesaurus"]')[0]), '', '');
-	handleRowArray('Tresmegistos', $ms->xrefs->xpath('xref[@type="tresmegistos"]'), $ms->xrefs->xpath('xref[@type="tresmegistos"]'), 'https://www.trismegistos.org/text/');
+	handleRowArray('Trismegistos', $ms->xrefs->xpath('xref[@type="trismegistos"]'), $ms->xrefs->xpath('xref[@type="trismegistos"]'), 'https://www.trismegistos.org/text/');
 	
 	if ($ms->notes->project_notes != '') {
 		print '<tr><th colspan="2" ><h3 class="h3 mt-5">Notes</h3></th></tr>';
