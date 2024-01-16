@@ -16,7 +16,7 @@
 <li>Bernhard Bischoff, <i>Katalog der festländischen Handschriften des neunten Jahrhunderts</i>, 3 vols (Wiesbaden, 1998–2014).</li>
 <li>Dagmar Bronner, <i>Verzeichnis altirischen Glossen</i> (Marburg, 2013) [<a href="https://www.uni-marburg.de/fb09/lingbas/publikationen/pub/materialien/altirische-quellen.pdf">published in PDF</a>].</li>
 <li><a target="blank" href="http://www.foundationsirishculture.ie/">Foundations of Irish Culture</a> online catalogue (c. 2014).</li>
-<li>E. A. Lowe, <i>Codices Latini Antiquiores</i>, 12 vols (Oxford, 1934–1971), digitised and updated at <a target="_blank" href="http://elmss.nuigalway.ie/">Early Latin Manuscripts</a>.</li>
+<li>E. A. Lowe, <i>Codices Latini Antiquiores</i>, 12 vols (Oxford, 1934–1971), digitised and updated at Mark Stansbury, <a target="_blank" href="http://elmss.nuigalway.ie/">Early Latin Manuscripts</a>.</li>
 <li>Patrick McGurk, <i>Gospel Books and Early Latin Manuscripts </i> (London, 1961).</li>
 </ul>
 
