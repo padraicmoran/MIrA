@@ -3345,7 +3345,7 @@
       <shelfmark>C 5 inf.</shelfmark>
       <shelfmark_indexer>C 005 inf.</shelfmark_indexer>
       <ms_name>Bangor Antiphonary</ms_name>
-      <link type="iiif">http://213.21.172.25/manifests/public/0b02da8280051c10.json</link>
+      <link type="iiif">https://digitallibrary.unicatt.it/veneranda/data/public/manifests/0b/02/da/82/80/05/1c/10/0b02da8280051c10.json</link>
    </identifier>
    <description>
       <type />
@@ -3431,7 +3431,7 @@
    <identifier libraryID="milan">
       <shelfmark>C 74 sup.</shelfmark>
       <shelfmark_indexer>C 074 sup.</shelfmark_indexer>
-      <link type="iiif">http://213.21.172.25/manifests/public/0b02da8280051bde.json</link>
+      <link type="iiif">https://digitallibrary.unicatt.it/veneranda/data/public/manifests/0b/02/da/82/80/33/ce/7b/0b02da828033ce7b.json</link>                  
    </identifier>
    <description>
       <type />
@@ -3490,7 +3490,7 @@
    <identifier libraryID="milan">
       <shelfmark>D 10 sup. (front flyleaves)</shelfmark>
       <shelfmark_indexer>D 010 sup.</shelfmark_indexer>
-      <link type="iiif">http://213.21.172.25/manifests/public/0b02da828007ff5b.json</link>
+      <link type="iiif">https://digitallibrary.unicatt.it/veneranda/data/public/manifests/0b/02/da/82/80/07/ff/5b/0b02da828007ff5b.json</link>
    </identifier>
    <description>
       <type>Flyleaves</type>
@@ -3520,7 +3520,7 @@
       <shelfmark>D 23 sup.</shelfmark>
       <shelfmark_indexer>D 023 sup.</shelfmark_indexer>
       <ms_name>Bobbio Orosius</ms_name>
-      <link type="iiif">http://213.21.172.25/manifests/public/0b02da8280051be6.json</link>
+      <link type="iiif">https://digitallibrary.unicatt.it/veneranda/data/public/manifests/0b/02/da/82/80/05/1b/e6/0b02da8280051be6.json</link>
    </identifier>
    <description>
       <type />
@@ -3549,7 +3549,7 @@
    <identifier libraryID="milan">
       <shelfmark>*D 23 sup.</shelfmark>
       <shelfmark_indexer>D 023 sup.</shelfmark_indexer>
-      <link type="iiif">http://213.21.172.25/manifests/public/0b02da8280051be6.json</link>
+      <link type="iiif">https://digitallibrary.unicatt.it/veneranda/data/public/manifests/0b/02/da/82/80/05/1b/e6/0b02da8280051be6.json</link>
    </identifier>
    <description>
       <type />
@@ -6872,7 +6872,7 @@
    <identifier libraryID="milan">
       <shelfmark>C 243 inf.</shelfmark>
       <shelfmark_indexer>C 243 inf.</shelfmark_indexer>
-      <link type="iiif">http://213.21.172.25/manifests/public/0b02da8280051c0a.json</link>
+      <link type="iiif">https://digitallibrary.unicatt.it/veneranda/data/public/manifests/0b/02/da/82/80/05/1c/0a/0b02da8280051c0a.json</link>
    </identifier>
    <description>
       <type />
