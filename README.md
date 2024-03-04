@@ -1,8 +1,8 @@
 # MIrA
-Manuscripts with Irish Associations
+Manuscripts with Irish Associations  
 http://www.mira.ie
 
-A project by Pádraic Moran, Classics, University of Galway (Ireland).
+A project by Pádraic Moran, Classics, University of Galway (Ireland).  
 http://www.pmoran.ie
 
 The project contains two elements:
@@ -17,3 +17,4 @@ The resource is intended to be lightweight and easy to adapt to other projects.
 Enquiries, suggestions, comments, etc. welcome to:
 padraic.moran@universityofgalway.ie
 
+Data may be reused under the [Creative Commons BY-NC-SA 4.0 licence](https://creativecommons.org/licenses/by-nc-sa/4.0/).

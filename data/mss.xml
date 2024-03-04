@@ -7,10 +7,18 @@
    </identifier>
    <description>
       <type />
-      <folios />
-      <page_h />
-      <page_w />
-      <contents><i>Vita Virgilii</i>; <person id="ambrose">Ambrose</person> , <i>Hexameron</i> (extracts); Old Irish poems; scholia on the <i>Aeneid</i>; astronomical table; Greek paradigms; Greek–Latin glossaries; etc.</contents>
+      <folios>8</folios>
+      <page_h>225</page_h>
+      <page_w>155</page_w>
+      <contents>
+         <i>Vitae Virgilii</i>; 
+         <person id="ambrose">Ambrose</person> , <i>Hexameron</i> (extracts); 
+         Old Irish poems; 
+         scholia on the <i>Aeneid</i>; 
+         astronomical table; 
+         Greek paradigms; 
+         Greek–Latin glossaries; etc.
+      </contents>
       <script>Irish minuscule</script>
    </description>
    <history>
@@ -4639,7 +4647,7 @@
 
    <xref type="alexander">63</xref></xrefs>
    <notes>
-      <categories>scribe;vern</categories>
+      <categories>scribe;sc-ire;vern</categories>
       <project_notes>Lat. &amp; Old Irish glosses. Scribes incl. Dubthach, <person id="eriugena">Eriugena</person> (e.g. 65r).</project_notes>
    </notes>
 </manuscript><manuscript id="160">
