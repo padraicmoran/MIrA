@@ -3,6 +3,7 @@
    <identifier libraryID="milan">
       <shelfmark>F 60 sup. (fol. 51)</shelfmark>
       <shelfmark_indexer>F 060 sup. (051)</shelfmark_indexer>
+      <link type="iiif" index="105">https://digitallibrary.unicatt.it/veneranda/data/public/manifests/0b/02/da/82/80/33/75/0f/0b02da828033750f.json</link>
    </identifier>
    <description>
       <type />
@@ -25,6 +26,7 @@
    </xrefs>
    <notes>
       <categories>sc-ire</categories>
-      <project_notes />
+      <project_notes>Composite manuscript in four parts (77 folios total): a) <ms id="126" >1–46, 58–77</ms>; 
+         b) <ms id="127" >47–49, 55–57, 58</ms>; c) <ms id="128">50, 52–54</ms>; d) 51.</project_notes>
    </notes>
 </manuscript>

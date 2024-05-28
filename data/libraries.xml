@@ -339,7 +339,7 @@
    <library id="zurich_zentral">
       <country>Switzerland</country>
       <city>Zürich</city>
-      <library>Zentralbibliothek</library>
+      <name>Zentralbibliothek</name>
       <coords>47.3742,8.5453</coords>
    </library>
 

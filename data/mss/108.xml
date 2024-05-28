@@ -3,7 +3,7 @@
    <identifier libraryID="dublin_tcd">
       <shelfmark>60 (A.I.15) (ff 95–98)</shelfmark>
       <link type="images">https://digitalcollections.tcd.ie/concern/works/9019s695d</link>
-      <link type="iiif" idex="196">https://digitalcollections.tcd.ie/concern/works/9019s695d/manifest</link>
+      <link type="iiif" index="196">https://digitalcollections.tcd.ie/concern/works/9019s695d/manifest</link>
    </identifier>
    <description>
       <type />
@@ -26,6 +26,6 @@
    </xrefs>
    <notes>
       <categories>or-ire;sc-ire</categories>
-      <project_notes>Found in shrine with Book of Muling.</project_notes>
+      <project_notes>Found in shrine with <ms id="103">Book of Mulling</ms>.</project_notes>
    </notes>
 </manuscript>

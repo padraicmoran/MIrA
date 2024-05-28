@@ -16,7 +16,7 @@ if ($filter) {
 	print '<h1 class="h2">MIrA ' . $id . ': ' . $heading . '</h1>';
 
 	// stable URL
-	print '<div class="text-secondary small">Stable URL: <a class="text-secondary" href="/' . $id . '">http://www.mira.ie/' . $id . '</a></div>';
+	print '<div class="text-secondary small">Stable URL: <a class="text-secondary" href="/' . $id . '">http://mira.ie/' . $id . '</a></div>';
 
 	// write categories
 	if ($ms->notes->categories != '') {
@@ -126,7 +126,9 @@ if ($filter) {
 	}
 
 	// download
-	print '<div class="text-secondary small mt-5">Download <a class="text-secondary" href="/data/mss/' . sprintf("%03d", $id) . '.xml">XML data</a> for this manuscript.</div>';
+	if ($tidyURLs) $xmlURL = '/' . sprintf("%03d", $id) . '/xml';
+	else $xmlURL = '/data/mss/' . sprintf("%03d", $id) . '.xml';
+	print '<div class="text-secondary small mt-5">Download <a class="text-secondary" href="' . $xmlURL . '">XML data</a> for this manuscript.</div>';
 
 }
 else {

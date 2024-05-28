@@ -135,7 +135,7 @@ function templateBottom() {
 	version <?php print $version; ?> (<?php print $versionDate; ?>)
 <?php
 // URL and date
-print '&lt;<a class="text-light" href="' . $_SERVER['REQUEST_URI'] . '">http://www.mira.ie' . $_SERVER['REQUEST_URI'] . '</a>&gt; ';
+print '&lt;<a class="text-light" href="' . $_SERVER['REQUEST_URI'] . '">http://mira.ie' . $_SERVER['REQUEST_URI'] . '</a>&gt; ';
 print '[accessed ' . date("j F Y") . ']';
 ?>
 </p>

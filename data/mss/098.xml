@@ -12,7 +12,7 @@
       <page_h>175</page_h>
       <page_w>125</page_w>
       <contents><text id="gospels">Gospels</text>  (Vetus latina, Mt, Mc, Lc, Io fragm.)</contents>
-      <script>Irish Half-Uncial</script>
+      <script>Irish majuscule verging on minuscule</script>
    </description>
    <history>
       <date_desc>VII in</date_desc>
@@ -29,7 +29,7 @@
    </xrefs>
 
    <notes>
-      <categories>vern</categories>
+      <categories>vern;or-ire</categories>
       <project_notes>Latin and Old Irish glosses (dry point). Damage indicates lost cumdach.</project_notes>
    </notes>
 </manuscript>

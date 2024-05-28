@@ -3148,7 +3148,7 @@
    <identifier libraryID="dublin_tcd">
       <shelfmark>60 (A.I.15) (ff 95–98)</shelfmark>
       <link type="images">https://digitalcollections.tcd.ie/concern/works/9019s695d</link>
-      <link type="iiif" idex="196">https://digitalcollections.tcd.ie/concern/works/9019s695d/manifest</link>
+      <link type="iiif" index="196">https://digitalcollections.tcd.ie/concern/works/9019s695d/manifest</link>
    </identifier>
    <description>
       <type />
@@ -3667,12 +3667,13 @@
    <identifier libraryID="milan">
       <shelfmark>F 60 sup. (ff 1–46, 58–77)</shelfmark>
       <shelfmark_indexer>F 060 sup.</shelfmark_indexer>
+      <link type="iiif">https://digitallibrary.unicatt.it/veneranda/data/public/manifests/0b/02/da/82/80/33/75/0f/0b02da828033750f.json</link>
    </identifier>
    <description>
       <type />
-      <folios />
-      <page_h />
-      <page_w />
+      <folios>66</folios>
+      <page_h>210</page_h>
+      <page_w>155</page_w>
       <contents>Excerpta ex Patribus</contents>
       <script>Irish minuscule</script>
    </description>
@@ -3692,18 +3693,21 @@
    </xrefs>
    <notes>
       <categories>or-ire;sc-ire;vern</categories>
-      <project_notes>Old Irish glosses (5). </project_notes>
+      <project_notes>Composite manuscript in four parts (77 folios total): a) 1–46, 58–77; 
+         b) <ms id="127">47–49, 55–57, 58</ms>; c) <ms id="128">50, 52–54</ms>; d) <ms id="129">51</ms>.
+         This part (a) has Old Irish glosses (5). </project_notes>
       </notes>
 </manuscript><manuscript id="127">
    <identifier libraryID="milan">
       <shelfmark>F 60 sup. (ff 47–49, 55–57, 58) [palimpsest new]</shelfmark>
       <shelfmark_indexer>F 060 sup. (047)</shelfmark_indexer>
+      <link type="iiif" index="98">https://digitallibrary.unicatt.it/veneranda/data/public/manifests/0b/02/da/82/80/33/75/0f/0b02da828033750f.json</link>
    </identifier>
    <description>
       <type />
-      <folios />
-      <page_h />
-      <page_w />
+      <folios>7</folios>
+      <page_h>235</page_h>
+      <page_w>175</page_w>
       <contents>Excerpta ex Patribus</contents>
       <script>Irish minuscule</script>
    </description>
@@ -3721,12 +3725,15 @@
    </xrefs>
    <notes>
       <categories>sc-ire</categories>
-      <project_notes>Several hands, Continental influence.</project_notes>
+      <project_notes>Composite manuscript in four parts (77 folios total): a) <ms id="126">1–46, 58–77</ms>; 
+         b) 47–49, 55–57, 58; c) <ms id="128">50, 52–54</ms>; d) <ms id="129">51</ms>.
+         This part (b) has several hands, Continental influence.</project_notes>
    </notes>
 </manuscript><manuscript id="128">
    <identifier libraryID="milan">
       <shelfmark>F 60 sup. (ff 50, 52–54)</shelfmark>
       <shelfmark_indexer>F 060 sup. (050)</shelfmark_indexer>
+      <link type="iiif" index="104">https://digitallibrary.unicatt.it/veneranda/data/public/manifests/0b/02/da/82/80/33/75/0f/0b02da828033750f.json</link>
    </identifier>
    <description>
       <type />
@@ -3749,12 +3756,15 @@
    </xrefs>
    <notes>
       <categories>sc-ire</categories>
-      <project_notes>Continental influence.</project_notes>
+      <project_notes>Composite manuscript in four parts (77 folios total): a) <ms id="126">1–46, 58–77</ms>; 
+         b) <ms id="127">47–49, 55–57, 58</ms>; c) 50, 52–54; d) <ms id="129">51</ms>.
+         This part (c) has Continental influence.</project_notes>
    </notes>
 </manuscript><manuscript id="129">
    <identifier libraryID="milan">
       <shelfmark>F 60 sup. (fol. 51)</shelfmark>
       <shelfmark_indexer>F 060 sup. (051)</shelfmark_indexer>
+      <link type="iiif" index="105">https://digitallibrary.unicatt.it/veneranda/data/public/manifests/0b/02/da/82/80/33/75/0f/0b02da828033750f.json</link>
    </identifier>
    <description>
       <type />
@@ -3777,7 +3787,8 @@
    </xrefs>
    <notes>
       <categories>sc-ire</categories>
-      <project_notes />
+      <project_notes>Composite manuscript in four parts (77 folios total): a) <ms id="126">1–46, 58–77</ms>; 
+         b) <ms id="127">47–49, 55–57, 58</ms>; c) <ms id="128">50, 52–54</ms>; d) 51.</project_notes>
    </notes>
 </manuscript><manuscript id="130">
    <identifier libraryID="milan">

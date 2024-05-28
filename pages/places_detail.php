@@ -22,7 +22,7 @@ if (file_exists('data/places.xml')) {
 		print $place->name . '</h2>';
 
 		// stable URL
-		print '<div class="text-secondary small mb-3">Stable URL: <a class="text-secondary" href="/places/' . $id . '">http://www.mira.ie/place/' . $id . '</a></div>';
+		print '<div class="text-secondary small mb-3">Stable URL: <a class="text-secondary" href="/places/' . $id . '">http://mira.ie/place/' . $id . '</a></div>';
 
 		// other language versions
 		print '<p>';

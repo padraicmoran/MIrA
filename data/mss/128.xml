@@ -3,10 +3,11 @@
    <identifier libraryID="milan">
       <shelfmark>F 60 sup. (ff 50, 52–54)</shelfmark>
       <shelfmark_indexer>F 060 sup. (050)</shelfmark_indexer>
+      <link type="iiif" index="104">https://digitallibrary.unicatt.it/veneranda/data/public/manifests/0b/02/da/82/80/33/75/0f/0b02da828033750f.json</link>
    </identifier>
    <description>
       <type />
-      <folios />
+      <folios></folios>
       <page_h />
       <page_w />
       <contents><person id="ambrose">Ambrose</person> , <i>Expositio in Evangelium Iohannis</i></contents>
@@ -25,6 +26,8 @@
    </xrefs>
    <notes>
       <categories>sc-ire</categories>
-      <project_notes>Continental influence.</project_notes>
+      <project_notes>Composite manuscript in four parts (77 folios total): a) <ms id="126" >1–46, 58–77</ms>; 
+         b) <ms id="127" >47–49, 55–57, 58</ms>; c) 50, 52–54; d) <ms id="129">51</ms>.
+         This part (c) has Continental influence.</project_notes>
    </notes>
 </manuscript>

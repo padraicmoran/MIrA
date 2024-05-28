@@ -18,7 +18,7 @@ if (file_exists('data/people.xml')) {
 		print '<p>' . $person->lifetime . '</p>';
 
 		// stable URL
-		print '<div class="text-secondary small">Stable URL: <a class="text-secondary" href="/people/' . $id . '">http://www.mira.ie/people/' . $id . '</a></div>';
+		print '<div class="text-secondary small">Stable URL: <a class="text-secondary" href="/people/' . $id . '">http://mira.ie/people/' . $id . '</a></div>';
 
 		// linked data
 		$links = $person->xpath('xref');

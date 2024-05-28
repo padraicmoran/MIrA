@@ -19,7 +19,7 @@ if (file_exists('data/texts.xml')) {
 		 print '</h2>';
 
 		// stable URL
-		print '<div class="text-secondary small">Stable URL: <a class="text-secondary" href="/text/' . $id . '">http://www.mira.ie/texts/' . $id . '</a></div>';
+		print '<div class="text-secondary small">Stable URL: <a class="text-secondary" href="/text/' . $id . '">http://mira.ie/texts/' . $id . '</a></div>';
 
 		// linked data
 		$links = $text->xpath('xref');

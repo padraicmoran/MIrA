@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mira_001">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Manuscripts with Irish Associations: catalogue item 1</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Manuscripts with Irish Associations</publisher>
+            <authority>Pádraic Moran</authority>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <p>Creative Commons BY-NC-SA 4.0</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note>From same centre as <ref target="mira_070">Aug. perg. 195</ref>. </note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>St Paul in Carinthia</settlement>
+                  <repository key="st-paul">Stiftsbibliothek</repository>
+                  <idno>Cod. 86b/1</idno>
+                  <msName>Reichenauer Schulheft</msName>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <extent>
+                           <measure type="folios">8</measure>
+                           <dimensions unit="mm">
+                              <height>225</height>
+                              <width>155</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p>Irish minuscule</p>
+                  </handDesc>
+               </physDesc>
+               <msContents>
+                  <summary><title>Vitae Virgilii</title>; 
+                     <persName role="author" key="ambrose">Ambrose</persName> , <title>Hexameron</title> (extracts); 
+                     Old Irish poems; 
+                     scholia on the <title>Aeneid</title>; 
+                     astronomical table; 
+                     Greek paradigms; 
+                     Greek–Latin glossaries; etc.
+                  </summary>
+                  <!--
+                  <msItem>
+                     <locus from="" to=""></locus>
+                     <author key=""></author>
+                     <title key=""></title>
+                     <note></note>
+                  </msItem>
+                  -->
+               </msContents>
+               <history>
+                  <origin>
+                     NE <placeName key="france">France</placeName> (<placeName key="laon">Laon</placeName>? <placeName key="soissons">Soissons</placeName>?)
+                     <origDate notBefore="0840" notAfter="0849">840s</origDate>
+                  </origin>
+                  <provenance>
+                     <placeName key="reichenau">Reichenau</placeName>
+                  </provenance>
+               </history>
+               <additional ana="#sc-ire #vern">
+                  <listBibl>
+                     <bibl><ref type="images" target="https://hildegard.tristram.de/schulheft/">https://hildegard.tristram.de/schulheft/</ref></bibl>
+                     <bibl corresp="#kenney">535</bibl>
+                     <bibl corresp="#bischoff_kat">5943</bibl>
+                     <bibl corresp="#ocorrain">812</bibl>
+                     <bibl corresp="#thesaurus">2.293–295</bibl>
+                     <bibl corresp="#bronner">pp 49–50</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change who="Pádraic Moran" when="2021-05-01">Created</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

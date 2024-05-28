@@ -3,12 +3,13 @@
    <identifier libraryID="milan">
       <shelfmark>F 60 sup. (ff 47–49, 55–57, 58) [palimpsest new]</shelfmark>
       <shelfmark_indexer>F 060 sup. (047)</shelfmark_indexer>
+      <link type="iiif" index="98">https://digitallibrary.unicatt.it/veneranda/data/public/manifests/0b/02/da/82/80/33/75/0f/0b02da828033750f.json</link>
    </identifier>
    <description>
       <type />
-      <folios />
-      <page_h />
-      <page_w />
+      <folios>7</folios>
+      <page_h>235</page_h>
+      <page_w>175</page_w>
       <contents>Excerpta ex Patribus</contents>
       <script>Irish minuscule</script>
    </description>
@@ -26,6 +27,8 @@
    </xrefs>
    <notes>
       <categories>sc-ire</categories>
-      <project_notes>Several hands, Continental influence.</project_notes>
+      <project_notes>Composite manuscript in four parts (77 folios total): a) <ms id="126" >1–46, 58–77</ms>; 
+         b) 47–49, 55–57, 58; c) <ms id="128">50, 52–54</ms>; d) <ms id="129">51</ms>.
+         This part (b) has several hands, Continental influence.</project_notes>
    </notes>
 </manuscript>
