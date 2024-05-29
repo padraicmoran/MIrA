@@ -2849,7 +2849,7 @@
       <page_h>175</page_h>
       <page_w>125</page_w>
       <contents><text id="gospels">Gospels</text>  (Vetus latina, Mt, Mc, Lc, Io fragm.)</contents>
-      <script>Irish Half-Uncial</script>
+      <script>Irish majuscule verging on minuscule</script>
    </description>
    <history>
       <date_desc>VII in</date_desc>
@@ -2866,7 +2866,7 @@
    </xrefs>
 
    <notes>
-      <categories>vern</categories>
+      <categories>vern;or-ire</categories>
       <project_notes>Latin and Old Irish glosses (dry point). Damage indicates lost cumdach.</project_notes>
    </notes>
 </manuscript><manuscript id="99">
@@ -3001,7 +3001,7 @@
    </identifier>
    <description>
       <type />
-      <folios>84</folios>
+      <folios>94</folios>
       <page_h>165</page_h>
       <page_w>120</page_w>
       <contents><text id="gospels">Gospels</text>  (Vetus Latina, Mt 26.42–27.35, Mc 1.1–4.8, 5.18–6.35)</contents>
@@ -3171,7 +3171,7 @@
    </xrefs>
    <notes>
       <categories>or-ire;sc-ire</categories>
-      <project_notes>Found in shrine with Book of Muling.</project_notes>
+      <project_notes>Found in shrine with <ms id="103">Book of Mulling</ms>.</project_notes>
    </notes>
 </manuscript><manuscript id="109">
    <identifier libraryID="dublin_museum">
@@ -6543,7 +6543,7 @@
       <link type="foundations" href="http://foundationsirishculture.ie/record/?id=3">[external link, with image]</link>
    </xrefs>
    <notes>
-      <categories>or-ins;text;vern</categories>
+      <categories>or-ire;or-ins;text;vern</categories>
       <project_notes>Old Irish glosses. <i>CLA</i>: Scribe Edilberict, son of Berictfrid (f. 46); "script and decoratiion point to Ireland". 
       See Psalter of Caimín (Dublin, UCD, Franciscan A 1, late 11th cent.), where most of the glosses correspond verbatim.</project_notes>
    </notes>
@@ -6633,7 +6633,7 @@
       <xref type="bronner">p. 8</xref>
    </xrefs>
    <notes>
-      <categories>sc-ire;vern</categories>
+      <categories>or-ire;sc-ire;vern</categories>
       <project_notes>Old Irish glosses. Bischoff: from the same scriptorium as the Karlruhe Bede (<ms id="60">Aug. perg. 167</ms>). 
       <i>CLA</i> S.1734 suggests a connection with the <ms id="133">compustistical binding fragments</ms> from <place id="bobbio">Bobbio</place>.</project_notes>
       </notes>

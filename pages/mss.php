@@ -5,13 +5,13 @@
 //
 $searchCat = cleanInput('cat') ?? '';
 $searchLib = cleanInput('lib') ?? '';
-$results = searchMSS($xml_mss, $search, $searchCat, $searchLib);
 
-// DISPLAY HEADERS
+// display headers
 //
 if ($search != '') {
 	// keyword search
 	print '<h2>Searching for &ldquo;' .  $search . '&rdquo;</h2>';
+	$results = searchMSS($xml_mss, 'keyword', $search);
 }
 elseif ($searchCat != '') {
 	// browse by category 
@@ -19,17 +19,19 @@ elseif ($searchCat != '') {
 		print '<h2>Browse category: ';
 		writeCategoryButton($searchCat, false);		 
 		print '</h2>';
-	//	print '<a type="button" class="btn text-light" href="index.php?msid=001">' . $cat . '</a> ';
+		$results = searchMSS($xml_mss, 'category', $searchCat);
 	}
 }
 elseif ($searchLib != '') {
 	// browse by library
 	print '<h2>Browse by library: ' .  $libraries[$searchLib]['city'] . ', ' .  $libraries[$searchLib]['name'] . '</h2>';
+	$results = searchMSS($xml_mss, 'library', $searchLib);
 }
 
 else {
 	// show all entries
 	print '<h2>All manuscripts</h2>';
+	$results = searchMSS($xml_mss, null, null);
 }
 
 
