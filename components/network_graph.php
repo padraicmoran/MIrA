@@ -297,7 +297,8 @@ function edgeString($edge) {
           from: "' . $edge[0] . '", 
           to: "' . $edge[1] . '",
           arrows: "to", 
-          color: "darkorange", 
+          color: "#aaa", 
+          dashes: true,
           width: 2
         },' . "\n";
         break;
