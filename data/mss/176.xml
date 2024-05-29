@@ -19,6 +19,7 @@
       <term_post>840</term_post>
       <term_ante>860</term_ante>
       <origin>N <place id="italy">Italy</place> (Milan?)? <place id="strasbourg">Strasbourg</place>? <place id="stgall">St Gall</place>?</origin>
+      <provenance><place id="strasbourg">Strasbourg</place> (s. XIV)</provenance>
    </history>
    <xrefs>
       <xref type="bischoff_kat">585</xref>
@@ -26,7 +27,7 @@
       <xref type="bronner">p. 3</xref>
    </xrefs>
    <notes>
-      <categories>vern</categories>
+      <categories>sc-ire;vern</categories>
       <project_notes>Old Irish glosses. Written by Caunchobrach, Fergus, Domhnach and Suadbar; dedicated to Colgu. Several other Irish names in margins. </project_notes>
       </notes>
 </manuscript>

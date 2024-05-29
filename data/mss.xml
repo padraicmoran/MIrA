@@ -1376,7 +1376,7 @@
       <xref type="bronner">p. 9</xref>
    </xrefs>
    <notes>
-      <categories>vern</categories>
+      <categories>sc-ire;vern</categories>
       <project_notes>Interlinear gloss. Old Irish verse</project_notes>
    </notes>
 </manuscript><manuscript id="49">
@@ -1616,7 +1616,7 @@
       <xref type="bronner">pp 18–19</xref>
    </xrefs>
    <notes>
-      <categories>vern</categories>
+      <categories>sc-ire;vern</categories>
       <project_notes>Old Irish glosses. </project_notes>
    </notes>
 </manuscript><manuscript id="57">
@@ -2866,7 +2866,7 @@
    </xrefs>
 
    <notes>
-      <categories>vern;or-ire</categories>
+      <categories>or-ire;sc-ire;vern</categories>
       <project_notes>Latin and Old Irish glosses (dry point). Damage indicates lost cumdach.</project_notes>
    </notes>
 </manuscript><manuscript id="99">
@@ -5161,6 +5161,7 @@
       <term_post>840</term_post>
       <term_ante>860</term_ante>
       <origin>N <place id="italy">Italy</place> (Milan?)? <place id="strasbourg">Strasbourg</place>? <place id="stgall">St Gall</place>?</origin>
+      <provenance><place id="strasbourg">Strasbourg</place> (s. XIV)</provenance>
    </history>
    <xrefs>
       <xref type="bischoff_kat">585</xref>
@@ -5168,7 +5169,7 @@
       <xref type="bronner">p. 3</xref>
    </xrefs>
    <notes>
-      <categories>vern</categories>
+      <categories>sc-ire;vern</categories>
       <project_notes>Old Irish glosses. Written by Caunchobrach, Fergus, Domhnach and Suadbar; dedicated to Colgu. Several other Irish names in margins. </project_notes>
       </notes>
 </manuscript><manuscript id="177">
@@ -5458,10 +5459,10 @@
       <script>Caroline minuscule</script>
    </description>
    <history>
-      <date_desc>IX med</date_desc>
+      <date_desc>IX med or 3/4</date_desc>
       <term_post>840</term_post>
-      <term_ante>860</term_ante>
-      <origin>E <place id="france">France</place> (<place id="reims">Reims</place>?)</origin>
+      <term_ante>875</term_ante>
+      <origin>Probably E <place id="france">France</place> (<place id="reims">Reims</place>?)</origin>
       <provenance><place id="stgall">St Gall</place></provenance>
    </history>
    <xrefs>
@@ -7115,7 +7116,7 @@
       <xref type="bronner">pp 59–60</xref>
    <xref type="alexander">72</xref></xrefs>
    <notes>
-      <categories>vern</categories>
+      <categories>sc-ire;vern</categories>
       <project_notes>Old Irish colophon and notes on liturgy.</project_notes>
       </notes>
 </manuscript><manuscript id="244">
@@ -7982,8 +7983,8 @@
       <script>Irish minuscule</script>
    </description>
    <history>
-      <date_desc>IX²</date_desc>
-      <term_post>851</term_post>
+      <date_desc>IX²/med</date_desc>
+      <term_post>840</term_post>
       <term_ante>900</term_ante>
       <origin><place id="stgall">St Gall</place>?</origin>
    </history>
