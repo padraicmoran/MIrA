@@ -24,14 +24,14 @@
       <date_desc>VII med</date_desc>
       <term_post>640</term_post>
       <term_ante>660</term_ante>
-      <origin>Northumbria (Irish tradition)</origin>
+      <origin><place id="northumbria">Northumbria</place>?</origin>
    </history>
    <xrefs>
       <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/460">2.147</xref>
       <link type="trismegistos" href="https://www.trismegistos.org/text/66247">TM 66247</link>
    <xref type="alexander">5</xref></xrefs>
    <notes>
-      <categories>or-ins</categories>
-      <project_notes />
+      <categories>or-ins;sc-ire</categories>
+      <project_notes>Lowe: 'Written presumably in Northumbria, by a scribe trained in the pure Irish tradition.'</project_notes>
    </notes>
 </manuscript>

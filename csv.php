@@ -108,14 +108,14 @@ if (isset($results)) {
 				$ms->identifier->shelfmark,
 				$ms->identifier->ms_name,
 				count($ms->identifier) - 1,
-				stripTags($ms->description->contents),
+				stripTagsInNode($ms->description->contents),
 				$ms->description->script,
 				$ms->history->date_desc,
 				$ms->history->term_post,
 				$ms->history->term_ante,
-				stripTags($ms->history->origin),
-				stripTags($ms->history->provenance),
-				stripTags($ms->notes->project_notes),
+				stripTagsInNode($ms->history->origin),
+				stripTagsInNode($ms->history->provenance),
+				stripTagsInNode($ms->notes->project_notes),
 				$ms->notes->categories
 			)
 		);
@@ -125,7 +125,7 @@ else {
 	print 'Error: no data found.';
 }
 
-function stripTags($node) {
+function stripTagsInNode($node) {
 	$str = strval($node->asXML());
 	return preg_replace('/<[^>]*>/', '', $str);
 }

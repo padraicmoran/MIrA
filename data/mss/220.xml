@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <manuscript id="220">
    <identifier libraryID="vatican">
-      <shelfmark>Pal. Lat. 210</shelfmark>
+      <shelfmark>Pal. Lat. 210 (f. 1)</shelfmark>
       <shelfmark_indexer>Pal. Lat. 0210</shelfmark_indexer>
       <link type="images">http://digi.vatlib.it/view/bav_pal_lat_210</link>
       <link type="iiif">https://digi.vatlib.it/iiif/bav_pal_lat_210/manifest.json</link>

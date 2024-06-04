@@ -1,6 +1,7 @@
 <?php
 
-$xpath = $_GET['xpath'];
+if (isset($_GET['xpath'])) $xpath = $_GET['xpath'];
+else $xpath = null;
 $output = cleanInput('output') ?? '';
 
 ?>
@@ -36,8 +37,9 @@ if ($xpath != '') {
 		elseif ($output == 'list') {
 			print '<p>Results: ' . $matches . '</p>';
 			print '<textarea class="form-control" name="xpath" rows="5">';
-			foreach ($results as $ms) {
-				print $ms['id'] . ",";
+			foreach ($results as $index => $ms) {
+				print $ms['id'];
+				if ($index < count($results) - 1) print ', ';
 			}
 			print '</textarea>';
 

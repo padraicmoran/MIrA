@@ -18,7 +18,7 @@
       <date_desc>VIII²</date_desc>
       <term_post>751</term_post>
       <term_ante>800</term_ante>
-      <origin>Northumbrian tradition</origin>
+      <origin><place id="iona">Iona</place>?</origin>
    </history>
    <xrefs>
       <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/593">2.274</xref>
@@ -27,7 +27,7 @@
       <xref type="mcgurk">87</xref>
    </xrefs>
    <notes>
-      <categories>or-ins;sc-ire</categories>
-      <project_notes />
+      <categories>or-ire;sc-ire</categories>
+      <project_notes>Irish script, with Northumbrian influence (Brown). Presumably written on <place id="iona">Iona</place>.</project_notes>
    </notes>
 </manuscript>

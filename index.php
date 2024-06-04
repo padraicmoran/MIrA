@@ -34,7 +34,7 @@ if (isset($xml_mss)) {
 	}
 	// in development
 	elseif ($page == 'xpath') {
-		templateTop(5);
+		templateTop(1);
 		require 'pages/xpath.php';
 	}
 	// home page (in the last resort)

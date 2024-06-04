@@ -17,14 +17,14 @@
       <date_desc>VIII¹</date_desc>
       <term_post>701</term_post>
       <term_ante>750</term_ante>
-      <origin>Wales (Irish tradition)</origin>
+      <origin><place id="wales">Wales</place> (Irish tradition)</origin>
    </history>
    <xrefs>
       <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/474">2.159</xref>
       <link type="trismegistos" href="https://www.trismegistos.org/text/66263">TM 66263</link>
    <xref type="alexander">21</xref></xrefs>
    <notes>
-      <categories>or-ins</categories>
+      <categories>or-ins;sc-ins</categories>
       <project_notes />
    </notes>
 </manuscript>

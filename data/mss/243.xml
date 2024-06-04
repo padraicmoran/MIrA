@@ -18,8 +18,7 @@
       <date_desc>c. 850–1000, prob. IX¹</date_desc>
       <term_post>850</term_post>
       <term_ante>950</term_ante>
-      <origin>Deer (Scotland)</origin>
-      <provenance>Deer</provenance>
+      <origin><place id="deer">Deer</place> (Scotland)</origin>
    </history>
    <xrefs>
       <xref type="thesaurus">2.xxx, 2.257</xref>

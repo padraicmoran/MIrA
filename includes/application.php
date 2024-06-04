@@ -3,8 +3,15 @@
 Draws together all components and loads core data (manuscripts, categories, libraries)
 */
 
-// load general functions and page elements
+// load config options
 require 'includes/config.php';
+if ($debug) {
+	ini_set('display_errors', 1);
+	ini_set('display_startup_errors', 1);
+	error_reporting(E_ALL);
+}
+
+// load general functions and page elements
 require 'includes/functions.php';
 require 'includes/template.php';
 require 'includes/utils.php';
@@ -28,12 +35,6 @@ $languages = array(
 	'gr'=>'Greek',
 	'la'=>'Latin'
 );
-
-if ($debug) {
-	ini_set('display_errors', 1);
-	ini_set('display_startup_errors', 1);
-	error_reporting(E_ALL);
-}
 
 // 
 // LOAD DATA

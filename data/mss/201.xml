@@ -22,7 +22,7 @@
       <date_desc>VIII</date_desc>
       <term_post>701</term_post>
       <term_ante>800</term_ante>
-      <origin>England (Irish scribe)</origin>
+      <origin><place id="england">England</place> (Irish scribe)</origin>
    </history>
    <xrefs>
       <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/446">2.133</xref>

@@ -697,7 +697,7 @@
       <date_desc>VIII</date_desc>
       <term_post>701</term_post>
       <term_ante>800</term_ante>
-      <origin><place id="ireland">Ireland</place> or N England</origin>
+      <origin><place id="ireland">Ireland</place> or N <place id="england">England</place></origin>
    </history>
    <xrefs>
       <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/946">5.581</xref>
@@ -705,7 +705,7 @@
       <link type="foundations" href="http://foundationsirishculture.ie/record/?id=32">[external link, with image]</link>
    </xrefs>
    <notes>
-    	<categories>or-ins;or-ire</categories>
+    	<categories>or-ins;sc-ins</categories>
      <glosses />
       <project_notes />
    </notes>
@@ -819,7 +819,7 @@
       <date_desc>VIII</date_desc>
       <term_post>701</term_post>
       <term_ante>800</term_ante>
-      <origin>England? <place id="ireland">Ireland</place>? <place id="echternach">Echternach</place>?</origin>
+      <origin><place id="england">England</place>? <place id="ireland">Ireland</place>? <place id="echternach">Echternach</place>?</origin>
    </history>
    <xrefs>
       <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/950">5.585</xref>
@@ -827,7 +827,7 @@
       <xref type="bronner">p. 41</xref>
    </xrefs>
    <notes>
-   	<categories>or-ins;or-ire;vern</categories>
+   	<categories>or-ins;sc-ins;vern</categories>
       <project_notes>Latin &amp; Old Irish glosses. </project_notes>
       </notes>
 </manuscript><manuscript id="30">
@@ -1181,7 +1181,7 @@
       <date_desc>VII–VIII</date_desc>
       <term_post>680</term_post>
       <term_ante>720</term_ante>
-      <origin><place id="ireland">Ireland</place> or Wales</origin>
+      <origin><place id="ireland">Ireland</place> or <place id="wales">Wales</place></origin>
       <provenance>St-Bertin</provenance>
    </history>
    <xrefs>
@@ -1191,7 +1191,7 @@
       <link type="foundations" href="http://foundationsirishculture.ie/record/?id=41">[external link, with image]</link>
    </xrefs>
    <notes>
-      <categories>or-ire;or-ins;vern</categories>
+      <categories>or-ins;sc-ins;vern</categories>
       <project_notes>Old Irish glosses. Flyleaf to 10th cent. MS.</project_notes>
    </notes>
 </manuscript><manuscript id="42">
@@ -2258,14 +2258,14 @@
       <date_desc>VII ex</date_desc>
       <term_post>686</term_post>
       <term_ante>700</term_ante>
-      <origin><place id="ireland">Ireland</place> (poss. Northumbria)</origin>
+      <origin><place id="ireland">Ireland</place> (poss. <place id="northumbria">Northumbria</place>)</origin>
    </history>
    <xrefs>
       <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/1646">8.1172</xref>
       <link type="trismegistos" href="https://www.trismegistos.org/text/67311">TM 67311</link>
    </xrefs>
    <notes>
-      <categories>or-ire;or-ins</categories>
+      <categories>or-ire;or-ins;sc-ire</categories>
       <project_notes>CLA: "Insular majuscule with a strong Irish flavour".</project_notes>
    </notes>
 </manuscript><manuscript id="79">
@@ -2915,7 +2915,7 @@
       <date_desc>VII²</date_desc>
       <term_post>651</term_post>
       <term_ante>700</term_ante>
-      <origin>Northumbria (Irish tradition)</origin>
+      <origin><place id="northumbria">Northumbria</place> (Irish tradition)</origin>
       <provenance>Durrow, Offaly</provenance>
    </history>
    <xrefs>
@@ -2947,7 +2947,7 @@
       <date_desc>VIII²</date_desc>
       <term_post>751</term_post>
       <term_ante>800</term_ante>
-      <origin>Northumbrian tradition</origin>
+      <origin><place id="iona">Iona</place>?</origin>
    </history>
    <xrefs>
       <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/593">2.274</xref>
@@ -2956,8 +2956,8 @@
       <xref type="mcgurk">87</xref>
    </xrefs>
    <notes>
-      <categories>or-ins;sc-ire</categories>
-      <project_notes />
+      <categories>or-ire;sc-ire</categories>
+      <project_notes>Irish script, with Northumbrian influence (Brown). Presumably written on <place id="iona">Iona</place>.</project_notes>
    </notes>
 </manuscript><manuscript id="102">
    <identifier libraryID="dublin_tcd">
@@ -4658,7 +4658,7 @@
 
    <xref type="alexander">63</xref></xrefs>
    <notes>
-      <categories>scribe;sc-ire;vern</categories>
+      <categories>sc-ire;scribe;vern</categories>
       <project_notes>Lat. &amp; Old Irish glosses. Scribes incl. Dubthach, <person id="eriugena">Eriugena</person> (e.g. 65r).</project_notes>
    </notes>
 </manuscript><manuscript id="160">
@@ -5277,7 +5277,7 @@
       <date_desc>VII–VIII (ante 713)</date_desc>
       <term_post>680</term_post>
       <term_ante>712</term_ante>
-      <origin>Iona</origin>
+      <origin><place id="iona">Iona</place></origin>
       <provenance><place id="reichenau">Reichenau</place></provenance>
    </history>
    <xrefs>
@@ -5871,7 +5871,7 @@
       <date_desc>VIII (or IX?)</date_desc>
       <term_post>701</term_post>
       <term_ante>900</term_ante>
-      <origin>England</origin>
+      <origin><place id="england">England</place></origin>
       <provenance><place id="canterbury">Canterbury</place></provenance>
    </history>
    <xrefs>
@@ -5906,7 +5906,7 @@
       <date_desc>VIII</date_desc>
       <term_post>701</term_post>
       <term_ante>800</term_ante>
-      <origin>England (Irish scribe)</origin>
+      <origin><place id="england">England</place> (Irish scribe)</origin>
    </history>
    <xrefs>
       <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/446">2.133</xref>
@@ -5989,7 +5989,7 @@
       <date_desc>IX²</date_desc>
       <term_post>851</term_post>
       <term_ante>900</term_ante>
-      <origin>Wales</origin>
+      <origin><place id="wales">Wales</place></origin>
       <provenance>Worcester</provenance>
    </history>
    <xrefs>
@@ -6025,15 +6025,15 @@
       <date_desc>VII med</date_desc>
       <term_post>640</term_post>
       <term_ante>660</term_ante>
-      <origin>Northumbria (Irish tradition)</origin>
+      <origin><place id="northumbria">Northumbria</place>?</origin>
    </history>
    <xrefs>
       <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/460">2.147</xref>
       <link type="trismegistos" href="https://www.trismegistos.org/text/66247">TM 66247</link>
    <xref type="alexander">5</xref></xrefs>
    <notes>
-      <categories>or-ins</categories>
-      <project_notes />
+      <categories>or-ins;sc-ire</categories>
+      <project_notes>Lowe: 'Written presumably in Northumbria, by a scribe trained in the pure Irish tradition.'</project_notes>
    </notes>
 </manuscript><manuscript id="206">
    <identifier unit="1" libraryID="durham">
@@ -6057,14 +6057,14 @@
       <date_desc>VIII</date_desc>
       <term_post>701</term_post>
       <term_ante>800</term_ante>
-      <origin>Northumbria (Irish tradition) or <place id="ireland">Ireland</place></origin>
+      <origin><place id="northumbria">Northumbria</place> (Irish tradition) or <place id="ireland">Ireland</place></origin>
    </history>
    <xrefs>
       <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/464">2.149</xref>
       <link type="trismegistos" href="https://www.trismegistos.org/text/66253">TM 66253</link>
    <xref type="alexander">10</xref></xrefs>
    <notes>
-      <categories>or-ins;or-ire</categories>
+      <categories>or-ins;sc-ins</categories>
       <project_notes />
    </notes>
 </manuscript><manuscript id="207">
@@ -6084,15 +6084,15 @@
       <date_desc>VIII</date_desc>
       <term_post>701</term_post>
       <term_ante>800</term_ante>
-      <origin>Northumbria (Irish tradition)</origin>
+      <origin><place id="northumbria">Northumbria</place>?</origin>
    </history>
    <xrefs>
       <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/462">2.148b</xref>
       <link type="trismegistos" href="https://www.trismegistos.org/text/66249">TM 66249</link>
    <xref type="alexander">16</xref></xrefs>
    <notes>
-      <categories>or-ins</categories>
-      <project_notes />
+      <categories>or-ins;sc-ire</categories>
+      <project_notes>Written presumably in Northumbria by a scribe schooled in the Irish manner. </project_notes>
    </notes>
 </manuscript><manuscript id="208">
    <identifier libraryID="lichfield">
@@ -6112,14 +6112,14 @@
       <date_desc>VIII¹</date_desc>
       <term_post>701</term_post>
       <term_ante>750</term_ante>
-      <origin>Wales (Irish tradition)</origin>
+      <origin><place id="wales">Wales</place> (Irish tradition)</origin>
    </history>
    <xrefs>
       <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/474">2.159</xref>
       <link type="trismegistos" href="https://www.trismegistos.org/text/66263">TM 66263</link>
    <xref type="alexander">21</xref></xrefs>
    <notes>
-      <categories>or-ins</categories>
+      <categories>or-ins;sc-ins</categories>
       <project_notes />
    </notes>
 </manuscript><manuscript id="209">
@@ -6453,7 +6453,7 @@
       </notes>
 </manuscript><manuscript id="220">
    <identifier libraryID="vatican">
-      <shelfmark>Pal. Lat. 210</shelfmark>
+      <shelfmark>Pal. Lat. 210 (f. 1)</shelfmark>
       <shelfmark_indexer>Pal. Lat. 0210</shelfmark_indexer>
       <link type="images">http://digi.vatlib.it/view/bav_pal_lat_210</link>
       <link type="iiif">https://digi.vatlib.it/iiif/bav_pal_lat_210/manifest.json</link>
@@ -6533,7 +6533,7 @@
       <date_desc>VIII</date_desc>
       <term_post>701</term_post>
       <term_ante>800</term_ante>
-      <origin>England? (poss. <place id="ireland">Ireland</place>?)</origin>
+      <origin>N <place id="england">England</place> (Lowe); <place id="ireland">Ireland</place>?</origin>
       <provenance><place id="germany">Germany</place>, prob. Lorsch</provenance>
    </history>
    <xrefs>
@@ -6544,8 +6544,8 @@
       <link type="foundations" href="http://foundationsirishculture.ie/record/?id=3">[external link, with image]</link>
    </xrefs>
    <notes>
-      <categories>or-ire;or-ins;text;vern</categories>
-      <project_notes>Old Irish glosses. <i>CLA</i>: Scribe Edilberict, son of Berictfrid (f. 46); "script and decoratiion point to Ireland". 
+      <categories>or-ire;or-ins;sc-ire;text;vern</categories>
+      <project_notes>Old Irish glosses. <i>CLA</i>: Scribe Edilberict, son of Berictfrid (f. 46); "script and decoration point to Ireland". 
       See Psalter of Caimín (Dublin, UCD, Franciscan A 1, late 11th cent.), where most of the glosses correspond verbatim.</project_notes>
    </notes>
 </manuscript><manuscript id="223">
@@ -6567,7 +6567,7 @@
       <date_desc>VIII ex</date_desc>
       <term_post>786</term_post>
       <term_ante>800</term_ante>
-      <origin><place id="ireland">Ireland</place> or Northumbria</origin>
+      <origin><place id="ireland">Ireland</place> or <place id="northumbria">Northumbria</place></origin>
    </history>
    <xrefs>
       <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/99">1.87</xref>
@@ -6575,7 +6575,7 @@
       <link type="foundations" href="http://foundationsirishculture.ie/record/?id=5">[external link, with image]</link>
    </xrefs>
    <notes>
-      <categories>or-ire;or-ins</categories>
+      <categories>or-ins;sc-ins</categories>
       <project_notes />
    </notes>
 </manuscript><manuscript id="224">
@@ -7108,8 +7108,7 @@
       <date_desc>c. 850–1000, prob. IX¹</date_desc>
       <term_post>850</term_post>
       <term_ante>950</term_ante>
-      <origin>Deer (Scotland)</origin>
-      <provenance>Deer</provenance>
+      <origin><place id="deer">Deer</place> (Scotland)</origin>
    </history>
    <xrefs>
       <xref type="thesaurus">2.xxx, 2.257</xref>
@@ -7931,7 +7930,7 @@
    </xrefs>
    <notes>
       <categories>sc-ins</categories>
-      <project_notes><i>CLA</i>: "resembles certain hands in Vatic. Pal. Lat. 235 (CLA 1.87) and probably the work of a Northumbrian scribe schooled in the Irish tradition"</project_notes>
+      <project_notes><i>CLA</i>: "resembles certain hands in Vatic. Pal. Lat. 235 (CLA 1.87) and probably the work of a <place id="northumbria">Northumbrian</place> scribe schooled in the Irish tradition"</project_notes>
       </notes>
 </manuscript><manuscript id="273">
    <identifier unit="1" libraryID="naples">

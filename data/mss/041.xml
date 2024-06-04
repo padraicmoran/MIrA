@@ -17,7 +17,7 @@
       <date_desc>VII–VIII</date_desc>
       <term_post>680</term_post>
       <term_ante>720</term_ante>
-      <origin><place id="ireland">Ireland</place> or Wales</origin>
+      <origin><place id="ireland">Ireland</place> or <place id="wales">Wales</place></origin>
       <provenance>St-Bertin</provenance>
    </history>
    <xrefs>
@@ -27,7 +27,7 @@
       <link type="foundations" href="http://foundationsirishculture.ie/record/?id=41">[external link, with image]</link>
    </xrefs>
    <notes>
-      <categories>or-ire;or-ins;vern</categories>
+      <categories>or-ins;sc-ins;vern</categories>
       <project_notes>Old Irish glosses. Flyleaf to 10th cent. MS.</project_notes>
    </notes>
 </manuscript>

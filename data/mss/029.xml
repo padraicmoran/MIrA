@@ -18,7 +18,7 @@
       <date_desc>VIII</date_desc>
       <term_post>701</term_post>
       <term_ante>800</term_ante>
-      <origin>England? <place id="ireland">Ireland</place>? <place id="echternach">Echternach</place>?</origin>
+      <origin><place id="england">England</place>? <place id="ireland">Ireland</place>? <place id="echternach">Echternach</place>?</origin>
    </history>
    <xrefs>
       <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/950">5.585</xref>
@@ -26,7 +26,7 @@
       <xref type="bronner">p. 41</xref>
    </xrefs>
    <notes>
-   	<categories>or-ins;or-ire;vern</categories>
+   	<categories>or-ins;sc-ins;vern</categories>
       <project_notes>Latin &amp; Old Irish glosses. </project_notes>
       </notes>
 </manuscript>

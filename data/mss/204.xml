@@ -17,7 +17,7 @@
       <date_desc>IX²</date_desc>
       <term_post>851</term_post>
       <term_ante>900</term_ante>
-      <origin>Wales</origin>
+      <origin><place id="wales">Wales</place></origin>
       <provenance>Worcester</provenance>
    </history>
    <xrefs>

@@ -18,7 +18,7 @@
       <date_desc>VIII</date_desc>
       <term_post>701</term_post>
       <term_ante>800</term_ante>
-      <origin>England? (poss. <place id="ireland">Ireland</place>?)</origin>
+      <origin>N <place id="england">England</place> (Lowe); <place id="ireland">Ireland</place>?</origin>
       <provenance><place id="germany">Germany</place>, prob. Lorsch</provenance>
    </history>
    <xrefs>
@@ -29,8 +29,8 @@
       <link type="foundations" href="http://foundationsirishculture.ie/record/?id=3">[external link, with image]</link>
    </xrefs>
    <notes>
-      <categories>or-ire;or-ins;text;vern</categories>
-      <project_notes>Old Irish glosses. <i>CLA</i>: Scribe Edilberict, son of Berictfrid (f. 46); "script and decoratiion point to Ireland". 
+      <categories>or-ire;or-ins;sc-ire;text;vern</categories>
+      <project_notes>Old Irish glosses. <i>CLA</i>: Scribe Edilberict, son of Berictfrid (f. 46); "script and decoration point to Ireland". 
       See Psalter of Caimín (Dublin, UCD, Franciscan A 1, late 11th cent.), where most of the glosses correspond verbatim.</project_notes>
    </notes>
 </manuscript>

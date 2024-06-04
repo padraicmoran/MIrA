@@ -17,7 +17,7 @@
       <date_desc>VIII (or IX?)</date_desc>
       <term_post>701</term_post>
       <term_ante>900</term_ante>
-      <origin>England</origin>
+      <origin><place id="england">England</place></origin>
       <provenance><place id="canterbury">Canterbury</place></provenance>
    </history>
    <xrefs>

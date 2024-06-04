@@ -21,14 +21,14 @@
       <date_desc>VIII</date_desc>
       <term_post>701</term_post>
       <term_ante>800</term_ante>
-      <origin>Northumbria (Irish tradition) or <place id="ireland">Ireland</place></origin>
+      <origin><place id="northumbria">Northumbria</place> (Irish tradition) or <place id="ireland">Ireland</place></origin>
    </history>
    <xrefs>
       <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/464">2.149</xref>
       <link type="trismegistos" href="https://www.trismegistos.org/text/66253">TM 66253</link>
    <xref type="alexander">10</xref></xrefs>
    <notes>
-      <categories>or-ins;or-ire</categories>
+      <categories>or-ins;sc-ins</categories>
       <project_notes />
    </notes>
 </manuscript>

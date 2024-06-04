@@ -4,6 +4,7 @@ Network graph
 */
 function networkGraph($results) {
   global $placeInfo, $libraries;
+  $showLibraries = false;
 
   print '<h3 class="mt-5 pt-2">Network graph</h3>';
   if (sizeof($results) > 50) print '<p class="bg-warning rounded py-1 px-3">Large result sets may take several seconds to draw.</p>';
@@ -47,18 +48,17 @@ function networkGraph($results) {
       // add edge
       array_push($edgeList, array($msID, $place['id'], 'prov'));
     }
-/*
-    // DISABLING LIBRARY NODES UNTIL FURTHER TESTING
 
-    // check libraries for this manuscript
-    $checkLibraries = $ms->xpath ('//manuscript[@id="' . $msID  . '"]//identifier/@libraryID');
-    foreach ($checkLibraries as $libID) {
-      // add to list
-      array_push($library_list, strval($libID));
-      // add edge
-      array_push($edgeList, array($msID, 'library_' . strval($libID), 'prov'));
+    if ($showLibraries) {
+      // check libraries for this manuscript
+      $checkLibraries = $ms->xpath ('//manuscript[@id="' . $msID  . '"]//identifier/@libraryID');
+      foreach ($checkLibraries as $libID) {
+        // add to list
+        array_push($library_list, strval($libID));
+        // add edge
+        array_push($edgeList, array($msID, 'library_' . strval($libID), 'library'));
+      }
     }
-*/
   }
 
   // create node data for places
@@ -75,22 +75,22 @@ function networkGraph($results) {
       $type
     ));
   }
-/*
-  // create node data for libraries
-  $library_list = array_unique($library_list);        // remove duplicates
-  foreach ($library_list as $libID) {
-    $type = 'place';
-    $coords = processCoords($libraries[$libID]['coords']);
-    array_push($nodeList, array(
-      'library_' . $libID, 
-      'L: ' . $libID,
-      $coords[0], 
-      $coords[1], 
-      'library'
-    ));
-  }
-*/
 
+  if ($showLibraries) {
+    // create node data for libraries
+    $library_list = array_unique($library_list);        // remove duplicates
+    foreach ($library_list as $libID) {
+      $type = 'place';
+      $coords = processCoords($libraries[$libID]['coords']);
+      array_push($nodeList, array(
+        'library_' . $libID, 
+        'L: ' . $libID,
+        $coords[0], 
+        $coords[1], 
+        'library'
+      ));
+    }
+  }
 
 ?>
 
@@ -284,24 +284,34 @@ function nodeString($node) {
 function edgeString($edge) {
   switch($edge[2]) {
     case 'origin':
-        $str = '{
-          from: "' . $edge[0] . '", 
-          to: "' . $edge[1] . '",
-          arrows: "from", 
-          color: "black", 
-          width: 2
-        },' . "\n";
-        break;
+      $str = '{
+        from: "' . $edge[0] . '", 
+        to: "' . $edge[1] . '",
+        arrows: "from", 
+        color: "black", 
+        width: 2
+      },' . "\n";
+      break;
     case 'prov':
-        $str = '{
-          from: "' . $edge[0] . '", 
-          to: "' . $edge[1] . '",
-          arrows: "to", 
-          color: "#aaa", 
-          dashes: true,
-          width: 2
-        },' . "\n";
-        break;
+      $str = '{
+        from: "' . $edge[0] . '", 
+        to: "' . $edge[1] . '",
+        arrows: "to", 
+        color: "green", 
+        dashes: true,
+        width: 2
+      },' . "\n";
+      break;
+    case 'library':
+      $str = '{
+        from: "' . $edge[0] . '", 
+        to: "' . $edge[1] . '",
+        arrows: "to", 
+        color: "indianred", 
+        dashes: true,
+        width: 2
+      },' . "\n";
+      break;
     default: // hidden edges
       $str = '{ 
         from: "' . $edge[0] . '", 

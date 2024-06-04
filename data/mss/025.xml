@@ -18,7 +18,7 @@
       <date_desc>VIII</date_desc>
       <term_post>701</term_post>
       <term_ante>800</term_ante>
-      <origin><place id="ireland">Ireland</place> or N England</origin>
+      <origin><place id="ireland">Ireland</place> or N <place id="england">England</place></origin>
    </history>
    <xrefs>
       <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/946">5.581</xref>
@@ -26,7 +26,7 @@
       <link type="foundations" href="http://foundationsirishculture.ie/record/?id=32">[external link, with image]</link>
    </xrefs>
    <notes>
-    	<categories>or-ins;or-ire</categories>
+    	<categories>or-ins;sc-ins</categories>
      <glosses />
       <project_notes />
    </notes>

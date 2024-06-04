@@ -10,6 +10,31 @@
 -->
 	
    <!-- regions -->
+   <place id="england" type="region">
+      <name>England</name>
+      <description></description>
+      <coords>53.13, -1.38</coords>
+      <xref type="viaf">https://viaf.org/viaf/142995804</xref>
+      <xref type="wikidata">https://www.wikidata.org/wiki/Q21</xref>
+
+      <place id="canterbury">
+         <name>Canterbury</name>
+         <name lang="la">Cantuaria, Durrovernum</name>
+         <description>Augustine 597. Theodore &amp; Hadrian 669.</description>
+         <coords>51.279656,1.083194</coords>
+         <xref type="viaf">https://viaf.org/viaf/235007026</xref>
+         <xref type="wikidata">https://www.wikidata.org/wiki/Q29303</xref>
+      </place>
+
+      <place id="northumbria" type="region">
+         <name>Northumbria</name>
+         <coords>55, -2.5</coords>
+         <xref type="viaf">https://viaf.org/viaf/126697022</xref>
+         <xref type="wikidata">https://www.wikidata.org/wiki/Q107299</xref>
+      </place>
+   </place>
+
+
    <place id="france" type="region">
       <name>France</name>
       <description></description>
@@ -245,12 +270,27 @@
 
 
    <place id="ireland" type="region">
-      <name>Ireland</name>
+      <name>Ireland (&amp; Scotland)</name>
       <description></description>
-      <coords>53.416667, -8</coords>
+      <coords>54.2, -7.3</coords>
       <xref type="pleiades">https://pleiades.stoa.org/places/20487</xref>
       <xref type="viaf">https://viaf.org/viaf/158208597/</xref>
       <xref type="wikidata">https://www.wikidata.org/wiki/Q22890</xref>
+   
+      <place id="deer">
+         <name>Deer</name>
+         <coords>57.519167, -2.036667</coords>
+         <xref type="viaf">https://viaf.org/viaf/9171168109562343630008/</xref>
+         <xref type="wikidata">https://www.wikidata.org/wiki/Q1382485</xref>
+      </place> 
+      <place id="iona">
+         <name>Iona</name>
+         <name lang="la">Ioua insula</name>
+         <name lang="ga">Hii, Hy, Í, Eu</name>
+         <coords>56.33, -6.41</coords>
+         <xref type="viaf">https://viaf.org/viaf/315127804</xref>
+         <xref type="wikidata">https://www.wikidata.org/wiki/Q610</xref>
+      </place> 
    </place>
 
 
@@ -298,17 +338,17 @@
 
 
 
+   <place id="wales" type="region">
+      <name>Wales</name>
+      <description></description>
+      <coords>52.3, -3.8</coords>
+      <xref type="viaf">https://viaf.org/viaf/82145424563986831429</xref>
+      <xref type="wikidata">https://www.wikidata.org/wiki/Q25</xref>
+   </place>
+
 
 	<!-- cities/monasteries, unsorted -->
 
-      <place id="canterbury">
-         <name>Canterbury</name>
-         <name lang="la">Cantuaria, Durrovernum</name>
-         <description>Augustine 597. Theodore &amp; Hadrian 669.</description>
-         <coords>51.279656,1.083194</coords>
-         <xref type="viaf">https://viaf.org/viaf/235007026</xref>
-         <xref type="wikidata">https://www.wikidata.org/wiki/Q29303</xref>
-      </place>
       <place id="echternach">
          <name>Echternach</name>
          <name lang="la">Epternacum</name>
