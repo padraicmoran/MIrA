@@ -15,17 +15,17 @@ if ($debug) {
 require 'includes/functions.php';
 require 'includes/template.php';
 require 'includes/utils.php';
-require 'components/category_buttons.php';
-require 'components/chart_shared.php';
-require 'components/chart_dates.php';
-require 'components/chart_folios.php';
-require 'components/chart_sizes.php';
-require 'components/list_mss.php';
-require 'components/map_libraries.php';
-require 'components/map_places.php';
-require 'components/mirador.php';
-require 'components/network_graph.php';
-require 'components/search_mss.php';
+require 'pages/components/category_buttons.php';
+require 'pages/components/chart_shared.php';
+require 'pages/components/chart_dates.php';
+require 'pages/components/chart_folios.php';
+require 'pages/components/chart_sizes.php';
+require 'pages/components/list_mss.php';
+require 'pages/components/map_libraries.php';
+require 'pages/components/map_places.php';
+require 'pages/components/mirador.php';
+require 'pages/components/network_graph.php';
+require 'pages/components/search_mss.php';
 
 $romNum = array('', 'I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X');
 $languages = array(

@@ -270,7 +270,7 @@
 
 
    <place id="ireland" type="region">
-      <name>Ireland (&amp; Scotland)</name>
+      <name>Ireland*</name>
       <description></description>
       <coords>54.2, -7.3</coords>
       <xref type="pleiades">https://pleiades.stoa.org/places/20487</xref>
