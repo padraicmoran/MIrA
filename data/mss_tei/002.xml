@@ -20,10 +20,10 @@
       <sourceDesc>
         <msDesc>
           <msIdentifier>
-            <settlement>@</settlement>
-            <repository key="vienna">@</repository>
+            <settlement>Vienna</settlement>
+            <repository key="vienna"></repository>
             <idno>Lat. 366</idno>
-            <msName>Reichenauer Schulheft</msName>
+            <msName></msName>
           </msIdentifier>
           <physDesc>
             <objectDesc>
@@ -52,11 +52,12 @@
             <provenance/>
           </history>
           <additional ana="#ex-ire">
-            <listBibl><bibl><ref type="images" target="">Link to images</ref></bibl>
-      <bibl corresp="#cla">10.1476</bibl>
-      <bibl corresp="#bischoff_ssb">2.86–87 (no. 10)</bibl>
-      <bibl><ref type="trismegistos" target="https://www.trismegistos.org/text/67662">TM 67662</ref></bibl>
-   </listBibl>
+            <listBibl>
+            	<bibl><ref type="images" target="">Link to images</ref></bibl>
+					<bibl corresp="#cla">10.1476</bibl>
+					<bibl corresp="#bischoff_ssb">2.86–87 (no. 10)</bibl>
+					<bibl><ref type="trismegistos" target="https://www.trismegistos.org/text/67662">TM 67662</ref></bibl>
+				</listBibl>
           </additional>
         </msDesc>
       </sourceDesc>

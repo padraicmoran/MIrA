@@ -68,6 +68,7 @@
 <li>Jacopo Bisagni</li>
 <li>Lily Forrest</li>
 <li>Truc Ha Nguyen</li>
+<li>Zdzisław Koczarski</li>
 <li>David Stifter</li>
 <li>Immo Warntjes</li>
 <li>Brega Webb</li>

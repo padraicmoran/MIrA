@@ -1368,7 +1368,7 @@
       <date_desc>IX med</date_desc>
       <term_post>840</term_post>
       <term_ante>860</term_ante>
-      <origin><place id="stgall">St Gall</place>?</origin>
+      <origin><place id="st-gall">St Gall</place>?</origin>
    </history>
    <xrefs>
       <xref type="bischoff_kat">1040</xref>
@@ -3368,6 +3368,7 @@
       <term_post>680</term_post>
       <term_ante>691</term_ante>
       <origin>Bangor (<place id="ireland">Ireland</place>)</origin>
+      <provenance><place id="bobbio">Bobbio</place></provenance>
    </history>
    <xrefs>
       <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/648">3.311</xref>
@@ -4868,6 +4869,7 @@
 </manuscript><manuscript id="167">
    <identifier libraryID="wroclaw">
       <shelfmark>Rehdigeranus 1 (fol. 120 d)</shelfmark>
+      <link type="iiif" index="36">https://www.bibliotekacyfrowa.pl/iiif-manifest/manifest/64174/PDF.json</link>
    </identifier>
    <description>
       <type>Binding frags.</type>
@@ -5013,7 +5015,7 @@
       <date_desc>IX 3/4</date_desc>
       <term_post>876</term_post>
       <term_ante>900</term_ante>
-      <origin><place id="stgall">St Gall</place>?</origin>
+      <origin><place id="st-gall">St Gall</place>?</origin>
    </history>
    <xrefs>
       <xref type="bischoff_kat">255</xref>
@@ -5160,7 +5162,7 @@
       <date_desc>IX med</date_desc>
       <term_post>840</term_post>
       <term_ante>860</term_ante>
-      <origin>N <place id="italy">Italy</place> (Milan?)? <place id="strasbourg">Strasbourg</place>? <place id="stgall">St Gall</place>?</origin>
+      <origin>N <place id="italy">Italy</place> (Milan?)? <place id="strasbourg">Strasbourg</place>? <place id="st-gall">St Gall</place>?</origin>
       <provenance><place id="strasbourg">Strasbourg</place> (s. XIV)</provenance>
    </history>
    <xrefs>
@@ -5367,6 +5369,7 @@
       <term_post>780</term_post>
       <term_ante>820</term_ante>
       <origin><place id="ireland">Ireland</place></origin>
+      <provenance><place id="st-gall">St Gall</place></provenance>
    </history>
    <xrefs>
       <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/1359">7.901</xref>
@@ -5399,6 +5402,7 @@
       <term_post>780</term_post>
       <term_ante>820</term_ante>
       <origin><place id="ireland">Ireland</place></origin>
+      <provenance><place id="st-gall">St Gall</place></provenance>
    </history>
    <xrefs>
       <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/1360">7.902</xref>
@@ -5431,7 +5435,8 @@
       <date_desc>IX med</date_desc>
       <term_post>840</term_post>
       <term_ante>860</term_ante>
-      <origin><place id="stgall">St Gall</place></origin>
+      <origin><place id="st-gall">St Gall</place></origin>
+      <provenance><place id="st-gall">St Gall</place></provenance>
    </history>
    <xrefs>
       <xref type="bischoff_kat">5593</xref>
@@ -5463,7 +5468,7 @@
       <term_post>840</term_post>
       <term_ante>875</term_ante>
       <origin>Probably E <place id="france">France</place> (<place id="reims">Reims</place>?)</origin>
-      <provenance><place id="stgall">St Gall</place></provenance>
+      <provenance><place id="st-gall">St Gall</place></provenance>
    </history>
    <xrefs>
       <xref type="bischoff_kat">5699</xref>
@@ -5494,6 +5499,7 @@
       <term_post>851</term_post>
       <term_ante>851</term_ante>
       <origin><place id="ireland">Ireland</place></origin>
+      <provenance><place id="st-gall">St Gall</place></provenance>
    </history>
    <xrefs>
       <xref type="kenney">364</xref>
@@ -5525,6 +5531,7 @@
       <term_post>701</term_post>
       <term_ante>800</term_ante>
       <origin><place id="ireland">Ireland</place></origin>
+      <provenance><place id="st-gall">St Gall</place></provenance>
    </history>
    <xrefs>
       <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/1446">7.980</xref>
@@ -5556,6 +5563,7 @@
       <term_post>780</term_post>
       <term_ante>820</term_ante>
       <origin><place id="ireland">Ireland</place></origin>
+      <provenance><place id="st-gall">St Gall</place></provenance>
    </history>
    <xrefs>
       <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/1445">7.979</xref>
@@ -5646,6 +5654,7 @@
       <term_post>751</term_post>
       <term_ante>800</term_ante>
       <origin><place id="ireland">Ireland</place></origin>
+      <provenance><place id="st-gall">St Gall</place></provenance>
    </history>
    <xrefs>
       <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/1454">7.988</xref>
@@ -5678,6 +5687,7 @@
       <term_post>780</term_post>
       <term_ante>820</term_ante>
       <origin><place id="ireland">Ireland</place></origin>
+      <provenance><place id="st-gall">St Gall</place></provenance>
    </history>
    <xrefs>
       <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/1456">7.990</xref>
@@ -5706,6 +5716,7 @@
       <term_post>636</term_post>
       <term_ante>700</term_ante>
       <origin>Irish centre (poss. <place id="bobbio">Bobbio</place>)</origin>
+      <provenance><place id="st-gall">St Gall</place></provenance>
    </history>
    <xrefs>
       <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/1461">7.995</xref>
@@ -5787,7 +5798,7 @@
       <term_post>780</term_post>
       <term_ante>820</term_ante>
       <origin><place id="ireland">Ireland</place></origin>
-      <provenance>prob. <place id="stgall">St Gall</place></provenance>
+      <provenance>prob. <place id="st-gall">St Gall</place></provenance>
    </history>
    <xrefs>
       <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/1279">7.1008</xref>
@@ -7295,7 +7306,7 @@
       <term_post>880</term_post>
       <term_ante>1015</term_ante>
       <origin>S <place id="germany">Germany</place></origin>
-      <provenance><place id="stgall">St Gall</place></provenance>
+      <provenance><place id="st-gall">St Gall</place></provenance>
    </history>
    <xrefs>
       <xref type="thesaurus">2.258</xref>
@@ -7985,7 +7996,8 @@
       <date_desc>IX²/med</date_desc>
       <term_post>840</term_post>
       <term_ante>900</term_ante>
-      <origin><place id="stgall">St Gall</place>?</origin>
+      <origin><place id="st-gall">St Gall</place>?</origin>
+      <provenance><place id="st-gall">St Gall</place></provenance>
    </history>
    <xrefs>
       <xref type="bischoff_kat">5534</xref>
@@ -8014,13 +8026,13 @@
       <date_desc>c. 1611</date_desc>
       <term_post>1611</term_post>
       <term_ante>1611</term_ante>
-      <origin><place id="stgall">St Gall</place></origin>
+      <origin><place id="st-gall">St Gall</place></origin>
    </history>
    <xrefs>
    </xrefs>
    <notes>
       <categories>ex-ire</categories>
-      <project_notes>A copy by Jodocus Metzler (1574–1639) of the Abbey of <place id="stgall">St Gall</place>, apparently from a lost <place id="bobbio">Bobbio</place> codex in Irish script. The only MS witness for Columbanus, Letter 1–5.</project_notes>
+      <project_notes>A copy by Jodocus Metzler (1574–1639) of the Abbey of <place id="st-gall">St Gall</place>, apparently from a lost <place id="bobbio">Bobbio</place> codex in Irish script. The only MS witness for Columbanus, Letter 1–5.</project_notes>
       </notes>
 </manuscript><manuscript id="276">
    <identifier libraryID="munich">

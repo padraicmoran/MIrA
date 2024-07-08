@@ -42,37 +42,66 @@ function templateTop($activeNav) {
 		'MIrA • Places',
 		'MIrA • About'	
 	);
+	$title = $pageTitles[$activeNav];
 
 ?><!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-<script src="https://unpkg.com/@popperjs/core@2"></script>
+	<title><?php print $title; ?></title>
 
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" />
+	<!-- metadata -->
+	<meta name="description" lang="en" content="Manuscripts with Irish Associations (MIrA): Evidence for early Irish book culture, c. AD 600–1000."/>
 
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/>
-<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
-<script src="https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js"></script>
-<link href="https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css" rel="stylesheet" />
+	<meta name="DC.title" lang="en" content="<?php print $title; ?>"/>
+	<meta name="DC.description" lang="en" content="Manuscripts with Irish Associations (MIrA): Evidence for early Irish book culture, c. AD 600–1000."/>
+	<meta name="DC.creator" content="Pádraic Moran" />
+	<meta name="DC.publisher" content="Pádraic Moran, University of Galway" />
+	<meta name="DC.type" content="Text" />
+	<meta name="DC.format" content="text/html" />
+	<meta name="DC.coverage" content="Global" />
+	<meta name="DC.source" content="University of Galway" />
+	<meta name="DC.language" content="en_IE" />
 
-<link rel="stylesheet" href="/includes/mira.css" />
+	<meta property="og:title" content="<?php print $title; ?>" />
+	<meta property="og:site_name" content="Manuscripts with Irish Associations (MIrA)" />    
+	<meta property="og:description" content="Manuscripts with Irish Associations (MIrA): Evidence for early Irish book culture, c. AD 600–1000." />
+	<meta property="og:url" content="http://<?php print $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'] ?>" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="website" />
 
-<title><?php print $pageTitles[$activeNav]; ?></title>
+	<!-- Bootstrap -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+	<script src="https://unpkg.com/@popperjs/core@2"></script>
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-005FZL42EK"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+	<!-- Leaflet -->
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/>
+	<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+	<script src="https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js"></script>
+	<link href="https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css" rel="stylesheet" />
 
-  gtag('config', 'G-005FZL42EK');
-</script>
+	<!-- site styles -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" />
+	<link rel="stylesheet" href="/includes/mira.css" />
+
+	<!-- favicons -->
+	<link rel="apple-touch-icon" href="/images/favicons/apple-touch-icon.png" sizes="180x180">
+	<link rel="icon" type="image/x-icon" href="/images/favicons/favicon-32x32.ico" sizes="32x32" type="image/png">
+	<link rel="icon" type="image/x-icon" href="/images/favicons/favicon-16x16.ico" sizes="16x16" type="image/png">
+	<link rel="icon" type="image/x-icon" href="/images/favicons/favicon.ico">
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-005FZL42EK"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'G-005FZL42EK');
+	</script>
 </head>
 <body class="bg-light">
 

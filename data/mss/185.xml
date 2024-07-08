@@ -18,7 +18,8 @@
       <date_desc>IX med</date_desc>
       <term_post>840</term_post>
       <term_ante>860</term_ante>
-      <origin><place id="stgall">St Gall</place></origin>
+      <origin><place id="st-gall">St Gall</place></origin>
+      <provenance><place id="st-gall">St Gall</place></provenance>
    </history>
    <xrefs>
       <xref type="bischoff_kat">5593</xref>

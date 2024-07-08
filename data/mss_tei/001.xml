@@ -63,13 +63,15 @@
           </history>
           <additional ana="#sc-ire#vern">
             <listBibl>
-              <bibl><ref type="images" target="https://hildegard.tristram.de/schulheft/">Link to images</ref></bibl>
-              <bibl corresp="#kenney">535</bibl>
-              <bibl corresp="#bischoff_kat">5943</bibl>
-              <bibl corresp="#ocorrain">812</bibl>
+              <idno corresp="#kenney">535</idno>
+              <idno corresp="#bischoff_kat">5943</idno>
+              <idno corresp="#ocorrain">812</idno>
+
               <bibl corresp="#thesaurus">2.293–295</bibl>
               <bibl corresp="#bronner">pp 49–50</bibl>
-            </listBibl>
+
+              <ref type="images" target="https://hildegard.tristram.de/schulheft/">Link to images</ref>
+           </listBibl>
           </additional>
         </msDesc>
       </sourceDesc>
