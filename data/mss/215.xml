@@ -20,14 +20,16 @@
       <term_ante>821</term_ante>
       <origin>Birr, <place id="ireland">Ireland</place></origin>
    </history>
-   <xrefs>
-      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/549">2.231</xref>
-      <link type="trismegistos" href="https://www.trismegistos.org/text/66322">TM 66322</link>
-      <xref type="alexander">54</xref>
-      <xref type="mcgurk">33</xref>
-   </xrefs>
-   <notes>
-      <categories>or-ire;sc-ire</categories>
-      <project_notes>Old English gloss. </project_notes>
+   <refs>
+      <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/549"><i>CLA</i> 2.231</canonical>
+      <canonical href="https://www.trismegistos.org/text/66322">TM 66322</canonical>
+      <canonical corresp="#alexander">Alexander, no. 54</canonical>
+      <canonical corresp="#mcgurk">McGurk, no. 33</canonical>
+   </refs>
+   <notes categories="#or-ire #sc-ire">
+      Old English gloss. 
    </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

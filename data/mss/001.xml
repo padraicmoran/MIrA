@@ -3,7 +3,6 @@
    <identifier libraryID="st-paul">
       <shelfmark>Cod. 86b/1</shelfmark>
       <ms_name>Reichenauer Schulheft</ms_name>
-      <link type="images">https://hildegard.tristram.de/schulheft/</link>
    </identifier>
    <description>
       <type />
@@ -11,13 +10,11 @@
       <page_h>225</page_h>
       <page_w>155</page_w>
       <contents>
-         <i>Vitae Virgilii</i>; 
-         <person id="ambrose">Ambrose</person> , <i>Hexameron</i> (extracts); 
+         <i>Vitae Virgilii</i> (× 2); 
+         various notes on Latin texts;
+         Latin hymns;
          Old Irish poems; 
-         scholia on the <i>Aeneid</i>; 
-         astronomical table; 
-         Greek paradigms; 
-         Greek–Latin glossaries; etc.
+         Greek–Latin glossaries and grammatical notes
       </contents>
       <script>Irish minuscule</script>
    </description>
@@ -28,15 +25,18 @@
       <origin>NE <place id="france">France</place> (<place id="laon">Laon</place>? <place id="soissons">Soissons</place>?)</origin>
       <provenance><place id="reichenau">Reichenau</place></provenance>
    </history>
-   <xrefs>
-      <xref type="kenney">535</xref>
-      <xref type="bischoff_kat">5943</xref>
-      <xref type="ocorrain">812</xref>
-      <xref type="thesaurus">2.293–295</xref>
-      <xref type="bronner">pp 49–50</xref>
-   </xrefs>
-   <notes>
-   	<categories>sc-ire;vern</categories>
-      <project_notes>From same centre as <ms id="70">Aug. perg. 195</ms>. </project_notes>
+   <refs>
+      <canonical corresp="#bkat">Bischoff, <i>Katalog</i>, no. 5943</canonical>
+      <canonical corresp="#ocorrain">Ó Corráin, <i>Clavis</i>, no. 812</canonical>
+      <canonical corresp="#kenney">Kenney, no. 535</canonical>
+      <link href="https://hildegard.tristram.de/schulheft/">Images</link>
+      <bibl corresp="#thesaurus" href="https://archive.org/details/thesauruspalaeo02stok/page/293"><i>Thesaurus</i> II 293–295</bibl>
+      <bibl corresp="#bronner">Bronner 2013: 49–50</bibl>
+   </refs>
+   <notes categories="#sc-ire #vern">
+      From same centre as <ms id="70">MIrA 70</ms> (Aug. perg. 195). 
    </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

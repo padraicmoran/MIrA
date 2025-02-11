@@ -21,13 +21,15 @@
       <origin>S <place id="germany">Germany</place></origin>
       <provenance><place id="st-gall">St Gall</place></provenance>
    </history>
-   <xrefs>
-      <xref type="thesaurus">2.258</xref>
-      <xref type="bronner">p. 67</xref>
-      <xref type="bischoff_kat">vol. 3, p. 296 (excluded)</xref>
-   </xrefs>
-   <notes>
-      <categories>vern</categories>
-      <project_notes>Passages in Old Irish (direct speech). Late dating in Bischoff, <i>Kat.</i>, 3.296.</project_notes>
+   <refs>
+      <bibl corresp="#thesaurus" href="https://archive.org/details/thesauruspalaeo02stok/page/258"><i>Thesaurus</i> II 258</bibl>
+      <bibl corresp="#bronner">Bronner 2013: 67</bibl>
+      <canonical corresp="#bkat">Bischoff, <i>Katalog</i>, no. vol. 3, p. 296 (excluded)</canonical>
+   </refs>
+   <notes categories="#vern">
+      Passages in Old Irish (direct speech). Late dating in Bischoff, <i>Kat.</i>, 3.296.
       </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

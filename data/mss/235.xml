@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="235">
+   <identifier libraryID="karlsruhe">
+      <shelfmark>Fragm. Aug. 18 [palimpsest new]</shelfmark>
+      <shelfmark_indexer>Fragm. Aug. 0018</shelfmark_indexer>
+      <link type="images">https://nbn-resolving.de/urn:nbn:de:bsz:31-1965</link>
+		<link type="iiif">https://digital.blb-karlsruhe.de/i3f/v20/21598/manifest</link>
+   </identifier>
+   <description>
+      <type>Binding frag.</type>
+      <folios />
+      <page_h />
+      <page_w />
+      <contents>Liturgical</contents>
+      <script>Irish minuscule</script>
+   </description>
+   <history>
+      <date_desc>IX</date_desc>
+      <term_post>801</term_post>
+      <term_ante>900</term_ante>
+      <origin>Clondalkin, <place id="ireland">Ireland</place></origin>
+      <provenance><place id="reichenau">Reichenau</place></provenance>
+   </history>
+   <refs>
+      <canonical href="https://www.trismegistos.org/text/67256">TM 67256</canonical>
+      <bibl corresp="#thesaurus" href="https://archive.org/details/thesauruspalaeo02stok/page/256"><i>Thesaurus</i> II 256</bibl>
+      <bibl corresp="#bronner">Bronner 2013: 17</bibl>
+   </refs>
+   <notes categories="#or-ire #sc-ire #scribe #vern">
+      This and Fragm. Aug. 17 detached from binding of Aug. 167 (Bede). "(Libe)r trinitatis et sci cronáni filii lugaedón." <ms id="72">Re-written</ms> over eighth-century majuscule. 
+      </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
+</manuscript>

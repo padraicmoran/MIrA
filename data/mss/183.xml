@@ -15,21 +15,24 @@
       <script>Irish majuscule</script>
    </description>
    <history>
-      <date_desc>VIII–IX</date_desc>
-      <term_post>780</term_post>
+      <date_desc>VIII–IX (Lowe); 'about, or more probably, later than 750' (Duft)</date_desc>
+      <term_post>750</term_post>
       <term_ante>820</term_ante>
       <origin><place id="ireland">Ireland</place></origin>
-      <provenance><place id="st-gall">St Gall</place></provenance>
+      <provenance><place id="st-gall">St Gall</place> (10th cent.)</provenance>
    </history>
-   <xrefs>
-      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/1359">7.901</xref>
-      <link type="trismegistos" href="https://www.trismegistos.org/text/67045">TM 67045</link>
-      <xref type="bischoff_kat">5536a</xref>
-      <link type="foundations" href="http://foundationsirishculture.ie/record/?id=43">[external link, with image]</link>
-      <xref type="alexander">44</xref>
-      <xref type="mcgurk">117</xref>
-   </xrefs>
-   <notes>
-      <categories>or-ire;sc-ire</categories>
+   <refs>
+      <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/1359"><i>CLA</i> 7.901</canonical>
+      <canonical href="https://www.trismegistos.org/text/67045">TM 67045</canonical>
+      <canonical corresp="#bkat">Bischoff, <i>Katalog</i>, no. 5536a</canonical>
+      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=43">Foundations of Irish Culture</link>
+      <canonical corresp="#alexander">Alexander, no. 44</canonical>
+      <canonical corresp="#mcgurk">McGurk, no. 117</canonical>
+      <bibl id="duft_meyer_1954">Duft &amp; Meyer 1954: 69–71</bibl>
+   </refs>
+   <notes categories="#or-ire #sc-ire">
       </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

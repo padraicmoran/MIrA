@@ -3,34 +3,44 @@
    <identifier libraryID="vatican">
       <shelfmark>Pal. Lat. 68</shelfmark>
       <shelfmark_indexer>Pal. Lat. 0068</shelfmark_indexer>
-      <link type="images">http://digi.vatlib.it/view/bav_pal_lat_68</link>
       <link type="iiif">https://digi.vatlib.it/iiif/bav_pal_lat_68/manifest.json</link>
    </identifier>
    <description>
       <type />
-      <folios />
-      <page_h />
-      <page_w />
+      <folios>46</folios>
+      <page_h>310</page_h>
+      <page_w>190</page_w>
       <contents>Glossa in Psalmos (39–151)</contents>
-      <script>Anglo-Saxon minuscule</script>
+      <script>Insular minuscule</script>
    </description>
    <history>
       <date_desc>VIII</date_desc>
       <term_post>701</term_post>
       <term_ante>800</term_ante>
       <origin>N <place id="england">England</place> (Lowe); <place id="ireland">Ireland</place>?</origin>
-      <provenance><place id="germany">Germany</place>, prob. Lorsch</provenance>
+      <provenance><place id="germany">Germany</place>, prob. <place id="lorsch">Lorsch</place></provenance>
    </history>
-   <xrefs>
-      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/89">1.78</xref>
-      <link type="trismegistos" href="https://www.trismegistos.org/text/66174">TM 66174</link>
-      <xref type="thesaurus">1.3</xref>
-      <xref type="bronner">pp 6–7</xref>
-      <link type="foundations" href="http://foundationsirishculture.ie/record/?id=3">[external link, with image]</link>
-   </xrefs>
-   <notes>
-      <categories>or-ire;or-ins;sc-ire;text;vern</categories>
-      <project_notes>Old Irish glosses. <i>CLA</i>: Scribe Edilberict, son of Berictfrid (f. 46); "script and decoration point to Ireland". 
-      See Psalter of Caimín (Dublin, UCD, Franciscan A 1, late 11th cent.), where most of the glosses correspond verbatim.</project_notes>
+   <refs>
+      <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/89"><i>CLA</i> 1.78</canonical>
+      <canonical corresp="#kenney">Kenney, no. 465</canonical>
+      <canonical corresp="#ocorrain">Ó Corráin, <i>Clavis</i>, no. 54</canonical>
+      <canonical href="https://www.trismegistos.org/text/66174">TM 66174</canonical>
+      <link href="http://digi.vatlib.it/view/bav_pal_lat_68">Images</link>
+      <link href="https://opac.vatlib.it/mss/detail/Pal.lat.68">Bibliography on library website</link>
+      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=3">Foundations of Irish Culture</link>
+      <bibl corresp="#thesaurus" href="https://archive.org/details/thesauruspalaeo01stok/page/3"><i>Thesaurus</i> I 3</bibl>
+      <bibl corresp="#mcnmara_1986">ed. McNamara 1986.</bibl>
+      <bibl corresp="#sharpe_2010">Sharpe 2010: 6</bibl>
+      <bibl corresp="#bronner">Bronner 2013: 6–7</bibl>
+   </refs>
+   <notes categories="#or-ins #sc-ire #text #vern">
+      <p>Scribe Edilberict, son of Berictfrid (f. 46r). Lowe: "The tur-symbol points to an English scriptorium, as do the vernacular glosses, but script and decoration point to Ireland."
+      </p>
+      <p>25 Old Irish, 5 Old English glosses. See Psalter of Caimín (Dublin, UCD, Franciscan A 1, late 11th century), where most of the glosses correspond verbatim.      
+      </p>
    </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+      <change who="Pádraic Moran" when="[next release]">Revised</change>
+   </revisionDesc>
 </manuscript>

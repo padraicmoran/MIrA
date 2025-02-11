@@ -22,13 +22,15 @@
       <origin><place id="soissons">Soissons</place>/NE <place id="france">France</place></origin>
       <provenance><place id="reichenau">Reichenau</place></provenance>
    </history>
-   <xrefs>
-      <xref type="bischoff_kat">1656</xref>
-      <xref type="thesaurus">2.225–230</xref>
-      <xref type="bronner">pp 18–19</xref>
-   </xrefs>
-   <notes>
-      <categories>sc-ire;vern</categories>
-      <project_notes>Old Irish glosses. </project_notes>
+   <refs>
+      <canonical corresp="#bkat">Bischoff, <i>Katalog</i>, no. 1656</canonical>
+      <bibl corresp="#thesaurus" href="https://archive.org/details/thesauruspalaeo02stok/page/225"><i>Thesaurus</i> II 225–230</bibl>
+      <bibl corresp="#bronner">Bronner 2013: 18–19</bibl>
+   </refs>
+   <notes categories="#sc-ire #vern">
+      Old Irish glosses. 
    </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

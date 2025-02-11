@@ -21,13 +21,15 @@
       <origin>N. <place id="italy">Italy</place> (<place id="bobbio">Bobbio</place>? Monza?)</origin>
       <provenance><place id="freising">Freising</place></provenance>
    </history>
-   <xrefs>
-      <xref type="bischoff_ssb">1.134</xref>
-      <xref type="bischoff_kat">3081</xref>
-      <xref type="bronner">pp 31–32</xref>
-   </xrefs>
-   <notes>
-      <categories>vern</categories>
-      <project_notes>One Old Irish (embedded, 41v). Exemplar prob. from Bobbio.</project_notes>
+   <refs>
+      <bibl corresp="#bssb">Bischoff, <i>SSB</i>, 1.134</bibl>
+      <canonical corresp="#bkat">Bischoff, <i>Katalog</i>, no. 3081</canonical>
+      <bibl corresp="#bronner">Bronner 2013: 31–32</bibl>
+   </refs>
+   <notes categories="#vern">
+      One Old Irish (embedded, 41v). Exemplar prob. from Bobbio.
    </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

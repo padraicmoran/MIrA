@@ -20,11 +20,13 @@
       <origin>Irish centre on Continent</origin>
       <provenance><place id="verdun">Verdun</place></provenance>
    </history>
-   <xrefs>
-      <xref type="bischoff_kat">3932</xref>
-   </xrefs>
-   <notes>
-   	<categories>sc-ire;scribe</categories>
-      <project_notes>Autograph of <person id="sedulius">Sedulius Scottus</person> (f. 55r): cηδυλιοc . cκοττοc . εγω . εγραφα.</project_notes>
+   <refs>
+      <canonical corresp="#bkat">Bischoff, <i>Katalog</i>, no. 3932</canonical>
+   </refs>
+   <notes categories="#sc-ire #scribe">
+      Autograph of <person id="sedulius">Sedulius Scottus</person> (f. 55r): cηδυλιοc . cκοττοc . εγω . εγραφα.
    </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

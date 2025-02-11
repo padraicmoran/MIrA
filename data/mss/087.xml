@@ -20,12 +20,14 @@
       <term_ante>900</term_ante>
       <origin>origin uncertain</origin>
    </history>
-   <xrefs>
-      <xref type="bischoff_ssb">1.243–244</xref>
-      <xref type="bischoff_kat">3204</xref>
-   </xrefs>
-   <notes>
-      <categories>sc-ire</categories>
-      <project_notes>Bischoff: Irish scribe, ff 59r (l. 11)–61r (same as in <ms id="83">Clm 14423</ms> and <ms id="85">Clm 14429</ms>).</project_notes>
+   <refs>
+      <bibl corresp="#bssb">Bischoff, <i>SSB</i>, 1.243–244</bibl>
+      <canonical corresp="#bkat">Bischoff, <i>Katalog</i>, no. 3204</canonical>
+   </refs>
+   <notes categories="#sc-ire">
+      Bischoff: Irish scribe, ff 59r (l. 11)–61r (same as in <ms id="83">Clm 14423</ms> and <ms id="85">Clm 14429</ms>).
    </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

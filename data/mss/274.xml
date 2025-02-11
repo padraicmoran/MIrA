@@ -22,12 +22,13 @@
       <origin><place id="st-gall">St Gall</place>?</origin>
       <provenance><place id="st-gall">St Gall</place></provenance>
    </history>
-   <xrefs>
-      <xref type="bischoff_kat">5534</xref>
-      <!-- xref type="trismegistos" -->
-   </xrefs>
-   <notes>
-      <categories>sc-ire</categories>
-      <project_notes />
+   <refs>
+      <canonical corresp="#bkat">Bischoff, <i>Katalog</i>, no. 5534</canonical>
+      
+   </refs>
+   <notes categories="#sc-ire">
       </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

@@ -19,14 +19,20 @@ if ($filter) {
 	print '<div class="text-secondary small">Stable URL: <a class="text-secondary" href="/' . $id . '">http://mira.ie/' . $id . '</a></div>';
 
 	// write categories
-	if ($ms->notes->categories != '') {
+	if ($ms->notes['categories'] != '') {
 		print '<div class="my-4">';
-		$theseCats = explode(';', $ms->notes->categories);
+		$theseCats = explode(' ', $ms->notes['categories']);
 		foreach ($theseCats as $cat) {
+			$cat = str_replace('#', '', $cat);
 			if (isset($msCategories[$cat])) writeCategoryButton($cat, true);
 		} 
 		print '</div>';
 	}
+	else {
+		print '<div class="mt-3 alert alert-warning">This is a legacy record for a manuscript that has now been excluded from the database.</div>';
+	}
+
+
 
 
 	// Mirador viewer
@@ -39,7 +45,7 @@ if ($filter) {
 	print '<table class="table">';
 
 	// identifiers
-	print '<tr><th colspan="2"><h3 class="mt-2">Identifiers</h3></th></tr>';
+	print '<tr><th colspan="2"><h3 class="mt-5">Identifiers</h3></th></tr>';
 
 	// list parts (perhaps more than one)
 	$identifierCount = count($ms->identifier);
@@ -65,7 +71,7 @@ if ($filter) {
 	}
 
 	// description, incl. contents
-	print '<tr><th colspan="2" ><h3 class="h3 mt-5">Description</h3></th></tr>';
+	print '<tr><th colspan="2"><h3 class="h3 mt-5">Description</h3></th></tr>';
 	writeRow('MS type', $ms->description->type, '');
 	writeRow('No. of folios', $ms->description->folios, '');
 	writeRow('Page height (mm)', $ms->description->page_h, '');
@@ -81,44 +87,58 @@ if ($filter) {
 		print '<table class="table table-sm">';
 		foreach ($ms->description->contents->msItem as $item) {
 			print '<tr>';
-			print '<td>' . $item->locus_from . '–' . $item->locus_to . '</td>';
-			print '<td>' . $item->author . ', <i>' . $item->title . '</i></td>';
+			print '<td>' . $item->locus . '</td>';
+			print '<td>' . $item->author . ', <i>' . $item->title . '</i> ';
+			if ($item->note) print '(' . $item->note . ')';
+			print '</td>';
 			print '<tr>';
 		}
 		print '</table>';
 		print '</td></tr>';
 	}
 
-	print '<tr><th colspan="2" ><h3 class="h3 mt-5">History</h3></th></tr>';
+	print '<tr><th colspan="2"><h3 class="h3 mt-5">History</h3></th></tr>';
 	writeRow('Dating', $ms->history->date_desc . ' (' . $ms->history->term_post . '–' . $ms->history->term_ante . ')', '');
 	writeRow('Origin', processData($ms->history->origin->asXML()), '');
 	writeRow('Provenance', processData($ms->history->provenance->asXML()), '');
 
 
-	print '<tr><th colspan="2" ><h3 class="mt-5">References</h3></th></tr>';
+	print '<tr><th colspan="2"><h3 class="mt-5">Resources</h3></th></tr>';
+	writeResources('Catalogue entries/identifiers', $ms->refs->xpath('canonical'));
+	writeResources('Links', $ms->refs->xpath('link'));
+	writeResources('Other resources', $ms->refs->xpath('bibl'));
 
-	// XML data distinguished by @type is queried using XPath and results are returned in an array.
-	// handeRowArray() checks array contents before sending contents to writeRow(); also allows for multiple rows.
-	// Where data needs custom presentation (CLA, trismegistos, Thes.), there is just a check for one array item.
 
-	handleRowArray('CLA/ELMSS', $ms->xrefs->xpath('xref[@type="cla"]'), $ms->xrefs->xpath('xref[@type="cla"]/@href'), '', '');
-	handleRowArray('Bischoff, <i>SSB</i>', $ms->xrefs->xpath('xref[@type="bischoff_ssb"]'), '', '');
-	handleRowArray('Bischoff, <i>Katalog</i>', $ms->xrefs->xpath('xref[@type="bischoff_kat"]'), '', '');
-	handleRowArray('Alexander, <i>Insular Manuscripts</i>', $ms->xrefs->xpath('xref[@type="alexander"]'), '', '');
-	handleRowArray('Foundations', $ms->xrefs->xpath('link[@type="foundations"]'), $ms->xrefs->xpath('link[@type="foundations"]/@href'), '', '');
-	handleRowArray('<abbr title="Descriptive Handlist of Breton Manuscripts">DHBM</abbr>', $ms->xrefs->xpath('xref[@type="dhbm"]'), $ms->xrefs->xpath('xref[@type="dhbm"]/@href'), '');
-	handleRowArray('McGurk, <i>Gospel Books</i>', $ms->xrefs->xpath('xref[@type="mcgurk"]'), '', '');
-	handleRowArray('Bronner, <i>Verzeichnis</i>', $ms->xrefs->xpath('xref[@type="bronner"]'), '', '');
-	if ($ms->xrefs->xpath('xref[@type="thesaurus"]'))  handleRowArray('<i>Thesaurus Palaeohibernicus</i>', parseThesaurusRef($ms->xrefs->xpath('xref[@type="thesaurus"]')[0]), '', '');
-	handleRowArray('Trismegistos', $ms->xrefs->xpath('link[@type="trismegistos"]'), $ms->xrefs->xpath('link[@type="trismegistos"]/@href'), '');
-	
-	if ($ms->notes->project_notes != '') {
-		print '<tr><th colspan="2" ><h3 class="h3 mt-5">Notes</h3></th></tr>';
-		print '<tr><td colspan="2">' . processData($ms->notes->project_notes->asXML()) . '</td></tr>';
+	if ($ms->notes != '') {
+		print '<tr><th colspan="2"><h3 class="h3 mt-5">Notes</h3></th></tr>';
+		print '<tr><td colspan="2">' . processData($ms->notes->asXML()) . '</td></tr>';
 	}
-	print '</table>';
 
-	print '<div class="mt-5">Full details for the references above can be found on the <a href="/about">About</a> page.</div>';
+
+	print '<tr><th colspan="2"><h3 class="h3 mt-5">References</h3></th></tr>';
+	print '<tr><td colspan="2">';
+	// make list of reference IDs for this MS entry
+	$refList = array();
+	$refs = $ms->refs->xpath('.//*/@corresp');
+	foreach($refs as $ref) {
+		array_push($refList, substr(strval($ref), 1));
+	}
+	//	cycle through bibliography and print entries with matching IDs
+	if (file_exists('data/bibliography.xml')) {
+		$xml_bibl = simplexml_load_file('data/bibliography.xml');
+		print '<ul class="list-unstyled small">';
+		foreach($xml_bibl as $bibl) {
+			$biblID = strval($bibl['id']);
+			if (in_array($biblID, $refList)) {
+				print '<li class="mb-2">' . $bibl->asXML() . '</li>';
+			}
+		}
+		print '</ul>';
+	}
+	
+	
+	print '</td></tr>';
+	print '</table>';
 
 	// library map
 	if ($libraries[$libraryID]['coords'] != '') {
@@ -138,23 +158,6 @@ else {
 
 
 // PAGE FUNCTIONS
-// if row data is potentially in the form of an array, write a row for each array item
-function handleRowArray($header, $value, $link, $linkPrefix) {
-	if(is_array($value)) {
-		for ($x = 0; $x < count($value); $x++) {
-			if (is_array($link)) {
-				if (! empty($link)) writeRow($header, $value[$x], $linkPrefix . $link[$x]); 
-				else writeRow($header, $value[$x], '');
-			}
-			else writeRow($header, $value[$x], $linkPrefix . $link);
-		}	
-	}
-	else {
-		if ($link != '') writeRow($header, $value, $link, $linkPrefix);
-		else writeRow($header, $value, '', '');
-	}
-}
-
 // write table row with left cell as header; add a link if supplied
 function writeRow($header, $value, $link) {
 	if ($value == '' && $link != '') $value = '[external link]';
@@ -165,6 +168,22 @@ function writeRow($header, $value, $link) {
 		if ($link != '') print '<tr><th width="400">' . $header . '</th><td><a href="' . $link . '" target="' . $target . '">' . $value . '</a></td></tr>';
 		else print '<tr><th width="400">' . $header . '</th><td>' . $value . '</td></tr>';
 	}
+}
+
+// write references
+function writeResources($heading, $node) {
+	$refs = $node;
+	if ($refs) {
+		print '<tr><th>' . $heading .'</th><td>';
+		print '<ul class="list-unstyled">';
+		foreach ($refs as $ref) {
+			$text = $ref->asXML();
+			if ($ref['href'] <> '') $text = '<a target="_blank" href="' . $ref['href'] . '">' . $text . '</a>';
+			print '<li>' . $text . '</li>';
+		}
+		print '</ul>';
+		print '</td></tr>';
+	}	
 }
 
 // special handling of Thesaurus Palaeohibernicus refs 

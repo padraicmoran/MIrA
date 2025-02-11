@@ -1,88 +1,89 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mira_1">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Manuscripts with Irish Associations: catalogue item 1</title>
-      </titleStmt>
-      <publicationStmt>
-        <publisher>Manuscripts with Irish Associations</publisher>
-        <authority>Pádraic Moran</authority>
-        <availability status="free">
-          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
-            <p>Creative Commons BY-NC-SA 4.0</p>
-          </licence>
-        </availability>
-      </publicationStmt>
-      <notesStmt>
-        <note>From same centre as <ref target="mira_70">Aug. perg. 195</ref>. </note>
-      </notesStmt>
-      <sourceDesc>
-        <msDesc>
-          <msIdentifier>
-            <settlement>@</settlement>
-            <repository key="st-paul">@</repository>
-            <idno>Cod. 86b/1</idno>
-            <msName>Reichenauer Schulheft</msName>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc>
-              <supportDesc>
-                <extent>
-                  <measure type="folios">8</measure>
-                  <dimensions unit="cm">
-                    <height>225</height>
-                    <width>155</width>
-                  </dimensions>
-                </extent>
-              </supportDesc>
-            </objectDesc>
-            <handDesc>
-              <p>Irish minuscule</p>
-            </handDesc>
-          </physDesc>
-          <msContents>
-            <summary>
-         <title>Vitae Virgilii</title>; 
-         <persName role="author" key="ambrose">Ambrose</persName> , <title>Hexameron</title> (extracts); 
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+      xml:id="mira_1">
+   <teiHeader>
+      <fileDesc><!--title of the resource-->
+         <titleStmt>
+            <title>Manuscripts with Irish Associations: catalogue item 1</title>
+         </titleStmt>
+         <!--information about distribution-->
+         <publicationStmt>
+            <publisher>Manuscripts with Irish Associations</publisher>
+            <authority>Pádraic Moran</authority>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <p>Creative Commons BY-NC-SA 4.0</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <!--notes on this manuscript-->
+         <notesStmt>
+            <note>From same centre as <ref target="mira_70">Aug. perg. 195</ref>. </note>
+         </notesStmt>
+         <!--main manuscript description-->
+         <sourceDesc>
+            <msDesc><!--identifiers-->
+               <msIdentifier>
+                  <settlement>TO DO</settlement>
+                  <repository key="st-paul">TO DO</repository>
+                  <idno>Cod. 86b/1</idno>
+                  <msName>Reichenauer Schulheft</msName>
+               </msIdentifier>
+               <!--physical description: folios, dimentions, scripts-->
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <extent>
+                           <measure type="folios">8</measure>
+                           <dimensions unit="cm">
+                              <height>225</height>
+                              <width>155</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p>Irish minuscule</p>
+                  </handDesc>
+               </physDesc>
+               <!--text contents-->
+               <msContents>
+                  <summary>
+                     <title>Vitae Virgilii</title> (× 2); 
+         various notes on Latin texts;
+         Latin hymns;
          Old Irish poems; 
-         scholia on the <title>Aeneid</title>; 
-         astronomical table; 
-         Greek paradigms; 
-         Greek–Latin glossaries; etc.
+         Greek–Latin glossaries and grammatical notes
       </summary>
-          </msContents>
-          <history>
-            <origin>
-              NE <placeName key="france">France</placeName> (<placeName key="laon">Laon</placeName>? <placeName key="soissons">Soissons</placeName>?)
-              <origDate notBefore="840" notAfter="849">840s</origDate>
-            </origin>
-            <provenance>
-              <placeName key="reichenau">Reichenau</placeName>
-            </provenance>
-          </history>
-          <additional ana="#sc-ire#vern">
-            <listBibl>
-              <idno corresp="#kenney">535</idno>
-              <idno corresp="#bischoff_kat">5943</idno>
-              <idno corresp="#ocorrain">812</idno>
-
-              <bibl corresp="#thesaurus">2.293–295</bibl>
-              <bibl corresp="#bronner">pp 49–50</bibl>
-
-              <ref type="images" target="https://hildegard.tristram.de/schulheft/">Link to images</ref>
-           </listBibl>
-          </additional>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <revisionDesc>
-      <change who="P&#xE1;draic Moran" when="2021-05-01">Created</change>
-    </revisionDesc>
-  </teiHeader>
-  <text>
-    <body>
-      <p/>
-    </body>
-  </text>
+               </msContents>
+               <!--history: origin, provenance-->
+               <history>
+                  <origin>NE <placeName key="france">France</placeName> (<placeName key="laon">Laon</placeName>? <placeName key="soissons">Soissons</placeName>?)<origDate notBefore="0840" notAfter="0849">840s</origDate>
+                  </origin>
+                  <provenance>
+                     <placeName key="reichenau">Reichenau</placeName>
+                  </provenance>
+               </history>
+               <!--bibliographical references (list format)-->
+               <additional ana="#sc-ire #vern">
+                  <listBibl>
+                     <bibl>Link to images online <ptr type="images" target=""/>
+                     </bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!--revision history-->
+      <revisionDesc>
+         <change who="Pádraic Moran" when="2021-05-01">Created</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
 </TEI>

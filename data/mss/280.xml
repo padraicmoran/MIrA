@@ -20,13 +20,15 @@
       <term_ante>900</term_ante>
       <origin>W <place id="germany">Germany</place>?</origin>
    </history>
-   <xrefs>
-      <xref type="dhbm" href="https://ircabritt.nuigalway.ie/handlist/catalogue/89">#89</xref>
-      <xref type="bischoff_ssb">1.240; 2.242</xref>
-      <xref type="bischoff_kat">3170</xref>
-   </xrefs>
-   <notes>
-      <categories>sc-ire</categories>
-      <project_notes>Bischoff <i>SBB</i>: A few corrections in an Insular, prob. Irish, hand (e.g. f. 15r); identified in Addenda with hand of <person id="sedulius">Sedulius Scottus</person> in the <ms id="37">Arsenal <text id="psalms">Psalter</text></ms>.</project_notes>
+   <refs>
+      <canonical type="dhbm" href="https://ircabritt.nuigalway.ie/handlist/catalogue/89"><i>DHBM</i>, no. 89</canonical>
+      <bibl corresp="#bssb">Bischoff, <i>SSB</i>, 1.240; 2.242</bibl>
+      <canonical corresp="#bkat">Bischoff, <i>Katalog</i>, no. 3170</canonical>
+   </refs>
+   <notes categories="#misc">
+      Bischoff <i>SBB</i>: A few corrections in an Insular, prob. Irish, hand (e.g. f. 15r); identified in Addenda with hand of <person id="sedulius">Sedulius Scottus</person> in the <ms id="37">Arsenal <text id="psalms">Psalter</text></ms>.
       </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

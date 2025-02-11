@@ -17,12 +17,14 @@
       <term_ante>725</term_ante>
       <origin>N <place id="italy">Italy</place> (prob. <place id="bobbio">Bobbio</place>)</origin>
    </history>
-   <xrefs>
-      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/785">4.439</xref>
-      <link type="trismegistos" href="https://www.trismegistos.org/text/66545">TM 66545</link>
-   </xrefs>
-   <notes>
-      <categories>sc-ire</categories>
-      <project_notes>Destroyed by fire 1904. (Written over Codex Theodosianus.) Marginalia and correction in Irish minuscule.</project_notes>
+   <refs>
+      <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/785"><i>CLA</i> 4.439</canonical>
+      <canonical href="https://www.trismegistos.org/text/66545">TM 66545</canonical>
+   </refs>
+   <notes categories="#misc">
+      Destroyed by fire 1904. (Written over Codex Theodosianus.) Marginalia and correction in Irish minuscule.
    </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

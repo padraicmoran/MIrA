@@ -18,15 +18,17 @@
       <term_ante>800</term_ante>
       <origin><place id="ireland">Ireland</place></origin>
    </history>
-   <xrefs>
-      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/805">4.457</xref>
-      <link type="trismegistos" href="https://www.trismegistos.org/text/66564">TM 66564</link>
-      <xref type="thesaurus">1.713–714</xref>
-      <xref type="bronner">p. 52</xref>
-      <link type="foundations" href="http://foundationsirishculture.ie/record/?id=29" />
-   </xrefs>
-   <notes>
-      <categories>or-ire;sc-ire;vern</categories>
-      <project_notes>Latin &amp; Old Irish glosses. Rewritten in <place id="bobbio">Bobbio</place>, s. XI. Glosses very archaic.</project_notes>
+   <refs>
+      <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/805"><i>CLA</i> 4.457</canonical>
+      <canonical href="https://www.trismegistos.org/text/66564">TM 66564</canonical>
+      <bibl corresp="#thesaurus" href="https://archive.org/details/thesauruspalaeo01stok/page/713"><i>Thesaurus</i> I 713–714</bibl>
+      <bibl corresp="#bronner">Bronner 2013: 52</bibl>
+      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=29">Foundations of Irish Culture</link>
+   </refs>
+   <notes categories="#or-ire #sc-ire #vern">
+      Latin &amp; Old Irish glosses. Rewritten in <place id="bobbio">Bobbio</place>, s. XI. Glosses very archaic.
    </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

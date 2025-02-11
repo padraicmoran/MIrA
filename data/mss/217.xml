@@ -18,12 +18,14 @@
       <origin><place id="ireland">Ireland</place></origin>
       <provenance>Glastonbury by 1189</provenance>
    </history>
-   <xrefs>
-      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/2183">S2.1873</xref>
-      <link type="trismegistos" href="https://www.trismegistos.org/text/118665">TM 118665</link>
-   </xrefs>
-   <notes>
-      <categories>or-ire;sc-ire;vern</categories>
-      <project_notes>Later glosses (one Old Irish). </project_notes>
+   <refs>
+      <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/2183"><i>CLA</i> S2.1873</canonical>
+      <canonical href="https://www.trismegistos.org/text/118665">TM 118665</canonical>
+   </refs>
+   <notes categories="#or-ire #sc-ire #vern">
+      Later glosses (one Old Irish). 
       </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

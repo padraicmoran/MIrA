@@ -18,12 +18,14 @@
       <term_ante>825</term_ante>
       <origin><place id="luxeuil">Luxeuil</place></origin>
    </history>
-   <xrefs>
-      <xref type="bischoff_kat">3573</xref>
-      <xref type="bronner">pp 37–38</xref>
-   </xrefs>
-   <notes>
-      <categories>vern</categories>
-      <project_notes>Latin &amp; Old Irish glosses. Glosses date to 8th cent.</project_notes>
+   <refs>
+      <canonical corresp="#bkat">Bischoff, <i>Katalog</i>, no. 3573</canonical>
+      <bibl corresp="#bronner">Bronner 2013: 37–38</bibl>
+   </refs>
+   <notes categories="#vern">
+      Latin &amp; Old Irish glosses. Glosses date to 8th century
    </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

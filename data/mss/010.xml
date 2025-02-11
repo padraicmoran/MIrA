@@ -18,11 +18,13 @@
       <term_ante>866</term_ante>
       <origin>Irish colony in NE <place id="france">France</place>?</origin>
    </history>
-   <xrefs>
-      <xref type="bischoff_kat">2046</xref>
-   </xrefs>
-   <notes>
-   	<categories>sc-ire</categories>
-      <project_notes>Bischoff: poss. same origin as Aug. perg. 195.</project_notes>
+   <refs>
+      <canonical corresp="#bkat">Bischoff, <i>Katalog</i>, no. 2046</canonical>
+   </refs>
+   <notes categories="#sc-ire">
+      Bischoff: poss. same origin as Aug. perg. 195.
    </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

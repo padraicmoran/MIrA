@@ -4,14 +4,77 @@
 
 <h2 class="mb-4 display-5">Manuscripts with Irish Associations (MIrA)</h2>
 
-<h3 class="mb-4 display-6">Evidence for early Irish book culture, c. AD 600–1000</h3>
+<h3 class="mb-4 display-7">Evidence for early Irish book culture, c. AD 600–1000</h3>
 
-<p>This resource (still in development) aims to provide useful information for researchers on early Irish manuscript culture.
-It currently contains a catalogue of <a href="/mss"><b><?php print $totalMSS; ?> manuscripts</b></a> from before c. AD 1000 that can be assigned to at least one of the following categories:
+<p>This resource aims to provide useful information for researchers on early Irish manuscript culture before c. AD 1000.
+("Irish" here is shorthand for the broader Gaelic world, including early medieval Scotland.)
+</p>
+<p>
+The catalogue currently contains <a href="/mss"><?php print $totalMSS; ?> manuscripts</a>.
+Manuscripts are assigned to one or more categories.
+The principal criteria for inclusion are as follows:
 </p>
 
-<p><?php listCategories(); ?>
+<table class="table mb-5">
+<tr>
+	<td width="300"><?php writeCategoryButton('or-ire', true); ?></td>
+	<td>Written probably in Ireland.</td>
+	<td width="50" class="text-end">97</td>
+</tr>
+<tr>
+	<td><?php writeCategoryButton('sc-ire', true); ?></td>
+	<td>Written mostly in Irish script (97 from Ireland and 41 abroad).</td>
+	<td class="text-end">138</td>
+</tr>
+<tr>
+	<td><?php writeCategoryButton('vern', true); ?></td>
+	<td>Containing vernacular (Old Irish) content (mostly glosses).</td>
+	<td class="text-end">84</td>
+</tr>
+</table>
+
+<p>
+The following categories are also considered. The contents here are currently still very partial, and will be expanded in future updates:
 </p>
+
+
+<table class="table">
+<tr>
+	<td><?php writeCategoryButton('scribe', true); ?></td>
+	<td>Named or known Irish scribe.</td>
+	<td class="text-end">41</td>
+</tr>
+<tr>
+	<td width="300"><?php writeCategoryButton('ex-ire', true); ?></td>
+	<td>Copied from an Irish exemplar.</td>
+	<td width="50" class="text-end">36</td>
+</tr>
+<tr>
+	<td><?php writeCategoryButton('text', true); ?></td>
+	<td>Latin texts of Irish authorship.</td>
+	<td class="text-end">22</td>
+</tr>
+<tr>
+	<td><?php writeCategoryButton('or-ins', true); ?></td>
+	<td>Of Insular origin, potentially in Ireland.</td>
+	<td class="text-end">11</td>
+</tr>
+<tr>
+	<td><?php writeCategoryButton('sc-ins', true); ?></td>
+	<td>Written in Insular, potentially Irish, script.</td>
+	<td class="text-end">12</td>
+</tr>
+<tr>
+	<td><?php writeCategoryButton('ex-ins', true); ?></td>
+	<td>Copied from an Insular exemplar, potentially Irish.</td>
+	<td class="text-end">4</td>
+</tr>
+<tr>
+	<td><?php writeCategoryButton('misc', true); ?></td>
+	<td>Minor Irish associations, e.g. Irish glosses or corrections, Irish influence on script.</td>
+	<td class="text-end">31</td>
+</tr>
+</table>
 
 <p>Read <a href="/about">more about the project</a>.</p>
 
@@ -22,8 +85,7 @@ It currently contains a catalogue of <a href="/mss"><b><?php print $totalMSS; ?>
 mapLibraries($xml_mss);
 ?>
 
-
-<div class="row mt-5">
+<div class="row mt-5 pb-4">
 	<div class="col-lg-6">
 
 <h3>IIIF images</h3>
@@ -52,7 +114,7 @@ mapLibraries($xml_mss);
 	</div>
 </div>
 
-<div class="col-lg-9">
+<div class="col-lg-9 mt-5">
 
 	<h3>Linked Open Data</h3>
 

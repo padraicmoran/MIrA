@@ -21,14 +21,18 @@
       <origin><place id="ireland">Ireland</place></origin>
       <provenance><place id="st-gall">St Gall</place></provenance>
    </history>
-   <xrefs>
-      <xref type="kenney">364</xref>
-      <xref type="ocorrain">380</xref>
-      <xref type="thesaurus">2.49–244</xref>
-      <xref type="bronner">pp 46–48</xref>
-   <xref type="alexander">68</xref></xrefs>
-   <notes>
-      <categories>or-ire;sc-ire;vern</categories>
-      <project_notes>Old Irish glosses. </project_notes>
+   <refs>
+      <canonical corresp="#kenney">Kenney, no. 364</canonical>
+      <canonical corresp="#ocorrain">Ó Corráin, <i>Clavis</i>, no. 380</canonical>
+      <bibl corresp="#thesaurus" href="https://archive.org/details/thesauruspalaeo02stok/page/49"><i>Thesaurus</i> II 49–244</bibl>
+      <bibl corresp="#bronner">Bronner 2013: 46–48</bibl>
+      <canonical corresp="#alexander">Alexander, no. 68</canonical>
+      <bibl id="duft_meyer_1954">Duft &amp; Meyer 1954: 72–74</bibl>
+   </refs>
+   <notes categories="#or-ire #sc-ire #scribe #vern">
+      Old Irish glosses. Scribes: Calvus Patricii [Maél Pátric] (pp 1–156), Coirbbre, Finguine, Donngus.
    </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

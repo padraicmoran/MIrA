@@ -18,11 +18,13 @@
       <origin>prob. N <place id="france">France</place></origin>
       <provenance><place id="werden">Werden</place></provenance>
    </history>
-   <xrefs>
-      <xref type="bischoff_kat">462</xref>
-   </xrefs>
-   <notes>
-      <categories>ex-ire</categories>
-      <project_notes>Bischoff: Irish exemplar?</project_notes>
+   <refs>
+      <canonical corresp="#bkat">Bischoff, <i>Katalog</i>, no. 462</canonical>
+   </refs>
+   <notes categories="#ex-ire">
+      Bischoff: Irish exemplar?
       </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

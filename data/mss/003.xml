@@ -18,13 +18,15 @@
       <term_ante>800</term_ante>
       <origin><place id="salzburg">Salzburg</place></origin>
    </history>
-   <xrefs>
-      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/233">10.1510</xref>
-      <xref type="bischoff_ssb">2.86 (no. 8)</xref>
-      <link type="trismegistos" href="https://www.trismegistos.org/text/67697">TM 67697</link>
-   </xrefs>
-   <notes>
-   	<categories>ex-ire</categories>
-      <project_notes>Irish exemplar (perhaps owned by <person id="virgil_salzburg">Virgil of Salzburg</person>).</project_notes>
+   <refs>
+      <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/233"><i>CLA</i> 10.1510</canonical>
+      <canonical href="https://www.trismegistos.org/text/67697">TM 67697</canonical>
+      <bibl corresp="#bssb">Bischoff, <i>SSB</i>, 2.86 (no. 8)</bibl>
+   </refs>
+   <notes categories="#ex-ire">
+      Irish exemplar (perhaps owned by <person id="virgil_salzburg">Virgil of Salzburg</person>).
       </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

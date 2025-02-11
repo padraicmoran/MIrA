@@ -18,15 +18,17 @@
       <term_ante>790</term_ante>
       <origin>prob. Cambrai (or <place id="peronne">Péronne</place>?)</origin>
    </history>
-   <xrefs>
-      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/1147">6.741</xref>
-      <xref type="dhbm" href="https://ircabritt.nuigalway.ie/handlist/catalogue/30">#30</xref>
-      <link type="trismegistos" href="https://www.trismegistos.org/text/66910">TM 66910</link>
-      <xref type="thesaurus">2.244–247</xref>
-      <xref type="bronner">p. 4</xref>
-   </xrefs>
-   <notes>
-   	<categories>vern;text</categories>
-      <project_notes>Old Irish text on ff 37–38.</project_notes>
+   <refs>
+      <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/1147"><i>CLA</i> 6.741</canonical>
+      <canonical type="dhbm" href="https://ircabritt.nuigalway.ie/handlist/catalogue/30"><i>DHBM</i>, no. 30</canonical>
+      <canonical href="https://www.trismegistos.org/text/66910">TM 66910</canonical>
+      <bibl corresp="#thesaurus" href="https://archive.org/details/thesauruspalaeo02stok/page/244"><i>Thesaurus</i> II 244–247</bibl>
+      <bibl corresp="#bronner">Bronner 2013: 4</bibl>
+   </refs>
+   <notes categories="#vern #text">
+      Old Irish text on ff 37–38.
    </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

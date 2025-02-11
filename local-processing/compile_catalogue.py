@@ -6,8 +6,8 @@ import sys
 from xml.etree.ElementTree import Element, ElementTree
 
 # load master file
-sourcePath = "./data/mss/"
-targetFile = "mss.xml"
+sourceDir = "./data/mss/"
+targetPath = "./data/mss_compiled.xml"
 
 # prepare new output file
 outputTree = ElementTree()
@@ -15,16 +15,16 @@ outputTree._setroot(Element("document"))
 outputRoot = outputTree.getroot()
 
 # compile component files
-mss = os.listdir(sourcePath)
+mss = os.listdir(sourceDir)
 mss.sort()
 for ms in mss:
     print(ms)
-    msTree = ElementTree().parse(sourcePath + ms)
+    msTree = ElementTree().parse(sourceDir + ms)
     outputRoot.append(msTree)        
 
 # sort output file
 # TO DO: sort by library, then shelfmark_indexer, then shelfmark
 
 # write output file
-outputTree.write("./data/mss.xml", encoding='utf-8', xml_declaration=True)    
+outputTree.write(targetPath, encoding='utf-8', xml_declaration=True)    
 print("Done.")

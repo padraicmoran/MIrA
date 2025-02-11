@@ -24,12 +24,14 @@
       <term_ante>500</term_ante>
       <origin><place id="italy">Italy</place>; additions in <place id="bobbio">Bobbio</place></origin>
    </history>
-   <xrefs>
-      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/736">3.398</xref>
-      <link type="trismegistos" href="https://www.trismegistos.org/text/66501">TM 66501</link>
-   </xrefs>
-   <notes>
-      <categories>sc-ire</categories>
-      <project_notes><i>CLA</i>: "Was in the hands of Irish scribes, no doubt at Bobbio, in the eighth century, when the leaves originally left blank (foll. 139v–<ms id="140">141v</ms>) were used for copying a text of Servius."</project_notes>
+   <refs>
+      <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/736"><i>CLA</i> 3.398</canonical>
+      <canonical href="https://www.trismegistos.org/text/66501">TM 66501</canonical>
+   </refs>
+   <notes categories="#misc">
+      <i>CLA</i>: "Was in the hands of Irish scribes, no doubt at Bobbio, in the eighth century, when the leaves originally left blank (foll. 139v–<ms id="140">141v</ms>) were used for copying a text of Servius."
       </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

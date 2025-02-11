@@ -17,12 +17,13 @@
       <term_ante>800</term_ante>
       <origin>Continent</origin>
    </history>
-   <xrefs>
-      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/1322">7.869</xref>
-      <link type="trismegistos" href="https://www.trismegistos.org/text/67013">TM 67013</link>
-   </xrefs>
-   <notes>
-      <categories>sc-ire</categories>
-      <project_notes />
+   <refs>
+      <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/1322"><i>CLA</i> 7.869</canonical>
+      <canonical href="https://www.trismegistos.org/text/67013">TM 67013</canonical>
+   </refs>
+   <notes categories="#sc-ire">
    </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

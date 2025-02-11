@@ -19,14 +19,16 @@
       <term_ante>800</term_ante>
       <origin><place id="bobbio">Bobbio</place></origin>
    </history>
-   <xrefs>
-      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/676">3.340</xref>
-      <link type="trismegistos" href="https://www.trismegistos.org/text/66440">TM 66440</link>
-      <link type="foundations" href="http://foundationsirishculture.ie/record/?id=16" />
-   </xrefs>
-   <notes>
-      <categories>sc-ire</categories>
-      <project_notes>Composite manuscript in four parts (77 folios total): a) <ms id="126" >1–46, 58–77</ms>; 
-         b) <ms id="127" >47–49, 55–57, 58</ms>; c) <ms id="128">50, 52–54</ms>; d) 51.</project_notes>
+   <refs>
+      <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/676"><i>CLA</i> 3.340</canonical>
+      <canonical href="https://www.trismegistos.org/text/66440">TM 66440</canonical>
+      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=16">Foundations of Irish Culture</link>
+   </refs>
+   <notes categories="#sc-ire">
+      Composite manuscript in four parts (77 folios total): a) <ms id="126">1–46, 58–77</ms>; 
+         b) <ms id="127">47–49, 55–57, 58</ms>; c) <ms id="128">50, 52–54</ms>; d) 51.
    </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

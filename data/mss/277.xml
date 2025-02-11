@@ -20,12 +20,14 @@
       <term_ante>860</term_ante>
       <origin>S <place id="germany">Germany</place></origin>
    </history>
-   <xrefs>
-      <xref type="bischoff_ssb">1.220 (no. 71)</xref>
-      <xref type="bischoff_kat">3240</xref>
-   </xrefs>
-   <notes>
-      <categories>sc-ire</categories>
-      <project_notes>Bischoff, <i>Kat</i>, identifies scribe as prob. British. But apparently also the same hand as the (Irish) annotator of Clm 14425. </project_notes>
+   <refs>
+      <bibl corresp="#bssb">Bischoff, <i>SSB</i>, 1.220 (no. 71)</bibl>
+      <canonical corresp="#bkat">Bischoff, <i>Katalog</i>, no. 3240</canonical>
+   </refs>
+   <notes categories="#misc">
+      Bischoff, <i>Kat</i>, identifies scribe as prob. British. But apparently also the same hand as the (Irish) annotator of <ms id="276">Clm 14425</ms>. 
       </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

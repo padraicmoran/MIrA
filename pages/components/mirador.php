@@ -5,7 +5,7 @@ Display Mirador viewer
 
 function mirador($iiifLinks) {
 
-	print '<div class="mt-4">';
+	print '<div class="mt-4 mb-5">';
 	$manifestString = getAllManifests();
 
 	// Mirador viewer code

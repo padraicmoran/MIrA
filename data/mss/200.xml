@@ -20,13 +20,15 @@
       <origin><place id="england">England</place></origin>
       <provenance><place id="canterbury">Canterbury</place></provenance>
    </history>
-   <xrefs>
-      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/435">2.122</xref>
-      <link type="trismegistos" href="https://www.trismegistos.org/text/66226">TM 66226</link>
-      <xref type="bronner">p. 5</xref>
-   </xrefs>
-   <notes>
-      <categories>vern</categories>
-      <project_notes>Old Irish glosses. Old Irish lemmata, 45r.</project_notes>
+   <refs>
+      <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/435"><i>CLA</i> 2.122</canonical>
+      <canonical href="https://www.trismegistos.org/text/66226">TM 66226</canonical>
+      <bibl corresp="#bronner">Bronner 2013: 5</bibl>
+   </refs>
+   <notes categories="#vern">
+      Old Irish glosses. Old Irish lemmata, 45r.
       </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

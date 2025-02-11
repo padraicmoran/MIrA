@@ -1,5 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mira_001">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mira_001"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -69,14 +71,14 @@
                   </provenance>
                </history>
                <additional ana="#sc-ire #vern">
-                  <listBibl>
-                     <bibl><ref type="images" target="https://hildegard.tristram.de/schulheft/">https://hildegard.tristram.de/schulheft/</ref></bibl>
-                     <bibl corresp="#kenney">535</bibl>
-                     <bibl corresp="#bischoff_kat">5943</bibl>
-                     <bibl corresp="#ocorrain">812</bibl>
+                  <refs>
+                     <bibl><ref type="images" target="https://hildegard.tristram.de/schulheft/">Link to images</ref></bibl>
+                     <bibl corresp="#kenney"><idno>535</idno></bibl>
+                     <bibl corresp="#bischoff_kat"><idno>5943</idno></bibl>
+                     <bibl corresp="#ocorrain"><idno>812</idno></bibl>
                      <bibl corresp="#thesaurus">2.293–295</bibl>
                      <bibl corresp="#bronner">pp 49–50</bibl>
-                  </listBibl>
+                  </refs>
                </additional>
             </msDesc>
          </sourceDesc>

@@ -24,12 +24,14 @@
       <term_ante>800</term_ante>
       <origin><place id="england">England</place> (Irish scribe)</origin>
    </history>
-   <xrefs>
-      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/446">2.133</xref>
-      <link type="trismegistos" href="https://www.trismegistos.org/text/66237">TM 66237</link>
-   </xrefs>
-   <notes>
-      <categories>sc-ire</categories>
-      <project_notes>Glosses. </project_notes>
+   <refs>
+      <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/446"><i>CLA</i> 2.133</canonical>
+      <canonical href="https://www.trismegistos.org/text/66237">TM 66237</canonical>
+   </refs>
+   <notes categories="#sc-ire">
+      Glosses. 
    </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

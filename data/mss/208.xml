@@ -19,12 +19,13 @@
       <term_ante>750</term_ante>
       <origin><place id="wales">Wales</place> (Irish tradition)</origin>
    </history>
-   <xrefs>
-      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/474">2.159</xref>
-      <link type="trismegistos" href="https://www.trismegistos.org/text/66263">TM 66263</link>
-   <xref type="alexander">21</xref></xrefs>
-   <notes>
-      <categories>or-ins;sc-ins</categories>
-      <project_notes />
+   <refs>
+      <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/474"><i>CLA</i> 2.159</canonical>
+      <canonical href="https://www.trismegistos.org/text/66263">TM 66263</canonical>
+   <canonical corresp="#alexander">Alexander, no. 21</canonical></refs>
+   <notes categories="#or-ins #sc-ins">
    </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

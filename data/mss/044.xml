@@ -18,11 +18,13 @@
       <term_ante>900</term_ante>
       <origin><place id="reims">Reims</place>/circle of <person id="eriugena">Eriugena</person></origin>
    </history>
-   <xrefs>
-      <xref type="bischoff_kat">234</xref>
-   </xrefs>
-   <notes>
-      <categories>scribe</categories>
-      <project_notes>Formerly Dombibliothek. Hand of <person id="i2">i2</person>.</project_notes>
+   <refs>
+      <canonical corresp="#bkat">Bischoff, <i>Katalog</i>, no. 234</canonical>
+   </refs>
+   <notes categories="#scribe">
+      Formerly Dombibliothek. Hand of <person id="i2">i2</person>.
       </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

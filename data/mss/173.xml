@@ -25,17 +25,19 @@
       <term_ante>797</term_ante>
       <origin><place id="fleury">Fleury</place></origin>
    </history>
-   <xrefs>
-      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/930">5.568</xref>
-      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/1260">7.**568</xref>
-      <xref type="dhbm" href="https://ircabritt.nuigalway.ie/handlist/catalogue/22">#22</xref>
-      <xref type="bischoff_kat">551a</xref>
-      <xref type="kenney">207</xref>
-      <link type="trismegistos" href="https://www.trismegistos.org/text/66699">TM 66699</link>
-      <xref type="bronner">p. 2</xref>
-	</xrefs>
-   <notes>
-      <categories>vern</categories>
-      <project_notes>Old Irish glosses on Sergius, 146v and 148r (<i>papae: amre</i>). </project_notes>
+   <refs>
+      <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/930"><i>CLA</i> 5.568</canonical>
+      <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/1260"><i>CLA</i> 7.**568</canonical>
+      <canonical type="dhbm" href="https://ircabritt.nuigalway.ie/handlist/catalogue/22"><i>DHBM</i>, no. 22</canonical>
+      <canonical corresp="#bkat">Bischoff, <i>Katalog</i>, no. 551a</canonical>
+      <canonical corresp="#kenney">Kenney, no. 207</canonical>
+      <canonical href="https://www.trismegistos.org/text/66699">TM 66699</canonical>
+      <bibl corresp="#bronner">Bronner 2013: 2</bibl>
+	</refs>
+   <notes categories="#vern">
+      Old Irish glosses on Sergius, 146v and 148r (<i>papae: amre</i>). 
       </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

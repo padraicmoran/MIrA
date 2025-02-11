@@ -7,7 +7,7 @@
    </identifier>
    <description>
       <type />
-      <folios></folios>
+      <folios />
       <page_h />
       <page_w />
       <contents><person id="ambrose">Ambrose</person> , <i>Expositio in Evangelium Iohannis</i></contents>
@@ -19,15 +19,17 @@
       <term_ante>800</term_ante>
       <origin><place id="bobbio">Bobbio</place></origin>
    </history>
-   <xrefs>
-      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/675">3.339</xref>
-      <link type="trismegistos" href="https://www.trismegistos.org/text/66439">TM 66439</link>
-      <link type="foundations" href="http://foundationsirishculture.ie/record/?id=15">[external link, with image]</link>
-   </xrefs>
-   <notes>
-      <categories>sc-ire</categories>
-      <project_notes>Composite manuscript in four parts (77 folios total): a) <ms id="126" >1–46, 58–77</ms>; 
-         b) <ms id="127" >47–49, 55–57, 58</ms>; c) 50, 52–54; d) <ms id="129">51</ms>.
-         This part (c) has Continental influence.</project_notes>
+   <refs>
+      <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/675"><i>CLA</i> 3.339</canonical>
+      <canonical href="https://www.trismegistos.org/text/66439">TM 66439</canonical>
+      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=15">Foundations of Irish Culture</link>
+   </refs>
+   <notes categories="#sc-ire">
+      Composite manuscript in four parts (77 folios total): a) <ms id="126">1–46, 58–77</ms>; 
+         b) <ms id="127">47–49, 55–57, 58</ms>; c) 50, 52–54; d) <ms id="129">51</ms>.
+         This part (c) has Continental influence.
    </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

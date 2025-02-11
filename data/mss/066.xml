@@ -21,12 +21,14 @@
       <origin><place id="ireland">Ireland</place></origin>
       <provenance><place id="reichenau">Reichenau</place></provenance>
    </history>
-   <xrefs>
-      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/1557">8.1091</xref>
-      <link type="trismegistos" href="https://www.trismegistos.org/text/67231">TM 67231</link>
-   </xrefs>
-   <notes>
-      <categories>or-ire;sc-ire</categories>
-      <project_notes>Rewritten with <person id="augustine">Augustine</person></project_notes>
+   <refs>
+      <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/1557"><i>CLA</i> 8.1091</canonical>
+      <canonical href="https://www.trismegistos.org/text/67231">TM 67231</canonical>
+   </refs>
+   <notes categories="#or-ire #sc-ire">
+      Rewritten with <person id="augustine">Augustine</person>
    </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

@@ -20,14 +20,15 @@
       <term_ante>820</term_ante>
       <origin><place id="ireland">Ireland</place></origin>
    </history>
-   <xrefs>
-      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/591">2.272</xref>
-      <link type="trismegistos" href="https://www.trismegistos.org/text/66358">TM 66358</link>
-      <xref type="alexander">59</xref>
-      <xref type="mcgurk">85</xref>
-   </xrefs>
-   <notes>
-      <categories>or-ire;sc-ire</categories>
-      <project_notes />
+   <refs>
+      <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/591"><i>CLA</i> 2.272</canonical>
+      <canonical href="https://www.trismegistos.org/text/66358">TM 66358</canonical>
+      <canonical corresp="#alexander">Alexander, no. 59</canonical>
+      <canonical corresp="#mcgurk">McGurk, no. 85</canonical>
+   </refs>
+   <notes categories="#or-ire #sc-ire">
    </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

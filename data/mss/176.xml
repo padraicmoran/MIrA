@@ -18,16 +18,18 @@
       <date_desc>IX med</date_desc>
       <term_post>840</term_post>
       <term_ante>860</term_ante>
-      <origin>N <place id="italy">Italy</place> (Milan?)? <place id="strasbourg">Strasbourg</place>? <place id="st-gall">St Gall</place>?</origin>
+      <origin>N <place id="italy">Italy</place>? (Milan?) <place id="strasbourg">Strasbourg</place>? <place id="st-gall">St Gall</place>?</origin>
       <provenance><place id="strasbourg">Strasbourg</place> (s. XIV)</provenance>
    </history>
-   <xrefs>
-      <xref type="bischoff_kat">585</xref>
-      <xref type="thesaurus">2.235</xref>
-      <xref type="bronner">p. 3</xref>
-   </xrefs>
-   <notes>
-      <categories>sc-ire;vern</categories>
-      <project_notes>Old Irish glosses. Written by Caunchobrach, Fergus, Domhnach and Suadbar; dedicated to Colgu. Several other Irish names in margins. </project_notes>
+   <refs>
+      <canonical corresp="#bkat">Bischoff, <i>Katalog</i>, no. 585</canonical>
+      <bibl corresp="#thesaurus" href="https://archive.org/details/thesauruspalaeo02stok/page/235"><i>Thesaurus</i> II 235</bibl>
+      <bibl corresp="#bronner">Bronner 2013: 3</bibl>
+   </refs>
+   <notes categories="#sc-ire #vern">
+      Old Irish glosses. Written by Caunchobrach, Fergus, Domhnach and Suadbar; dedicated to Colgu. Several other Irish names in margins. 
       </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

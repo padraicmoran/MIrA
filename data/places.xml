@@ -51,6 +51,12 @@
          <xref type="viaf">https://viaf.org/viaf/146572630</xref>
          <xref type="wikidata">https://www.wikidata.org/wiki/Q167600</xref>
       </place>
+      <place id="brittany" type="region">
+         <name>Brittany</name>
+         <coords>48,-3</coords>
+         <xref type="viaf">https://viaf.org/viaf/151203204/</xref>
+         <xref type="wikidata">https://www.wikidata.org/wiki/Q12130</xref>
+      </place>
       <place id="corbie">
          <name>Corbie</name>
          <name lang="la">Corbeia</name>
@@ -213,6 +219,14 @@
          <coords>47.5857813,10.6199995</coords>
          <xref type="viaf">https://viaf.org/viaf/157108934</xref>
          <xref type="wikidata">https://www.wikidata.org/wiki/Q262684</xref>
+      </place>
+      <place id="lorsch">
+         <name>Lorsch</name>
+         <name lang="la">Laureshamensis</name>
+         <description></description>
+         <coords>49.653611,8.569722</coords>
+         <xref type="viaf">https://viaf.org/viaf/143763943</xref>
+         <xref type="wikidata">https://www.wikidata.org/wiki/Q157550</xref>
       </place>
       <place id="mainz">
          <name>Mainz</name>

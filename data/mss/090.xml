@@ -21,14 +21,16 @@
       <origin><place id="ireland">Ireland</place></origin>
       <provenance>St Emmeram, <place id="regensburg">Regensburg</place></provenance>
    </history>
-   <xrefs>
-      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/2103">S.1797</xref>
-      <link type="trismegistos" href="https://www.trismegistos.org/text/67923">TM 67923</link>
-      <xref type="bischoff_ssb">2.247</xref>
-      <link type="foundations" href="http://foundationsirishculture.ie/record/?id=71">[external link, with image]</link>
-   </xrefs>
-   <notes>
-      <categories>or-ire;sc-ire</categories>
-      <project_notes>Formerly part of binding of Clm 14747 (10th cent.).</project_notes>
+   <refs>
+      <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/2103"><i>CLA</i> S.1797</canonical>
+      <canonical href="https://www.trismegistos.org/text/67923">TM 67923</canonical>
+      <bibl corresp="#bssb">Bischoff, <i>SSB</i>, 2.247</bibl>
+      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=71">Foundations of Irish Culture</link>
+   </refs>
+   <notes categories="#or-ire #sc-ire">
+      Formerly part of binding of Clm 14747 (10th century).
    </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

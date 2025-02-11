@@ -18,13 +18,15 @@
       <term_ante>866</term_ante>
       <origin><place id="ireland">Ireland</place> (?); circle of <person id="eriugena">Eriugena</person></origin>
    </history>
-   <xrefs>
-      <xref type="bischoff_kat">2054</xref>
-      <xref type="thesaurus">2, app. V</xref>
-      <xref type="bronner">pp 22–23</xref>
-   </xrefs>
-   <notes>
-   	<categories>or-ire;sc-ire;scribe;vern</categories>
-      <project_notes>Old Irish glosses. Hand of <person id="i2">i2</person> (assistant of <person id="eriugena">Eriugena</person>). Bischoff: Augustine prob. written in <place id="ireland">Ireland</place>; rest by i2.</project_notes>
+   <refs>
+      <canonical corresp="#bkat">Bischoff, <i>Katalog</i>, no. 2054</canonical>
+      <bibl corresp="#thesaurus" href="https://archive.org/details/thesauruspalaeo02stok/page/"><i>Thesaurus</i> II  app. V</bibl>
+      <bibl corresp="#bronner">Bronner 2013: 22–23</bibl>
+   </refs>
+   <notes categories="#or-ire #sc-ire #scribe #vern">
+      Old Irish glosses. Hand of <person id="i2">i2</person> (assistant of <person id="eriugena">Eriugena</person>). Bischoff: Augustine prob. written in <place id="ireland">Ireland</place>; rest by i2.
    </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

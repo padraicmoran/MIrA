@@ -39,14 +39,14 @@ $languages = array(
 // 
 // LOAD DATA
 // manuscripts
-if (file_exists('data/mss.xml')) {
-	$xml_mss = simplexml_load_file('data/mss.xml');
-	$totalMSS = count($xml_mss->xpath('manuscript'));
+if (file_exists('data/mss_compiled.xml')) {
+	$xml_mss = simplexml_load_file('data/mss_compiled.xml');
+	$totalMSS = count($xml_mss->xpath('manuscript[notes[not(contains(@categories, "#excl"))]]'));
 }
 
 // load MS categories
-if (file_exists('data/ms_categories.xml')) {
-	$xml_msCategories = simplexml_load_file('data/ms_categories.xml');
+if (file_exists('data/categories.xml')) {
+	$xml_msCategories = simplexml_load_file('data/categories.xml');
 
 	// build category associative array; key = shorthand code, value = label
 	$msCategories = array();
@@ -95,14 +95,14 @@ if (file_exists('data/places.xml')) {
 	}
 }
 
-// load xrefs
+// load listBibl
 /* IN DEVELOPMENT: HOLD FOR NOW
-if (file_exists('data/xrefs.xml')) {
-	$xml_xrefs = simplexml_load_file('data/places.xml');
+if (file_exists('data/listBibl.xml')) {
+	$xml_listBibl = simplexml_load_file('data/places.xml');
 
 	// build associative array
-	$xrefs = array();
-	foreach ($xml_xrefs->source as $source) {
+	$listBibl = array();
+	foreach ($xml_listBibl->source as $source) {
 		$id = strval($source['id']);
 		$libraries[$id] = [
 			'id' => $id,

@@ -21,15 +21,17 @@
       <origin>Lake Constance area?</origin>
       <provenance><place id="regensburg">Regensburg</place></provenance>
    </history>
-   <xrefs>
-      <xref type="dhbm" href="https://ircabritt.nuigalway.ie/handlist/catalogue/90">#90</xref>
-      <xref type="bischoff_ssb">2.246</xref>
-      <xref type="bischoff_kat">3273</xref>
-      <xref type="thesaurus">2.236–237</xref>
-      <xref type="bronner">p. 34</xref>
-   </xrefs>
-   <notes>
-      <categories>ex-ire;vern</categories>
-      <project_notes>Old Irish, Britonnic, Old High German glosses. Irish abbreviations point to Irish exemplar.</project_notes>
+   <refs>
+      <canonical type="dhbm" href="https://ircabritt.nuigalway.ie/handlist/catalogue/90"><i>DHBM</i>, no. 90</canonical>
+      <bibl corresp="#bssb">Bischoff, <i>SSB</i>, 2.246</bibl>
+      <canonical corresp="#bkat">Bischoff, <i>Katalog</i>, no. 3273</canonical>
+      <bibl corresp="#thesaurus" href="https://archive.org/details/thesauruspalaeo02stok/page/236"><i>Thesaurus</i> II 236–237</bibl>
+      <bibl corresp="#bronner">Bronner 2013: 34</bibl>
+   </refs>
+   <notes categories="#ex-ire #vern">
+      Old Irish, Britonnic, Old High German glosses. Irish abbreviations point to Irish exemplar.
    </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

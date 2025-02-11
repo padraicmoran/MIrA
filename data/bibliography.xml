@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<listBibl>
+    <bibl id="alexander"><!-- canonical -->
+        Alexander, J.J.G., <i>Insular manuscripts, 6th to the 9th century</i> (London, 1978).
+    </bibl>
+    <bibl id="dhbm"><!-- canonical -->
+        Bisagni, Jacopo, <i>A Descriptive Handlist of Breton Manuscripts, c. AD 780–1100</i> (with contributions by Sarah Corrigan).
+    </bibl>
+    <bibl id="bssb">
+        Bischoff, Bernhard, <i>Südostdeutschen Schreibschulen und Bibliotheken in der Karolingerzeit</i>, 2 vols (Wiesbaden, 1940–1980).
+    </bibl>
+    <bibl id="bischoff_1977">
+        Bischoff, Bernhard, ‘Irische Schreiber im Karolingerreich’, in René Roques (ed.), <i>Jean Scot Érigène et l’Histoire de la Philosophie</i> (Paris, 1977), 47–58;
+        repr. in <i>Mittelalterliche Studien. Ausgewählte Aufsätze zur Schriftkunde und Literaturgeschichte</i>, 3 vols (Stuttgart 1966–1981), III, pp 39–54.
+    </bibl>
+    <bibl id="bkat"><!-- canonical -->
+        Bischoff, Bernhard, <i>Katalog der festländischen Handschriften des neunten Jahrhunderts</i>, 3 vols (Wiesbaden, 1998–2014).
+    </bibl>
+    <bibl id="bronner">
+        Bronner, Dagmar, <i>Verzeichnis altirischer Glossen. Vorläufige Version</i> (Marburg, 2013). 
+        <a href="https://hal.science/hal-01638388/">https://hal.science/hal-01638388/</a>.
+    </bibl> 
+    <bibl id="brown_mackay_1988">
+        Brown, T. J. and T. W. Mackay, <i>Codex Vaticanus Palatinus Latinus 235. An Early Insular Manuscript of Paulinus of Nola ‘Carmina’</i>, Armarium codicum insignium, 4 (Turnhout, 1988).
+    </bibl>
+    <bibl id="chisholm_1980">
+        Chisholm, John Edward, <i>The Pseudo-Augustinian Hypomnesticon Against the Pelagians and Celestians: Volume II. Text edited from the manuscripts</i> (Fribourg, Switz., 1980).
+    </bibl>
+    <bibl id="duft_meyer_1954">
+        Duft, Johannes and Peter Meyer,<i>The Irish Miniatures in the Abbey Library of St Gall</i> (Olten, 1954).
+    </bibl>
+    <bibl id="foundations">
+        <i>Foundations of Irish Culture</i>, online catalogue, <a href="http://foundationsirishculture.ie/">http://foundationsirishculture.ie/</a> (2013).
+    </bibl>
+    <bibl id="gamber">
+        Gamber, Klaus, <i>Codices Liturgici Latini Antiquiores</i>, 2nd ed., Freiburg Schweiz, 1968.
+    </bibl>
+    <bibl id="gneuss_lapidge">
+        Gneuss, Helmut and Michael Lapidge, <i>Anglo-Saxon Manuscripts: A Bibliographical Handlist of Manuscripts
+        and Manuscript Fragments Written or Owned in England up to 1100</i> (Toronto, 2014).
+    </bibl>
+    <bibl id="kenney"><!-- canonical -->
+        Kenney, James F., <i>The Sources for the Early History of Ireland: an Introduction and Guide. 
+            Volume 1: Ecclesiastical</i> (New York, 1929, rev. 1966).
+    </bibl>
+    <bibl id="cla"><!-- canonical -->
+        Lowe, E. A., <i>Codices Latini Antiquiores</i>, 12 vols (Oxford, 1934–1971), digitised and updated by Mark Stansbury, <a target="_blank" href="http://elmss.nuigalway.ie/">Earlier Latin Manuscripts</a>.
+    </bibl>
+    <bibl id="mcgurk"><!-- canonical -->
+        McGurk, Patrick, <i>Gospel Books and Early Latin Manuscripts</i> (London, 1961).
+    </bibl>
+    <bibl id="mcnamara_1986">
+        McNamara, Martin (ed.), <i>Glossa in Psalmos: the Hiberno-Latin Gloss on the Psalms of Codex Palatinus Latinus 68
+            (Psalms 39:11–151:7)</i>, Studi e Testi, 310 (Rome, 1986).
+    </bibl>
+    <bibl id="ocorrain"><!-- canonical -->
+        Ó Corráin, Donnchadh, <i>Clavis Litterarum Hibernensium</i>, 3 vols (Turnhout, 2017).
+    </bibl>
+    <bibl id="sharpe_2010">
+        Sharpe, Richard, 'Books from Ireland, fifth to ninth centuries', <i>Peritia</i> 21 (2010), 1–55.
+    </bibl>
+    <bibl id="story_2003">
+        Story, Joanna, <i>Carolingian Connections: Anglo-Saxon England and Carolingian Francia, c. 750–870</i> (London, 2003).
+    </bibl>
+    <bibl id="thesaurus">
+        Stokes, Whitley and John Strachan (eds), <i>Thesaurus Palaeohibernicus: a Collection of Old-Irish Glosses, Scholia, Prose, and Verse</i>, 3 vols (Cambridge, 1901–1910).
+    </bibl>
+    <bibl id="vattasso_1902">
+        Vattasso, Marco and Pius Franchi de' Cavalieri, <i>Codices Vaticani Latini. Tomus I. Codices 1–678</i> (Rome, 1902).
+        <a href="https://archive.org/details/codicesvaticanil01bibluoft/">archive.org</a>
+    </bibl>
+</listBibl>

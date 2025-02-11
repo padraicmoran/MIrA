@@ -105,7 +105,7 @@ function templateTop($activeNav) {
 </head>
 <body class="bg-light">
 
-<nav class="navbar navbar-expand-lg navbar-dark sticky-md-top shadow" style="z-index: 2000">
+<nav class="navbar navbar-expand-lg navbar-dark sticky-md-top" style="z-index: 2000">
 	<div class="container-fluid px-5 py-2">
 
 	<a class="navbar-brand text-wrap" href="/">
@@ -143,11 +143,11 @@ function templateTop($activeNav) {
 
 <?php
 // home page header
-if ($activeNav == 0) print '<div class="container-fluid shadow p-0 overflow-auto bg-dark"><a href="/110"><img class="img-fluid" src="/images/header_0-3.jpg" alt="Detail from the Book of Armagh"></a></div>';
+if ($activeNav == 0) print '<div class="container-fluid p-0 overflow-auto bg-dark"><a href="/110"><img class="img-fluid" src="/images/header_0-3.jpg" alt="Detail from the Book of Armagh"></a></div>';
 ?>
 
 <!-- main content holder -->
-<div class="container mt-5 pb-5" style="min-height: 400px; ">
+<main class="container mt-5 pb-5" style="min-height: 400px; ">
 <?php
 }
 
@@ -155,22 +155,22 @@ if ($activeNav == 0) print '<div class="container-fluid shadow p-0 overflow-auto
 function templateBottom() {
 	global $version, $versionDate;
 ?>
-</div>
+</main>
 
-<div class="container-fluid bg-dark bg-gradient mt-4 p-5 text-light">
+<footer class="container-fluid mt-4 p-5">
 	<div class="container mb-0">
 
-<p><b>Cite this page:</b><br> Pádraic Moran, <i>Manuscripts with Irish Associations</i> (<i>MIrA</i>)</i>, 
+<p>Pádraic Moran, <i>Manuscripts with Irish Associations</i> (<i>MIrA</i>)</i>, 
 	version <?php print $version; ?> (<?php print $versionDate; ?>)
 <?php
 // URL and date
-print '&lt;<a class="text-light" href="' . $_SERVER['REQUEST_URI'] . '">http://mira.ie' . $_SERVER['REQUEST_URI'] . '</a>&gt; ';
+print '&lt;<a class="text-reset" href="' . $_SERVER['REQUEST_URI'] . '">http://mira.ie' . $_SERVER['REQUEST_URI'] . '</a>&gt; ';
 print '[accessed ' . date("j F Y") . ']';
 ?>
 </p>
 
 	</div>
-</div>
+</footer>
 
 <!-- Script for tooltips -->
 <script language="JavaScript" type="text/javascript">

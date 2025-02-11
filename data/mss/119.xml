@@ -4,6 +4,7 @@
       <shelfmark>C 301 inf.</shelfmark>
       <shelfmark_indexer>C 301 inf.</shelfmark_indexer>
       <ms_name>Milan glosses</ms_name>
+      <link type="iiif">https://digitallibrary.unicatt.it/veneranda/data/public/manifests/0b/02/da/82/80/5b/80/e1/0b02da82805b80e1.json</link>
    </identifier>
    <description>
       <type />
@@ -20,15 +21,17 @@
       <origin><place id="ireland">Ireland</place> (Bangor? Leinster?)</origin>
       <provenance><place id="bobbio">Bobbio</place></provenance>
    </history>
-   <xrefs>
-      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/662">3.326</xref>
-      <link type="trismegistos" href="https://www.trismegistos.org/text/66423">TM 66423</link>
-      <xref type="thesaurus">1.7–483</xref>
-      <xref type="bronner">pp 27–28</xref>
-      <link type="foundations" href="http://foundationsirishculture.ie/record/?id=9" />
-   <xref type="alexander">62</xref></xrefs>
-   <notes>
-      <categories>or-ire;sc-ire;scribe;vern</categories>
-      <project_notes>Old Irish glosses. Scribe Diarmait.</project_notes>
+   <refs>
+      <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/662"><i>CLA</i> 3.326</canonical>
+      <canonical href="https://www.trismegistos.org/text/66423">TM 66423</canonical>
+      <bibl corresp="#thesaurus" href="https://archive.org/details/thesauruspalaeo01stok/page/7"><i>Thesaurus</i> I 7–483</bibl>
+      <bibl corresp="#bronner">Bronner 2013: 27–28</bibl>
+      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=9">Foundations of Irish Culture</link>
+   <canonical corresp="#alexander">Alexander, no. 62</canonical></refs>
+   <notes categories="#or-ire #sc-ire #scribe #vern">
+      Old Irish glosses. Scribe Diarmait.
    </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

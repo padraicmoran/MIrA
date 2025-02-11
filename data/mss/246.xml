@@ -21,13 +21,15 @@
       <origin><place id="auxerre">Auxerre</place>?</origin>
       <provenance><place id="auxerre">Auxerre</place></provenance>
    </history>
-   <xrefs>
-      <xref type="bischoff_kat">4517</xref>
-      <xref type="kenney">pp 65–66</xref>
-      <!-- xref type="trismegistos" -->
-   </xrefs>
-   <notes>
-      <categories>vern</categories>
-      <project_notes>Old Irish glosses.</project_notes>
+   <refs>
+      <canonical corresp="#bkat">Bischoff, <i>Katalog</i>, no. 4517</canonical>
+      <canonical corresp="#kenney">Kenney, no. pp 65–66</canonical>
+      
+   </refs>
+   <notes categories="#vern">
+      Old Irish glosses.
       </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

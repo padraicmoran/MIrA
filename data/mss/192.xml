@@ -21,15 +21,18 @@
       <origin><place id="ireland">Ireland</place></origin>
       <provenance><place id="st-gall">St Gall</place></provenance>
    </history>
-   <xrefs>
-      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/1454">7.988</xref>
-      <link type="trismegistos" href="https://www.trismegistos.org/text/67133">TM 67133</link>
-      <xref type="thesaurus">2.248–249</xref>
-      <xref type="bronner">pp 48–49</xref>
-      <link type="foundations" href="http://foundationsirishculture.ie/record/?id=47">[external link, with image]</link>
-   <xref type="alexander">58</xref></xrefs>
-   <notes>
-      <categories>or-ire;sc-ire;vern</categories>
-      <project_notes>Old Irish charms. </project_notes>
-      </notes>
+   <refs>
+      <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/1454"><i>CLA</i> 7.988</canonical>
+      <canonical href="https://www.trismegistos.org/text/67133">TM 67133</canonical>
+      <bibl corresp="#thesaurus" href="https://archive.org/details/thesauruspalaeo02stok/page/248"><i>Thesaurus</i> II 248–249</bibl>
+      <bibl corresp="#bronner">Bronner 2013: 48–49</bibl>
+      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=47">Foundations of Irish Culture</link>
+      <canonical corresp="#alexander">Alexander, no. 58</canonical>
+      <bibl id="duft_meyer_1954">Duft &amp; Meyer 1954: 76–78</bibl>
+   </refs>
+   <notes categories="#or-ire #sc-ire #vern">
+   </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

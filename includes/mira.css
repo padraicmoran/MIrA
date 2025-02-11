@@ -14,9 +14,13 @@ a.active {
    text-decoration: underline;
 }
 
+footer {
+	background-color: #9F9F92; 
+}
+
 
 a, a:hover, .leaflet-container a {
-	color: #8d2929;
+	color: #4B6C60;
 }
 a:hover {
 	text-decoration: none;
@@ -47,4 +51,8 @@ span.btn {
 
 .pointer-button {
    color: #0e300e; 
+}
+.hanging-indent {
+	padding-left: 1.5em; /* Adjust the value as needed */
+	text-indent: -1.5em; /* Adjust the value as needed */
 }

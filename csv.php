@@ -11,54 +11,36 @@ if (isset($xml_mss)) {
 
 	if ($page == 'mss') {
 
-		// SEARCH DATA
-		// Load matches into $results object
-		//
 		$searchCat = cleanInput('cat') ?? '';
 		$searchLib = cleanInput('lib') ?? '';
 
 		if ($search != '') {
 			// keyword search
-
-			// pre-search: check library information for keyword; include any matching IDs in overall search
-			$xPathLibraries = '';
-			foreach ($libraries as $lib) {
-				if (strpos($lib['searchIndex'], $search) !== false) $xPathLibraries .= '| //identifier[@libraryID="' . $lib['id'] . '"]//ancestor::manuscript ';
-			}
-
-			//	$results = $xml_mss->xpath('//*[contains(text(),"' . $search . '")]//ancestor::manuscript');
-			//	hack for case-sensitivity (needed for XPath v1)
-			$results = $xml_mss->xpath('
-				//*[contains(translate(text(), "ABCDEFGHIJKLMNOPQRSTUVWXYZäëïöüÄËÏÖÜáéíóúÁÉÍÓÚàèìòùÀÈÌÒÙ", "abcdefghijklmnopqrstuvwxyzaeiouaeiouaeiouaeiouaeiouaeiou"),"' . strtolower($search) . '")][not(self::coords|self::link|self::private_notes)]
-				//ancestor::manuscript
-				' . $xPathLibraries);
+			$results = searchMSS($xml_mss, 'keyword', $search);
 		}
 		elseif ($searchCat != '') {
 			// browse by category 
 			if (isset($msCategories[$searchCat])) {
-				$results = $xml_mss->xpath('//manuscript/notes/categories[contains(text(), \'' . $searchCat . '\')]/ancestor::manuscript');
+				$results = searchMSS($xml_mss, 'category', $searchCat);
 			}
 		}
 		elseif ($searchLib != '') {
 			// browse by library
-			$results = $xml_mss->xpath('//identifier[@libraryID="' . $searchLib . '"]/ancestor::manuscript');
+			$results = searchMSS($xml_mss, 'library', $searchLib);
 		}
 		else {
 			// show all entries
-			$results = $xml_mss->manuscript;
+			$results = searchMSS($xml_mss, null, null);
 		}
-		// END SEARCH DATA
-
-
 	}
 	elseif ($page == 'texts') {
-		$results = $xml_mss->xpath('//text[@id="' . $id . '"]/ancestor::manuscript');
+		$results = $xml_mss->xpath('manuscript[//text[@id="' . $id . '"]]');
 	}
 	elseif ($page == 'people') {
-		$results = $xml_mss->xpath('//person[@id="' . $id . '"]/ancestor::manuscript');
+		$results = $xml_mss->xpath('manuscript[//person[@id="' . $id . '"]]');
 	}
 	elseif ($page == 'places') {
-		$results = $xml_mss->xpath('//place[@id="' . $id . '"]/ancestor::manuscript');
+		$results = $xml_mss->xpath('manuscript[//place[@id="' . $id . '"]]');
 	}
 }
 
@@ -83,7 +65,6 @@ if (isset($results)) {
 			'Library',
 			'Shelfmark',
 			'MS name',
-			'Other units',
 			'Contents',
 			'Script',
 			'Date desc',
@@ -97,28 +78,42 @@ if (isset($results)) {
 	);
 
 	foreach ($results as $ms) {
+		// find how many MS units
+		$identifierCount = count($ms->identifier);
+		for ($n = 0; $n < $identifierCount; $n ++) {
 
-		$libraryID = strval($ms->identifier['libraryID']);	
-		fputcsv($output, 
-			array(
-				$ms['id'],
-				'http://mira.ie/' . $ms['id'],
-				$libraries[$libraryID]['city'],
-				$libraries[$libraryID]['name'],
-				$ms->identifier->shelfmark,
-				$ms->identifier->ms_name,
-				count($ms->identifier) - 1,
-				stripTagsInNode($ms->description->contents),
-				$ms->description->script,
-				$ms->history->date_desc,
-				$ms->history->term_post,
-				$ms->history->term_ante,
-				stripTagsInNode($ms->history->origin),
-				stripTagsInNode($ms->history->provenance),
-				stripTagsInNode($ms->notes->project_notes),
-				$ms->notes->categories
-			)
-		);
+			// get ID; add unit number if more than one unit
+			$miraRef = $ms['id']; 
+			$unit = $ms->identifier[$n]['unit'];
+			if ($unit <> '') $miraRef .= '.' . $unit;
+
+			// get library ID
+			$libraryID = strval($ms->identifier[$n]['libraryID']);	
+
+			// prepare contents
+			if ($ms->description->contents->summary) $contents = $ms->description->contents->summary;
+			else $contents = $ms->description->contents;
+
+			fputcsv($output, 
+				array(
+					$miraRef,
+					'http://mira.ie/' . $ms['id'],
+					$libraries[$libraryID]['city'],
+					$libraries[$libraryID]['name'],
+					$ms->identifier[$n]->shelfmark,
+					$ms->identifier[$n]->ms_name,
+					stripTagsInNode($contents),
+					$ms->description->script,
+					$ms->history->date_desc,
+					$ms->history->term_post,
+					$ms->history->term_ante,
+					stripTagsInNode($ms->history->origin),
+					stripTagsInNode($ms->history->provenance),
+					stripTagsInNode($ms->notes),
+					$ms->notes['categories']
+				)
+			);
+		}
 	}
 }
 else {

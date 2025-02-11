@@ -18,11 +18,13 @@
       <term_ante>866</term_ante>
       <origin>NE <place id="france">France</place></origin>
    </history>
-   <xrefs>
-      <xref type="bischoff_kat">2125</xref>
-   </xrefs>
-   <notes>
-   	<categories>sc-ins</categories>
-      <project_notes>Bischoff: Insular (prob. Irish) ductus.</project_notes>
+   <refs>
+      <canonical corresp="#bkat">Bischoff, <i>Katalog</i>, no. 2125</canonical>
+   </refs>
+   <notes categories="#sc-ins">
+      Bischoff: Insular (prob. Irish) ductus.
    </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

@@ -20,12 +20,14 @@
       <term_ante>810</term_ante>
       <origin>S <place id="germany">Germany</place></origin>
    </history>
-   <xrefs>
-      <xref type="bischoff_ssb">1.247–248</xref>
-      <xref type="bischoff_kat">3219</xref>
-   </xrefs>
-   <notes>
-      <categories>ex-ire</categories>
-      <project_notes>Bischoff, <i>SSB</i> and <i>Kat.</i>: exemplar possibly Irish (Insular influence in script and abbreviations).</project_notes>
+   <refs>
+      <bibl corresp="#bssb">Bischoff, <i>SSB</i>, 1.247–248</bibl>
+      <canonical corresp="#bkat">Bischoff, <i>Katalog</i>, no. 3219</canonical>
+   </refs>
+   <notes categories="#ex-ire">
+      Bischoff, <i>SSB</i> and <i>Kat.</i>: exemplar possibly Irish (Insular influence in script and abbreviations).
       </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

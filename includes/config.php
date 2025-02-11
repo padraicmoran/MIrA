@@ -3,8 +3,8 @@
 Configuration options
 */
 
-$version = '0.5 dev';
-$versionDate = '2023';
+$version = '0.6';
+$versionDate = '2025';
 $debug = true;
 
 // Set as true if there is a .htaccess file in the root directory and server permission for URL rewrites.

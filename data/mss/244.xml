@@ -18,17 +18,19 @@
       <date_desc>prob. VIII/IX or IX in</date_desc>
       <term_post>880</term_post>
       <term_ante>915</term_ante>
-      <origin>Brittany (or <place id="fleury">Fleury</place>?)</origin>
+      <origin><place id="brittany">Brittany</place> (or <place id="fleury">Fleury</place>?)</origin>
       <provenance><place id="fleury">Fleury</place></provenance>
    </history>
-   <xrefs>
-      <xref type="dhbm" href="https://ircabritt.nuigalway.ie/handlist/catalogue/63">#63</xref>
-      <xref type="bischoff_kat">2208</xref>
-      <xref type="bronner">p. 64</xref>
-      <!-- xref type="trismegistos" -->
-   </xrefs>
-   <notes>
-      <categories>sc-ins;vern</categories>
-      <project_notes>Old Irish interlinear gloss on f. 1v.</project_notes>
+   <refs>
+      <canonical type="dhbm" href="https://ircabritt.nuigalway.ie/handlist/catalogue/63"><i>DHBM</i>, no. 63</canonical>
+      <canonical corresp="#bkat">Bischoff, <i>Katalog</i>, no. 2208</canonical>
+      <bibl corresp="#bronner">Bronner 2013: 64</bibl>
+      
+   </refs>
+   <notes categories="#sc-ins #vern">
+      Old Irish interlinear gloss on f. 1v.
       </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

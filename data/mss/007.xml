@@ -17,12 +17,13 @@
       <term_ante>750</term_ante>
       <origin><place id="ireland">Ireland</place></origin>
    </history>
-   <xrefs>
-      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/2143">S1.1835</xref>
-      <link type="trismegistos" href="https://www.trismegistos.org/text/68701">TM 68701</link>
-   </xrefs>
-   <notes>
-   	<categories>or-ire;sc-ire</categories>
-      <project_notes />
+   <refs>
+      <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/2143"><i>CLA</i> S1.1835</canonical>
+      <canonical href="https://www.trismegistos.org/text/68701">TM 68701</canonical>
+   </refs>
+   <notes categories="#or-ire #sc-ire">
    </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

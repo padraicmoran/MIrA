@@ -13,7 +13,7 @@
       <link type="iiif" index="9">https://digi.vatlib.it/iiif/MSS_Vat.lat.5755/manifest.json</link>
    </identifier>
    <description>
-      <type>Binding frag.</type>
+      <type>Binding fragment</type>
       <folios />
       <page_h />
       <page_w />
@@ -27,15 +27,17 @@
       <origin><place id="ireland">Ireland</place></origin>
       <provenance><place id="bobbio">Bobbio</place></provenance>
    </history>
-   <xrefs>
-      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/2039">S.1734</xref>
-      <link type="trismegistos" href="https://www.trismegistos.org/text/67874">TM 67874</link>
-      <xref type="thesaurus">2.39–41</xref>
-      <xref type="bronner">p. 8</xref>
-      <link type="foundations" href="http://foundationsirishculture.ie/record/?id=68" />
-   </xrefs>
-   <notes>
-      <categories>or-ire;sc-ire;vern</categories>
-      <project_notes>Latin &amp; Old Irish glosses (Vat.). Reused for binding at Bobbio. Heavily glossed.</project_notes>
+   <refs>
+      <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/2039"><i>CLA</i> S.1734</canonical>
+      <canonical href="https://www.trismegistos.org/text/67874">TM 67874</canonical>
+      <bibl corresp="#thesaurus" href="https://archive.org/details/thesauruspalaeo02stok/page/39"><i>Thesaurus</i> II 39–41</bibl>
+      <bibl corresp="#bronner">Bronner 2013: 8</bibl>
+      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=68">Foundations of Irish Culture</link>
+   </refs>
+   <notes categories="#or-ire #sc-ire #vern">
+      Latin &amp; Old Irish glosses (Vat.). Reused for binding at Bobbio. Heavily glossed.
    </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

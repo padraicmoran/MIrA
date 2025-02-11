@@ -17,10 +17,12 @@
       <term_ante>825</term_ante>
       <origin><place id="paris">Paris</place> (?) (circle of <person id="dungal">Dúngal</person>)</origin>
    </history>
-   <xrefs>
-   </xrefs>
-   <notes>
-      <categories />
-      <project_notes>Bischoff: same hand as Milan, C 127 inf. (ff 116–40).</project_notes>
-      </notes>
+   <refs>
+   </refs>
+   <notes categories="other">
+      Bischoff: same hand as Milan, C 127 inf. (ff 116–40).
+   </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

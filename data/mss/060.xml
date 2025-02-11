@@ -17,19 +17,21 @@
    </description>
    <history>
       <date_desc>IX 1/2</date_desc>
-      <term_post>800</term_post>
+      <term_post>801</term_post>
       <term_ante>850</term_ante>
-      <origin>NE <place id="france">France</place> (<place id="soissons">Soissons</place>?)? <place id="ireland">Ireland</place>?</origin>
+      <origin>NE <place id="france">France</place>? (<place id="soissons">Soissons</place>?) <place id="ireland">Ireland</place>?</origin>
       <provenance><place id="reichenau">Reichenau</place></provenance>
    </history>
-   <xrefs>
-      <xref type="bischoff_kat">1676</xref>
-      <xref type="thesaurus">2.10–30, 283</xref>
-      <xref type="bronner">pp 19–20</xref>
-   <xref type="alexander">69</xref></xrefs>
-   <notes>
-      <categories>or-ire;sc-ire;vern</categories>
-      <project_notes>Old Irish glosses. Rewritten over four older manuscript fragments: 
-      MIrA <ms id="61">61</ms>, <ms id="62">62</ms>, <ms id="63">63</ms>, <ms id="59">59</ms>, <ms id="64">64</ms>.</project_notes>
+   <refs>
+      <canonical corresp="#bkat">Bischoff, <i>Katalog</i>, no. 1676</canonical>
+      <bibl corresp="#thesaurus" href="https://archive.org/details/thesauruspalaeo02stok/page/10"><i>Thesaurus</i> II 10–30, 283</bibl>
+      <bibl corresp="#bronner">Bronner 2013: 19–20</bibl>
+   <canonical corresp="#alexander">Alexander, no. 69</canonical></refs>
+   <notes categories="#or-ire #sc-ire #vern">
+      Old Irish glosses. Rewritten over four older manuscript fragments: 
+      MIrA <ms id="61">61</ms>, <ms id="62">62</ms>, <ms id="63">63</ms>, <ms id="59">59</ms>, <ms id="64">64</ms>.
    </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

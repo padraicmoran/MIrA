@@ -17,13 +17,15 @@
       <term_ante>800</term_ante>
       <origin><place id="ireland">Ireland</place> or Irish centre</origin>
    </history>
-   <xrefs>
-      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/1870">9.1368</xref>
-      <xref type="ocorrain">595</xref>
-      <link type="trismegistos" href="https://www.trismegistos.org/text/67507">TM 67507</link>
-   </xrefs>
-   <notes>
-      <categories>or-ire;sc-ire</categories>
-      <project_notes>Rewritten prob. near <place id="trier">Trier</place>, 11th cent. Many interlinear glosses in minuscule.</project_notes>
+   <refs>
+      <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/1870"><i>CLA</i> 9.1368</canonical>
+      <canonical corresp="#ocorrain">Ó Corráin, <i>Clavis</i>, no. 595</canonical>
+      <canonical href="https://www.trismegistos.org/text/67507">TM 67507</canonical>
+   </refs>
+   <notes categories="#or-ire #sc-ire">
+      Rewritten prob. near <place id="trier">Trier</place>, 11th century Many interlinear glosses in minuscule.
    </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

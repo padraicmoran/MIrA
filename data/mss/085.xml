@@ -12,7 +12,7 @@
       <page_h>250</page_h>
       <page_w>180</page_w>
       <contents>Liber Glossarum (ff 3r–221v), etc.</contents>
-      <script />
+      <script>Irish minuscule</script>
    </description>
    <history>
       <date_desc>IX²</date_desc>
@@ -21,13 +21,15 @@
       <origin><place id="reichenau">Reichenau</place> or S <place id="germany">Germany</place></origin>
       <provenance><place id="regensburg">Regensburg</place></provenance>
    </history>
-   <xrefs>
-      <xref type="bischoff_ssb">1.243–244</xref>
-      <xref type="bischoff_kat">3193</xref>
-      <xref type="bronner">32–33</xref>
-   </xrefs>
-   <notes>
-      <categories>sc-ire;vern</categories>
-      <project_notes>Old Irish glosses. Bischoff: Irish scribe (same as in <ms id="83">Clm 14423</ms> and <ms id="87">Clm 14459</ms>).</project_notes>
+   <refs>
+      <bibl corresp="#bssb">Bischoff, <i>SSB</i>, 1.243–244</bibl>
+      <canonical corresp="#bkat">Bischoff, <i>Katalog</i>, no. 3193</canonical>
+      <bibl corresp="#bronner">Bronner 2013: 32–33</bibl>
+   </refs>
+   <notes categories="#sc-ire #vern">
+      Old Irish glosses. Bischoff: Irish scribe (same as in <ms id="83">Clm 14423</ms> and <ms id="87">Clm 14459</ms>).
       </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

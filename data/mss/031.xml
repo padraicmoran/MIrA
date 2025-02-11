@@ -20,13 +20,15 @@
       <term_ante>850</term_ante>
       <origin><place id="reims">Reims</place></origin>
    </history>
-   <xrefs>
-      <xref type="bischoff_kat">4676</xref>
-      <xref type="thesaurus">2.360–363</xref>
-      <xref type="bronner">p. 42</xref>
-   </xrefs>
-   <notes>
-   	<categories>vern</categories>
-      <project_notes>Old Irish glosses. </project_notes>
+   <refs>
+      <canonical corresp="#bkat">Bischoff, <i>Katalog</i>, no. 4676</canonical>
+      <bibl corresp="#thesaurus" href="https://archive.org/details/thesauruspalaeo02stok/page/360"><i>Thesaurus</i> II 360–363</bibl>
+      <bibl corresp="#bronner">Bronner 2013: 42</bibl>
+   </refs>
+   <notes categories="#vern">
+      Old Irish glosses. 
    </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

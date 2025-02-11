@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <manuscript id="142">
    <identifier libraryID="naples">
-      <shelfmark>Lat. 2 (biff 57 &amp; 70; 58 &amp; 69; 59 &amp; 68; 61 &amp; 66) [palimpsest new]</shelfmark>
+      <shelfmark>Lat. 2 (ff 42*–75) [palimpsest new]</shelfmark>
       <shelfmark_indexer>Lat. 2 (057)</shelfmark_indexer>
    </identifier>
    <description>
@@ -18,15 +18,17 @@
       <term_ante>800</term_ante>
       <origin><place id="bobbio">Bobbio</place></origin>
    </history>
-   <xrefs>
-      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/731">3.394</xref>
-      <link type="trismegistos" href="https://www.trismegistos.org/text/66497">TM 66497</link>
-      <xref type="thesaurus">2.42</xref>
-      <xref type="bronner">p. 36</xref>
-      <link type="foundations" href="http://foundationsirishculture.ie/record/?id=22" />
-   </xrefs>
-   <notes>
-      <categories>sc-ire;vern</categories>
-      <project_notes>Old Irish glosses. </project_notes>
+   <refs>
+      <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/731"><i>CLA</i> 3.394</canonical>
+      <canonical href="https://www.trismegistos.org/text/66497">TM 66497</canonical>
+      <bibl corresp="#thesaurus" href="https://archive.org/details/thesauruspalaeo02stok/page/42"><i>Thesaurus</i> II 42</bibl>
+      <bibl corresp="#bronner">Bronner 2013: 36</bibl>
+      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=22">Foundations of Irish Culture</link>
+   </refs>
+   <notes categories="#sc-ire #vern">
+      Old Irish glosses. 
       </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

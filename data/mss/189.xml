@@ -15,19 +15,22 @@
       <script>Irish majuscule and Irish minuscule</script>
    </description>
    <history>
-      <date_desc>VIII–IX</date_desc>
+      <date_desc>VIII–IX (Lowe); prob. early-9th cent. (Duft)</date_desc>
       <term_post>780</term_post>
       <term_ante>820</term_ante>
       <origin><place id="ireland">Ireland</place></origin>
       <provenance><place id="st-gall">St Gall</place></provenance>
    </history>
-   <xrefs>
-      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/1445">7.979</xref>
-      <link type="trismegistos" href="https://www.trismegistos.org/text/67124">TM 67124</link>
-      <link type="foundations" href="http://foundationsirishculture.ie/record/?id=45">[external link, with image]</link>
-   </xrefs>
-   <notes>
-      <categories>or-ire;sc-ire</categories>
-      <project_notes />
+   <refs>
+      <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/1445"><i>CLA</i> 7.979</canonical>
+      <canonical href="https://www.trismegistos.org/text/67124">TM 67124</canonical>
+      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=45">Foundations of Irish Culture</link>
+      <bibl id="duft_meyer_1954">Duft &amp; Meyer 1954: 74–75</bibl>
+   </refs>
+   <notes categories="#or-ire #sc-ire">
+      Original location unrecorded. Fragment of one or more Masses of the Christmas Cycle.
    </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

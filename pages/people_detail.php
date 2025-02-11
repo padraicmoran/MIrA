@@ -33,7 +33,7 @@ if (file_exists('data/people.xml')) {
 		}
 
 		// find related manuscripts
-		$results = $xml_mss->xpath('//person[@id="' . $id . '"]/ancestor::manuscript');
+		$results = $xml_mss->xpath('manuscript[.//person[@id="' . $id . '"]]');
 
 		// sorting
 		// cannot sort a SimpleXML object, so transfer top-level objects into an array instead

@@ -21,12 +21,14 @@
       <origin><place id="soissons">Soissons</place></origin>
       <provenance />
    </history>
-   <xrefs>
-      <xref type="bischoff_ssb">1.234, 2.242</xref>
-      <xref type="bischoff_kat">3135</xref>
-   </xrefs>
-   <notes>
-      <categories>orCon;scribe</categories>
-      <project_notes>Circle of <person id="eriugena">Eriugena</person>.</project_notes>
+   <refs>
+      <bibl corresp="#bssb">Bischoff, <i>SSB</i>, 1.234, 2.242</bibl>
+      <canonical corresp="#bkat">Bischoff, <i>Katalog</i>, no. 3135</canonical>
+   </refs>
+   <notes categories="#orCon #scribe">
+      Circle of <person id="eriugena">Eriugena</person>.
       </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

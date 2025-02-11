@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <manuscript id="181">
    <identifier libraryID="schaffhausen">
-      <shelfmark>Min. 45 (ff 2–7, 10–15, 18–23, 34–41, 46, 47, 52, 54–58, 63–66, 70, 75) [palimpsest]</shelfmark>
+      <shelfmark>Min. 45 (ff 2–7, 10–15, 18–23, 34–41, 46, 47, 52, 54–58, 63–66, 70, 75) [palimpsest old]</shelfmark>
       <link type="images">http://www.e-codices.unifr.ch/en/sbs/min0045</link>
       <link type="iiif">http://www.e-codices.unifr.ch/metadata/iiif/sbs-min0045/manifest.json</link>
    </identifier>
@@ -11,7 +11,7 @@
       <page_h>245</page_h>
       <page_w>170</page_w>
       <contents><text id="gospels">Gospels</text>  (fragm.)</contents>
-      <script>Insular majuscule</script>
+      <script>Irish majuscule</script>
    </description>
    <history>
       <date_desc>VIII</date_desc>
@@ -19,13 +19,15 @@
       <term_ante>800</term_ante>
       <origin>Irish centre</origin>
    </history>
-   <xrefs>
-      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/1271">7.1000</xref>
-      <link type="trismegistos" href="https://www.trismegistos.org/text/67145">TM 67145</link>
-      <link type="foundations" href="http://foundationsirishculture.ie/record/?id=54">[external link, with image]</link>
-   </xrefs>
-   <notes>
-      <categories>sc-ire</categories>
-      <project_notes><i>CLA</i>: "most likely by an Irish hand".</project_notes>
+   <refs>
+      <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/1271"><i>CLA</i> 7.1000</canonical>
+      <canonical href="https://www.trismegistos.org/text/67145">TM 67145</canonical>
+      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=54">Foundations of Irish Culture</link>
+   </refs>
+   <notes categories="#sc-ire">
+      From <i>CLA</i>: "most likely by an Irish hand". "Verses 21 and 27 f. of Lc 23 are clearly decipherable on fol. 18." "Used for rewriting in the late eleventh century, apparently in the monastery of Allerheiligen at Schaffhausen." 
    </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

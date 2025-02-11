@@ -20,12 +20,14 @@
       <term_ante>815</term_ante>
       <origin><place id="augsburg">Augsburg</place> area</origin>
    </history>
-   <xrefs>
-      <xref type="bischoff_ssb">2.203</xref>
-      <xref type="bischoff_kat">4216</xref>
-   </xrefs>
-   <notes>
-      <categories>ex-ins</categories>
-      <project_notes>Insular exemplar. (Same scriptorium as <ms id="270">Augburg, Bischöfliche Ordinariatsbibliothek, 2</ms>.)</project_notes>
+   <refs>
+      <bibl corresp="#bssb">Bischoff, <i>SSB</i>, 2.203</bibl>
+      <canonical corresp="#bkat">Bischoff, <i>Katalog</i>, no. 4216</canonical>
+   </refs>
+   <notes categories="#ex-ins">
+      Insular exemplar. (Same scriptorium as <ms id="270">Augburg, Bischöfliche Ordinariatsbibliothek, 2</ms>.)
       </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

@@ -20,11 +20,13 @@
       <term_ante>900</term_ante>
       <origin><place id="ireland">Ireland</place></origin>
    </history>
-   <xrefs>
-      <xref type="cla">8.1085</xref>
-   </xrefs>
-   <notes>
-      <categories>or-ire;sc-ire</categories>
-      <project_notes>One of five palimpsested manuscripts, probably originating in <place id="ireland">Ireland</place>, combined and <ms id="60">rewritten with Bede</ms>. See foliation notes for <i>CLA</i> 8.1085 in the <a href="http://foundationsirishculture.ie/record/?id=61">Foundations of Irish Culture</a> catalogue. </project_notes>
+   <refs>
+      <canonical corresp="#cla" ><i>CLA</i> 8.1085</canonical>
+   </refs>
+   <notes categories="#or-ire #sc-ire">
+      One of five palimpsested manuscripts, probably originating in <place id="ireland">Ireland</place>, combined and rewritten with Bede (<ms id="60">MIrA 60</ms>). See foliation notes for <i>CLA</i> 8.1085 in the <a href="http://foundationsirishculture.ie/record/?id=61">Foundations of Irish Culture</a> catalogue. 
       </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

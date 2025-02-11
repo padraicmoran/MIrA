@@ -27,7 +27,6 @@ elseif ($searchLib != '') {
 	print '<h2>Browse by library: ' .  $libraries[$searchLib]['city'] . ', ' .  $libraries[$searchLib]['name'] . '</h2>';
 	$results = searchMSS($xml_mss, 'library', $searchLib);
 }
-
 else {
 	// show all entries
 	print '<h2>All manuscripts</h2>';
@@ -42,7 +41,7 @@ if (isset($results)) {
 	// check for matches
 	$matches = count($results);
 	if ($matches == 0) {
-		print '<p class="pb-5">No matches found.</p>';
+		print '<p class="mt-3 pb-5">No matches found.</p>';
 	}
 	else {
 		

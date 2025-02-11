@@ -19,16 +19,18 @@
       <term_ante>800</term_ante>
       <origin><place id="bobbio">Bobbio</place></origin>
    </history>
-   <xrefs>
-      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/673">3.337</xref>
-      <link type="trismegistos" href="https://www.trismegistos.org/text/66437">TM 66437</link>
-      <xref type="bronner">pp 29–30</xref>
-      <link type="foundations" href="http://foundationsirishculture.ie/record/?id=14">[external link, with image]</link>
-   </xrefs>
-   <notes>
-      <categories>sc-ire</categories>
-      <project_notes>Composite manuscript in four parts (77 folios total): a) <ms id="126" >1–46, 58–77</ms>; 
+   <refs>
+      <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/673"><i>CLA</i> 3.337</canonical>
+      <canonical href="https://www.trismegistos.org/text/66437">TM 66437</canonical>
+      <bibl corresp="#bronner">Bronner 2013: 29–30</bibl>
+      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=14">Foundations of Irish Culture</link>
+   </refs>
+   <notes categories="#sc-ire">
+      Composite manuscript in four parts (77 folios total): a) <ms id="126">1–46, 58–77</ms>; 
          b) 47–49, 55–57, 58; c) <ms id="128">50, 52–54</ms>; d) <ms id="129">51</ms>.
-         This part (b) has several hands, Continental influence.</project_notes>
+         This part (b) has several hands, Continental influence.
    </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

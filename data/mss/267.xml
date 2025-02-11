@@ -19,12 +19,13 @@
       <term_ante>900</term_ante>
       <origin>NE <place id="france">France</place> (Arras?)</origin>
    </history>
-   <xrefs>
-      <xref type="bischoff_kat">4853</xref>
-      <!-- xref type="trismegistos" -->
-   </xrefs>
-   <notes>
-      <categories>scribe</categories>
-      <project_notes>Possibly hand of <person id="martin">Martin</person> (Contreni 1972; rejected by Bischoff, 'Irish scribes', n. 52***).</project_notes>
+   <refs>
+      <canonical corresp="#bkat">Bischoff, <i>Katalog</i>, no. 4853</canonical>
+   </refs>
+   <notes categories="#scribe">
+      Possibly hand of <person id="martin">Martin</person> (Contreni 1972; rejected by Bischoff, 'Irish scribes', n. 52***).
    </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

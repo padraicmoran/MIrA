@@ -13,18 +13,19 @@
    </description>
    <history>
       <date_desc>IX 1/4</date_desc>
-      <term_post>800</term_post>
+      <term_post>801</term_post>
       <term_ante>825</term_ante>
       <origin><place id="bobbio">Bobbio</place> (<place id="ireland">Ireland</place>?)</origin>
    </history>
-   <xrefs>
-      <xref type="bischoff_kat">3570</xref>
-      <xref type="thesaurus">2.41</xref>
-      <xref type="bronner">p. 35</xref>
-   </xrefs>
-   <notes>
-   	<categories>or-ire;sc-ire;vern</categories>
-      <project_notes>Old Irish glosses. </project_notes>
+   <refs>
+      <canonical corresp="#bkat">Bischoff, <i>Katalog</i>, no. 3570</canonical>
+      <bibl corresp="#thesaurus" href="https://archive.org/details/thesauruspalaeo02stok/page/41"><i>Thesaurus</i> II 41</bibl>
+      <bibl corresp="#bronner">Bronner 2013: 35</bibl>
+   </refs>
+   <notes categories="#or-ire #sc-ire #vern">
+      Old Irish glosses. 
    </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>
-

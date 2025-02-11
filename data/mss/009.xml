@@ -2,7 +2,7 @@
 <manuscript id="9">
    <identifier libraryID="colmar">
       <shelfmark>217 (444) (flyleaf)</shelfmark>
-      <link type="images">https://bvmm.irht.cnrs.fr/consult/consult.php?reproductionId=1958</link>
+      <link type="iiif" index="2">https://api.irht.cnrs.fr/ark:/63955/fen5rjv5zh6z/manifest.json</link>
    </identifier>
    <description>
       <type>Flyleaf</type>
@@ -19,13 +19,15 @@
       <origin><place id="ireland">Ireland</place></origin>
       <provenance>Murbach</provenance>
    </history>
-   <xrefs>
-      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/1165">6.757</xref>
-      <link type="trismegistos" href="https://www.trismegistos.org/text/66927">TM 66927</link>
-      <link type="foundations" href="http://foundationsirishculture.ie/record/?id=39">[external link, with image]</link>
-   </xrefs>
-   <notes>
-   	<categories>or-ire;sc-ire</categories>
-      <project_notes />
+   <refs>
+      <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/1165"><i>CLA</i> 6.757</canonical>
+      <canonical href="https://www.trismegistos.org/text/66927">TM 66927</canonical>
+      <link href="https://bvmm.irht.cnrs.fr/consult/consult.php?reproductionId=1958">Images</link>
+      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=39">Foundations of Irish Culture</link>
+   </refs>
+   <notes categories="#or-ire #sc-ire">
    </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

@@ -8,26 +8,31 @@
    </identifier>
    <description>
       <type />
-      <folios />
-      <page_h />
-      <page_w />
-      <contents><person id="augustine">Augustine</person>, Opuscula</contents>
-      <script>Uncial</script>
+      <folios>1</folios>
+      <page_h>243</page_h>
+      <page_w>178</page_w>
+      <contents>Book-list</contents>
+      <script>Irish majuscule</script>
    </description>
    <history>
-      <date_desc>V ex</date_desc>
-      <term_post>486</term_post>
-      <term_ante>500</term_ante>
+      <date_desc>IX</date_desc>
+      <term_post>801</term_post>
+      <term_ante>900</term_ante>
       <origin>prob. <place id="italy">Italy</place></origin>
-      <provenance>prob. Lorsch</provenance>
+      <provenance><place id="lorsch">Lorsch</place></provenance>
    </history>
-   <xrefs>
-      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/96">1.84</xref>
-      <link type="trismegistos" href="https://www.trismegistos.org/text/66180">TM 66180</link>
-      <link type="foundations" href="http://foundationsirishculture.ie/record/?id=4">[external link, with image]</link>
-   </xrefs>
-   <notes>
-      <categories>sc-ire</categories>
-      <project_notes>Book list (Irish majuscule, s IX), f. 1; some letters on f. 147v.</project_notes>
-      </notes>
+   <refs>
+      <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/96"><i>CLA</i> 1.84</canonical>
+      <canonical href="https://www.trismegistos.org/text/66180">TM 66180</canonical>
+      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=4">Foundations of Irish Culture</link>
+   </refs>
+   <notes categories="#sc-ire">
+      Book-list added to outer page (originally blank) of manuscript containing shorter works of <person id="augustine">Augustine</person>,
+      written in uncial script, probably in Italy, in the 6th or 7th century. Came to Lorsch by 9th century.
+      Some letters in Irish script also in left margin of f. 147v.
+   </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+      <change who="Pádraic Moran" when="[next release]">Revised</change>
+   </revisionDesc>
 </manuscript>

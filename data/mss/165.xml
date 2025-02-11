@@ -27,11 +27,13 @@
       <term_ante>875</term_ante>
       <origin>W <place id="france">France</place></origin>
    </history>
-   <xrefs>
-      <xref type="bischoff_kat">2196</xref>
-   </xrefs>
-   <notes>
-      <categories>sc-ire</categories>
-      <project_notes>Bischoff: traces of an Irishman, Leiden 44v–48v.</project_notes>
+   <refs>
+      <canonical corresp="#bkat">Bischoff, <i>Katalog</i>, no. 2196</canonical>
+   </refs>
+   <notes categories="#misc">
+      Bischoff: traces of an Irishman, Leiden 44v–48v.
       </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

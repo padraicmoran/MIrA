@@ -19,12 +19,14 @@
       <term_ante>859</term_ante>
       <origin><place id="salzburg">Salzburg</place></origin>
    </history>
-   <xrefs>
-      <xref type="bischoff_ssb">2.159–160 (no. 169)</xref>
-      <xref type="bischoff_kat">7196</xref>
-   </xrefs>
-   <notes>
-      <categories>ex-ire</categories>
-      <project_notes>See note to <ms id="283">Vienna, Lat. 2195</ms>.</project_notes>
+   <refs>
+      <bibl corresp="#bssb">Bischoff, <i>SSB</i>, 2.159–160 (no. 169)</bibl>
+      <canonical corresp="#bkat">Bischoff, <i>Katalog</i>, no. 7196</canonical>
+   </refs>
+   <notes categories="#ex-ire">
+      See note to <ms id="283">Vienna, Lat. 2195</ms>.
       </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

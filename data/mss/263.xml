@@ -18,12 +18,14 @@
       <term_ante>850</term_ante>
       <origin><place id="france">France</place>? N <place id="italy">Italy</place>?</origin>
    </history>
-   <xrefs>
-      <xref type="bischoff_kat">2116</xref>
-      <!-- xref type="trismegistos" -->
-   </xrefs>
-   <notes>
-      <categories>scribe</categories>
-      <project_notes>Hand of <person id="martin">Martin</person>.</project_notes>
+   <refs>
+      <canonical corresp="#bkat">Bischoff, <i>Katalog</i>, no. 2116</canonical>
+      
+   </refs>
+   <notes categories="#scribe">
+      Hand of <person id="martin">Martin</person>.
       </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

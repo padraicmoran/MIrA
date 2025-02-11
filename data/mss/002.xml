@@ -18,13 +18,15 @@
       <term_ante>800</term_ante>
       <origin><place id="salzburg">Salzburg</place></origin>
    </history>
-   <xrefs>
-      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/194">10.1476</xref>
-      <xref type="bischoff_ssb">2.86–87 (no. 10)</xref>
-      <link type="trismegistos" href="https://www.trismegistos.org/text/67662">TM 67662</link>
-   </xrefs>
-   <notes>
-   	<categories>ex-ire</categories>
-      <project_notes><i>CLA</i>: Irish exemplar.</project_notes>
+   <refs>
+      <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/194"><i>CLA</i> 10.1476</canonical>
+      <canonical href="https://www.trismegistos.org/text/67662">TM 67662</canonical>
+      <bibl corresp="#bssb">Bischoff, <i>SSB</i>, 2.86–87 (no. 10)</bibl>
+   </refs>
+   <notes categories="#ex-ire">
+      <i>CLA</i>: Irish exemplar.
    </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

@@ -3,15 +3,26 @@
    <identifier libraryID="vatican">
       <shelfmark>Lat. 491 (ff 1–33)</shelfmark>
       <shelfmark_indexer>Lat. 0491 (001)</shelfmark_indexer>
-      <link type="images">http://digi.vatlib.it/view/MSS_Vat.lat.491</link>
       <link type="iiif" index="7">https://digi.vatlib.it/iiif/MSS_Vat.lat.491/manifest.json</link>
    </identifier>
    <description>
       <type />
-      <folios />
-      <page_h />
-      <page_w />
-      <contents><person id="augustine">Augustine</person>, <i>In Epistulas Pauli ad Romanos et ad Galatas</i></contents>
+      <folios>34</folios>
+      <page_h>265</page_h>
+      <page_w>197</page_w>
+      <contents>
+         <summary>Augustine, <i>In Epistulas Pauli ad Romanos et ad Galatas</i></summary>
+         <msItem>
+            <locus>1r–13v</locus>
+            <author id="augustine">Augustine</author>
+            <title>Expositio quarumdam propositionum ex epistula ad Romanos</title>
+         </msItem>
+         <msItem>
+            <locus>14r–33v</locus>
+            <author id="augustine">Augustine</author>
+            <title>Expositio epistulae ad Galatas</title>
+         </msItem>      
+      </contents>
       <script>Insular minuscule</script>
    </description>
    <history>
@@ -20,13 +31,21 @@
       <term_ante>800</term_ante>
       <origin>Insular centre, N <place id="italy">Italy</place></origin>
    </history>
-   <xrefs>
-      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/7">1.5a</xref>
-      <link type="trismegistos" href="https://www.trismegistos.org/text/66103">TM 66103</link>
-      <link type="foundations" href="http://foundationsirishculture.ie/record/?id=1" />
-   </xrefs>
-   <notes>
-      <categories>sc-ins</categories>
-      <project_notes />
+   <refs>
+      <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/7"><i>CLA</i> 1.5a</canonical>
+      <canonical corresp="#bkat">Bischoff, <i>Katalog</i>, no. 1212a</canonical>
+      <canonical href="https://www.trismegistos.org/text/66103">TM 66103</canonical>
+      <link href="http://digi.vatlib.it/view/MSS_Vat.lat.491">Images</link>
+      <link href="https://opac.vatlib.it/mss/detail/Vat.lat.491">Bibliography on library website</link>
+      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=1">Foundations of Irish Culture</link>
+      <bibl corresp="#vattasso_1902">Vattasso &amp; Franchi De' Cavalieri 1902: 371–372</bibl>
+   </refs>
+   <notes categories="#sc-ins">
+      34 folios (incl. "18" and "18a", hence only 33 counted in Lowe).
+      From the same centre as <ms id="112">MIrA 112</ms> (Lowe). See further there.
    </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+      <change who="Pádraic Moran" when="[next release]">Revised</change>
+   </revisionDesc>
 </manuscript>

@@ -265,7 +265,7 @@
    <library id="turin_reale">
       <country>Italy</country>
       <city>Turin</city>
-      <library>Biblioteca Reale</library>
+      <name>Biblioteca Reale</name>
       <coords>45.071672027177975, 7.68609729901879</coords>
    </library>
 

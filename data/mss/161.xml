@@ -20,11 +20,13 @@
       <term_ante>900</term_ante>
       <origin><place id="reims">Reims</place> area</origin>
    </history>
-   <xrefs>
-      <xref type="bischoff_kat">2146</xref>
-   </xrefs>
-   <notes>
-      <categories>scribe</categories>
-      <project_notes>Bischoff: hands of <person id="eriugena">Eriugena</person> and <person id="i2">i2</person>.</project_notes>
+   <refs>
+      <canonical corresp="#bkat">Bischoff, <i>Katalog</i>, no. 2146</canonical>
+   </refs>
+   <notes categories="#scribe">
+      Bischoff: hands of <person id="eriugena">Eriugena</person> and <person id="i2">i2</person>.
    </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

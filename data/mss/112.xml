@@ -6,15 +6,33 @@
    <identifier unit="2" libraryID="vatican">
       <shelfmark>Lat. 491 (ff 34–51)</shelfmark>
       <shelfmark_indexer>Lat. 0491 (034)</shelfmark_indexer>
-      <link type="images">http://digi.vatlib.it/view/MSS_Vat.lat.491/0077</link>
       <link type="iiif" index="75">https://digi.vatlib.it/iiif/MSS_Vat.lat.491/manifest.json</link>
    </identifier>
    <description>
       <type />
-      <folios />
-      <page_h />
-      <page_w />
-      <contents>Pseudo-Augustine, <i>Hypomnesticon</i>; Ambrosiaster, <i>Commentarii in Epistulas Pauli</i></contents>
+      <folios>93</folios>
+      <page_h>265</page_h>
+      <page_w>195</page_w>
+      <cols>1</cols>
+      <quires>Gatherings of eights</quires>
+      <contents>
+         <summary>Pseudo-Augustine, <i>Hypomnesticon</i>; Ambrosiaster; Caesarius of Arles, <i>Opusculum de gratia</i></summary>
+         <msItem>
+            <locus>1–74 (Flor.)</locus>
+            <author>Ambrosiaster</author>
+            <title>In Epistulas Pauli</title>
+         </msItem>
+         <msItem>
+            <locus>34r–50v (Vat.)</locus>
+            <author>Pseudo-Augustine</author>
+            <title>Hypomnesticon contra Pelagianos et Caelestianos haereticos</title>
+         </msItem>
+         <msItem>
+            <locus>50v–51v (Vat.)</locus>
+            <author>Caesarius of Arles</author>
+            <title>Quid domnus Caesarius senserit contra eos qui aiunt quare aliis det Deus gratiam aliis non det</title>
+         </msItem>
+      </contents>
       <script>Irish minuscule</script>
    </description>
    <history>
@@ -23,16 +41,30 @@
       <term_ante>800</term_ante>
       <origin>Insular centre, N <place id="italy">Italy</place></origin>
    </history>
-   <xrefs>
-      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/8">1.5b</xref>
-      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/135">3.**5b</xref>
-      <xref type="bischoff_kat">1212a</xref>
-      <link type="trismegistos" href="https://www.trismegistos.org/text/754918">TM 754918</link>
-      <link type="trismegistos" href="https://www.trismegistos.org/text/66103">TM 66103</link>
-      <link type="foundations" href="http://foundationsirishculture.ie/record/?id=2" />
-   </xrefs>
-   <notes>
-      <categories>sc-ire</categories>
-      <project_notes />
+   <refs>
+      <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/8"><i>CLA</i> 1.5b</canonical>
+      <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/135"><i>CLA</i> 3.**5b</canonical>
+      <canonical corresp="#bkat">Bischoff, <i>Katalog</i>, no. 1212a</canonical>
+      <canonical href="https://www.trismegistos.org/text/754918">TM 754918</canonical>
+      <canonical href="https://www.trismegistos.org/text/66103">TM 66103</canonical>
+      <link href="http://digi.vatlib.it/view/MSS_Vat.lat.491">Images (Vat. Lat. 491)</link>
+      <link href="https://opac.vatlib.it/mss/detail/Vat.lat.491">Bibliography on library website</link>
+      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=2">Foundations of Irish Culture</link>
+      <bibl corresp="#vattasso_1902">Vattasso &amp; Franchi De' Cavalieri 1902: 371–372</bibl>
+      <bibl corresp="#chisholm_1980">Chisholm 1980: 5–6</bibl>
+   </refs>
+   <notes categories="#sc-ire">
+      <p>75 folios in Florence, 18 in Vatican.</p>
+      <p>From the same centre as <ms id="224">MIrA 224</ms> (Lowe).
+      The two parts were united early, to judge from continuous quire signatures. 
+      Bischoff detected 9th-century Nonantola script in titles on Vat. 14r and Flor. 1r.
+      </p>
+      <p>The Florence section (Ambrosiaster) was apparently already dismembered in the 9th century (Lowe).
+      An eight-leaf quire is now missing between folios 41 and 42 (Chisholm).
+      </p>
    </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+      <change who="Pádraic Moran" when="[next release]">Revised</change>
+   </revisionDesc>
 </manuscript>

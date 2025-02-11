@@ -4,7 +4,7 @@
       <shelfmark>561 (1025)</shelfmark>
    </identifier>
    <identifier unit="2" libraryID="vatican">
-      <shelfmark>Reg. lat. 596 (f. 9)</shelfmark>
+      <shelfmark>Reg. Lat. 596 (f. 9)</shelfmark>
       <link type="images">http://digi.vatlib.it/view/MSS_Reg.lat.596</link>
       <link type="iiif" index="25">https://digi.vatlib.it/iiif/MSS_Reg.lat.596/manifest.json</link>
    </identifier>
@@ -22,11 +22,13 @@
       <term_ante>875</term_ante>
       <origin>Circle of <person id="eriugena">Eriugena</person> (<place id="soissons">Soissons</place>)</origin>
    </history>
-   <xrefs>
-      <xref type="bischoff_kat">3936</xref>
-   </xrefs>
-   <notes>
-   	<categories>scribe;text</categories>
-      <project_notes>Bischoff: corr. by hand <person id="i2">i2</person>, 67v.</project_notes>
+   <refs>
+      <canonical corresp="#bkat">Bischoff, <i>Katalog</i>, no. 3936</canonical>
+   </refs>
+   <notes categories="#scribe #text">
+      Bischoff: corr. by hand <person id="i2">i2</person>, 67v.
    </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

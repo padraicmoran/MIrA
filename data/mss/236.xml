@@ -19,12 +19,14 @@
       <term_ante>900</term_ante>
       <origin><place id="bobbio">Bobbio</place></origin>
    </history>
-   <xrefs>
-      <xref type="bischoff_kat">2612</xref>
-      <!-- xref type="trismegistos" -->
-   </xrefs>
-   <notes>
-      <categories>ex-ire</categories>
-      <project_notes>Bischoff: abbreviations indicative of Irish source?</project_notes>
+   <refs>
+      <canonical corresp="#bkat">Bischoff, <i>Katalog</i>, no. 2612</canonical>
+      
+   </refs>
+   <notes categories="#ex-ire">
+      Bischoff: abbreviations indicative of Irish source?
       </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

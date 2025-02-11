@@ -1,74 +1,85 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mira_2">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Manuscripts with Irish Associations: catalogue item 2</title>
-      </titleStmt>
-      <publicationStmt>
-        <publisher>Manuscripts with Irish Associations</publisher>
-        <authority>Pádraic Moran</authority>
-        <availability status="free">
-          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
-            <p>Creative Commons BY-NC-SA 4.0</p>
-          </licence>
-        </availability>
-      </publicationStmt>
-      <notesStmt>
-        <note><title>CLA</title>: Irish exemplar.</note>
-      </notesStmt>
-      <sourceDesc>
-        <msDesc>
-          <msIdentifier>
-            <settlement>Vienna</settlement>
-            <repository key="vienna"></repository>
-            <idno>Lat. 366</idno>
-            <msName></msName>
-          </msIdentifier>
-          <physDesc>
-            <objectDesc>
-              <supportDesc>
-                <extent>
-                  <measure type="folios"/>
-                  <dimensions unit="cm">
-                    <height/>
-                    <width/>
-                  </dimensions>
-                </extent>
-              </supportDesc>
-            </objectDesc>
-            <handDesc>
-              <p>Caroline minuscule</p>
-            </handDesc>
-          </physDesc>
-          <msContents>
-            <summary>Orosius, <title>Historia Adversus Paganos</title></summary>
-          </msContents>
-          <history>
-            <origin>
-              <placeName key="salzburg">Salzburg</placeName>
-              <origDate notBefore="786" notAfter="800">VIII ex</origDate>
-            </origin>
-            <provenance/>
-          </history>
-          <additional ana="#ex-ire">
-            <listBibl>
-            	<bibl><ref type="images" target="">Link to images</ref></bibl>
-					<bibl corresp="#cla">10.1476</bibl>
-					<bibl corresp="#bischoff_ssb">2.86–87 (no. 10)</bibl>
-					<bibl><ref type="trismegistos" target="https://www.trismegistos.org/text/67662">TM 67662</ref></bibl>
-				</listBibl>
-          </additional>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <revisionDesc>
-      <change who="P&#xE1;draic Moran" when="2021-05-01">Created</change>
-    </revisionDesc>
-  </teiHeader>
-  <text>
-    <body>
-      <p/>
-    </body>
-  </text>
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+      xml:id="mira_2">
+   <teiHeader>
+      <fileDesc><!--title of the resource-->
+         <titleStmt>
+            <title>Manuscripts with Irish Associations: catalogue item 2</title>
+         </titleStmt>
+         <!--information about distribution-->
+         <publicationStmt>
+            <publisher>Manuscripts with Irish Associations</publisher>
+            <authority>Pádraic Moran</authority>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <p>Creative Commons BY-NC-SA 4.0</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <!--notes on this manuscript-->
+         <notesStmt>
+            <note>
+               <title>CLA</title>: Irish exemplar.</note>
+         </notesStmt>
+         <!--main manuscript description-->
+         <sourceDesc>
+            <msDesc><!--identifiers-->
+               <msIdentifier>
+                  <settlement>TO DO</settlement>
+                  <repository key="vienna">TO DO</repository>
+                  <idno>Lat. 366</idno>
+                  <msName/>
+               </msIdentifier>
+               <!--physical description: folios, dimentions, scripts-->
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <extent>
+                           <measure type="folios"/>
+                           <dimensions unit="cm">
+                              <height/>
+                              <width/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p>Caroline minuscule</p>
+                  </handDesc>
+               </physDesc>
+               <!--text contents-->
+               <msContents>
+                  <summary>Orosius, <title>Historia Adversus Paganos</title>
+                  </summary>
+               </msContents>
+               <!--history: origin, provenance-->
+               <history>
+                  <origin>
+                     <placeName key="salzburg">Salzburg</placeName>
+                     <origDate notBefore="0786" notAfter="0800">VIII ex</origDate>
+                  </origin>
+                  <provenance/>
+               </history>
+               <!--bibliographical references (list format)-->
+               <additional ana="#ex-ire">
+                  <listBibl>
+                     <bibl>Link to images online <ptr type="images" target=""/>
+                     </bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!--revision history-->
+      <revisionDesc>
+         <change who="Pádraic Moran" when="2021-05-01">Created</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
 </TEI>

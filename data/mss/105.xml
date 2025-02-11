@@ -8,7 +8,7 @@
    </identifier>
    <description>
       <type />
-      <folios>67</folios>
+      <folios>55</folios>
       <page_h>140</page_h>
       <page_w>115</page_w>
       <contents>Sacramentarium Celticum</contents>
@@ -18,16 +18,19 @@
       <date_desc>VIII–IX (ca. 792)</date_desc>
       <term_post>780</term_post>
       <term_ante>820</term_ante>
-      <origin><place id="ireland">Ireland</place> (Lorrha? Tallaght?)</origin>
+      <origin><place id="ireland">Ireland</place> (prob. Tallaght)</origin>
    </history>
-   <xrefs>
-      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/587">2.268</xref>
-      <link type="trismegistos" href="https://www.trismegistos.org/text/66354">TM 66354</link>
-      <xref type="thesaurus">2.250–255</xref>
-      <xref type="bronner">pp 10–11</xref>
-   <xref type="alexander">51</xref></xrefs>
-   <notes>
-      <categories>or-ire;sc-ire;vern</categories>
-      <project_notes>Old Irish glosses. </project_notes>
+   <refs>
+      <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/587"><i>CLA</i> 2.268</canonical>
+      <canonical href="https://www.trismegistos.org/text/66354">TM 66354</canonical>
+      <canonical corresp="#gamber">Gamber, no. 101</canonical>
+      <bibl corresp="#thesaurus" href="https://archive.org/details/thesauruspalaeo02stok/page/250"><i>Thesaurus</i> II 250–255</bibl>
+      <bibl corresp="#bronner">Bronner 2013: 10–11</bibl>
+   <canonical corresp="#alexander">Alexander, no. 51</canonical></refs>
+   <notes categories="#or-ire #sc-ire #scribe #vern">
+      Prob. written in Tallaght, soon afterwards brought to Lorrha. Scribe Móel Cáich. Old Irish glosses. 
    </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

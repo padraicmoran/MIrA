@@ -103,7 +103,7 @@ function chartSizes($data) {
 
 
 function sortH($a, $b) {
-	return strnatcmp($a[0], $b[0]);
+	return strnatcmp($b[0], $a[0]);
 }
 
 ?>

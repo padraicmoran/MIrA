@@ -20,10 +20,12 @@
       <term_ante>1611</term_ante>
       <origin><place id="st-gall">St Gall</place></origin>
    </history>
-   <xrefs>
-   </xrefs>
-   <notes>
-      <categories>ex-ire</categories>
-      <project_notes>A copy by Jodocus Metzler (1574–1639) of the Abbey of <place id="st-gall">St Gall</place>, apparently from a lost <place id="bobbio">Bobbio</place> codex in Irish script. The only MS witness for Columbanus, Letter 1–5.</project_notes>
+   <refs>
+   </refs>
+   <notes categories="#ex-ire">
+      A copy by Jodocus Metzler (1574–1639) of the Abbey of <place id="st-gall">St Gall</place>, apparently from a lost <place id="bobbio">Bobbio</place> codex in Irish script. The only MS witness for Columbanus, Letter 1–5.
       </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

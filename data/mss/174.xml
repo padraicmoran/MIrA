@@ -19,11 +19,13 @@
       <term_ante>833</term_ante>
       <origin><place id="france">France</place></origin>
    </history>
-   <xrefs>
-      <xref type="bischoff_kat">557</xref>
-   </xrefs>
-   <notes>
-      <categories>sc-ire</categories>
-      <project_notes>Glosses in Irish hand. Numbers, technical signs and glosses and glosses in Irish hand (15v, 16v, 20r, <place id="strasbourg">Strasbourg</place>?). (See also Steinová 2017: 67***)</project_notes>
+   <refs>
+      <canonical corresp="#bkat">Bischoff, <i>Katalog</i>, no. 557</canonical>
+   </refs>
+   <notes categories="#misc">
+      Glosses in Irish hand. Numbers, technical signs and glosses and glosses in Irish hand (15v, 16v, 20r, <place id="strasbourg">Strasbourg</place>?). (See also Steinová 2017: 67***)
    </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

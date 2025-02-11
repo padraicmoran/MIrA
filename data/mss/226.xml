@@ -3,16 +3,15 @@
    <identifier libraryID="vatican">
       <shelfmark>Ottob. lat. 35 (ff 1–35)</shelfmark>
       <shelfmark_indexer>Ottob. lat. 35</shelfmark_indexer>
-      <link type="images">https://digi.vatlib.it/view/MSS_Ott.lat.35</link>
       <link type="iiif">https://digi.vatlib.it/iiif/MSS_Ott.lat.35/manifest.json</link>
    </identifier>
    <description>
       <type />
-      <folios />
+      <folios>35</folios>
       <page_h />
       <page_w />
       <contents>Sedulius, <i>Carmen Paschale</i></contents>
-      <script />
+      <script>Caroline minuscule</script>
    </description>
    <history>
       <date_desc>IX¹</date_desc>
@@ -20,11 +19,16 @@
       <term_ante>850</term_ante>
       <origin>Loire area</origin>
    </history>
-   <xrefs>
-      <xref type="bischoff_kat">6429</xref>
-   </xrefs>
-   <notes>
-      <categories>sc-ire</categories>
-      <project_notes>Heavily glossed, some apparently in Irish script (Bischoff, <i>Kat</i>).</project_notes>
-      </notes>
+   <refs>
+      <canonical corresp="#bkat">Bischoff, <i>Katalog</i>, no. 6429</canonical>
+      <link href="https://digi.vatlib.it/view/MSS_Ott.lat.35">Images</link>
+      <link href="https://opac.vatlib.it/mss/detail/Ott.lat.35">Bibliography on library website</link>
+   </refs>
+   <notes categories="#misc">
+      Heavily glossed, some apparently in Irish script (Bischoff).
+   </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+      <change who="Pádraic Moran" when="[next release]">Revised</change>
+   </revisionDesc>
 </manuscript>

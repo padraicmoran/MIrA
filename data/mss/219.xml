@@ -37,16 +37,17 @@
       <origin>Irish centre</origin>
       <provenance>St Emmeram, <place id="regensburg">Regensburg</place></provenance>
    </history>
-   <xrefs>
-      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/457">2.144</xref>
-      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/1709">9.**144</xref>
-      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/328">11.**144</xref>
-      <xref type="bischoff_ssb">1.257; 2.246–247</xref>
-      <xref type="bischoff_kat">3458</xref>
-      <link type="trismegistos" href="https://www.trismegistos.org/text/66244">TM 66244</link>
-   </xrefs>
-   <notes>
-      <categories>sc-ire</categories>
-      <project_notes />
+   <refs>
+      <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/457"><i>CLA</i> 2.144</canonical>
+      <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/1709"><i>CLA</i> 9.**144</canonical>
+      <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/328"><i>CLA</i> 11.**144</canonical>
+      <bibl corresp="#bssb">Bischoff, <i>SSB</i>, 1.257; 2.246–247</bibl>
+      <canonical corresp="#bkat">Bischoff, <i>Katalog</i>, no. 3458</canonical>
+      <canonical href="https://www.trismegistos.org/text/66244">TM 66244</canonical>
+   </refs>
+   <notes categories="#sc-ire">
       </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

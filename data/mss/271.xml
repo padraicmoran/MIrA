@@ -20,12 +20,14 @@
       <origin>Anglo-Saxon centre, prob. on Continent</origin>
       <provenance><place id="fulda">Fulda</place></provenance>
    </history>
-   <xrefs>
-      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/1302">7.849</xref>
-      <!-- xref type="trismegistos" -->
-   </xrefs>
-   <notes>
-      <categories>ex-ire</categories>
-      <project_notes><i>CLA</i>: "The manuscript opens with the formula: 'In nomine dei uiui’, found elsewhere only in the Irish Orosius, Milan Ambros. D. 23 Sup. (CLA 3.328), which suggests that the exemplar may have been Irish."</project_notes>
+   <refs>
+      <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/1302"><i>CLA</i> 7.849</canonical>
+      
+   </refs>
+   <notes categories="#ex-ire">
+      <i>CLA</i>: "The manuscript opens with the formula: 'In nomine dei uiui’, found elsewhere only in the Irish Orosius, Milan Ambros. D. 23 Sup. (CLA 3.328), which suggests that the exemplar may have been Irish."
       </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

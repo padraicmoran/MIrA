@@ -22,14 +22,16 @@
       <origin><place id="france">France</place></origin>
       <provenance>Egmond</provenance>
    </history>
-   <xrefs>
-      <xref type="bischoff_kat">2139</xref>
-      <xref type="thesaurus">2.231, 2.422</xref>
-      <xref type="bronner">p. 24</xref>
+   <refs>
+      <canonical corresp="#bkat">Bischoff, <i>Katalog</i>, no. 2139</canonical>
+      <bibl corresp="#thesaurus" href="https://archive.org/details/thesauruspalaeo02stok/page/231"><i>Thesaurus</i> II 231, 2.422</bibl>
+      <bibl corresp="#bronner">Bronner 2013: 24</bibl>
 
-   <xref type="alexander">63</xref></xrefs>
-   <notes>
-      <categories>sc-ire;scribe;vern</categories>
-      <project_notes>Lat. &amp; Old Irish glosses. Scribes incl. Dubthach, <person id="eriugena">Eriugena</person> (e.g. 65r).</project_notes>
+   <canonical corresp="#alexander">Alexander, no. 63</canonical></refs>
+   <notes categories="#sc-ire #scribe #vern">
+      Lat. &amp; Old Irish glosses. Scribes incl. Dubthach, <person id="eriugena">Eriugena</person> (e.g. 65r).
    </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

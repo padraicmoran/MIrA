@@ -19,12 +19,14 @@
       <origin />
       <provenance><place id="reims">Reims</place></provenance>
    </history>
-   <xrefs>
-      <xref type="bischoff_kat">5304</xref>
-      <!-- xref type="trismegistos" -->
-   </xrefs>
-   <notes>
-      <categories>scribe</categories>
-      <project_notes>Autograph of <person id="eriugena">Eriugena</person>.</project_notes>
+   <refs>
+      <canonical corresp="#bkat">Bischoff, <i>Katalog</i>, no. 5304</canonical>
+      
+   </refs>
+   <notes categories="#scribe">
+      Autograph of <person id="eriugena">Eriugena</person>.
       </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

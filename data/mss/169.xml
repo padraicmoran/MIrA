@@ -2,9 +2,6 @@
 <manuscript id="169">
    <identifier libraryID="basel">
       <shelfmark>F III 15d</shelfmark>
-      <link type="homepage">http://www.e-codices.unifr.ch/en/list/one/ubb/F-III-0015d</link>
-      <link type="doi">http://dx.doi.org/10.5076/e-codices-ubb-F-III-0015d</link>
-      <link type="images">http://www.e-codices.unifr.ch/en/ubb/F-III-0015d</link>
       <link type="iiif">http://www.e-codices.unifr.ch/metadata/iiif/ubb-F-III-0015d/manifest.json</link>
    </identifier>
    <description>
@@ -12,26 +9,30 @@
       <folios>16</folios>
       <page_h>275</page_h>
       <page_w>237</page_w>
+      <cols>2</cols>
       <script>Irish minuscule</script>
       <contents>
       	<summary>Marius Victorinus; Consentius; Isidore Iunior</summary>
 			<msItem>
-				<locus_from>1ra</locus_from>
-				<locus_to>9rb</locus_to>
-				<author personID="isidore_iunior">Isidore iunior Hispalensis</author>
-				<title textID="de_devitiis">De Vitiis</title>
+				<locus>inside front cover</locus>
+				<author>Origen</author>
+				<title>Homiliae in Heptateuchon interprete Rufino</title>
+            <note>extract</note>
 			</msItem>
 			<msItem>
-				<locus_from>9rb</locus_from>
-				<locus_to>15vb</locus_to>
-				<author personID="consentius">Consentius</author>
-				<title textID="de_barbarismis">De barbarismis et metaplasmis</title>
+				<locus>1ra–9rb</locus>
+				<author>Isidore Iunior Hispalensis</author>
+				<title>De Vitiis</title>
 			</msItem>
 			<msItem>
-				<locus_from>15rb</locus_from>
-				<locus_to>16vb</locus_to>
-				<author personID="victorinus">Victorinus</author>
-				<title textID="de_barbarismis">De soloecismo et barbarismo</title>
+				<locus>9rb–15vb</locus>
+				<author>Consentius</author>
+				<title>De barbarismis et metaplasmis</title>
+			</msItem>
+			<msItem>
+				<locus>15rb–16vb</locus>
+				<author>Victorinus</author>
+				<title>De soloecismo et barbarismo</title>
 			</msItem>
    	</contents>
    </description>
@@ -42,13 +43,19 @@
       <origin><place id="ireland">Ireland</place></origin>
       <provenance><place id="fulda">Fulda</place></provenance>
    </history>
-   <xrefs>
-      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/1300">7.847</xref>
-      <link type="trismegistos" href="https://www.trismegistos.org/text/66986">TM 66986</link>
-      <link type="foundations" href="http://foundationsirishculture.ie/record/?id=42">[external link, with image]</link>
-   </xrefs>
-   <notes>
-      <categories>or-ire;sc-ire</categories>
-      <project_notes />
+   <refs>
+      <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/1300"><i>CLA</i> 7.847</canonical>
+      <canonical href="https://www.trismegistos.org/text/66986">TM 66986</canonical>
+      <link href="http://dx.doi.org/10.5076/e-codices-ubb-F-III-0015d">Online catalogue</link>
+      <link href="http://www.e-codices.unifr.ch/en/ubb/F-III-0015d">Images</link>
+      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=42">Foundations of Irish Culture</link>
+   </refs>
+   <notes categories="#or-ire #sc-ire">
+      Original Irish binding (parchment cover). Came to Basel during 16th century 
+      See detailed analysis and bibliography in online catalogue.
    </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+      <change who="Pádraic Moran" when="[next release]">Revised</change>
+   </revisionDesc>
 </manuscript>

@@ -19,13 +19,15 @@
       <term_ante>820</term_ante>
       <origin>Uncertain (<place id="verona">Verona</place>?)</origin>
    </history>
-   <xrefs>
-      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/501">2.186</xref>
-      <xref type="bischoff_kat">2421</xref>
-      <link type="trismegistos" href="https://www.trismegistos.org/text/66290">TM 66290</link>
-   </xrefs>
-   <notes>
-      <categories>ex-ire</categories>
-      <project_notes><i>CLA</i>: Exemplar from an Irish centre, written in 767 (see fol. 35v).</project_notes>
+   <refs>
+      <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/501"><i>CLA</i> 2.186</canonical>
+      <canonical corresp="#bkat">Bischoff, <i>Katalog</i>, no. 2421</canonical>
+      <canonical href="https://www.trismegistos.org/text/66290">TM 66290</canonical>
+   </refs>
+   <notes categories="#ex-ire">
+      <i>CLA</i>: Exemplar from an Irish centre, written in 767 (see fol. 35v).
    </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

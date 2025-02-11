@@ -20,13 +20,15 @@
       <term_ante>800</term_ante>
       <origin><place id="regensburg">Regensburg</place></origin>
    </history>
-   <xrefs>
-      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/1786">9.1291</xref>
-      <xref type="bischoff_ssb">1.188–189 (no. 8)</xref>
-      <link type="trismegistos" href="https://www.trismegistos.org/text/67435">TM 67435</link>
-   </xrefs>
-   <notes>
-      <categories>ex-ins</categories>
-      <project_notes>Insular exemplar. <i>CLA</i>: "whole words or sentences are for no good reason transcribed in Greek letters—an Insular trick (on foll. 132, 136v, 172v)".</project_notes>
+   <refs>
+      <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/1786"><i>CLA</i> 9.1291</canonical>
+      <bibl corresp="#bssb">Bischoff, <i>SSB</i>, 1.188–189 (no. 8)</bibl>
+      <canonical href="https://www.trismegistos.org/text/67435">TM 67435</canonical>
+   </refs>
+   <notes categories="#ex-ins">
+      Insular exemplar. <i>CLA</i>: "whole words or sentences are for no good reason transcribed in Greek letters—an Insular trick (on foll. 132, 136v, 172v)".
       </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

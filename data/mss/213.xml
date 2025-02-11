@@ -20,12 +20,14 @@
       <origin><place id="ireland">Ireland</place> (Armagh?)</origin>
       <provenance><place id="canterbury">Canterbury</place></provenance>
    </history>
-   <xrefs>
-      <xref type="thesaurus">1.484</xref>
-      <xref type="bronner">p. 26</xref>
-   <xref type="alexander">70</xref></xrefs>
-   <notes>
-      <categories>or-ire;sc-ire;vern</categories>
-      <project_notes>One Old Irish gloss. </project_notes>
+   <refs>
+      <bibl corresp="#thesaurus" href="https://archive.org/details/thesauruspalaeo01stok/page/484"><i>Thesaurus</i> I 484</bibl>
+      <bibl corresp="#bronner">Bronner 2013: 26</bibl>
+   <canonical corresp="#alexander">Alexander, no. 70</canonical></refs>
+   <notes categories="#or-ire #sc-ire #vern">
+      One Old Irish gloss. 
    </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

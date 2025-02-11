@@ -20,11 +20,13 @@
       <origin>NW <place id="germany">Germany</place>?</origin>
       <provenance><place id="mainz">Mainz</place></provenance>
    </history>
-   <xrefs>
-      <xref type="bischoff_kat">2189</xref>
-   </xrefs>
-   <notes>
-      <categories>scribe</categories>
-      <project_notes>Emendations by <person id="dungal">Dúngal</person>.</project_notes>
+   <refs>
+      <canonical corresp="#bkat">Bischoff, <i>Katalog</i>, no. 2189</canonical>
+   </refs>
+   <notes categories="#scribe">
+      Emendations by <person id="dungal">Dúngal</person>.
       </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

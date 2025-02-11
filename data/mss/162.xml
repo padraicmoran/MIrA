@@ -22,13 +22,15 @@
       <origin>NE <place id="france">France</place></origin>
       <provenance>Saint-Omer</provenance>
    </history>
-   <xrefs>
-      <xref type="bischoff_kat">2156</xref>
-      <xref type="thesaurus">2.418</xref>
-      <xref type="bronner">p. 25</xref>
-   </xrefs>
-   <notes>
-      <categories>vern</categories>
-      <project_notes>Old Irish glosses recorded in <i>Thesaurus</i>, addendum to p. 48, lines 35, 36. </project_notes>
+   <refs>
+      <canonical corresp="#bkat">Bischoff, <i>Katalog</i>, no. 2156</canonical>
+      <bibl corresp="#thesaurus" href="https://archive.org/details/thesauruspalaeo02stok/page/418"><i>Thesaurus</i> II 418</bibl>
+      <bibl corresp="#bronner">Bronner 2013: 25</bibl>
+   </refs>
+   <notes categories="#vern">
+      Old Irish glosses recorded in <i>Thesaurus</i>, addendum to p. 48, lines 35, 36. 
    </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

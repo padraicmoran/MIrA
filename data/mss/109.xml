@@ -19,10 +19,12 @@
       <term_ante>810</term_ante>
       <origin><place id="ireland">Ireland</place></origin>
    </history>
-   <xrefs>
-   </xrefs>
-   <notes>
-      <categories>or-ire;sc-ire</categories>
-      <project_notes>Discovered 2006.</project_notes>
+   <refs>
+   </refs>
+   <notes categories="#or-ire #sc-ire">
+      Discovered 2006.
       </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

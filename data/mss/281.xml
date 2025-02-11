@@ -20,12 +20,14 @@
       <term_ante>825</term_ante>
       <origin>Bavaria</origin>
    </history>
-   <xrefs>
-      <xref type="bischoff_ssb">1.150</xref>
-      <xref type="bischoff_kat">3078</xref>
-   </xrefs>
-   <notes>
-      <categories>ex-ire</categories>
-      <project_notes>Bischoff, <i>SSB</i>: At least uncalligraphic hands. Strong Insular, esp. Irish, influence in script and contents.</project_notes>
+   <refs>
+      <bibl corresp="#bssb">Bischoff, <i>SSB</i>, 1.150</bibl>
+      <canonical corresp="#bkat">Bischoff, <i>Katalog</i>, no. 3078</canonical>
+   </refs>
+   <notes categories="#ex-ire">
+      Bischoff, <i>SSB</i>: At least uncalligraphic hands. Strong Insular, esp. Irish, influence in script and contents.
       </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

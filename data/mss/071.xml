@@ -16,17 +16,18 @@
    </description>
    <history>
       <date_desc>IX 1/3</date_desc>
-      <term_post>800</term_post>
+      <term_post>801</term_post>
       <term_ante>833</term_ante>
       <origin><place id="reichenau">Reichenau</place></origin>
    </history>
-   <xrefs>
-      <xref type="bischoff_kat">1721</xref>
-      <xref type="bronner">p. 21</xref>
-   </xrefs>
-   <notes>
-      <categories>text;vern</categories>
-      <project_notes>Hiberno-Latin commentary (ed. McNally CCSL 108B***). Two embedded Irish words.</project_notes>
+   <refs>
+      <canonical corresp="#bkat">Bischoff, <i>Katalog</i>, no. 1721</canonical>
+      <bibl corresp="#bronner">Bronner 2013: 21</bibl>
+   </refs>
+   <notes categories="#text #vern">
+      Hiberno-Latin commentary (ed. McNally CCSL 108B***). Two embedded Irish words.
    </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>
-

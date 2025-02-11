@@ -20,14 +20,14 @@
       <term_ante>820</term_ante>
       <origin><place id="regensburg">Regensburg</place></origin>
    </history>
-   <xrefs>
-      <xref type="cla" href="" />
-      <xref type="bischoff_ssb">1.190ff; 2.236f.</xref>
-      <xref type="bischoff_kat">3191</xref>
-      <!-- xref type="trismegistos" -->
-   </xrefs>
-   <notes>
-      <categories>sc-ire</categories>
-      <project_notes><i>CLA</i>: "An Insular hand added various critical signs passim in the margins, as l for 'lege', quotation-marks, and entire words (foll. 73v, 85v): it is the hand of the scribe of CLM 14666 (saec. IX)." Signs identified as Irish in Steinová 2017: 66***.</project_notes>
+   <refs>
+      <bibl corresp="#bssb">Bischoff, <i>SSB</i>, 1.190ff; 2.236f.</bibl>
+      <canonical corresp="#bkat">Bischoff, <i>Katalog</i>, no. 3191</canonical>
+   </refs>
+   <notes categories="#misc">
+      <i>CLA</i>: "An Insular hand added various critical signs passim in the margins, as l for 'lege', quotation-marks, and entire words (foll. 73v, 85v): it is the hand of the scribe of <ms id="277">Clm 14666</ms> (saec. IX)." Signs identified as Irish in Steinová 2017: 66***.
       </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

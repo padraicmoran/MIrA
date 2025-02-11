@@ -20,14 +20,16 @@
       <origin><place id="ireland">Ireland</place> or <place id="wales">Wales</place></origin>
       <provenance>St-Bertin</provenance>
    </history>
-   <xrefs>
-      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/1243">6.828</xref>
-      <link type="trismegistos" href="https://www.trismegistos.org/text/67608">TM 67608</link>
-      <xref type="bronner">p. 45</xref>
-      <link type="foundations" href="http://foundationsirishculture.ie/record/?id=41">[external link, with image]</link>
-   </xrefs>
-   <notes>
-      <categories>or-ins;sc-ins;vern</categories>
-      <project_notes>Old Irish glosses. Flyleaf to 10th cent. MS.</project_notes>
+   <refs>
+      <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/1243"><i>CLA</i> 6.828</canonical>
+      <canonical href="https://www.trismegistos.org/text/67608">TM 67608</canonical>
+      <bibl corresp="#bronner">Bronner 2013: 45</bibl>
+      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=41">Foundations of Irish Culture</link>
+   </refs>
+   <notes categories="#or-ins #sc-ins #vern">
+      Old Irish glosses. Flyleaf to 10th century MS.
    </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

@@ -20,11 +20,14 @@
       <term_ante>820</term_ante>
       <origin><place id="france">France</place>? <place id="italy">Italy</place>?</origin>
    </history>
-   <xrefs>
-      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/5">1.3</xref>
-   </xrefs>
-   <notes>
-      <categories>sc-ire</categories>
-      <project_notes>Corrections in Irish hand and Caroline hand with Irish influence.</project_notes>
+   <refs>
+      <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/5"><i>CLA</i> 1.3</canonical>
+   </refs>
+   <notes categories="#misc">
+      Corrections in Irish hand and Caroline hand with Irish influence.
       </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+      <change who="Pádraic Moran" when="[next release]">Revised</change>
+   </revisionDesc>
 </manuscript>

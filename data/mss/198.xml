@@ -18,13 +18,16 @@
       <origin><place id="switzerland">Switzerland</place> (Rhaetian influence)</origin>
       <provenance>Rheinau</provenance>
    </history>
-   <xrefs>
-      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/1290">7.1019</xref>
-      <link type="trismegistos" href="https://www.trismegistos.org/text/67164">TM 67164</link>
-      <xref type="bischoff_kat">7607</xref>
-   </xrefs>
-   <notes>
-      <categories />
-      <project_notes><i>CLA</i>: "A doubtful tradition connects the manuscript with the Irish Saint Fintan."</project_notes>
+   <refs>
+      <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/1290"><i>CLA</i> 7.1019</canonical>
+      <canonical href="https://www.trismegistos.org/text/67164">TM 67164</canonical>
+      <canonical corresp="#bkat">Bischoff, <i>Katalog</i>, no. 7607</canonical>
+   </refs>
+   <notes categories="#excl">
+      <i>CLA</i>: "A doubtful tradition connects the manuscript with the Irish Saint Fintan."
    </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+      <change who="Pádraic Moran" when="[next release]">Excluded</change>
+   </revisionDesc>
 </manuscript>

@@ -11,26 +11,28 @@
       <folios>35</folios>
       <page_h>270</page_h>
       <page_w>185</page_w>
-      <contents><text id="gospels">Gospels</text> (Vetus Latina, Io partim.)</contents>
+      <contents><text id="gospels">Gospel of John</text></contents>
       <script>Irish majuscule and Irish minuscule</script>
    </description>
    <history>
-      <date_desc>VIII–IX</date_desc>
+      <date_desc>VIII–IX (Lowe); c. 800 (Duft)</date_desc>
       <term_post>780</term_post>
       <term_ante>820</term_ante>
       <origin><place id="ireland">Ireland</place></origin>
-      <provenance><place id="st-gall">St Gall</place></provenance>
+      <provenance><place id="st-gall">St Gall</place> (prob. mid-9th cent.)</provenance>
    </history>
-   <xrefs>
-      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/1360">7.902</xref>
-      <xref type="ocorrain">379</xref>
-      <link type="trismegistos" href="https://www.trismegistos.org/text/67046">TM 67046</link>
-      <link type="foundations" href="http://foundationsirishculture.ie/record/?id=44">[external link, with image]</link>
-      <xref type="alexander">60</xref>
-      <xref type="mcgurk">118</xref>
-   </xrefs>
-   <notes>
-      <categories>or-ire;sc-ire</categories>
-      <project_notes />
+   <refs>
+      <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/1360"><i>CLA</i> 7.902</canonical>
+      <canonical corresp="#ocorrain">Ó Corráin, <i>Clavis</i>, no. 379</canonical>
+      <canonical href="https://www.trismegistos.org/text/67046">TM 67046</canonical>
+      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=44">Foundations of Irish Culture</link>
+      <canonical corresp="#alexander">Alexander, no. 60</canonical>
+      <canonical corresp="#mcgurk">McGurk, no. 118</canonical>
+      <bibl id="duft_meyer_1954">Duft &amp; Meyer 1954: 71–72</bibl>
+   </refs>
+   <notes categories="#or-ire #sc-ire">
    </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

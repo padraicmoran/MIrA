@@ -98,9 +98,10 @@ function listMSS($results) {
 
 		// categories
 		print '<td><nobr>';
-		if ($ms->notes->categories != '') {
-			$theseCats = explode(';', $ms->notes->categories);
+		if ($ms->notes['categories'] != '') {
+			$theseCats = explode(' ', $ms->notes['categories']);
 			foreach ($theseCats as $thisCatID) {
+				$thisCatID = str_replace('#', '', $thisCatID);
 				if (isset($msCategories[$thisCatID])) writeCategoryIcon($thisCatID, true);
 			} 
 		}

@@ -21,14 +21,16 @@
       <origin><place id="ireland">Ireland</place></origin>
       <provenance><place id="reichenau">Reichenau</place></provenance>
    </history>
-   <xrefs>
-      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/1583">8.1116</xref>
-      <link type="trismegistos" href="https://www.trismegistos.org/text/67256">TM 67256</link>
-      <xref type="thesaurus">2.256</xref>
-      <xref type="bronner">p. 17</xref>
-   </xrefs>
-   <notes>
-      <categories>or-ire;sc-ire;scribe;vern</categories>
-      <project_notes>This and Fragm. Aug. 17 detached from binding of Aug. 167 (Bede). Re-written Clondalkin, 9th cent. Upper script: "(Libe)r trinitatis et sci cronáni filii lugaedón."</project_notes>
+   <refs>
+      <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/1583"><i>CLA</i> 8.1116</canonical>
+      <canonical href="https://www.trismegistos.org/text/67256">TM 67256</canonical>
+      <bibl corresp="#thesaurus" href="https://archive.org/details/thesauruspalaeo02stok/page/256"><i>Thesaurus</i> II 256</bibl>
+      <bibl corresp="#bronner">Bronner 2013: 17</bibl>
+   </refs>
+   <notes categories="#or-ire #sc-ire">
+      This and Fragm. Aug. 17 detached from binding of Aug. 167 (Bede). <ms id="235">Re-written</ms> in ninth century.
       </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

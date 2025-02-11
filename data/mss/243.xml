@@ -20,12 +20,14 @@
       <term_ante>950</term_ante>
       <origin><place id="deer">Deer</place> (Scotland)</origin>
    </history>
-   <xrefs>
-      <xref type="thesaurus">2.xxx, 2.257</xref>
-      <xref type="bronner">pp 59–60</xref>
-   <xref type="alexander">72</xref></xrefs>
-   <notes>
-      <categories>sc-ire;vern</categories>
-      <project_notes>Old Irish colophon and notes on liturgy.</project_notes>
+   <refs>
+      <bibl corresp="#thesaurus" href="https://archive.org/details/thesauruspalaeo02stok/page/"><i>Thesaurus</i> II xxx, 2.257</bibl>
+      <bibl corresp="#bronner">Bronner 2013: 59–60</bibl>
+   <canonical corresp="#alexander">Alexander, no. 72</canonical></refs>
+   <notes categories="#sc-ire #vern">
+      Old Irish colophon and notes on liturgy.
       </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

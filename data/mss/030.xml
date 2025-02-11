@@ -27,16 +27,18 @@
       <origin><place id="ireland">Ireland</place></origin>
       <provenance><place id="echternach">Echternach</place></provenance>
    </history>
-   <xrefs>
-      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/966">5.599</xref>
-      <link type="trismegistos" href="https://www.trismegistos.org/text/66730">TM 66730</link>
-      <xref type="bischoff_kat">4639a</xref>
-      <xref type="thesaurus">2.42</xref>
-      <xref type="bronner">p. 42</xref>
-      <link type="foundations" href="http://foundationsirishculture.ie/record/?id=35">[external link, with image]</link>
-   </xrefs>
-   <notes>
-   	<categories>or-ire;sc-ire;vern</categories>
-      <project_notes>Old Irish glosses. ("Lat. 14111" in ELMSS is an error.)</project_notes>
+   <refs>
+      <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/966"><i>CLA</i> 5.599</canonical>
+      <canonical href="https://www.trismegistos.org/text/66730">TM 66730</canonical>
+      <canonical corresp="#bkat">Bischoff, <i>Katalog</i>, no. 4639a</canonical>
+      <bibl corresp="#thesaurus" href="https://archive.org/details/thesauruspalaeo02stok/page/42"><i>Thesaurus</i> II 42</bibl>
+      <bibl corresp="#bronner">Bronner 2013: 42</bibl>
+      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=35">Foundations of Irish Culture</link>
+   </refs>
+   <notes categories="#or-ire #sc-ire #vern">
+      Old Irish glosses. ("Lat. 14111" in ELMSS is an error.)
    </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

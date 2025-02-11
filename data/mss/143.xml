@@ -18,14 +18,16 @@
       <term_ante>800</term_ante>
       <origin><place id="bobbio">Bobbio</place></origin>
    </history>
-   <xrefs>
-      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/738">3.400</xref>
-      <link type="trismegistos" href="https://www.trismegistos.org/text/66504">TM 66504</link>
-      <xref type="bronner">p. 37</xref>
-      <link type="foundations" href="http://foundationsirishculture.ie/record/?id=2489" />
-   </xrefs>
-   <notes>
-      <categories>sc-ire;vern</categories>
-      <project_notes>1 Old Irish gloss f. 33.</project_notes>
+   <refs>
+      <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/738"><i>CLA</i> 3.400</canonical>
+      <canonical href="https://www.trismegistos.org/text/66504">TM 66504</canonical>
+      <bibl corresp="#bronner">Bronner 2013: 37</bibl>
+      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=2489">Foundations of Irish Culture</link>
+   </refs>
+   <notes categories="#sc-ire #vern">
+      1 Old Irish gloss f. 33.
    </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

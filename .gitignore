@@ -5,3 +5,5 @@ pages/__*.php
 MIrA.code-workspace
 
 
+local-processing/batch_edit.py
+mss_tei

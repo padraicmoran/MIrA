@@ -18,12 +18,14 @@
       <term_ante>820</term_ante>
       <origin><place id="saint-denis">Saint-Denis</place></origin>
    </history>
-   <xrefs>
-      <xref type="bischoff_kat">4180</xref>
-      <xref type="bronner">p. 39</xref>
-   </xrefs>
-   <notes>
-   	<categories>vern</categories>
-      <project_notes>Old Irish gloss (1, embedded); ed. Rittmueller 2003: 83; gloss early 8th cent.</project_notes>
+   <refs>
+      <canonical corresp="#bkat">Bischoff, <i>Katalog</i>, no. 4180</canonical>
+      <bibl corresp="#bronner">Bronner 2013: 39</bibl>
+   </refs>
+   <notes categories="#vern">
+      Old Irish gloss (1, embedded); ed. Rittmueller 2003: 83; gloss early 8th century
    </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

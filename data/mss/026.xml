@@ -20,13 +20,14 @@
       <term_ante>800</term_ante>
       <origin><place id="ireland">Ireland</place></origin>
    </history>
-   <xrefs>
-      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/948">5.583</xref>
-      <link type="trismegistos" href="https://www.trismegistos.org/text/66714">TM 66714</link>
-      <link type="foundations" href="http://foundationsirishculture.ie/record/?id=34">[external link, with image]</link>
-   </xrefs>
-   <notes>
-   	<categories>or-ire;sc-ire</categories>
-      <project_notes />
+   <refs>
+      <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/948"><i>CLA</i> 5.583</canonical>
+      <canonical href="https://www.trismegistos.org/text/66714">TM 66714</canonical>
+      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=34">Foundations of Irish Culture</link>
+   </refs>
+   <notes categories="#or-ire #sc-ire">
    </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

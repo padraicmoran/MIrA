@@ -105,7 +105,7 @@ mapLibraries.addControl(new L.Control.Fullscreen());
 	
 </script>
 
-<p class="small mt-2">The size of each data point is proportional to the number of manuscripts represented.
+<p class="small mt-2 pb-4">The size of each data point is proportional to the number of manuscripts represented.
 </p>
 
 <?php

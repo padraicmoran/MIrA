@@ -19,13 +19,16 @@
       <term_ante>800</term_ante>
       <origin><place id="ireland">Ireland</place>?</origin>
    </history>
-   <xrefs>
-      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/665">3.329</xref>
-      <link type="trismegistos" href="https://www.trismegistos.org/text/66426">TM 66426</link>
-      <link type="foundations" href="http://foundationsirishculture.ie/record/?id=12">[external link, with image]</link>
-   <xref type="alexander">3</xref></xrefs>
-   <notes>
-      <categories>or-ire;sc-ire</categories>
-      <project_notes>Fly leaves to <ms id="121">Bobbio Orosius</ms>.</project_notes>
+   <refs>
+      <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/665"><i>CLA</i> 3.329</canonical>
+      <canonical corresp="#alexander">Alexander, no. 3</canonical>
+      <canonical href="https://www.trismegistos.org/text/66426">TM 66426</canonical>
+      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=12">Foundations of Irish Culture</link>
+   </refs>
+   <notes categories="#or-ire #sc-ire">
+      Fly leaves to <ms id="121">Bobbio Orosius</ms>.
    </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

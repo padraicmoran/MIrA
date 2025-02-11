@@ -3,30 +3,40 @@
    <identifier libraryID="vatican">
       <shelfmark>Lat. 13501/XXIV (ff 44–45)</shelfmark>
       <shelfmark_indexer>Lat. 13501/XXIV</shelfmark_indexer>
-      <link type="images">http://digi.vatlib.it/view/MSS_Vat.lat.13501</link>
       <link type="iiif" index="91">https://digi.vatlib.it/iiif/MSS_Vat.lat.13501/manifest.json</link>
    </identifier>
    <description>
-      <type />
-      <folios />
+      <type>Binding fragment</type>
+      <folios>2</folios>
       <page_h />
       <page_w />
-      <contents>Fragment on month names</contents>
+      <contents>Computistica</contents>
       <script>Irish minuscule</script>
    </description>
    <history>
       <date_desc>IX</date_desc>
       <term_post>801</term_post>
       <term_ante>900</term_ante>
-      <origin>NE <place id="france">France</place> (<place id="soissons">Soissons</place>?)? <place id="ireland">Ireland</place>?</origin>
+      <origin><place id="ireland">Ireland</place>? NE <place id="france">France</place>? (<place id="soissons">Soissons</place>?) </origin>
+      <provenance><place id="bobbio">Bobbio</place>? <place id="reichenau">Reichenau</place>? </provenance>
    </history>
-   <xrefs>
-      <xref type="bischoff_kat">6953</xref>
-      <xref type="bronner">p. 8</xref>
-   </xrefs>
-   <notes>
-      <categories>or-ire;sc-ire;vern</categories>
-      <project_notes>Old Irish glosses. Bischoff: from the same scriptorium as the Karlruhe Bede (<ms id="60">Aug. perg. 167</ms>). 
-      <i>CLA</i> S.1734 suggests a connection with the <ms id="133">compustistical binding fragments</ms> from <place id="bobbio">Bobbio</place>.</project_notes>
+   <refs>
+      <canonical corresp="#bkat">Bischoff, <i>Katalog</i>, no. 6953</canonical>
+      <canonical corresp="#ocorrain">Ó Corráin, <i>Clavis</i>, no. 554</canonical>
+      <link href="http://digi.vatlib.it/view/MSS_Vat.lat.13501">Images</link>
+      <link href="https://opac.vatlib.it/mss/detail/Vat.lat.13501">Bibliography on library website</link>
+      <bibl corresp="#bischoff_1977">Bischoff 1977: 49</bibl>
+      <bibl corresp="#bronner">Bronner 2013: 8</bibl>
+   </refs>
+   <notes categories="#or-ire #sc-ire #vern">
+      <p>Composite manuscript, part 24. Several hands. Two Irish glosses (f. 45r): <i>ianair</i> and <i>marta</i> (month names).</p>
+      <p>Lowe (<a href="https://elmss.nuigalway.ie/catalogue/2039"><i>CLA</i> S.1734</a>) suggests that this
+         may belong with other compustistical binding fragments brought from Ireland to Bobbio, also containing Old Irish glosses (see <ms id="133">MIrA 133</ms>).</p>
+      <p>Bischoff (1977: 49) identifies the scribe of the zodiacal tract on f. 45r with the scribe of the same text on f. 13v in the Karlruhe Bede 
+         (<ms id="60">MIrA 60</ms>). </p>
       </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+      <change who="Pádraic Moran" when="[next release]">Revised</change>
+   </revisionDesc>
 </manuscript>

@@ -19,12 +19,14 @@
       <term_ante>800</term_ante>
       <origin><place id="tours">Tours</place></origin>
    </history>
-   <xrefs>
-      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/513">2.196b</xref>
-      <!-- xref type="trismegistos" -->
-   </xrefs>
-   <notes>
-      <categories>sc-ins</categories>
-      <project_notes><i>CLA</i>: "resembles certain hands in Vatic. Pal. Lat. 235 (CLA 1.87) and probably the work of a <place id="northumbria">Northumbrian</place> scribe schooled in the Irish tradition"</project_notes>
+   <refs>
+      <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/513"><i>CLA</i> 2.196b</canonical>
+      
+   </refs>
+   <notes categories="#sc-ins">
+      <i>CLA</i>: "resembles certain hands in Vatic. Pal. Lat. 235 (CLA 1.87) and probably the work of a <place id="northumbria">Northumbrian</place> scribe schooled in the Irish tradition"
       </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

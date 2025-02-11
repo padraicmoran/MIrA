@@ -16,15 +16,17 @@
    </description>
    <history>
       <date_desc>IX</date_desc>
-      <term_post>800</term_post>
+      <term_post>801</term_post>
       <term_ante>900</term_ante>
       <origin><place id="ireland">Ireland</place>?</origin>
    </history>
-   <xrefs>
-      <xref type="bronner">p. 32</xref>
-   </xrefs>
-   <notes>
-   	<categories>or-ire;sc-ire;vern</categories>
-      <project_notes>Old Irish marginal comment (f. 10v marg. inf.).</project_notes>
+   <refs>
+      <bibl corresp="#bronner">Bronner 2013: 32</bibl>
+   </refs>
+   <notes categories="#or-ire #sc-ire #vern">
+      Old Irish marginal comment (f. 10v marg. inf.).
       </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

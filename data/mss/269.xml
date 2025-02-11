@@ -18,14 +18,16 @@
       <origin><place id="augsburg">Augsburg</place> area</origin>
       <provenance><place id="fussen">Füssen</place></provenance>
    </history>
-   <xrefs>
-      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/1480">8.1025</xref>
-      <xref type="bischoff_ssb">1.48–49</xref>
-      <xref type="bischoff_kat">120</xref>
-      <link type="trismegistos" href="https://www.trismegistos.org/text/67171">TM 67171</link>
-   </xrefs>
-   <notes>
-      <categories>ex-ins</categories>
-      <project_notes>VIII ex (<i>CLA</i>) or IX in (Bischoff). <i>CLA</i>: Insular exemplar. Same scriptorium as <ms id="270">Paris, Lat. 2709</ms>.</project_notes>
+   <refs>
+      <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/1480"><i>CLA</i> 8.1025</canonical>
+      <bibl corresp="#bssb">Bischoff, <i>SSB</i>, 1.48–49</bibl>
+      <canonical corresp="#bkat">Bischoff, <i>Katalog</i>, no. 120</canonical>
+      <canonical href="https://www.trismegistos.org/text/67171">TM 67171</canonical>
+   </refs>
+   <notes categories="#ex-ins">
+      VIII ex (<i>CLA</i>) or IX in (Bischoff). <i>CLA</i>: Insular exemplar. Same scriptorium as <ms id="270">Paris, Lat. 2709</ms>.
       </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

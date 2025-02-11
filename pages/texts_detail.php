@@ -11,6 +11,7 @@ if (file_exists('data/texts.xml')) {
 		if ($tidyURLs) $linkBack = '/texts/';
 		else $linkBack = '/index.php?page=texts';
 
+		// page title
 		print '<h2>';
 		print '<a class="text-reset" href="' . $linkBack . '">Texts</a> ‣ ';
 		if ($text->author != '') print $text->author . ', ';
@@ -32,7 +33,7 @@ if (file_exists('data/texts.xml')) {
 		}
 
 		// find related manuscripts
-		$results = $xml_mss->xpath('//text[@id="' . $id . '"]/ancestor::manuscript');
+		$results = $xml_mss->xpath('manuscript[.//text[@id="' . $id . '"]]');
 
 		// sorting
 		// cannot sort a SimpleXML object, so transfer top-level objects into an array instead

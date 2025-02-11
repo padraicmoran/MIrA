@@ -3,6 +3,7 @@
    <identifier libraryID="milan">
       <shelfmark>A 138 sup.</shelfmark>
       <shelfmark_indexer>A 138 sup.</shelfmark_indexer>
+      <link type="iiif">https://digitallibrary.unicatt.it/veneranda/data/public/manifests/0b/02/da/82/80/42/9b/5c/0b02da8280429b5c.json</link>
    </identifier>
    <description>
       <type>Flyleaf</type>
@@ -18,12 +19,14 @@
       <term_ante>900</term_ante>
       <origin><place id="bobbio">Bobbio</place>? <place id="ireland">Ireland</place>?</origin>
    </history>
-   <xrefs>
-      <xref type="thesaurus">2.232</xref>
-      <xref type="bronner">p. 26</xref>
-   </xrefs>
-   <notes>
-      <categories>or-ire;sc-ire;vern</categories>
-      <project_notes>Old Irish glosses (9). Flyleaf for 11th cent. Bobbio MS.</project_notes>
+   <refs>
+      <bibl corresp="#thesaurus" href="https://archive.org/details/thesauruspalaeo02stok/page/232"><i>Thesaurus</i> II 232</bibl>
+      <bibl corresp="#bronner">Bronner 2013: 26</bibl>
+   </refs>
+   <notes categories="#or-ire #sc-ire #vern">
+      Old Irish glosses (9). Flyleaf for 11th century Bobbio MS.
    </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>

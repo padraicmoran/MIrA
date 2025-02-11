@@ -19,15 +19,17 @@
       <origin><place id="ireland">Ireland</place></origin>
       <provenance><place id="bobbio">Bobbio</place></provenance>
    </history>
-   <xrefs>
-      <xref type="cla" href="https://elmss.nuigalway.ie/catalogue/801">4.453</xref>
-      <link type="trismegistos" href="https://www.trismegistos.org/text/66560">TM 66560</link>
-      <xref type="thesaurus">1.484–494</xref>
-      <xref type="bronner">p. 51</xref>
-      <link type="foundations" href="http://foundationsirishculture.ie/record/?id=27">[external link, with image]</link>
-   </xrefs>
-   <notes>
-      <categories>or-ire;sc-ire;vern</categories>
-      <project_notes>Old Irish glosses. Perhaps same centre as Milan C 301 inf.; glosses written on Continent (<place id="auxerre">Auxerre</place>)?</project_notes>
+   <refs>
+      <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/801"><i>CLA</i> 4.453</canonical>
+      <canonical href="https://www.trismegistos.org/text/66560">TM 66560</canonical>
+      <bibl corresp="#thesaurus" href="https://archive.org/details/thesauruspalaeo01stok/page/484"><i>Thesaurus</i> I 484–494</bibl>
+      <bibl corresp="#bronner">Bronner 2013: 51</bibl>
+      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=27">Foundations of Irish Culture</link>
+   </refs>
+   <notes categories="#or-ire #sc-ire #vern">
+      Old Irish glosses. Perhaps same centre as Milan C 301 inf.; glosses written on Continent (<place id="auxerre">Auxerre</place>)?
    </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
 </manuscript>
