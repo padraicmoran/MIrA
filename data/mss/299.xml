@@ -1,37 +1,34 @@
 <?xml version='1.0' encoding='utf-8'?>
-<manuscript id="183">
+<manuscript id="299">
    <identifier libraryID="st-gall">
-      <shelfmark>51 [palimpsest new]</shelfmark>
+      <shelfmark>51 (pp 239–240) [palimpsest old]</shelfmark>
       <shelfmark_indexer>0051</shelfmark_indexer>
       <link type="images">http://www.e-codices.unifr.ch/de/csg/0051</link>
       <link type="iiif">http://www.e-codices.unifr.ch/metadata/iiif/csg-0051/manifest.json</link>
    </identifier>
    <description>
       <type />
-      <folios>134</folios>
+      <folios>1</folios>
       <page_h>295</page_h>
       <page_w>225</page_w>
-      <contents><text id="gospels">Gospels</text> (Vetus Latina, Mc, Mt, Lc, Io partim)</contents>
+      <contents>Calendar</contents>
       <script>Irish majuscule</script>
    </description>
    <history>
-      <date_desc>VIII–IX (Lowe); 'about, or more probably, later than 750' (Duft)</date_desc>
-      <term_post>750</term_post>
-      <term_ante>820</term_ante>
+      <date_desc>VIII</date_desc>
+      <term_post>701</term_post>
+      <term_ante>800</term_ante>
       <origin><place id="ireland">Ireland</place></origin>
       <provenance><place id="st-gall">St Gall</place> (10th cent.)</provenance>
    </history>
    <refs>
       <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/1359"><i>CLA</i> 7.901</canonical>
       <canonical href="https://www.trismegistos.org/text/67045">TM 67045</canonical>
-      <canonical corresp="#bkat">Bischoff, <i>Katalog</i>, no. 5536a</canonical>
       <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=43">Foundations of Irish Culture</link>
-      <canonical corresp="#alexander">Alexander, no. 44</canonical>
-      <canonical corresp="#mcgurk">McGurk, no. 117</canonical>
       <bibl id="duft_meyer_1954">Duft &amp; Meyer 1954: 69–71</bibl>
    </refs>
    <notes categories="#or-ire #sc-ire">
-      Written over MIrA <ms id="299">299</ms>.
+      Rewritten with Gospels (<ms id="183">MIrA 183</ms>).
    </notes>
    <revisionDesc>
       <change who="Pádraic Moran" when="2021-05-01">Created</change>

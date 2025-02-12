@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="300">
+   <identifier libraryID="karlsruhe">
+      <shelfmark>Fragm. Aug. 17</shelfmark>
+      <shelfmark_indexer>Fragm. Aug. 0017</shelfmark_indexer>
+      <link type="images">https://nbn-resolving.org/urn:nbn:de:bsz:31-1929</link>
+		<link type="iiif">https://digital.blb-karlsruhe.de/i3f/v20/21589/manifest</link>
+   </identifier>
+   <description>
+      <type>Binding frag.</type>
+      <folios>2</folios>
+      <page_h />
+      <page_w />
+      <contents>Sacramentarium</contents>
+      <script>Irish minuscule</script>
+   </description>
+   <history>
+      <date_desc>VIII ex or IX 1/2</date_desc>
+      <term_post>780</term_post>
+      <term_ante>850</term_ante>
+      <origin><place id="ireland">Ireland</place></origin>
+      <provenance><place id="reichenau">Reichenau</place></provenance>
+   </history>
+   <refs>
+   </refs>
+   <notes categories="#or-ire #sc-ire">
+      Fragm. Aug. 17 and 18 detached from the binding of Aug. 167 (<ms id="60">MIrA 60</ms>). 
+   </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+   </revisionDesc>
+</manuscript>

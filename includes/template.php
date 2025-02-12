@@ -133,7 +133,7 @@ function templateTop($activeNav) {
 
 			<form class="d-flex" action="/index.php" method="get">
 				<input type="hidden" name="page" value="mss">
-				<input class="form-control me-2" name="search" type="search" placeholder="Search" aria-label="Search" value="<?php print $search ?>">
+				<input class="form-control me-2" name="search" type="search" placeholder="MIrA number or keyword" aria-label="Search" value="<?php print $search ?>">
 				<button class="btn btn-success" type="submit">Search</button>
 			</form>
 		</div>

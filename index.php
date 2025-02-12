@@ -6,6 +6,14 @@ $page = cleanInput('page') ?? '';
 $id = cleanInput('id') ?? '';
 $search = cleanInput('search') ?? '';
 
+// if search is a number, redirect to ms page
+if ($search && (int) $search <= 300) {
+	$page = 'mss';
+	$id = $search;
+}
+
+
+
 // content router
 if (isset($xml_mss)) {
 	if ($page == 'mss') {

@@ -39,12 +39,13 @@ if (file_exists('data/bibliography.xml')) {
 <p>Current version:</p>
 
 <ul>
-<li>0.6 (beta), 29 January 2025. New "Miscellaneous" category for minor Irish associations. Minor corrections and additions.</li>
+<li>0.6.1 (beta), 12 February 2025. 7 new additions: MSS 294–300. Minor corrections.</li>
 </ul>
 
 <p>Previous versions:</p>
 
 <ul>
+<li>0.6 (beta), 29 January 2025. New "Miscellaneous" category for minor Irish associations. Minor corrections and additions.</li>
 <li>0.5 (beta), 29 November 2023. Improvements to maps, network graphs, linked data.</li>
 <li>0.4 (beta), 18 July 2023. Network diagrams. References for Alexander, McGurk, Trismegistos. New data for dimensions and folio counts (supplied by Lily Forrest). Developments to text, people, places indexes.</li>
 <li>0.3 (beta), 1 March 2023. Export manuscript list as CSV. Permanent references for multiple units. Minor corrections. </li>

@@ -2,7 +2,7 @@
 <manuscript id="54">
    <identifier libraryID="karlsruhe">
       <shelfmark>Aug. perg. 132 (f. 18) [palimpsest old]</shelfmark>
-      <shelfmark_indexer>Aug. perg. 0132 [old] (018)</shelfmark_indexer>
+      <shelfmark_indexer>Aug. perg. 0132 (018)</shelfmark_indexer>
       <link type="images">https://nbn-resolving.de/urn:nbn:de:bsz:31-7326</link>
 		<link type="iiif" index="33">https://digital.blb-karlsruhe.de/i3f/v20/64199/manifest</link>
    </identifier>
@@ -27,6 +27,7 @@
       <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=59">Foundations of Irish Culture</link>
    </refs>
    <notes categories="#or-ire #sc-ire">
+      Rewritten with Priscian (<ms id="56">MIrA 56</ms>).
    </notes>
    <revisionDesc>
       <change who="Pádraic Moran" when="2021-05-01">Created</change>

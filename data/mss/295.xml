@@ -1,18 +1,18 @@
 <?xml version='1.0' encoding='utf-8'?>
-<manuscript id="61">
+<manuscript id="295">
    <identifier libraryID="karlsruhe">
-      <shelfmark>Aug. perg. 167 (ff 15/18) [palimpsest old]</shelfmark>
-      <shelfmark_indexer>Aug. perg. 0167 (015)</shelfmark_indexer>
+      <shelfmark>Aug. perg. 195 (fol. 16) [palimpsest old]</shelfmark>
+      <shelfmark_indexer>Aug. perg. 0195 (016)</shelfmark_indexer>
       <link type="images">https://nbn-resolving.de/urn:nbn:de:bsz:31-1596</link>
 		<link type="iiif">https://digital.blb-karlsruhe.de/i3f/v20/20736/manifest</link>
    </identifier>
    <description>
       <type>Palimpsest</type>
-      <folios>2</folios>
+      <folios>1</folios>
       <page_h>285</page_h>
       <page_w>200</page_w>
       <contents>(illegible)</contents>
-      <script>Minuscule</script>
+      <script>Majuscule</script>
    </description>
    <history>
       <date_desc>VIII</date_desc>
@@ -22,10 +22,10 @@
       <provenance><place id="reichenau">Reichenau</place></provenance>
    </history>
    <refs>
-      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=61">Foundations of Irish Culture</link>
+      <canonical corresp="#cla" ><i>CLA</i> 8.1088</canonical>
    </refs>
    <notes categories="#or-ire #sc-ire">
-      Rewritten with Bede and computistica (<ms id="60">MIrA 60</ms>). See foliation notes for <i>CLA</i> 8.1085 in the <a href="http://foundationsirishculture.ie/record/?id=61">Foundations of Irish Culture</a> catalogue. 
+      Rewritten with Augustine (<ms id="70">MIrA 70</ms>).
    </notes>
    <revisionDesc>
       <change who="Pádraic Moran" when="2021-05-01">Created</change>

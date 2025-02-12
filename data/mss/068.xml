@@ -11,7 +11,7 @@
       <folios>1</folios>
       <page_h>263</page_h>
       <page_w>175</page_w>
-      <contents>Antiphonarium (Liturgia Sabbati Sancti (?))</contents>
+      <contents>Antiphonarium (Liturgia Sabbati Sancti?)</contents>
       <script>Irish majuscule</script>
    </description>
    <history>
@@ -26,6 +26,7 @@
       <canonical href="https://www.trismegistos.org/text/67229">TM 67229</canonical>
    </refs>
    <notes categories="#or-ire #sc-ire #vern">
+      Rewritten with Augustine (<ms id="70">MIrA 70</ms>).
    </notes>
    <revisionDesc>
       <change who="Pádraic Moran" when="2021-05-01">Created</change>

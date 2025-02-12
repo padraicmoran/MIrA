@@ -4,7 +4,7 @@
       <shelfmark>Fragm. Aug. 18 [palimpsest new]</shelfmark>
       <shelfmark_indexer>Fragm. Aug. 0018</shelfmark_indexer>
       <link type="images">https://nbn-resolving.de/urn:nbn:de:bsz:31-1965</link>
-		<link type="iiif">https://digital.blb-karlsruhe.de/i3f/v20/21598/manifest</link>
+		<link type="iiif">https://digital.blb-karlsruhe.de/i3f/v20/21589/manifest</link>
    </identifier>
    <description>
       <type>Binding frag.</type>
@@ -27,7 +27,9 @@
       <bibl corresp="#bronner">Bronner 2013: 17</bibl>
    </refs>
    <notes categories="#or-ire #sc-ire #scribe #vern">
-      This and Fragm. Aug. 17 detached from binding of Aug. 167 (Bede). "(Libe)r trinitatis et sci cronáni filii lugaedón." <ms id="72">Re-written</ms> over eighth-century majuscule. 
+      Written over MIrA <ms id="72">72</ms>.
+      Fragm. Aug. 17 and 18 detached from the binding of Aug. 167 (<ms id="60">MIrA 60</ms>). 
+      "(Libe)r trinitatis et sci cronáni filii lugaedón." 
       </notes>
    <revisionDesc>
       <change who="Pádraic Moran" when="2021-05-01">Created</change>

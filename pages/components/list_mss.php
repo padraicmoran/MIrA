@@ -55,6 +55,7 @@ function listMSS($results) {
 <table class="table table-striped table-hover table-sm small border-secondary">
 <thead>
 <tr>
+<th>MIrA ID</th>
 <th>City</th>
 <th>Library</th>
 <th>Shelfmark/section</th>
@@ -77,6 +78,7 @@ function listMSS($results) {
 	
 		$libraryID = strval($ms->identifier['libraryID']);	
 		print '<tr style="cursor: pointer; " onclick="location.href=\''. $link . '\'">' . "\n";
+		print '<td>' . $ms['id'] . '</td>';
 		print '<td>' . $libraries[$libraryID]['city'] . '</td>';
 		print '<td>' . $libraries[$libraryID]['name'] . '</td>';
 

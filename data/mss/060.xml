@@ -28,8 +28,9 @@
       <bibl corresp="#bronner">Bronner 2013: 19–20</bibl>
    <canonical corresp="#alexander">Alexander, no. 69</canonical></refs>
    <notes categories="#or-ire #sc-ire #vern">
-      Old Irish glosses. Rewritten over four older manuscript fragments: 
-      MIrA <ms id="61">61</ms>, <ms id="62">62</ms>, <ms id="63">63</ms>, <ms id="59">59</ms>, <ms id="64">64</ms>.
+      Written over MIrA <ms id="61">61</ms>, <ms id="62">62</ms>, <ms id="63">63</ms>, <ms id="59">59</ms>, <ms id="64">64</ms>.
+      Binding contained Aug. Frag. 17 and 18 (MIrA <ms id="300">300</ms>, <ms id="235">235</ms>).
+      Old Irish glosses. 
    </notes>
    <revisionDesc>
       <change who="Pádraic Moran" when="2021-05-01">Created</change>
