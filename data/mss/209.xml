@@ -6,8 +6,8 @@
    <description>
       <type />
       <folios>1</folios>
-      <page_h>182</page_h>
-      <page_w>140</page_w>
+      <page_h>18.2</page_h>
+      <page_w>14</page_w>
       <contents>Rufinus, <i>Historia Ecclesiastica</i> (1.1–3, 10)</contents>
       <script>Irish Half-Uncial</script>
    </description>
@@ -22,7 +22,7 @@
       <canonical href="https://www.trismegistos.org/text/68726">TM 68726</canonical>
    </refs>
    <notes categories="#or-ire #sc-ire">
-      1 bifolium (now 130 mm width; 2 cols)
+      1 bifolium (now 13 cm width; 2 cols)
    </notes>
    <revisionDesc>
       <change who="Pádraic Moran" when="2021-05-01">Created</change>

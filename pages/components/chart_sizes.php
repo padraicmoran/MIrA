@@ -53,8 +53,8 @@ function chartSizes($data) {
 		
 		print '<p>';
 		print 'Data available for ' . $cntSizes . ' ' . switchSgPl($cntSizes, 'manuscript', 'manuscripts') . ' (' . intval($cntSizes / count($data) * 100) . '% of this list). <br/>';
-		print 'Height range: ' . $minH . '–' . $maxH . ' mm (average ' . $avgH . ' mm). ';
-		print 'Width range: ' . $minW . '–' . $maxW . ' mm (average ' . $avgW . ' mm). <br/>';
+		print 'Height range: ' . $minH . '–' . $maxH . ' cm (average ' . $avgH . ' cm). ';
+		print 'Width range: ' . $minW . '–' . $maxW . ' cm (average ' . $avgW . ' cm). <br/>';
 		print 'Heights charted below (with red line for average). Click on a bar to view manuscript.</p>';
 
 		// sort asc
@@ -74,8 +74,8 @@ function chartSizes($data) {
 
 		// y-scale
 		$yAxisMin = 0;
-		$yAxisMax = 400;
-		$yAxisStep = 100;
+		$yAxisMax = 40;
+		$yAxisStep = 10;
 		
 		// chart
 		print '<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="280" style="border: none;">';
@@ -90,7 +90,7 @@ function chartSizes($data) {
 
 		foreach ($sizes as $ms) {
 			$cntSizes ++;
-			$label = $ms[3] . ': height ' . $ms[0] . ' mm';
+			$label = $ms[3] . ': height ' . $ms[0] . ' cm';
 			drawBar($cntSizes, $ms[0], $xAxisMin, $xAxisMax, $xPad, $yAxisMin, $yAxisMax, $yPad, 'blue', '/' . $ms[2], $label);
 		}
 		

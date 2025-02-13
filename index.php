@@ -7,7 +7,7 @@ $id = cleanInput('id') ?? '';
 $search = cleanInput('search') ?? '';
 
 // if search is a number, redirect to ms page
-if ($search && (int) $search <= 300) {
+if ((int) $search > 0 && (int) $search <= 300) {
 	$page = 'mss';
 	$id = $search;
 }

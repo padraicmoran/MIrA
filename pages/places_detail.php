@@ -59,6 +59,7 @@ if (file_exists('data/places.xml')) {
 				if ($link['type'] == 'pleiades') print '<a href="' . $link . '">Pleiades</a><br/>';
 				if ($link['type'] == 'viaf') print '<a href="' . $link . '">VIAF</a><br/>';
 				if ($link['type'] == 'wikidata') print '<a href="' . $link . '">Wikidata</a><br/>';
+				if ($link['type'] == 'biblissima') print '<a href="' . $link . '">Biblissima</a><br/>';
 			}
 		}
 

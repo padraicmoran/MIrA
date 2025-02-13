@@ -7,8 +7,8 @@
    <description>
       <type />
       <folios>8</folios>
-      <page_h>225</page_h>
-      <page_w>155</page_w>
+      <page_h>22.5</page_h>
+      <page_w>15.5</page_w>
       <contents>
          <i>Vitae Virgilii</i> (× 2); 
          various notes on Latin texts;
@@ -108,8 +108,8 @@
    <description>
       <type />
       <folios>4</folios>
-      <page_h>300</page_h>
-      <page_w>245</page_w>
+      <page_h>30</page_h>
+      <page_w>24.5</page_w>
       <contents>Bede, <i>De Temporum Ratione</i> (7–22)</contents>
       <script>Irish minuscule</script>
    </description>
@@ -169,8 +169,8 @@
    <description>
       <type>Flyleaf</type>
       <folios>1</folios>
-      <page_h>242</page_h>
-      <page_w>215</page_w>
+      <page_h>24.2</page_h>
+      <page_w>21.5</page_w>
       <contents>Old Testament (Vulgata, Iob 33.24–34.22)</contents>
       <script>Irish majuscule</script>
    </description>
@@ -257,8 +257,8 @@
    <description>
       <type>Flyleaf</type>
       <folios>1</folios>
-      <page_h>245</page_h>
-      <page_w>190</page_w>
+      <page_h>24.5</page_h>
+      <page_w>19</page_w>
       <contents>Sacramentarium Celticum (fragm.)</contents>
       <script>Irish majuscule</script>
    </description>
@@ -288,8 +288,8 @@
    <description>
       <type />
       <folios>3</folios>
-      <page_h>230</page_h>
-      <page_w>195</page_w>
+      <page_h>23</page_h>
+      <page_w>19.5</page_w>
       <contents><person id="augustine">Augustine</person>, <i>De vera religione</i></contents>
       <script>Irish minuscule</script>
    </description>
@@ -316,8 +316,8 @@
    <description>
       <type />
       <folios>27</folios>
-      <page_h>237</page_h>
-      <page_w>195</page_w>
+      <page_h>23.7</page_h>
+      <page_w>19.5</page_w>
       <contents>Cassiodorus, <i>Expositio psalmorum</i></contents>
       <script>Irish minuscule</script>
    </description>
@@ -345,8 +345,8 @@
    <description>
       <type />
       <folios>185</folios>
-      <page_h>300</page_h>
-      <page_w>235</page_w>
+      <page_h>30</page_h>
+      <page_w>23.5</page_w>
       <contents><text id="lathcen">Lathcen, <i>Ecloga Gregorii Moralium in Iob</i></text></contents>
       <script>Early Caroline minuscule</script>
    </description>
@@ -375,8 +375,8 @@
    <description>
       <type />
       <folios>2</folios>
-      <page_h>260</page_h>
-      <page_w>152</page_w>
+      <page_h>26</page_h>
+      <page_w>15.2</page_w>
       <contents>Bede, <i>Commentarius in Parabolas Salomonis</i> + (frag.) <person id="augustine">Augustine</person>, <i>De quantitate animae</i></contents>
       <script />
    </description>
@@ -406,8 +406,8 @@
    <description>
       <type />
       <folios>48</folios>
-      <page_h>230</page_h>
-      <page_w>165</page_w>
+      <page_h>23</page_h>
+      <page_w>16.5</page_w>
       <contents><person id="eriugena">Eriugena</person>, <i>Commentarius in evangelium Iohannis</i></contents>
       <script>Caroline minuscule</script>
    </description>
@@ -435,8 +435,8 @@
    <description>
       <type />
       <folios>318</folios>
-      <page_h>293</page_h>
-      <page_w>235</page_w>
+      <page_h>29.3</page_h>
+      <page_w>23.5</page_w>
       <contents>Glossary, grammatica, poetry</contents>
       <script>Caroline minuscule</script>
    </description>
@@ -466,8 +466,8 @@
    <description>
       <type />
       <folios>204</folios>
-      <page_h>345</page_h>
-      <page_w>245</page_w>
+      <page_h>34.5</page_h>
+      <page_w>24.5</page_w>
       <contents><person id="isidore">Isidore</person>, <i>Etymologiae</i></contents>
       <script />
    </description>
@@ -496,8 +496,8 @@
    <description>
       <type />
       <folios>44</folios>
-      <page_h>220</page_h>
-      <page_w>157</page_w>
+      <page_h>22</page_h>
+      <page_w>15.7</page_w>
       <contents>Bede, <i>De schematibus et tropis</i>; Alcuin, <i>Ars grammatica</i>, <i>Deo orthographia</i></contents>
       <script />
    </description>
@@ -525,8 +525,8 @@
    <description>
       <type />
       <folios>61</folios>
-      <page_h>310</page_h>
-      <page_w>230</page_w>
+      <page_h>31</page_h>
+      <page_w>23</page_w>
       <contents><i>Commentarii in Virgilium</i>, Sedulium artesque liberales</contents>
       <script>Caroline minuscule</script>
    </description>
@@ -553,8 +553,8 @@
    <description>
       <type />
       <folios>116</folios>
-      <page_h>282</page_h>
-      <page_w>173</page_w>
+      <page_h>28.2</page_h>
+      <page_w>17.3</page_w>
       <contents><person id="jerome">Jerome</person>, <i>Liber interpretationis Hebraicorum nominum</i></contents>
       <script>Caroline minuscule</script>
    </description>
@@ -609,8 +609,8 @@
    <description>
       <type />
       <folios>53</folios>
-      <page_h>250</page_h>
-      <page_w>165</page_w>
+      <page_h>25</page_h>
+      <page_w>16.5</page_w>
       <contents><i>Liber Questionum in Evangeliis</i></contents>
       <script />
    </description>
@@ -638,8 +638,8 @@
    <description>
       <type />
       <folios>153</folios>
-      <page_h>270</page_h>
-      <page_w>205</page_w>
+      <page_h>27</page_h>
+      <page_w>20.5</page_w>
       <contents>Anonymi Scotti <i>Commentarius in Matthaeum</i>; Bede, <i>Libellus retractationis in Actus apostolorum</i>; <i>Liber Questionum in Evangeliis</i>; etc.</contents>
       <script />
    </description>
@@ -669,8 +669,8 @@
    <description>
       <type />
       <folios>14</folios>
-      <page_h>220</page_h>
-      <page_w>192</page_w>
+      <page_h>22</page_h>
+      <page_w>19.2</page_w>
       <contents><person id="eriugena">Eriugena</person>, <i>Glossae divinae historiae</i> (110v–115v)</contents>
       <script />
    </description>
@@ -701,8 +701,8 @@
    <description>
       <type />
       <folios>107</folios>
-      <page_h>312</page_h>
-      <page_w>252</page_w>
+      <page_h>31.2</page_h>
+      <page_w>25.2</page_w>
       <contents>Chirius Fortunatianus, etc.</contents>
       <script>Caroline minuscule</script>
    </description>
@@ -731,8 +731,8 @@
    <description>
       <type />
       <folios>2</folios>
-      <page_h>350</page_h>
-      <page_w>285</page_w>
+      <page_h>35</page_h>
+      <page_w>28.5</page_w>
       <contents>Sacramentarium (fragm.)</contents>
       <script>Insular majuscule</script>
    </description>
@@ -762,8 +762,8 @@
    <description>
       <type />
       <folios>2</folios>
-      <page_h>350</page_h>
-      <page_w>285</page_w>
+      <page_h>35</page_h>
+      <page_w>28.5</page_w>
       <contents>Antiphonarium (fragm.)</contents>
       <script>Irish majuscule</script>
    </description>
@@ -793,8 +793,8 @@
    <description>
       <type />
       <folios>1</folios>
-      <page_h>350</page_h>
-      <page_w>285</page_w>
+      <page_h>35</page_h>
+      <page_w>28.5</page_w>
       <contents>Sacramentarium (fragm.)</contents>
       <script>Irish majuscule</script>
    </description>
@@ -824,8 +824,8 @@
    <description>
       <type />
       <folios>247</folios>
-      <page_h>310</page_h>
-      <page_w>220</page_w>
+      <page_h>31</page_h>
+      <page_w>22</page_w>
       <contents><text id="priscian_ars">Priscian</text></contents>
       <script>Caroline minuscule</script>
    </description>
@@ -857,8 +857,8 @@
    <description>
       <type>Binding fragment</type>
       <folios>1</folios>
-      <page_h>300</page_h>
-      <page_w>240</page_w>
+      <page_h>30</page_h>
+      <page_w>24</page_w>
       <contents>Computistica (Dionysius Exiguus, <i>Tabula Paschalis</i>; Anatolius, <i>Canon Paschalis</i>); Augustine, <i>De Genesi ad Literam</i> (2.14); Gaudentius, <i>Tractatus I in Exodum</i></contents>
       <script>Mixed Anglo-Saxon majuscule and minuscule</script>
    </description>
@@ -895,8 +895,8 @@
    <description>
       <type />
       <folios>2</folios>
-      <page_h>250</page_h>
-      <page_w>190</page_w>
+      <page_h>25</page_h>
+      <page_w>19</page_w>
       <contents>Eutyches, <i>De Verbo</i> (fragm.)</contents>
       <script>Irish minuscule</script>
    </description>
@@ -931,8 +931,8 @@
    <description>
       <type />
       <folios>114</folios>
-      <page_h>255</page_h>
-      <page_w>170</page_w>
+      <page_h>25.5</page_h>
+      <page_w>17</page_w>
       <contents>Philargyrius; Georgicorum Brevis Expositio; Vita Virgilii; Commentum Aeneidos</contents>
       <script />
    </description>
@@ -963,8 +963,8 @@
    <description>
       <type />
       <folios>1</folios>
-      <page_h>250</page_h>
-      <page_w>190</page_w>
+      <page_h>25</page_h>
+      <page_w>19</page_w>
       <contents>Consentius, <i>Excerpta ex Arte</i> (fragm.)</contents>
       <script>Insular majuscule and Insular minuscule</script>
    </description>
@@ -995,8 +995,8 @@
    <description>
       <type />
       <folios>13</folios>
-      <page_h>250</page_h>
-      <page_w>182</page_w>
+      <page_h>25</page_h>
+      <page_w>18.2</page_w>
       <contents>Gregory the Great, <i>Homiliae</i></contents>
       <script />
    </description>
@@ -1025,8 +1025,8 @@
    <description>
       <type />
       <folios>4</folios>
-      <page_h>265</page_h>
-      <page_w>235</page_w>
+      <page_h>26.5</page_h>
+      <page_w>23.5</page_w>
       <contents>Anonymous, <i>Commentarii in Matthaeum</i> (fragm.)</contents>
       <script>Irish minuscule</script>
    </description>
@@ -1057,8 +1057,8 @@
    <description>
       <type />
       <folios>61</folios>
-      <page_h>265</page_h>
-      <page_w>185</page_w>
+      <page_h>26.5</page_h>
+      <page_w>18.5</page_w>
       <contents>Eutyches, Cruindmel, Donatus Ortigraphus, Ars Malsachani (ff 161r–181v), etc.</contents>
       <script />
    </description>
@@ -1089,8 +1089,8 @@
    <description>
       <type />
       <folios>30</folios>
-      <page_h>285</page_h>
-      <page_w>190</page_w>
+      <page_h>28.5</page_h>
+      <page_w>19</page_w>
       <contents>Adamnán, <i>De locis sanctis</i>; Venantius Fortunatus</contents>
       <script />
    </description>
@@ -1120,8 +1120,8 @@
    <description>
       <type />
       <folios>66</folios>
-      <page_h>220</page_h>
-      <page_w>153</page_w>
+      <page_h>22</page_h>
+      <page_w>15.3</page_w>
       <contents>Greek <text id="psalms">Psalms</text>; Cantica, etc.</contents>
       <script>Irish minuscule</script>
    </description>
@@ -1153,8 +1153,8 @@
    <description>
       <type />
       <folios>221</folios>
-      <page_h>248</page_h>
-      <page_w>207</page_w>
+      <page_h>24.8</page_h>
+      <page_w>20.7</page_w>
       <contents>Maximus Confessor, Ambigua Iohanne Scoto interprete</contents>
       <script>Caroline minuscule</script>
    </description>
@@ -1182,8 +1182,8 @@
    <description>
       <type />
       <folios>184</folios>
-      <page_h>247</page_h>
-      <page_w>202</page_w>
+      <page_h>24.7</page_h>
+      <page_w>20.2</page_w>
       <contents>Maximus Confessor, Ambigua Iohanne Scoto interprete</contents>
       <script>Caroline minuscule</script>
    </description>
@@ -1212,8 +1212,8 @@
    <description>
       <type />
       <folios>130</folios>
-      <page_h>250</page_h>
-      <page_w>192</page_w>
+      <page_h>25</page_h>
+      <page_w>19.2</page_w>
       <contents>Pseudo-Augustine; <person id="isidore">Isidore</person>; Hrabanus Maurus; Martinus Dumiensis; Fulgentius Ferrandus; Ambrosius Autpertus; Alcuin</contents>
       <script />
    </description>
@@ -1299,8 +1299,8 @@
    <description>
       <type />
       <folios>230</folios>
-      <page_h>271</page_h>
-      <page_w>226</page_w>
+      <page_h>27.1</page_h>
+      <page_w>22.6</page_w>
       <contents><person id="eriugena">Eriugena</person>, <i>Peri physeon</i> (lib. 1–3)</contents>
       <script>Caroline minuscule (Soissons style)</script>
    </description>
@@ -1327,8 +1327,8 @@
    <description>
       <type />
       <folios>24</folios>
-      <page_h>190</page_h>
-      <page_w>158</page_w>
+      <page_h>19</page_h>
+      <page_w>15.8</page_w>
       <contents>Candidus Arrianus; Marius Victorinus; etc.</contents>
       <script>Caroline minuscule</script>
    </description>
@@ -1354,8 +1354,8 @@
    <description>
       <type />
       <folios>242</folios>
-      <page_h>263</page_h>
-      <page_w>250</page_w>
+      <page_h>26.3</page_h>
+      <page_w>25</page_w>
       <contents>Claudius Taurinensis, <i>In evangelium Mathhaei</i></contents>
       <script>Caroline minuscule</script>
    </description>
@@ -1381,8 +1381,8 @@
    <description>
       <type />
       <folios>124</folios>
-      <page_h>240</page_h>
-      <page_w>185</page_w>
+      <page_h>24</page_h>
+      <page_w>18.5</page_w>
       <contents><person id="augustine">Augustine</person>, <i>Enchiridion</i></contents>
       <script>Caroline minuscule</script>
    </description>
@@ -1412,8 +1412,8 @@
    <description>
       <type>Bindings</type>
       <folios>2</folios>
-      <page_h>200</page_h>
-      <page_w>120</page_w>
+      <page_h>20</page_h>
+      <page_w>12</page_w>
       <contents>Caesarius Arelatensis, <i>Homiliae</i> (94, 102, fragm.)</contents>
       <script>Irish majuscule</script>
    </description>
@@ -1442,8 +1442,8 @@
    <description>
       <type />
       <folios>111</folios>
-      <page_h>247</page_h>
-      <page_w>190</page_w>
+      <page_h>24.7</page_h>
+      <page_w>19</page_w>
       <contents><text id="paul">Pauline Epistles</text>  (Greek, Latin interlinear)</contents>
       <script>Irish minuscule</script>
    </description>
@@ -1471,8 +1471,8 @@
    <description>
       <type />
       <folios>73</folios>
-      <page_h>220</page_h>
-      <page_w>180</page_w>
+      <page_h>22</page_h>
+      <page_w>18</page_w>
       <contents>Vegetius, <i>Epitoma rei militaris</i></contents>
       <script>Caroline minuscule</script>
    </description>
@@ -1531,14 +1531,14 @@
       <shelfmark>Bonifatianus 3</shelfmark>
       <ms_name>Cadmug Gospels</ms_name>
       <link type="images">https://fuldig.hs-fulda.de/viewer/resolver?urn=urn:nbn:de:hebis:66:fuldig-2615398</link>
-      <link type="iiif">https://fuldig.hs-fulda.de/viewer/rest/iiif/manifests/PPN325292043/manifest</link>
+      <link type="iiif">https://fuldig.hs-fulda.de/viewer/api/v1/records/PPN325292043/manifest/</link>
    </identifier>
    <description>
       <type />
       <folios />
       <page_h />
       <page_w />
-      <contents><text id="gospels">Gospels</text>  (Vulgata, Mt 1.1–9.27, 11.25–28.20, Mc 1.1–10.1, 12.1–37, 14.1–16.20, Lc, Io 1.1–18.15, 19.27–21.25)</contents>
+      <contents><text id="gospels">Gospels</text></contents>
       <script>Irish minuscule</script>
    </description>
    <history>
@@ -1549,10 +1549,12 @@
    </history>
    <refs>
       <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/1674"><i>CLA</i> 8.1198</canonical>
+      <canonical href="https://data.biblissima.fr/entity/Q227061">Biblissima Q227061</canonical>
       <canonical href="https://www.trismegistos.org/text/67339">TM 67339</canonical>
       <bibl corresp="#bronner">Bronner 2013: 16</bibl>
    <canonical corresp="#alexander">Alexander, no. 49</canonical></refs>
    <notes categories="#or-ire #sc-ire #vern">
+      Vulgata, Mt 1.1–9.27, 11.25–28.20, Mc 1.1–10.1, 12.1–37, 14.1–16.20, Lc, Io 1.1–18.15, 19.27–21.25.
       Old Irish glosses (16). 
    </notes>
    <revisionDesc>
@@ -1598,8 +1600,8 @@
    <description>
       <type />
       <folios>90</folios>
-      <page_h>415</page_h>
-      <page_w>280</page_w>
+      <page_h>41.5</page_h>
+      <page_w>28</page_w>
       <contents>Canon law, incl. Collectio Canonum Hibernensis</contents>
       <script />
    </description>
@@ -1629,8 +1631,8 @@
    <description>
       <type />
       <folios>1</folios>
-      <page_h>261</page_h>
-      <page_w>180</page_w>
+      <page_h>26.1</page_h>
+      <page_w>18</page_w>
       <contents>Sacramentarium Celticum (fragm.)</contents>
       <script>Irish majuscule</script>
    </description>
@@ -1662,8 +1664,8 @@
    <description>
       <type />
       <folios>12</folios>
-      <page_h>300</page_h>
-      <page_w>212</page_w>
+      <page_h>30</page_h>
+      <page_w>21.2</page_w>
       <contents>Old Testament, Prophets (Vetus Latina, Dn, fragm.)</contents>
       <script>Irish majuscule</script>
    </description>
@@ -1696,8 +1698,8 @@
    <description>
       <type />
       <folios>107</folios>
-      <page_h>300</page_h>
-      <page_w>215</page_w>
+      <page_h>30</page_h>
+      <page_w>21.5</page_w>
       <contents><text id="priscian_ars">Priscian</text></contents>
       <script>Irish minuscule</script>
    </description>
@@ -1730,8 +1732,8 @@
    <description>
       <type />
       <folios>105</folios>
-      <page_h>298</page_h>
-      <page_w>213</page_w>
+      <page_h>29.8</page_h>
+      <page_w>21.3</page_w>
       <contents>Bede, <i>Super Actus apostolorum expositio</i>; Glossae in partem Veteris Testamenti</contents>
       <script>Caroline minuscule</script>
    </description>
@@ -1760,8 +1762,8 @@
    <description>
       <type />
       <folios>26</folios>
-      <page_h>290</page_h>
-      <page_w>205</page_w>
+      <page_h>29</page_h>
+      <page_w>20.5</page_w>
       <contents>Explanatio brevis in epistulas Pauli (Rm, Phil, Col, I Th)</contents>
       <script>Caroline minuscule</script>
    </description>
@@ -1790,8 +1792,8 @@
    <description>
       <type>Palimpsest</type>
       <folios>1</folios>
-      <page_h>285</page_h>
-      <page_w>200</page_w>
+      <page_h>28.5</page_h>
+      <page_w>20</page_w>
       <contents>Sacramentarium Celticum (fragm.)</contents>
       <script>Irish majuscule</script>
    </description>
@@ -1824,8 +1826,8 @@
    <description>
       <type />
       <folios>49</folios>
-      <page_h>281</page_h>
-      <page_w>199</page_w>
+      <page_h>28.1</page_h>
+      <page_w>19.9</page_w>
       <contents>Computistica; Bede, <i>De natura rerum</i>, <i>De temporum ratione</i></contents>
       <script>Irish minuscule</script>
    </description>
@@ -1859,8 +1861,8 @@
    <description>
       <type>Palimpsest</type>
       <folios>2</folios>
-      <page_h>285</page_h>
-      <page_w>200</page_w>
+      <page_h>28.5</page_h>
+      <page_w>20</page_w>
       <contents>(illegible)</contents>
       <script>Minuscule</script>
    </description>
@@ -1922,8 +1924,8 @@
    <description>
       <type>Palimpsest</type>
       <folios>7</folios>
-      <page_h>285</page_h>
-      <page_w>200</page_w>
+      <page_h>28.5</page_h>
+      <page_w>20</page_w>
       <contents>(Apparently biblical or liturgical)</contents>
       <script>Majuscule</script>
    </description>
@@ -1954,8 +1956,8 @@
    <description>
       <type />
       <folios>10</folios>
-      <page_h>285</page_h>
-      <page_w>200</page_w>
+      <page_h>28.5</page_h>
+      <page_w>20</page_w>
       <contents>(Grammatical)</contents>
       <script>Minuscule</script>
    </description>
@@ -1984,8 +1986,8 @@
    <description>
       <type />
       <folios>5</folios>
-      <page_h>263</page_h>
-      <page_w>175</page_w>
+      <page_h>26.3</page_h>
+      <page_w>17.5</page_w>
       <contents>Sacramentarium Gelasianum (fragm.)</contents>
       <script>Irish majuscule</script>
    </description>
@@ -2016,8 +2018,8 @@
    <description>
       <type />
       <folios>2</folios>
-      <page_h>263</page_h>
-      <page_w>175</page_w>
+      <page_h>26.3</page_h>
+      <page_w>17.5</page_w>
       <contents>Sacramentarium (fragm.)</contents>
       <script>Irish majuscule</script>
    </description>
@@ -2048,8 +2050,8 @@
    <description>
       <type />
       <folios>1</folios>
-      <page_h>263</page_h>
-      <page_w>175</page_w>
+      <page_h>26.3</page_h>
+      <page_w>17.5</page_w>
       <contents>Fragmentum Liturgicum (Sacramentarium?)</contents>
       <script>Irish majuscule</script>
    </description>
@@ -2080,8 +2082,8 @@
    <description>
       <type />
       <folios>1</folios>
-      <page_h>263</page_h>
-      <page_w>175</page_w>
+      <page_h>26.3</page_h>
+      <page_w>17.5</page_w>
       <contents>Antiphonarium (Liturgia Sabbati Sancti?)</contents>
       <script>Irish majuscule</script>
    </description>
@@ -2112,8 +2114,8 @@
    <description>
       <type />
       <folios>5</folios>
-      <page_h>263</page_h>
-      <page_w>175</page_w>
+      <page_h>26.3</page_h>
+      <page_w>17.5</page_w>
       <contents>Antiphonarium (fragm.)</contents>
       <script>Irish minuscule</script>
    </description>
@@ -2144,8 +2146,8 @@
    <description>
       <type />
       <folios>47</folios>
-      <page_h>263</page_h>
-      <page_w>175</page_w>
+      <page_h>26.3</page_h>
+      <page_w>17.5</page_w>
       <contents><person id="augustine">Augustine</person>, <i>Soliloquia</i></contents>
       <script>Irish minuscule (&amp; Half-Uncial)</script>
    </description>
@@ -2179,8 +2181,8 @@
    <description>
       <type />
       <folios>40</folios>
-      <page_h>228</page_h>
-      <page_w>148</page_w>
+      <page_h>22.8</page_h>
+      <page_w>14.8</page_w>
       <contents>Commentary on Catholic Epistles</contents>
       <script>Minuscule, some Alemannic character</script>
    </description>
@@ -2338,8 +2340,8 @@
    <description>
       <type />
       <folios>38</folios>
-      <page_h>340</page_h>
-      <page_w>260</page_w>
+      <page_h>34</page_h>
+      <page_w>26</page_w>
       <contents><person id="jerome">Jerome</person>, <i>Commentarii in Prophetas Minores</i></contents>
       <script>Irish minuscule</script>
    </description>
@@ -2367,8 +2369,8 @@
    <description>
       <type />
       <folios>28</folios>
-      <page_h>258</page_h>
-      <page_w>195</page_w>
+      <page_h>25.8</page_h>
+      <page_w>19.5</page_w>
       <contents>Anonymi Scotti Commentarius in evangelium Marci</contents>
       <script>Minuscule</script>
    </description>
@@ -2488,8 +2490,8 @@
    <description>
       <type />
       <folios>45</folios>
-      <page_h>192</page_h>
-      <page_w>152</page_w>
+      <page_h>19.2</page_h>
+      <page_w>15.2</page_w>
       <contents>Donatus Ortigraphus</contents>
       <script />
    </description>
@@ -2521,8 +2523,8 @@
    <description>
       <type />
       <folios>40</folios>
-      <page_h>180</page_h>
-      <page_w>130</page_w>
+      <page_h>18</page_h>
+      <page_w>13</page_w>
       <contents>Arnobius Iunior, <i>Interpretatio Evangeliorum</i> (incompl.); <person id="jerome">Jerome</person>, <i>Epistulae</i> (<i>Ad Nepotianum, Ad Paulinum</i>)</contents>
       <script>Early Caroline minuscule</script>
    </description>
@@ -2553,8 +2555,8 @@
    <description>
       <type />
       <folios>76</folios>
-      <page_h>255</page_h>
-      <page_w>185</page_w>
+      <page_h>25.5</page_h>
+      <page_w>18.5</page_w>
       <contents><person id="isidore">Isidore</person> (excerpts); Eucherius, <i>Instructiones</i>; etc.</contents>
       <script>Irish and Caroline minuscule</script>
    </description>
@@ -2618,8 +2620,8 @@
    <description>
       <type />
       <folios>228</folios>
-      <page_h>250</page_h>
-      <page_w>180</page_w>
+      <page_h>25</page_h>
+      <page_w>18</page_w>
       <contents>Liber Glossarum (ff 3r–221v), etc.</contents>
       <script>Irish minuscule</script>
    </description>
@@ -2686,8 +2688,8 @@
    <description>
       <type />
       <folios>12</folios>
-      <page_h>242</page_h>
-      <page_w>190</page_w>
+      <page_h>24.2</page_h>
+      <page_w>19</page_w>
       <contents>Eucherius, <i>Formulae</i>; <person id="augustine">Augustine</person>, excepts etc.</contents>
       <script>Irish and Caroline minuscule</script>
    </description>
@@ -2717,8 +2719,8 @@
    <description>
       <type />
       <folios>62</folios>
-      <page_h>173</page_h>
-      <page_w>127</page_w>
+      <page_h>17.3</page_h>
+      <page_w>12.7</page_w>
       <contents><i>Commentarius in VII epistulas canonicas</i>; Glossae Latinae-Theotiscae</contents>
       <script>Caroline minuscule (untrained)</script>
    </description>
@@ -2748,8 +2750,8 @@
    <description>
       <type />
       <folios>123</folios>
-      <page_h>121</page_h>
-      <page_w>95</page_w>
+      <page_h>12.1</page_h>
+      <page_w>9.5</page_w>
       <contents>Erchanbertus, <i>Commentarius in Donatum</i>; Sortilegia Celtica</contents>
       <script />
    </description>
@@ -2875,8 +2877,8 @@
    <description>
       <type />
       <folios>36</folios>
-      <page_h>320</page_h>
-      <page_w>235</page_w>
+      <page_h>32</page_h>
+      <page_w>23.5</page_w>
       <contents><text id="paul">Pauline Epistles</text>  (Vulgata, Rm, 1 Cor, 2 Cor, Gal, Eph, Phil, Col, 1 Th, 2 Th, 1 Tim, 2 Tim, Tit, Phlm, Hbr)</contents>
       <script>Irish minuscule</script>
    </description>
@@ -2940,8 +2942,8 @@
    <description>
       <type />
       <folios>34</folios>
-      <page_h>295</page_h>
-      <page_w>240</page_w>
+      <page_h>29.5</page_h>
+      <page_w>24</page_w>
       <contents><text id="gospels">Gospels</text>  (Vulgata, Mt)</contents>
       <script>Irish majuscule</script>
    </description>
@@ -2973,8 +2975,8 @@
    <description>
       <type>Flyleaf</type>
       <folios>1</folios>
-      <page_h>306</page_h>
-      <page_w>230</page_w>
+      <page_h>30.6</page_h>
+      <page_w>23</page_w>
       <contents>Bede, <i>De Ratione Temporum</i> (praefatio, capitula)</contents>
       <script>Irish majuscule verging on minuscule</script>
    </description>
@@ -3003,8 +3005,8 @@
    <description>
       <type />
       <folios>58</folios>
-      <page_h>270</page_h>
-      <page_w>190</page_w>
+      <page_h>27</page_h>
+      <page_w>19</page_w>
       <contents><text id="psalms">Psalms</text> 30.10–105.13</contents>
       <script>Early Irish majuscule</script>
    </description>
@@ -3033,8 +3035,8 @@
    <description>
       <type />
       <folios>182</folios>
-      <page_h>175</page_h>
-      <page_w>125</page_w>
+      <page_h>17.5</page_h>
+      <page_w>12.5</page_w>
       <contents><text id="gospels">Gospels</text>  (Vetus latina, Mt, Mc, Lc, Io fragm.)</contents>
       <script>Irish majuscule verging on minuscule</script>
    </description>
@@ -3066,8 +3068,8 @@
    <description>
       <type />
       <folios>6</folios>
-      <page_h>77</page_h>
-      <page_w>210</page_w>
+      <page_h>7.7</page_h>
+      <page_w>21</page_w>
       <contents>Old Testament (Vetus Latina, <text id="psalms">Psalms</text> 30–32)</contents>
       <script>Early Irish minuscule</script>
    </description>
@@ -3096,8 +3098,8 @@
    <description>
       <type />
       <folios>248</folios>
-      <page_h>247</page_h>
-      <page_w>160</page_w>
+      <page_h>24.7</page_h>
+      <page_w>16</page_w>
       <contents><text id="gospels">Gospels</text>  (Mt, Mc, Lc, Io)</contents>
       <script>Insular majuscule</script>
    </description>
@@ -3130,8 +3132,8 @@
    <description>
       <type />
       <folios>340</folios>
-      <page_h>330</page_h>
-      <page_w>250</page_w>
+      <page_h>33</page_h>
+      <page_w>25</page_w>
       <contents><text id="gospels">Gospels</text>  (Mt, Mc, Lc, Io)</contents>
       <script>Irish majuscule</script>
    </description>
@@ -3163,8 +3165,8 @@
    <description>
       <type />
       <folios>74</folios>
-      <page_h>175</page_h>
-      <page_w>142</page_w>
+      <page_h>17.5</page_h>
+      <page_w>14.2</page_w>
       <contents><text id="gospels">Gospels</text>  (Mt, Mc, Lc, Io)</contents>
       <script>Irish cursive</script>
    </description>
@@ -3198,8 +3200,8 @@
    <description>
       <type />
       <folios>94</folios>
-      <page_h>165</page_h>
-      <page_w>120</page_w>
+      <page_h>16.5</page_h>
+      <page_w>12</page_w>
       <contents><text id="gospels">Gospels</text>  (Vetus Latina, Mt 26.42–27.35, Mc 1.1–4.8, 5.18–6.35)</contents>
       <script>Irish minuscule</script>
    </description>
@@ -3229,8 +3231,8 @@
    <description>
       <type />
       <folios>11</folios>
-      <page_h>145</page_h>
-      <page_w>114</page_w>
+      <page_h>14.5</page_h>
+      <page_w>11.4</page_w>
       <contents><text id="gospels">Gospels</text>  (Io, excerpta)</contents>
       <script>Irish minuscule</script>
    </description>
@@ -3262,8 +3264,8 @@
    <description>
       <type />
       <folios>55</folios>
-      <page_h>140</page_h>
-      <page_w>115</page_w>
+      <page_h>14</page_h>
+      <page_w>11.5</page_w>
       <contents>Sacramentarium Celticum</contents>
       <script>Irish majuscule</script>
    </description>
@@ -3295,8 +3297,8 @@
    <description>
       <type />
       <folios>39</folios>
-      <page_h>230</page_h>
-      <page_w>155</page_w>
+      <page_h>23</page_h>
+      <page_w>15.5</page_w>
       <contents><text id="gospels">Gospels</text>  (Mt, Mc, Lc, Io fragm.)</contents>
       <script>Irish majuscule</script>
    </description>
@@ -3327,8 +3329,8 @@
    <description>
       <type />
       <folios>86</folios>
-      <page_h>241</page_h>
-      <page_w>192</page_w>
+      <page_h>24.1</page_h>
+      <page_w>19.2</page_w>
       <contents><text id="gospels">Gospels</text>  (Vetus latina, Mt, Mc, Lc, Io)</contents>
       <script>Irish majuscule</script>
    </description>
@@ -3358,8 +3360,8 @@
    <description>
       <type />
       <folios>4</folios>
-      <page_h>155</page_h>
-      <page_w>120</page_w>
+      <page_h>15.5</page_h>
+      <page_w>12</page_w>
       <contents><text id="gospels">Gospels</text>  (Mt. 26.42–28.35, Mc 1.1–4.8, 5.18–6.35)</contents>
       <script>Irish minuscule</script>
    </description>
@@ -3418,8 +3420,8 @@
    <description>
       <type />
       <folios>215</folios>
-      <page_h>195</page_h>
-      <page_w>145</page_w>
+      <page_h>19.5</page_h>
+      <page_w>14.5</page_w>
       <contents>Muirchú, <i>Vita Sancti Patricii</i>; <i>Dicta Patricii</i>; Tírechán, <i>Collectanea de Vita S Patricii</i>; Patricius, <i>Confessio</i>; <text id="gospels">Gospels</text>  (Vetus Latina passim, Mt, Mc, Lc, Io); Sulpicius Severus, <i>Vita S Martini, Dialogi de S Martino, Epistulae</i></contents>
       <script>Irish minuscule</script>
    </description>
@@ -3449,8 +3451,8 @@
    <description>
       <type />
       <folios>117</folios>
-      <page_h>210</page_h>
-      <page_w>125</page_w>
+      <page_h>21</page_h>
+      <page_w>12.5</page_w>
       <contents>Priscian, <i>Institutio de nomine</i></contents>
       <script>Caroline minuscule</script>
    </description>
@@ -3481,8 +3483,8 @@
    <description>
       <type />
       <folios>93</folios>
-      <page_h>265</page_h>
-      <page_w>195</page_w>
+      <page_h>26.5</page_h>
+      <page_w>19.5</page_w>
       <cols>1</cols>
       <quires>Gatherings of eights</quires>
       <contents>
@@ -3545,8 +3547,8 @@
    <description>
       <type />
       <folios>228</folios>
-      <page_h>367</page_h>
-      <page_w>280</page_w>
+      <page_h>36.7</page_h>
+      <page_w>28</page_w>
       <contents>Virgil commentary (Philargyrius, <i>Brevis expositio</i>)</contents>
       <script>Caroline minuscule</script>
    </description>
@@ -3795,8 +3797,8 @@
    <description>
       <type />
       <folios>48</folios>
-      <page_h>210</page_h>
-      <page_w>150</page_w>
+      <page_h>21</page_h>
+      <page_w>15</page_w>
       <contents>Orosius, <i>Chronicon</i> (imperf.)</contents>
       <script>Irish majuscule</script>
    </description>
@@ -3944,8 +3946,8 @@
    <description>
       <type />
       <folios>66</folios>
-      <page_h>210</page_h>
-      <page_w>155</page_w>
+      <page_h>21</page_h>
+      <page_w>15.5</page_w>
       <contents>Excerpta ex Patribus</contents>
       <script>Irish minuscule</script>
    </description>
@@ -3980,8 +3982,8 @@
    <description>
       <type />
       <folios>7</folios>
-      <page_h>235</page_h>
-      <page_w>175</page_w>
+      <page_h>23.5</page_h>
+      <page_w>17.5</page_w>
       <contents>Excerpta ex Patribus</contents>
       <script>Irish minuscule</script>
    </description>
@@ -4138,8 +4140,8 @@
    <description>
       <type />
       <folios>89</folios>
-      <page_h>232</page_h>
-      <page_w>174</page_w>
+      <page_h>23.2</page_h>
+      <page_w>17.4</page_w>
       <contents><text id="gospels">Gospels</text>  (Vulgata, Mt, Mc, Lc, Io, Act)</contents>
       <script>Irish majuscule</script>
    </description>
@@ -4213,8 +4215,8 @@
    <description>
       <type />
       <folios>145</folios>
-      <page_h>180</page_h>
-      <page_w>115</page_w>
+      <page_h>18</page_h>
+      <page_w>11.5</page_w>
       <contents>Ars Ambrosiana</contents>
       <script />
    </description>
@@ -4361,8 +4363,8 @@
    <description>
       <type />
       <folios>15</folios>
-      <page_h>190</page_h>
-      <page_w>125</page_w>
+      <page_h>19</page_h>
+      <page_w>12.5</page_w>
       <contents><person id="jerome">Jerome</person>, <i>Epistulae</i></contents>
       <script>Irish and cursive minuscule</script>
    </description>
@@ -4541,8 +4543,8 @@
    <description>
       <type />
       <folios>289</folios>
-      <page_h>302</page_h>
-      <page_w>213</page_w>
+      <page_h>30.2</page_h>
+      <page_w>21.3</page_w>
       <contents>Grammatica (Virgilius Maro Grammaticus, Sergius, Eutyches, Phocas, Consentius, Iulianus Toletanus, Malsachanus)</contents>
       <script />
    </description>
@@ -4809,8 +4811,8 @@
    <description>
       <type />
       <folios />
-      <page_h>280</page_h>
-      <page_w>196</page_w>
+      <page_h>28</page_h>
+      <page_w>19.6</page_w>
       <contents><text id="gospels">Gospels</text>  (Mt, Mc, Lc, Io) (fragm.)</contents>
       <script>Irish majuscule</script>
    </description>
@@ -4937,8 +4939,8 @@
    <description>
       <type />
       <folios>2</folios>
-      <page_h>260</page_h>
-      <page_w>170</page_w>
+      <page_h>26</page_h>
+      <page_w>17</page_w>
       <contents>Lectionarium Officii</contents>
       <script>Irish majuscule</script>
    </description>
@@ -4971,8 +4973,8 @@
    <description>
       <type />
       <folios>207</folios>
-      <page_h>280</page_h>
-      <page_w>210</page_w>
+      <page_h>28</page_h>
+      <page_w>21</page_w>
       <contents>Priscian, <i>Periegesis</i>, <text id="priscian_ars"><i>Ars grammatica</i></text>, <i>Institutio de Nomine, pronomine et verbo</i></contents>
       <script>Irish minuscule</script>
    </description>
@@ -5005,8 +5007,8 @@
    <description>
       <type />
       <folios>52</folios>
-      <page_h>298</page_h>
-      <page_w>193</page_w>
+      <page_h>29.8</page_h>
+      <page_w>19.3</page_w>
       <contents>Epitome Libri Glossarum, etc.</contents>
       <script>Caroline minuscule</script>
    </description>
@@ -5035,8 +5037,8 @@
    <description>
       <type />
       <folios>14</folios>
-      <page_h>258</page_h>
-      <page_w>238</page_w>
+      <page_h>25.8</page_h>
+      <page_w>23.8</page_w>
       <contents>Martianus Capella (lib. 9)</contents>
       <script />
    </description>
@@ -5066,8 +5068,8 @@
    <description>
       <type />
       <folios>25</folios>
-      <page_h>227</page_h>
-      <page_w>125</page_w>
+      <page_h>22.7</page_h>
+      <page_w>12.5</page_w>
       <contents>Clemens Scottus, <i>Expositio in Barbarismo</i>; Martianus Capella (frag. on grammar); excerpts from <i>Georgicorum Brevis Expositio</i> (Virgilii)</contents>
       <script />
    </description>
@@ -5099,8 +5101,8 @@
    <description>
       <type />
       <folios>1</folios>
-      <page_h>315</page_h>
-      <page_w>210</page_w>
+      <page_h>31.5</page_h>
+      <page_w>21</page_w>
       <contents>Boethius, <i>De institutione arithmetica</i> (frag.)</contents>
       <script>Irish minuscule</script>
    </description>
@@ -5128,8 +5130,8 @@
    <description>
       <type />
       <folios>192</folios>
-      <page_h>325</page_h>
-      <page_w>210</page_w>
+      <page_h>32.5</page_h>
+      <page_w>21</page_w>
       <contents>Lucretius</contents>
       <script>Caroline minuscule</script>
    </description>
@@ -5193,8 +5195,8 @@
    <description>
       <type />
       <folios>151</folios>
-      <page_h>190</page_h>
-      <page_w>155</page_w>
+      <page_h>19</page_h>
+      <page_w>15.5</page_w>
       <contents><text id="gospels">Gospels</text>  (incomplete)</contents>
       <script>Caroline (Reims) minuscule</script>
    </description>
@@ -5249,8 +5251,8 @@
    <description>
       <type />
       <folios>44</folios>
-      <page_h>275</page_h>
-      <page_w>190</page_w>
+      <page_h>27.5</page_h>
+      <page_w>19</page_w>
       <contents>Tractatus de Morbis Mulierum, etc.</contents>
       <script>Early Caroline minuscule</script>
    </description>
@@ -5279,8 +5281,8 @@
    <description>
       <type />
       <folios>16</folios>
-      <page_h>275</page_h>
-      <page_w>237</page_w>
+      <page_h>27.5</page_h>
+      <page_w>23.7</page_w>
       <cols>2</cols>
       <script>Irish minuscule</script>
       <contents>
@@ -5337,8 +5339,8 @@
    <description>
       <type />
       <folios />
-      <page_h>338</page_h>
-      <page_w>265</page_w>
+      <page_h>33.8</page_h>
+      <page_w>26.5</page_w>
       <contents>Sermones II; <person id="augustine">Augustine</person>, <i>Tractatus in evangelium Iohannis</i></contents>
       <script>Caroline minuscule</script>
    </description>
@@ -5366,8 +5368,8 @@
    <description>
       <type />
       <folios>99</folios>
-      <page_h>226</page_h>
-      <page_w>175</page_w>
+      <page_h>22.6</page_h>
+      <page_w>17.5</page_w>
       <contents><text id="psalms">Psalms</text> (Greek, Latin interlinear)</contents>
       <script>Irish minuscule</script>
    </description>
@@ -5427,8 +5429,8 @@
    <description>
       <type />
       <folios>195</folios>
-      <page_h>300</page_h>
-      <page_w>175</page_w>
+      <page_h>30</page_h>
+      <page_w>17.5</page_w>
       <contents>Donatus; Maximus Victorinus, <i>De Finalibus Metrorum</i>; Asper; Sergius; Alcuin, <i>De Grammatica</i>; Bede, <i>De Schematibus et Tropis</i>; <person id="isidore">Isidore</person>, <i>Etymologiae</i> (1); Julian of Toledo; Probus, <i>De Ultimis Syllabis</i></contents>
       <script>Mixed minuscule</script>
    </description>
@@ -5462,8 +5464,8 @@
    <description>
       <type />
       <folios>224</folios>
-      <page_h>300</page_h>
-      <page_w>215</page_w>
+      <page_h>30</page_h>
+      <page_w>21.5</page_w>
       <contents>Isidore, <i>Etymologiae</i>, etc.; Eucherius; Glossaria</contents>
       <script />
    </description>
@@ -5491,8 +5493,8 @@
    <description>
       <type />
       <folios>53</folios>
-      <page_h>298</page_h>
-      <page_w>213</page_w>
+      <page_h>29.8</page_h>
+      <page_w>21.3</page_w>
       <contents>Cassiodorus, <i>Institutiones</i>; etc.</contents>
       <script>Caroline minuscule</script>
    </description>
@@ -5518,8 +5520,8 @@
    <description>
       <type />
       <folios />
-      <page_h>238</page_h>
-      <page_w>195</page_w>
+      <page_h>23.8</page_h>
+      <page_w>19.5</page_w>
       <contents>Dioscorides; Servius (<i>Ecl., Geo., Aen</i> to 7.16); Chirius Fortunatus; <person id="augustine">Augustine</person> on dialectic and rhetoric; 
       Horace (<i>Odes, Epodes, Carmen Saeculare, Ars Poetica, Satires</i> to 3.134);
       extracts from Ovid, <i>Metamorphoses</i>; Bede, <i>History</i>; Priscian, <i>De laude Anastasii imperatoris</i>;
@@ -5553,8 +5555,8 @@
    <description>
       <type />
       <folios>237</folios>
-      <page_h>317</page_h>
-      <page_w>227</page_w>
+      <page_h>31.7</page_h>
+      <page_w>22.7</page_w>
       <contents>Collectio Canonum Quesnelliana</contents>
       <script>Caroline minuscule</script>
    </description>
@@ -5584,8 +5586,8 @@
    <description>
       <type />
       <folios>65</folios>
-      <page_h>220</page_h>
-      <page_w>170</page_w>
+      <page_h>22</page_h>
+      <page_w>17</page_w>
       <contents>Computus</contents>
       <script>Caroline minuscule</script>
    </description>
@@ -5613,8 +5615,8 @@
    <description>
       <type />
       <folios>1</folios>
-      <page_h>240</page_h>
-      <page_w>14</page_w>
+      <page_h>24</page_h>
+      <page_w>1.4</page_w>
       <contents>Fragmentum Argumenti Incerti</contents>
       <script>Insular majuscule</script>
    </description>
@@ -5645,8 +5647,8 @@
    <description>
       <type />
       <folios>69</folios>
-      <page_h>290</page_h>
-      <page_w>225</page_w>
+      <page_h>29</page_h>
+      <page_w>22.5</page_w>
       <contents>Adamnanus, <i>Vita S Columbae</i></contents>
       <script>Irish minuscule</script>
    </description>
@@ -5676,8 +5678,8 @@
    <description>
       <type />
       <folios>40</folios>
-      <page_h>245</page_h>
-      <page_w>170</page_w>
+      <page_h>24.5</page_h>
+      <page_w>17</page_w>
       <contents><text id="gospels">Gospels</text>  (fragm.)</contents>
       <script>Irish majuscule</script>
    </description>
@@ -5707,8 +5709,8 @@
    <description>
       <type />
       <folios>4</folios>
-      <page_h>245</page_h>
-      <page_w>170</page_w>
+      <page_h>24.5</page_h>
+      <page_w>17</page_w>
       <contents>Fragmenta Textus Incerti</contents>
       <script>Irish minuscule</script>
    </description>
@@ -5739,8 +5741,8 @@
    <description>
       <type />
       <folios>134</folios>
-      <page_h>295</page_h>
-      <page_w>225</page_w>
+      <page_h>29.5</page_h>
+      <page_w>22.5</page_w>
       <contents><text id="gospels">Gospels</text> (Vetus Latina, Mc, Mt, Lc, Io partim)</contents>
       <script>Irish majuscule</script>
    </description>
@@ -5776,8 +5778,8 @@
    <description>
       <type />
       <folios>35</folios>
-      <page_h>270</page_h>
-      <page_w>185</page_w>
+      <page_h>27</page_h>
+      <page_w>18.5</page_w>
       <contents><text id="gospels">Gospel of John</text></contents>
       <script>Irish majuscule and Irish minuscule</script>
    </description>
@@ -5812,8 +5814,8 @@
    <description>
       <type />
       <folios>183</folios>
-      <page_h>217</page_h>
-      <page_w>149</page_w>
+      <page_h>21.7</page_h>
+      <page_w>14.9</page_w>
       <contents>Prudentius</contents>
       <script />
    </description>
@@ -5846,8 +5848,8 @@
    <description>
       <type />
       <folios>103</folios>
-      <page_h>240</page_h>
-      <page_w>167</page_w>
+      <page_h>24</page_h>
+      <page_w>16.7</page_w>
       <contents>Alcuin, Commentary on John</contents>
       <script>Caroline minuscule</script>
    </description>
@@ -5879,8 +5881,8 @@
    <description>
       <type />
       <folios>120</folios>
-      <page_h>390</page_h>
-      <page_w>285</page_w>
+      <page_h>39</page_h>
+      <page_w>28.5</page_w>
       <contents><text id="priscian_ars">Priscian</text></contents>
       <script />
    </description>
@@ -5915,8 +5917,8 @@
    <description>
       <type>Binding frag.</type>
       <folios>2</folios>
-      <page_h>270</page_h>
-      <page_w>210</page_w>
+      <page_h>27</page_h>
+      <page_w>21</page_w>
       <contents><text id="gospels">Gospels</text>  (Vulgata, Lc 1.12–32, 2.43–3.9)</contents>
       <script>Irish majuscule</script>
    </description>
@@ -5948,8 +5950,8 @@
    <description>
       <type>Binding frag.</type>
       <folios>2</folios>
-      <page_h>270</page_h>
-      <page_w>210</page_w>
+      <page_h>27</page_h>
+      <page_w>21</page_w>
       <contents>Sacramentarium Celticum (fragm.)</contents>
       <script>Irish majuscule and Irish minuscule</script>
    </description>
@@ -5982,8 +5984,8 @@
    <description>
       <type>Binding frag.</type>
       <folios>2</folios>
-      <page_h>240</page_h>
-      <page_w>190</page_w>
+      <page_h>24</page_h>
+      <page_w>19</page_w>
       <contents>Missa pro Defunctis (fragm.)</contents>
       <script>Irish minuscule</script>
    </description>
@@ -6015,8 +6017,8 @@
    <description>
       <type />
       <folios>2</folios>
-      <page_h>240</page_h>
-      <page_w>190</page_w>
+      <page_h>24</page_h>
+      <page_w>19</page_w>
       <contents>Sacramentarium Celticum (Visitatio Infirmorum, fragm.)</contents>
       <script>Irish majuscule</script>
    </description>
@@ -6048,8 +6050,8 @@
    <description>
       <type>Frag.</type>
       <folios>3</folios>
-      <page_h>240</page_h>
-      <page_w>190</page_w>
+      <page_h>24</page_h>
+      <page_w>19</page_w>
       <contents>Litania (fragm.)</contents>
       <script>Irish majuscule</script>
    </description>
@@ -6084,8 +6086,8 @@
    <description>
       <type />
       <folios>1</folios>
-      <page_h>240</page_h>
-      <page_w>190</page_w>
+      <page_h>24</page_h>
+      <page_w>19</page_w>
       <contents><person id="augustine">Augustine</person>, <i>De Musica</i> (5.5)</contents>
       <script>Irish minuscule</script>
    </description>
@@ -6114,8 +6116,8 @@
    <description>
       <type>Binding frag.</type>
       <folios>1</folios>
-      <page_h>170</page_h>
-      <page_w>145</page_w>
+      <page_h>17</page_h>
+      <page_w>14.5</page_w>
       <contents>Isidore, <i>Etymologiae</i> (11.1.43–46, 51–53)</contents>
       <script>Irish cursive minuscule</script>
    </description>
@@ -6144,8 +6146,8 @@
    <description>
       <type />
       <folios>1</folios>
-      <page_h>235</page_h>
-      <page_w>170</page_w>
+      <page_h>23.5</page_h>
+      <page_w>17</page_w>
       <contents>Lectionarium (fragm.)</contents>
       <script>Insular majuscule</script>
    </description>
@@ -6172,8 +6174,8 @@
    <description>
       <type />
       <folios>1</folios>
-      <page_h>212</page_h>
-      <page_w>165</page_w>
+      <page_h>21.2</page_h>
+      <page_w>16.5</page_w>
       <contents>Sacramentarium Celticum (fragm.)</contents>
       <script>Irish minuscule</script>
    </description>
@@ -6201,8 +6203,8 @@
    <description>
       <type />
       <folios>2</folios>
-      <page_h>218</page_h>
-      <page_w>165</page_w>
+      <page_h>21.8</page_h>
+      <page_w>16.5</page_w>
       <contents>Minor Prophets, with commentary and gloss (Vulgata, Ez 2.6–3.6, 8–15, 16.4–21, 26–42)</contents>
       <script>Irish minuscule</script>
    </description>
@@ -6262,8 +6264,8 @@
    <description>
       <type />
       <folios>29</folios>
-      <page_h>238</page_h>
-      <page_w>168</page_w>
+      <page_h>23.8</page_h>
+      <page_w>16.8</page_w>
       <contents>Adamnán, <i>De locis sanctis</i>; etc.</contents>
       <script>Caroline minuscule</script>
    </description>
@@ -6293,8 +6295,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    <description>
       <type />
       <folios>65</folios>
-      <page_h>320</page_h>
-      <page_w>235</page_w>
+      <page_h>32</page_h>
+      <page_w>23.5</page_w>
       <contents>Corpus Glossary</contents>
       <script>Insular minuscule</script>
    </description>
@@ -6330,8 +6332,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    <description>
       <type />
       <folios>5</folios>
-      <page_h>305</page_h>
-      <page_w>245</page_w>
+      <page_h>30.5</page_h>
+      <page_w>24.5</page_w>
       <contents><text id="paul">Pauline Epistles</text>  (Vulgata, Rm, 1 Cor, 2 Cor, Gal, Eph, Phil, Col, 1 Th, 2 Th, 1 Tim, 2 Tim, Tit, Phlm, Hbr)</contents>
       <script>Insular minuscule</script>
    </description>
@@ -6358,8 +6360,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    <description>
       <type />
       <folios>2</folios>
-      <page_h>300</page_h>
-      <page_w>57</page_w>
+      <page_h>30</page_h>
+      <page_w>5.7</page_w>
       <contents>Pseudo-Augustine, <i>Quaestiones in Vetus et Novum Testamentum</i></contents>
       <script />
    </description>
@@ -6386,8 +6388,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    <description>
       <type />
       <folios>94</folios>
-      <page_h>262</page_h>
-      <page_w>172</page_w>
+      <page_h>26.2</page_h>
+      <page_w>17.2</page_w>
       <contents>Canon law (<i>Liber ex lege Moysi</i>)</contents>
       <script>Caroline minuscule</script>
    </description>
@@ -6419,8 +6421,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    <description>
       <type />
       <folios>55</folios>
-      <page_h>260</page_h>
-      <page_w>195</page_w>
+      <page_h>26</page_h>
+      <page_w>19.5</page_w>
       <contents>Juvencus</contents>
       <script />
    </description>
@@ -6576,8 +6578,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    <description>
       <type />
       <folios>1</folios>
-      <page_h>182</page_h>
-      <page_w>140</page_w>
+      <page_h>18.2</page_h>
+      <page_w>14</page_w>
       <contents>Rufinus, <i>Historia Ecclesiastica</i> (1.1–3, 10)</contents>
       <script>Irish Half-Uncial</script>
    </description>
@@ -6592,7 +6594,7 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
       <canonical href="https://www.trismegistos.org/text/68726">TM 68726</canonical>
    </refs>
    <notes categories="#or-ire #sc-ire">
-      1 bifolium (now 130 mm width; 2 cols)
+      1 bifolium (now 13 cm width; 2 cols)
    </notes>
    <revisionDesc>
       <change who="Pádraic Moran" when="2021-05-01">Created</change>
@@ -6604,8 +6606,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    <description>
       <type />
       <folios>1</folios>
-      <page_h>65</page_h>
-      <page_w>220</page_w>
+      <page_h>6.5</page_h>
+      <page_w>22</page_w>
       <contents>Gregory the Great, <i>Dialogi</i> (3.31–32)</contents>
       <script>Insular majuscule</script>
    </description>
@@ -6631,8 +6633,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    <description>
       <type />
       <folios>66</folios>
-      <page_h>130</page_h>
-      <page_w>105</page_w>
+      <page_h>13</page_h>
+      <page_w>10.5</page_w>
       <contents><text id="gospels">Gospels</text>  (Mt, Lc, Mc, Io, imperf.)</contents>
       <script>Irish minuscule</script>
    </description>
@@ -6661,8 +6663,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    <description>
       <type />
       <folios>32</folios>
-      <page_h>160</page_h>
-      <page_w>110</page_w>
+      <page_h>16</page_h>
+      <page_w>11</page_w>
       <contents>Theologica et Ascetica Varia. Cursus Scottorum</contents>
       <script>Pre-Caroline minuscule</script>
    </description>
@@ -6692,8 +6694,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    <description>
       <type />
       <folios>216</folios>
-      <page_h>158</page_h>
-      <page_w>111</page_w>
+      <page_h>15.8</page_h>
+      <page_w>11.1</page_w>
       <contents><text id="gospels">Gospels</text> </contents>
       <script />
    </description>
@@ -6752,8 +6754,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    <description>
       <type />
       <folios>169</folios>
-      <page_h>350</page_h>
-      <page_w>270</page_w>
+      <page_h>35</page_h>
+      <page_w>27</page_w>
       <contents><text id="gospels">Gospels</text>  (Lc, Mc, Mt, Io)</contents>
       <script>Irish majuscule</script>
    </description>
@@ -6890,8 +6892,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    <description>
       <type />
       <folios>34</folios>
-      <page_h>205</page_h>
-      <page_w>140</page_w>
+      <page_h>20.5</page_h>
+      <page_w>14</page_w>
       <contents><person id="isidore">Isidore</person>, <i>Etymologiae</i> (1, 11, fragm.), <i>Interrogationes et Responsiones</i> (fragm.); Arnobius Iunior, Opus Incertum(?), <i>Expositio in Evangelia</i>, <i>Computus</i>; Caesarius Arelatensis, <i>Homiliae</i> (fragm.)</contents>
       <script>Irish majuscule</script>
    </description>
@@ -6925,8 +6927,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    <description>
       <type />
       <folios>1</folios>
-      <page_h>243</page_h>
-      <page_w>178</page_w>
+      <page_h>24.3</page_h>
+      <page_w>17.8</page_w>
       <contents>Book-list</contents>
       <script>Irish majuscule</script>
    </description>
@@ -6995,8 +6997,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    <description>
       <type />
       <folios>46</folios>
-      <page_h>310</page_h>
-      <page_w>190</page_w>
+      <page_h>31</page_h>
+      <page_w>19</page_w>
       <contents>Glossa in Psalmos (39–151)</contents>
       <script>Insular minuscule</script>
    </description>
@@ -7039,8 +7041,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    <description>
       <type />
       <folios>26</folios>
-      <page_h>300</page_h>
-      <page_w>225</page_w>
+      <page_h>30</page_h>
+      <page_w>22.5</page_w>
       <contents>Paulinus of Nola, <i>Carmina</i></contents>
       <script>Insular minuscule</script>
    </description>
@@ -7079,8 +7081,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    <description>
       <type />
       <folios>34</folios>
-      <page_h>265</page_h>
-      <page_w>197</page_w>
+      <page_h>26.5</page_h>
+      <page_w>19.7</page_w>
       <contents>
          <summary>Augustine, <i>In Epistulas Pauli ad Romanos et ad Galatas</i></summary>
          <msItem>
@@ -7263,8 +7265,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    <description>
       <type />
       <folios>135</folios>
-      <page_h>275</page_h>
-      <page_w>175</page_w>
+      <page_h>27.5</page_h>
+      <page_w>17.5</page_w>
       <contents><text id="priscian_ars">Priscian, <i>Institutiones grammaticae</i></text></contents>
       <script />
    </description>
@@ -7292,8 +7294,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    <description>
       <type />
       <folios>107</folios>
-      <page_h>200</page_h>
-      <page_w>140</page_w>
+      <page_h>20</page_h>
+      <page_w>14</page_w>
       <contents>Dares; Rufius Festus, <i>Breviarium</i>; Florus</contents>
       <script>Caroline minuscule</script>
    </description>
@@ -7320,8 +7322,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    <description>
       <type />
       <folios>118</folios>
-      <page_h>268</page_h>
-      <page_w>205</page_w>
+      <page_h>26.8</page_h>
+      <page_w>20.5</page_w>
       <contents>Passiones et Vitae Sanctorum</contents>
       <script />
    </description>
@@ -7348,8 +7350,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    <description>
       <type />
       <folios>1</folios>
-      <page_h>180</page_h>
-      <page_w>200</page_w>
+      <page_h>18</page_h>
+      <page_w>20</page_w>
       <contents><i>Abbreviatio Moralium Gregorii Magni</i></contents>
       <script>Caroline minuscule</script>
    </description>
@@ -7377,8 +7379,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    <description>
       <type />
       <folios>70</folios>
-      <page_h>246</page_h>
-      <page_w>166</page_w>
+      <page_h>24.6</page_h>
+      <page_w>16.6</page_w>
       <contents>Bede, <i>De temporibus, De natura rerum</i>, etc.</contents>
       <script>Caroline minuscule</script>
    </description>
@@ -7406,8 +7408,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    <description>
       <type />
       <folios>205</folios>
-      <page_h>248</page_h>
-      <page_w>193</page_w>
+      <page_h>24.8</page_h>
+      <page_w>19.3</page_w>
       <contents><person id="jerome">Jerome</person>, <i>De viris illustribus</i>; <i>Decretum Gelasianum</i>; Gennadius, <i>De viris illustribus</i>; <person id="isidore">Isidore</person>, <i>De viris illustribus</i>; <person id="augustine">Augustine</person> <i>Retractationes</i>; 
       Cassiodorus, <i>Institutiones</i> (book 1); <person id="isidore">Isidore</person>, <i>Prohemia</i>, extracts from <i>De ecclesiasticis officiis, De ortu et obitu sanctorum patrum, Allegoriae</i></contents>
       <script>Caroline minuscule</script>
@@ -7474,8 +7476,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    <description>
       <type />
       <folios>308</folios>
-      <page_h>340</page_h>
-      <page_w>255</page_w>
+      <page_h>34</page_h>
+      <page_w>25.5</page_w>
       <contents>Glossarium alphabeticum magnum</contents>
       <script>Caroline minuscule</script>
    </description>
@@ -7502,8 +7504,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    <description>
       <type />
       <folios>394</folios>
-      <page_h>310</page_h>
-      <page_w>245</page_w>
+      <page_h>31</page_h>
+      <page_w>24.5</page_w>
       <contents>Isidore, <i>Etymologiae</i></contents>
       <script />
    </description>
@@ -7533,8 +7535,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    <description>
       <type />
       <folios>20</folios>
-      <page_h>255</page_h>
-      <page_w>180</page_w>
+      <page_h>25.5</page_h>
+      <page_w>18</page_w>
       <contents>Bede, <i>De arte metrica</i>, etc.</contents>
       <script>Caroline minuscule</script>
    </description>
@@ -7564,8 +7566,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    <description>
       <type />
       <folios>56</folios>
-      <page_h>245</page_h>
-      <page_w>135</page_w>
+      <page_h>24.5</page_h>
+      <page_w>13.5</page_w>
       <contents>Excerpts from <person id="isidore">Isidore</person>, etc.</contents>
       <script>Caroline minuscule</script>
    </description>
@@ -7595,8 +7597,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    <description>
       <type />
       <folios>56</folios>
-      <page_h>190</page_h>
-      <page_w>140</page_w>
+      <page_h>19</page_h>
+      <page_w>14</page_w>
       <contents><i>Eclogae tractatorum in psalterium</i></contents>
       <script>Caroline minuscule</script>
    </description>
@@ -7625,8 +7627,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    <description>
       <type />
       <folios>192</folios>
-      <page_h>275</page_h>
-      <page_w>200</page_w>
+      <page_h>27.5</page_h>
+      <page_w>20</page_w>
       <contents>Glossary with glosses from Haimo of Auxerre and <person id="eriugena">Eriugena</person>, <i>Glossae divinae historiae</i></contents>
       <script />
    </description>
@@ -7658,8 +7660,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    <description>
       <type />
       <folios>98</folios>
-      <page_h>260</page_h>
-      <page_w>185</page_w>
+      <page_h>26</page_h>
+      <page_w>18.5</page_w>
       <contents><text id="psalms">Psalms</text></contents>
       <script>Irish minuscule</script>
    </description>
@@ -7690,8 +7692,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    <description>
       <type />
       <folios>86</folios>
-      <page_h>157</page_h>
-      <page_w>108</page_w>
+      <page_h>15.7</page_h>
+      <page_w>10.8</page_w>
       <contents><text id="gospels">Gospels</text>; liturgical rite for visitation of the sick (28v–29r)</contents>
       <script>Irish minuscule</script>
    </description>
@@ -7721,8 +7723,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    <description>
       <type />
       <folios>2</folios>
-      <page_h>183</page_h>
-      <page_w>147</page_w>
+      <page_h>18.3</page_h>
+      <page_w>14.7</page_w>
       <contents>Medical text</contents>
       <script>Insular minuscule</script>
    </description>
@@ -7755,8 +7757,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    <description>
       <type />
       <folios>170</folios>
-      <page_h>267</page_h>
-      <page_w>180</page_w>
+      <page_h>26.7</page_h>
+      <page_w>18</page_w>
       <contents><i>Epistula Alexandri de mirabilibus Indiae</i>; <person id="jerome">Jerome</person>, <i>Commentarii in evangelium Matthaei</i>; <i>Excerpta</i>; Pseudo-Jerome, <i>Expositio in IV evangelia</i>; etc.</contents>
       <script />
    </description>
@@ -7821,8 +7823,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    <description>
       <type />
       <folios>124</folios>
-      <page_h>275</page_h>
-      <page_w>215</page_w>
+      <page_h>27.5</page_h>
+      <page_w>21.5</page_w>
       <contents>Old Testament, Prophets (Vulgata, Ier–Mal). </contents>
       <script>Anglo-Saxon majuscule</script>
    </description>
@@ -7854,8 +7856,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    <description>
       <type />
       <folios>107</folios>
-      <page_h>320</page_h>
-      <page_w>240</page_w>
+      <page_h>32</page_h>
+      <page_w>24</page_w>
       <contents>Canones</contents>
       <script>Caroline minuscule</script>
    </description>
@@ -7888,8 +7890,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    <description>
       <type />
       <folios>108</folios>
-      <page_h>230</page_h>
-      <page_w>180</page_w>
+      <page_h>23</page_h>
+      <page_w>18</page_w>
       <contents>Vita Findani</contents>
       <script>Caroline minuscule</script>
    </description>
@@ -7918,8 +7920,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    </identifier>
    <description>
       <folios>180</folios>
-      <page_h>249</page_h>
-      <page_w>212</page_w>
+      <page_h>24.9</page_h>
+      <page_w>21.2</page_w>
       <contents>Haimo of Auxerre, <i>Commentarius in Isaiam</i></contents>
       <script>Caroline minuscule</script>
    </description>
@@ -7946,8 +7948,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    </identifier>
    <description>
       <folios>139</folios>
-      <page_h>300</page_h>
-      <page_w>248</page_w>
+      <page_h>30</page_h>
+      <page_w>24.8</page_w>
       <contents><person id="jerome">Jerome</person>, <i>Commentarii in Prophetas minores</i> (Ioel, Mi, Na, Hab)</contents>
       <script>Caroline minuscule</script>
    </description>
@@ -7975,8 +7977,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    </identifier>
    <description>
       <folios>215</folios>
-      <page_h>318</page_h>
-      <page_w>253</page_w>
+      <page_h>31.8</page_h>
+      <page_w>25.3</page_w>
       <contents>Paschasius Radbertus, <i>Commentarius in evangelium Matthaei</i></contents>
       <script>Caroline minuscule</script>
    </description>
@@ -8003,8 +8005,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    </identifier>
    <description>
       <folios>80</folios>
-      <page_h>217</page_h>
-      <page_w>167</page_w>
+      <page_h>21.7</page_h>
+      <page_w>16.7</page_w>
       <contents><i>Commentarius in evangelium Iohannis</i></contents>
       <script>Caroline minuscule</script>
    </description>
@@ -8031,8 +8033,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    </identifier>
    <description>
       <folios>68</folios>
-      <page_h>220</page_h>
-      <page_w>165</page_w>
+      <page_h>22</page_h>
+      <page_w>16.5</page_w>
       <contents><person id="augustine">Augustine</person>, <i>In Johannis epistulam ad Parthos tractatus X</i></contents>
       <script>Caroline minuscule</script>
    </description>
@@ -8059,8 +8061,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    </identifier>
    <description>
       <folios>164</folios>
-      <page_h>227</page_h>
-      <page_w>200</page_w>
+      <page_h>22.7</page_h>
+      <page_w>20</page_w>
       <contents>Bede, <i>In Marci evangelium expositio, De locis sanctis</i>; Adamnán, <i>De locis sanctis</i></contents>
       <script>Caroline minuscule</script>
    </description>
@@ -8088,8 +8090,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    </identifier>
    <description>
       <folios>191</folios>
-      <page_h>242</page_h>
-      <page_w>137</page_w>
+      <page_h>24.2</page_h>
+      <page_w>13.7</page_w>
       <contents>Gesta Salvatoris; Pseudo-Augustine, <i>De fide sanctae trinitatis</i>; etc.; Fulgentius, <i>De trinitate</i>; Homiliae; etc.</contents>
       <script>Caroline minuscule</script>
    </description>
@@ -8117,8 +8119,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    </identifier>
    <description>
       <folios>174</folios>
-      <page_h>282</page_h>
-      <page_w>240</page_w>
+      <page_h>28.2</page_h>
+      <page_w>24</page_w>
       <contents>Poetae christiani (Alcimus Avitus, etc.); Wigbodus, <i>De Octateucho</i>.</contents>
       <script>Caroline minuscule</script>
    </description>
@@ -8146,8 +8148,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    </identifier>
    <description>
       <folios>150</folios>
-      <page_h>226</page_h>
-      <page_w>118</page_w>
+      <page_h>22.6</page_h>
+      <page_w>11.8</page_w>
       <contents>Origen, <i>Homiliae in librum Numerorum</i></contents>
       <script>Caroline minuscule</script>
    </description>
@@ -8175,8 +8177,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    </identifier>
    <description>
       <folios>136</folios>
-      <page_h>282</page_h>
-      <page_w>193</page_w>
+      <page_h>28.2</page_h>
+      <page_w>19.3</page_w>
       <contents>Origen, <i>Homiliae in libros Regum, Isaie, Hieremiae, Hiezechielis</i></contents>
       <script>Caroline minuscule</script>
    </description>
@@ -8204,8 +8206,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    </identifier>
    <description>
       <folios>179</folios>
-      <page_h>300</page_h>
-      <page_w>195</page_w>
+      <page_h>30</page_h>
+      <page_w>19.5</page_w>
       <contents>Taio, <i>Sententiae</i></contents>
       <script>Caroline minuscule</script>
    </description>
@@ -8233,8 +8235,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    </identifier>
    <description>
       <folios>78</folios>
-      <page_h>312</page_h>
-      <page_w>234</page_w>
+      <page_h>31.2</page_h>
+      <page_w>23.4</page_w>
       <contents>Regula canonicorum concilii Aquisgranensis A.D. 816; etc.</contents>
       <script>Caroline minuscule</script>
    </description>
@@ -8261,8 +8263,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    </identifier>
    <description>
       <folios>199</folios>
-      <page_h>298</page_h>
-      <page_w>185</page_w>
+      <page_h>29.8</page_h>
+      <page_w>18.5</page_w>
       <contents>Marcellus Empiricus; Pseudo-Hippocrates; etc.</contents>
       <script>Caroline minuscule</script>
    </description>
@@ -8290,8 +8292,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    </identifier>
    <description>
       <folios>186</folios>
-      <page_h>308</page_h>
-      <page_w>250</page_w>
+      <page_h>30.8</page_h>
+      <page_w>25</page_w>
       <contents>Oribasius, Euporista (lib. 2, 3), Synopsis</contents>
       <script>Caroline minuscule</script>
    </description>
@@ -8318,8 +8320,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    </identifier>
    <description>
       <folios>41</folios>
-      <page_h>225</page_h>
-      <page_w>170</page_w>
+      <page_h>22.5</page_h>
+      <page_w>17</page_w>
       <contents>Aldhelm, <i>De metris</i></contents>
       <script>Caroline minuscule</script>
    </description>
@@ -8347,8 +8349,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    </identifier>
    <description>
       <folios>182</folios>
-      <page_h>252</page_h>
-      <page_w>190</page_w>
+      <page_h>25.2</page_h>
+      <page_w>19</page_w>
       <contents>Venantius Fortunatus</contents>
       <script>Caroline minuscule</script>
    </description>
@@ -8379,8 +8381,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    </identifier>
    <description>
       <folios>92</folios>
-      <page_h>300</page_h>
-      <page_w>237</page_w>
+      <page_h>30</page_h>
+      <page_w>23.7</page_w>
       <contents>Dionysius Exiguus, <i>Cyclus decennovennalis</i> (MS 1830); Bede, <i>De natura rerum</i>; etc. (MS 1832)</contents>
       <script>Caroline minuscule</script>
    </description>
@@ -8409,8 +8411,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    </identifier>
    <description>
       <folios>224</folios>
-      <page_h>320</page_h>
-      <page_w>250</page_w>
+      <page_h>32</page_h>
+      <page_w>25</page_w>
       <contents><person id="eriugena">Eriugena</person>, <i>Peri physeon</i></contents>
       <script>Caroline minuscule</script>
    </description>
@@ -8466,8 +8468,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    <description>
       <type />
       <folios>132</folios>
-      <page_h>248</page_h>
-      <page_w>160</page_w>
+      <page_h>24.8</page_h>
+      <page_w>16</page_w>
       <contents>Isidore, <i>Sententiae</i></contents>
       <script>Early Caroline minuscule</script>
    </description>
@@ -8500,8 +8502,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    <description>
       <type />
       <folios>206</folios>
-      <page_h>233</page_h>
-      <page_w>146</page_w>
+      <page_h>23.3</page_h>
+      <page_w>14.6</page_w>
       <contents>Pseudo-Augustine, <i>De quaestionibus Veteris et Novi Testamenti</i></contents>
       <script>Caroline minuscule</script>
    </description>
@@ -8530,8 +8532,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    <description>
       <type />
       <folios>20</folios>
-      <page_w>230</page_w>
-            <page_h>300</page_h>
+      <page_w>23</page_w>
+            <page_h>30</page_h>
       <contents>Isidore, <i>Differentiae</i>; Gennadius, <i>De Ecclesiasticis Dogmatibus</i></contents>
       <script>Anglo-Saxon minuscule</script>
    </description>
@@ -8561,8 +8563,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    <description>
       <type />
       <folios>34</folios>
-      <page_h>290</page_h>
-      <page_w>215</page_w>
+      <page_h>29</page_h>
+      <page_w>21.5</page_w>
       <contents><person id="jerome">Jerome</person>, <i>In Isaiam</i> (14–18)</contents>
       <script>Insular minuscule</script>
    </description>
@@ -8628,8 +8630,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    <description>
       <type />
       <folios>395</folios>
-      <page_h>225</page_h>
-      <page_w>185</page_w>
+      <page_h>22.5</page_h>
+      <page_w>18.5</page_w>
       <contents><text id="gospels">Gospels</text>  (Greek, Latin interlinear)</contents>
       <script>Irish minuscule</script>
    </description>
@@ -8659,8 +8661,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    <description>
       <type />
       <folios>60</folios>
-      <page_h>200</page_h>
-      <page_w>165</page_w>
+      <page_h>20</page_h>
+      <page_w>16.5</page_w>
       <contents>Columbanus, <i>Instructiones, Epistulae</i></contents>
       <script>Modern hand</script>
    </description>
@@ -8688,8 +8690,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    <description>
       <type />
       <folios>159</folios>
-      <page_h>260</page_h>
-      <page_w>165</page_w>
+      <page_h>26</page_h>
+      <page_w>16.5</page_w>
       <contents><person id="jerome">Jerome</person>, <i>In Hieremiam prophetam</i></contents>
       <script>Early Caroline minuscule</script>
    </description>
@@ -8719,8 +8721,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    <description>
       <type />
       <folios>54</folios>
-      <page_h>168</page_h>
-      <page_w>118</page_w>
+      <page_h>16.8</page_h>
+      <page_w>11.8</page_w>
       <contents>Consentius, <i>Ars</i></contents>
       <script>Caroline minuscule and Irish miniscule</script>
    </description>
@@ -8750,8 +8752,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    <description>
       <type />
       <folios>130</folios>
-      <page_h>295</page_h>
-      <page_w>215</page_w>
+      <page_h>29.5</page_h>
+      <page_w>21.5</page_w>
       <contents>Isidore, <i>Quaestiones in Vetus Testamentum</i></contents>
       <script>Pre-Caroline minuscule</script>
    </description>
@@ -8782,8 +8784,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    <description>
       <type />
       <folios>176</folios>
-      <page_h>298</page_h>
-      <page_w>188</page_w>
+      <page_h>29.8</page_h>
+      <page_w>18.8</page_w>
       <contents><person id="augustine">Augustine</person> <i>in Psalmum CXVIII</i>; Hymni; Preces; etc.</contents>
       <script />
    </description>
@@ -8813,8 +8815,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    <description>
       <type />
       <folios>6</folios>
-      <page_h>275</page_h>
-      <page_w>170</page_w>
+      <page_h>27.5</page_h>
+      <page_w>17</page_w>
       <contents>Bede, <i>De orthographia</i></contents>
       <script>Frankish (Breton?) script</script>
    </description>
@@ -8845,8 +8847,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    <description>
       <type />
       <folios>96</folios>
-      <page_h>215</page_h>
-      <page_w>140</page_w>
+      <page_h>21.5</page_h>
+      <page_w>14</page_w>
       <contents>Eutyches, <i>Ars de verbo</i>; <person id="isidore">Isidore</person>, <i>Etymologiae</i> (excerpts); etc.</contents>
       <script />
    </description>
@@ -8880,8 +8882,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    <description>
       <type>Flyleaves</type>
       <folios>3</folios>
-      <page_h>225</page_h>
-      <page_w>160</page_w>
+      <page_h>22.5</page_h>
+      <page_w>16</page_w>
       <contents>Maximus Victorinus, <i>De ratione metrorum</i>; Metrorius, <i>De finalibus syllabis</i> </contents>
       <script />
    </description>
@@ -8945,8 +8947,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    <description>
       <type>Flyleaves</type>
       <folios />
-      <page_h>325</page_h>
-      <page_w>120</page_w>
+      <page_h>32.5</page_h>
+      <page_w>12</page_w>
       <contents>Computus Hibernensis</contents>
       <script>Early Caroline minuscule</script>
    </description>
@@ -8976,8 +8978,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    <description>
       <type />
       <folios>93</folios>
-      <page_h>195</page_h>
-      <page_w>113</page_w>
+      <page_h>19.5</page_h>
+      <page_w>11.3</page_w>
       <contents>Poenitentiale Vindobonense (Poen. Pseudo-Cummeani; Poen. Vinniani)</contents>
       <script>Caroline minuscule</script>
    </description>
@@ -9007,8 +9009,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    <description>
       <type />
       <folios>128</folios>
-      <page_h>270</page_h>
-      <page_w>200</page_w>
+      <page_h>27</page_h>
+      <page_w>20</page_w>
       <contents>Anonymi Scoti Commentarii in evangelia Lucae et Iohannis; <person id="jerome">Jerome</person>, <i>Interpretationes</i>; etc.</contents>
       <script>Caroline minuscule</script>
    </description>
@@ -9038,8 +9040,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    <description>
       <type />
       <folios>32</folios>
-      <page_h>170</page_h>
-      <page_w>110</page_w>
+      <page_h>17</page_h>
+      <page_w>11</page_w>
       <contents>Commentum (Scoti cuiusdam?) in Matthaeum</contents>
       <script />
    </description>
@@ -9067,8 +9069,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    <description>
       <type />
       <folios>250</folios>
-      <page_h>330</page_h>
-      <page_w>230</page_w>
+      <page_h>33</page_h>
+      <page_w>23</page_w>
       <contents><text id="lathcen">Lathcen, <i>Ecloga ex Gregorii Magni Moralibus in Iob</i></text></contents>
       <script>Caroline minuscule</script>
    </description>
@@ -9097,8 +9099,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    <description>
       <type />
       <folios>211</folios>
-      <page_h>270</page_h>
-      <page_w>166</page_w>
+      <page_h>27</page_h>
+      <page_w>16.6</page_w>
       <contents>Excerptiones super Ezechielem; etc.</contents>
       <script>Caroline minuscule</script>
    </description>
@@ -9127,8 +9129,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    <description>
       <type />
       <folios>206</folios>
-      <page_h>235</page_h>
-      <page_w>160</page_w>
+      <page_h>23.5</page_h>
+      <page_w>16</page_w>
       <contents>Miscellanea; Versus Salisburgenses; Bede, <i>De natura rerum</i>; etc.</contents>
       <script>Caroline minuscule</script>
    </description>
@@ -9156,8 +9158,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    <description>
       <type />
       <folios>157</folios>
-      <page_h>322</page_h>
-      <page_w>265</page_w>
+      <page_h>32.2</page_h>
+      <page_w>26.5</page_w>
       <contents>Sedulius Scottus, <i>Commentarius in Matthaeum</i>; Excerpta varia</contents>
       <script>Caroline minuscule</script>
    </description>
@@ -9187,8 +9189,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    <description>
       <type />
       <folios>229</folios>
-      <page_h>307</page_h>
-      <page_w>240</page_w>
+      <page_h>30.7</page_h>
+      <page_w>24</page_w>
       <contents><person id="augustine">Augustine</person>, <i>Sermones de verbis domini et apostoli</i></contents>
       <script>Caroline minuscule</script>
    </description>
@@ -9219,8 +9221,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    <description>
       <type />
       <folios>81</folios>
-      <page_h>180</page_h>
-      <page_w>130</page_w>
+      <page_h>18</page_h>
+      <page_w>13</page_w>
       <contents>Collectio Canonum Hibernensis (fragm.); Audax. </contents>
       <script>Early Caroline minuscule</script>
    </description>
@@ -9251,8 +9253,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    <description>
       <type>Palimpsest</type>
       <folios>3</folios>
-      <page_h>285</page_h>
-      <page_w>200</page_w>
+      <page_h>28.5</page_h>
+      <page_w>20</page_w>
       <contents>(illegible)</contents>
       <script>Majuscule</script>
    </description>
@@ -9282,8 +9284,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    <description>
       <type>Palimpsest</type>
       <folios>1</folios>
-      <page_h>285</page_h>
-      <page_w>200</page_w>
+      <page_h>28.5</page_h>
+      <page_w>20</page_w>
       <contents>(illegible)</contents>
       <script>Majuscule</script>
    </description>
@@ -9313,8 +9315,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    <description>
       <type>Palimpsest</type>
       <folios>1</folios>
-      <page_h>285</page_h>
-      <page_w>200</page_w>
+      <page_h>28.5</page_h>
+      <page_w>20</page_w>
       <contents>(illegible)</contents>
       <script>Majuscule</script>
    </description>
@@ -9344,8 +9346,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    <description>
       <type>Palimpsest</type>
       <folios>2</folios>
-      <page_h>285</page_h>
-      <page_w>200</page_w>
+      <page_h>28.5</page_h>
+      <page_w>20</page_w>
       <contents>(illegible)</contents>
       <script>Majuscule</script>
    </description>
@@ -9375,8 +9377,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    <description>
       <type>Palimpsest</type>
       <folios>2</folios>
-      <page_h>285</page_h>
-      <page_w>200</page_w>
+      <page_h>28.5</page_h>
+      <page_w>20</page_w>
       <contents>(illegible)</contents>
       <script>Majuscule</script>
    </description>
@@ -9406,8 +9408,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    <description>
       <type />
       <folios>1</folios>
-      <page_h>295</page_h>
-      <page_w>225</page_w>
+      <page_h>29.5</page_h>
+      <page_w>22.5</page_w>
       <contents>Calendar</contents>
       <script>Irish majuscule</script>
    </description>

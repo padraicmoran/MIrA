@@ -39,6 +39,7 @@ if (file_exists('data/bibliography.xml')) {
 <p>Current version:</p>
 
 <ul>
+<li>0.6.2 (beta), 13 February 2025. Measurement units converted to cm.</li>
 <li>0.6.1 (beta), 12 February 2025. 7 new additions: MSS 294–300. Minor corrections.</li>
 </ul>
 
