@@ -10,7 +10,8 @@
       <folios />
       <page_h />
       <page_w />
-      <contents>Commentary on Matthew (13r–142v); <person id="jerome">Jerome</person>, <i>Epistula ad Damasum papam</i>; Gospel canons; <person id="sedulius">Sedulius Scotus</person>, <i>Argumenta</i>, etc.</contents>
+      <contents>Commentary on Matthew (13r–142v); <person id="jerome">Jerome</person>, <i>Epistula ad Damasum papam</i>; 
+      Gospel canons; Anonymus Scotus, <i>Argumenta</i>, etc.</contents>
       <script />
    </description>
    <history>
@@ -23,6 +24,7 @@
       <canonical corresp="#bkat">Bischoff, <i>Katalog</i>, no. 7178</canonical>
       <canonical corresp="#ocorrain">Ó Corráin, <i>Clavis</i>, no. 73</canonical>
       <bibl corresp="#bronner">Bronner 2013: 53</bibl>
+      <bibl corresp="#grifoni_puerstinger_2025">Grifoni and Pürstinger 2025</bibl>
    </refs>
    <notes categories="#ex-ins #vern">
       Old Irish text (101v). Insular exemplar.

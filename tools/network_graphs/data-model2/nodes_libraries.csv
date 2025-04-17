@@ -1,0 +1,73 @@
+node_id,display_text,node_type,lat,lng
+library_paris_mazarine,Bibliothèque Mazarine,library,48.85738088211554,2.3370479698456053
+library_wroclaw,University Library Rehdigeranus,library,51.11204857282375,17.050317231352754
+library_leuven,University Library,library,50.878,4.7
+library_nancy,Bibliothèque municipale,library,48.691944,6.178889
+library_harvard,"Harvard University, Houghton Library",library,42.373076658777165,-71.11592215807188
+library_zurich,Staatsarchiv,library,47.397222,8.546944
+library_dresden,Sächsische Landesbibliothek – Staats- und Universitätsbibliothek,library,51.02861903522859,13.736992859387186
+library_trier,Stadtbibliothek,library,49.75151923100947,6.6412939983700126
+library_cambridge_ul,University Library,library,52.20511390971057,0.108265099333065
+library_london_getty,Private Collection J. Paul Getty Jr.,library,51.51341028337198,-0.13124667335858248
+library_ghent,Universiteitsbibliotheek,library,51.044722,3.725833
+library_saint-omer,Bibliothèque municipale,library,50.747494071549006,2.2572387568916987
+library_regensburg,Staatliche Bibliothek,library,49.01843354942618,12.090881807269058
+library_dublin_tcd,Trinity College,library,53.343889,-6.256806
+library_durham,Cathedral Library,library,54.77301850461256,-1.577062600756527
+library_paris_arsenal,Bibliothèque de l’Arsenal,library,48.85019793858149,2.3635994278610903
+library_einsiedeln,Stiftsbibliothek,library,47.12678455926152,8.752606612765893
+library_colmar,Bibliothèque municipale,library,48.0763,7.361261
+library_palermo,Archivio di Stato,library,38.11916323733944,13.369860498906405
+library_turin_reale,Biblioteca Reale,library,45.071672027177975,7.68609729901879
+library_basel,Universitätsbibliothek,library,47.559638086519115,7.5808314992785695
+library_karlsruhe,Badische Landesbibliothek,library,49.007778,8.399167
+library_valenciennes,Bibliothèque municipale,library,50.35976346173765,3.5192634914539385
+library_kues,Hospitalbibliothek,library,49.916015751590194,7.071412126182056
+library_st-paul,Archiv des Benediktinerstifts,library,46.700556,14.872778
+library_laon,Bibliothèque municipale,library,49.570000,3.601389
+library_fulda,Landesbibliothek,library,50.55482501481171,9.68001600354682
+library_oxford_bodleian,Bodleian Library,library,51.75405967623379,-1.2540420010292574
+library_rouen,Bibliothèque municipale,library,49.42679869012814,1.09727360301689
+library_cambridge_magdalen,Magdalen College,library,52.2107117063556,0.11688366986494722
+library_cambridge_stjohns,St John's College,library,52.208849004017544,0.11702956778458021
+library_dublin_ria,Royal Irish Academy,library,53.340736527475464,-6.258124759268245
+library_turin,Biblioteca Nazionale,library,45.068389,7.686922
+library_milan,Biblioteca Ambrosiana,library,45.46343955838029,9.18588599958076
+library_vatican,Biblioteca Apostolica Vaticana,library,41.904722,12.454444
+library_bologna,Biblioteca Universitaria,library,44.496876947717034,11.352408228702842
+library_london_bl,British Library,library,51.529444,-0.126944
+library_wurzburg,Universitätsbibliothek,library,49.7825,9.968056
+library_zurich_zentral,Zentralbibliothek,library,47.3742,8.5453
+library_montecassino,Archivio dell'Abbazia,library,41.49109284715177,13.814009466991987
+library_columbia,"Columbia University, Butler Library",library,40.80636239742014,-73.96324695968946
+library_jena,Thüringer Universitäts- und Landesbibliothek,library,50.930208759485645,11.587441541905118
+library_leiden,Universiteitsbibliotheek,library,52.15729797265924,4.481431022585794
+library_cambridge_pembroke,Pembroke College,library,52.20190120659766,0.11827241927667255
+library_naples,Biblioteca Nazionale,library,40.8362,14.2496
+library_cambridge_corpus,"Corpus Christi College, Parker Library",library,52.20271733908058,0.11842995336126838
+library_warminster,Library of the Marquess of Bath [Longleat House],library,51.18576489832604,-2.274374241650415
+library_beuron,Bibliothek der Benediktiner-Erzabtei,library,48.05111183917951,8.969665164142302
+library_cambridge_trinity,Trinity College,library,52.20699433005026,0.11491160792675807
+library_st-petersburg,Russian National Library,library,59.933522562973394,30.335734298172433
+library_dusseldorf,Universitäts- und Landesbibliothek,library,51.18835541030462,6.794804798978403
+library_hereford,Cathedral Library,library,52.05426831667137,-2.7158712666667526
+library_paris_bnf,Bibliothèque nationale de France,library,48.86802895133268,2.3382029671194706
+library_bern,Burgerbibliothek,library,46.9473516608154,7.4483282293167665
+library_schaffhausen,Stadtbibliothek,library,47.695496929033155,8.636954268250209
+library_augsburg,Bischöfliche Ordinariatsbibliothek,library,48.37182075984964,10.891034553618958
+library_bamberg,Staatsbibliothek,library,49.891834048537895,10.882315140809427
+library_berlin,Staatsbibliothek Preussischer Kulturbesitz,library,52.517517497498346,13.390987221337339
+library_werden,Propsteiarchiv,library,51.386529450049494,6.999348210034419
+library_london_lambeth,Lambeth Palace Library,library,51.49579607999122,-0.12019112955881858
+library_vienna,Österreichische Nationalbibliothek,library,48.206111,16.366389
+library_florence,Biblioteca Medicea Laurenziana,library,43.774325480908274,11.254040499246589
+library_lichfield,Cathedral Library,library,52.685473860107145,-1.830402471153685
+library_gniezo,Biblioteka Kapitulna,library,52.53565420931957,17.59731706720744
+library_cambrai,Bibliothèque municipale,library,50.176666,3.235555
+library_orleans,Bibliothèque municipale,library,47.90742974063851,1.9004119186083728
+library_reims,Abbey of Saint-Remi,library,49.243185764850956,4.041000604534002
+library_kassel,Landesbibliothek,library,51.310229778584514,9.490682848057562
+library_st-gall,Stiftsbibliothek,library,47.4228,9.3764
+library_cologne,Historisches Archiv,library,50.93694866433389,6.937510010959794
+library_munich,Bayerische Staatsbibliothek,library,48.147222,11.580556
+library_dublin_museum,National Museum of Ireland,library,53.34021652058321,-6.254928881817598

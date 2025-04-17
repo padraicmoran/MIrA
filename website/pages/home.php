@@ -19,12 +19,12 @@ The principal criteria for inclusion are as follows:
 <tr>
 	<td width="300"><?php writeCategoryButton('or-ire', true); ?></td>
 	<td>Written probably in Ireland.</td>
-	<td width="50" class="text-end">104</td>
+	<td width="50" class="text-end">106</td>
 </tr>
 <tr>
 	<td><?php writeCategoryButton('sc-ire', true); ?></td>
-	<td>Written mostly in Irish script (104 from Ireland and 41 abroad).</td>
-	<td class="text-end">145</td>
+	<td>Written mostly in Irish script (106 from Ireland and 41 abroad).</td>
+	<td class="text-end">147</td>
 </tr>
 <tr>
 	<td><?php writeCategoryButton('vern', true); ?></td>

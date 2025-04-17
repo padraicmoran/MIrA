@@ -4,6 +4,7 @@
       <shelfmark>1370</shelfmark>
       <ms_name>MacDurnan’s Gospels</ms_name>
       <link type="images">https://images.lambethpalacelibrary.org.uk/luna/servlet/view/all/what/Gospel/Illuminated%2BManuscripts?sort=creator%2Ctype%2Cdate%2Ctitle</link>
+      <link type="iiif">https://images.lambethpalacelibrary.org.uk/luna/servlet/iiif/m/LPLIBLPL~17~17~179191~126324/manifest</link>
    </identifier>
    <description>
       <type />
@@ -17,7 +18,7 @@
       <date_desc>IX²</date_desc>
       <term_post>851</term_post>
       <term_ante>900</term_ante>
-      <origin><place id="ireland">Ireland</place> (Armagh?)</origin>
+      <origin><place id="armagh">Armagh</place> (Ireland)?</origin>
       <provenance><place id="canterbury">Canterbury</place></provenance>
    </history>
    <refs>

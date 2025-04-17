@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="301">
+   <identifier libraryID="london_bl">
+      <shelfmark>Cotton Vitellius F.XI</shelfmark>
+      <shelfmark_indexer>Fragm. Aug. 0017</shelfmark_indexer>
+   </identifier>
+   <description>
+      <folios>59</folios>
+      <page_h>17</page_h>
+      <page_w>12.5</page_w>
+      <contents><text id="psalms">Psalms</text></contents>
+      <script>Irish majuscule</script>
+   </description>
+   <history>
+      <date_desc>c. AD 920</date_desc>
+      <term_post>910</term_post>
+      <term_ante>930</term_ante>
+      <origin><place id="ireland">Ireland</place> (perhaps Monasterboice)</origin>
+   </history>
+   <refs>
+      <canonical corresp="#ocorrain">Ó Corráin, <i>Clavis</i>, no. 638</canonical>
+   </refs>
+   <notes categories="#or-ire #sc-ire">
+      Part illegible because of fire damage in 1731.
+   </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2025-02-13">Created</change>
+   </revisionDesc>
+</manuscript>

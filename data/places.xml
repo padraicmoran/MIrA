@@ -6,6 +6,9 @@
       <name lang="la"></name>
       <description></description>
       <coords></coords>
+      <xref type="pleiades">https://pleiades.stoa.org/places/</xref>
+      <xref type="viaf">https://viaf.org/viaf//</xref>
+      <xref type="wikidata">https://www.wikidata.org/wiki/</xref>
    </place>
 -->
 	
@@ -56,6 +59,15 @@
          <coords>48,-3</coords>
          <xref type="viaf">https://viaf.org/viaf/151203204/</xref>
          <xref type="wikidata">https://www.wikidata.org/wiki/Q12130</xref>
+      </place>
+      <place id="cambrai">
+         <name>Cambrai</name>
+         <name lang="la">Camaracum</name>
+         <description></description>
+         <coords>50.175165, 3.234282</coords>
+         <xref type="pleiades">https://pleiades.stoa.org/places/108850/</xref>
+         <xref type="viaf">https://viaf.org/viaf/168018477</xref>
+         <xref type="wikidata">https://www.wikidata.org/wiki/Q181285</xref>
       </place>
       <place id="corbie">
          <name>Corbie</name>
@@ -125,6 +137,14 @@
          <xref type="pleiades">https://pleiades.stoa.org/places/108945</xref>
          <xref type="viaf">https://viaf.org/viaf/126609525</xref>
          <xref type="wikidata">https://www.wikidata.org/wiki/Q41876</xref>
+      </place>
+      <place id="rouen">
+         <name>Rouen</name>
+         <name lang="la">Rotomagus</name>
+         <coords>49.442543987526726, 1.099536677603594</coords>
+         <xref type="pleiades">https://pleiades.stoa.org/places/109287</xref>
+         <xref type="viaf">https://viaf.org/en/viaf/146509692</xref>
+         <xref type="wikidata">https://www.wikidata.org/wiki/Q30974</xref>
       </place>
       <place id="saint-amand">
          <name>Saint-Amand</name>
@@ -292,6 +312,36 @@
       <xref type="wikidata">https://www.wikidata.org/wiki/Q22890</xref>
       <xref type="biblissima">https://data.biblissima.fr/entity/Q26918</xref>
    
+      <place id="armagh">
+         <name>Armagh</name>
+         <name lang="la">Ardmachensis</name>
+         <name lang="ga">Ard Macha</name>
+         <coords>54.347794710187706, -6.656120859096991</coords>
+         <xref type="viaf">https://viaf.org/viaf/137274280</xref>
+         <xref type="wikidata">https://www.wikidata.org/wiki/Q193452</xref>
+      </place> 
+      <place id="bangor">
+         <name>Bangor</name>
+         <name lang="la">Benchorensis</name>
+         <name lang="ga">Benchor</name>
+         <coords>54.655700825557794, -5.67473556226187</coords>
+         <xref type="viaf">https://viaf.org/viaf/277333372</xref>
+         <xref type="wikidata">https://www.wikidata.org/wiki/Q591192</xref>
+      </place> 
+      <place id="birr">
+         <name>Birr</name>
+         <name lang="ga">Birra</name>
+         <coords>53.0914, -7.9133</coords>
+         <xref type="viaf">https://viaf.org/viaf/139692568</xref>
+         <xref type="wikidata">https://www.wikidata.org/wiki/Q865849</xref>
+      </place> 
+      <place id="clondalkin">
+         <name>Clondalkin</name>
+         <name lang="ga">Cluain Dolcáin</name>
+         <coords>53.32210957074357, -6.395538835907803</coords>
+         <xref type="viaf">https://viaf.org/viaf/137676715</xref>
+         <xref type="wikidata">https://www.wikidata.org/wiki/Q1102232</xref>
+      </place> 
       <place id="deer">
          <name>Deer</name>
          <coords>57.519167, -2.036667</coords>
@@ -305,6 +355,21 @@
          <coords>56.33, -6.41</coords>
          <xref type="viaf">https://viaf.org/viaf/315127804</xref>
          <xref type="wikidata">https://www.wikidata.org/wiki/Q610</xref>
+      </place> 
+      <place id="roscrea">
+         <name>Roscrea</name>
+         <name lang="ga">Ros Cré</name>
+         <coords>52.95260309583187, -7.799747511323649</coords>
+         <xref type="viaf">https://viaf.org/viaf/315687079</xref>
+         <xref type="wikidata">https://www.wikidata.org/wiki/Q1003178</xref>
+      </place> 
+      <place id="tallaght">
+         <name>Tallaght</name>
+         <name lang="la">Tamlactensis</name>
+         <name lang="ga">Tamlacht</name>
+         <coords>53.28896571817595, -6.365717699215143</coords>
+         <xref type="viaf">https://viaf.org/viaf/315685672</xref>
+         <xref type="wikidata">https://www.wikidata.org/wiki/Q7680015</xref>
       </place> 
    </place>
 

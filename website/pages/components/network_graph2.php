@@ -4,17 +4,17 @@ Network graph
 */
 function networkGraph($results) {
   global $placeInfo, $libraries;
-  $showLibraries = false;
+  $showLibraries = true;
 
-  print '<h3 class="mt-5 pt-2">Network graph</h3>';
-  if (sizeof($results) > 50) print '<p class="bg-warning rounded py-1 px-3">Large result sets may take several seconds to draw.</p>';
+  print '<h3 id="network" class="mt-5 pt-2">Network graph</h3>';
+  if (sizeof($results) > 50) print '<p id="slowLoadWarning" class="bg-warning rounded py-1 px-3">Large result sets may take several seconds to draw.</p>';
 
   /* PREPARE DATA
   */
 
   // set up some blank arrays
   $nodeList = array();    // containing arrays [id, label, x, y, type]
-  $edgeList = array();    // containing arrays [from, to, type]
+  $edgeList = array();    // containing arrays [from, to, type, weight, label]
   $place_list = array();
   $library_list = array();
 
@@ -22,31 +22,33 @@ function networkGraph($results) {
   foreach($results as $ms) {
     $msID = strval($ms['id']);
 
-    // add a node for this MS
-    array_push($nodeList, array(
-      $msID, 
-      makeMsHeading($ms),
-      null, 
-      null, 
-      'ms'
-    ));
-
     // check origin place(s) for this manuscript
     $checkOriginPlaces = $ms->xpath ('//manuscript[@id="' . $msID  . '"]//origin/place/@id');
-    foreach ($checkOriginPlaces as $place) {
-      // add to list
-      array_push($place_list, strval($place['id'])); 
-      // add edge
-      array_push($edgeList, array($msID, $place['id'], 'origin'));
+    if ($checkOriginPlaces) {
+      $originWeight = 1 / (count($checkOriginPlaces));
+      foreach ($checkOriginPlaces as $place) {
+        // add to place list
+        array_push($place_list, strval($place['id'])); 
+      }
     }
 
     // check provenance place(s) for this manuscript
     $checkProvPlaces = $ms->xpath ('//manuscript[@id="' . $msID  . '"]//provenance/place/@id');
-    foreach ($checkProvPlaces as $place) {
-      // add to list
-      array_push($place_list, strval($place['id']));  
-      // add edge
-      array_push($edgeList, array($msID, $place['id'], 'prov'));
+    if ($checkProvPlaces) {
+      $provWeight = 1 / (count($checkProvPlaces));
+      foreach ($checkProvPlaces as $place) {
+        // add to list
+        array_push($place_list, strval($place['id']));  
+      }
+    }
+
+    // join origins to provenances
+    if ($checkOriginPlaces && $checkProvPlaces) {
+      foreach ($checkOriginPlaces as $origin) {
+        foreach ($checkProvPlaces as $prov) {
+          array_push($edgeList, array(strval($origin['id']), strval($prov['id']), 'origin', ($originWeight + $provWeight) / 2, $msID));
+        }
+      }
     }
 
     if ($showLibraries) {
@@ -55,8 +57,19 @@ function networkGraph($results) {
       foreach ($checkLibraries as $libID) {
         // add to list
         array_push($library_list, strval($libID));
-        // add edge
-        array_push($edgeList, array($msID, 'library_' . strval($libID), 'library'));
+        // if there is a provenance, add edge from provenance to library
+        if ($checkProvPlaces) {
+          foreach ($checkProvPlaces as $prov) {
+            array_push($edgeList, array(strval($prov['id']), 'library_' . strval($libID), 'prov', $provWeight, $msID));
+          }
+        }
+        // if only origin, add edge from origin to library
+        else {
+          foreach ($checkOriginPlaces as $origin) {
+            array_push($edgeList, array(strval($origin['id']), 'library_' . strval($libID), 'origin', $originWeight, $msID));
+          }
+        }
+        array_push($edgeList, array($msID, 'library_' . strval($libID), 'library', 1, ''));
       }
     }
   }
@@ -74,6 +87,13 @@ function networkGraph($results) {
       $coords[1], 
       $type
     ));
+    // add edge for parent, if there is one
+    if ($placeInfo[$placeID]['parentID']) {
+      // check that the parent is in the list
+      if (in_array($placeInfo[$placeID]['parentID'], $place_list)) {
+        array_push($edgeList, array($placeID, $placeInfo[$placeID]['parentID'], 'place_parent', 1, ''));
+      }
+    }
   }
 
   if ($showLibraries) {
@@ -84,7 +104,7 @@ function networkGraph($results) {
       $coords = processCoords($libraries[$libID]['coords']);
       array_push($nodeList, array(
         'library_' . $libID, 
-        'L: ' . $libID,
+        $libraries[$libID]['shortName'],
         $coords[0], 
         $coords[1], 
         'library'
@@ -94,7 +114,6 @@ function networkGraph($results) {
 
 ?>
 
-<a name="network" id="network"></a>
 <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
 
 <!-- custom control buttons -->
@@ -104,8 +123,10 @@ function networkGraph($results) {
 <button class="btn btn-secondary" onclick="fullScreen(document.getElementById('networkGraph'));">Full screen</button>
 </div>
 
-<p>Black lines indicate origin, blue arrows provenance.
-Double-click a node to see full details.
+<p>Blue arrows indicate primary movement (from place of origin), red arrows secondary movement (from place of provenance).
+Medieval places are in green, modern libraries in pink.
+Lines are more transparent when there are multiple options.
+Double-click any node or edge for more information.
 </p>
 
 <!-- canvas -->
@@ -144,7 +165,7 @@ var data = {
 };
 var options = {
   configure: {
-    enabled: false  /* config panel */
+    enabled: false   /* config panel */
   },
   interaction: {
     navigationButtons: true,
@@ -157,6 +178,21 @@ var options = {
       color: 'white',
       size: 25
     }
+  },
+  edges: {
+    font: {
+      color: 'black',
+      size: 25,
+      background: "rgba(255,255,255,0.8)",
+      align: "top"
+    }
+  },
+  physics: {
+    solver: "forceAtlas2Based",
+    forceAtlas2Based: {
+      springConstant: 0.01
+    },
+    minVelocity: 0.75
   }
 };
 var network = new vis.Network(container, data, options);
@@ -167,11 +203,21 @@ toggleFixed(document.getElementById('btnToggleFixed'));
 // custom actions
 
 // go to link on double click
-network.on('doubleClick', function (params) {
-  thisNode = params.nodes[0];
-  if (thisNode != undefined) {
-    url = data.nodes.get(thisNode).url;
-    if (url != undefined) window.location.href = url;
+network.on("doubleClick", function (params) {
+  if (params.nodes.length > 0) {
+    // A node was double-clicked
+    let nodeId = params.nodes[0];
+    let node = data.nodes.get(nodeId);
+    if (node && node.url) {
+      window.location.href = node.url;
+    }
+  } else if (params.edges.length > 0) {
+    // An edge was double-clicked
+    let edgeId = params.edges[0];
+    let edge = data.edges.get(edgeId);
+    if (edge && edge.url) {
+      window.location.href = edge.url;
+    }
   }
 });
 
@@ -210,6 +256,11 @@ function fullScreen(el) {
   else if (el.msRequestFullscreen) { el.msRequestFullscreen() /* IE11 */  }
 
 }
+
+// when loaded, turn off slow load warning after 
+network.on("stabilizationIterationsDone", function () {
+  document.getElementById("slowLoadWarning").classList.add("d-none");
+});
 
 </script>
 
@@ -266,7 +317,7 @@ function nodeString($node) {
           label: "' . $node[1]  . '", 
           shape: "box", 
           color: "indianred", 
-          url: "/????/' . $node[0] . '",
+          url: "/library/' . substr($node[0], strlen('library_')) . '",
           x: ' . $node[2] . ',
           y: ' . $node[3] . ',
           fixed: { x: true, y: true },
@@ -282,13 +333,17 @@ function nodeString($node) {
 
 // return a JavaScript object string for each edge
 function edgeString($edge) {
+  $label = $edge[4];
+  if ($edge[3] < 1) $label .= '?';
   switch($edge[2]) {
     case 'origin':
       $str = '{
         from: "' . $edge[0] . '", 
         to: "' . $edge[1] . '",
-        arrows: "from", 
-        color: "black", 
+        label: "' . $label . '",
+        url: "/' . $edge[4] . '",
+        arrows: "to", 
+        color: { color: "rgba(50, 50, 200, ' . $edge[3] . ')" }, 
         width: 2
       },' . "\n";
       break;
@@ -296,10 +351,19 @@ function edgeString($edge) {
       $str = '{
         from: "' . $edge[0] . '", 
         to: "' . $edge[1] . '",
+        label: "' . $label . '",
         arrows: "to", 
-        color: "#999999", 
-        dashes: true,
+        color: { color: "rgba(200, 50, 50, ' . $edge[3] . ')" }, 
         width: 2
+      },' . "\n";
+      break;
+    case 'place_parent':
+      $str = '{
+        from: "' . $edge[0] . '", 
+        to: "' . $edge[1] . '",
+        arrows: "from", 
+        color: { color: "rgba(150, 255, 150, 25)" }, 
+        width: 6
       },' . "\n";
       break;
     case 'library':

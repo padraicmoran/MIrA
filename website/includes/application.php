@@ -24,8 +24,11 @@ require 'pages/components/list_mss.php';
 require 'pages/components/map_libraries.php';
 require 'pages/components/map_places.php';
 require 'pages/components/mirador.php';
-require 'pages/components/network_graph.php';
 require 'pages/components/search_mss.php';
+
+// testing new network graph
+if (cleanInput('model') == '2') require 'pages/components/network_graph2.php';
+else require 'pages/components/network_graph.php';
 
 $romNum = array('', 'I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X');
 $languages = array(
@@ -39,14 +42,14 @@ $languages = array(
 // 
 // LOAD DATA
 // manuscripts
-if (file_exists('data/mss_compiled.xml')) {
-	$xml_mss = simplexml_load_file('data/mss_compiled.xml');
+if (file_exists('../data/mss_compiled.xml')) {
+	$xml_mss = simplexml_load_file('../data/mss_compiled.xml');
 	$totalMSS = count($xml_mss->xpath('manuscript[notes[not(contains(@categories, "#excl"))]]'));
 }
 
 // load MS categories
-if (file_exists('data/categories.xml')) {
-	$xml_msCategories = simplexml_load_file('data/categories.xml');
+if (file_exists('../data/categories.xml')) {
+	$xml_msCategories = simplexml_load_file('../data/categories.xml');
 
 	// build category associative array; key = shorthand code, value = label
 	$msCategories = array();
@@ -59,8 +62,8 @@ if (file_exists('data/categories.xml')) {
 }
 
 // load libraries
-if (file_exists('data/libraries.xml')) {
-	$xml_libraries = simplexml_load_file('data/libraries.xml');
+if (file_exists('../data/libraries.xml')) {
+	$xml_libraries = simplexml_load_file('../data/libraries.xml');
 
 	// build associative array
 	$libraries = array();
@@ -71,6 +74,7 @@ if (file_exists('data/libraries.xml')) {
 			'country' => strval($lib->country),
 			'city' => strval($lib->city),
 			'name' => strval($lib->name),
+			'shortName' => strval($lib->shortName),
 			'coords' => strval($lib->coords),
 			'searchIndex' => simpleText(strval($lib->country . $lib->city . $lib->name))
 		];
@@ -78,17 +82,22 @@ if (file_exists('data/libraries.xml')) {
 }
 
 // load places
-if (file_exists('data/places.xml')) {
-	$xml_places = simplexml_load_file('data/places.xml');
+if (file_exists('../data/places.xml')) {
+	$xml_places = simplexml_load_file('../data/places.xml');
 	$extractPlaces = $xml_places->xpath ('//place');
 
 	// build associative array
 	$placeInfo = array();
 	foreach ($extractPlaces as $place) {
 	  $i = strval($place['id']);
+	  // check for parent
+	  $getParentIDs = $xml_places->xpath ('//place[@id="' . $i . '"]/ancestor::place/@id');
+	  if ($getParentIDs) $parentID = strval($getParentIDs[0]);
+	  else $parentID = null;
 	  $placeInfo[$i] = [
 		 'id' => $i,
 		 'type' => strval($place['type']),
+		 'parentID' => $parentID,
 		 'name' => strval($place->name[0]),
 		 'coords' => strval($place->coords)
 	  ];
@@ -97,8 +106,8 @@ if (file_exists('data/places.xml')) {
 
 // load listBibl
 /* IN DEVELOPMENT: HOLD FOR NOW
-if (file_exists('data/listBibl.xml')) {
-	$xml_listBibl = simplexml_load_file('data/places.xml');
+if (file_exists('../data/listBibl.xml')) {
+	$xml_listBibl = simplexml_load_file('../data/places.xml');
 
 	// build associative array
 	$listBibl = array();

@@ -1,8 +1,8 @@
 <?php
 // person details
 
-if (file_exists('data/people.xml')) {
-	$xml_people = simplexml_load_file('data/people.xml');
+if (file_exists('../data/people.xml')) {
+	$xml_people = simplexml_load_file('../data/people.xml');
 	$filter = $xml_people->xpath('//person[@id="' . $id . '"]');
 
 	if ($filter) {

@@ -1,9 +1,10 @@
-_Archive/*
-glosses/*
-ms-lookup/*
-pages/__*.php
+.gitignore
 MIrA.code-workspace
 
+website/test_*
+website/ms-lookup/*
 
-local-processing/batch_edit.py
-mss_tei
+tools/batch_edit.py
+
+data/mss_tei
+tools/convert_to_tei

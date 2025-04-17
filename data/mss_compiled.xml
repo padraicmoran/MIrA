@@ -142,7 +142,8 @@
       <folios />
       <page_h />
       <page_w />
-      <contents>Commentary on Matthew (13r–142v); <person id="jerome">Jerome</person>, <i>Epistula ad Damasum papam</i>; Gospel canons; <person id="sedulius">Sedulius Scotus</person>, <i>Argumenta</i>, etc.</contents>
+      <contents>Commentary on Matthew (13r–142v); <person id="jerome">Jerome</person>, <i>Epistula ad Damasum papam</i>; 
+      Gospel canons; Anonymus Scotus, <i>Argumenta</i>, etc.</contents>
       <script />
    </description>
    <history>
@@ -155,6 +156,7 @@
       <canonical corresp="#bkat">Bischoff, <i>Katalog</i>, no. 7178</canonical>
       <canonical corresp="#ocorrain">Ó Corráin, <i>Clavis</i>, no. 73</canonical>
       <bibl corresp="#bronner">Bronner 2013: 53</bibl>
+      <bibl corresp="#grifoni_puerstinger_2025">Grifoni and Pürstinger 2025</bibl>
    </refs>
    <notes categories="#ex-ins #vern">
       Old Irish text (101v). Insular exemplar.
@@ -234,7 +236,7 @@
       <date_desc>VIII²</date_desc>
       <term_post>763</term_post>
       <term_ante>790</term_ante>
-      <origin>prob. Cambrai (or <place id="peronne">Péronne</place>?)</origin>
+      <origin>prob. <place id="cambrai">Cambrai</place> (or <place id="peronne">Péronne</place>?)</origin>
    </history>
    <refs>
       <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/1147"><i>CLA</i> 6.741</canonical>
@@ -483,7 +485,7 @@
       <bibl corresp="#bronner">Bronner 2013: 23–24</bibl>
    </refs>
    <notes categories="#scribe #vern">
-      Hand of <person id="martin">Martin</person>. Latin and Old Irish glosses (33). Glossed by (Irishman) Probus of Mainz.
+      Hand of <person id="martin">Martin</person>. Latin and Old Irish glosses (33). Glossed by (Irishman) <person id="probus">Probus of Mainz</person>.
    </notes>
    <revisionDesc>
       <change who="Pádraic Moran" when="2021-05-01">Created</change>
@@ -1390,7 +1392,7 @@
       <date_desc>IX 2/4 or IX med</date_desc>
       <term_post>826</term_post>
       <term_ante>860</term_ante>
-      <origin><place id="reichenau">Reichenau</place>? <place id="mainz">Mainz</place> (circle of Probus)?</origin>
+      <origin><place id="reichenau">Reichenau</place>? <place id="mainz">Mainz</place> (circle of <person id="probus">Probus</person>)?</origin>
       <provenance><place id="trier">Trier</place></provenance>
    </history>
    <refs>
@@ -2288,7 +2290,7 @@
       <date_desc>VIII–IX</date_desc>
       <term_post>780</term_post>
       <term_ante>820</term_ante>
-      <origin><place id="ireland">Ireland</place> (Tallaght)</origin>
+      <origin><place id="tallaght">Tallaght</place> (Ireland)</origin>
       <provenance><place id="reichenau">Reichenau</place></provenance>
    </history>
    <refs>
@@ -3174,7 +3176,7 @@
       <date_desc>VIII²</date_desc>
       <term_post>751</term_post>
       <term_ante>800</term_ante>
-      <origin><place id="ireland">Ireland</place> (Roscrea)</origin>
+      <origin><place id="roscrea">Roscrea</place> (Ireland)</origin>
    </history>
    <refs>
       <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/594"><i>CLA</i> 2.275</canonical>
@@ -3273,7 +3275,7 @@
       <date_desc>VIII–IX (ca. 792)</date_desc>
       <term_post>780</term_post>
       <term_ante>820</term_ante>
-      <origin><place id="ireland">Ireland</place> (prob. Tallaght)</origin>
+      <origin>prob. <place id="tallaght">Tallaght</place> (Ireland)</origin>
    </history>
    <refs>
       <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/587"><i>CLA</i> 2.268</canonical>
@@ -3429,7 +3431,7 @@
       <date_desc>IX in (ca. 807)</date_desc>
       <term_post>807</term_post>
       <term_ante>815</term_ante>
-      <origin><place id="ireland">Ireland</place> (Armagh)</origin>
+      <origin><place id="armagh">Armagh</place> (Ireland)</origin>
    </history>
    <refs>
       <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/589"><i>CLA</i> 2.270</canonical>
@@ -3619,7 +3621,7 @@
       <date_desc>VII ex</date_desc>
       <term_post>680</term_post>
       <term_ante>691</term_ante>
-      <origin>Bangor (<place id="ireland">Ireland</place>)</origin>
+      <origin><place id="bangor">Bangor</place> (Ireland)</origin>
       <provenance><place id="bobbio">Bobbio</place></provenance>
    </history>
    <refs>
@@ -3741,7 +3743,7 @@
       <date_desc>VIII–IX</date_desc>
       <term_post>780</term_post>
       <term_ante>820</term_ante>
-      <origin><place id="ireland">Ireland</place> (Bangor? Leinster?)</origin>
+      <origin><place id="ireland">Ireland</place> (<place id="bangor">Bangor</place>? Leinster?)</origin>
       <provenance><place id="bobbio">Bobbio</place></provenance>
    </history>
    <refs>
@@ -4766,7 +4768,7 @@
       <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=28">Foundations of Irish Culture</link>
    </refs>
    <notes categories="#or-ire #sc-ire #vern">
-      Irish rubric. Text similar to Bangor Antiphonary. 
+      Irish rubric. Text similar to <ms id="115">Bangor Antiphonary</ms>. 
       </notes>
    <revisionDesc>
       <change who="Pádraic Moran" when="2021-05-01">Created</change>
@@ -6690,6 +6692,7 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
       <shelfmark>1370</shelfmark>
       <ms_name>MacDurnan’s Gospels</ms_name>
       <link type="images">https://images.lambethpalacelibrary.org.uk/luna/servlet/view/all/what/Gospel/Illuminated%2BManuscripts?sort=creator%2Ctype%2Cdate%2Ctitle</link>
+      <link type="iiif">https://images.lambethpalacelibrary.org.uk/luna/servlet/iiif/m/LPLIBLPL~17~17~179191~126324/manifest</link>
    </identifier>
    <description>
       <type />
@@ -6703,7 +6706,7 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
       <date_desc>IX²</date_desc>
       <term_post>851</term_post>
       <term_ante>900</term_ante>
-      <origin><place id="ireland">Ireland</place> (Armagh?)</origin>
+      <origin><place id="armagh">Armagh</place> (Ireland)?</origin>
       <provenance><place id="canterbury">Canterbury</place></provenance>
    </history>
    <refs>
@@ -6763,7 +6766,7 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
       <date_desc>VIII–IX (ante 822)</date_desc>
       <term_post>780</term_post>
       <term_ante>821</term_ante>
-      <origin>Birr, <place id="ireland">Ireland</place></origin>
+      <origin><place id="birr">Birr</place> (Ireland)</origin>
    </history>
    <refs>
       <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/549"><i>CLA</i> 2.231</canonical>
@@ -7451,7 +7454,7 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
       <date_desc>IX</date_desc>
       <term_post>801</term_post>
       <term_ante>900</term_ante>
-      <origin>Clondalkin, <place id="ireland">Ireland</place></origin>
+      <origin><place id="clondalkin">Clondalkin</place> (Ireland)</origin>
       <provenance><place id="reichenau">Reichenau</place></provenance>
    </history>
    <refs>
@@ -9272,7 +9275,7 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
       Rewritten with Augustine (<ms id="70">MIrA 70</ms>).
    </notes>
    <revisionDesc>
-      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+      <change who="Pádraic Moran" when="2025-02-13">Created</change>
    </revisionDesc>
 </manuscript><manuscript id="295">
    <identifier libraryID="karlsruhe">
@@ -9303,7 +9306,7 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
       Rewritten with Augustine (<ms id="70">MIrA 70</ms>).
    </notes>
    <revisionDesc>
-      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+      <change who="Pádraic Moran" when="2025-02-13">Created</change>
    </revisionDesc>
 </manuscript><manuscript id="296">
    <identifier libraryID="karlsruhe">
@@ -9334,7 +9337,7 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
       Rewritten with Augustine (<ms id="70">MIrA 70</ms>).
    </notes>
    <revisionDesc>
-      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+      <change who="Pádraic Moran" when="2025-02-13">Created</change>
    </revisionDesc>
 </manuscript><manuscript id="297">
    <identifier libraryID="karlsruhe">
@@ -9365,7 +9368,7 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
       Rewritten with Augustine (<ms id="70">MIrA 70</ms>).
    </notes>
    <revisionDesc>
-      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+      <change who="Pádraic Moran" when="2025-02-13">Created</change>
    </revisionDesc>
 </manuscript><manuscript id="298">
    <identifier libraryID="karlsruhe">
@@ -9396,7 +9399,7 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
       Rewritten with Augustine (<ms id="70">MIrA 70</ms>).
    </notes>
    <revisionDesc>
-      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+      <change who="Pádraic Moran" when="2025-02-13">Created</change>
    </revisionDesc>
 </manuscript><manuscript id="299">
    <identifier libraryID="st-gall">
@@ -9430,7 +9433,7 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
       Rewritten with Gospels (<ms id="183">MIrA 183</ms>).
    </notes>
    <revisionDesc>
-      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+      <change who="Pádraic Moran" when="2025-02-13">Created</change>
    </revisionDesc>
 </manuscript><manuscript id="300">
    <identifier libraryID="karlsruhe">
@@ -9460,6 +9463,62 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
       Fragm. Aug. 17 and 18 detached from the binding of Aug. 167 (<ms id="60">MIrA 60</ms>). 
    </notes>
    <revisionDesc>
-      <change who="Pádraic Moran" when="2021-05-01">Created</change>
+      <change who="Pádraic Moran" when="2025-02-13">Created</change>
+   </revisionDesc>
+</manuscript><manuscript id="301">
+   <identifier libraryID="london_bl">
+      <shelfmark>Cotton Vitellius F.XI</shelfmark>
+      <shelfmark_indexer>Fragm. Aug. 0017</shelfmark_indexer>
+   </identifier>
+   <description>
+      <folios>59</folios>
+      <page_h>17</page_h>
+      <page_w>12.5</page_w>
+      <contents><text id="psalms">Psalms</text></contents>
+      <script>Irish majuscule</script>
+   </description>
+   <history>
+      <date_desc>c. AD 920</date_desc>
+      <term_post>910</term_post>
+      <term_ante>930</term_ante>
+      <origin><place id="ireland">Ireland</place> (perhaps Monasterboice)</origin>
+   </history>
+   <refs>
+      <canonical corresp="#ocorrain">Ó Corráin, <i>Clavis</i>, no. 638</canonical>
+   </refs>
+   <notes categories="#or-ire #sc-ire">
+      Part illegible because of fire damage in 1731.
+   </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2025-02-13">Created</change>
+   </revisionDesc>
+</manuscript><manuscript id="302">
+   <identifier libraryID="rouen">
+      <shelfmark>24 (olim A 41 al.)</shelfmark>
+      <ms_name>Double Psalter of Saint-Ouen</ms_name>
+		<link type="iiif">https://gallica.bnf.fr/iiif/ark:/12148/btv1b101040278/manifest.json</link>
+   </identifier>
+   <description>
+      <folios>155</folios>
+      <page_h>24</page_h>
+      <page_w>16.5</page_w>
+      <contents><text id="psalms">Psalms</text></contents>
+      <script>Irish majuscule</script>
+   </description>
+   <history>
+      <date_desc>X</date_desc>
+      <term_post>901</term_post>
+      <term_ante>1000</term_ante>
+      <origin><place id="ireland">Ireland</place></origin>
+      <provenance>Saint-Ouen, <place id="rouen">Rouen</place></provenance>
+   </history>
+   <refs>
+      <canonical corresp="#ocorrain">Ó Corráin, <i>Clavis</i>, no. 639</canonical>
+   </refs>
+   <notes categories="#or-ire #sc-ire">
+      c. 7,050 interlinear scholia.
+   </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2025-02-13">Created</change>
    </revisionDesc>
 </manuscript></document>

@@ -7,11 +7,10 @@ $id = cleanInput('id') ?? '';
 $search = cleanInput('search') ?? '';
 
 // if search is a number, redirect to ms page
-if ((int) $search > 0 && (int) $search <= 300) {
+if ((int) $search > 0 && (int) $search <= $totalMSS) {
 	$page = 'mss';
 	$id = $search;
 }
-
 
 
 // content router
@@ -50,13 +49,13 @@ if (isset($xml_mss)) {
 		templateTop(0);
 		require 'pages/home.php';
 	}
+	// template
+	templateBottom();	
 }
 else {
 	// some problem accessing XML
-	print '<div class="alert-warning">This resource is currently unavailable.</div>';
+	print 'This resource is currently unavailable. Please try again later.';
 }
 
 
-// template
-templateBottom();	
 ?>

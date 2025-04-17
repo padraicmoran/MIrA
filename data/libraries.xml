@@ -4,12 +4,14 @@
       <country>Austria</country>
       <city>St Paul im Lavanttal</city>
       <name>Archiv des Benediktinerstifts</name>
+      <shortName>St Paul im Lavanttal</shortName>
       <coords>46.700556,14.872778</coords>
    </library>
    <library id="vienna">
       <country>Austria</country>
       <city>Vienna</city>
       <name>Österreichische Nationalbibliothek</name>
+      <shortName>Vienna ÖN</shortName>
       <coords>48.206111,16.366389</coords>
    </library>
 
@@ -18,12 +20,14 @@
       <country>Belgium</country>
       <city>Ghent</city>
       <name>Universiteitsbibliotheek</name>
+      <shortName>Ghent UB</shortName>
       <coords>51.044722,3.725833</coords>
    </library>
    <library id="leuven">
       <country>Belgium</country>
       <city>Leuven</city>
       <name>University Library</name>
+      <shortName>Leuven UL</shortName>
       <coords>50.878, 4.7</coords>
    </library>
 
@@ -32,66 +36,84 @@
       <country>France</country>
       <city>Cambrai</city>
       <name>Bibliothèque municipale</name>
+      <shortName>Cambrai BM</shortName>
       <coords>50.176666,3.235555</coords>
    </library>
    <library id="colmar">
       <country>France</country>
       <city>Colmar</city>
       <name>Bibliothèque municipale</name>
+      <shortName>Colmar BM</shortName>
       <coords>48.0763,7.361261</coords>
    </library>
    <library id="laon">
       <country>France</country>
       <city>Laon</city>
       <name>Bibliothèque municipale</name>
+      <shortName>Laon BM</shortName>
       <coords>49.570000, 3.601389</coords>
    </library>
    <library id="nancy">
       <country>France</country>
       <city>Nancy</city>
       <name>Bibliothèque municipale</name>
+      <shortName>Nancy BM</shortName>
       <coords>48.691944,6.178889</coords>
    </library>
    <library id="orleans">
       <country>France</country>
       <city>Orléans</city>
       <name>Bibliothèque municipale</name>
+      <shortName>Orléans BM</shortName>
       <coords>47.90742974063851, 1.9004119186083728</coords>
    </library>
    <library id="paris_arsenal">
       <country>France</country>
       <city>Paris</city>
       <name>Bibliothèque de l’Arsenal</name>
+      <shortName>Paris Arsenal</shortName>
       <coords>48.85019793858149, 2.3635994278610903</coords>
    </library>
    <library id="paris_mazarine">
       <country>France</country>
       <city>Paris</city>
       <name>Bibliothèque Mazarine</name>
+      <shortName>Paris Mazarine</shortName>
       <coords>48.85738088211554, 2.3370479698456053</coords>
    </library>
    <library id="paris_bnf">
       <country>France</country>
       <city>Paris</city>
       <name>Bibliothèque nationale de France</name>
+      <shortName>Paris BnF</shortName>
       <coords>48.86802895133268, 2.3382029671194706</coords>
    </library>
    <library id="reims">
       <country>France</country>
       <city>Reims</city>
       <name>Abbey of Saint-Remi</name>
+      <shortName>Reims ASR</shortName>
       <coords>49.243185764850956, 4.041000604534002</coords>
+   </library>
+   <library id="rouen">
+      <country>France</country>
+      <city>Rouen</city>
+      <name>Bibliothèque municipale</name>
+      <shortName>Rouen BM</shortName>
+      <coords>49.42679869012814, 1.09727360301689</coords>
    </library>
    <library id="saint-omer">
       <country>France</country>
       <city>Saint-Omer</city>
       <name>Bibliothèque municipale</name>
+      <shortName>Saint-Omer BM</shortName>
       <coords>50.747494071549006, 2.2572387568916987</coords>
    </library>
    <library id="valenciennes">
       <country>France</country>
       <city>Valenciennes</city>
       <name>Bibliothèque municipale</name>
+      <shortName>Valenciennes BM</shortName>
       <coords>50.35976346173765, 3.5192634914539385</coords>
    </library>
 
@@ -100,102 +122,119 @@
       <country>Germany</country>
       <city>Augsburg</city>
       <name>Bischöfliche Ordinariatsbibliothek</name>
+      <shortName>Augsburg BOB</shortName>
       <coords>48.37182075984964, 10.891034553618958</coords>
    </library>
    <library id="bamberg">
       <country>Germany</country>
       <city>Bamberg</city>
       <name>Staatsbibliothek</name>
+      <shortName>Bamberg SB</shortName>
       <coords>49.891834048537895, 10.882315140809427</coords>
    </library>
    <library id="berlin">
       <country>Germany</country>
       <city>Berlin</city>
       <name>Staatsbibliothek Preussischer Kulturbesitz</name>
+      <shortName>Berlin SPK</shortName>
       <coords>52.517517497498346, 13.390987221337339</coords>
    </library>
    <library id="beuron">
       <country>Germany</country>
       <city>Beuron</city>
       <name>Bibliothek der Benediktiner-Erzabtei</name>
+      <shortName>Beuron BBE</shortName>
       <coords>48.05111183917951, 8.969665164142302</coords>
    </library>
    <library id="cologne">
       <country>Germany</country>
       <city>Cologne</city>
       <name>Historisches Archiv</name>
+      <shortName>Cologne HA</shortName>
       <coords>50.93694866433389, 6.937510010959794</coords>
    </library>
    <library id="dresden">
       <country>Germany</country>
       <city>Dresden</city>
       <name>Sächsische Landesbibliothek – Staats- und Universitätsbibliothek</name>
+      <shortName>Dresden SLUB</shortName>
       <coords>51.02861903522859, 13.736992859387186</coords>
    </library>
    <library id="dusseldorf">
       <country>Germany</country>
       <city>Düsseldorf</city>
       <name>Universitäts- und Landesbibliothek</name>
+      <shortName>Düsseldorf ULB</shortName>
       <coords>51.18835541030462, 6.794804798978403</coords>
    </library>
    <library id="fulda">
       <country>Germany</country>
       <city>Fulda</city>
       <name>Landesbibliothek</name>
+      <shortName>Fulda LB</shortName>
       <coords>50.55482501481171, 9.68001600354682</coords>
    </library>
    <library id="jena">
       <country>Germany</country>
       <city>Jena</city>
       <name>Thüringer Universitäts- und Landesbibliothek</name>
+      <shortName>Jena TULB</shortName>
       <coords>50.930208759485645, 11.587441541905118</coords>
    </library>
    <library id="karlsruhe">
       <country>Germany</country>
       <city>Karlsruhe</city>
       <name>Badische Landesbibliothek</name>
+      <shortName>Karlsruhe BLB</shortName>
       <coords>49.007778,8.399167</coords>
    </library>
    <library id="kassel">
       <country>Germany</country>
       <city>Kassel</city>
       <name>Landesbibliothek</name>
+      <shortName>Kassel LB</shortName>
       <coords>51.310229778584514, 9.490682848057562</coords>
    </library>
    <library id="kues">
       <country>Germany</country>
       <city>Kues</city>
       <name>Hospitalbibliothek</name>
+      <shortName>Kues HB</shortName>
       <coords>49.916015751590194, 7.071412126182056</coords>
    </library>
    <library id="munich">
       <country>Germany</country>
       <city>Munich</city>
       <name>Bayerische Staatsbibliothek</name>
+      <shortName>Munich BSB</shortName>
       <coords>48.147222,11.580556</coords>
    </library>
    <library id="regensburg">
       <country>Germany</country>
       <city>Regensburg</city>
       <name>Staatliche Bibliothek</name>
+      <shortName>Regensburg SB</shortName>
       <coords>49.01843354942618, 12.090881807269058</coords>
    </library>
    <library id="trier">
       <country>Germany</country>
       <city>Trier</city>
       <name>Stadtbibliothek</name>
+      <shortName>Trier SB</shortName>
       <coords>49.75151923100947, 6.6412939983700126</coords>
    </library>
    <library id="werden">
       <country>Germany</country>
       <city>Werden</city>
       <name>Propsteiarchiv</name>
+      <shortName>Werden PA</shortName>
       <coords>51.386529450049494, 6.999348210034419</coords>
    </library>
    <library id="wurzburg">
       <country>Germany</country>
       <city>Würzburg</city>
       <name>Universitätsbibliothek</name>
+      <shortName>Würzburg UB</shortName>
       <coords>49.7825,9.968056</coords>
    </library>
 
@@ -204,18 +243,21 @@
       <country>Ireland</country>
       <city>Dublin</city>
       <name>National Museum of Ireland</name>
+      <shortName>Dublin NMI</shortName>
       <coords>53.34021652058321, -6.254928881817598</coords>
    </library>
    <library id="dublin_ria">
       <country>Ireland</country>
       <city>Dublin</city>
       <name>Royal Irish Academy</name>
+      <shortName>Dublin RIA</shortName>
       <coords>53.340736527475464, -6.258124759268245</coords>
    </library>
    <library id="dublin_tcd">
       <country>Ireland</country>
       <city>Dublin</city>
       <name>Trinity College</name>
+      <shortName>Dublin TCD</shortName>
       <coords>53.343889,-6.256806</coords>
    </library>
 
@@ -224,48 +266,56 @@
       <country>Italy</country>
       <city>Bologna</city>
       <name>Biblioteca Universitaria</name>
+      <shortName>Bologna BU</shortName>
       <coords>44.496876947717034, 11.352408228702842</coords>
    </library>
    <library id="florence">
       <country>Italy</country>
       <city>Florence</city>
       <name>Biblioteca Medicea Laurenziana</name>
+      <shortName>Florence BML</shortName>
       <coords>43.774325480908274, 11.254040499246589</coords>
    </library>
    <library id="milan">
       <country>Italy</country>
       <city>Milan</city>
       <name>Biblioteca Ambrosiana</name>
+      <shortName>Milan BA</shortName>
       <coords>45.46343955838029, 9.18588599958076</coords>
    </library>
    <library id="montecassino">
       <country>Italy</country>
       <city>Montecassino</city>
       <name>Archivio dell'Abbazia</name>
+      <shortName>Montecassino AA</shortName>
       <coords>41.49109284715177, 13.814009466991987</coords>
    </library>
    <library id="naples">
       <country>Italy</country>
       <city>Naples</city>
       <name>Biblioteca Nazionale</name>
+      <shortName>Naples BN</shortName>
       <coords>40.8362,14.2496</coords>
    </library>
    <library id="palermo">
       <country>Italy</country>
       <city>Palermo</city>
       <name>Archivio di Stato</name>
+      <shortName>Palermo AS</shortName>
       <coords>38.11916323733944, 13.369860498906405</coords>
    </library>
    <library id="turin">
       <country>Italy</country>
       <city>Turin</city>
       <name>Biblioteca Nazionale</name>
+      <shortName>Turin BN</shortName>
       <coords>45.068389,7.686922</coords>
    </library>
    <library id="turin_reale">
       <country>Italy</country>
       <city>Turin</city>
       <name>Biblioteca Reale</name>
+      <shortName>Turin BR</shortName>
       <coords>45.071672027177975, 7.68609729901879</coords>
    </library>
 
@@ -274,6 +324,7 @@
       <country>Netherlands</country>
       <city>Leiden</city>
       <name>Universiteitsbibliotheek</name>
+      <shortName>Leiden UB</shortName>
       <coords>52.15729797265924, 4.481431022585794</coords>
    </library>
 
@@ -282,12 +333,14 @@
       <country>Poland</country>
       <city>Gniezno</city>
       <name>Biblioteka Kapitulna</name>
+      <shortName>Gniezno BK</shortName>
       <coords>52.53565420931957, 17.59731706720744</coords>
    </library>
    <library id="wroclaw">
       <country>Poland</country>
       <city>Wrocław</city>
       <name>University Library Rehdigeranus</name>
+      <shortName>Wrocław UL</shortName>
       <coords>51.11204857282375, 17.050317231352754</coords>
    </library>
 
@@ -296,6 +349,7 @@
       <country>Russia</country>
       <city>St Petersburg</city>
       <name>Russian National Library</name>
+      <shortName>St Petersburg RNL</shortName>
       <coords>59.933522562973394, 30.335734298172433</coords>
    </library>
 
@@ -304,42 +358,49 @@
       <country>Switzerland</country>
       <city>Basel</city>
       <name>Universitätsbibliothek</name>
+      <shortName>Basel UB</shortName>
       <coords>47.559638086519115, 7.5808314992785695</coords>
    </library>
    <library id="bern">
       <country>Switzerland</country>
       <city>Bern</city>
       <name>Burgerbibliothek</name>
+      <shortName>Bern BB</shortName>
       <coords>46.9473516608154, 7.4483282293167665</coords>
    </library>
    <library id="einsiedeln">
       <country>Switzerland</country>
       <city>Einsiedeln</city>
       <name>Stiftsbibliothek</name>
+      <shortName>Einsiedeln SB</shortName>
       <coords>47.12678455926152, 8.752606612765893</coords>
    </library>
    <library id="schaffhausen">
       <country>Switzerland</country>
       <city>Schaffhausen</city>
       <name>Stadtbibliothek</name>
+      <shortName>Schaffhausen SB</shortName>
       <coords>47.695496929033155, 8.636954268250209</coords>
    </library>
    <library id="st-gall">
       <country>Switzerland</country>
       <city>St Gall</city>
       <name>Stiftsbibliothek</name>
+      <shortName>St Gall SB</shortName>
       <coords>47.4228,9.3764</coords>
    </library>
    <library id="zurich">
       <country>Switzerland</country>
       <city>Zürich</city>
       <name>Staatsarchiv</name>
+      <shortName>Zurich SA</shortName>
       <coords>47.397222,8.546944</coords>
    </library>
    <library id="zurich_zentral">
       <country>Switzerland</country>
       <city>Zürich</city>
       <name>Zentralbibliothek</name>
+      <shortName>Zurich ZB</shortName>
       <coords>47.3742,8.5453</coords>
    </library>
 
@@ -348,84 +409,98 @@
       <country>UK</country>
       <city>Cambridge</city>
       <name>Corpus Christi College, Parker Library</name>
+      <shortName>Cambridge Corpus</shortName>
       <coords>52.20271733908058, 0.11842995336126838</coords>
    </library>
    <library id="cambridge_magdalen">
       <country>UK</country>
       <city>Cambridge</city>
       <name>Magdalen College</name>
+      <shortName>Cambridge Magdalen</shortName>
       <coords>52.2107117063556, 0.11688366986494722</coords>
    </library>
    <library id="cambridge_pembroke">
       <country>UK</country>
       <city>Cambridge</city>
       <name>Pembroke College</name>
+      <shortName>Cambridge Pembroke</shortName>
       <coords>52.20190120659766, 0.11827241927667255</coords>
    </library>
    <library id="cambridge_stjohns">
       <country>UK</country>
       <city>Cambridge</city>
       <name>St John's College</name>
+      <shortName>Cambridge Johns</shortName>
       <coords>52.208849004017544, 0.11702956778458021</coords>
    </library>
    <library id="cambridge_trinity">
       <country>UK</country>
       <city>Cambridge</city>
       <name>Trinity College</name>
+      <shortName>Cambridge Trinity</shortName>
       <coords>52.20699433005026, 0.11491160792675807</coords>
    </library>
    <library id="cambridge_ul">
       <country>UK</country>
       <city>Cambridge</city>
       <name>University Library</name>
+      <shortName>Cambridge UL</shortName>
       <coords>52.20511390971057, 0.108265099333065</coords>
    </library>
    <library id="durham">
       <country>UK</country>
       <city>Durham</city>
       <name>Cathedral Library</name>
+      <shortName>Durham Cathedral</shortName>
       <coords>54.77301850461256, -1.577062600756527</coords>
    </library>
    <library id="hereford">
       <country>UK</country>
       <city>Hereford</city>
       <name>Cathedral Library</name>
+      <shortName>Hereford Cathedral</shortName>
       <coords>52.05426831667137, -2.7158712666667526</coords>
    </library>
    <library id="lichfield">
       <country>UK</country>
       <city>Lichfield</city>
-      <name>Cathedral library</name>
+      <name>Cathedral Library</name>
+      <shortName>Lichfield Cathedral</shortName>
       <coords>52.685473860107145, -1.830402471153685</coords>
    </library>
    <library id="london_bl">
       <country>UK</country>
       <city>London</city>
       <name>British Library</name>
+      <shortName>London BL</shortName>
       <coords>51.529444,-0.126944</coords>
    </library>
    <library id="london_lambeth">
       <country>UK</country>
       <city>London</city>
       <name>Lambeth Palace Library</name>
+      <shortName>Lambeth Palace</shortName>
       <coords>51.49579607999122, -0.12019112955881858</coords>
    </library>
    <library id="london_getty">
       <country>UK</country>
       <city>London</city>
       <name>Private Collection J. Paul Getty Jr.</name>
+      <shortName>London Getty</shortName>
       <coords>51.51341028337198, -0.13124667335858248</coords>
    </library>
    <library id="oxford_bodleian">
       <country>UK</country>
       <city>Oxford</city>
       <name>Bodleian Library</name>
+      <shortName>Oxford Bodleian</shortName>
       <coords>51.75405967623379, -1.2540420010292574</coords>
    </library>
    <library id="warminster">
       <country>UK</country>
       <city>Warminster</city>
       <name>Library of the Marquess of Bath [Longleat House]</name>
+      <shortName>Warminster</shortName>
       <coords>51.18576489832604, -2.274374241650415</coords>
    </library>
 
@@ -434,12 +509,14 @@
       <country>USA</country>
       <city>Cambridge, Mass.</city>
       <name>Harvard University, Houghton Library</name>
+      <shortName>Harvard Houghton</shortName>
       <coords>42.373076658777165, -71.11592215807188</coords>
    </library>
    <library id="columbia">
       <country>USA</country>
       <city>New York</city>
       <name>Columbia University, Butler Library</name>
+      <shortName>Columbia Butler</shortName>
       <coords>40.80636239742014, -73.96324695968946</coords>
    </library>
 
@@ -448,6 +525,7 @@
       <country>Vatican City</country>
       <city>Vatican City</city>
       <name>Biblioteca Apostolica Vaticana</name>
+      <shortName>Vatican BAV</shortName>
       <coords>41.904722,12.454444</coords>
    </library>
 </document>

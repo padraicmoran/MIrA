@@ -7,8 +7,8 @@
 </p>
 
 <?php
-if (file_exists('data/places.xml')) {
-	$xml_places = simplexml_load_file('data/places.xml');
+if (file_exists('../data/places.xml')) {
+	$xml_places = simplexml_load_file('../data/places.xml');
 
 	mapPlaces($xml_places, '');
 ?>

@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manuscript id="302">
+   <identifier libraryID="rouen">
+      <shelfmark>24 (olim A 41 al.)</shelfmark>
+      <ms_name>Double Psalter of Saint-Ouen</ms_name>
+		<link type="iiif">https://gallica.bnf.fr/iiif/ark:/12148/btv1b101040278/manifest.json</link>
+   </identifier>
+   <description>
+      <folios>155</folios>
+      <page_h>24</page_h>
+      <page_w>16.5</page_w>
+      <contents><text id="psalms">Psalms</text></contents>
+      <script>Irish majuscule</script>
+   </description>
+   <history>
+      <date_desc>X</date_desc>
+      <term_post>901</term_post>
+      <term_ante>1000</term_ante>
+      <origin><place id="ireland">Ireland</place></origin>
+      <provenance>Saint-Ouen, <place id="rouen">Rouen</place></provenance>
+   </history>
+   <refs>
+      <canonical corresp="#ocorrain">Ó Corráin, <i>Clavis</i>, no. 639</canonical>
+   </refs>
+   <notes categories="#or-ire #sc-ire">
+      c. 7,050 interlinear scholia.
+   </notes>
+   <revisionDesc>
+      <change who="Pádraic Moran" when="2025-02-13">Created</change>
+   </revisionDesc>
+</manuscript>

@@ -1,8 +1,8 @@
 <?php
 // text details
 
-if (file_exists('data/texts.xml')) {
-	$xml_texts = simplexml_load_file('data/texts.xml');
+if (file_exists('../data/texts.xml')) {
+	$xml_texts = simplexml_load_file('../data/texts.xml');
 	$filter = $xml_texts->xpath('//text[@id="' . $id . '"]');
 
 	if ($filter) {

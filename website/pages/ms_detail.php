@@ -74,8 +74,8 @@ if ($filter) {
 	print '<tr><th colspan="2"><h3 class="h3 mt-5">Description</h3></th></tr>';
 	writeRow('MS type', $ms->description->type, '');
 	writeRow('No. of folios', $ms->description->folios, '');
-	writeRow('Page height (mm)', $ms->description->page_h, '');
-	writeRow('Page width (mm)', $ms->description->page_w, '');
+	writeRow('Page height (cm)', $ms->description->page_h, '');
+	writeRow('Page width (cm)', $ms->description->page_w, '');
 	writeRow('Script', $ms->description->script, '');
 
 	// handle contents
@@ -124,8 +124,8 @@ if ($filter) {
 		array_push($refList, substr(strval($ref), 1));
 	}
 	//	cycle through bibliography and print entries with matching IDs
-	if (file_exists('data/bibliography.xml')) {
-		$xml_bibl = simplexml_load_file('data/bibliography.xml');
+	if (file_exists('../data/bibliography.xml')) {
+		$xml_bibl = simplexml_load_file('../data/bibliography.xml');
 		print '<ul class="list-unstyled small">';
 		foreach($xml_bibl as $bibl) {
 			$biblID = strval($bibl['id']);
@@ -147,7 +147,7 @@ if ($filter) {
 
 	// download
 	if ($tidyURLs) $xmlURL = '/' . sprintf("%03d", $id) . '/xml';
-	else $xmlURL = '/data/mss/' . sprintf("%03d", $id) . '.xml';
+	else $xmlURL = '../data/mss/' . sprintf("%03d", $id) . '.xml';
 	print '<div class="text-secondary small mt-5">Download <a class="text-secondary" href="' . $xmlURL . '">XML data</a> for this manuscript.</div>';
 
 }

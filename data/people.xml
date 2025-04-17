@@ -67,6 +67,17 @@ Temporary data structure for testing purposes.
       <xref type="viaf">https://viaf.org/viaf/32388741</xref>
       <xref type="wikidata">https://www.wikidata.org/wiki/Q94276</xref>
    </person>
+   <person id="probus">
+      <firstNames>Probus</firstNames>
+      <surname>of Mainz</surname>
+      <lifetime to="859"></lifetime>
+      <!-- to do 
+      <xref type="biblissima">https://data.biblissima.fr/w/Item:Q11403</xref>
+      <xref type="dib">martinus-martin-hiberniensis-a5470</xref>
+      <xref type="viaf">https://viaf.org/viaf/32388741</xref>
+      <xref type="wikidata">https://www.wikidata.org/wiki/Q94276</xref>
+      -->
+   </person>
    <person id="sedulius">
       <firstNames>Sedulius</firstNames>
       <surname>Scottus</surname>

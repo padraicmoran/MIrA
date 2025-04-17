@@ -6,8 +6,8 @@ import sys
 from xml.etree.ElementTree import Element, ElementTree
 
 # load master file
-sourceDir = "./data/mss/"
-targetPath = "./data/mss_compiled.xml"
+sourceDir = "data/mss/"
+targetPath = "data/mss_compiled.xml"
 
 # prepare new output file
 outputTree = ElementTree()
