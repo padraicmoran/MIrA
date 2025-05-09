@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+      xml:id="mira_224">
+   <teiHeader>
+      <fileDesc><!--title of the resource-->
+         <titleStmt>
+            <title>Manuscripts with Irish Associations: catalogue item 224</title>
+         </titleStmt>
+         <!--information about distribution-->
+         <publicationStmt>
+            <publisher>Manuscripts with Irish Associations</publisher>
+            <authority>Pádraic Moran</authority>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <p>Creative Commons BY-NC-SA 4.0</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <!--notes on this manuscript-->
+         <notesStmt>
+            <note>
+      34 folios (incl. "18" and "18a", hence only 33 counted in Lowe).
+      From the same centre as <ref target="mira_112">MIrA 112</ref> (Lowe). See further there.
+   </note>
+         </notesStmt>
+         <!--main manuscript description-->
+         <sourceDesc>
+            <msDesc><!--identifier-->
+               <msIdentifier>
+                  <settlement>Vatican City</settlement>
+                  <repository key="vatican">Biblioteca Apostolica Vaticana</repository>
+                  <idno>Lat. 491 (ff 1–33)</idno>
+                  <msName/>
+               </msIdentifier>
+               <!--physical description: folios, dimentions, scripts-->
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <extent>
+                           <measure type="folios">34</measure>
+                           <dimensions unit="cm">
+                              <height>26.5</height>
+                              <width>19.7</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p>Insular minuscule</p>
+                  </handDesc>
+               </physDesc>
+               <!--text contents-->
+               <msContents>
+                  <summary>Augustine, <title>In Epistulas Pauli ad Romanos et ad Galatas</title>1r–13vAugustineExpositio quarumdam propositionum ex epistula ad Romanos14r–33vAugustineExpositio epistulae ad Galatas</summary>
+               </msContents>
+               <!--history: origin, provenance-->
+               <history>
+                  <origin>Insular centre, N <placeName key="italy">Italy</placeName>
+                     <origDate notBefore="0701" notAfter="0800">VIII</origDate>
+                  </origin>
+                  <provenance/>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!--revision history-->
+      <revisionDesc>
+         <change who="Pádraic Moran" when="2021-05-01">Created</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

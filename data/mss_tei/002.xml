@@ -21,14 +21,15 @@
          <!--notes on this manuscript-->
          <notesStmt>
             <note>
-               <title>CLA</title>: Irish exemplar.</note>
+               <title>CLA</title>: Irish exemplar.
+   </note>
          </notesStmt>
          <!--main manuscript description-->
          <sourceDesc>
-            <msDesc><!--identifiers-->
+            <msDesc><!--identifier-->
                <msIdentifier>
-                  <settlement>TO DO</settlement>
-                  <repository key="vienna">TO DO</repository>
+                  <settlement>Vienna</settlement>
+                  <repository key="vienna">Österreichische Nationalbibliothek</repository>
                   <idno>Lat. 366</idno>
                   <msName/>
                </msIdentifier>
@@ -62,13 +63,6 @@
                   </origin>
                   <provenance/>
                </history>
-               <!--bibliographical references (list format)-->
-               <additional ana="#ex-ire">
-                  <listBibl>
-                     <bibl>Link to images online <ptr type="images" target=""/>
-                     </bibl>
-                  </listBibl>
-               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>

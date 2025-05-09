@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+      xml:id="mira_110">
+   <teiHeader>
+      <fileDesc><!--title of the resource-->
+         <titleStmt>
+            <title>Manuscripts with Irish Associations: catalogue item 110</title>
+         </titleStmt>
+         <!--information about distribution-->
+         <publicationStmt>
+            <publisher>Manuscripts with Irish Associations</publisher>
+            <authority>Pádraic Moran</authority>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <p>Creative Commons BY-NC-SA 4.0</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <!--notes on this manuscript-->
+         <notesStmt>
+            <note>
+      Old Irish glosses. 
+   </note>
+         </notesStmt>
+         <!--main manuscript description-->
+         <sourceDesc>
+            <msDesc><!--identifier-->
+               <msIdentifier>
+                  <settlement>Dublin</settlement>
+                  <repository key="dublin_tcd">Trinity College</repository>
+                  <idno>52</idno>
+                  <msName>Book of Armagh</msName>
+               </msIdentifier>
+               <!--physical description: folios, dimentions, scripts-->
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <extent>
+                           <measure type="folios">215</measure>
+                           <dimensions unit="cm">
+                              <height>19.5</height>
+                              <width>14.5</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p>Irish minuscule</p>
+                  </handDesc>
+               </physDesc>
+               <!--text contents-->
+               <msContents>
+                  <summary>Muirchú, <title>Vita Sancti Patricii</title>; <title>Dicta Patricii</title>; Tírechán, <title>Collectanea de Vita S Patricii</title>; Patricius, <title>Confessio</title>; Gospels  (Vetus Latina passim, Mt, Mc, Lc, Io); Sulpicius Severus, <title>Vita S Martini, Dialogi de S Martino, Epistulae</title>
+                  </summary>
+               </msContents>
+               <!--history: origin, provenance-->
+               <history>
+                  <origin>
+                     <placeName key="armagh">Armagh</placeName> (Ireland)<origDate notBefore="0807" notAfter="0815">IX in (ca. 807)</origDate>
+                  </origin>
+                  <provenance/>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!--revision history-->
+      <revisionDesc>
+         <change who="Pádraic Moran" when="2021-05-01">Created</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

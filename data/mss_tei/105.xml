@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+      xml:id="mira_105">
+   <teiHeader>
+      <fileDesc><!--title of the resource-->
+         <titleStmt>
+            <title>Manuscripts with Irish Associations: catalogue item 105</title>
+         </titleStmt>
+         <!--information about distribution-->
+         <publicationStmt>
+            <publisher>Manuscripts with Irish Associations</publisher>
+            <authority>Pádraic Moran</authority>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <p>Creative Commons BY-NC-SA 4.0</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <!--notes on this manuscript-->
+         <notesStmt>
+            <note>
+      Prob. written in Tallaght, soon afterwards brought to Lorrha. Scribe Móel Cáich. Old Irish glosses. 
+   </note>
+         </notesStmt>
+         <!--main manuscript description-->
+         <sourceDesc>
+            <msDesc><!--identifier-->
+               <msIdentifier>
+                  <settlement>Dublin</settlement>
+                  <repository key="dublin_ria">Royal Irish Academy</repository>
+                  <idno>D II 3 (ff 12–67)</idno>
+                  <msName>Stowe Missal</msName>
+               </msIdentifier>
+               <!--physical description: folios, dimentions, scripts-->
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <extent>
+                           <measure type="folios">55</measure>
+                           <dimensions unit="cm">
+                              <height>14</height>
+                              <width>11.5</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p>Irish majuscule</p>
+                  </handDesc>
+               </physDesc>
+               <!--text contents-->
+               <msContents>
+                  <summary>Sacramentarium Celticum</summary>
+               </msContents>
+               <!--history: origin, provenance-->
+               <history>
+                  <origin>prob. <placeName key="tallaght">Tallaght</placeName> (Ireland)<origDate notBefore="0780" notAfter="0820">VIII–IX (ca. 792)</origDate>
+                  </origin>
+                  <provenance/>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!--revision history-->
+      <revisionDesc>
+         <change who="Pádraic Moran" when="2021-05-01">Created</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

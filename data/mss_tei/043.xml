@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+      xml:id="mira_43">
+   <teiHeader>
+      <fileDesc><!--title of the resource-->
+         <titleStmt>
+            <title>Manuscripts with Irish Associations: catalogue item 43</title>
+         </titleStmt>
+         <!--information about distribution-->
+         <publicationStmt>
+            <publisher>Manuscripts with Irish Associations</publisher>
+            <authority>Pádraic Moran</authority>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <p>Creative Commons BY-NC-SA 4.0</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <!--notes on this manuscript-->
+         <notesStmt>
+            <note>
+      Formerly Dombibliothek. Hand of <persName role="author" key="i2">i2</persName>.
+   </note>
+         </notesStmt>
+         <!--main manuscript description-->
+         <sourceDesc>
+            <msDesc><!--identifier-->
+               <msIdentifier>
+                  <settlement>Bamberg</settlement>
+                  <repository key="bamberg">Staatsbibliothek</repository>
+                  <idno>Ph.2(1) (HJ.IV.5)</idno>
+                  <msName/>
+               </msIdentifier>
+               <!--physical description: folios, dimentions, scripts-->
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <extent>
+                           <measure type="folios">230</measure>
+                           <dimensions unit="cm">
+                              <height>27.1</height>
+                              <width>22.6</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p>Caroline minuscule (Soissons style)</p>
+                  </handDesc>
+               </physDesc>
+               <!--text contents-->
+               <msContents>
+                  <summary>
+                     <persName role="author" key="eriugena">Eriugena</persName>, <title>Peri physeon</title> (lib. 1–3)</summary>
+               </msContents>
+               <!--history: origin, provenance-->
+               <history>
+                  <origin>Circle of <persName role="author" key="eriugena">Eriugena</persName>; presumably <placeName key="soissons">Soissons</placeName>.<origDate notBefore="0851" notAfter="0875">IX 3/4</origDate>
+                  </origin>
+                  <provenance/>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!--revision history-->
+      <revisionDesc>
+         <change who="Pádraic Moran" when="2021-05-01">Created</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+      xml:id="mira_176">
+   <teiHeader>
+      <fileDesc><!--title of the resource-->
+         <titleStmt>
+            <title>Manuscripts with Irish Associations: catalogue item 176</title>
+         </titleStmt>
+         <!--information about distribution-->
+         <publicationStmt>
+            <publisher>Manuscripts with Irish Associations</publisher>
+            <authority>Pádraic Moran</authority>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <p>Creative Commons BY-NC-SA 4.0</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <!--notes on this manuscript-->
+         <notesStmt>
+            <note>
+      Old Irish glosses. Written by Caunchobrach, Fergus, Domhnach and Suadbar; dedicated to Colgu. Several other Irish names in margins. 
+      </note>
+         </notesStmt>
+         <!--main manuscript description-->
+         <sourceDesc>
+            <msDesc><!--identifier-->
+               <msIdentifier>
+                  <settlement>Bern</settlement>
+                  <repository key="bern">Burgerbibliothek</repository>
+                  <idno>363</idno>
+                  <msName/>
+               </msIdentifier>
+               <!--physical description: folios, dimentions, scripts-->
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <extent>
+                           <measure type="folios"/>
+                           <dimensions unit="cm">
+                              <height>23.8</height>
+                              <width>19.5</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p>Irish minuscule</p>
+                  </handDesc>
+               </physDesc>
+               <!--text contents-->
+               <msContents>
+                  <summary>Dioscorides; Servius (<title>Ecl., Geo., Aen</title> to 7.16); Chirius Fortunatus; <persName role="author" key="augustine">Augustine</persName> on dialectic and rhetoric; 
+      Horace (<title>Odes, Epodes, Carmen Saeculare, Ars Poetica, Satires</title> to 3.134);
+      extracts from Ovid, <title>Metamorphoses</title>; Bede, <title>History</title>; Priscian, <title>De laude Anastasii imperatoris</title>;
+      poems</summary>
+               </msContents>
+               <!--history: origin, provenance-->
+               <history>
+                  <origin>N <placeName key="italy">Italy</placeName>? (Milan?) <placeName key="strasbourg">Strasbourg</placeName>? <placeName key="st-gall">St Gall</placeName>?<origDate notBefore="0840" notAfter="0860">IX med</origDate>
+                  </origin>
+                  <provenance>
+                     <placeName key="strasbourg">Strasbourg</placeName> (s. XIV)</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!--revision history-->
+      <revisionDesc>
+         <change who="Pádraic Moran" when="2021-05-01">Created</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

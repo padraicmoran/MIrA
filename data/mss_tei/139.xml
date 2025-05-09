@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+      xml:id="mira_139">
+   <teiHeader>
+      <fileDesc><!--title of the resource-->
+         <titleStmt>
+            <title>Manuscripts with Irish Associations: catalogue item 139</title>
+         </titleStmt>
+         <!--information about distribution-->
+         <publicationStmt>
+            <publisher>Manuscripts with Irish Associations</publisher>
+            <authority>Pádraic Moran</authority>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <p>Creative Commons BY-NC-SA 4.0</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <!--notes on this manuscript-->
+         <notesStmt>
+            <note>
+      Irish minuscule (ff 1–11v) &amp; Italian cursive minuscule (ff 13v–15). Same Irish hand as one of scribes of Naples, Lat. 2 (ff 42*–75).
+   </note>
+         </notesStmt>
+         <!--main manuscript description-->
+         <sourceDesc>
+            <msDesc><!--identifiers-->
+               <msIdentifier/>
+               <msFrag>
+                  <msIdentifier>
+                     <settlement>Milan</settlement>
+                     <repository key="milan">Biblioteca Ambrosiana</repository>
+                     <idno>S.P. II 97 (ff A, B) [palimpsest new]</idno>
+                     <msName/>
+                  </msIdentifier>
+               </msFrag>
+               <msFrag>
+                  <msIdentifier>
+                     <settlement>Vienna</settlement>
+                     <repository key="vienna">Österreichische Nationalbibliothek</repository>
+                     <idno>Lat. 954 [palimpsest new]</idno>
+                     <msName/>
+                  </msIdentifier>
+               </msFrag>
+               <!--physical description: folios, dimentions, scripts-->
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <extent>
+                           <measure type="folios">15</measure>
+                           <dimensions unit="cm">
+                              <height>19</height>
+                              <width>12.5</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p>Irish and cursive minuscule</p>
+                  </handDesc>
+               </physDesc>
+               <!--text contents-->
+               <msContents>
+                  <summary>
+                     <persName role="author" key="jerome">Jerome</persName>, <title>Epistulae</title>
+                  </summary>
+               </msContents>
+               <!--history: origin, provenance-->
+               <history>
+                  <origin>
+                     <placeName key="bobbio">Bobbio</placeName>
+                     <origDate notBefore="0701" notAfter="0800">VIII</origDate>
+                  </origin>
+                  <provenance/>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!--revision history-->
+      <revisionDesc>
+         <change who="Pádraic Moran" when="2021-05-01">Created</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

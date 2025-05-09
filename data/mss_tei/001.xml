@@ -20,14 +20,16 @@
          </publicationStmt>
          <!--notes on this manuscript-->
          <notesStmt>
-            <note>From same centre as <ref target="mira_70">Aug. perg. 195</ref>. </note>
+            <note>
+      From same centre as <ref target="mira_70">MIrA 70</ref> (Aug. perg. 195). 
+   </note>
          </notesStmt>
          <!--main manuscript description-->
          <sourceDesc>
-            <msDesc><!--identifiers-->
+            <msDesc><!--identifier-->
                <msIdentifier>
-                  <settlement>TO DO</settlement>
-                  <repository key="st-paul">TO DO</repository>
+                  <settlement>St Paul im Lavanttal</settlement>
+                  <repository key="st-paul">Archiv des Benediktinerstifts</repository>
                   <idno>Cod. 86b/1</idno>
                   <msName>Reichenauer Schulheft</msName>
                </msIdentifier>
@@ -38,8 +40,8 @@
                         <extent>
                            <measure type="folios">8</measure>
                            <dimensions unit="cm">
-                              <height>225</height>
-                              <width>155</width>
+                              <height>22.5</height>
+                              <width>15.5</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
@@ -66,13 +68,6 @@
                      <placeName key="reichenau">Reichenau</placeName>
                   </provenance>
                </history>
-               <!--bibliographical references (list format)-->
-               <additional ana="#sc-ire #vern">
-                  <listBibl>
-                     <bibl>Link to images online <ptr type="images" target=""/>
-                     </bibl>
-                  </listBibl>
-               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>

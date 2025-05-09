@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+      xml:id="mira_173">
+   <teiHeader>
+      <fileDesc><!--title of the resource-->
+         <titleStmt>
+            <title>Manuscripts with Irish Associations: catalogue item 173</title>
+         </titleStmt>
+         <!--information about distribution-->
+         <publicationStmt>
+            <publisher>Manuscripts with Irish Associations</publisher>
+            <authority>Pádraic Moran</authority>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <p>Creative Commons BY-NC-SA 4.0</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <!--notes on this manuscript-->
+         <notesStmt>
+            <note>
+      Old Irish glosses on Sergius, 146v and 148r (<title>papae: amre</title>). 
+      </note>
+         </notesStmt>
+         <!--main manuscript description-->
+         <sourceDesc>
+            <msDesc><!--identifiers-->
+               <msIdentifier/>
+               <msFrag>
+                  <msIdentifier>
+                     <settlement>Bern</settlement>
+                     <repository key="bern">Burgerbibliothek</repository>
+                     <idno>207</idno>
+                     <msName/>
+                  </msIdentifier>
+               </msFrag>
+               <msFrag>
+                  <msIdentifier>
+                     <settlement>Paris</settlement>
+                     <repository key="paris_bnf">Bibliothèque nationale de France</repository>
+                     <idno>Lat. 7520 (ff 1–24)</idno>
+                     <msName/>
+                  </msIdentifier>
+               </msFrag>
+               <!--physical description: folios, dimentions, scripts-->
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <extent>
+                           <measure type="folios">195</measure>
+                           <dimensions unit="cm">
+                              <height>30</height>
+                              <width>17.5</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p>Mixed minuscule</p>
+                  </handDesc>
+               </physDesc>
+               <!--text contents-->
+               <msContents>
+                  <summary>Donatus; Maximus Victorinus, <title>De Finalibus Metrorum</title>; Asper; Sergius; Alcuin, <title>De Grammatica</title>; Bede, <title>De Schematibus et Tropis</title>; <persName role="author" key="isidore">Isidore</persName>, <title>Etymologiae</title> (1); Julian of Toledo; Probus, <title>De Ultimis Syllabis</title>
+                  </summary>
+               </msContents>
+               <!--history: origin, provenance-->
+               <history>
+                  <origin>
+                     <placeName key="fleury">Fleury</placeName>
+                     <origDate notBefore="0779" notAfter="0797">779–797</origDate>
+                  </origin>
+                  <provenance/>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!--revision history-->
+      <revisionDesc>
+         <change who="Pádraic Moran" when="2021-05-01">Created</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

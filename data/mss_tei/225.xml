@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+      xml:id="mira_225">
+   <teiHeader>
+      <fileDesc><!--title of the resource-->
+         <titleStmt>
+            <title>Manuscripts with Irish Associations: catalogue item 225</title>
+         </titleStmt>
+         <!--information about distribution-->
+         <publicationStmt>
+            <publisher>Manuscripts with Irish Associations</publisher>
+            <authority>Pádraic Moran</authority>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <p>Creative Commons BY-NC-SA 4.0</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <!--notes on this manuscript-->
+         <notesStmt>
+            <note>Composite manuscript, part 24. Several hands. Two Irish glosses (f. 45r): <title>ianair</title> and <title>marta</title> (month names).Lowe (<title>CLA</title> S.1734) suggests that this
+         may belong with other compustistical binding fragments brought from Ireland to Bobbio, also containing Old Irish glosses (see <ref target="mira_133">MIrA 133</ref>).Bischoff (1977: 49) identifies the scribe of the zodiacal tract on f. 45r with the scribe of the same text on f. 13v in the Karlruhe Bede 
+         (<ref target="mira_60">MIrA 60</ref>). </note>
+         </notesStmt>
+         <!--main manuscript description-->
+         <sourceDesc>
+            <msDesc><!--identifier-->
+               <msIdentifier>
+                  <settlement>Vatican City</settlement>
+                  <repository key="vatican">Biblioteca Apostolica Vaticana</repository>
+                  <idno>Lat. 13501/XXIV (ff 44–45)</idno>
+                  <msName/>
+               </msIdentifier>
+               <!--physical description: folios, dimentions, scripts-->
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <extent>
+                           <measure type="folios">2</measure>
+                           <dimensions unit="cm">
+                              <height/>
+                              <width/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p>Irish minuscule</p>
+                  </handDesc>
+               </physDesc>
+               <!--text contents-->
+               <msContents>
+                  <summary>Computistica</summary>
+               </msContents>
+               <!--history: origin, provenance-->
+               <history>
+                  <origin>
+                     <placeName key="ireland">Ireland</placeName>? NE <placeName key="france">France</placeName>? (<placeName key="soissons">Soissons</placeName>?) <origDate notBefore="0801" notAfter="0900">IX</origDate>
+                  </origin>
+                  <provenance>
+                     <placeName key="bobbio">Bobbio</placeName>? <placeName key="reichenau">Reichenau</placeName>? </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!--revision history-->
+      <revisionDesc>
+         <change who="Pádraic Moran" when="2021-05-01">Created</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

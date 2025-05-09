@@ -16,11 +16,13 @@
    <xsl:attribute name="xml:id">mira_<xsl:value-of select="manuscript/@id" /></xsl:attribute>
    <teiHeader>
       <fileDesc>
+
          <!-- title of the resource -->
          <xsl:comment>title of the resource</xsl:comment>
          <titleStmt>
             <title>Manuscripts with Irish Associations: catalogue item <xsl:value-of select="manuscript/@id" /></title>
          </titleStmt>
+
          <!-- information about distribution -->
          <xsl:comment>information about distribution</xsl:comment>
          <publicationStmt>
@@ -32,24 +34,32 @@
                </licence>
             </availability>
          </publicationStmt>
+
          <!-- notes on this manuscript -->
          <xsl:comment>notes on this manuscript</xsl:comment>
          <notesStmt>
-            <note><xsl:apply-templates select="manuscript/notes"/></note>
+            <note><xsl:apply-templates select="manuscript/notes"/>
+            </note>
          </notesStmt>
+
          <!-- main manuscript description -->
          <xsl:comment>main manuscript description</xsl:comment>
          <sourceDesc>
             <msDesc>
                <!-- identifiers -->
-               <xsl:comment>identifiers</xsl:comment>
-               <msIdentifier>
-                  <settlement>TO DO</settlement>
-                  <repository><xsl:attribute name="key"><xsl:value-of select="manuscript/identifier/@libraryID" /></xsl:attribute>TO DO</repository>
-                  <idno><xsl:value-of select="manuscript/identifier/shelfmark"/></idno>
-                  <msName><xsl:value-of select="manuscript/identifier/ms_name"/></msName>
-               </msIdentifier>
-               <!-- physical description: folios, dimentions, scripts -->
+               <xsl:choose>
+                  <xsl:when test="count(manuscript/identifier) = 1">
+                     <xsl:comment>identifier</xsl:comment>
+                     <xsl:apply-templates select="manuscript/identifier" mode="single-identifier"/>
+                  </xsl:when>
+                  <xsl:when test="count(manuscript/identifier) > 1">
+                     <xsl:comment>identifiers</xsl:comment>
+                     <msIdentifier></msIdentifier>
+                     <xsl:apply-templates select="manuscript/identifier" mode="multiple-identifiers"/>
+                  </xsl:when>
+               </xsl:choose>
+
+               <!-- physical description: folios, dimensions, scripts -->
                <xsl:comment>physical description: folios, dimentions, scripts</xsl:comment>
                <physDesc>
                   <objectDesc>
@@ -67,6 +77,7 @@
                      <p><xsl:value-of select="manuscript/description/script"/></p>
                   </handDesc>
                </physDesc>
+
                <!-- text contents -->
                <xsl:comment>text contents</xsl:comment>
                <msContents>
@@ -80,14 +91,15 @@
                   </msItem>
                   -->
                </msContents>
+
                <!-- history: origin, provenance -->
                <xsl:comment>history: origin, provenance</xsl:comment>
                <history>
                   <origin>
                      <xsl:apply-templates select="manuscript/history/origin"/>
                      <origDate>
-                        <xsl:attribute name="notBefore">0<xsl:value-of select="/manuscript/history/term_post"/></xsl:attribute>
-                        <xsl:attribute name="notAfter">0<xsl:value-of select="/manuscript/history/term_ante"/></xsl:attribute>
+                        <xsl:attribute name="notBefore"><xsl:value-of select="format-number(/manuscript/history/term_post, '0000')"/></xsl:attribute>
+                        <xsl:attribute name="notAfter"><xsl:value-of select="format-number(/manuscript/history/term_ante, '0000')"/></xsl:attribute>
                         <xsl:value-of select="/manuscript/history/date_desc"/>
                      </origDate>
                   </origin>
@@ -95,19 +107,24 @@
                      <xsl:apply-templates select="manuscript/history/provenance"/>
                   </provenance>
                </history>
+
                <!-- bibliographical references (list format) -->
+               <!--  
+                  # Pausing bibliographical references for nows
+
                <xsl:comment>bibliographical references (list format)</xsl:comment>
                <additional>
-                  <!-- This requires manual fixing by inserting a space before #. But the code required in XSLT 1 is ridiculous. Python lxml supports 1 only.  -->
                   <xsl:attribute name="ana"><xsl:value-of select="/manuscript/notes/@categories"/></xsl:attribute>
                   <listBibl>
-                     <bibl>Link to images online <ptr type="images"><xsl:attribute name="target"><xsl:value-of select="manuscript/identifier/link[@type='images']"/></xsl:attribute></ptr></bibl>
+                     <bibl>Link to images online <ptr type="images"><xsl:attribute name="target"><xsl:value-of select="manuscript/ref/link[@type='images']"/></xsl:attribute></ptr></bibl>
                      <xsl:apply-templates select="manuscript/listBibl"/>
                   </listBibl>
                </additional>
+               -->
             </msDesc>
          </sourceDesc>
       </fileDesc>
+
       <!-- revision history -->
       <xsl:comment>revision history</xsl:comment>
       <revisionDesc>
@@ -122,6 +139,34 @@
 </TEI>
 
 </xsl:template>
+
+<!-- section templates -->
+<xsl:template match="identifier" mode="single-identifier">
+   <xsl:variable name="libID" select="@libraryID"/>
+   <xsl:variable name="lib" select="document('../../data/libraries.xml')//library[@id = $libID]"/>
+
+   <msIdentifier>
+      <settlement><xsl:value-of select="$lib/city"/></settlement>
+      <repository key="{$libID}"><xsl:value-of select="$lib/name"/></repository>
+      <idno><xsl:value-of select="./shelfmark"/></idno>
+      <msName><xsl:value-of select="ms_name"/></msName>
+   </msIdentifier>
+</xsl:template>
+
+<xsl:template match="identifier" mode="multiple-identifiers">
+   <xsl:variable name="libID" select="@libraryID"/>
+   <xsl:variable name="lib" select="document('../../data/libraries.xml')//library[@id = $libID]"/>
+
+   <msFrag>
+      <msIdentifier>
+         <settlement><xsl:value-of select="$lib/city"/></settlement>
+         <repository key="{$libID}"><xsl:value-of select="$lib/name"/></repository>
+         <idno><xsl:value-of select="./shelfmark"/></idno>
+         <msName><xsl:value-of select="ms_name"/></msName>
+      </msIdentifier>
+   </msFrag>
+</xsl:template>
+
 
 <!-- mini templates -->
 <xsl:template match="i">

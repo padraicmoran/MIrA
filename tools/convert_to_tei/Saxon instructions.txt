@@ -1,0 +1,12 @@
+SAXON INSTRUCTIONS
+
+1) Check that Saxon XSLT Processor is installed.
+These notes assume it can be called directly from the command line: saxon
+Otherwise, call the Java file: e.g. java -jar path/to/saxon-he-10.jar
+Run commands in the folder containing the XSLT.
+
+2) Convert individual file:
+saxon -xsl:convert_to_tei.xslt -s:../../data/mss/001.xml -o:../../data/mss_tei/001.xml
+
+3) Convert all files:
+bash process_all.sh

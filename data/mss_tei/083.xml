@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+      xml:id="mira_83">
+   <teiHeader>
+      <fileDesc><!--title of the resource-->
+         <titleStmt>
+            <title>Manuscripts with Irish Associations: catalogue item 83</title>
+         </titleStmt>
+         <!--information about distribution-->
+         <publicationStmt>
+            <publisher>Manuscripts with Irish Associations</publisher>
+            <authority>Pádraic Moran</authority>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <p>Creative Commons BY-NC-SA 4.0</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <!--notes on this manuscript-->
+         <notesStmt>
+            <note>
+      ff 1r–33v, 54r–76v in Irish hand (same as in <ref target="mira_85">Clm 14429</ref> and <ref target="mira_87">Clm 14459</ref>), 34r–53v Caroline.
+      Bischoff, <title>SSB</title>: Copied from <placeName key="reichenau">Reichenau</placeName> MS Karlruhe Aug. 111 (s. IX in), so Irish scribe prob. worked at Reichenau also.
+      </note>
+         </notesStmt>
+         <!--main manuscript description-->
+         <sourceDesc>
+            <msDesc><!--identifier-->
+               <msIdentifier>
+                  <settlement>Munich</settlement>
+                  <repository key="munich">Bayerische Staatsbibliothek</repository>
+                  <idno>Clm 14423 (ff 1–76)</idno>
+                  <msName/>
+               </msIdentifier>
+               <!--physical description: folios, dimentions, scripts-->
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <extent>
+                           <measure type="folios">76</measure>
+                           <dimensions unit="cm">
+                              <height>25.5</height>
+                              <width>18.5</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p>Irish and Caroline minuscule</p>
+                  </handDesc>
+               </physDesc>
+               <!--text contents-->
+               <msContents>
+                  <summary>
+                     <persName role="author" key="isidore">Isidore</persName> (excerpts); Eucherius, <title>Instructiones</title>; etc.</summary>
+               </msContents>
+               <!--history: origin, provenance-->
+               <history>
+                  <origin>S <placeName key="germany">Germany</placeName> (Irish scribe)<origDate notBefore="0851" notAfter="0900">IX²</origDate>
+                  </origin>
+                  <provenance/>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!--revision history-->
+      <revisionDesc>
+         <change who="Pádraic Moran" when="2021-05-01">Created</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

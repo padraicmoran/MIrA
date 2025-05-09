@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+      xml:id="mira_70">
+   <teiHeader>
+      <fileDesc><!--title of the resource-->
+         <titleStmt>
+            <title>Manuscripts with Irish Associations: catalogue item 70</title>
+         </titleStmt>
+         <!--information about distribution-->
+         <publicationStmt>
+            <publisher>Manuscripts with Irish Associations</publisher>
+            <authority>Pádraic Moran</authority>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <p>Creative Commons BY-NC-SA 4.0</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <!--notes on this manuscript-->
+         <notesStmt>
+            <note>
+      Written over MIrA <ref target="mira_65">65</ref>, <ref target="mira_294">294</ref>, <ref target="mira_295">295</ref>, <ref target="mira_68">68</ref>, <ref target="mira_296">296</ref>, 
+      <ref target="mira_69">69</ref>, <ref target="mira_66">66</ref>, <ref target="mira_67">67</ref>, <ref target="mira_297">297</ref>, <ref target="mira_298">298</ref>.
+      Old Irish glosses. Bischoff: cf. Laon 26 (frag.).
+   </note>
+         </notesStmt>
+         <!--main manuscript description-->
+         <sourceDesc>
+            <msDesc><!--identifier-->
+               <msIdentifier>
+                  <settlement>Karlsruhe</settlement>
+                  <repository key="karlsruhe">Badische Landesbibliothek</repository>
+                  <idno>Aug. perg. 195 [palimpsest new]</idno>
+                  <msName/>
+               </msIdentifier>
+               <!--physical description: folios, dimentions, scripts-->
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <extent>
+                           <measure type="folios">47</measure>
+                           <dimensions unit="cm">
+                              <height>26.3</height>
+                              <width>17.5</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p>Irish minuscule (&amp; Half-Uncial)</p>
+                  </handDesc>
+               </physDesc>
+               <!--text contents-->
+               <msContents>
+                  <summary>
+                     <persName role="author" key="augustine">Augustine</persName>, <title>Soliloquia</title>
+                  </summary>
+               </msContents>
+               <!--history: origin, provenance-->
+               <history>
+                  <origin>NE <placeName key="france">France</placeName>? (<placeName key="soissons">Soissons</placeName>?) Ireland?<origDate notBefore="0801" notAfter="0850">IX 1/2</origDate>
+                  </origin>
+                  <provenance>
+                     <placeName key="reichenau">Reichenau</placeName>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!--revision history-->
+      <revisionDesc>
+         <change who="Pádraic Moran" when="2021-05-01">Created</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

@@ -29,7 +29,8 @@
    <refs>
       <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/460"><i>CLA</i> 2.147</canonical>
       <canonical href="https://www.trismegistos.org/text/66247">TM 66247</canonical>
-   <canonical corresp="#alexander">Alexander, no. 5</canonical></refs>
+      <canonical corresp="#alexander">Alexander, no. 5</canonical>
+   </refs>
    <notes categories="#or-ins #sc-ire">
       Lowe: 'Written presumably in Northumbria, by a scribe trained in the pure Irish tradition.'
    </notes>

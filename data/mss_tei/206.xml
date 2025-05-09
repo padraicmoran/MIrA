@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+      xml:id="mira_206">
+   <teiHeader>
+      <fileDesc><!--title of the resource-->
+         <titleStmt>
+            <title>Manuscripts with Irish Associations: catalogue item 206</title>
+         </titleStmt>
+         <!--information about distribution-->
+         <publicationStmt>
+            <publisher>Manuscripts with Irish Associations</publisher>
+            <authority>Pádraic Moran</authority>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <p>Creative Commons BY-NC-SA 4.0</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <!--notes on this manuscript-->
+         <notesStmt>
+            <note/>
+         </notesStmt>
+         <!--main manuscript description-->
+         <sourceDesc>
+            <msDesc><!--identifiers-->
+               <msIdentifier/>
+               <msFrag>
+                  <msIdentifier>
+                     <settlement>Durham</settlement>
+                     <repository key="durham">Cathedral Library</repository>
+                     <idno>A.II.17 (ff 2-102)</idno>
+                     <msName>Durham Gospels</msName>
+                  </msIdentifier>
+               </msFrag>
+               <msFrag>
+                  <msIdentifier>
+                     <settlement>Cambridge</settlement>
+                     <repository key="cambridge_magdalen">Magdalen College</repository>
+                     <idno>Pepysian MS 2981 (19)</idno>
+                     <msName>Durham Gospels</msName>
+                  </msIdentifier>
+               </msFrag>
+               <!--physical description: folios, dimentions, scripts-->
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <extent>
+                           <measure type="folios"/>
+                           <dimensions unit="cm">
+                              <height/>
+                              <width/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p>Insular majuscule</p>
+                  </handDesc>
+               </physDesc>
+               <!--text contents-->
+               <msContents>
+                  <summary>Gospels  (Mt 25.35–fin., Mc, Lc 1–8, 12–22, Io 1–29)</summary>
+               </msContents>
+               <!--history: origin, provenance-->
+               <history>
+                  <origin>
+                     <placeName key="northumbria">Northumbria</placeName> (Irish tradition) or <placeName key="ireland">Ireland</placeName>
+                     <origDate notBefore="0701" notAfter="0800">VIII</origDate>
+                  </origin>
+                  <provenance/>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!--revision history-->
+      <revisionDesc>
+         <change who="Pádraic Moran" when="2021-05-01">Created</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

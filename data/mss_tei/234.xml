@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+      xml:id="mira_234">
+   <teiHeader>
+      <fileDesc><!--title of the resource-->
+         <titleStmt>
+            <title>Manuscripts with Irish Associations: catalogue item 234</title>
+         </titleStmt>
+         <!--information about distribution-->
+         <publicationStmt>
+            <publisher>Manuscripts with Irish Associations</publisher>
+            <authority>Pádraic Moran</authority>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <p>Creative Commons BY-NC-SA 4.0</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <!--notes on this manuscript-->
+         <notesStmt>
+            <note>
+      Bischoff: Irish exemplar? Mynors (ed.), <title>Cassiodori Senatoris Institutiones</title> (Oxford, 1937), pp XV–XVI: Irish abbreviations for <title>autem</title> and <title>per</title> sometimes taken over, sometimes wrongly interpreted. 
+      Two embedded Irish glosses misunderstood: <title>sitipio</title> (sc. <title>stibio</title>): <title>id est o dub dabrom</title> (John Fraser: <title>ó dub da bró</title>); <title>fenus</title>: <title>id est amthi</title> (cf. Sg. 11b19 l: <title>foenus</title>: <title>aithi</title>). 
+      </note>
+         </notesStmt>
+         <!--main manuscript description-->
+         <sourceDesc>
+            <msDesc><!--identifier-->
+               <msIdentifier>
+                  <settlement>Hereford</settlement>
+                  <repository key="hereford">Cathedral Library</repository>
+                  <idno>O.III.2</idno>
+                  <msName/>
+               </msIdentifier>
+               <!--physical description: folios, dimentions, scripts-->
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <extent>
+                           <measure type="folios">205</measure>
+                           <dimensions unit="cm">
+                              <height>24.8</height>
+                              <width>19.3</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p>Caroline minuscule</p>
+                  </handDesc>
+               </physDesc>
+               <!--text contents-->
+               <msContents>
+                  <summary>
+                     <persName role="author" key="jerome">Jerome</persName>, <title>De viris illustribus</title>; <title>Decretum Gelasianum</title>; Gennadius, <title>De viris illustribus</title>; <persName role="author" key="isidore">Isidore</persName>, <title>De viris illustribus</title>; <persName role="author" key="augustine">Augustine</persName>
+                     <title>Retractationes</title>; 
+      Cassiodorus, <title>Institutiones</title> (book 1); <persName role="author" key="isidore">Isidore</persName>, <title>Prohemia</title>, extracts from <title>De ecclesiasticis officiis, De ortu et obitu sanctorum patrum, Allegoriae</title>
+                  </summary>
+               </msContents>
+               <!--history: origin, provenance-->
+               <history>
+                  <origin>
+                     <placeName key="france">France</placeName>?<origDate notBefore="0851" notAfter="0875">IX 3/4</origDate>
+                  </origin>
+                  <provenance>
+                     <placeName key="canterbury">Canterbury</placeName> (c. 1100)</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!--revision history-->
+      <revisionDesc>
+         <change who="Pádraic Moran" when="2021-05-01">Created</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,5 @@
+Work still to do for conversion to TEI process:
+
+- Bibliographical references
+- Links to images associated with specific MS parts
+- Cross-referencing within files (e.g. links to other MIrA records, to people, places)

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+      xml:id="mira_38">
+   <teiHeader>
+      <fileDesc><!--title of the resource-->
+         <titleStmt>
+            <title>Manuscripts with Irish Associations: catalogue item 38</title>
+         </titleStmt>
+         <!--information about distribution-->
+         <publicationStmt>
+            <publisher>Manuscripts with Irish Associations</publisher>
+            <authority>Pádraic Moran</authority>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <p>Creative Commons BY-NC-SA 4.0</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <!--notes on this manuscript-->
+         <notesStmt>
+            <note>
+      Bischoff: corr. by hand <persName role="author" key="i2">i2</persName>, 67v.
+   </note>
+         </notesStmt>
+         <!--main manuscript description-->
+         <sourceDesc>
+            <msDesc><!--identifiers-->
+               <msIdentifier/>
+               <msFrag>
+                  <msIdentifier>
+                     <settlement>Paris</settlement>
+                     <repository key="paris_mazarine">Bibliothèque Mazarine</repository>
+                     <idno>561 (1025)</idno>
+                     <msName/>
+                  </msIdentifier>
+               </msFrag>
+               <msFrag>
+                  <msIdentifier>
+                     <settlement>Vatican City</settlement>
+                     <repository key="vatican">Biblioteca Apostolica Vaticana</repository>
+                     <idno>Reg. Lat. 596 (f. 9)</idno>
+                     <msName/>
+                  </msIdentifier>
+               </msFrag>
+               <!--physical description: folios, dimentions, scripts-->
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <extent>
+                           <measure type="folios">221</measure>
+                           <dimensions unit="cm">
+                              <height>24.8</height>
+                              <width>20.7</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p>Caroline minuscule</p>
+                  </handDesc>
+               </physDesc>
+               <!--text contents-->
+               <msContents>
+                  <summary>Maximus Confessor, Ambigua Iohanne Scoto interprete</summary>
+               </msContents>
+               <!--history: origin, provenance-->
+               <history>
+                  <origin>Circle of <persName role="author" key="eriugena">Eriugena</persName> (<placeName key="soissons">Soissons</placeName>)<origDate notBefore="0851" notAfter="0875">IX 3/4</origDate>
+                  </origin>
+                  <provenance/>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!--revision history-->
+      <revisionDesc>
+         <change who="Pádraic Moran" when="2021-05-01">Created</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

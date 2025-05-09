@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+      xml:id="mira_60">
+   <teiHeader>
+      <fileDesc><!--title of the resource-->
+         <titleStmt>
+            <title>Manuscripts with Irish Associations: catalogue item 60</title>
+         </titleStmt>
+         <!--information about distribution-->
+         <publicationStmt>
+            <publisher>Manuscripts with Irish Associations</publisher>
+            <authority>Pádraic Moran</authority>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <p>Creative Commons BY-NC-SA 4.0</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <!--notes on this manuscript-->
+         <notesStmt>
+            <note>
+      Written over MIrA <ref target="mira_61">61</ref>, <ref target="mira_62">62</ref>, <ref target="mira_63">63</ref>, <ref target="mira_59">59</ref>, <ref target="mira_64">64</ref>.
+      Binding contained Aug. Frag. 17 and 18 (MIrA <ref target="mira_300">300</ref>, <ref target="mira_235">235</ref>).
+      Old Irish glosses. 
+   </note>
+         </notesStmt>
+         <!--main manuscript description-->
+         <sourceDesc>
+            <msDesc><!--identifier-->
+               <msIdentifier>
+                  <settlement>Karlsruhe</settlement>
+                  <repository key="karlsruhe">Badische Landesbibliothek</repository>
+                  <idno>Aug. perg. 167 [palimpsest new]</idno>
+                  <msName>Karlsruhe Bede</msName>
+               </msIdentifier>
+               <!--physical description: folios, dimentions, scripts-->
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <extent>
+                           <measure type="folios">49</measure>
+                           <dimensions unit="cm">
+                              <height>28.1</height>
+                              <width>19.9</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p>Irish minuscule</p>
+                  </handDesc>
+               </physDesc>
+               <!--text contents-->
+               <msContents>
+                  <summary>Computistica; Bede, <title>De natura rerum</title>, <title>De temporum ratione</title>
+                  </summary>
+               </msContents>
+               <!--history: origin, provenance-->
+               <history>
+                  <origin>NE <placeName key="france">France</placeName>? (<placeName key="soissons">Soissons</placeName>?) <placeName key="ireland">Ireland</placeName>?<origDate notBefore="0801" notAfter="0850">IX 1/2</origDate>
+                  </origin>
+                  <provenance>
+                     <placeName key="reichenau">Reichenau</placeName>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!--revision history-->
+      <revisionDesc>
+         <change who="Pádraic Moran" when="2021-05-01">Created</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

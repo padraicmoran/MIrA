@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+      xml:id="mira_273">
+   <teiHeader>
+      <fileDesc><!--title of the resource-->
+         <titleStmt>
+            <title>Manuscripts with Irish Associations: catalogue item 273</title>
+         </titleStmt>
+         <!--information about distribution-->
+         <publicationStmt>
+            <publisher>Manuscripts with Irish Associations</publisher>
+            <authority>Pádraic Moran</authority>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <p>Creative Commons BY-NC-SA 4.0</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <!--notes on this manuscript-->
+         <notesStmt>
+            <note>
+               <title>CLA</title>: "Was in the hands of Irish scribes, no doubt at Bobbio, in the eighth century, when the leaves originally left blank (foll. 139v–<ref target="mira_140">141v</ref>) were used for copying a text of Servius."
+      </note>
+         </notesStmt>
+         <!--main manuscript description-->
+         <sourceDesc>
+            <msDesc><!--identifiers-->
+               <msIdentifier/>
+               <msFrag>
+                  <msIdentifier>
+                     <settlement>Naples</settlement>
+                     <repository key="naples">Biblioteca Nazionale</repository>
+                     <idno>Lat. 2 (ff 112–139)</idno>
+                     <msName/>
+                  </msIdentifier>
+               </msFrag>
+               <msFrag>
+                  <msIdentifier>
+                     <settlement>Turin</settlement>
+                     <repository key="turin">Biblioteca Nazionale</repository>
+                     <idno>F.IV.25 (fol. 21 bis / binding) </idno>
+                     <msName/>
+                  </msIdentifier>
+               </msFrag>
+               <msFrag>
+                  <msIdentifier>
+                     <settlement>Turin</settlement>
+                     <repository key="turin_reale">Biblioteca Reale</repository>
+                     <idno>Varia 186 bis </idno>
+                     <msName/>
+                  </msIdentifier>
+               </msFrag>
+               <!--physical description: folios, dimentions, scripts-->
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <extent>
+                           <measure type="folios"/>
+                           <dimensions unit="cm">
+                              <height/>
+                              <width/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p>Quarter-Unial</p>
+                  </handDesc>
+               </physDesc>
+               <!--text contents-->
+               <msContents>
+                  <summary>Claudius Sacerdos, <title>Artes Grammaticae</title>; Probus, <title>De Catholicis</title>
+                  </summary>
+               </msContents>
+               <!--history: origin, provenance-->
+               <history>
+                  <origin>
+                     <placeName key="italy">Italy</placeName>; additions in <placeName key="bobbio">Bobbio</placeName>
+                     <origDate notBefore="0401" notAfter="0500">V</origDate>
+                  </origin>
+                  <provenance/>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!--revision history-->
+      <revisionDesc>
+         <change who="Pádraic Moran" when="2021-05-01">Created</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>
