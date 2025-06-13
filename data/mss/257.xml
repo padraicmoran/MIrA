@@ -3,6 +3,7 @@
    <identifier libraryID="laon">
       <shelfmark>273</shelfmark>
       <shelfmark_indexer>273</shelfmark_indexer>
+      <link type="iiif">https://api.irht.cnrs.fr/ark:/63955/fhzczzf6z4al/manifest.json</link>
    </identifier>
    <description>
       <folios>174</folios>

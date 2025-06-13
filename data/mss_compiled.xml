@@ -404,6 +404,7 @@
       <shelfmark>81</shelfmark>
       <shelfmark_indexer>081</shelfmark_indexer>
       <link type="images">https://bibliotheque-numerique.ville-laon.fr/idurl/1/1454</link>
+      <link type="iiif">https://api.irht.cnrs.fr/ark:/63955/fidtph1bnvn8/manifest.json</link>
    </identifier>
    <description>
       <type />
@@ -433,6 +434,7 @@
       <shelfmark>444</shelfmark>
       <shelfmark_indexer>444</shelfmark_indexer>
       <link type="images">https://bibliotheque-numerique.ville-laon.fr/idurl/1/1472</link>
+      <link type="iiif">https://gallica.bnf.fr/iiif/ark:/12148/btv1b84921401/manifest.json</link>
    </identifier>
    <description>
       <type />
@@ -494,6 +496,7 @@
    <identifier libraryID="laon">
       <shelfmark>448</shelfmark>
       <shelfmark_indexer>448</shelfmark_indexer>
+      <link type="iiif">https://api.irht.cnrs.fr/ark:/63955/f82crptsufnv/manifest.json</link>
    </identifier>
    <description>
       <type />
@@ -523,6 +526,7 @@
       <shelfmark>468 (ff 1–61)</shelfmark>
       <shelfmark_indexer>468</shelfmark_indexer>
       <link type="images">https://bibliotheque-numerique.ville-laon.fr/idurl/1/1473</link>
+      <link type="iiif">https://gallica.bnf.fr/iiif/ark:/12148/btv1b8492139c/manifest.json</link>
    </identifier>
    <description>
       <type />
@@ -918,7 +922,7 @@
       <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=35">Foundations of Irish Culture</link>
    </refs>
    <notes categories="#or-ire #sc-ire #vern">
-      Old Irish glosses. ("Lat. 14111" in ELMSS is an error.)
+      Old Irish glosses.
    </notes>
    <revisionDesc>
       <change who="Pádraic Moran" when="2021-05-01">Created</change>
@@ -6475,7 +6479,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    <refs>
       <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/460"><i>CLA</i> 2.147</canonical>
       <canonical href="https://www.trismegistos.org/text/66247">TM 66247</canonical>
-   <canonical corresp="#alexander">Alexander, no. 5</canonical></refs>
+      <canonical corresp="#alexander">Alexander, no. 5</canonical>
+   </refs>
    <notes categories="#or-ins #sc-ire">
       Lowe: 'Written presumably in Northumbria, by a scribe trained in the pure Irish tradition.'
    </notes>
@@ -7948,6 +7953,7 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    <identifier libraryID="laon">
       <shelfmark>38</shelfmark>
       <shelfmark_indexer>038</shelfmark_indexer>
+      <link type="iiif">https://api.irht.cnrs.fr/ark:/63955/fcqihgsce0p7/manifest.json</link>
    </identifier>
    <description>
       <folios>139</folios>
@@ -7977,6 +7983,7 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    <identifier libraryID="laon">
       <shelfmark>67</shelfmark>
       <shelfmark_indexer>067</shelfmark_indexer>
+      <link type="iiif">https://api.irht.cnrs.fr/ark:/63955/fosh6tbed53r/manifest.json</link>
    </identifier>
    <description>
       <folios>215</folios>
@@ -8005,6 +8012,7 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    <identifier libraryID="laon">
       <shelfmark>80</shelfmark>
       <shelfmark_indexer>080</shelfmark_indexer>
+      <link type="iiif">https://api.irht.cnrs.fr/ark:/63955/fhmpl7uwdlsp/manifest.json</link>
    </identifier>
    <description>
       <folios>80</folios>
@@ -8090,6 +8098,7 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    <identifier libraryID="laon">
       <shelfmark>265</shelfmark>
       <shelfmark_indexer>265</shelfmark_indexer>
+      <link type="iiif">https://api.irht.cnrs.fr/ark:/63955/ftipzs2yyj7x/manifest.json</link>
    </identifier>
    <description>
       <folios>191</folios>
@@ -8119,6 +8128,7 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    <identifier libraryID="laon">
       <shelfmark>273</shelfmark>
       <shelfmark_indexer>273</shelfmark_indexer>
+      <link type="iiif">https://api.irht.cnrs.fr/ark:/63955/fhzczzf6z4al/manifest.json</link>
    </identifier>
    <description>
       <folios>174</folios>

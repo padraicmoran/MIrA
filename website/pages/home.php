@@ -90,7 +90,7 @@ mapLibraries($xml_mss);
 
 <h3>IIIF images</h3>
 
-<p>The catalogue makes use of <a href="https://iiif.io/" target="_blank">IIIF</a> services, where available (for 148 manuscripts currently). These facilitate:
+<p>The catalogue makes use of <a href="https://iiif.io/" target="_blank">IIIF</a> services, where available (for 181 manuscripts currently). These facilitate:
 </p>
 
 <ul>
