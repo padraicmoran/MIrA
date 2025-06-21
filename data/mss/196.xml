@@ -4,10 +4,12 @@
       <shelfmark>A.G. 19 No. 36 (fol. 57 = p. 117–118)</shelfmark>
    </identifier>
    <description>
-      <type />
-      <folios>1</folios>
+      <type>Binding fragment</type>
+      <folios>2</folios>
       <page_h>21.2</page_h>
-      <page_w>16.5</page_w>
+      <page_w>16.5</page_w><!-- Note: cut down -->
+      <cols>1</cols>
+      <lines from="19" to="19">19</lines>
       <contents>Sacramentarium Celticum (fragm.)</contents>
       <script>Irish minuscule</script>
    </description>

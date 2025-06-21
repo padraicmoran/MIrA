@@ -6,13 +6,16 @@
    <identifier unit="2" libraryID="vienna">
       <shelfmark>Lat. 954 [palimpsest new]</shelfmark>
       <shelfmark_indexer>Lat. 00954</shelfmark_indexer>
-      <link type="images" href="http://data.onb.ac.at/dtl/4412610">Vienna, Lat. 954</link>
+      <link type="images">http://data.onb.ac.at/dtl/4412610"</link>
+      <link type="iiif">https://api.onb.ac.at/iiif/presentation/v3/manifest/10044B14</link>
    </identifier>
    <description>
       <type />
-      <folios>15</folios>
+      <folios>17</folios>
       <page_h>19</page_h>
       <page_w>12.5</page_w>
+      <cols>1</cols>
+      <lines from="20" to="20">20</lines>
       <contents><person id="jerome">Jerome</person>, <i>Epistulae</i></contents>
       <script>Irish and cursive minuscule</script>
    </description>

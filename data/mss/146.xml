@@ -5,9 +5,11 @@
    </identifier>
    <description>
       <type />
-      <folios />
+      <folios>12</folios>
       <page_h />
       <page_w />
+      <cols>2</cols>
+      <lines from="43" to="43">43</lines>
       <contents>Iordanes, <i>Getica</i> (preface, 1.1–45.236)</contents>
       <script>Irish minuscule</script>
    </description>

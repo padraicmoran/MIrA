@@ -9,6 +9,8 @@
       <folios />
       <page_h />
       <page_w />
+      <cols>2</cols>
+      <lines from="31" to="31">31</lines>>
       <contents>Grammatica et Patristica Varia</contents>
       <script>Irish minuscule</script>
    </description>
@@ -26,7 +28,7 @@
       <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=22">Foundations of Irish Culture</link>
    </refs>
    <notes categories="#sc-ire #vern">
-      Old Irish glosses. 
+      Formerly Vienna, Hofbibliothek, 16. Old Irish glosses. 
       </notes>
    <revisionDesc>
       <change who="Pádraic Moran" when="2021-05-01">Created</change>

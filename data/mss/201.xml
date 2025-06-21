@@ -12,9 +12,11 @@
    </identifier>
    <description>
       <type />
-      <folios>5</folios>
+      <folios>67</folios>
       <page_h>30.5</page_h>
       <page_w>24.5</page_w>
+      <cols>1</cols>
+      <lines from="27" to="27">27</lines>
       <contents><text id="paul">Pauline Epistles</text>  (Vulgata, Rm, 1 Cor, 2 Cor, Gal, Eph, Phil, Col, 1 Th, 2 Th, 1 Tim, 2 Tim, Tit, Phlm, Hbr)</contents>
       <script>Insular minuscule</script>
    </description>

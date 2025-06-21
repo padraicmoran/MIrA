@@ -11,6 +11,8 @@
       <folios>340</folios>
       <page_h>33</page_h>
       <page_w>25</page_w>
+      <cols>1</cols>
+      <lines from="10" to="10">10</lines>
       <contents><text id="gospels">Gospels</text>  (Mt, Mc, Lc, Io)</contents>
       <script>Irish majuscule</script>
    </description>

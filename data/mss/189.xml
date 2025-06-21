@@ -7,10 +7,12 @@
       <link type="iiif" index="109">http://www.e-codices.unifr.ch/metadata/iiif/csg-1394/manifest.json</link>
    </identifier>
    <description>
-      <type>Binding frag.</type>
+      <type>Binding frament.</type>
       <folios>2</folios>
       <page_h>27</page_h>
       <page_w>21</page_w>
+      <cols>1</cols>
+      <lines from="22" to="22">22</lines>
       <contents>Sacramentarium Celticum (fragm.)</contents>
       <script>Irish majuscule and Irish minuscule</script>
    </description>

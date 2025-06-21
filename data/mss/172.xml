@@ -4,10 +4,12 @@
       <shelfmark>A 756 / 76</shelfmark>
    </identifier>
    <description>
-      <type />
-      <folios />
-      <page_h />
-      <page_w />
+      <type>Flyleaf</type>
+      <folios>2</folios>
+      <page_h>26</page_h>
+      <page_w>34.5</page_w>
+      <cols>2</cols>
+      <lines from="41" to="41">41</lines>
       <contents><i>Commentarius in Leviticum</i></contents>
       <script>Irish minuscule</script>
    </description>

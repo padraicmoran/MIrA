@@ -8,9 +8,11 @@
    </identifier>
    <description>
       <type />
-      <folios />
-      <page_h />
-      <page_w />
+      <folios>109</folios>
+      <page_h>34</page_h>
+      <page_w>20.7</page_w>
+      <cols>1</cols>
+      <lines from="26" to="26">26</lines>
       <contents><text id="gospels">Gospels</text>  (Lc 1–24.47, Io 1.14–6.54, 7.1, 21.16)</contents>
       <script>Insular majuscule</script>
    </description>

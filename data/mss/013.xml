@@ -9,6 +9,8 @@
       <folios>2</folios>
       <page_h>26</page_h>
       <page_w>15.2</page_w>
+      <cols>2</cols>
+      <lines from="36" to="36">36</lines>
       <contents>Bede, <i>Commentarius in Parabolas Salomonis</i> + (frag.) <person id="augustine">Augustine</person>, <i>De quantitate animae</i></contents>
       <script />
    </description>

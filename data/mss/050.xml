@@ -15,6 +15,8 @@
       <folios>3</folios>
       <page_h />
       <page_w />
+      <cols>2</cols>
+      <lines from="42" to="42">42</lines>
       <contents><text id="lathcen">Lathcen, <i>Ecloga Gregorii Magni Moralium in Iob</i></text> (17); Philippus Presbyter, <i>Expositio in Iob</i></contents>
       <script>Irish minuscule</script>
    </description>

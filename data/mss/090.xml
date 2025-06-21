@@ -7,10 +7,12 @@
       <link type="iiif">https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00061144/manifest</link>
    </identifier>
    <description>
-      <type>Binding frag.</type>
-      <folios />
-      <page_h />
-      <page_w />
+      <type>Binding fragment</type>
+      <folios>1</folios>
+      <page_h>17.3</page_h>
+      <page_w>13.8</page_w>
+      <cols>1</cols>
+      <lines from="12" to="12">12</lines>
       <contents>Sacramentarium Celticum: Officium Mortuorum</contents>
       <script>Irish majuscule</script>
    </description>

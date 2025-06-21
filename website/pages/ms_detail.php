@@ -76,6 +76,8 @@ if ($filter) {
 	writeRow('No. of folios', $ms->description->folios, '');
 	writeRow('Page height (cm)', $ms->description->page_h, '');
 	writeRow('Page width (cm)', $ms->description->page_w, '');
+	writeRow('Columns', $ms->description->cols, '');
+	writeRow('Lines', $ms->description->lines . indicativeLineHeight($ms->description->lines, $ms->description->page_h), '');
 	writeRow('Script', $ms->description->script, '');
 
 	// handle contents
@@ -232,4 +234,22 @@ function processData($str) {
 	return $str;
 }
 
+// return a string with the line height in cm
+function indicativeLineHeight($lines, $pageHeight) {
+	$minLines = (int)$lines['from'];
+	$maxLines = (int)$lines['to'];
+	$avgLines = round(($maxLines + $minLines) / 2);
+
+	if ($avgLines > 0 && $pageHeight > 0) {
+		$lineHeight = round($pageHeight / ($avgLines + 4), 2);	// assume 4 lines of margin
+		if ($avgLines > $minLines) {
+			$avgNote = 'average ' . $avgLines . ' lines, ';
+		}
+		else {
+			$avgNote = '';
+		}
+		return ' &nbsp; (' . $avgNote . 'approx. height: ' . $lineHeight . ' cm)';
+	}
+	else return '';
+}
 ?>

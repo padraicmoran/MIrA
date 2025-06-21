@@ -6,9 +6,11 @@
    </identifier>
    <description>
       <type />
-      <folios />
-      <page_h />
-      <page_w />
+      <folios>14</folios>
+      <page_h>25</page_h>
+      <page_w>19</page_w>
+      <cols>2</cols>
+      <lines from="49" to="49">49</lines>
       <contents>Theodorus Mopsuestenus, <i>In Psalmos</i> (fragm.)</contents>
       <script>Irish minuscule</script>
    </description>
@@ -25,7 +27,8 @@
       <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=26">Foundations of Irish Culture</link>
    </refs>
    <notes categories="#sc-ire">
-      May be a copy of Milan C. 301 inf.
+      Dimensions 23–27 × 17–21 cm (now shrunk to 22.2 × 16 cm); 38–59 lines per page.
+      May be a copy of <ms id="119">Milan C. 301 inf</ms>.
    </notes>
    <revisionDesc>
       <change who="Pádraic Moran" when="2021-05-01">Created</change>

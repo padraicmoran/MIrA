@@ -27,6 +27,8 @@
       <folios>34</folios>
       <page_h>20.5</page_h>
       <page_w>14</page_w>
+      <cols>1</cols>
+      <lines from="25" to="25">25</lines>
       <contents><person id="isidore">Isidore</person>, <i>Etymologiae</i> (1, 11, fragm.), <i>Interrogationes et Responsiones</i> (fragm.); Arnobius Iunior, Opus Incertum(?), <i>Expositio in Evangelia</i>, <i>Computus</i>; Caesarius Arelatensis, <i>Homiliae</i> (fragm.)</contents>
       <script>Irish majuscule</script>
    </description>

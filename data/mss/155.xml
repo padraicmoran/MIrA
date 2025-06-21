@@ -6,9 +6,11 @@
    </identifier>
    <description>
       <type />
-      <folios />
-      <page_h />
-      <page_w />
+      <folios>2</folios>
+      <page_h>29</page_h>
+      <page_w>21</page_w>
+      <cols>2</cols>
+      <lines from="31" to="31">31</lines>
       <contents>Pseudo-Jerome, <i>Commentarii in Marcum</i> (1.1–6, 14.52–15.21)</contents>
       <script>Irish minuscule</script>
    </description>

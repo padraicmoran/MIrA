@@ -5,10 +5,12 @@
       <ms_name>Springmount Bog Tablets</ms_name>
    </identifier>
    <description>
-      <type />
+      <type>Wax tablet</type>
       <folios>6</folios>
       <page_h>7.7</page_h>
       <page_w>21</page_w>
+      <cols>2</cols><!-- check -->
+      <lines from="32" to="32">c. 32</lines>
       <contents>Old Testament (Vetus Latina, <text id="psalms">Psalms</text> 30–32)</contents>
       <script>Early Irish minuscule</script>
    </description>

@@ -1,14 +1,17 @@
 <?xml version='1.0' encoding='utf-8'?>
 <manuscript id="92">
    <identifier libraryID="wurzburg">
-      <shelfmark>M.p.th.f.1 + M.p.th.f.18 + M.p.j.f.7 + M.p.j.f.5 + M.p.th.f.78 [binding]</shelfmark>
+      <shelfmark>M.p.misc.f.28</shelfmark>
       <shelfmark_indexer>1</shelfmark_indexer>
+      <link type="images">http://vb.uni-wuerzburg.de/ub/mpmiscf28/pages/mpmiscf28/1.html</link>
    </identifier>
    <description>
-      <type>Binding frag.</type>
-      <folios />
-      <page_h />
-      <page_w />
+      <type>Binding fragments</type>
+      <folios>5</folios>
+      <page_h>27.5</page_h>
+      <page_w>22</page_w>
+      <cols>2</cols>
+      <lines from="39" to="39">39</lines>
       <contents>Grammatica (fragm.)</contents>
       <script>Irish minuscule</script>
    </description>
@@ -23,6 +26,7 @@
       <canonical href="https://www.trismegistos.org/text/67538">TM 67538</canonical>
    </refs>
    <notes categories="#or-ire #sc-ire">
+      Formerly part of bindings of M.p.th.f.1, M.p.th.f.18, M.p.j.f.7, M.p.j.f.5, M.p.th.f.78.
       Same scribe who wrote <ms id="52">Jena Charisius fragment</ms>. Possibly brought to <place id="wurzburg">Würzburg</place> by Clemens Scottus after 826.
       </notes>
    <revisionDesc>

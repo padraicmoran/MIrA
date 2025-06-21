@@ -9,6 +9,8 @@
       <folios />
       <page_h>28</page_h>
       <page_w>19.6</page_w>
+      <cols>1</cols>
+      <lines from="22" to="22">22</lines>
       <contents><text id="gospels">Gospels</text>  (Mt, Mc, Lc, Io) (fragm.)</contents>
       <script>Irish majuscule</script>
    </description>

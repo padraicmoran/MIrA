@@ -14,9 +14,11 @@
    </identifier>
    <description>
       <type>Binding fragment</type>
-      <folios />
-      <page_h />
-      <page_w />
+      <folios>1</folios>
+      <page_h>19</page_h>
+      <page_w>12</page_w>
+      <cols>1</cols>
+      <lines from="30" to="30">30</lines>
       <contents>Computus; Calculus</contents>
       <script>Irish minuscule</script>
    </description>

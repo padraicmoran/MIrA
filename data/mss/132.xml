@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <manuscript id="132">
    <identifier libraryID="milan">
-      <shelfmark>I 61 sup.</shelfmark>
+      <shelfmark>I 61 sup. (ff 1–89)</shelfmark>
       <shelfmark_indexer>I 061 sup.</shelfmark_indexer>
    </identifier>
    <description>
@@ -9,6 +9,8 @@
       <folios>89</folios>
       <page_h>23.2</page_h>
       <page_w>17.4</page_w>
+      <cols>1</cols>
+      <lines from="21" to="39">30</lines>
       <contents><text id="gospels">Gospels</text>  (Vulgata, Mt, Mc, Lc, Io, Act)</contents>
       <script>Irish majuscule</script>
    </description>
@@ -25,9 +27,8 @@
       <canonical corresp="#mcgurk">McGurk, no. 96</canonical>
    </refs>
    <notes categories="#sc-ire">
-      Although listed in ELMSS as 'palimpsest new', the palimpsest appears to comprise
-      a single inserted leaf, ff 90–91, without other Irish connections 
-       (see <a href="https://elmss.nuigalway.ie/catalogue/689"><i>CLA</i> 3.351</a>).
+      Although listed in ELMSS as 'palimpsest new', the palimpsested part appears to comprise
+      only the single inserted leaf on ff 90–91: see <a href="https://elmss.nuigalway.ie/catalogue/689"><i>CLA</i> 3.351</a>.
    </notes>
    <revisionDesc>
       <change who="Pádraic Moran" when="2021-05-01">Created</change>

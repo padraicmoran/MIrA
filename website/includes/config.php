@@ -3,7 +3,7 @@
 Configuration options
 */
 
-$version = '0.6.1';
+$version = '0.7 dev';
 $versionDate = '2025';
 $debug = true;
 

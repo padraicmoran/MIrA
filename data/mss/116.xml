@@ -6,9 +6,11 @@
    </identifier>
    <description>
       <type />
-      <folios />
-      <page_h />
-      <page_w />
+      <folios>50</folios>
+      <page_h>21</page_h>
+      <page_w>14</page_w>
+      <cols>1</cols>
+      <lines from="27" to="27">27</lines>
       <contents>Basilius Caesariensis, <i>Regula</i> (imperf.)</contents>
       <script>Irish majuscule verging on minuscule</script>
    </description>

@@ -8,9 +8,11 @@
    </identifier>
    <description>
       <type />
-      <folios />
-      <page_h />
-      <page_w />
+      <folios>66</folios>
+      <page_h>12.5</page_h>
+      <page_w>112</page_w>
+      <cols>2</cols>
+      <lines from="29" to="29">29</lines>
       <contents><text id="gospels">Gospels</text></contents>
       <script>Irish minuscule</script>
    </description>
