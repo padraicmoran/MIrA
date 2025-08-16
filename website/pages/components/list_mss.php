@@ -10,8 +10,12 @@ function listMSS($results) {
 	// sort results
 	// cannot sort a SimpleXML object, so transfer top-level objects into an array instead
 	$sort = cleanInput('sort') ?? '';
+	$filter = cleanInput('filter') ?? '';
+
 	$resultsSorted = array();
 	foreach($results as $node) {
+		// if filter is set, only include matching manuscripts
+		if ($filter != '' && isset($node->notes['categories']) && strpos($node->notes['categories'], '#' . $filter) === false) continue;
 		$resultsSorted[] = $node;
 	}
 	
@@ -34,11 +38,11 @@ function listMSS($results) {
 	if ($searchCat != '') print '<input type="hidden" name="cat" value="' . $searchCat . '" />';
 
 	// write total
-	$matches = count($results);	
+	$matches = count($resultsSorted);	
 	print '' . $matches . switchSgPl($matches, ' manuscript', ' manuscripts') . '. &nbsp;';
 
 	// write sort options
-	print '<label for="sort">Sort by</label> &nbsp;';
+	print '<label class="ms-4 me-2" for="sort">Sort by</label>';
 	print '<select name="sort" class="" onchange="sortForm.submit(); ">';
 	writeOption('', 'location', $sort);
 	writeOption('script', 'script', $sort);
@@ -46,6 +50,15 @@ function listMSS($results) {
 //		writeOption('origin', 'origin', $sort);
 //		writeOption('prov', 'provenance', $sort);
 	print '</select>';
+
+	// write filter options
+	print '<label class="ms-4 me-2" for="filter">Filter by</label> &nbsp;';
+	print '<select name="filter" class="" onchange="sortForm.submit(); ">';
+	writeOption('', '(none)', $filter);
+	writeOption('or-ire', 'Origin: Ireland', $filter);
+	writeOption('sc-ire', 'Script: Irish', $filter);
+	print '</select>';
+
 
 	print '</form></div>';
 
