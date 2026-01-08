@@ -1,11 +1,17 @@
 <?php
 /* 
 Network graph
+Needs to be rewritten:
+- JavaScript should load data dynamically via separate PHP file.
+- All graph config info should captured in the PHP and processed in JavaScript.
+- Graph interface should give an option of two data sources (old and new models).
 */
-function networkGraph($results) {
+require_once 'network_graph_common.php';
+
+function networkGraph1($results) {
   global $placeInfo, $libraries;
   $showLibraries = false;
-  if (cleanInput('lib') == 'y') $showLibraries = 1;
+  if (cleanInput('lib') == 'y') $showLibraries = true;
 
   print '<h3 id="network" class="mt-5 pt-2">Network graph</h3>';
   if (sizeof($results) > 50) print '<p id="slowLoadWarning" class="bg-warning rounded py-1 px-3">Large result sets may take several seconds to draw.</p>';
@@ -15,7 +21,7 @@ function networkGraph($results) {
 
   // set up some blank arrays
   $nodeList = array();    // containing arrays [id, label, x, y, type]
-  $edgeList = array();    // containing arrays [from, to, type, weight]
+  $edgeList = array();    // containing arrays [from, to, type, weight, label]
   $place_list = array();
   $library_list = array();
 
@@ -35,24 +41,24 @@ function networkGraph($results) {
     // check origin place(s) for this manuscript
     $checkOriginPlaces = $ms->xpath ('//manuscript[@id="' . $msID  . '"]//origin/place/@id');
     if ($checkOriginPlaces) {
-      $weight = 1 / (count($checkOriginPlaces));
+      $originWeight = 1 / (count($checkOriginPlaces));
       foreach ($checkOriginPlaces as $place) {
-        // add to list
+        // add to place list
         array_push($place_list, strval($place['id'])); 
-        // add edge
-        array_push($edgeList, array($msID, $place['id'], 'origin', $weight));
+        // add edge from manuscript to place
+        array_push($edgeList, array($msID, $place['id'], 'origin', $originWeight, 'origin'));
       }
     }
 
     // check provenance place(s) for this manuscript
     $checkProvPlaces = $ms->xpath ('//manuscript[@id="' . $msID  . '"]//provenance/place/@id');
     if ($checkProvPlaces) {
-        $weight = 1 / (count($checkProvPlaces));
+      $provWeight = 1 / (count($checkProvPlaces));
       foreach ($checkProvPlaces as $place) {
         // add to list
         array_push($place_list, strval($place['id']));  
-        // add edge
-        array_push($edgeList, array($msID, $place['id'], 'prov', $weight));
+        // add edge from manuscript to provenance place
+        array_push($edgeList, array($msID, $place['id'], 'prov', $provWeight));
       }
     }
 
@@ -85,7 +91,7 @@ function networkGraph($results) {
     if ($placeInfo[$placeID]['parentID']) {
       // check that the parent is in the list
       if (in_array($placeInfo[$placeID]['parentID'], $place_list)) {
-        array_push($edgeList, array($placeID, $placeInfo[$placeID]['parentID'], 'place_parent', 1));
+        array_push($edgeList, array($placeID, $placeInfo[$placeID]['parentID'], 'place_parent', 1, ''));
       }
     }
   }
@@ -145,7 +151,7 @@ var edges = new vis.DataSet([
 <?php
   // write edges
   foreach ($edgeList as $edge) {
-    print edgeString($edge);
+    print edgeString1($edge);
   }
 ?>
 ]);
@@ -158,7 +164,7 @@ var data = {
 };
 var options = {
   configure: {
-    enabled: false  /* config panel */
+    enabled: false /* config panel */
   },
   interaction: {
     navigationButtons: true,
@@ -242,72 +248,8 @@ network.on("stabilizationIterationsDone", function () {
 <?php
 }
 
-// take coords string and return x, y values, adjusted for graph canvas
-function processCoords($strCoords) {
-  $coords = explode(',', $strCoords);
-  if (sizeof($coords) == 2) {
-    $x = $coords[1] * 150;
-    $y = ($coords[0] * -200) + 9400;
-  }
-  else {
-    $x = $y = null;
-  }
-  return array($x, $y);
-}
-
-// return a JavaScript object sting for each node
-function nodeString($node) {
-  switch($node[4]) {
-    case 'ms':
-      $str = '{
-        id: "' . $node[0] . '", 
-        label: "' . $node[0]  . '", 
-        title: "' . $node[1]  . '", 
-        shape: "circle", 
-        color: "darkred", 
-        url: "/' . $node[0] . '",
-        category: "ms"
-      },' . "\n";
-      break;
-    case 'place':
-    case 'region':
-      if ($node[4] == 'region') $fontSize = 45;
-      else $fontSize = 30;
-      $str = '{
-        id: "' . $node[0] . '", 
-        label: "' . $node[1]  . '", 
-        shape: "box", 
-        color: "green", 
-        url: "/places/' . $node[0] . '",
-        x: ' . $node[2] . ',
-        y: ' . $node[3] . ',
-        fixed: { x: true, y: true },
-        category: "place",
-        font: { size: ' . $fontSize . '}
-      },' . "\n";
-      break;
-    case 'library':
-        $str = '{
-          id: "' . $node[0] . '", 
-          label: "' . $node[1]  . '", 
-          shape: "box", 
-          color: "indianred", 
-          url: "/library/' . substr($node[0], strlen('library_')) . '",
-          x: ' . $node[2] . ',
-          y: ' . $node[3] . ',
-          fixed: { x: true, y: true },
-          category: "place"
-        },' . "\n";
-        break;
-    default:
-      $str = '';
-  }
-  return $str;
-
-}
-
 // return a JavaScript object string for each edge
-function edgeString($edge) {
+function edgeString1($edge) {
   if ($edge[3] < 1) $label = '?';
   else $label = '';
 

@@ -3,10 +3,10 @@ DirectoryIndex index.php
 RewriteEngine on
 RewriteRule ^[0]*([0-9]+)/?$ index.php?page=mss&id=$1
 RewriteRule ^[0]*([0-9]+)/?$ index.php?page=mss&id=$1
-RewriteRule ^library/([a-z0-9_\-]+)/?$ index.php?page=mss&lib=$1
-RewriteRule ^people/([a-z0-9_\-]+)/?$ index.php?page=people&id=$1
-RewriteRule ^places/([a-z0-9_\-]+)/?$ index.php?page=places&id=$1
-RewriteRule ^texts/([a-z0-9_\-]+)/?$ index.php?page=texts&id=$1
+RewriteRule ^library/([a-z0-9_\-]+)/?$ index.php?page=mss&lib=$1 [QSA,L]
+RewriteRule ^people/([a-z0-9_\-]+)/?$ index.php?page=people&id=$1 [QSA,L]
+RewriteRule ^places/([a-z0-9_\-]+)/?$ index.php?page=places&id=$1 [QSA,L]
+RewriteRule ^texts/([a-z0-9_\-]+)/?$ index.php?page=texts&id=$1 [QSA,L]
 
 RewriteRule ^(about|mss|people|places|texts)/?$ index.php?page=$1
 

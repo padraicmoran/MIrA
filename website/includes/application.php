@@ -27,8 +27,8 @@ require 'pages/components/mirador.php';
 require 'pages/components/search_mss.php';
 
 // testing new network graph
-if (cleanInput('model') == '2') require 'pages/components/network_graph2.php';
-else require 'pages/components/network_graph.php';
+require 'pages/components/network_graph1.php';
+require 'pages/components/network_graph2.php';
 
 $romNum = array('', 'I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X');
 $languages = array(
