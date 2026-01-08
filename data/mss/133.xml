@@ -13,8 +13,8 @@
       <link type="iiif" index="9">https://digi.vatlib.it/iiif/MSS_Vat.lat.5755/manifest.json</link>
    </identifier>
    <description>
-      <type>Binding fragment</type>
-      <folios>1</folios>
+      <type>Flyleaves and binding fragments</type>
+      <folios>7</folios>
       <page_h>19</page_h>
       <page_w>12</page_w>
       <cols>1</cols>

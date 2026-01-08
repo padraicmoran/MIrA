@@ -1312,25 +1312,29 @@
 </manuscript><manuscript id="42">
    <identifier libraryID="valenciennes">
       <shelfmark>412 (393 bis) [rear flyleaf?]</shelfmark>
+      <link type="iiif" index="199">https://gallica.bnf.fr/iiif/ark:/12148/btv1b84526145/manifest.json</link>
    </identifier>
    <description>
-      <type />
-      <folios />
-      <page_h />
-      <page_w />
-      <contents>Virgil commentary</contents>
-      <script>Caroline minuscule</script>
+      <type>Flyleaf</type>
+      <folios>1</folios>
+      <page_h>23</page_h>
+      <page_w>15.3</page_w>
+      <contents>Virgil commentary (Servius on Aen. 1.100)</contents>
+      <script>Irish minuscule</script>
    </description>
    <history>
       <date_desc>IX 1/2 or med</date_desc>
       <term_post>801</term_post>
       <term_ante>860</term_ante>
-      <origin>Irish on Continent</origin>
+      <origin><place id="saint-amand">St Amand</place></origin>
    </history>
    <refs>
       <canonical corresp="#bkat">Bischoff, <i>Katalog</i>, no. 6398</canonical>
+      <bibl corresp="#bischoff_1977">Bischoff 1977: 53</bibl>
+      
    </refs>
-   <notes categories="#misc">
+   <notes categories="#sc-ire">
+      Flyleaf numbered 97. Bischoff (1977): a careless Irish script.
       </notes>
    <revisionDesc>
       <change who="Pádraic Moran" when="2021-05-01">Created</change>
@@ -4309,8 +4313,8 @@
       <link type="iiif" index="9">https://digi.vatlib.it/iiif/MSS_Vat.lat.5755/manifest.json</link>
    </identifier>
    <description>
-      <type>Binding fragment</type>
-      <folios>1</folios>
+      <type>Flyleaves and binding fragments</type>
+      <folios>7</folios>
       <page_h>19</page_h>
       <page_w>12</page_w>
       <cols>1</cols>
@@ -4962,7 +4966,7 @@
    </identifier>
    <description>
       <type />
-      <folios />
+      <folios>9</folios>
       <page_h>28</page_h>
       <page_w>19.6</page_w>
       <cols>1</cols>
@@ -6675,7 +6679,7 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    </revisionDesc>
 </manuscript><manuscript id="206">
    <identifier unit="1" libraryID="durham">
-      <shelfmark>A.II.17 (ff 2-102)</shelfmark>
+      <shelfmark>A.II.17 (ff 2–102)</shelfmark>
       <ms_name>Durham Gospels</ms_name>
    </identifier>
    <identifier unit="2" libraryID="cambridge_magdalen">
@@ -6761,7 +6765,7 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
       <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/474"><i>CLA</i> 2.159</canonical>
       <canonical href="https://www.trismegistos.org/text/66263">TM 66263</canonical>
    <canonical corresp="#alexander">Alexander, no. 21</canonical></refs>
-   <notes categories="#or-ins #sc-ins">
+   <notes categories="#sc-ins">
    </notes>
    <revisionDesc>
       <change who="Pádraic Moran" when="2021-05-01">Created</change>

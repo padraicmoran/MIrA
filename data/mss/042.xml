@@ -1,26 +1,30 @@
 <?xml version='1.0' encoding='utf-8'?>
 <manuscript id="42">
    <identifier libraryID="valenciennes">
-      <shelfmark>412 (393 bis) [rear flyleaf?]</shelfmark>
+      <shelfmark>412 (393 bis) [rear flyleaf]</shelfmark>
+      <link type="iiif" index="199">https://gallica.bnf.fr/iiif/ark:/12148/btv1b84526145/manifest.json</link>
    </identifier>
    <description>
-      <type />
-      <folios />
-      <page_h />
-      <page_w />
-      <contents>Virgil commentary</contents>
-      <script>Caroline minuscule</script>
+      <type>Flyleaf</type>
+      <folios>1</folios>
+      <page_h>23</page_h>
+      <page_w>15.3</page_w>
+      <contents>Virgil commentary (Servius on Aen. 1.100)</contents>
+      <script>Irish minuscule</script>
    </description>
    <history>
       <date_desc>IX 1/2 or med</date_desc>
       <term_post>801</term_post>
       <term_ante>860</term_ante>
-      <origin>Irish on Continent</origin>
+      <origin><place id="saint-amand">St Amand</place></origin>
    </history>
    <refs>
       <canonical corresp="#bkat">Bischoff, <i>Katalog</i>, no. 6398</canonical>
+      <bibl corresp="#bischoff_1977">Bischoff 1977: 53</bibl>
+      
    </refs>
-   <notes categories="#misc">
+   <notes categories="#sc-ire">
+      Flyleaf numbered 97. Bischoff (1977): a careless Irish script.
       </notes>
    <revisionDesc>
       <change who="Pádraic Moran" when="2021-05-01">Created</change>

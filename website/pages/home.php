@@ -24,7 +24,7 @@ The principal criteria for inclusion are as follows:
 <tr>
 	<td><?php writeCategoryButton('sc-ire', true); ?></td>
 	<td>Written mostly in Irish script (106 from Ireland and 41 abroad).</td>
-	<td class="text-end">147</td>
+	<td class="text-end">148</td>
 </tr>
 <tr>
 	<td><?php writeCategoryButton('vern', true); ?></td>
@@ -72,7 +72,7 @@ The following categories are also considered. The contents here are currently st
 <tr>
 	<td><?php writeCategoryButton('misc', true); ?></td>
 	<td>Minor Irish associations, e.g. Irish glosses or corrections, Irish influence on script.</td>
-	<td class="text-end">31</td>
+	<td class="text-end">30</td>
 </tr>
 </table>
 

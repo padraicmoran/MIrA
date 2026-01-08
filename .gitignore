@@ -1,6 +1,7 @@
 .gitignore
 MIrA.code-workspace
 
+website/_local*
 website/test_*
 website/ms-lookup/*
 
