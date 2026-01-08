@@ -1,0 +1,1 @@
+This folder will contain the XML to RDF conversion script.
