@@ -6,7 +6,7 @@ import sys
 from xml.etree.ElementTree import Element, ElementTree
 
 # load master file
-sourceDir = "data/mss/"
+sourceDir = "data/mss_mira/"
 targetPath = "data/mss_compiled.xml"
 
 # prepare new output file

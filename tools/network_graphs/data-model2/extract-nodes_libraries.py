@@ -28,7 +28,7 @@ for ms in mss_root.findall(target_path):
             nodes.add(library_id)
 
 # Make list of all library display labels and coords
-libraries_tree = ET.parse('data/libraries.xml')
+libraries_tree = ET.parse('data/other/libraries.xml')
 libraries_root = libraries_tree.getroot()
 
 library_labels = {}

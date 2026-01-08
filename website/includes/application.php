@@ -48,8 +48,8 @@ if (file_exists('../data/mss_compiled.xml')) {
 }
 
 // load MS categories
-if (file_exists('../data/categories.xml')) {
-	$xml_msCategories = simplexml_load_file('../data/categories.xml');
+if (file_exists('../data/other/categories.xml')) {
+	$xml_msCategories = simplexml_load_file('../data/other/categories.xml');
 
 	// build category associative array; key = shorthand code, value = label
 	$msCategories = array();
@@ -62,8 +62,8 @@ if (file_exists('../data/categories.xml')) {
 }
 
 // load libraries
-if (file_exists('../data/libraries.xml')) {
-	$xml_libraries = simplexml_load_file('../data/libraries.xml');
+if (file_exists('../data/other/libraries.xml')) {
+	$xml_libraries = simplexml_load_file('../data/other/libraries.xml');
 
 	// build associative array
 	$libraries = array();
@@ -82,8 +82,8 @@ if (file_exists('../data/libraries.xml')) {
 }
 
 // load places
-if (file_exists('../data/places.xml')) {
-	$xml_places = simplexml_load_file('../data/places.xml');
+if (file_exists('../data/other/places.xml')) {
+	$xml_places = simplexml_load_file('../data/other/places.xml');
 	$extractPlaces = $xml_places->xpath ('//place');
 
 	// build associative array
@@ -107,7 +107,7 @@ if (file_exists('../data/places.xml')) {
 // load listBibl
 /* IN DEVELOPMENT: HOLD FOR NOW
 if (file_exists('../data/listBibl.xml')) {
-	$xml_listBibl = simplexml_load_file('../data/places.xml');
+	$xml_listBibl = simplexml_load_file('../data/other/places.xml');
 
 	// build associative array
 	$listBibl = array();

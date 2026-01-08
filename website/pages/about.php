@@ -22,8 +22,8 @@
 <?php
 
 // output bibliography
-if (file_exists('../data/bibliography.xml')) {
-   $xml_bibl = simplexml_load_file('../data/bibliography.xml');
+if (file_exists('../data/other/bibliography.xml')) {
+   $xml_bibl = simplexml_load_file('../data/other/bibliography.xml');
    print '<ul class="">';
    foreach($xml_bibl as $bibl) {
       print '<li class="mb-2">' . $bibl->asXML() . '</li>';

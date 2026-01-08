@@ -143,7 +143,7 @@
 <!-- section templates -->
 <xsl:template match="identifier" mode="single-identifier">
    <xsl:variable name="libID" select="@libraryID"/>
-   <xsl:variable name="lib" select="document('../../data/libraries.xml')//library[@id = $libID]"/>
+   <xsl:variable name="lib" select="document('../../data/other/libraries.xml')//library[@id = $libID]"/>
 
    <msIdentifier>
       <settlement><xsl:value-of select="$lib/city"/></settlement>
@@ -155,7 +155,7 @@
 
 <xsl:template match="identifier" mode="multiple-identifiers">
    <xsl:variable name="libID" select="@libraryID"/>
-   <xsl:variable name="lib" select="document('../../data/libraries.xml')//library[@id = $libID]"/>
+   <xsl:variable name="lib" select="document('../../data/other/libraries.xml')//library[@id = $libID]"/>
 
    <msFrag>
       <msIdentifier>

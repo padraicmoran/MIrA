@@ -1,8 +1,8 @@
 <?php
 // place details
 
-if (file_exists('../data/places.xml')) {
-	$xml_places = simplexml_load_file('../data/places.xml');
+if (file_exists('../data/other/places.xml')) {
+	$xml_places = simplexml_load_file('../data/other/places.xml');
 
 	// get place info
 	$filter = $xml_places->xpath('//place[@id="' . $id . '"]');

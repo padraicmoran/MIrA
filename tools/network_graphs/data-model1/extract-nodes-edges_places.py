@@ -45,7 +45,7 @@ for path in target_paths:
             nodes.add(ms_place_id)  # Add to set to eliminate duplicates
 
 # Make list of all place display labels and coords
-places_tree = ET.parse('data/places.xml')
+places_tree = ET.parse('data/other/places.xml')
 places_root = places_tree.getroot()
 
 place_labels = {}

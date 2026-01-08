@@ -4,9 +4,9 @@
 # output to the output_folder.
 # To run: bash process_all.sh
 
-input_folder="/home/padraic/OneDrive/Sites/mira.ie/Repository/data/mss"
+input_folder="/home/padraic/OneDrive/Sites/mira.ie/Repository/data/mss_mira"
 stylesheet="convert_to_tei.xslt"
-output_folder="/home/padraic/OneDrive/Sites/mira.ie/Repository/data/mss_tei"
+output_folder="/home/padraic/OneDrive/Sites/mira.ie/Repository/data/mss_tei-converted"
 
 for f in "$input_folder"/*.xml; do
   echo "Processing file: $f" # Output the current file being processed

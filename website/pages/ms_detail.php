@@ -126,8 +126,8 @@ if ($filter) {
 		array_push($refList, substr(strval($ref), 1));
 	}
 	//	cycle through bibliography and print entries with matching IDs
-	if (file_exists('../data/bibliography.xml')) {
-		$xml_bibl = simplexml_load_file('../data/bibliography.xml');
+	if (file_exists('../data/other/bibliography.xml')) {
+		$xml_bibl = simplexml_load_file('../data/other/bibliography.xml');
 		print '<ul class="list-unstyled small">';
 		foreach($xml_bibl as $bibl) {
 			$biblID = strval($bibl['id']);

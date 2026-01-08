@@ -4,8 +4,8 @@
 <p>(Indexing is still in progress.)</p>
 
 <?php
-if (file_exists('../data/texts.xml')) {
-	$xml_texts = simplexml_load_file('../data/texts.xml');
+if (file_exists('../data/other/texts.xml')) {
+	$xml_texts = simplexml_load_file('../data/other/texts.xml');
 
 ?>
 

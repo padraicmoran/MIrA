@@ -4,8 +4,8 @@
 <p>(Indexing is still in progress.)</p>
 
 <?php
-if (file_exists('../data/people.xml')) {
-	$xml_people = simplexml_load_file('../data/people.xml');
+if (file_exists('../data/other/people.xml')) {
+	$xml_people = simplexml_load_file('../data/other/people.xml');
 
 ?>
 <div class="table-responsive-sm mt-4">
