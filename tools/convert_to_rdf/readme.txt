@@ -12,13 +12,6 @@ Why this matters:
 - RDF makes it possible to explore manuscripts using SPARQL and other tools
 - The data becomes more reusable for digital research and linked data projects
 
-What has not been done yet:
-- No automatic lookup for missing Wikidata identifiers
-- No reconciliation or validation against Wikidata
-- No support yet for publishing or uploading back to Wikidata
-- No integration with the MIrA website workflow
-- No automated testing or CI process for generating RDF
-- No public documentation of SPARQL query examples
 
 Future improvements (planned or possible):
 - Better reporting of what data was included or skipped
