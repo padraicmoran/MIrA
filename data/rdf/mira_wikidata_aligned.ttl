@@ -1,0 +1,3896 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+wd:Q154748 a wd:Q618123 ;
+    rdfs:label "Verdun" ;
+    skos:altLabel "Viriodunum, Verodunum" ;
+    skos:prefLabel "Verdun" .
+
+wd:Q157550 a wd:Q618123 ;
+    rdfs:label "Lorsch" ;
+    skos:altLabel "Laureshamensis" ;
+    skos:prefLabel "Lorsch" .
+
+wd:Q166876 a wd:Q5 ;
+    rdfs:label "Isidore" ;
+    skos:prefLabel "Isidore" .
+
+wd:Q184500 a wd:Q5 ;
+    rdfs:label "John Scottus/Eriugena" ;
+    skos:prefLabel "John Scottus/Eriugena" .
+
+wd:Q204317 a wd:Q618123 ;
+    rdfs:label "Echternach" ;
+    skos:altLabel "Epternacum" ;
+    skos:prefLabel "Echternach" .
+
+wd:Q217768 a wd:Q618123 ;
+    rdfs:label "Péronne" ;
+    skos:altLabel "Peronna" ;
+    skos:prefLabel "Péronne" .
+
+wd:Q258391 a wd:Q618123 ;
+    rdfs:label "Werden" ;
+    skos:prefLabel "Werden" .
+
+wd:Q2609522 a wd:Q5 ;
+    rdfs:label "Sedulius Scottus" ;
+    skos:prefLabel "Sedulius Scottus" .
+
+wd:Q262684 a wd:Q618123 ;
+    rdfs:label "Füssen" ;
+    skos:prefLabel "Füssen" .
+
+wd:Q265283 a wd:Q7725634 ;
+    rdfs:label "Epistles" ;
+    skos:prefLabel "Epistles" .
+
+wd:Q29303 a wd:Q618123 ;
+    rdfs:label "Canterbury" ;
+    skos:altLabel "Cantuaria, Durrovernum" ;
+    skos:prefLabel "Canterbury" .
+
+wd:Q2999 a wd:Q618123 ;
+    rdfs:label "Würzburg" ;
+    skos:altLabel "Vurceburgum, Wirceburgum, Herbipolis" ;
+    skos:prefLabel "Würzburg" .
+
+wd:Q30974 a wd:Q618123 ;
+    rdfs:label "Rouen" ;
+    skos:altLabel "Rotomagus" ;
+    skos:prefLabel "Rouen" .
+
+wd:Q3138 a wd:Q618123 ;
+    rdfs:label "Trier" ;
+    skos:altLabel "Augusta Treverorum" ;
+    skos:prefLabel "Trier" .
+
+wd:Q41064 a wd:Q7725634 ;
+    rdfs:label "Psalms" ;
+    skos:prefLabel "Psalms" .
+
+wd:Q42191504 a wd:Q7725634 ;
+    rdfs:label "Ars grammatica" ;
+    skos:prefLabel "Ars grammatica" .
+
+wd:Q43689 a wd:Q5 ;
+    rdfs:label "Ambrose" ;
+    skos:prefLabel "Ambrose" .
+
+wd:Q44248 a wd:Q5 ;
+    rdfs:label "Jerome" ;
+    skos:prefLabel "Jerome" .
+
+wd:Q561251 a wd:Q5 ;
+    rdfs:label "Virgil of Salzburg" ;
+    skos:prefLabel "Virgil of Salzburg" .
+
+wd:Q5852633 a wd:Q7725634 ;
+    rdfs:label "Gospels" ;
+    skos:prefLabel "Gospels" .
+
+wd:Q609201 a wd:Q5 ;
+    rdfs:label "Dúngal" ;
+    skos:prefLabel "Dúngal" .
+
+wd:Q8018 a wd:Q5 ;
+    rdfs:label "Augustine" ;
+    skos:prefLabel "Augustine" .
+
+wd:Q94276 a wd:Q5 ;
+    rdfs:label "Martin of Laon, Hiberniensis" ;
+    skos:prefLabel "Martin of Laon, Hiberniensis" .
+
+<https://mira.ie/entity/library/cambridge_magdalen> a wd:Q43229,
+        wd:Q7075 ;
+    rdfs:label "Magdalen College" ;
+    skos:prefLabel "Magdalen College" .
+
+<https://mira.ie/entity/library/columbia> a wd:Q43229,
+        wd:Q7075 ;
+    rdfs:label "Columbia University, Butler Library" ;
+    skos:prefLabel "Columbia University, Butler Library" .
+
+<https://mira.ie/entity/library/regensburg> a wd:Q43229,
+        wd:Q7075 ;
+    rdfs:label "Staatliche Bibliothek" ;
+    skos:prefLabel "Staatliche Bibliothek" .
+
+<https://mira.ie/entity/library/turin_reale> a wd:Q43229,
+        wd:Q7075 ;
+    rdfs:label "Biblioteca Reale" ;
+    skos:prefLabel "Biblioteca Reale" .
+
+<https://mira.ie/entity/library/werden> a wd:Q43229,
+        wd:Q7075 ;
+    rdfs:label "Propsteiarchiv" ;
+    skos:prefLabel "Propsteiarchiv" .
+
+<https://mira.ie/entity/manuscript/1> rdfs:label "Archiv des Benediktinerstifts — Cod. 86b/1" ;
+    skos:prefLabel "Archiv des Benediktinerstifts — Cod. 86b/1" ;
+    wdt:P1071 wd:Q142 ;
+    wdt:P1104 8 ;
+    wdt:P195 <https://mira.ie/entity/library/st-paul> ;
+    wdt:P2048 22.5 ;
+    wdt:P2049 15.5 ;
+    wdt:P217 "Cod. 86b/1" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0840"^^xsd:gYear ;
+    wdt:P953 "https://hildegard.tristram.de/schulheft/"^^xsd:anyURI .
+
+<https://mira.ie/entity/manuscript/10> rdfs:label "Bibliothèque municipale — 26 (ff A–C)" ;
+    skos:prefLabel "Bibliothèque municipale — 26 (ff A–C)" ;
+    wdt:P1071 wd:Q142 ;
+    wdt:P1104 3 ;
+    wdt:P195 <https://mira.ie/entity/library/laon> ;
+    wdt:P2048 23.0 ;
+    wdt:P2049 19.5 ;
+    wdt:P217 "26 (ff A–C)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0834"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/100> rdfs:label "Trinity College — 57 (A.IV.5)" ;
+    skos:prefLabel "Trinity College — 57 (A.IV.5)" ;
+    wdt:P1071 wd:Q107299 ;
+    wdt:P1104 248 ;
+    wdt:P195 <https://mira.ie/entity/library/dublin_tcd> ;
+    wdt:P2048 24.7 ;
+    wdt:P2049 16.0 ;
+    wdt:P217 "57 (A.IV.5)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0651"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/101> rdfs:label "Trinity College — 58 (A.I.6)" ;
+    skos:prefLabel "Trinity College — 58 (A.I.6)" ;
+    wdt:P1071 wd:Q610 ;
+    wdt:P1104 340 ;
+    wdt:P195 <https://mira.ie/entity/library/dublin_tcd> ;
+    wdt:P2048 33.0 ;
+    wdt:P2049 25.0 ;
+    wdt:P217 "58 (A.I.6)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0751"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/102> rdfs:label "Trinity College — 59 (A.IV.23)" ;
+    skos:prefLabel "Trinity College — 59 (A.IV.23)" ;
+    wdt:P1071 wd:Q1003178 ;
+    wdt:P1104 74 ;
+    wdt:P195 <https://mira.ie/entity/library/dublin_tcd> ;
+    wdt:P2048 17.5 ;
+    wdt:P2049 14.2 ;
+    wdt:P217 "59 (A.IV.23)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0751"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/103> rdfs:label "Trinity College — 60 (A.I.15)" ;
+    skos:prefLabel "Trinity College — 60 (A.I.15)" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1104 94 ;
+    wdt:P195 <https://mira.ie/entity/library/dublin_tcd> ;
+    wdt:P2048 16.5 ;
+    wdt:P2049 12.0 ;
+    wdt:P217 "60 (A.I.15)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0751"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/104> rdfs:label "Royal Irish Academy — D II 3 (ff 1–11)" ;
+    skos:prefLabel "Royal Irish Academy — D II 3 (ff 1–11)" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1104 11 ;
+    wdt:P195 <https://mira.ie/entity/library/dublin_ria> ;
+    wdt:P2048 14.5 ;
+    wdt:P2049 11.4 ;
+    wdt:P217 "D II 3 (ff 1–11)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0780"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/105> rdfs:label "Royal Irish Academy — D II 3 (ff 12–67)" ;
+    skos:prefLabel "Royal Irish Academy — D II 3 (ff 12–67)" ;
+    wdt:P1071 wd:Q7680015 ;
+    wdt:P1104 55 ;
+    wdt:P195 <https://mira.ie/entity/library/dublin_ria> ;
+    wdt:P2048 14.0 ;
+    wdt:P2049 11.5 ;
+    wdt:P217 "D II 3 (ff 12–67)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0780"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/106> rdfs:label "Royal Irish Academy — 24 Q 23" ;
+    skos:prefLabel "Royal Irish Academy — 24 Q 23" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1104 39 ;
+    wdt:P195 <https://mira.ie/entity/library/dublin_ria> ;
+    wdt:P2048 23.0 ;
+    wdt:P2049 15.5 ;
+    wdt:P217 "24 Q 23" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0780"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/107> rdfs:label "Trinity College — 56 (A.IV.6)" ;
+    skos:prefLabel "Trinity College — 56 (A.IV.6)" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1104 86 ;
+    wdt:P195 <https://mira.ie/entity/library/dublin_tcd> ;
+    wdt:P2048 24.1 ;
+    wdt:P2049 19.2 ;
+    wdt:P217 "56 (A.IV.6)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0780"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/108> rdfs:label "Trinity College — 60 (A.I.15) (ff 95–98)" ;
+    skos:prefLabel "Trinity College — 60 (A.I.15) (ff 95–98)" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1104 4 ;
+    wdt:P195 <https://mira.ie/entity/library/dublin_tcd> ;
+    wdt:P2048 15.5 ;
+    wdt:P2049 12.0 ;
+    wdt:P217 "60 (A.I.15) (ff 95–98)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0780"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/109> rdfs:label "National Museum of Ireland — n/a" ;
+    skos:prefLabel "National Museum of Ireland — n/a" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1104 60 ;
+    wdt:P195 <https://mira.ie/entity/library/dublin_museum> ;
+    wdt:P2048 30.0 ;
+    wdt:P2049 26.0 ;
+    wdt:P217 "n/a" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0790"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/11> rdfs:label "Bibliothèque municipale — 26 (ff 1–27)" ;
+    skos:prefLabel "Bibliothèque municipale — 26 (ff 1–27)" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1104 27 ;
+    wdt:P195 <https://mira.ie/entity/library/laon> ;
+    wdt:P2048 23.7 ;
+    wdt:P2049 19.5 ;
+    wdt:P217 "26 (ff 1–27)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0801"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/110> rdfs:label "Trinity College — 52" ;
+    skos:prefLabel "Trinity College — 52" ;
+    wdt:P1071 wd:Q193452 ;
+    wdt:P1104 215 ;
+    wdt:P195 <https://mira.ie/entity/library/dublin_tcd> ;
+    wdt:P2048 19.5 ;
+    wdt:P2049 14.5 ;
+    wdt:P217 "52" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0807"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/111> rdfs:label "Biblioteca Universitaria — 797" ;
+    skos:prefLabel "Biblioteca Universitaria — 797" ;
+    wdt:P1071 wd:Q41876 ;
+    wdt:P1104 117 ;
+    wdt:P195 <https://mira.ie/entity/library/bologna> ;
+    wdt:P2048 21.0 ;
+    wdt:P2049 12.5 ;
+    wdt:P217 "797" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0876"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/112> rdfs:label "Biblioteca Medicea Laurenziana — Ashburnham 60" ;
+    skos:prefLabel "Biblioteca Medicea Laurenziana — Ashburnham 60" ;
+    wdt:P1071 wd:Q38 ;
+    wdt:P1104 93 ;
+    wdt:P195 <https://mira.ie/entity/library/florence> ;
+    wdt:P2048 26.5 ;
+    wdt:P2049 19.5 ;
+    wdt:P217 "Ashburnham 60" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0786"^^xsd:gYear ;
+    wdt:P953 "http://digi.vatlib.it/view/MSS_Vat.lat.491"^^xsd:anyURI .
+
+<https://mira.ie/entity/manuscript/113> rdfs:label "Biblioteca Medicea Laurenziana — Plut. 45.14" ;
+    skos:prefLabel "Biblioteca Medicea Laurenziana — Plut. 45.14" ;
+    wdt:P1071 wd:Q142 ;
+    wdt:P1104 228 ;
+    wdt:P195 <https://mira.ie/entity/library/florence> ;
+    wdt:P2048 36.7 ;
+    wdt:P2049 28.0 ;
+    wdt:P217 "Plut. 45.14" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0834"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/114> rdfs:label "Biblioteca Ambrosiana — A 138 sup." ;
+    skos:prefLabel "Biblioteca Ambrosiana — A 138 sup." ;
+    wdt:P1071 wd:Q11498 ;
+    wdt:P1104 1 ;
+    wdt:P195 <https://mira.ie/entity/library/milan> ;
+    wdt:P2048 28.0 ;
+    wdt:P2049 20.0 ;
+    wdt:P217 "A 138 sup." ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0801"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/115> rdfs:label "Biblioteca Ambrosiana — C 5 inf." ;
+    skos:prefLabel "Biblioteca Ambrosiana — C 5 inf." ;
+    wdt:P1071 wd:Q591192 ;
+    wdt:P1104 36 ;
+    wdt:P195 <https://mira.ie/entity/library/milan> ;
+    wdt:P2048 24.0 ;
+    wdt:P2049 22.0 ;
+    wdt:P217 "C 5 inf." ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0680"^^xsd:gYear ;
+    wdt:P953 "http://foundationsirishculture.ie/record/?id=7"^^xsd:anyURI .
+
+<https://mira.ie/entity/manuscript/116> rdfs:label "Biblioteca Ambrosiana — C 26 sup." ;
+    skos:prefLabel "Biblioteca Ambrosiana — C 26 sup." ;
+    wdt:P1071 wd:Q11498 ;
+    wdt:P1104 50 ;
+    wdt:P195 <https://mira.ie/entity/library/milan> ;
+    wdt:P2048 21.0 ;
+    wdt:P2049 14.0 ;
+    wdt:P217 "C 26 sup." ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0686"^^xsd:gYear ;
+    wdt:P953 "http://foundationsirishculture.ie/record/?id=8"^^xsd:anyURI .
+
+<https://mira.ie/entity/manuscript/117> rdfs:label "Biblioteca Ambrosiana — C 73 inf. [palimpsest new]" ;
+    skos:prefLabel "Biblioteca Ambrosiana — C 73 inf. [palimpsest new]" ;
+    wdt:P1071 wd:Q11498 ;
+    wdt:P195 <https://mira.ie/entity/library/milan> ;
+    wdt:P217 "C 73 inf. [palimpsest new]" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0701"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/118> rdfs:label "Biblioteca Ambrosiana — C 74 sup." ;
+    skos:prefLabel "Biblioteca Ambrosiana — C 74 sup." ;
+    wdt:P1071 wd:Q90 ;
+    wdt:P195 <https://mira.ie/entity/library/milan> ;
+    wdt:P217 "C 74 sup." ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0826"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/119> rdfs:label "Biblioteca Ambrosiana — C 301 inf." ;
+    skos:prefLabel "Biblioteca Ambrosiana — C 301 inf." ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1104 146 ;
+    wdt:P195 <https://mira.ie/entity/library/milan> ;
+    wdt:P2048 35.0 ;
+    wdt:P2049 23.0 ;
+    wdt:P217 "C 301 inf." ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0780"^^xsd:gYear ;
+    wdt:P953 "http://foundationsirishculture.ie/record/?id=9"^^xsd:anyURI .
+
+<https://mira.ie/entity/manuscript/12> rdfs:label "Bibliothèque municipale — 50" ;
+    skos:prefLabel "Bibliothèque municipale — 50" ;
+    wdt:P1071 wd:Q142 ;
+    wdt:P1104 185 ;
+    wdt:P195 <https://mira.ie/entity/library/laon> ;
+    wdt:P2048 30.0 ;
+    wdt:P2049 23.5 ;
+    wdt:P217 "50" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0780"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/120> rdfs:label "Biblioteca Ambrosiana — D 10 sup. (front flyleaves)" ;
+    skos:prefLabel "Biblioteca Ambrosiana — D 10 sup. (front flyleaves)" ;
+    wdt:P1071 wd:Q11498 ;
+    wdt:P1104 2 ;
+    wdt:P195 <https://mira.ie/entity/library/milan> ;
+    wdt:P2048 21.0 ;
+    wdt:P2049 16.0 ;
+    wdt:P217 "D 10 sup. (front flyleaves)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0701"^^xsd:gYear ;
+    wdt:P953 "http://foundationsirishculture.ie/record/?id=10"^^xsd:anyURI .
+
+<https://mira.ie/entity/manuscript/121> rdfs:label "Biblioteca Ambrosiana — D 23 sup." ;
+    skos:prefLabel "Biblioteca Ambrosiana — D 23 sup." ;
+    wdt:P1071 wd:Q11498 ;
+    wdt:P1104 48 ;
+    wdt:P195 <https://mira.ie/entity/library/milan> ;
+    wdt:P2048 21.0 ;
+    wdt:P2049 15.0 ;
+    wdt:P217 "D 23 sup." ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0601"^^xsd:gYear ;
+    wdt:P953 "http://foundationsirishculture.ie/record/?id=11"^^xsd:anyURI .
+
+<https://mira.ie/entity/manuscript/122> rdfs:label "Biblioteca Ambrosiana — *D 23 sup." ;
+    skos:prefLabel "Biblioteca Ambrosiana — *D 23 sup." ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1104 2 ;
+    wdt:P195 <https://mira.ie/entity/library/milan> ;
+    wdt:P2048 23.0 ;
+    wdt:P2049 16.0 ;
+    wdt:P217 "*D 23 sup." ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0701"^^xsd:gYear ;
+    wdt:P953 "http://foundationsirishculture.ie/record/?id=12"^^xsd:anyURI .
+
+<https://mira.ie/entity/manuscript/123> rdfs:label "Biblioteca Ambrosiana — D 36 sup." ;
+    skos:prefLabel "Biblioteca Ambrosiana — D 36 sup." ;
+    wdt:P1071 wd:Q38 ;
+    wdt:P195 <https://mira.ie/entity/library/milan> ;
+    wdt:P217 "D 36 sup." ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0501"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/124> rdfs:label "Biblioteca Ambrosiana — D 268 inf." ;
+    skos:prefLabel "Biblioteca Ambrosiana — D 268 inf." ;
+    wdt:P1071 wd:Q11498 ;
+    wdt:P195 <https://mira.ie/entity/library/milan> ;
+    wdt:P217 "D 268 inf." ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0701"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/125> rdfs:label "Biblioteca Ambrosiana — D 547 inf." ;
+    skos:prefLabel "Biblioteca Ambrosiana — D 547 inf." ;
+    wdt:P1071 wd:Q11498 ;
+    wdt:P195 <https://mira.ie/entity/library/milan> ;
+    wdt:P217 "D 547 inf." ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0851"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/126> rdfs:label "Biblioteca Ambrosiana — F 60 sup. (ff 1–46, 58–77)" ;
+    skos:prefLabel "Biblioteca Ambrosiana — F 60 sup. (ff 1–46, 58–77)" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1104 66 ;
+    wdt:P195 <https://mira.ie/entity/library/milan> ;
+    wdt:P2048 21.0 ;
+    wdt:P2049 15.5 ;
+    wdt:P217 "F 60 sup. (ff 1–46, 58–77)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0701"^^xsd:gYear ;
+    wdt:P953 "http://foundationsirishculture.ie/record/?id=13"^^xsd:anyURI .
+
+<https://mira.ie/entity/manuscript/127> rdfs:label "Biblioteca Ambrosiana — F 60 sup. (ff 47–49, 55–57, 58) [palimpsest new]" ;
+    skos:prefLabel "Biblioteca Ambrosiana — F 60 sup. (ff 47–49, 55–57, 58) [palimpsest new]" ;
+    wdt:P1071 wd:Q11498 ;
+    wdt:P1104 7 ;
+    wdt:P195 <https://mira.ie/entity/library/milan> ;
+    wdt:P2048 23.5 ;
+    wdt:P2049 17.5 ;
+    wdt:P217 "F 60 sup. (ff 47–49, 55–57, 58) [palimpsest new]" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0786"^^xsd:gYear ;
+    wdt:P953 "http://foundationsirishculture.ie/record/?id=14"^^xsd:anyURI .
+
+<https://mira.ie/entity/manuscript/128> rdfs:label "Biblioteca Ambrosiana — F 60 sup. (ff 50, 52–54)" ;
+    skos:prefLabel "Biblioteca Ambrosiana — F 60 sup. (ff 50, 52–54)" ;
+    wdt:P1071 wd:Q11498 ;
+    wdt:P1104 4 ;
+    wdt:P195 <https://mira.ie/entity/library/milan> ;
+    wdt:P2048 24.0 ;
+    wdt:P2049 19.0 ;
+    wdt:P217 "F 60 sup. (ff 50, 52–54)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0786"^^xsd:gYear ;
+    wdt:P953 "http://foundationsirishculture.ie/record/?id=15"^^xsd:anyURI .
+
+<https://mira.ie/entity/manuscript/129> rdfs:label "Biblioteca Ambrosiana — F 60 sup. (fol. 51)" ;
+    skos:prefLabel "Biblioteca Ambrosiana — F 60 sup. (fol. 51)" ;
+    wdt:P1071 wd:Q11498 ;
+    wdt:P1104 1 ;
+    wdt:P195 <https://mira.ie/entity/library/milan> ;
+    wdt:P217 "F 60 sup. (fol. 51)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0786"^^xsd:gYear ;
+    wdt:P953 "http://foundationsirishculture.ie/record/?id=16"^^xsd:anyURI .
+
+<https://mira.ie/entity/manuscript/13> rdfs:label "Bibliothèque municipale — 55 [incl. frag.]" ;
+    skos:prefLabel "Bibliothèque municipale — 55 [incl. frag.]" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1104 2 ;
+    wdt:P195 <https://mira.ie/entity/library/laon> ;
+    wdt:P2048 26.0 ;
+    wdt:P2049 15.2 ;
+    wdt:P217 "55 [incl. frag.]" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0834"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/130> rdfs:label "Biblioteca Ambrosiana — G 82 sup. (Studemunt) [palimpsest new]" ;
+    skos:prefLabel "Biblioteca Ambrosiana — G 82 sup. (Studemunt) [palimpsest new]" ;
+    wdt:P195 <https://mira.ie/entity/library/milan> ;
+    wdt:P217 "G 82 sup. (Studemunt) [palimpsest new]" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0551"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/131> rdfs:label "Biblioteca Ambrosiana — G 82 sup. (pp 209–210, 375–376, 385–386, 449–452, 461–462, 471–474) [palimpsest new]" ;
+    skos:prefLabel "Biblioteca Ambrosiana — G 82 sup. (pp 209–210, 375–376, 385–386, 449–452, 461–462, 471–474) [palimpsest new]" ;
+    wdt:P1071 wd:Q11498 ;
+    wdt:P195 <https://mira.ie/entity/library/milan> ;
+    wdt:P217 "G 82 sup. (pp 209–210, 375–376, 385–386, 449–452, 461–462, 471–474) [palimpsest new]" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0651"^^xsd:gYear ;
+    wdt:P953 "http://foundationsirishculture.ie/record/?id=17"^^xsd:anyURI .
+
+<https://mira.ie/entity/manuscript/132> rdfs:label "Biblioteca Ambrosiana — I 61 sup. (ff 1–89)" ;
+    skos:prefLabel "Biblioteca Ambrosiana — I 61 sup. (ff 1–89)" ;
+    wdt:P1071 wd:Q11498 ;
+    wdt:P1104 89 ;
+    wdt:P195 <https://mira.ie/entity/library/milan> ;
+    wdt:P2048 23.2 ;
+    wdt:P2049 17.4 ;
+    wdt:P217 "I 61 sup. (ff 1–89)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0651"^^xsd:gYear ;
+    wdt:P953 "http://foundationsirishculture.ie/record/?id=18"^^xsd:anyURI .
+
+<https://mira.ie/entity/manuscript/133> rdfs:label "Biblioteca Ambrosiana — L 22 sup. (ff 146, 147)" ;
+    skos:prefLabel "Biblioteca Ambrosiana — L 22 sup. (ff 146, 147)" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1104 7 ;
+    wdt:P195 <https://mira.ie/entity/library/milan> ;
+    wdt:P2048 19.0 ;
+    wdt:P2049 12.0 ;
+    wdt:P217 "L 22 sup. (ff 146, 147)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0780"^^xsd:gYear ;
+    wdt:P953 "http://foundationsirishculture.ie/record/?id=68"^^xsd:anyURI .
+
+<https://mira.ie/entity/manuscript/134> rdfs:label "Biblioteca Ambrosiana — L 22 sup." ;
+    skos:prefLabel "Biblioteca Ambrosiana — L 22 sup." ;
+    wdt:P1071 wd:Q11498 ;
+    wdt:P1104 145 ;
+    wdt:P195 <https://mira.ie/entity/library/milan> ;
+    wdt:P2048 18.0 ;
+    wdt:P2049 11.5 ;
+    wdt:P217 "L 22 sup." ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0876"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/135> rdfs:label "Biblioteca Ambrosiana — L 99 sup. [palimpsest new]" ;
+    skos:prefLabel "Biblioteca Ambrosiana — L 99 sup. [palimpsest new]" ;
+    wdt:P1071 wd:Q11498 ;
+    wdt:P195 <https://mira.ie/entity/library/milan> ;
+    wdt:P217 "L 99 sup. [palimpsest new]" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0751"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/136> rdfs:label "Biblioteca Ambrosiana — M 67 sup. (flyleaves)" ;
+    skos:prefLabel "Biblioteca Ambrosiana — M 67 sup. (flyleaves)" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1104 2 ;
+    wdt:P195 <https://mira.ie/entity/library/milan> ;
+    wdt:P2048 23.5 ;
+    wdt:P2049 19.5 ;
+    wdt:P217 "M 67 sup. (flyleaves)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0701"^^xsd:gYear ;
+    wdt:P953 "http://foundationsirishculture.ie/record/?id=19"^^xsd:anyURI .
+
+<https://mira.ie/entity/manuscript/137> rdfs:label "Biblioteca Ambrosiana — O 212 sup." ;
+    skos:prefLabel "Biblioteca Ambrosiana — O 212 sup." ;
+    wdt:P1071 wd:Q11498 ;
+    wdt:P1104 18 ;
+    wdt:P195 <https://mira.ie/entity/library/milan> ;
+    wdt:P2048 25.0 ;
+    wdt:P2049 18.0 ;
+    wdt:P217 "O 212 sup." ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0686"^^xsd:gYear ;
+    wdt:P953 "http://foundationsirishculture.ie/record/?id=20"^^xsd:anyURI .
+
+<https://mira.ie/entity/manuscript/138> rdfs:label "Biblioteca Ambrosiana — S 45 sup. [palimpsest new]" ;
+    skos:prefLabel "Biblioteca Ambrosiana — S 45 sup. [palimpsest new]" ;
+    wdt:P1071 wd:Q11498 ;
+    wdt:P195 <https://mira.ie/entity/library/milan> ;
+    wdt:P217 "S 45 sup. [palimpsest new]" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0601"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/139> rdfs:label "Biblioteca Ambrosiana — S.P. II 97 (ff A, B) [palimpsest new]" ;
+    skos:prefLabel "Biblioteca Ambrosiana — S.P. II 97 (ff A, B) [palimpsest new]" ;
+    wdt:P1071 wd:Q11498 ;
+    wdt:P1104 17 ;
+    wdt:P195 <https://mira.ie/entity/library/milan> ;
+    wdt:P2048 19.0 ;
+    wdt:P2049 12.5 ;
+    wdt:P217 "S.P. II 97 (ff A, B) [palimpsest new]" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0701"^^xsd:gYear ;
+    wdt:P953 "http://foundationsirishculture.ie/record/?id=62"^^xsd:anyURI .
+
+<https://mira.ie/entity/manuscript/14> rdfs:label "Bibliothèque municipale — 81" ;
+    skos:prefLabel "Bibliothèque municipale — 81" ;
+    wdt:P1104 48 ;
+    wdt:P195 <https://mira.ie/entity/library/laon> ;
+    wdt:P2048 23.0 ;
+    wdt:P2049 16.5 ;
+    wdt:P217 "81" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0876"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/140> rdfs:label "Biblioteca Nazionale — Lat. 2 (ff 76–111, 140–156, 159)" ;
+    skos:prefLabel "Biblioteca Nazionale — Lat. 2 (ff 76–111, 140–156, 159)" ;
+    wdt:P1071 wd:Q38 ;
+    wdt:P195 <https://mira.ie/entity/library/naples> ;
+    wdt:P217 "Lat. 2 (ff 76–111, 140–156, 159)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0401"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/141> rdfs:label "Biblioteca Nazionale — Lat. 2 (ff 1–42) [palimpsest new]" ;
+    skos:prefLabel "Biblioteca Nazionale — Lat. 2 (ff 1–42) [palimpsest new]" ;
+    wdt:P1071 wd:Q11498 ;
+    wdt:P1104 42 ;
+    wdt:P195 <https://mira.ie/entity/library/naples> ;
+    wdt:P217 "Lat. 2 (ff 1–42) [palimpsest new]" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0701"^^xsd:gYear ;
+    wdt:P953 "http://foundationsirishculture.ie/record/?id=21"^^xsd:anyURI .
+
+<https://mira.ie/entity/manuscript/142> rdfs:label "Biblioteca Nazionale — Lat. 2 (ff 42*–75) [palimpsest new]" ;
+    skos:prefLabel "Biblioteca Nazionale — Lat. 2 (ff 42*–75) [palimpsest new]" ;
+    wdt:P1071 wd:Q11498 ;
+    wdt:P195 <https://mira.ie/entity/library/naples> ;
+    wdt:P217 "Lat. 2 (ff 42*–75) [palimpsest new]" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0701"^^xsd:gYear ;
+    wdt:P953 "http://foundationsirishculture.ie/record/?id=22"^^xsd:anyURI .
+
+<https://mira.ie/entity/manuscript/143> rdfs:label "Biblioteca Nazionale — IV.A.8 (ff 1–39) [palimpsest new]" ;
+    skos:prefLabel "Biblioteca Nazionale — IV.A.8 (ff 1–39) [palimpsest new]" ;
+    wdt:P1071 wd:Q11498 ;
+    wdt:P1104 2 ;
+    wdt:P195 <https://mira.ie/entity/library/naples> ;
+    wdt:P217 "IV.A.8 (ff 1–39) [palimpsest new]" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0701"^^xsd:gYear ;
+    wdt:P953 "http://foundationsirishculture.ie/record/?id=2489"^^xsd:anyURI .
+
+<https://mira.ie/entity/manuscript/144> rdfs:label "Biblioteca Nazionale — Lat. 2 (ff 157–158)" ;
+    skos:prefLabel "Biblioteca Nazionale — Lat. 2 (ff 157–158)" ;
+    wdt:P1071 wd:Q11498 ;
+    wdt:P195 <https://mira.ie/entity/library/naples> ;
+    wdt:P217 "Lat. 2 (ff 157–158)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0701"^^xsd:gYear ;
+    wdt:P953 "http://foundationsirishculture.ie/record/?id=23"^^xsd:anyURI .
+
+<https://mira.ie/entity/manuscript/145> rdfs:label "Biblioteca Nazionale — IV.A.34" ;
+    skos:prefLabel "Biblioteca Nazionale — IV.A.34" ;
+    wdt:P1071 wd:Q1232116 ;
+    wdt:P1104 289 ;
+    wdt:P195 <https://mira.ie/entity/library/naples> ;
+    wdt:P2048 30.2 ;
+    wdt:P2049 21.3 ;
+    wdt:P217 "IV.A.34" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0801"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/146> rdfs:label "Archivio di Stato — Codice Basile" ;
+    skos:prefLabel "Archivio di Stato — Codice Basile" ;
+    wdt:P1071 wd:Q11498 ;
+    wdt:P1104 12 ;
+    wdt:P195 <https://mira.ie/entity/library/palermo> ;
+    wdt:P217 "Codice Basile" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0751"^^xsd:gYear ;
+    wdt:P953 "http://foundationsirishculture.ie/record/?id=69"^^xsd:anyURI .
+
+<https://mira.ie/entity/manuscript/147> rdfs:label "Biblioteca Nazionale — G.V.37" ;
+    skos:prefLabel "Biblioteca Nazionale — G.V.37" ;
+    wdt:P195 <https://mira.ie/entity/library/turin> ;
+    wdt:P217 "G.V.37" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0401"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/148> rdfs:label "Biblioteca Nazionale — A.II.2* (ff 3–112) [palimpsest new] [lost]" ;
+    skos:prefLabel "Biblioteca Nazionale — A.II.2* (ff 3–112) [palimpsest new] [lost]" ;
+    wdt:P1071 wd:Q11498 ;
+    wdt:P1104 110 ;
+    wdt:P195 <https://mira.ie/entity/library/turin> ;
+    wdt:P217 "A.II.2* (ff 3–112) [palimpsest new] [lost]" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0601"^^xsd:gYear ;
+    wdt:P953 "http://foundationsirishculture.ie/record/?id=25"^^xsd:anyURI .
+
+<https://mira.ie/entity/manuscript/149> rdfs:label "Biblioteca Nazionale — A.II.2 [lost]" ;
+    skos:prefLabel "Biblioteca Nazionale — A.II.2 [lost]" ;
+    wdt:P1071 wd:Q38 ;
+    wdt:P195 <https://mira.ie/entity/library/turin> ;
+    wdt:P217 "A.II.2 [lost]" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0701"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/15> rdfs:label "Bibliothèque municipale — 444" ;
+    skos:prefLabel "Bibliothèque municipale — 444" ;
+    wdt:P1071 wd:Q167141 ;
+    wdt:P1104 318 ;
+    wdt:P195 <https://mira.ie/entity/library/laon> ;
+    wdt:P2048 29.3 ;
+    wdt:P2049 23.5 ;
+    wdt:P217 "444" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0876"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/150> rdfs:label "Biblioteca Nazionale — A.II.2* (fol. 113) [lost]" ;
+    skos:prefLabel "Biblioteca Nazionale — A.II.2* (fol. 113) [lost]" ;
+    wdt:P1071 wd:Q11498 ;
+    wdt:P1104 1 ;
+    wdt:P195 <https://mira.ie/entity/library/turin> ;
+    wdt:P217 "A.II.2* (fol. 113) [lost]" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0701"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/151> rdfs:label "Biblioteca Nazionale — F.IV.1, fasc. 5 + 6" ;
+    skos:prefLabel "Biblioteca Nazionale — F.IV.1, fasc. 5 + 6" ;
+    wdt:P1071 wd:Q11498 ;
+    wdt:P1104 14 ;
+    wdt:P195 <https://mira.ie/entity/library/turin> ;
+    wdt:P2048 25.0 ;
+    wdt:P2049 19.0 ;
+    wdt:P217 "F.IV.1, fasc. 5 + 6" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0780"^^xsd:gYear ;
+    wdt:P953 "http://foundationsirishculture.ie/record/?id=26"^^xsd:anyURI .
+
+<https://mira.ie/entity/manuscript/152> rdfs:label "Biblioteca Nazionale — F.IV.1, fasc. 9" ;
+    skos:prefLabel "Biblioteca Nazionale — F.IV.1, fasc. 9" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1104 6 ;
+    wdt:P195 <https://mira.ie/entity/library/turin> ;
+    wdt:P2048 26.0 ;
+    wdt:P2049 22.0 ;
+    wdt:P217 "F.IV.1, fasc. 9" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0701"^^xsd:gYear ;
+    wdt:P953 "http://foundationsirishculture.ie/record/?id=28"^^xsd:anyURI .
+
+<https://mira.ie/entity/manuscript/153> rdfs:label "Biblioteca Nazionale — F.IV.24 (fol. 93) [palimpsest old]" ;
+    skos:prefLabel "Biblioteca Nazionale — F.IV.24 (fol. 93) [palimpsest old]" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1104 1 ;
+    wdt:P195 <https://mira.ie/entity/library/turin> ;
+    wdt:P2048 34.0 ;
+    wdt:P2049 25.0 ;
+    wdt:P217 "F.IV.24 (fol. 93) [palimpsest old]" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0701"^^xsd:gYear ;
+    wdt:P953 "http://foundationsirishculture.ie/record/?id=29"^^xsd:anyURI .
+
+<https://mira.ie/entity/manuscript/154> rdfs:label "Biblioteca Nazionale — F.IV.14 (binding) [palimpsest old] + F.IV.16 (binding) [palimpsest old] + F.VI.2 Fasc. 8 [palimpsest old] + G.V.2 (ff 139, 167–170) [palimpsest old] + O.IV.20 [palimpsest old]" ;
+    skos:prefLabel "Biblioteca Nazionale — F.IV.14 (binding) [palimpsest old] + F.IV.16 (binding) [palimpsest old] + F.VI.2 Fasc. 8 [palimpsest old] + G.V.2 (ff 139, 167–170) [palimpsest old] + O.IV.20 [palimpsest old]" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1104 9 ;
+    wdt:P195 <https://mira.ie/entity/library/turin> ;
+    wdt:P2048 28.0 ;
+    wdt:P2049 19.6 ;
+    wdt:P217 "F.IV.14 (binding) [palimpsest old] + F.IV.16 (binding) [palimpsest old] + F.VI.2 Fasc. 8 [palimpsest old] + G.V.2 (ff 139, 167–170) [palimpsest old] + O.IV.20 [palimpsest old]" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0701"^^xsd:gYear ;
+    wdt:P953 "http://foundationsirishculture.ie/record/?id=30"^^xsd:anyURI .
+
+<https://mira.ie/entity/manuscript/155> rdfs:label "Biblioteca Nazionale — F.IV.1, fasc. 7" ;
+    skos:prefLabel "Biblioteca Nazionale — F.IV.1, fasc. 7" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1104 2 ;
+    wdt:P195 <https://mira.ie/entity/library/turin> ;
+    wdt:P2048 29.0 ;
+    wdt:P2049 21.0 ;
+    wdt:P217 "F.IV.1, fasc. 7" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0780"^^xsd:gYear ;
+    wdt:P953 "http://foundationsirishculture.ie/record/?id=27"^^xsd:anyURI .
+
+<https://mira.ie/entity/manuscript/156> rdfs:label "Biblioteca Nazionale — F.III.16 (ff 176–181)" ;
+    skos:prefLabel "Biblioteca Nazionale — F.III.16 (ff 176–181)" ;
+    wdt:P195 <https://mira.ie/entity/library/turin> ;
+    wdt:P217 "F.III.16 (ff 176–181)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0801"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/157> rdfs:label "Biblioteca Nazionale — F.VI.2, fasc. 4" ;
+    skos:prefLabel "Biblioteca Nazionale — F.VI.2, fasc. 4" ;
+    wdt:P1071 wd:Q11498 ;
+    wdt:P195 <https://mira.ie/entity/library/turin> ;
+    wdt:P217 "F.VI.2, fasc. 4" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0801"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/158> rdfs:label "Universiteitsbibliotheek — BPL 67D (ff 13–14) [palimpsest old]" ;
+    skos:prefLabel "Universiteitsbibliotheek — BPL 67D (ff 13–14) [palimpsest old]" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1104 2 ;
+    wdt:P195 <https://mira.ie/entity/library/leiden> ;
+    wdt:P2048 26.0 ;
+    wdt:P2049 17.0 ;
+    wdt:P217 "BPL 67D (ff 13–14) [palimpsest old]" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0780"^^xsd:gYear ;
+    wdt:P953 "http://foundationsirishculture.ie/record/?id=65"^^xsd:anyURI .
+
+<https://mira.ie/entity/manuscript/159> rdfs:label "Universiteitsbibliotheek — BPL 67" ;
+    skos:prefLabel "Universiteitsbibliotheek — BPL 67" ;
+    wdt:P1071 wd:Q142 ;
+    wdt:P1104 207 ;
+    wdt:P195 <https://mira.ie/entity/library/leiden> ;
+    wdt:P2048 28.0 ;
+    wdt:P2049 21.0 ;
+    wdt:P217 "BPL 67" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0838"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/16> rdfs:label "Bibliothèque municipale — 447" ;
+    skos:prefLabel "Bibliothèque municipale — 447" ;
+    wdt:P1071 wd:Q1720 ;
+    wdt:P1104 204 ;
+    wdt:P195 <https://mira.ie/entity/library/laon> ;
+    wdt:P2048 34.5 ;
+    wdt:P2049 24.5 ;
+    wdt:P217 "447" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0826"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/160> rdfs:label "Universiteitsbibliotheek — BPL 67D [palimpsest new]" ;
+    skos:prefLabel "Universiteitsbibliotheek — BPL 67D [palimpsest new]" ;
+    wdt:P1071 wd:Q142 ;
+    wdt:P1104 52 ;
+    wdt:P195 <https://mira.ie/entity/library/leiden> ;
+    wdt:P2048 29.8 ;
+    wdt:P2049 19.3 ;
+    wdt:P217 "BPL 67D [palimpsest new]" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0851"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/161> rdfs:label "Universiteitsbibliotheek — BPL 88 (ff 168–181)" ;
+    skos:prefLabel "Universiteitsbibliotheek — BPL 88 (ff 168–181)" ;
+    wdt:P1071 wd:Q41876 ;
+    wdt:P1104 14 ;
+    wdt:P195 <https://mira.ie/entity/library/leiden> ;
+    wdt:P2048 25.8 ;
+    wdt:P2049 23.8 ;
+    wdt:P217 "BPL 88 (ff 168–181)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0876"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/162> rdfs:label "Universiteitsbibliotheek — BPL 135 (ff 87–112)" ;
+    skos:prefLabel "Universiteitsbibliotheek — BPL 135 (ff 87–112)" ;
+    wdt:P1071 wd:Q142 ;
+    wdt:P1104 25 ;
+    wdt:P195 <https://mira.ie/entity/library/leiden> ;
+    wdt:P2048 22.7 ;
+    wdt:P2049 12.5 ;
+    wdt:P217 "BPL 135 (ff 87–112)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0826"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/163> rdfs:label "Universiteitsbibliotheek — BPL 2391 a" ;
+    skos:prefLabel "Universiteitsbibliotheek — BPL 2391 a" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1104 1 ;
+    wdt:P195 <https://mira.ie/entity/library/leiden> ;
+    wdt:P2048 31.5 ;
+    wdt:P2049 21.0 ;
+    wdt:P217 "BPL 2391 a" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0826"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/164> rdfs:label "Universiteitsbibliotheek — Voss. Lat. F. 30" ;
+    skos:prefLabel "Universiteitsbibliotheek — Voss. Lat. F. 30" ;
+    wdt:P1071 wd:Q183 ;
+    wdt:P1104 192 ;
+    wdt:P195 <https://mira.ie/entity/library/leiden> ;
+    wdt:P2048 32.5 ;
+    wdt:P2049 21.0 ;
+    wdt:P217 "Voss. Lat. F. 30" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0801"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/165> rdfs:label "Universiteitsbibliotheek — Voss. Lat. F. 70 I (ff 1–66)" ;
+    skos:prefLabel "Universiteitsbibliotheek — Voss. Lat. F. 70 I (ff 1–66)" ;
+    wdt:P1071 wd:Q142 ;
+    wdt:P195 <https://mira.ie/entity/library/leiden> ;
+    wdt:P217 "Voss. Lat. F. 70 I (ff 1–66)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0851"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/166> rdfs:label "Biblioteka Kapitulna — 1" ;
+    skos:prefLabel "Biblioteka Kapitulna — 1" ;
+    wdt:P1071 wd:Q41876 ;
+    wdt:P1104 151 ;
+    wdt:P195 <https://mira.ie/entity/library/gniezo> ;
+    wdt:P2048 19.0 ;
+    wdt:P2049 15.5 ;
+    wdt:P217 "1" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0876"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/167> rdfs:label "University Library Rehdigeranus — Rehdigeranus 1 (fol. 120 d)" ;
+    skos:prefLabel "University Library Rehdigeranus — Rehdigeranus 1 (fol. 120 d)" ;
+    wdt:P1071 wd:Q38 ;
+    wdt:P195 <https://mira.ie/entity/library/wroclaw> ;
+    wdt:P217 "Rehdigeranus 1 (fol. 120 d)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0401"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/168> rdfs:label "Russian National Library — Lat. F.v.VI.3" ;
+    skos:prefLabel "Russian National Library — Lat. F.v.VI.3" ;
+    wdt:P1071 wd:Q71469 ;
+    wdt:P1104 44 ;
+    wdt:P195 <https://mira.ie/entity/library/st-petersburg> ;
+    wdt:P2048 27.5 ;
+    wdt:P2049 19.0 ;
+    wdt:P217 "Lat. F.v.VI.3" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0780"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/169> rdfs:label "Universitätsbibliothek — F III 15d" ;
+    skos:prefLabel "Universitätsbibliothek — F III 15d" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1104 16 ;
+    wdt:P195 <https://mira.ie/entity/library/basel> ;
+    wdt:P2048 27.5 ;
+    wdt:P2049 23.7 ;
+    wdt:P217 "F III 15d" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0701"^^xsd:gYear ;
+    wdt:P953 "http://dx.doi.org/10.5076/e-codices-ubb-F-III-0015d"^^xsd:anyURI .
+
+<https://mira.ie/entity/manuscript/17> rdfs:label "Bibliothèque municipale — 448" ;
+    skos:prefLabel "Bibliothèque municipale — 448" ;
+    wdt:P1071 wd:Q142 ;
+    wdt:P1104 44 ;
+    wdt:P195 <https://mira.ie/entity/library/laon> ;
+    wdt:P2048 22.0 ;
+    wdt:P2049 15.7 ;
+    wdt:P217 "448" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0834"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/170> rdfs:label "Universitätsbibliothek — B III 3" ;
+    skos:prefLabel "Universitätsbibliothek — B III 3" ;
+    wdt:P1071 wd:Q39 ;
+    wdt:P195 <https://mira.ie/entity/library/basel> ;
+    wdt:P2048 33.8 ;
+    wdt:P2049 26.5 ;
+    wdt:P217 "B III 3" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0826"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/171> rdfs:label "Universitätsbibliothek — A VII 3" ;
+    skos:prefLabel "Universitätsbibliothek — A VII 3" ;
+    wdt:P1071 wd:Q25607 ;
+    wdt:P1104 99 ;
+    wdt:P195 <https://mira.ie/entity/library/basel> ;
+    wdt:P2048 22.6 ;
+    wdt:P2049 17.5 ;
+    wdt:P217 "A VII 3" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0876"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/172> rdfs:label "Burgerbibliothek — A 756 / 76" ;
+    skos:prefLabel "Burgerbibliothek — A 756 / 76" ;
+    wdt:P1104 2 ;
+    wdt:P195 <https://mira.ie/entity/library/bern> ;
+    wdt:P2048 26.0 ;
+    wdt:P2049 34.5 ;
+    wdt:P217 "A 756 / 76" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0701"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/173> rdfs:label "Burgerbibliothek — 207" ;
+    skos:prefLabel "Burgerbibliothek — 207" ;
+    wdt:P1071 wd:Q947030 ;
+    wdt:P1104 195 ;
+    wdt:P195 <https://mira.ie/entity/library/bern> ;
+    wdt:P2048 30.0 ;
+    wdt:P2049 17.5 ;
+    wdt:P217 "207" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0779"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/174> rdfs:label "Burgerbibliothek — 224 (ff 3–226)" ;
+    skos:prefLabel "Burgerbibliothek — 224 (ff 3–226)" ;
+    wdt:P1071 wd:Q142 ;
+    wdt:P1104 224 ;
+    wdt:P195 <https://mira.ie/entity/library/bern> ;
+    wdt:P2048 30.0 ;
+    wdt:P2049 21.5 ;
+    wdt:P217 "224 (ff 3–226)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0801"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/175> rdfs:label "Burgerbibliothek — 234 (ff 1–53)" ;
+    skos:prefLabel "Burgerbibliothek — 234 (ff 1–53)" ;
+    wdt:P1071 wd:Q3963 ;
+    wdt:P1104 53 ;
+    wdt:P195 <https://mira.ie/entity/library/bern> ;
+    wdt:P2048 29.8 ;
+    wdt:P2049 21.3 ;
+    wdt:P217 "234 (ff 1–53)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0834"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/176> rdfs:label "Burgerbibliothek — 363" ;
+    skos:prefLabel "Burgerbibliothek — 363" ;
+    wdt:P1071 wd:Q38 ;
+    wdt:P195 <https://mira.ie/entity/library/bern> ;
+    wdt:P2048 23.8 ;
+    wdt:P2049 19.5 ;
+    wdt:P217 "363" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0840"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/177> rdfs:label "Stiftsbibliothek — 191 (277)" ;
+    skos:prefLabel "Stiftsbibliothek — 191 (277)" ;
+    wdt:P1071 wd:Q142 ;
+    wdt:P1104 237 ;
+    wdt:P195 <https://mira.ie/entity/library/einsiedeln> ;
+    wdt:P2048 31.7 ;
+    wdt:P2049 22.7 ;
+    wdt:P217 "191 (277)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0780"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/178> rdfs:label "Stiftsbibliothek — 321 (647) (ff 27–156)" ;
+    skos:prefLabel "Stiftsbibliothek — 321 (647) (ff 27–156)" ;
+    wdt:P1071 wd:Q6602 ;
+    wdt:P1104 65 ;
+    wdt:P195 <https://mira.ie/entity/library/einsiedeln> ;
+    wdt:P2048 22.0 ;
+    wdt:P2049 17.0 ;
+    wdt:P217 "321 (647) (ff 27–156)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0866"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/179> rdfs:label "Stadtbibliothek — Min. 25 a" ;
+    skos:prefLabel "Stadtbibliothek — Min. 25 a" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1104 1 ;
+    wdt:P195 <https://mira.ie/entity/library/schaffhausen> ;
+    wdt:P2048 24.0 ;
+    wdt:P2049 1.4 ;
+    wdt:P217 "Min. 25 a" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0686"^^xsd:gYear ;
+    wdt:P953 "http://foundationsirishculture.ie/record/?id=53"^^xsd:anyURI .
+
+<https://mira.ie/entity/manuscript/18> rdfs:label "Bibliothèque municipale — 468 (ff 1–61)" ;
+    skos:prefLabel "Bibliothèque municipale — 468 (ff 1–61)" ;
+    wdt:P1071 wd:Q167141 ;
+    wdt:P1104 61 ;
+    wdt:P195 <https://mira.ie/entity/library/laon> ;
+    wdt:P2048 31.0 ;
+    wdt:P2049 23.0 ;
+    wdt:P217 "468 (ff 1–61)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0876"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/180> rdfs:label "Stadtbibliothek — Gen. 1" ;
+    skos:prefLabel "Stadtbibliothek — Gen. 1" ;
+    wdt:P1071 wd:Q610 ;
+    wdt:P1104 69 ;
+    wdt:P195 <https://mira.ie/entity/library/schaffhausen> ;
+    wdt:P2048 29.0 ;
+    wdt:P2049 22.5 ;
+    wdt:P217 "Gen. 1" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0680"^^xsd:gYear ;
+    wdt:P953 "http://foundationsirishculture.ie/record/?id=52"^^xsd:anyURI .
+
+<https://mira.ie/entity/manuscript/181> rdfs:label "Stadtbibliothek — Min. 45 (ff 2–7, 10–15, 18–23, 34–41, 46, 47, 52, 54–58, 63–66, 70, 75) [palimpsest old]" ;
+    skos:prefLabel "Stadtbibliothek — Min. 45 (ff 2–7, 10–15, 18–23, 34–41, 46, 47, 52, 54–58, 63–66, 70, 75) [palimpsest old]" ;
+    wdt:P1104 40 ;
+    wdt:P195 <https://mira.ie/entity/library/schaffhausen> ;
+    wdt:P2048 24.5 ;
+    wdt:P2049 17.0 ;
+    wdt:P217 "Min. 45 (ff 2–7, 10–15, 18–23, 34–41, 46, 47, 52, 54–58, 63–66, 70, 75) [palimpsest old]" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0701"^^xsd:gYear ;
+    wdt:P953 "http://foundationsirishculture.ie/record/?id=54"^^xsd:anyURI .
+
+<https://mira.ie/entity/manuscript/182> rdfs:label "Stadtbibliothek — Min. 45 (ff 44, 45, 48, 49) [palimpsest old ]" ;
+    skos:prefLabel "Stadtbibliothek — Min. 45 (ff 44, 45, 48, 49) [palimpsest old ]" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1104 4 ;
+    wdt:P195 <https://mira.ie/entity/library/schaffhausen> ;
+    wdt:P2048 24.5 ;
+    wdt:P2049 17.0 ;
+    wdt:P217 "Min. 45 (ff 44, 45, 48, 49) [palimpsest old ]" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0701"^^xsd:gYear ;
+    wdt:P953 "http://foundationsirishculture.ie/record/?id=55"^^xsd:anyURI .
+
+<https://mira.ie/entity/manuscript/183> rdfs:label "Stiftsbibliothek — 51 [palimpsest new]" ;
+    skos:prefLabel "Stiftsbibliothek — 51 [palimpsest new]" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1104 134 ;
+    wdt:P195 <https://mira.ie/entity/library/st-gall> ;
+    wdt:P2048 29.5 ;
+    wdt:P2049 22.5 ;
+    wdt:P217 "51 [palimpsest new]" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0750"^^xsd:gYear ;
+    wdt:P953 "http://foundationsirishculture.ie/record/?id=43"^^xsd:anyURI .
+
+<https://mira.ie/entity/manuscript/184> rdfs:label "Stiftsbibliothek — 60" ;
+    skos:prefLabel "Stiftsbibliothek — 60" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1104 35 ;
+    wdt:P195 <https://mira.ie/entity/library/st-gall> ;
+    wdt:P2048 27.0 ;
+    wdt:P2049 18.5 ;
+    wdt:P217 "60" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0780"^^xsd:gYear ;
+    wdt:P953 "http://foundationsirishculture.ie/record/?id=44"^^xsd:anyURI .
+
+<https://mira.ie/entity/manuscript/185> rdfs:label "Stiftsbibliothek — 136" ;
+    skos:prefLabel "Stiftsbibliothek — 136" ;
+    wdt:P1071 wd:Q25607 ;
+    wdt:P1104 183 ;
+    wdt:P195 <https://mira.ie/entity/library/st-gall> ;
+    wdt:P2048 21.7 ;
+    wdt:P2049 14.9 ;
+    wdt:P217 "136" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0840"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/186> rdfs:label "Stiftsbibliothek — 258" ;
+    skos:prefLabel "Stiftsbibliothek — 258" ;
+    wdt:P1071 wd:Q142 ;
+    wdt:P1104 103 ;
+    wdt:P195 <https://mira.ie/entity/library/st-gall> ;
+    wdt:P2048 24.0 ;
+    wdt:P2049 16.7 ;
+    wdt:P217 "258" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0840"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/187> rdfs:label "Stiftsbibliothek — 904" ;
+    skos:prefLabel "Stiftsbibliothek — 904" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1104 120 ;
+    wdt:P195 <https://mira.ie/entity/library/st-gall> ;
+    wdt:P2048 39.0 ;
+    wdt:P2049 28.5 ;
+    wdt:P217 "904" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0851"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/188> rdfs:label "Stiftsbibliothek — 1394 (pp 101–104)" ;
+    skos:prefLabel "Stiftsbibliothek — 1394 (pp 101–104)" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1104 2 ;
+    wdt:P195 <https://mira.ie/entity/library/st-gall> ;
+    wdt:P2048 27.0 ;
+    wdt:P2049 21.0 ;
+    wdt:P217 "1394 (pp 101–104)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0701"^^xsd:gYear ;
+    wdt:P953 "http://foundationsirishculture.ie/record/?id=46"^^xsd:anyURI .
+
+<https://mira.ie/entity/manuscript/189> rdfs:label "Stiftsbibliothek — 1394 (pp 95–98)" ;
+    skos:prefLabel "Stiftsbibliothek — 1394 (pp 95–98)" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1104 2 ;
+    wdt:P195 <https://mira.ie/entity/library/st-gall> ;
+    wdt:P2048 27.0 ;
+    wdt:P2049 21.0 ;
+    wdt:P217 "1394 (pp 95–98)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0780"^^xsd:gYear ;
+    wdt:P953 "http://foundationsirishculture.ie/record/?id=45"^^xsd:anyURI .
+
+<https://mira.ie/entity/manuscript/19> rdfs:label "Bibliothèque municipale — 24" ;
+    skos:prefLabel "Bibliothèque municipale — 24" ;
+    wdt:P1071 wd:Q142 ;
+    wdt:P1104 116 ;
+    wdt:P195 <https://mira.ie/entity/library/laon> ;
+    wdt:P2048 28.2 ;
+    wdt:P2049 17.3 ;
+    wdt:P217 "24" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0834"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/190> rdfs:label "Stiftsbibliothek — 1395 (pp 430–433)" ;
+    skos:prefLabel "Stiftsbibliothek — 1395 (pp 430–433)" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1104 2 ;
+    wdt:P195 <https://mira.ie/entity/library/st-gall> ;
+    wdt:P2048 24.0 ;
+    wdt:P2049 19.0 ;
+    wdt:P217 "1395 (pp 430–433)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0701"^^xsd:gYear ;
+    wdt:P953 "http://foundationsirishculture.ie/record/?id=48"^^xsd:anyURI .
+
+<https://mira.ie/entity/manuscript/191> rdfs:label "Stiftsbibliothek — 1395 (pp 444–447)" ;
+    skos:prefLabel "Stiftsbibliothek — 1395 (pp 444–447)" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1104 2 ;
+    wdt:P195 <https://mira.ie/entity/library/st-gall> ;
+    wdt:P2048 24.0 ;
+    wdt:P2049 19.0 ;
+    wdt:P217 "1395 (pp 444–447)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0701"^^xsd:gYear ;
+    wdt:P953 "http://foundationsirishculture.ie/record/?id=50"^^xsd:anyURI .
+
+<https://mira.ie/entity/manuscript/192> rdfs:label "Stiftsbibliothek — 1395 (pp 418–419, 422–423, 426–427)" ;
+    skos:prefLabel "Stiftsbibliothek — 1395 (pp 418–419, 422–423, 426–427)" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1104 3 ;
+    wdt:P195 <https://mira.ie/entity/library/st-gall> ;
+    wdt:P2048 24.0 ;
+    wdt:P2049 19.0 ;
+    wdt:P217 "1395 (pp 418–419, 422–423, 426–427)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0751"^^xsd:gYear ;
+    wdt:P953 "http://foundationsirishculture.ie/record/?id=47"^^xsd:anyURI .
+
+<https://mira.ie/entity/manuscript/193> rdfs:label "Stiftsbibliothek — 1395 (pp 436–437)" ;
+    skos:prefLabel "Stiftsbibliothek — 1395 (pp 436–437)" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1104 1 ;
+    wdt:P195 <https://mira.ie/entity/library/st-gall> ;
+    wdt:P2048 24.0 ;
+    wdt:P2049 19.0 ;
+    wdt:P217 "1395 (pp 436–437)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0780"^^xsd:gYear ;
+    wdt:P953 "http://foundationsirishculture.ie/record/?id=49"^^xsd:anyURI .
+
+<https://mira.ie/entity/manuscript/194> rdfs:label "Stiftsbibliothek — 1399 a 1" ;
+    skos:prefLabel "Stiftsbibliothek — 1399 a 1" ;
+    wdt:P1071 wd:Q11498 ;
+    wdt:P1104 1 ;
+    wdt:P195 <https://mira.ie/entity/library/st-gall> ;
+    wdt:P2048 17.0 ;
+    wdt:P2049 14.5 ;
+    wdt:P217 "1399 a 1" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0636"^^xsd:gYear ;
+    wdt:P953 "http://foundationsirishculture.ie/record/?id=51"^^xsd:anyURI .
+
+<https://mira.ie/entity/manuscript/195> rdfs:label "Staatsarchiv — A.G. 19 No. 16 (fol. 32 = p. 77–78)" ;
+    skos:prefLabel "Staatsarchiv — A.G. 19 No. 16 (fol. 32 = p. 77–78)" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1104 1 ;
+    wdt:P195 <https://mira.ie/entity/library/zurich> ;
+    wdt:P2048 23.5 ;
+    wdt:P2049 17.0 ;
+    wdt:P217 "A.G. 19 No. 16 (fol. 32 = p. 77–78)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0701"^^xsd:gYear ;
+    wdt:P953 "http://foundationsirishculture.ie/record/?id=57"^^xsd:anyURI .
+
+<https://mira.ie/entity/manuscript/196> rdfs:label "Staatsarchiv — A.G. 19 No. 36 (fol. 57 = p. 117–118)" ;
+    skos:prefLabel "Staatsarchiv — A.G. 19 No. 36 (fol. 57 = p. 117–118)" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1104 2 ;
+    wdt:P195 <https://mira.ie/entity/library/zurich> ;
+    wdt:P2048 21.2 ;
+    wdt:P2049 16.5 ;
+    wdt:P217 "A.G. 19 No. 36 (fol. 57 = p. 117–118)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0701"^^xsd:gYear ;
+    wdt:P953 "http://foundationsirishculture.ie/record/?id=58"^^xsd:anyURI .
+
+<https://mira.ie/entity/manuscript/197> rdfs:label "Staatsarchiv — A.G.W 19 No. 12 (ff 24–5 = p. 61–4)" ;
+    skos:prefLabel "Staatsarchiv — A.G.W 19 No. 12 (ff 24–5 = p. 61–4)" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1104 2 ;
+    wdt:P195 <https://mira.ie/entity/library/zurich> ;
+    wdt:P2048 21.8 ;
+    wdt:P2049 16.5 ;
+    wdt:P217 "A.G.W 19 No. 12 (ff 24–5 = p. 61–4)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0780"^^xsd:gYear ;
+    wdt:P953 "http://foundationsirishculture.ie/record/?id=56"^^xsd:anyURI .
+
+<https://mira.ie/entity/manuscript/198> rdfs:label "Zentralbibliothek — Rh. 30" ;
+    skos:prefLabel "Zentralbibliothek — Rh. 30" ;
+    wdt:P1071 wd:Q39 ;
+    wdt:P195 <https://mira.ie/entity/library/zurich_zentral> ;
+    wdt:P217 "Rh. 30" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0780"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/199> rdfs:label "Zentralbibliothek — Rh. 73 (ff 1–29)" ;
+    skos:prefLabel "Zentralbibliothek — Rh. 73 (ff 1–29)" ;
+    wdt:P1071 wd:Q632880 ;
+    wdt:P1104 29 ;
+    wdt:P195 <https://mira.ie/entity/library/zurich_zentral> ;
+    wdt:P2048 23.8 ;
+    wdt:P2049 16.8 ;
+    wdt:P217 "Rh. 73 (ff 1–29)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0842"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/2> rdfs:label "Österreichische Nationalbibliothek — Lat. 366" ;
+    skos:prefLabel "Österreichische Nationalbibliothek — Lat. 366" ;
+    wdt:P1071 wd:Q34713 ;
+    wdt:P195 <https://mira.ie/entity/library/vienna> ;
+    wdt:P217 "Lat. 366" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0786"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/20> rdfs:label "Bibliothèque municipale — 317 (356)" ;
+    skos:prefLabel "Bibliothèque municipale — 317 (356)" ;
+    wdt:P1071 wd:Q11498 ;
+    wdt:P1104 95 ;
+    wdt:P195 <https://mira.ie/entity/library/nancy> ;
+    wdt:P2048 18.0 ;
+    wdt:P2049 16.0 ;
+    wdt:P217 "317 (356)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0801"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/200> rdfs:label "Corpus Christi College, Parker Library — 144" ;
+    skos:prefLabel "Corpus Christi College, Parker Library — 144" ;
+    wdt:P1071 wd:Q21 ;
+    wdt:P1104 65 ;
+    wdt:P195 <https://mira.ie/entity/library/cambridge_corpus> ;
+    wdt:P2048 32.0 ;
+    wdt:P2049 23.5 ;
+    wdt:P217 "144" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0701"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/201> rdfs:label "Trinity College — B.10.5" ;
+    skos:prefLabel "Trinity College — B.10.5" ;
+    wdt:P1071 wd:Q21 ;
+    wdt:P1104 67 ;
+    wdt:P195 <https://mira.ie/entity/library/cambridge_trinity> ;
+    wdt:P2048 30.5 ;
+    wdt:P2049 24.5 ;
+    wdt:P217 "B.10.5" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0701"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/202> rdfs:label "Pembroke College — 312C (ff 3, 4)" ;
+    skos:prefLabel "Pembroke College — 312C (ff 3, 4)" ;
+    wdt:P1071 wd:Q90 ;
+    wdt:P1104 2 ;
+    wdt:P195 <https://mira.ie/entity/library/cambridge_pembroke> ;
+    wdt:P2048 30.0 ;
+    wdt:P2049 5.7 ;
+    wdt:P217 "312C (ff 3, 4)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0826"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/203> rdfs:label "Corpus Christi College, Parker Library — 279" ;
+    skos:prefLabel "Corpus Christi College, Parker Library — 279" ;
+    wdt:P1071 wd:Q288 ;
+    wdt:P1104 94 ;
+    wdt:P195 <https://mira.ie/entity/library/cambridge_corpus> ;
+    wdt:P2048 26.2 ;
+    wdt:P2049 17.2 ;
+    wdt:P217 "279" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0851"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/204> rdfs:label "University Library — Ff.4.42 (1285)" ;
+    skos:prefLabel "University Library — Ff.4.42 (1285)" ;
+    wdt:P1071 wd:Q25 ;
+    wdt:P1104 55 ;
+    wdt:P195 <https://mira.ie/entity/library/cambridge_ul> ;
+    wdt:P2048 26.0 ;
+    wdt:P2049 19.5 ;
+    wdt:P217 "Ff.4.42 (1285)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0851"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/205> rdfs:label "Cathedral Library — A.II.10 (ff 2–5, 338, 339)" ;
+    skos:prefLabel "Cathedral Library — A.II.10 (ff 2–5, 338, 339)" ;
+    wdt:P1071 wd:Q107299 ;
+    wdt:P195 <https://mira.ie/entity/library/durham> ;
+    wdt:P217 "A.II.10 (ff 2–5, 338, 339)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0640"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/206> rdfs:label "Cathedral Library — A.II.17 (ff 2–102)" ;
+    skos:prefLabel "Cathedral Library — A.II.17 (ff 2–102)" ;
+    wdt:P1071 wd:Q107299 ;
+    wdt:P1104 108 ;
+    wdt:P195 <https://mira.ie/entity/library/durham> ;
+    wdt:P2048 34.0 ;
+    wdt:P2049 26.0 ;
+    wdt:P217 "A.II.17 (ff 2–102)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0701"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/207> rdfs:label "Cathedral Library — A.II.16 (ff 24–33, 87–101)" ;
+    skos:prefLabel "Cathedral Library — A.II.16 (ff 24–33, 87–101)" ;
+    wdt:P1071 wd:Q107299 ;
+    wdt:P195 <https://mira.ie/entity/library/durham> ;
+    wdt:P217 "A.II.16 (ff 24–33, 87–101)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0701"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/208> rdfs:label "Cathedral Library — I" ;
+    skos:prefLabel "Cathedral Library — I" ;
+    wdt:P1071 wd:Q25 ;
+    wdt:P195 <https://mira.ie/entity/library/lichfield> ;
+    wdt:P217 "I" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0701"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/209> rdfs:label "Private Collection J. Paul Getty Jr. — na" ;
+    skos:prefLabel "Private Collection J. Paul Getty Jr. — na" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1104 1 ;
+    wdt:P195 <https://mira.ie/entity/library/london_getty> ;
+    wdt:P2048 18.2 ;
+    wdt:P2049 14.0 ;
+    wdt:P217 "na" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0601"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/21> rdfs:label "Bibliothèque municipale — 65 (olim 62) (pp 273–378)" ;
+    skos:prefLabel "Bibliothèque municipale — 65 (olim 62) (pp 273–378)" ;
+    wdt:P1071 wd:Q947030 ;
+    wdt:P1104 53 ;
+    wdt:P195 <https://mira.ie/entity/library/orleans> ;
+    wdt:P2048 25.0 ;
+    wdt:P2049 16.5 ;
+    wdt:P217 "65 (olim 62) (pp 273–378)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0840"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/210> rdfs:label "British Library — Sloane MS 1044 (fol. 3)" ;
+    skos:prefLabel "British Library — Sloane MS 1044 (fol. 3)" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1104 1 ;
+    wdt:P195 <https://mira.ie/entity/library/london_bl> ;
+    wdt:P2048 6.5 ;
+    wdt:P2049 22.0 ;
+    wdt:P217 "Sloane MS 1044 (fol. 3)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0751"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/211> rdfs:label "British Library — Add. 40618" ;
+    skos:prefLabel "British Library — Add. 40618" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1104 66 ;
+    wdt:P195 <https://mira.ie/entity/library/london_bl> ;
+    wdt:P2048 13.0 ;
+    wdt:P2049 10.5 ;
+    wdt:P217 "Add. 40618" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0780"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/212> rdfs:label "British Library — Cotton MS Nero A.II (ff 14–45)" ;
+    skos:prefLabel "British Library — Cotton MS Nero A.II (ff 14–45)" ;
+    wdt:P1071 wd:Q2028 ;
+    wdt:P1104 32 ;
+    wdt:P195 <https://mira.ie/entity/library/london_bl> ;
+    wdt:P2048 16.0 ;
+    wdt:P2049 11.0 ;
+    wdt:P217 "Cotton MS Nero A.II (ff 14–45)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0780"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/213> rdfs:label "Lambeth Palace Library — 1370" ;
+    skos:prefLabel "Lambeth Palace Library — 1370" ;
+    wdt:P1071 wd:Q193452 ;
+    wdt:P1104 216 ;
+    wdt:P195 <https://mira.ie/entity/library/london_lambeth> ;
+    wdt:P2048 15.8 ;
+    wdt:P2049 11.1 ;
+    wdt:P217 "1370" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0851"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/214> rdfs:label "Bodleian Library — Auctarium F.III.15 [S.C. 3511] (ff 54–65)" ;
+    skos:prefLabel "Bodleian Library — Auctarium F.III.15 [S.C. 3511] (ff 54–65)" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1104 6 ;
+    wdt:P195 <https://mira.ie/entity/library/oxford_bodleian> ;
+    wdt:P2048 24.4 ;
+    wdt:P2049 16.8 ;
+    wdt:P217 "Auctarium F.III.15 [S.C. 3511] (ff 54–65)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0701"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/215> rdfs:label "Bodleian Library — Auctarium D.II.19 [S.C. 3946]" ;
+    skos:prefLabel "Bodleian Library — Auctarium D.II.19 [S.C. 3946]" ;
+    wdt:P1071 wd:Q865849 ;
+    wdt:P1104 169 ;
+    wdt:P195 <https://mira.ie/entity/library/oxford_bodleian> ;
+    wdt:P2048 35.0 ;
+    wdt:P2049 27.0 ;
+    wdt:P217 "Auctarium D.II.19 [S.C. 3946]" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0780"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/216> rdfs:label "Bodleian Library — Rawlinson G 167 [S.C. 14890]" ;
+    skos:prefLabel "Bodleian Library — Rawlinson G 167 [S.C. 14890]" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1104 109 ;
+    wdt:P195 <https://mira.ie/entity/library/oxford_bodleian> ;
+    wdt:P2048 34.0 ;
+    wdt:P2049 20.7 ;
+    wdt:P217 "Rawlinson G 167 [S.C. 14890]" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0780"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/217> rdfs:label "Library of the Marquess of Bath [Longleat House] — NMR 10589 (flyleaves)" ;
+    skos:prefLabel "Library of the Marquess of Bath [Longleat House] — NMR 10589 (flyleaves)" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1104 2 ;
+    wdt:P195 <https://mira.ie/entity/library/warminster> ;
+    wdt:P2048 33.6 ;
+    wdt:P2049 21.7 ;
+    wdt:P217 "NMR 10589 (flyleaves)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0680"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/218> rdfs:label "Harvard University, Houghton Library — Typ. 620" ;
+    skos:prefLabel "Harvard University, Houghton Library — Typ. 620" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1104 1 ;
+    wdt:P195 <https://mira.ie/entity/library/harvard> ;
+    wdt:P2048 22.0 ;
+    wdt:P2049 150.0 ;
+    wdt:P217 "Typ. 620" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0751"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/219> rdfs:label "Harvard University, Houghton Library — Typ. 613 (20688) (ff 1–8)" ;
+    skos:prefLabel "Harvard University, Houghton Library — Typ. 613 (20688) (ff 1–8)" ;
+    wdt:P1104 34 ;
+    wdt:P195 <https://mira.ie/entity/library/harvard> ;
+    wdt:P2048 20.5 ;
+    wdt:P2049 14.0 ;
+    wdt:P217 "Typ. 613 (20688) (ff 1–8)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0780"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/22> rdfs:label "Bibliothèque nationale de France — Lat. 2384 (ff 1–153)" ;
+    skos:prefLabel "Bibliothèque nationale de France — Lat. 2384 (ff 1–153)" ;
+    wdt:P1071 wd:Q160506 ;
+    wdt:P1104 153 ;
+    wdt:P195 <https://mira.ie/entity/library/paris_bnf> ;
+    wdt:P2048 27.0 ;
+    wdt:P2049 20.5 ;
+    wdt:P217 "Lat. 2384 (ff 1–153)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0820"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/220> rdfs:label "Biblioteca Apostolica Vaticana — Pal. Lat. 210 (f. 1)" ;
+    skos:prefLabel "Biblioteca Apostolica Vaticana — Pal. Lat. 210 (f. 1)" ;
+    wdt:P1071 wd:Q38 ;
+    wdt:P1104 1 ;
+    wdt:P195 <https://mira.ie/entity/library/vatican> ;
+    wdt:P2048 24.3 ;
+    wdt:P2049 17.8 ;
+    wdt:P217 "Pal. Lat. 210 (f. 1)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0801"^^xsd:gYear ;
+    wdt:P953 "http://foundationsirishculture.ie/record/?id=4"^^xsd:anyURI .
+
+<https://mira.ie/entity/manuscript/221> rdfs:label "Biblioteca Apostolica Vaticana — Lat. 5750 [palimpsest new]" ;
+    skos:prefLabel "Biblioteca Apostolica Vaticana — Lat. 5750 [palimpsest new]" ;
+    wdt:P1071 wd:Q11498 ;
+    wdt:P195 <https://mira.ie/entity/library/vatican> ;
+    wdt:P217 "Lat. 5750 [palimpsest new]" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0601"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/222> rdfs:label "Biblioteca Apostolica Vaticana — Pal. Lat. 68" ;
+    skos:prefLabel "Biblioteca Apostolica Vaticana — Pal. Lat. 68" ;
+    wdt:P1071 wd:Q21 ;
+    wdt:P1104 46 ;
+    wdt:P195 <https://mira.ie/entity/library/vatican> ;
+    wdt:P2048 31.0 ;
+    wdt:P2049 19.0 ;
+    wdt:P217 "Pal. Lat. 68" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0701"^^xsd:gYear ;
+    wdt:P953 "http://digi.vatlib.it/view/bav_pal_lat_68"^^xsd:anyURI .
+
+<https://mira.ie/entity/manuscript/223> rdfs:label "Biblioteca Apostolica Vaticana — Pal. Lat. 235 (ff 4–29)" ;
+    skos:prefLabel "Biblioteca Apostolica Vaticana — Pal. Lat. 235 (ff 4–29)" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1104 26 ;
+    wdt:P195 <https://mira.ie/entity/library/vatican> ;
+    wdt:P2048 30.0 ;
+    wdt:P2049 22.5 ;
+    wdt:P217 "Pal. Lat. 235 (ff 4–29)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0801"^^xsd:gYear ;
+    wdt:P953 "http://digi.vatlib.it/view/bav_pal_lat_235/0013"^^xsd:anyURI .
+
+<https://mira.ie/entity/manuscript/224> rdfs:label "Biblioteca Apostolica Vaticana — Lat. 491 (ff 1–33)" ;
+    skos:prefLabel "Biblioteca Apostolica Vaticana — Lat. 491 (ff 1–33)" ;
+    wdt:P1071 wd:Q38 ;
+    wdt:P1104 34 ;
+    wdt:P195 <https://mira.ie/entity/library/vatican> ;
+    wdt:P2048 26.5 ;
+    wdt:P2049 19.7 ;
+    wdt:P217 "Lat. 491 (ff 1–33)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0701"^^xsd:gYear ;
+    wdt:P953 "http://digi.vatlib.it/view/MSS_Vat.lat.491"^^xsd:anyURI .
+
+<https://mira.ie/entity/manuscript/225> rdfs:label "Biblioteca Apostolica Vaticana — Lat. 13501/XXIV (ff 44–45)" ;
+    skos:prefLabel "Biblioteca Apostolica Vaticana — Lat. 13501/XXIV (ff 44–45)" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1104 2 ;
+    wdt:P195 <https://mira.ie/entity/library/vatican> ;
+    wdt:P217 "Lat. 13501/XXIV (ff 44–45)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0801"^^xsd:gYear ;
+    wdt:P953 "http://digi.vatlib.it/view/MSS_Vat.lat.13501"^^xsd:anyURI .
+
+<https://mira.ie/entity/manuscript/226> rdfs:label "Biblioteca Apostolica Vaticana — Ottob. lat. 35 (ff 1–35)" ;
+    skos:prefLabel "Biblioteca Apostolica Vaticana — Ottob. lat. 35 (ff 1–35)" ;
+    wdt:P1104 35 ;
+    wdt:P195 <https://mira.ie/entity/library/vatican> ;
+    wdt:P217 "Ottob. lat. 35 (ff 1–35)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0801"^^xsd:gYear ;
+    wdt:P953 "https://digi.vatlib.it/view/MSS_Ott.lat.35"^^xsd:anyURI .
+
+<https://mira.ie/entity/manuscript/227> rdfs:label "Biblioteca Apostolica Vaticana — Reg. Lat. 215" ;
+    skos:prefLabel "Biblioteca Apostolica Vaticana — Reg. Lat. 215" ;
+    wdt:P1071 wd:Q288 ;
+    wdt:P195 <https://mira.ie/entity/library/vatican> ;
+    wdt:P217 "Reg. Lat. 215" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0876"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/228> rdfs:label "Biblioteca Apostolica Vaticana — Arch.Cap.S.Pietro.H.25" ;
+    skos:prefLabel "Biblioteca Apostolica Vaticana — Arch.Cap.S.Pietro.H.25" ;
+    wdt:P1071 wd:Q142 ;
+    wdt:P195 <https://mira.ie/entity/library/vatican> ;
+    wdt:P217 "Arch.Cap.S.Pietro.H.25" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0780"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/229> rdfs:label "Bayerische Staatsbibliothek — Clm 6398" ;
+    skos:prefLabel "Bayerische Staatsbibliothek — Clm 6398" ;
+    wdt:P1071 wd:Q6998 ;
+    wdt:P1104 135 ;
+    wdt:P195 <https://mira.ie/entity/library/munich> ;
+    wdt:P2048 27.5 ;
+    wdt:P2049 17.5 ;
+    wdt:P217 "Clm 6398" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0840"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/23> rdfs:label "Bibliothèque nationale de France — Lat. 3088 (ff 108–121)" ;
+    skos:prefLabel "Bibliothèque nationale de France — Lat. 3088 (ff 108–121)" ;
+    wdt:P1071 wd:Q41876 ;
+    wdt:P1104 14 ;
+    wdt:P195 <https://mira.ie/entity/library/paris_bnf> ;
+    wdt:P2048 22.0 ;
+    wdt:P2049 19.2 ;
+    wdt:P217 "Lat. 3088 (ff 108–121)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0876"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/230> rdfs:label "Staatsbibliothek — Class.31 (E.III.22)" ;
+    skos:prefLabel "Staatsbibliothek — Class.31 (E.III.22)" ;
+    wdt:P1071 wd:Q38 ;
+    wdt:P1104 107 ;
+    wdt:P195 <https://mira.ie/entity/library/bamberg> ;
+    wdt:P2048 20.0 ;
+    wdt:P2049 14.0 ;
+    wdt:P217 "Class.31 (E.III.22)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0880"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/231> rdfs:label "Staatsbibliothek Preussischer Kulturbesitz — Ms. Theol. Lat. Fol. 364 (Rose 791)" ;
+    skos:prefLabel "Staatsbibliothek Preussischer Kulturbesitz — Ms. Theol. Lat. Fol. 364 (Rose 791)" ;
+    wdt:P1071 wd:Q142 ;
+    wdt:P1104 118 ;
+    wdt:P195 <https://mira.ie/entity/library/berlin> ;
+    wdt:P2048 26.8 ;
+    wdt:P2049 20.5 ;
+    wdt:P217 "Ms. Theol. Lat. Fol. 364 (Rose 791)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0851"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/232> rdfs:label "Bibliothek der Benediktiner-Erzabtei — Fragm. 41" ;
+    skos:prefLabel "Bibliothek der Benediktiner-Erzabtei — Fragm. 41" ;
+    wdt:P1071 wd:Q632880 ;
+    wdt:P1104 1 ;
+    wdt:P195 <https://mira.ie/entity/library/beuron> ;
+    wdt:P2048 18.0 ;
+    wdt:P2049 20.0 ;
+    wdt:P217 "Fragm. 41" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0866"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/233> rdfs:label "Biblioteca Medicea Laurenziana — Plut. 29.24" ;
+    skos:prefLabel "Biblioteca Medicea Laurenziana — Plut. 29.24" ;
+    wdt:P1071 wd:Q142 ;
+    wdt:P1104 70 ;
+    wdt:P195 <https://mira.ie/entity/library/florence> ;
+    wdt:P2048 24.6 ;
+    wdt:P2049 16.6 ;
+    wdt:P217 "Plut. 29.24" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0851"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/234> rdfs:label "Cathedral Library — O.III.2" ;
+    skos:prefLabel "Cathedral Library — O.III.2" ;
+    wdt:P1071 wd:Q142 ;
+    wdt:P1104 205 ;
+    wdt:P195 <https://mira.ie/entity/library/hereford> ;
+    wdt:P2048 24.8 ;
+    wdt:P2049 19.3 ;
+    wdt:P217 "O.III.2" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0851"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/235> rdfs:label "Badische Landesbibliothek — Fragm. Aug. 18 [palimpsest new]" ;
+    skos:prefLabel "Badische Landesbibliothek — Fragm. Aug. 18 [palimpsest new]" ;
+    wdt:P1071 wd:Q1102232 ;
+    wdt:P195 <https://mira.ie/entity/library/karlsruhe> ;
+    wdt:P217 "Fragm. Aug. 18 [palimpsest new]" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0801"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/236> rdfs:label "Biblioteca Ambrosiana — C 243 inf." ;
+    skos:prefLabel "Biblioteca Ambrosiana — C 243 inf." ;
+    wdt:P1071 wd:Q11498 ;
+    wdt:P1104 308 ;
+    wdt:P195 <https://mira.ie/entity/library/milan> ;
+    wdt:P2048 34.0 ;
+    wdt:P2049 25.5 ;
+    wdt:P217 "C 243 inf." ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0866"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/237> rdfs:label "Archivio dell'Abbazia — 320 (pp 5–398)" ;
+    skos:prefLabel "Archivio dell'Abbazia — 320 (pp 5–398)" ;
+    wdt:P1071 wd:Q38 ;
+    wdt:P1104 394 ;
+    wdt:P195 <https://mira.ie/entity/library/montecassino> ;
+    wdt:P2048 31.0 ;
+    wdt:P2049 24.5 ;
+    wdt:P217 "320 (pp 5–398)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0880"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/238> rdfs:label "Bayerische Staatsbibliothek — Clm 14420 (ff 1–20)" ;
+    skos:prefLabel "Bayerische Staatsbibliothek — Clm 14420 (ff 1–20)" ;
+    wdt:P1071 wd:Q183 ;
+    wdt:P1104 20 ;
+    wdt:P195 <https://mira.ie/entity/library/munich> ;
+    wdt:P2048 25.5 ;
+    wdt:P2049 18.0 ;
+    wdt:P217 "Clm 14420 (ff 1–20)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0851"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/239> rdfs:label "Bayerische Staatsbibliothek — Clm 14497" ;
+    skos:prefLabel "Bayerische Staatsbibliothek — Clm 14497" ;
+    wdt:P1071 wd:Q183 ;
+    wdt:P1104 56 ;
+    wdt:P195 <https://mira.ie/entity/library/munich> ;
+    wdt:P2048 24.5 ;
+    wdt:P2049 13.5 ;
+    wdt:P217 "Clm 14497" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0790"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/24> rdfs:label "Bibliothèque nationale de France — Lat. 7730" ;
+    skos:prefLabel "Bibliothèque nationale de France — Lat. 7730" ;
+    wdt:P1071 wd:Q142 ;
+    wdt:P1104 107 ;
+    wdt:P195 <https://mira.ie/entity/library/paris_bnf> ;
+    wdt:P2048 31.2 ;
+    wdt:P2049 25.2 ;
+    wdt:P217 "Lat. 7730" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0876"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/240> rdfs:label "Bayerische Staatsbibliothek — Clm 14715 (ff 1–56)" ;
+    skos:prefLabel "Bayerische Staatsbibliothek — Clm 14715 (ff 1–56)" ;
+    wdt:P1071 wd:Q183 ;
+    wdt:P1104 56 ;
+    wdt:P195 <https://mira.ie/entity/library/munich> ;
+    wdt:P2048 19.0 ;
+    wdt:P2049 14.0 ;
+    wdt:P217 "Clm 14715 (ff 1–56)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0851"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/241> rdfs:label "Burgerbibliothek — 258" ;
+    skos:prefLabel "Burgerbibliothek — 258" ;
+    wdt:P1104 192 ;
+    wdt:P195 <https://mira.ie/entity/library/bern> ;
+    wdt:P2048 27.5 ;
+    wdt:P2049 20.0 ;
+    wdt:P217 "258" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0901"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/242> rdfs:label "St John's College — C.9 (olim 59)" ;
+    skos:prefLabel "St John's College — C.9 (olim 59)" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1104 98 ;
+    wdt:P195 <https://mira.ie/entity/library/cambridge_stjohns> ;
+    wdt:P2048 26.0 ;
+    wdt:P2049 18.5 ;
+    wdt:P217 "C.9 (olim 59)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0980"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/243> rdfs:label "University Library — Ii.6.32" ;
+    skos:prefLabel "University Library — Ii.6.32" ;
+    wdt:P1071 wd:Q1382485 ;
+    wdt:P1104 86 ;
+    wdt:P195 <https://mira.ie/entity/library/cambridge_ul> ;
+    wdt:P2048 15.7 ;
+    wdt:P2049 10.8 ;
+    wdt:P217 "Ii.6.32" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0850"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/244> rdfs:label "Universiteitsbibliotheek — Voss. Lat. F. 96 A" ;
+    skos:prefLabel "Universiteitsbibliotheek — Voss. Lat. F. 96 A" ;
+    wdt:P1071 wd:Q12130 ;
+    wdt:P1104 2 ;
+    wdt:P195 <https://mira.ie/entity/library/leiden> ;
+    wdt:P2048 18.3 ;
+    wdt:P2049 14.7 ;
+    wdt:P217 "Voss. Lat. F. 96 A" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0880"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/245> rdfs:label "Bibliothèque nationale de France — Lat. 1841 (ff 1–24)" ;
+    skos:prefLabel "Bibliothèque nationale de France — Lat. 1841 (ff 1–24)" ;
+    wdt:P1071 wd:Q38 ;
+    wdt:P1104 170 ;
+    wdt:P195 <https://mira.ie/entity/library/paris_bnf> ;
+    wdt:P2048 26.7 ;
+    wdt:P2049 18.0 ;
+    wdt:P217 "Lat. 1841 (ff 1–24)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0801"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/246> rdfs:label "Bibliothèque nationale de France — Lat. 7960" ;
+    skos:prefLabel "Bibliothèque nationale de France — Lat. 7960" ;
+    wdt:P1071 wd:Q167600 ;
+    wdt:P1104 199 ;
+    wdt:P195 <https://mira.ie/entity/library/paris_bnf> ;
+    wdt:P217 "Lat. 7960" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0840"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/247> rdfs:label "Bibliothèque nationale de France — Lat. 9382" ;
+    skos:prefLabel "Bibliothèque nationale de France — Lat. 9382" ;
+    wdt:P1104 124 ;
+    wdt:P195 <https://mira.ie/entity/library/paris_bnf> ;
+    wdt:P2048 27.5 ;
+    wdt:P2049 21.5 ;
+    wdt:P217 "Lat. 9382" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0701"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/248> rdfs:label "Bibliothèque nationale de France — Lat. 12021 (ff 33–139)" ;
+    skos:prefLabel "Bibliothèque nationale de France — Lat. 12021 (ff 33–139)" ;
+    wdt:P1071 wd:Q12130 ;
+    wdt:P1104 107 ;
+    wdt:P195 <https://mira.ie/entity/library/paris_bnf> ;
+    wdt:P2048 32.0 ;
+    wdt:P2049 24.0 ;
+    wdt:P217 "Lat. 12021 (ff 33–139)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0851"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/249> rdfs:label "Stiftsbibliothek — VadSlg Ms. 317" ;
+    skos:prefLabel "Stiftsbibliothek — VadSlg Ms. 317" ;
+    wdt:P1071 wd:Q183 ;
+    wdt:P1104 108 ;
+    wdt:P195 <https://mira.ie/entity/library/st-gall> ;
+    wdt:P2048 23.0 ;
+    wdt:P2049 18.0 ;
+    wdt:P217 "VadSlg Ms. 317" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0880"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/25> rdfs:label "Bibliothèque nationale de France — Lat. 9488 (ff 3–4)" ;
+    skos:prefLabel "Bibliothèque nationale de France — Lat. 9488 (ff 3–4)" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1104 2 ;
+    wdt:P195 <https://mira.ie/entity/library/paris_bnf> ;
+    wdt:P2048 35.0 ;
+    wdt:P2049 28.5 ;
+    wdt:P217 "Lat. 9488 (ff 3–4)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0701"^^xsd:gYear ;
+    wdt:P953 "http://foundationsirishculture.ie/record/?id=32"^^xsd:anyURI .
+
+<https://mira.ie/entity/manuscript/250> rdfs:label "Bibliothèque municipale — 37" ;
+    skos:prefLabel "Bibliothèque municipale — 37" ;
+    wdt:P1071 wd:Q167152 ;
+    wdt:P1104 180 ;
+    wdt:P195 <https://mira.ie/entity/library/laon> ;
+    wdt:P2048 24.9 ;
+    wdt:P2049 21.2 ;
+    wdt:P217 "37" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0851"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/251> rdfs:label "Bibliothèque municipale — 38" ;
+    skos:prefLabel "Bibliothèque municipale — 38" ;
+    wdt:P1071 wd:Q142 ;
+    wdt:P1104 139 ;
+    wdt:P195 <https://mira.ie/entity/library/laon> ;
+    wdt:P2048 30.0 ;
+    wdt:P2049 24.8 ;
+    wdt:P217 "38" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0826"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/252> rdfs:label "Bibliothèque municipale — 67" ;
+    skos:prefLabel "Bibliothèque municipale — 67" ;
+    wdt:P1071 wd:Q71469 ;
+    wdt:P1104 215 ;
+    wdt:P195 <https://mira.ie/entity/library/laon> ;
+    wdt:P2048 31.8 ;
+    wdt:P2049 25.3 ;
+    wdt:P217 "67" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0851"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/253> rdfs:label "Bibliothèque municipale — 80" ;
+    skos:prefLabel "Bibliothèque municipale — 80" ;
+    wdt:P1071 wd:Q1067570 ;
+    wdt:P1104 80 ;
+    wdt:P195 <https://mira.ie/entity/library/laon> ;
+    wdt:P2048 21.7 ;
+    wdt:P2049 16.7 ;
+    wdt:P217 "80" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0840"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/254> rdfs:label "Bibliothèque municipale — 86" ;
+    skos:prefLabel "Bibliothèque municipale — 86" ;
+    wdt:P1071 wd:Q456 ;
+    wdt:P1104 68 ;
+    wdt:P195 <https://mira.ie/entity/library/laon> ;
+    wdt:P2048 22.0 ;
+    wdt:P2049 16.5 ;
+    wdt:P217 "86" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0866"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/255> rdfs:label "Bibliothèque municipale — 92 (ff 1–164)" ;
+    skos:prefLabel "Bibliothèque municipale — 92 (ff 1–164)" ;
+    wdt:P1071 wd:Q41876 ;
+    wdt:P1104 164 ;
+    wdt:P195 <https://mira.ie/entity/library/laon> ;
+    wdt:P2048 22.7 ;
+    wdt:P2049 20.0 ;
+    wdt:P217 "92 (ff 1–164)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0801"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/256> rdfs:label "Bibliothèque municipale — 265" ;
+    skos:prefLabel "Bibliothèque municipale — 265" ;
+    wdt:P1071 wd:Q1067570 ;
+    wdt:P1104 191 ;
+    wdt:P195 <https://mira.ie/entity/library/laon> ;
+    wdt:P2048 24.2 ;
+    wdt:P2049 13.7 ;
+    wdt:P217 "265" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0801"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/257> rdfs:label "Bibliothèque municipale — 273" ;
+    skos:prefLabel "Bibliothèque municipale — 273" ;
+    wdt:P1071 wd:Q142 ;
+    wdt:P1104 174 ;
+    wdt:P195 <https://mira.ie/entity/library/laon> ;
+    wdt:P2048 28.2 ;
+    wdt:P2049 24.0 ;
+    wdt:P217 "273" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0851"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/258> rdfs:label "Bibliothèque municipale — 298" ;
+    skos:prefLabel "Bibliothèque municipale — 298" ;
+    wdt:P1071 wd:Q1067570 ;
+    wdt:P1104 150 ;
+    wdt:P195 <https://mira.ie/entity/library/laon> ;
+    wdt:P2048 22.6 ;
+    wdt:P2049 11.8 ;
+    wdt:P217 "298" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0801"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/259> rdfs:label "Bibliothèque municipale — 299 (ff 2–137)" ;
+    skos:prefLabel "Bibliothèque municipale — 299 (ff 2–137)" ;
+    wdt:P1071 wd:Q1067570 ;
+    wdt:P1104 136 ;
+    wdt:P195 <https://mira.ie/entity/library/laon> ;
+    wdt:P2048 28.2 ;
+    wdt:P2049 19.3 ;
+    wdt:P217 "299 (ff 2–137)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0801"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/26> rdfs:label "Bibliothèque nationale de France — Lat. 9488 (ff 75–76)" ;
+    skos:prefLabel "Bibliothèque nationale de France — Lat. 9488 (ff 75–76)" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1104 2 ;
+    wdt:P195 <https://mira.ie/entity/library/paris_bnf> ;
+    wdt:P2048 35.0 ;
+    wdt:P2049 28.5 ;
+    wdt:P217 "Lat. 9488 (ff 75–76)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0751"^^xsd:gYear ;
+    wdt:P953 "http://foundationsirishculture.ie/record/?id=34"^^xsd:anyURI .
+
+<https://mira.ie/entity/manuscript/260> rdfs:label "Bibliothèque municipale — 319" ;
+    skos:prefLabel "Bibliothèque municipale — 319" ;
+    wdt:P1071 wd:Q1067570 ;
+    wdt:P1104 179 ;
+    wdt:P195 <https://mira.ie/entity/library/laon> ;
+    wdt:P2048 30.0 ;
+    wdt:P2049 19.5 ;
+    wdt:P217 "319" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0801"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/261> rdfs:label "Bibliothèque municipale — 336" ;
+    skos:prefLabel "Bibliothèque municipale — 336" ;
+    wdt:P1071 wd:Q142 ;
+    wdt:P1104 78 ;
+    wdt:P195 <https://mira.ie/entity/library/laon> ;
+    wdt:P2048 31.2 ;
+    wdt:P2049 23.4 ;
+    wdt:P217 "336" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0851"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/262> rdfs:label "Bibliothèque municipale — 420" ;
+    skos:prefLabel "Bibliothèque municipale — 420" ;
+    wdt:P1071 wd:Q142 ;
+    wdt:P1104 199 ;
+    wdt:P195 <https://mira.ie/entity/library/laon> ;
+    wdt:P2048 29.8 ;
+    wdt:P2049 18.5 ;
+    wdt:P217 "420" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0801"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/263> rdfs:label "Bibliothèque municipale — 424 (ff 1–186)" ;
+    skos:prefLabel "Bibliothèque municipale — 424 (ff 1–186)" ;
+    wdt:P1071 wd:Q142 ;
+    wdt:P1104 186 ;
+    wdt:P195 <https://mira.ie/entity/library/laon> ;
+    wdt:P2048 30.8 ;
+    wdt:P2049 25.0 ;
+    wdt:P217 "424 (ff 1–186)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0826"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/264> rdfs:label "Bibliothèque municipale — 464" ;
+    skos:prefLabel "Bibliothèque municipale — 464" ;
+    wdt:P1071 wd:Q142 ;
+    wdt:P1104 41 ;
+    wdt:P195 <https://mira.ie/entity/library/laon> ;
+    wdt:P2048 22.5 ;
+    wdt:P2049 17.0 ;
+    wdt:P217 "464" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0834"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/265> rdfs:label "Bibliothèque municipale — 469" ;
+    skos:prefLabel "Bibliothèque municipale — 469" ;
+    wdt:P1071 wd:Q142 ;
+    wdt:P1104 182 ;
+    wdt:P195 <https://mira.ie/entity/library/laon> ;
+    wdt:P2048 25.2 ;
+    wdt:P2049 19.0 ;
+    wdt:P217 "469" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0826"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/266> rdfs:label "Staatsbibliothek Preussischer Kulturbesitz — Phillipps 1830 (Rose 129)" ;
+    skos:prefLabel "Staatsbibliothek Preussischer Kulturbesitz — Phillipps 1830 (Rose 129)" ;
+    wdt:P1071 wd:Q41876 ;
+    wdt:P1104 92 ;
+    wdt:P195 <https://mira.ie/entity/library/berlin> ;
+    wdt:P2048 30.0 ;
+    wdt:P2049 23.7 ;
+    wdt:P217 "Phillipps 1830 (Rose 129)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0866"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/267> rdfs:label "Bibliothèque nationale de France — Lat. 12964" ;
+    skos:prefLabel "Bibliothèque nationale de France — Lat. 12964" ;
+    wdt:P1071 wd:Q142 ;
+    wdt:P1104 224 ;
+    wdt:P195 <https://mira.ie/entity/library/paris_bnf> ;
+    wdt:P2048 32.0 ;
+    wdt:P2049 25.0 ;
+    wdt:P217 "Lat. 12964" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0876"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/268> rdfs:label "Abbey of Saint-Remi — 875" ;
+    skos:prefLabel "Abbey of Saint-Remi — 875" ;
+    wdt:P195 <https://mira.ie/entity/library/reims> ;
+    wdt:P217 "875" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0801"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/269> rdfs:label "Bischöfliche Ordinariatsbibliothek — 1" ;
+    skos:prefLabel "Bischöfliche Ordinariatsbibliothek — 1" ;
+    wdt:P1071 wd:Q2749 ;
+    wdt:P1104 132 ;
+    wdt:P195 <https://mira.ie/entity/library/augsburg> ;
+    wdt:P2048 24.8 ;
+    wdt:P2049 16.0 ;
+    wdt:P217 "1" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0786"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/27> rdfs:label "Bibliothèque nationale de France — Lat. 9488 (f. 5)" ;
+    skos:prefLabel "Bibliothèque nationale de France — Lat. 9488 (f. 5)" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1104 1 ;
+    wdt:P195 <https://mira.ie/entity/library/paris_bnf> ;
+    wdt:P2048 35.0 ;
+    wdt:P2049 28.5 ;
+    wdt:P217 "Lat. 9488 (f. 5)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0786"^^xsd:gYear ;
+    wdt:P953 "http://foundationsirishculture.ie/record/?id=33"^^xsd:anyURI .
+
+<https://mira.ie/entity/manuscript/270> rdfs:label "Bibliothèque nationale de France — Lat. 2709" ;
+    skos:prefLabel "Bibliothèque nationale de France — Lat. 2709" ;
+    wdt:P1071 wd:Q2749 ;
+    wdt:P1104 206 ;
+    wdt:P195 <https://mira.ie/entity/library/paris_bnf> ;
+    wdt:P2048 23.3 ;
+    wdt:P2049 14.6 ;
+    wdt:P217 "Lat. 2709" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0801"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/271> rdfs:label "Universitätsbibliothek — F III 15l" ;
+    skos:prefLabel "Universitätsbibliothek — F III 15l" ;
+    wdt:P1104 20 ;
+    wdt:P195 <https://mira.ie/entity/library/basel> ;
+    wdt:P2048 30.0 ;
+    wdt:P2049 23.0 ;
+    wdt:P217 "F III 15l" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0701"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/272> rdfs:label "British Library — Egerton 2831 (ff 110–143)" ;
+    skos:prefLabel "British Library — Egerton 2831 (ff 110–143)" ;
+    wdt:P1071 wd:Q288 ;
+    wdt:P1104 34 ;
+    wdt:P195 <https://mira.ie/entity/library/london_bl> ;
+    wdt:P2048 29.0 ;
+    wdt:P2049 21.5 ;
+    wdt:P217 "Egerton 2831 (ff 110–143)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0751"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/273> rdfs:label "Biblioteca Nazionale — Lat. 2 (ff 112–139)" ;
+    skos:prefLabel "Biblioteca Nazionale — Lat. 2 (ff 112–139)" ;
+    wdt:P1071 wd:Q38 ;
+    wdt:P195 <https://mira.ie/entity/library/naples> ;
+    wdt:P217 "Lat. 2 (ff 112–139)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0401"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/274> rdfs:label "Stiftsbibliothek — 48" ;
+    skos:prefLabel "Stiftsbibliothek — 48" ;
+    wdt:P1071 wd:Q25607 ;
+    wdt:P1104 395 ;
+    wdt:P195 <https://mira.ie/entity/library/st-gall> ;
+    wdt:P2048 22.5 ;
+    wdt:P2049 18.5 ;
+    wdt:P217 "48" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0840"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/275> rdfs:label "Stiftsbibliothek — 1346" ;
+    skos:prefLabel "Stiftsbibliothek — 1346" ;
+    wdt:P1071 wd:Q25607 ;
+    wdt:P1104 60 ;
+    wdt:P195 <https://mira.ie/entity/library/st-gall> ;
+    wdt:P2048 20.0 ;
+    wdt:P2049 16.5 ;
+    wdt:P217 "1346" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "1611"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/276> rdfs:label "Bayerische Staatsbibliothek — Clm 14425" ;
+    skos:prefLabel "Bayerische Staatsbibliothek — Clm 14425" ;
+    wdt:P1071 wd:Q2978 ;
+    wdt:P1104 159 ;
+    wdt:P195 <https://mira.ie/entity/library/munich> ;
+    wdt:P2048 26.0 ;
+    wdt:P2049 16.5 ;
+    wdt:P217 "Clm 14425" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0780"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/277> rdfs:label "Bayerische Staatsbibliothek — Clm 14666 (ff 1–54)" ;
+    skos:prefLabel "Bayerische Staatsbibliothek — Clm 14666 (ff 1–54)" ;
+    wdt:P1071 wd:Q183 ;
+    wdt:P1104 54 ;
+    wdt:P195 <https://mira.ie/entity/library/munich> ;
+    wdt:P2048 16.8 ;
+    wdt:P2049 11.8 ;
+    wdt:P217 "Clm 14666 (ff 1–54)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0840"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/278> rdfs:label "Bayerische Staatsbibliothek — Clm 14166 (ff 72–201)" ;
+    skos:prefLabel "Bayerische Staatsbibliothek — Clm 14166 (ff 72–201)" ;
+    wdt:P1071 wd:Q2978 ;
+    wdt:P1104 130 ;
+    wdt:P195 <https://mira.ie/entity/library/munich> ;
+    wdt:P2048 29.5 ;
+    wdt:P2049 21.5 ;
+    wdt:P217 "Clm 14166 (ff 72–201)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0786"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/279> rdfs:label "Bayerische Staatsbibliothek — Clm 14248" ;
+    skos:prefLabel "Bayerische Staatsbibliothek — Clm 14248" ;
+    wdt:P1071 wd:Q2978 ;
+    wdt:P1104 176 ;
+    wdt:P195 <https://mira.ie/entity/library/munich> ;
+    wdt:P2048 29.8 ;
+    wdt:P2049 18.8 ;
+    wdt:P217 "Clm 14248" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0801"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/28> rdfs:label "Bibliothèque nationale de France — Lat. 10290" ;
+    skos:prefLabel "Bibliothèque nationale de France — Lat. 10290" ;
+    wdt:P1071 wd:Q12130 ;
+    wdt:P1104 247 ;
+    wdt:P195 <https://mira.ie/entity/library/paris_bnf> ;
+    wdt:P2048 31.0 ;
+    wdt:P2049 22.0 ;
+    wdt:P217 "Lat. 10290" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0851"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/280> rdfs:label "Bayerische Staatsbibliothek — Clm 14387 (ff 14–19)" ;
+    skos:prefLabel "Bayerische Staatsbibliothek — Clm 14387 (ff 14–19)" ;
+    wdt:P1071 wd:Q183 ;
+    wdt:P1104 6 ;
+    wdt:P195 <https://mira.ie/entity/library/munich> ;
+    wdt:P2048 27.5 ;
+    wdt:P2049 17.0 ;
+    wdt:P217 "Clm 14387 (ff 14–19)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0851"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/281> rdfs:label "Bayerische Staatsbibliothek — Clm 6411" ;
+    skos:prefLabel "Bayerische Staatsbibliothek — Clm 6411" ;
+    wdt:P1104 96 ;
+    wdt:P195 <https://mira.ie/entity/library/munich> ;
+    wdt:P2048 21.5 ;
+    wdt:P2049 14.0 ;
+    wdt:P217 "Clm 6411" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0801"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/282> rdfs:label "Bayerische Staatsbibliothek — Clm 29270/1 [palimpsest new]" ;
+    skos:prefLabel "Bayerische Staatsbibliothek — Clm 29270/1 [palimpsest new]" ;
+    wdt:P1071 wd:Q34713 ;
+    wdt:P1104 3 ;
+    wdt:P195 <https://mira.ie/entity/library/munich> ;
+    wdt:P2048 22.5 ;
+    wdt:P2049 16.0 ;
+    wdt:P217 "Clm 29270/1 [palimpsest new]" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0780"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/283> rdfs:label "Österreichische Nationalbibliothek — Lat. 2195 (ff 2–46)" ;
+    skos:prefLabel "Österreichische Nationalbibliothek — Lat. 2195 (ff 2–46)" ;
+    wdt:P1071 wd:Q34713 ;
+    wdt:P195 <https://mira.ie/entity/library/vienna> ;
+    wdt:P217 "Lat. 2195 (ff 2–46)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0786"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/284> rdfs:label "Bayerische Staatsbibliothek — Clm 5447 (flyleaves)" ;
+    skos:prefLabel "Bayerische Staatsbibliothek — Clm 5447 (flyleaves)" ;
+    wdt:P1071 wd:Q34713 ;
+    wdt:P195 <https://mira.ie/entity/library/munich> ;
+    wdt:P2048 32.5 ;
+    wdt:P2049 12.0 ;
+    wdt:P217 "Clm 5447 (flyleaves)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0786"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/285> rdfs:label "Österreichische Nationalbibliothek — Lat. 2233" ;
+    skos:prefLabel "Österreichische Nationalbibliothek — Lat. 2233" ;
+    wdt:P1071 wd:Q34713 ;
+    wdt:P1104 93 ;
+    wdt:P195 <https://mira.ie/entity/library/vienna> ;
+    wdt:P2048 19.5 ;
+    wdt:P2049 11.3 ;
+    wdt:P217 "Lat. 2233" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0786"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/286> rdfs:label "Österreichische Nationalbibliothek — Lat. 997" ;
+    skos:prefLabel "Österreichische Nationalbibliothek — Lat. 997" ;
+    wdt:P1071 wd:Q34713 ;
+    wdt:P1104 128 ;
+    wdt:P195 <https://mira.ie/entity/library/vienna> ;
+    wdt:P2048 27.0 ;
+    wdt:P2049 20.0 ;
+    wdt:P217 "Lat. 997" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0801"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/287> rdfs:label "Bayerische Staatsbibliothek — Clm 29280/5 + Clm 18119" ;
+    skos:prefLabel "Bayerische Staatsbibliothek — Clm 29280/5 + Clm 18119" ;
+    wdt:P1071 wd:Q34713 ;
+    wdt:P1104 32 ;
+    wdt:P195 <https://mira.ie/entity/library/munich> ;
+    wdt:P2048 17.0 ;
+    wdt:P2049 11.0 ;
+    wdt:P217 "Clm 29280/5 + Clm 18119" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0840"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/288> rdfs:label "Österreichische Nationalbibliothek — Lat. 921" ;
+    skos:prefLabel "Österreichische Nationalbibliothek — Lat. 921" ;
+    wdt:P1071 wd:Q34713 ;
+    wdt:P1104 250 ;
+    wdt:P195 <https://mira.ie/entity/library/vienna> ;
+    wdt:P2048 33.0 ;
+    wdt:P2049 23.0 ;
+    wdt:P217 "Lat. 921" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0836"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/289> rdfs:label "Österreichische Nationalbibliothek — Lat. 1003" ;
+    skos:prefLabel "Österreichische Nationalbibliothek — Lat. 1003" ;
+    wdt:P1071 wd:Q34713 ;
+    wdt:P1104 211 ;
+    wdt:P195 <https://mira.ie/entity/library/vienna> ;
+    wdt:P2048 27.0 ;
+    wdt:P2049 16.6 ;
+    wdt:P217 "Lat. 1003" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0836"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/29> rdfs:label "Bibliothèque nationale de France — Lat. 10399 (ff 35–36) + Lat. 9528 (fol. 201)" ;
+    skos:prefLabel "Bibliothèque nationale de France — Lat. 10399 (ff 35–36) + Lat. 9528 (fol. 201)" ;
+    wdt:P1071 wd:Q21 ;
+    wdt:P1104 1 ;
+    wdt:P195 <https://mira.ie/entity/library/paris_bnf> ;
+    wdt:P2048 30.0 ;
+    wdt:P2049 24.0 ;
+    wdt:P217 "Lat. 10399 (ff 35–36) + Lat. 9528 (fol. 201)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0701"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/290> rdfs:label "Österreichische Nationalbibliothek — Lat. 522" ;
+    skos:prefLabel "Österreichische Nationalbibliothek — Lat. 522" ;
+    wdt:P1071 wd:Q34713 ;
+    wdt:P1104 206 ;
+    wdt:P195 <https://mira.ie/entity/library/vienna> ;
+    wdt:P2048 23.5 ;
+    wdt:P2049 16.0 ;
+    wdt:P217 "Lat. 522" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0836"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/291> rdfs:label "Österreichische Nationalbibliothek — Lat. 740" ;
+    skos:prefLabel "Österreichische Nationalbibliothek — Lat. 740" ;
+    wdt:P1071 wd:Q142 ;
+    wdt:P1104 157 ;
+    wdt:P195 <https://mira.ie/entity/library/vienna> ;
+    wdt:P2048 32.2 ;
+    wdt:P2049 26.5 ;
+    wdt:P217 "Lat. 740" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0876"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/292> rdfs:label "Bayerische Staatsbibliothek — Clm 14171" ;
+    skos:prefLabel "Bayerische Staatsbibliothek — Clm 14171" ;
+    wdt:P1071 wd:Q167152 ;
+    wdt:P1104 229 ;
+    wdt:P195 <https://mira.ie/entity/library/munich> ;
+    wdt:P2048 30.7 ;
+    wdt:P2049 24.0 ;
+    wdt:P217 "Clm 14171" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0851"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/293> rdfs:label "Bayerische Staatsbibliothek — Clm 6434 (ff 41–422)" ;
+    skos:prefLabel "Bayerische Staatsbibliothek — Clm 6434 (ff 41–422)" ;
+    wdt:P1071 wd:Q6998 ;
+    wdt:P1104 81 ;
+    wdt:P195 <https://mira.ie/entity/library/munich> ;
+    wdt:P2048 18.0 ;
+    wdt:P2049 13.0 ;
+    wdt:P217 "Clm 6434 (ff 41–422)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0786"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/294> rdfs:label "Badische Landesbibliothek — Aug. perg. 195 (ff 14, 15, 17, 18, 21) [palimpsest old]" ;
+    skos:prefLabel "Badische Landesbibliothek — Aug. perg. 195 (ff 14, 15, 17, 18, 21) [palimpsest old]" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1104 3 ;
+    wdt:P195 <https://mira.ie/entity/library/karlsruhe> ;
+    wdt:P2048 28.5 ;
+    wdt:P2049 20.0 ;
+    wdt:P217 "Aug. perg. 195 (ff 14, 15, 17, 18, 21) [palimpsest old]" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0780"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/295> rdfs:label "Badische Landesbibliothek — Aug. perg. 195 (fol. 16) [palimpsest old]" ;
+    skos:prefLabel "Badische Landesbibliothek — Aug. perg. 195 (fol. 16) [palimpsest old]" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1104 1 ;
+    wdt:P195 <https://mira.ie/entity/library/karlsruhe> ;
+    wdt:P2048 28.5 ;
+    wdt:P2049 20.0 ;
+    wdt:P217 "Aug. perg. 195 (fol. 16) [palimpsest old]" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0701"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/296> rdfs:label "Badische Landesbibliothek — Aug. perg. 195 (fol. 20) [palimpsest old]" ;
+    skos:prefLabel "Badische Landesbibliothek — Aug. perg. 195 (fol. 20) [palimpsest old]" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1104 1 ;
+    wdt:P195 <https://mira.ie/entity/library/karlsruhe> ;
+    wdt:P2048 28.5 ;
+    wdt:P2049 20.0 ;
+    wdt:P217 "Aug. perg. 195 (fol. 20) [palimpsest old]" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0701"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/297> rdfs:label "Badische Landesbibliothek — Aug. perg. 195 (ff 43/44) [palimpsest old]" ;
+    skos:prefLabel "Badische Landesbibliothek — Aug. perg. 195 (ff 43/44) [palimpsest old]" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1104 2 ;
+    wdt:P195 <https://mira.ie/entity/library/karlsruhe> ;
+    wdt:P2048 28.5 ;
+    wdt:P2049 20.0 ;
+    wdt:P217 "Aug. perg. 195 (ff 43/44) [palimpsest old]" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0780"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/298> rdfs:label "Badische Landesbibliothek — Aug. perg. 195 (ff 45/46) [palimpsest old]" ;
+    skos:prefLabel "Badische Landesbibliothek — Aug. perg. 195 (ff 45/46) [palimpsest old]" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1104 2 ;
+    wdt:P195 <https://mira.ie/entity/library/karlsruhe> ;
+    wdt:P2048 28.5 ;
+    wdt:P2049 20.0 ;
+    wdt:P217 "Aug. perg. 195 (ff 45/46) [palimpsest old]" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0701"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/299> rdfs:label "Stiftsbibliothek — 51 (pp 239–240) [palimpsest old]" ;
+    skos:prefLabel "Stiftsbibliothek — 51 (pp 239–240) [palimpsest old]" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1104 1 ;
+    wdt:P195 <https://mira.ie/entity/library/st-gall> ;
+    wdt:P2048 29.5 ;
+    wdt:P2049 22.5 ;
+    wdt:P217 "51 (pp 239–240) [palimpsest old]" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0701"^^xsd:gYear ;
+    wdt:P953 "http://foundationsirishculture.ie/record/?id=43"^^xsd:anyURI .
+
+<https://mira.ie/entity/manuscript/3> rdfs:label "Österreichische Nationalbibliothek — Lat. 15269 + Lat. Ser. nov. 37" ;
+    skos:prefLabel "Österreichische Nationalbibliothek — Lat. 15269 + Lat. Ser. nov. 37" ;
+    wdt:P1071 wd:Q34713 ;
+    wdt:P195 <https://mira.ie/entity/library/vienna> ;
+    wdt:P217 "Lat. 15269 + Lat. Ser. nov. 37" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0786"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/30> rdfs:label "Bibliothèque nationale de France — Lat. 10400 (ff 109–110)" ;
+    skos:prefLabel "Bibliothèque nationale de France — Lat. 10400 (ff 109–110)" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1104 2 ;
+    wdt:P195 <https://mira.ie/entity/library/paris_bnf> ;
+    wdt:P2048 25.0 ;
+    wdt:P2049 19.0 ;
+    wdt:P217 "Lat. 10400 (ff 109–110)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0780"^^xsd:gYear ;
+    wdt:P953 "http://foundationsirishculture.ie/record/?id=35"^^xsd:anyURI .
+
+<https://mira.ie/entity/manuscript/300> rdfs:label "Badische Landesbibliothek — Fragm. Aug. 17" ;
+    skos:prefLabel "Badische Landesbibliothek — Fragm. Aug. 17" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1104 2 ;
+    wdt:P195 <https://mira.ie/entity/library/karlsruhe> ;
+    wdt:P217 "Fragm. Aug. 17" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0780"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/301> rdfs:label "British Library — Cotton Vitellius F.XI" ;
+    skos:prefLabel "British Library — Cotton Vitellius F.XI" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1104 59 ;
+    wdt:P195 <https://mira.ie/entity/library/london_bl> ;
+    wdt:P2048 17.0 ;
+    wdt:P2049 12.5 ;
+    wdt:P217 "Cotton Vitellius F.XI" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0910"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/302> rdfs:label "Bibliothèque municipale — 24 (olim A 41 al.)" ;
+    skos:prefLabel "Bibliothèque municipale — 24 (olim A 41 al.)" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1104 155 ;
+    wdt:P195 <https://mira.ie/entity/library/rouen> ;
+    wdt:P2048 24.0 ;
+    wdt:P2049 16.5 ;
+    wdt:P217 "24 (olim A 41 al.)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0901"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/31> rdfs:label "Bibliothèque nationale de France — Lat. 11308" ;
+    skos:prefLabel "Bibliothèque nationale de France — Lat. 11308" ;
+    wdt:P1071 wd:Q41876 ;
+    wdt:P1104 114 ;
+    wdt:P195 <https://mira.ie/entity/library/paris_bnf> ;
+    wdt:P2048 25.5 ;
+    wdt:P2049 17.0 ;
+    wdt:P217 "Lat. 11308" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0826"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/32> rdfs:label "Bibliothèque nationale de France — Lat. 11411 (fol. 123)" ;
+    skos:prefLabel "Bibliothèque nationale de France — Lat. 11411 (fol. 123)" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1104 1 ;
+    wdt:P195 <https://mira.ie/entity/library/paris_bnf> ;
+    wdt:P2048 25.0 ;
+    wdt:P2049 19.0 ;
+    wdt:P217 "Lat. 11411 (fol. 123)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0751"^^xsd:gYear ;
+    wdt:P953 "http://foundationsirishculture.ie/record/?id=36"^^xsd:anyURI .
+
+<https://mira.ie/entity/manuscript/33> rdfs:label "Bibliothèque nationale de France — Lat. 11884 (ff 7–19)" ;
+    skos:prefLabel "Bibliothèque nationale de France — Lat. 11884 (ff 7–19)" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1104 13 ;
+    wdt:P195 <https://mira.ie/entity/library/paris_bnf> ;
+    wdt:P2048 25.0 ;
+    wdt:P2049 18.2 ;
+    wdt:P217 "Lat. 11884 (ff 7–19)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0801"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/34> rdfs:label "Bibliothèque nationale de France — Lat. 12292 [flyleaves]" ;
+    skos:prefLabel "Bibliothèque nationale de France — Lat. 12292 [flyleaves]" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1104 4 ;
+    wdt:P195 <https://mira.ie/entity/library/paris_bnf> ;
+    wdt:P2048 26.5 ;
+    wdt:P2049 23.5 ;
+    wdt:P217 "Lat. 12292 [flyleaves]" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0780"^^xsd:gYear ;
+    wdt:P953 "http://foundationsirishculture.ie/record/?id=37"^^xsd:anyURI .
+
+<https://mira.ie/entity/manuscript/35> rdfs:label "Bibliothèque nationale de France — Lat. 13026 (ff 121–181)" ;
+    skos:prefLabel "Bibliothèque nationale de France — Lat. 13026 (ff 121–181)" ;
+    wdt:P1071 wd:Q71469 ;
+    wdt:P1104 61 ;
+    wdt:P195 <https://mira.ie/entity/library/paris_bnf> ;
+    wdt:P2048 26.5 ;
+    wdt:P2049 18.5 ;
+    wdt:P217 "Lat. 13026 (ff 121–181)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0801"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/36> rdfs:label "Bibliothèque nationale de France — Lat. 13048 (ff 1–30)" ;
+    skos:prefLabel "Bibliothèque nationale de France — Lat. 13048 (ff 1–30)" ;
+    wdt:P1071 wd:Q71469 ;
+    wdt:P1104 30 ;
+    wdt:P195 <https://mira.ie/entity/library/paris_bnf> ;
+    wdt:P2048 28.5 ;
+    wdt:P2049 19.0 ;
+    wdt:P217 "Lat. 13048 (ff 1–30)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0801"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/37> rdfs:label "Bibliothèque de l’Arsenal — 8407" ;
+    skos:prefLabel "Bibliothèque de l’Arsenal — 8407" ;
+    wdt:P1104 66 ;
+    wdt:P195 <https://mira.ie/entity/library/paris_arsenal> ;
+    wdt:P2048 22.0 ;
+    wdt:P2049 15.3 ;
+    wdt:P217 "8407" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0851"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/38> rdfs:label "Bibliothèque Mazarine — 561 (1025)" ;
+    skos:prefLabel "Bibliothèque Mazarine — 561 (1025)" ;
+    wdt:P1071 wd:Q167152 ;
+    wdt:P1104 221 ;
+    wdt:P195 <https://mira.ie/entity/library/paris_mazarine> ;
+    wdt:P2048 24.8 ;
+    wdt:P2049 20.7 ;
+    wdt:P217 "561 (1025)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0851"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/39> rdfs:label "Bibliothèque de l’Arsenal — 237 (ff 1–184)" ;
+    skos:prefLabel "Bibliothèque de l’Arsenal — 237 (ff 1–184)" ;
+    wdt:P1104 184 ;
+    wdt:P195 <https://mira.ie/entity/library/paris_arsenal> ;
+    wdt:P2048 24.7 ;
+    wdt:P2049 20.2 ;
+    wdt:P217 "237 (ff 1–184)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0862"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/4> rdfs:label "Österreichische Nationalbibliothek — Lat. 15298" ;
+    skos:prefLabel "Österreichische Nationalbibliothek — Lat. 15298" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1104 4 ;
+    wdt:P195 <https://mira.ie/entity/library/vienna> ;
+    wdt:P2048 30.0 ;
+    wdt:P2049 24.5 ;
+    wdt:P217 "Lat. 15298" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0780"^^xsd:gYear ;
+    wdt:P953 "http://foundationsirishculture.ie/record/?id=63"^^xsd:anyURI .
+
+<https://mira.ie/entity/manuscript/40> rdfs:label "Bibliothèque nationale de France — Lat. 2024" ;
+    skos:prefLabel "Bibliothèque nationale de France — Lat. 2024" ;
+    wdt:P1071 wd:Q142 ;
+    wdt:P1104 130 ;
+    wdt:P195 <https://mira.ie/entity/library/paris_bnf> ;
+    wdt:P2048 25.0 ;
+    wdt:P2049 19.2 ;
+    wdt:P217 "Lat. 2024" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0876"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/41> rdfs:label "Bibliothèque municipale — 342 bis (fol. B)" ;
+    skos:prefLabel "Bibliothèque municipale — 342 bis (fol. B)" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1104 1 ;
+    wdt:P195 <https://mira.ie/entity/library/saint-omer> ;
+    wdt:P2048 28.5 ;
+    wdt:P2049 20.0 ;
+    wdt:P217 "342 bis (fol. B)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0680"^^xsd:gYear ;
+    wdt:P953 "http://foundationsirishculture.ie/record/?id=41"^^xsd:anyURI .
+
+<https://mira.ie/entity/manuscript/42> rdfs:label "Bibliothèque municipale — 412 (393 bis) [rear flyleaf?]" ;
+    skos:prefLabel "Bibliothèque municipale — 412 (393 bis) [rear flyleaf?]" ;
+    wdt:P1071 wd:Q1067570 ;
+    wdt:P1104 1 ;
+    wdt:P195 <https://mira.ie/entity/library/valenciennes> ;
+    wdt:P2048 23.0 ;
+    wdt:P2049 15.3 ;
+    wdt:P217 "412 (393 bis) [rear flyleaf?]" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0801"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/43> rdfs:label "Staatsbibliothek — Ph.2(1) (HJ.IV.5)" ;
+    skos:prefLabel "Staatsbibliothek — Ph.2(1) (HJ.IV.5)" ;
+    wdt:P1071 wd:Q167152 ;
+    wdt:P1104 230 ;
+    wdt:P195 <https://mira.ie/entity/library/bamberg> ;
+    wdt:P2048 27.1 ;
+    wdt:P2049 22.6 ;
+    wdt:P217 "Ph.2(1) (HJ.IV.5)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0851"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/44> rdfs:label "Staatsbibliothek — Patr.46 (Q.VI.32) (ff 22–45)" ;
+    skos:prefLabel "Staatsbibliothek — Patr.46 (Q.VI.32) (ff 22–45)" ;
+    wdt:P1071 wd:Q41876 ;
+    wdt:P1104 24 ;
+    wdt:P195 <https://mira.ie/entity/library/bamberg> ;
+    wdt:P2048 19.0 ;
+    wdt:P2049 15.8 ;
+    wdt:P217 "Patr.46 (Q.VI.32) (ff 22–45)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0866"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/45> rdfs:label "Staatsbibliothek Preussischer Kulturbesitz — Phillipps 1708 (Rose 51)" ;
+    skos:prefLabel "Staatsbibliothek Preussischer Kulturbesitz — Phillipps 1708 (Rose 51)" ;
+    wdt:P1071 wd:Q167152 ;
+    wdt:P1104 242 ;
+    wdt:P195 <https://mira.ie/entity/library/berlin> ;
+    wdt:P2048 26.3 ;
+    wdt:P2049 25.0 ;
+    wdt:P217 "Phillipps 1708 (Rose 51)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0866"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/46> rdfs:label "Staatsbibliothek Preussischer Kulturbesitz — Lat. Qu. 690 (ff 65–188)" ;
+    skos:prefLabel "Staatsbibliothek Preussischer Kulturbesitz — Lat. Qu. 690 (ff 65–188)" ;
+    wdt:P1071 wd:Q632880 ;
+    wdt:P1104 124 ;
+    wdt:P195 <https://mira.ie/entity/library/berlin> ;
+    wdt:P2048 24.0 ;
+    wdt:P2049 18.5 ;
+    wdt:P217 "Lat. Qu. 690 (ff 65–188)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0826"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/47> rdfs:label "Historisches Archiv — GB Kasten B 148 + 148a" ;
+    skos:prefLabel "Historisches Archiv — GB Kasten B 148 + 148a" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1104 2 ;
+    wdt:P195 <https://mira.ie/entity/library/cologne> ;
+    wdt:P2048 20.0 ;
+    wdt:P2049 12.0 ;
+    wdt:P217 "GB Kasten B 148 + 148a" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0680"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/48> rdfs:label "Sächsische Landesbibliothek – Staats- und Universitätsbibliothek — A.145.b" ;
+    skos:prefLabel "Sächsische Landesbibliothek – Staats- und Universitätsbibliothek — A.145.b" ;
+    wdt:P1071 wd:Q25607 ;
+    wdt:P1104 111 ;
+    wdt:P195 <https://mira.ie/entity/library/dresden> ;
+    wdt:P2048 24.7 ;
+    wdt:P2049 19.0 ;
+    wdt:P217 "A.145.b" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0840"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/49> rdfs:label "Sächsische Landesbibliothek – Staats- und Universitätsbibliothek — Dc 182 (ff 63–135)" ;
+    skos:prefLabel "Sächsische Landesbibliothek – Staats- und Universitätsbibliothek — Dc 182 (ff 63–135)" ;
+    wdt:P1071 wd:Q41876 ;
+    wdt:P1104 73 ;
+    wdt:P195 <https://mira.ie/entity/library/dresden> ;
+    wdt:P2048 22.0 ;
+    wdt:P2049 18.0 ;
+    wdt:P217 "Dc 182 (ff 63–135)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0851"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/5> rdfs:label "Österreichische Nationalbibliothek — Lat. 940" ;
+    skos:prefLabel "Österreichische Nationalbibliothek — Lat. 940" ;
+    wdt:P1071 wd:Q34713 ;
+    wdt:P195 <https://mira.ie/entity/library/vienna> ;
+    wdt:P217 "Lat. 940" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0801"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/50> rdfs:label "Universitäts- und Landesbibliothek — K1: B.212" ;
+    skos:prefLabel "Universitäts- und Landesbibliothek — K1: B.212" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1104 3 ;
+    wdt:P195 <https://mira.ie/entity/library/dusseldorf> ;
+    wdt:P217 "K1: B.212" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0701"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/51> rdfs:label "Landesbibliothek — Bonifatianus 3" ;
+    skos:prefLabel "Landesbibliothek — Bonifatianus 3" ;
+    wdt:P1071 wd:Q3963 ;
+    wdt:P1104 66 ;
+    wdt:P195 <https://mira.ie/entity/library/fulda> ;
+    wdt:P2048 12.5 ;
+    wdt:P2049 112.0 ;
+    wdt:P217 "Bonifatianus 3" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0701"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/52> rdfs:label "Thüringer Universitäts- und Landesbibliothek — 1" ;
+    skos:prefLabel "Thüringer Universitäts- und Landesbibliothek — 1" ;
+    wdt:P1104 2 ;
+    wdt:P195 <https://mira.ie/entity/library/jena> ;
+    wdt:P217 "1" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0786"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/53> rdfs:label "Badische Landesbibliothek — Aug. perg. 18" ;
+    skos:prefLabel "Badische Landesbibliothek — Aug. perg. 18" ;
+    wdt:P1071 wd:Q632880 ;
+    wdt:P1104 90 ;
+    wdt:P195 <https://mira.ie/entity/library/karlsruhe> ;
+    wdt:P2048 41.5 ;
+    wdt:P2049 28.0 ;
+    wdt:P217 "Aug. perg. 18" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0801"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/54> rdfs:label "Badische Landesbibliothek — Aug. perg. 132 (f. 18) [palimpsest old]" ;
+    skos:prefLabel "Badische Landesbibliothek — Aug. perg. 132 (f. 18) [palimpsest old]" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1104 1 ;
+    wdt:P195 <https://mira.ie/entity/library/karlsruhe> ;
+    wdt:P2048 26.1 ;
+    wdt:P2049 18.0 ;
+    wdt:P217 "Aug. perg. 132 (f. 18) [palimpsest old]" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0701"^^xsd:gYear ;
+    wdt:P953 "http://foundationsirishculture.ie/record/?id=59"^^xsd:anyURI .
+
+<https://mira.ie/entity/manuscript/55> rdfs:label "Badische Landesbibliothek — Aug. perg. 132 (ff 86, 91, 92, 97–99, 101–104, 106, 107) [palimpsest old]" ;
+    skos:prefLabel "Badische Landesbibliothek — Aug. perg. 132 (ff 86, 91, 92, 97–99, 101–104, 106, 107) [palimpsest old]" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1104 12 ;
+    wdt:P195 <https://mira.ie/entity/library/karlsruhe> ;
+    wdt:P2048 30.0 ;
+    wdt:P2049 21.2 ;
+    wdt:P217 "Aug. perg. 132 (ff 86, 91, 92, 97–99, 101–104, 106, 107) [palimpsest old]" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0701"^^xsd:gYear ;
+    wdt:P953 "http://foundationsirishculture.ie/record/?id=60"^^xsd:anyURI .
+
+<https://mira.ie/entity/manuscript/56> rdfs:label "Badische Landesbibliothek — Aug. perg. 132 [palimpsest new]" ;
+    skos:prefLabel "Badische Landesbibliothek — Aug. perg. 132 [palimpsest new]" ;
+    wdt:P1071 wd:Q167152 ;
+    wdt:P1104 107 ;
+    wdt:P195 <https://mira.ie/entity/library/karlsruhe> ;
+    wdt:P2048 30.0 ;
+    wdt:P2049 21.5 ;
+    wdt:P217 "Aug. perg. 132 [palimpsest new]" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0826"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/57> rdfs:label "Badische Landesbibliothek — Aug. perg. 135 (ff 1–105)" ;
+    skos:prefLabel "Badische Landesbibliothek — Aug. perg. 135 (ff 1–105)" ;
+    wdt:P1071 wd:Q632880 ;
+    wdt:P1104 105 ;
+    wdt:P195 <https://mira.ie/entity/library/karlsruhe> ;
+    wdt:P2048 29.8 ;
+    wdt:P2049 21.3 ;
+    wdt:P217 "Aug. perg. 135 (ff 1–105)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0834"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/58> rdfs:label "Badische Landesbibliothek — Aug. perg. 141 (ff 1–26)" ;
+    skos:prefLabel "Badische Landesbibliothek — Aug. perg. 141 (ff 1–26)" ;
+    wdt:P1071 wd:Q183 ;
+    wdt:P1104 26 ;
+    wdt:P195 <https://mira.ie/entity/library/karlsruhe> ;
+    wdt:P2048 29.0 ;
+    wdt:P2049 20.5 ;
+    wdt:P217 "Aug. perg. 141 (ff 1–26)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0866"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/59> rdfs:label "Badische Landesbibliothek — Aug. perg. 167 (fol. 34) [palimpsest old]" ;
+    skos:prefLabel "Badische Landesbibliothek — Aug. perg. 167 (fol. 34) [palimpsest old]" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1104 1 ;
+    wdt:P195 <https://mira.ie/entity/library/karlsruhe> ;
+    wdt:P2048 28.5 ;
+    wdt:P2049 20.0 ;
+    wdt:P217 "Aug. perg. 167 (fol. 34) [palimpsest old]" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0701"^^xsd:gYear ;
+    wdt:P953 "http://foundationsirishculture.ie/record/?id=61"^^xsd:anyURI .
+
+<https://mira.ie/entity/manuscript/6> rdfs:label "Universiteitsbibliotheek — 254 (Catal. 445) (fol. 172)" ;
+    skos:prefLabel "Universiteitsbibliotheek — 254 (Catal. 445) (fol. 172)" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1104 1 ;
+    wdt:P195 <https://mira.ie/entity/library/ghent> ;
+    wdt:P2048 24.2 ;
+    wdt:P2049 21.5 ;
+    wdt:P217 "254 (Catal. 445) (fol. 172)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0701"^^xsd:gYear ;
+    wdt:P953 "http://foundationsirishculture.ie/record/?id=64"^^xsd:anyURI .
+
+<https://mira.ie/entity/manuscript/60> rdfs:label "Badische Landesbibliothek — Aug. perg. 167 [palimpsest new]" ;
+    skos:prefLabel "Badische Landesbibliothek — Aug. perg. 167 [palimpsest new]" ;
+    wdt:P1071 wd:Q142 ;
+    wdt:P1104 49 ;
+    wdt:P195 <https://mira.ie/entity/library/karlsruhe> ;
+    wdt:P2048 28.1 ;
+    wdt:P2049 19.9 ;
+    wdt:P217 "Aug. perg. 167 [palimpsest new]" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0801"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/61> rdfs:label "Badische Landesbibliothek — Aug. perg. 167 (ff 15/18) [palimpsest old]" ;
+    skos:prefLabel "Badische Landesbibliothek — Aug. perg. 167 (ff 15/18) [palimpsest old]" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1104 2 ;
+    wdt:P195 <https://mira.ie/entity/library/karlsruhe> ;
+    wdt:P2048 28.5 ;
+    wdt:P2049 20.0 ;
+    wdt:P217 "Aug. perg. 167 (ff 15/18) [palimpsest old]" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0701"^^xsd:gYear ;
+    wdt:P953 "http://foundationsirishculture.ie/record/?id=61"^^xsd:anyURI .
+
+<https://mira.ie/entity/manuscript/62> rdfs:label "Badische Landesbibliothek — Aug. perg. 167 (ff 16/17) [palimpsest old]" ;
+    skos:prefLabel "Badische Landesbibliothek — Aug. perg. 167 (ff 16/17) [palimpsest old]" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1104 2 ;
+    wdt:P195 <https://mira.ie/entity/library/karlsruhe> ;
+    wdt:P217 "Aug. perg. 167 (ff 16/17) [palimpsest old]" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0701"^^xsd:gYear ;
+    wdt:P953 "http://foundationsirishculture.ie/record/?id=61"^^xsd:anyURI .
+
+<https://mira.ie/entity/manuscript/63> rdfs:label "Badische Landesbibliothek — Aug. perg. 167 (ff 24, 25, 27?, 29, 33?, 35, 36) [palimpsest old]" ;
+    skos:prefLabel "Badische Landesbibliothek — Aug. perg. 167 (ff 24, 25, 27?, 29, 33?, 35, 36) [palimpsest old]" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1104 7 ;
+    wdt:P195 <https://mira.ie/entity/library/karlsruhe> ;
+    wdt:P2048 28.5 ;
+    wdt:P2049 20.0 ;
+    wdt:P217 "Aug. perg. 167 (ff 24, 25, 27?, 29, 33?, 35, 36) [palimpsest old]" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0701"^^xsd:gYear ;
+    wdt:P953 "http://foundationsirishculture.ie/record/?id=61"^^xsd:anyURI .
+
+<https://mira.ie/entity/manuscript/64> rdfs:label "Badische Landesbibliothek — Aug. perg. 167 (fol. 38, 40–47, 49) [palimpsest old]" ;
+    skos:prefLabel "Badische Landesbibliothek — Aug. perg. 167 (fol. 38, 40–47, 49) [palimpsest old]" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1104 10 ;
+    wdt:P195 <https://mira.ie/entity/library/karlsruhe> ;
+    wdt:P2048 28.5 ;
+    wdt:P2049 20.0 ;
+    wdt:P217 "Aug. perg. 167 (fol. 38, 40–47, 49) [palimpsest old]" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0801"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/65> rdfs:label "Badische Landesbibliothek — Aug. perg. 195 (ff 3, 5–8) [palimpsest old]" ;
+    skos:prefLabel "Badische Landesbibliothek — Aug. perg. 195 (ff 3, 5–8) [palimpsest old]" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1104 5 ;
+    wdt:P195 <https://mira.ie/entity/library/karlsruhe> ;
+    wdt:P2048 26.3 ;
+    wdt:P2049 17.5 ;
+    wdt:P217 "Aug. perg. 195 (ff 3, 5–8) [palimpsest old]" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0701"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/66> rdfs:label "Badische Landesbibliothek — Aug. perg. 195 (ff 33, 41) [palimpsest old]" ;
+    skos:prefLabel "Badische Landesbibliothek — Aug. perg. 195 (ff 33, 41) [palimpsest old]" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1104 2 ;
+    wdt:P195 <https://mira.ie/entity/library/karlsruhe> ;
+    wdt:P2048 26.3 ;
+    wdt:P2049 17.5 ;
+    wdt:P217 "Aug. perg. 195 (ff 33, 41) [palimpsest old]" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0701"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/67> rdfs:label "Badische Landesbibliothek — Aug. perg. 195 (fol. 35) [palimpsest old]" ;
+    skos:prefLabel "Badische Landesbibliothek — Aug. perg. 195 (fol. 35) [palimpsest old]" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1104 1 ;
+    wdt:P195 <https://mira.ie/entity/library/karlsruhe> ;
+    wdt:P2048 26.3 ;
+    wdt:P2049 17.5 ;
+    wdt:P217 "Aug. perg. 195 (fol. 35) [palimpsest old]" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0701"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/68> rdfs:label "Badische Landesbibliothek — Aug. perg. 195 (fol. 19) [palimpsest old]" ;
+    skos:prefLabel "Badische Landesbibliothek — Aug. perg. 195 (fol. 19) [palimpsest old]" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1104 1 ;
+    wdt:P195 <https://mira.ie/entity/library/karlsruhe> ;
+    wdt:P2048 26.3 ;
+    wdt:P2049 17.5 ;
+    wdt:P217 "Aug. perg. 195 (fol. 19) [palimpsest old]" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0780"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/69> rdfs:label "Badische Landesbibliothek — Aug. perg. 195 (ff 32, 34, 39, 40, 42) [palimpsest old]" ;
+    skos:prefLabel "Badische Landesbibliothek — Aug. perg. 195 (ff 32, 34, 39, 40, 42) [palimpsest old]" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1104 5 ;
+    wdt:P195 <https://mira.ie/entity/library/karlsruhe> ;
+    wdt:P2048 26.3 ;
+    wdt:P2049 17.5 ;
+    wdt:P217 "Aug. perg. 195 (ff 32, 34, 39, 40, 42) [palimpsest old]" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0780"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/7> rdfs:label "University Library — 1094" ;
+    skos:prefLabel "University Library — 1094" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1104 1 ;
+    wdt:P195 <https://mira.ie/entity/library/leuven> ;
+    wdt:P217 "1094" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0701"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/70> rdfs:label "Badische Landesbibliothek — Aug. perg. 195 [palimpsest new]" ;
+    skos:prefLabel "Badische Landesbibliothek — Aug. perg. 195 [palimpsest new]" ;
+    wdt:P1071 wd:Q142 ;
+    wdt:P1104 47 ;
+    wdt:P195 <https://mira.ie/entity/library/karlsruhe> ;
+    wdt:P2048 26.3 ;
+    wdt:P2049 17.5 ;
+    wdt:P217 "Aug. perg. 195 [palimpsest new]" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0801"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/71> rdfs:label "Badische Landesbibliothek — Aug. perg. 233 (ff 1–40)" ;
+    skos:prefLabel "Badische Landesbibliothek — Aug. perg. 233 (ff 1–40)" ;
+    wdt:P1071 wd:Q632880 ;
+    wdt:P1104 40 ;
+    wdt:P195 <https://mira.ie/entity/library/karlsruhe> ;
+    wdt:P2048 22.8 ;
+    wdt:P2049 14.8 ;
+    wdt:P217 "Aug. perg. 233 (ff 1–40)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0801"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/72> rdfs:label "Badische Landesbibliothek — Fragm. Aug. 18 [palimpsest old]" ;
+    skos:prefLabel "Badische Landesbibliothek — Fragm. Aug. 18 [palimpsest old]" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P195 <https://mira.ie/entity/library/karlsruhe> ;
+    wdt:P217 "Fragm. Aug. 18 [palimpsest old]" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0701"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/73> rdfs:label "Badische Landesbibliothek — Fragm. Aug. 19" ;
+    skos:prefLabel "Badische Landesbibliothek — Fragm. Aug. 19" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1104 2 ;
+    wdt:P195 <https://mira.ie/entity/library/karlsruhe> ;
+    wdt:P217 "Fragm. Aug. 19" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0701"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/74> rdfs:label "Badische Landesbibliothek — Fragm. Aug. 20" ;
+    skos:prefLabel "Badische Landesbibliothek — Fragm. Aug. 20" ;
+    wdt:P1071 wd:Q7680015 ;
+    wdt:P1104 1 ;
+    wdt:P195 <https://mira.ie/entity/library/karlsruhe> ;
+    wdt:P2048 10.0 ;
+    wdt:P2049 9.0 ;
+    wdt:P217 "Fragm. Aug. 20" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0780"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/75> rdfs:label "Badische Landesbibliothek — Fragm. Aug. 107" ;
+    skos:prefLabel "Badische Landesbibliothek — Fragm. Aug. 107" ;
+    wdt:P195 <https://mira.ie/entity/library/karlsruhe> ;
+    wdt:P217 "Fragm. Aug. 107" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0786"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/76> rdfs:label "Landesbibliothek — Theol. fol. 22" ;
+    skos:prefLabel "Landesbibliothek — Theol. fol. 22" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1104 38 ;
+    wdt:P195 <https://mira.ie/entity/library/kassel> ;
+    wdt:P2048 34.0 ;
+    wdt:P2049 26.0 ;
+    wdt:P217 "Theol. fol. 22" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0701"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/77> rdfs:label "Landesbibliothek — 4° theol. 170 + 4° Mus 77/2–6, 8–10, 12–14" ;
+    skos:prefLabel "Landesbibliothek — 4° theol. 170 + 4° Mus 77/2–6, 8–10, 12–14" ;
+    wdt:P1071 wd:Q183 ;
+    wdt:P1104 28 ;
+    wdt:P195 <https://mira.ie/entity/library/kassel> ;
+    wdt:P2048 25.8 ;
+    wdt:P2049 19.5 ;
+    wdt:P217 "4° theol. 170 + 4° Mus 77/2–6, 8–10, 12–14" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0826"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/78> rdfs:label "Hospitalbibliothek — 171 (formerly binding)" ;
+    skos:prefLabel "Hospitalbibliothek — 171 (formerly binding)" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1104 2 ;
+    wdt:P195 <https://mira.ie/entity/library/kues> ;
+    wdt:P217 "171 (formerly binding)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0686"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/79> rdfs:label "Bayerische Staatsbibliothek — Clm 6235" ;
+    skos:prefLabel "Bayerische Staatsbibliothek — Clm 6235" ;
+    wdt:P1071 wd:Q38 ;
+    wdt:P195 <https://mira.ie/entity/library/munich> ;
+    wdt:P217 "Clm 6235" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0851"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/8> rdfs:label "Bibliothèque municipale — 679 (619)" ;
+    skos:prefLabel "Bibliothèque municipale — 679 (619)" ;
+    wdt:P1071 wd:Q181285 ;
+    wdt:P195 <https://mira.ie/entity/library/cambrai> ;
+    wdt:P217 "679 (619)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0763"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/80> rdfs:label "Bayerische Staatsbibliothek — Clm 6302" ;
+    skos:prefLabel "Bayerische Staatsbibliothek — Clm 6302" ;
+    wdt:P1071 wd:Q6998 ;
+    wdt:P195 <https://mira.ie/entity/library/munich> ;
+    wdt:P217 "Clm 6302" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0786"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/81> rdfs:label "Bayerische Staatsbibliothek — Clm 6415 (ff 1–45)" ;
+    skos:prefLabel "Bayerische Staatsbibliothek — Clm 6415 (ff 1–45)" ;
+    wdt:P1071 wd:Q38 ;
+    wdt:P1104 45 ;
+    wdt:P195 <https://mira.ie/entity/library/munich> ;
+    wdt:P2048 19.2 ;
+    wdt:P2049 15.2 ;
+    wdt:P217 "Clm 6415 (ff 1–45)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0826"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/82> rdfs:label "Bayerische Staatsbibliothek — Clm 6434 (ff 1–40)" ;
+    skos:prefLabel "Bayerische Staatsbibliothek — Clm 6434 (ff 1–40)" ;
+    wdt:P1071 wd:Q6998 ;
+    wdt:P1104 40 ;
+    wdt:P195 <https://mira.ie/entity/library/munich> ;
+    wdt:P2048 18.0 ;
+    wdt:P2049 13.0 ;
+    wdt:P217 "Clm 6434 (ff 1–40)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0786"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/83> rdfs:label "Bayerische Staatsbibliothek — Clm 14423 (ff 1–76)" ;
+    skos:prefLabel "Bayerische Staatsbibliothek — Clm 14423 (ff 1–76)" ;
+    wdt:P1071 wd:Q183 ;
+    wdt:P1104 76 ;
+    wdt:P195 <https://mira.ie/entity/library/munich> ;
+    wdt:P2048 25.5 ;
+    wdt:P2049 18.5 ;
+    wdt:P217 "Clm 14423 (ff 1–76)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0851"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/84> rdfs:label "Bayerische Staatsbibliothek — Clm 14429 (ff 1–62, 64–71, 73–82) [palimpsest old]" ;
+    skos:prefLabel "Bayerische Staatsbibliothek — Clm 14429 (ff 1–62, 64–71, 73–82) [palimpsest old]" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P195 <https://mira.ie/entity/library/munich> ;
+    wdt:P217 "Clm 14429 (ff 1–62, 64–71, 73–82) [palimpsest old]" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0680"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/85> rdfs:label "Bayerische Staatsbibliothek — Clm 14429 [palimpsest new]" ;
+    skos:prefLabel "Bayerische Staatsbibliothek — Clm 14429 [palimpsest new]" ;
+    wdt:P1071 wd:Q632880 ;
+    wdt:P1104 228 ;
+    wdt:P195 <https://mira.ie/entity/library/munich> ;
+    wdt:P2048 25.0 ;
+    wdt:P2049 18.0 ;
+    wdt:P217 "Clm 14429 [palimpsest new]" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0851"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/86> rdfs:label "Bayerische Staatsbibliothek — Clm 14456" ;
+    skos:prefLabel "Bayerische Staatsbibliothek — Clm 14456" ;
+    wdt:P1071 wd:Q2978 ;
+    wdt:P195 <https://mira.ie/entity/library/munich> ;
+    wdt:P217 "Clm 14456" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0826"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/87> rdfs:label "Bayerische Staatsbibliothek — Clm 14459 (ff 49–61)" ;
+    skos:prefLabel "Bayerische Staatsbibliothek — Clm 14459 (ff 49–61)" ;
+    wdt:P1104 12 ;
+    wdt:P195 <https://mira.ie/entity/library/munich> ;
+    wdt:P2048 24.2 ;
+    wdt:P2049 19.0 ;
+    wdt:P217 "Clm 14459 (ff 49–61)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0851"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/88> rdfs:label "Bayerische Staatsbibliothek — Clm 14747 (ff 1–62)" ;
+    skos:prefLabel "Bayerische Staatsbibliothek — Clm 14747 (ff 1–62)" ;
+    wdt:P1071 wd:Q183 ;
+    wdt:P1104 62 ;
+    wdt:P195 <https://mira.ie/entity/library/munich> ;
+    wdt:P2048 17.3 ;
+    wdt:P2049 12.7 ;
+    wdt:P217 "Clm 14747 (ff 1–62)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0840"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/89> rdfs:label "Bayerische Staatsbibliothek — Clm 14846" ;
+    skos:prefLabel "Bayerische Staatsbibliothek — Clm 14846" ;
+    wdt:P1104 123 ;
+    wdt:P195 <https://mira.ie/entity/library/munich> ;
+    wdt:P2048 12.1 ;
+    wdt:P2049 9.5 ;
+    wdt:P217 "Clm 14846" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0886"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/9> rdfs:label "Bibliothèque municipale — 217 (444) (flyleaf)" ;
+    skos:prefLabel "Bibliothèque municipale — 217 (444) (flyleaf)" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1104 1 ;
+    wdt:P195 <https://mira.ie/entity/library/colmar> ;
+    wdt:P2048 24.5 ;
+    wdt:P2049 19.0 ;
+    wdt:P217 "217 (444) (flyleaf)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0751"^^xsd:gYear ;
+    wdt:P953 "https://bvmm.irht.cnrs.fr/consult/consult.php?reproductionId=1958"^^xsd:anyURI .
+
+<https://mira.ie/entity/manuscript/90> rdfs:label "Bayerische Staatsbibliothek — Clm 29300/2" ;
+    skos:prefLabel "Bayerische Staatsbibliothek — Clm 29300/2" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1104 1 ;
+    wdt:P195 <https://mira.ie/entity/library/munich> ;
+    wdt:P2048 17.3 ;
+    wdt:P2049 13.8 ;
+    wdt:P217 "Clm 29300/2" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0701"^^xsd:gYear ;
+    wdt:P953 "http://foundationsirishculture.ie/record/?id=71"^^xsd:anyURI .
+
+<https://mira.ie/entity/manuscript/91> rdfs:label "Stadtbibliothek — 137 (ff 48–61) [palimpsest old]" ;
+    skos:prefLabel "Stadtbibliothek — 137 (ff 48–61) [palimpsest old]" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P195 <https://mira.ie/entity/library/trier> ;
+    wdt:P217 "137 (ff 48–61) [palimpsest old]" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0751"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/92> rdfs:label "Universitätsbibliothek — M.p.misc.f.28" ;
+    skos:prefLabel "Universitätsbibliothek — M.p.misc.f.28" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1104 5 ;
+    wdt:P195 <https://mira.ie/entity/library/wurzburg> ;
+    wdt:P2048 27.5 ;
+    wdt:P2049 22.0 ;
+    wdt:P217 "M.p.misc.f.28" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0786"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/93> rdfs:label "Universitätsbibliothek — M.p.th.f.12" ;
+    skos:prefLabel "Universitätsbibliothek — M.p.th.f.12" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1104 36 ;
+    wdt:P195 <https://mira.ie/entity/library/wurzburg> ;
+    wdt:P2048 32.0 ;
+    wdt:P2049 23.5 ;
+    wdt:P217 "M.p.th.f.12" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0786"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/94> rdfs:label "Universitätsbibliothek — M.p.th.f.61 (ff 21, 24) [palimpsest old]" ;
+    skos:prefLabel "Universitätsbibliothek — M.p.th.f.61 (ff 21, 24) [palimpsest old]" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P195 <https://mira.ie/entity/library/wurzburg> ;
+    wdt:P217 "M.p.th.f.61 (ff 21, 24) [palimpsest old]" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0701"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/95> rdfs:label "Universitätsbibliothek — M.p.th.f.61 [palimpsest new]" ;
+    skos:prefLabel "Universitätsbibliothek — M.p.th.f.61 [palimpsest new]" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1104 34 ;
+    wdt:P195 <https://mira.ie/entity/library/wurzburg> ;
+    wdt:P2048 29.5 ;
+    wdt:P2049 24.0 ;
+    wdt:P217 "M.p.th.f.61 [palimpsest new]" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0751"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/96> rdfs:label "Universitätsbibliothek — M.p.th.f.183 (flyleaf)" ;
+    skos:prefLabel "Universitätsbibliothek — M.p.th.f.183 (flyleaf)" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1104 1 ;
+    wdt:P195 <https://mira.ie/entity/library/wurzburg> ;
+    wdt:P2048 30.6 ;
+    wdt:P2049 23.0 ;
+    wdt:P217 "M.p.th.f.183 (flyleaf)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0751"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/97> rdfs:label "Royal Irish Academy — 12 R 33" ;
+    skos:prefLabel "Royal Irish Academy — 12 R 33" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1104 58 ;
+    wdt:P195 <https://mira.ie/entity/library/dublin_ria> ;
+    wdt:P2048 27.0 ;
+    wdt:P2049 19.0 ;
+    wdt:P217 "12 R 33" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0601"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/98> rdfs:label "Trinity College — 55 (A.IV.15)" ;
+    skos:prefLabel "Trinity College — 55 (A.IV.15)" ;
+    wdt:P1104 182 ;
+    wdt:P195 <https://mira.ie/entity/library/dublin_tcd> ;
+    wdt:P2048 17.5 ;
+    wdt:P2049 12.5 ;
+    wdt:P217 "55 (A.IV.15)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0601"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/99> rdfs:label "National Museum of Ireland — S.A. 1914: 2" ;
+    skos:prefLabel "National Museum of Ireland — S.A. 1914: 2" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1104 6 ;
+    wdt:P195 <https://mira.ie/entity/library/dublin_museum> ;
+    wdt:P2048 7.7 ;
+    wdt:P2049 21.0 ;
+    wdt:P217 "S.A. 1914: 2" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0601"^^xsd:gYear .
+
+<https://mira.ie/entity/person/i2> a wd:Q5 ;
+    rdfs:label "i2 (assistant of Eriugena)" ;
+    skos:prefLabel "i2 (assistant of Eriugena)" .
+
+<https://mira.ie/entity/person/probus> a wd:Q5 ;
+    rdfs:label "Probus of Mainz" ;
+    skos:prefLabel "Probus of Mainz" .
+
+<https://mira.ie/entity/work/charisius> a wd:Q7725634 ;
+    rdfs:label "Ars grammatica" ;
+    skos:prefLabel "Ars grammatica" .
+
+<https://mira.ie/entity/work/lathcen> a wd:Q7725634 ;
+    rdfs:label "Ecloga ex Gregorii Magni Moralibus in Iob" ;
+    skos:prefLabel "Ecloga ex Gregorii Magni Moralibus in Iob" .
+
+<https://mira.ie/entity/work/paulinus> a wd:Q7725634 ;
+    rdfs:label "Carmina" ;
+    skos:prefLabel "Carmina" .
+
+wd:Q1003178 a wd:Q618123 ;
+    rdfs:label "Roscrea" ;
+    skos:altLabel "Ros Cré" ;
+    skos:prefLabel "Roscrea" .
+
+wd:Q1102232 a wd:Q618123 ;
+    rdfs:label "Clondalkin" ;
+    skos:altLabel "Cluain Dolcáin" ;
+    skos:prefLabel "Clondalkin" .
+
+wd:Q1232116 a wd:Q618123 ;
+    rdfs:label "Luxeuil" ;
+    skos:altLabel "Luxovium" ;
+    skos:prefLabel "Luxeuil" .
+
+wd:Q1382485 a wd:Q618123 ;
+    rdfs:label "Deer" ;
+    skos:prefLabel "Deer" .
+
+wd:Q160506 a wd:Q618123 ;
+    rdfs:label "Saint-Denis" ;
+    skos:altLabel "Dionysianum" ;
+    skos:prefLabel "Saint-Denis" .
+
+wd:Q167600 a wd:Q618123 ;
+    rdfs:label "Auxerre" ;
+    skos:altLabel "Autessiodurum" ;
+    skos:prefLabel "Auxerre" .
+
+wd:Q1720 a wd:Q618123 ;
+    rdfs:label "Mainz" ;
+    skos:altLabel "Mogontiacum" ;
+    skos:prefLabel "Mainz" .
+
+wd:Q181285 a wd:Q618123 ;
+    rdfs:label "Cambrai" ;
+    skos:altLabel "Camaracum" ;
+    skos:prefLabel "Cambrai" .
+
+wd:Q2028 a wd:Q618123 ;
+    rdfs:label "Verona" ;
+    skos:prefLabel "Verona" .
+
+wd:Q456 a wd:Q618123 ;
+    rdfs:label "Lyon" ;
+    skos:altLabel "Leona, Lugdunum" ;
+    skos:prefLabel "Lyon" .
+
+wd:Q591192 a wd:Q618123 ;
+    rdfs:label "Bangor" ;
+    skos:altLabel "Benchor",
+        "Benchorensis" ;
+    skos:prefLabel "Bangor" .
+
+wd:Q6602 a wd:Q618123 ;
+    rdfs:label "Strasbourg" ;
+    skos:prefLabel "Strasbourg" .
+
+wd:Q865849 a wd:Q618123 ;
+    rdfs:label "Birr" ;
+    skos:altLabel "Birra" ;
+    skos:prefLabel "Birr" .
+
+<https://mira.ie/entity/library/augsburg> a wd:Q43229,
+        wd:Q7075 ;
+    rdfs:label "Bischöfliche Ordinariatsbibliothek" ;
+    skos:prefLabel "Bischöfliche Ordinariatsbibliothek" .
+
+<https://mira.ie/entity/library/beuron> a wd:Q43229,
+        wd:Q7075 ;
+    rdfs:label "Bibliothek der Benediktiner-Erzabtei" ;
+    skos:prefLabel "Bibliothek der Benediktiner-Erzabtei" .
+
+<https://mira.ie/entity/library/bologna> a wd:Q43229,
+        wd:Q7075 ;
+    rdfs:label "Biblioteca Universitaria" ;
+    skos:prefLabel "Biblioteca Universitaria" .
+
+<https://mira.ie/entity/library/cambrai> a wd:Q43229,
+        wd:Q7075 ;
+    rdfs:label "Bibliothèque municipale" ;
+    skos:prefLabel "Bibliothèque municipale" .
+
+<https://mira.ie/entity/library/cambridge_pembroke> a wd:Q43229,
+        wd:Q7075 ;
+    rdfs:label "Pembroke College" ;
+    skos:prefLabel "Pembroke College" .
+
+<https://mira.ie/entity/library/cambridge_stjohns> a wd:Q43229,
+        wd:Q7075 ;
+    rdfs:label "St John's College" ;
+    skos:prefLabel "St John's College" .
+
+<https://mira.ie/entity/library/cambridge_trinity> a wd:Q43229,
+        wd:Q7075 ;
+    rdfs:label "Trinity College" ;
+    skos:prefLabel "Trinity College" .
+
+<https://mira.ie/entity/library/colmar> a wd:Q43229,
+        wd:Q7075 ;
+    rdfs:label "Bibliothèque municipale" ;
+    skos:prefLabel "Bibliothèque municipale" .
+
+<https://mira.ie/entity/library/cologne> a wd:Q43229,
+        wd:Q7075 ;
+    rdfs:label "Historisches Archiv" ;
+    skos:prefLabel "Historisches Archiv" .
+
+<https://mira.ie/entity/library/dusseldorf> a wd:Q43229,
+        wd:Q7075 ;
+    rdfs:label "Universitäts- und Landesbibliothek" ;
+    skos:prefLabel "Universitäts- und Landesbibliothek" .
+
+<https://mira.ie/entity/library/fulda> a wd:Q43229,
+        wd:Q7075 ;
+    rdfs:label "Landesbibliothek" ;
+    skos:prefLabel "Landesbibliothek" .
+
+<https://mira.ie/entity/library/ghent> a wd:Q43229,
+        wd:Q7075 ;
+    rdfs:label "Universiteitsbibliotheek" ;
+    skos:prefLabel "Universiteitsbibliotheek" .
+
+<https://mira.ie/entity/library/gniezo> a wd:Q43229,
+        wd:Q7075 ;
+    rdfs:label "Biblioteka Kapitulna" ;
+    skos:prefLabel "Biblioteka Kapitulna" .
+
+<https://mira.ie/entity/library/hereford> a wd:Q43229,
+        wd:Q7075 ;
+    rdfs:label "Cathedral Library" ;
+    skos:prefLabel "Cathedral Library" .
+
+<https://mira.ie/entity/library/jena> a wd:Q43229,
+        wd:Q7075 ;
+    rdfs:label "Thüringer Universitäts- und Landesbibliothek" ;
+    skos:prefLabel "Thüringer Universitäts- und Landesbibliothek" .
+
+<https://mira.ie/entity/library/kues> a wd:Q43229,
+        wd:Q7075 ;
+    rdfs:label "Hospitalbibliothek" ;
+    skos:prefLabel "Hospitalbibliothek" .
+
+<https://mira.ie/entity/library/leuven> a wd:Q43229,
+        wd:Q7075 ;
+    rdfs:label "University Library" ;
+    skos:prefLabel "University Library" .
+
+<https://mira.ie/entity/library/lichfield> a wd:Q43229,
+        wd:Q7075 ;
+    rdfs:label "Cathedral Library" ;
+    skos:prefLabel "Cathedral Library" .
+
+<https://mira.ie/entity/library/london_getty> a wd:Q43229,
+        wd:Q7075 ;
+    rdfs:label "Private Collection J. Paul Getty Jr." ;
+    skos:prefLabel "Private Collection J. Paul Getty Jr." .
+
+<https://mira.ie/entity/library/london_lambeth> a wd:Q43229,
+        wd:Q7075 ;
+    rdfs:label "Lambeth Palace Library" ;
+    skos:prefLabel "Lambeth Palace Library" .
+
+<https://mira.ie/entity/library/montecassino> a wd:Q43229,
+        wd:Q7075 ;
+    rdfs:label "Archivio dell'Abbazia" ;
+    skos:prefLabel "Archivio dell'Abbazia" .
+
+<https://mira.ie/entity/library/nancy> a wd:Q43229,
+        wd:Q7075 ;
+    rdfs:label "Bibliothèque municipale" ;
+    skos:prefLabel "Bibliothèque municipale" .
+
+<https://mira.ie/entity/library/orleans> a wd:Q43229,
+        wd:Q7075 ;
+    rdfs:label "Bibliothèque municipale" ;
+    skos:prefLabel "Bibliothèque municipale" .
+
+<https://mira.ie/entity/library/palermo> a wd:Q43229,
+        wd:Q7075 ;
+    rdfs:label "Archivio di Stato" ;
+    skos:prefLabel "Archivio di Stato" .
+
+<https://mira.ie/entity/library/paris_mazarine> a wd:Q43229,
+        wd:Q7075 ;
+    rdfs:label "Bibliothèque Mazarine" ;
+    skos:prefLabel "Bibliothèque Mazarine" .
+
+<https://mira.ie/entity/library/reims> a wd:Q43229,
+        wd:Q7075 ;
+    rdfs:label "Abbey of Saint-Remi" ;
+    skos:prefLabel "Abbey of Saint-Remi" .
+
+<https://mira.ie/entity/library/rouen> a wd:Q43229,
+        wd:Q7075 ;
+    rdfs:label "Bibliothèque municipale" ;
+    skos:prefLabel "Bibliothèque municipale" .
+
+<https://mira.ie/entity/library/saint-omer> a wd:Q43229,
+        wd:Q7075 ;
+    rdfs:label "Bibliothèque municipale" ;
+    skos:prefLabel "Bibliothèque municipale" .
+
+<https://mira.ie/entity/library/st-paul> a wd:Q43229,
+        wd:Q7075 ;
+    rdfs:label "Archiv des Benediktinerstifts" ;
+    skos:prefLabel "Archiv des Benediktinerstifts" .
+
+<https://mira.ie/entity/library/st-petersburg> a wd:Q43229,
+        wd:Q7075 ;
+    rdfs:label "Russian National Library" ;
+    skos:prefLabel "Russian National Library" .
+
+<https://mira.ie/entity/library/trier> a wd:Q43229,
+        wd:Q7075 ;
+    rdfs:label "Stadtbibliothek" ;
+    skos:prefLabel "Stadtbibliothek" .
+
+<https://mira.ie/entity/library/valenciennes> a wd:Q43229,
+        wd:Q7075 ;
+    rdfs:label "Bibliothèque municipale" ;
+    skos:prefLabel "Bibliothèque municipale" .
+
+<https://mira.ie/entity/library/warminster> a wd:Q43229,
+        wd:Q7075 ;
+    rdfs:label "Library of the Marquess of Bath [Longleat House]" ;
+    skos:prefLabel "Library of the Marquess of Bath [Longleat House]" .
+
+<https://mira.ie/entity/library/wroclaw> a wd:Q43229,
+        wd:Q7075 ;
+    rdfs:label "University Library Rehdigeranus" ;
+    skos:prefLabel "University Library Rehdigeranus" .
+
+wd:Q167141 a wd:Q618123 ;
+    rdfs:label "Laon" ;
+    skos:altLabel "Laudunum (Lao-, Lo-; Laudunensis urbs, Lugdunum clavatum)" ;
+    skos:prefLabel "Laon" .
+
+wd:Q193452 a wd:Q618123 ;
+    rdfs:label "Armagh" ;
+    skos:altLabel "Ard Macha",
+        "Ardmachensis" ;
+    skos:prefLabel "Armagh" .
+
+wd:Q25 a wd:Q618123 ;
+    rdfs:label "Wales" ;
+    skos:prefLabel "Wales" .
+
+wd:Q2749 a wd:Q618123 ;
+    rdfs:label "Augsburg" ;
+    skos:altLabel "Augusta Vindelicum, Aelia Augusta" ;
+    skos:prefLabel "Augsburg" .
+
+wd:Q39 a wd:Q618123 ;
+    rdfs:label "Switzerland" ;
+    skos:prefLabel "Switzerland" .
+
+wd:Q3963 a wd:Q618123 ;
+    rdfs:label "Fulda" ;
+    skos:altLabel "Fuldense coen." ;
+    skos:prefLabel "Fulda" .
+
+wd:Q610 a wd:Q618123 ;
+    rdfs:label "Iona" ;
+    skos:altLabel "Hii, Hy, Í, Eu",
+        "Ioua insula" ;
+    skos:prefLabel "Iona" .
+
+wd:Q7680015 a wd:Q618123 ;
+    rdfs:label "Tallaght" ;
+    skos:altLabel "Tamlacht",
+        "Tamlactensis" ;
+    skos:prefLabel "Tallaght" .
+
+wd:Q90 a wd:Q618123 ;
+    rdfs:label "Paris" ;
+    skos:prefLabel "Paris" .
+
+wd:Q947030 a wd:Q618123 ;
+    rdfs:label "Fleury" ;
+    skos:altLabel "Floriacum" ;
+    skos:prefLabel "Fleury" .
+
+<https://mira.ie/entity/library/cambridge_corpus> a wd:Q43229,
+        wd:Q7075 ;
+    rdfs:label "Corpus Christi College, Parker Library" ;
+    skos:prefLabel "Corpus Christi College, Parker Library" .
+
+<https://mira.ie/entity/library/cambridge_ul> a wd:Q43229,
+        wd:Q7075 ;
+    rdfs:label "University Library" ;
+    skos:prefLabel "University Library" .
+
+<https://mira.ie/entity/library/dresden> a wd:Q43229,
+        wd:Q7075 ;
+    rdfs:label "Sächsische Landesbibliothek – Staats- und Universitätsbibliothek" ;
+    skos:prefLabel "Sächsische Landesbibliothek – Staats- und Universitätsbibliothek" .
+
+<https://mira.ie/entity/library/dublin_museum> a wd:Q43229,
+        wd:Q7075 ;
+    rdfs:label "National Museum of Ireland" ;
+    skos:prefLabel "National Museum of Ireland" .
+
+<https://mira.ie/entity/library/einsiedeln> a wd:Q43229,
+        wd:Q7075 ;
+    rdfs:label "Stiftsbibliothek" ;
+    skos:prefLabel "Stiftsbibliothek" .
+
+<https://mira.ie/entity/library/harvard> a wd:Q43229,
+        wd:Q7075 ;
+    rdfs:label "Harvard University, Houghton Library" ;
+    skos:prefLabel "Harvard University, Houghton Library" .
+
+<https://mira.ie/entity/library/kassel> a wd:Q43229,
+        wd:Q7075 ;
+    rdfs:label "Landesbibliothek" ;
+    skos:prefLabel "Landesbibliothek" .
+
+<https://mira.ie/entity/library/paris_arsenal> a wd:Q43229,
+        wd:Q7075 ;
+    rdfs:label "Bibliothèque de l’Arsenal" ;
+    skos:prefLabel "Bibliothèque de l’Arsenal" .
+
+<https://mira.ie/entity/library/zurich_zentral> a wd:Q43229,
+        wd:Q7075 ;
+    rdfs:label "Zentralbibliothek" ;
+    skos:prefLabel "Zentralbibliothek" .
+
+wd:Q12130 a wd:Q618123 ;
+    rdfs:label "Brittany" ;
+    skos:prefLabel "Brittany" .
+
+wd:Q288 a wd:Q618123 ;
+    rdfs:label "Tours" ;
+    skos:altLabel "Augusta Turonum, Turonica civitas, etc." ;
+    skos:prefLabel "Tours" .
+
+<https://mira.ie/entity/library/bamberg> a wd:Q43229,
+        wd:Q7075 ;
+    rdfs:label "Staatsbibliothek" ;
+    skos:prefLabel "Staatsbibliothek" .
+
+<https://mira.ie/entity/library/durham> a wd:Q43229,
+        wd:Q7075 ;
+    rdfs:label "Cathedral Library" ;
+    skos:prefLabel "Cathedral Library" .
+
+<https://mira.ie/entity/library/florence> a wd:Q43229,
+        wd:Q7075 ;
+    rdfs:label "Biblioteca Medicea Laurenziana" ;
+    skos:prefLabel "Biblioteca Medicea Laurenziana" .
+
+<https://mira.ie/entity/library/oxford_bodleian> a wd:Q43229,
+        wd:Q7075 ;
+    rdfs:label "Bodleian Library" ;
+    skos:prefLabel "Bodleian Library" .
+
+<https://mira.ie/entity/library/zurich> a wd:Q43229,
+        wd:Q7075 ;
+    rdfs:label "Staatsarchiv" ;
+    skos:prefLabel "Staatsarchiv" .
+
+wd:Q107299 a wd:Q618123 ;
+    rdfs:label "Northumbria" ;
+    skos:prefLabel "Northumbria" .
+
+wd:Q21 a wd:Q618123 ;
+    rdfs:label "England" ;
+    skos:prefLabel "England" .
+
+wd:Q2978 a wd:Q618123 ;
+    rdfs:label "Regensburg" ;
+    skos:altLabel "Reginum, Castra Regina" ;
+    skos:prefLabel "Regensburg" .
+
+wd:Q6998 a wd:Q618123 ;
+    rdfs:label "Freising" ;
+    skos:prefLabel "Freising" .
+
+wd:Q71469 a wd:Q618123 ;
+    rdfs:label "Corbie" ;
+    skos:altLabel "Corbeia" ;
+    skos:prefLabel "Corbie" .
+
+<https://mira.ie/entity/library/basel> a wd:Q43229,
+        wd:Q7075 ;
+    rdfs:label "Universitätsbibliothek" ;
+    skos:prefLabel "Universitätsbibliothek" .
+
+<https://mira.ie/entity/library/berlin> a wd:Q43229,
+        wd:Q7075 ;
+    rdfs:label "Staatsbibliothek Preussischer Kulturbesitz" ;
+    skos:prefLabel "Staatsbibliothek Preussischer Kulturbesitz" .
+
+<https://mira.ie/entity/library/dublin_ria> a wd:Q43229,
+        wd:Q7075 ;
+    rdfs:label "Royal Irish Academy" ;
+    skos:prefLabel "Royal Irish Academy" .
+
+<https://mira.ie/entity/library/schaffhausen> a wd:Q43229,
+        wd:Q7075 ;
+    rdfs:label "Stadtbibliothek" ;
+    skos:prefLabel "Stadtbibliothek" .
+
+wd:Q25607 a wd:Q618123 ;
+    rdfs:label "St Gall" ;
+    skos:altLabel "Sanctogallum",
+        "Sankt Gallen" ;
+    skos:prefLabel "St Gall" .
+
+<https://mira.ie/entity/library/london_bl> a wd:Q43229,
+        wd:Q7075 ;
+    rdfs:label "British Library" ;
+    skos:prefLabel "British Library" .
+
+<https://mira.ie/entity/library/wurzburg> a wd:Q43229,
+        wd:Q7075 ;
+    rdfs:label "Universitätsbibliothek" ;
+    skos:prefLabel "Universitätsbibliothek" .
+
+wd:Q1067570 a wd:Q618123 ;
+    rdfs:label "Saint-Amand" ;
+    skos:prefLabel "Saint-Amand" .
+
+wd:Q167152 a wd:Q618123 ;
+    rdfs:label "Soissons" ;
+    skos:altLabel "Augusta Suessionum, Suessonae" ;
+    skos:prefLabel "Soissons" .
+
+<https://mira.ie/entity/library/bern> a wd:Q43229,
+        wd:Q7075 ;
+    rdfs:label "Burgerbibliothek" ;
+    skos:prefLabel "Burgerbibliothek" .
+
+wd:Q632880 a wd:Q618123 ;
+    rdfs:label "Reichenau" ;
+    skos:altLabel "Augia insula" ;
+    skos:prefLabel "Reichenau" .
+
+<https://mira.ie/entity/library/naples> a wd:Q43229,
+        wd:Q7075 ;
+    rdfs:label "Biblioteca Nazionale" ;
+    skos:prefLabel "Biblioteca Nazionale" .
+
+<https://mira.ie/entity/library/dublin_tcd> a wd:Q43229,
+        wd:Q7075 ;
+    rdfs:label "Trinity College" ;
+    skos:prefLabel "Trinity College" .
+
+wd:Q41876 a wd:Q618123 ;
+    rdfs:label "Reims" ;
+    skos:altLabel "Remi civitas" ;
+    skos:prefLabel "Reims" .
+
+<https://mira.ie/entity/library/leiden> a wd:Q43229,
+        wd:Q7075 ;
+    rdfs:label "Universiteitsbibliotheek" ;
+    skos:prefLabel "Universiteitsbibliotheek" .
+
+<https://mira.ie/entity/library/vatican> a wd:Q43229,
+        wd:Q7075 ;
+    rdfs:label "Biblioteca Apostolica Vaticana" ;
+    skos:prefLabel "Biblioteca Apostolica Vaticana" .
+
+wd:Q183 a wd:Q618123 ;
+    rdfs:label "Germany" ;
+    skos:prefLabel "Germany" .
+
+<https://mira.ie/entity/library/turin> a wd:Q43229,
+        wd:Q7075 ;
+    rdfs:label "Biblioteca Nazionale" ;
+    skos:prefLabel "Biblioteca Nazionale" .
+
+<https://mira.ie/entity/library/vienna> a wd:Q43229,
+        wd:Q7075 ;
+    rdfs:label "Österreichische Nationalbibliothek" ;
+    skos:prefLabel "Österreichische Nationalbibliothek" .
+
+wd:Q34713 a wd:Q618123 ;
+    rdfs:label "Salzburg" ;
+    skos:altLabel "Iuvavum, Salina" ;
+    skos:prefLabel "Salzburg" .
+
+wd:Q38 a wd:Q618123 ;
+    rdfs:label "Italy" ;
+    skos:prefLabel "Italy" .
+
+<https://mira.ie/entity/library/st-gall> a wd:Q43229,
+        wd:Q7075 ;
+    rdfs:label "Stiftsbibliothek" ;
+    skos:prefLabel "Stiftsbibliothek" .
+
+<https://mira.ie/entity/library/paris_bnf> a wd:Q43229,
+        wd:Q7075 ;
+    rdfs:label "Bibliothèque nationale de France" ;
+    skos:prefLabel "Bibliothèque nationale de France" .
+
+<https://mira.ie/entity/library/laon> a wd:Q43229,
+        wd:Q7075 ;
+    rdfs:label "Bibliothèque municipale" ;
+    skos:prefLabel "Bibliothèque municipale" .
+
+<https://mira.ie/entity/library/milan> a wd:Q43229,
+        wd:Q7075 ;
+    rdfs:label "Biblioteca Ambrosiana" ;
+    skos:prefLabel "Biblioteca Ambrosiana" .
+
+<https://mira.ie/entity/library/munich> a wd:Q43229,
+        wd:Q7075 ;
+    rdfs:label "Bayerische Staatsbibliothek" ;
+    skos:prefLabel "Bayerische Staatsbibliothek" .
+
+wd:Q11498 a wd:Q618123 ;
+    rdfs:label "Bobbio" ;
+    skos:altLabel "Bobbium" ;
+    skos:prefLabel "Bobbio" .
+
+wd:Q142 a wd:Q618123 ;
+    rdfs:label "France" ;
+    skos:prefLabel "France" .
+
+<https://mira.ie/entity/library/karlsruhe> a wd:Q43229,
+        wd:Q7075 ;
+    rdfs:label "Badische Landesbibliothek" ;
+    skos:prefLabel "Badische Landesbibliothek" .
+
+wd:Q22890 a wd:Q618123 ;
+    rdfs:label "Ireland*" ;
+    skos:prefLabel "Ireland*" .
+

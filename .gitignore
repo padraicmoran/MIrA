@@ -7,3 +7,5 @@ website/ms-lookup/*
 
 tools/batch_edit.py
 
+.vscode/settings.json
+
