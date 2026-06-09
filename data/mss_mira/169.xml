@@ -2,7 +2,7 @@
 <manuscript id="169">
    <identifier libraryID="basel">
       <shelfmark>F III 15d</shelfmark>
-      <link type="iiif">http://www.e-codices.unifr.ch/metadata/iiif/ubb-F-III-0015d/manifest.json</link>
+      <link type="iiif">https://www.e-codices.unifr.ch/metadata/iiif/ubb-F-III-0015d/manifest.json</link>
    </identifier>
    <description>
       <type />
@@ -47,9 +47,9 @@
    <refs>
       <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/1300"><i>CLA</i> 7.847</canonical>
       <canonical href="https://www.trismegistos.org/text/66986">TM 66986</canonical>
-      <link href="http://dx.doi.org/10.5076/e-codices-ubb-F-III-0015d">Online catalogue</link>
-      <link href="http://www.e-codices.unifr.ch/en/ubb/F-III-0015d">Images</link>
-      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=42">Foundations of Irish Culture</link>
+      <link href="https://dx.doi.org/10.5076/e-codices-ubb-F-III-0015d">Online catalogue</link>
+      <link href="https://www.e-codices.unifr.ch/en/ubb/F-III-0015d">Images</link>
+      <link corresp="#foundations" href="https://foundationsirishculture.ie/record/?id=42">Foundations of Irish Culture</link>
    </refs>
    <notes categories="#or-ire #sc-ire">
       Original Irish binding (parchment cover). Came to Basel during 16th century 

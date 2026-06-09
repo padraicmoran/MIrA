@@ -2,13 +2,13 @@
 <manuscript id="173">
    <identifier unit="1" libraryID="bern">
       <shelfmark>207</shelfmark>
-      <link type="images">http://e-codices.ch/en/searchresult/list/one/bbb/0207</link>
-      <link type="iiif">http://www.e-codices.unifr.ch/metadata/iiif/bbb-0207/manifest.json</link>
+      <link type="images">https://e-codices.ch/en/searchresult/list/one/bbb/0207</link>
+      <link type="iiif">https://www.e-codices.unifr.ch/metadata/iiif/bbb-0207/manifest.json</link>
    </identifier>
    <identifier unit="2" libraryID="paris_bnf">
       <shelfmark>Lat. 7520 (ff 1–24)</shelfmark>
       <shelfmark_indexer>Lat. 07520 (001)</shelfmark_indexer>
-      <link type="images">http://gallica.bnf.fr/ark:/12148/btv1b84900632</link>
+      <link type="images">https://gallica.bnf.fr/ark:/12148/btv1b84900632</link>
       <link type="iiif">https://gallica.bnf.fr/iiif/ark:/12148/btv1b84900632/manifest.json</link>
    </identifier>
    <description>

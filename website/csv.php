@@ -97,7 +97,7 @@ if (isset($results)) {
 			fputcsv($output, 
 				array(
 					$miraRef,
-					'http://mira.ie/' . $ms['id'],
+					'https://mira.ie/' . $ms['id'],
 					$libraries[$libraryID]['city'],
 					$libraries[$libraryID]['name'],
 					$ms->identifier[$n]->shelfmark,

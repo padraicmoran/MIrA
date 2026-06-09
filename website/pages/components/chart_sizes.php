@@ -78,7 +78,7 @@ function chartSizes($data) {
 		$yAxisStep = 10;
 		
 		// chart
-		print '<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="280" style="border: none;">';
+		print '<svg xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" width="100%" height="280" style="border: none;">';
 
 		// write axes
 		writeXAxis($xAxisMin, $xAxisMax, $xAxisStep, $xPad, $yPad);
@@ -90,8 +90,9 @@ function chartSizes($data) {
 
 		foreach ($sizes as $ms) {
 			$cntSizes ++;
+			$url = getLink('manuscript', $ms[1]);
 			$label = $ms[3] . ': height ' . $ms[0] . ' cm';
-			drawBar($cntSizes, $ms[0], $xAxisMin, $xAxisMax, $xPad, $yAxisMin, $yAxisMax, $yPad, 'blue', '/' . $ms[2], $label);
+			drawBar($cntSizes, $ms[0], $xAxisMin, $xAxisMax, $xPad, $yAxisMin, $yAxisMax, $yPad, 'blue', $url, $label);
 		}
 		
 		// draw average line

@@ -1,0 +1,9 @@
+@prefix rdfs: <https://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <https://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <https://www.wikidata.org/entity/> .
+@prefix wdt: <https://www.wikidata.org/prop/direct/> .
+@prefix xsd: <https://www.w3.org/2001/XMLSchema#> .
+
+<https://mira.ie/entity/work/lathcen> a wd:Q7725634 ;
+    rdfs:label "Ecloga ex Gregorii Magni Moralibus in Iob" ;
+    skos:prefLabel "Ecloga ex Gregorii Magni Moralibus in Iob" .

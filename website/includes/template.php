@@ -9,38 +9,42 @@ function templateTop($activeNav) {
 	$navLabels = array(
 		'Home',
 		'Manuscripts',
-		'Texts',
+		'Libraries',
 		'People',
 		'Places',
+		'Texts',
 		'About'	
 	);
 	if ($tidyURLs) {
 		$navURLs = array(
 			'/',
-			'/mss',
-			'/texts',
+			'/manuscripts',
+			'/libraries',
 			'/people',
 			'/places',
+			'/texts',
 			'/about'	
 		);
 	}
 	else {
 		$navURLs = array(
 			'/',
-			'/index.php?page=mss',
-			'/index.php?page=texts',
+			'/index.php?page=manuscripts',
+			'/index.php?page=libraries',
 			'/index.php?page=people',
 			'/index.php?page=places',
-			'/index.php?page=about'	
+			'/index.php?page=about',	
+			'/index.php?page=texts'
 		);
 	}
 	$pageTitles = array(
 		'Manuscripts with Irish Associations (MIrA)',
 		'MIrA • Manuscripts',
-		'MIrA • Texts',
+		'MIrA • Libraries',
 		'MIrA • People',
 		'MIrA • Places',
-		'MIrA • About'	
+		'MIrA • About',	
+		'MIrA • Texts'
 	);
 	$title = $pageTitles[$activeNav];
 
@@ -68,7 +72,7 @@ function templateTop($activeNav) {
 	<meta property="og:title" content="<?php print $title; ?>" />
 	<meta property="og:site_name" content="Manuscripts with Irish Associations (MIrA)" />    
 	<meta property="og:description" content="Manuscripts with Irish Associations (MIrA): Evidence for early Irish book culture, c. AD 600–1000." />
-	<meta property="og:url" content="http://<?php print $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'] ?>" />
+	<meta property="og:url" content="https://<?php print $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'] ?>" />
 	<meta property="og:locale" content="en_US" />
 	<meta property="og:type" content="website" />
 
@@ -164,7 +168,7 @@ function templateBottom() {
 	version <?php print $version; ?> (<?php print $versionDate; ?>)
 <?php
 // URL and date
-print '&lt;<a class="text-reset" href="' . $_SERVER['REQUEST_URI'] . '">http://mira.ie' . $_SERVER['REQUEST_URI'] . '</a>&gt; ';
+print '&lt;<a class="text-reset" href="' . $_SERVER['REQUEST_URI'] . '">https://mira.ie' . $_SERVER['REQUEST_URI'] . '</a>&gt; ';
 print '[accessed ' . date("j F Y") . ']';
 ?>
 </p>
@@ -182,7 +186,7 @@ var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
 
 </script>
 
-<!-- Default Statcounter code for MIrA http://www.mira.ie
+<!-- Default Statcounter code for MIrA https://www.mira.ie
 -->
 <script type="text/javascript">
 var sc_project=12541456; 

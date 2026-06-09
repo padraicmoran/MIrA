@@ -33,7 +33,7 @@ function writeCategoryButton($catID, $linking) {
 	}
 	
 	if ($linking) {
-		$url = '/index.php?page=mss&cat=' . $catID;
+		$url = '/manuscripts?cat=' . $catID;
 		print '  <a type="button" href="' . $url . '" class="' . $insertClass . 'px-0" style="' . $insertStyle . '; width: 45px; "><b>' . $displayCode . '</b></a>';
 		print '  <a type="button" href="' . $url . '" class="' . $insertClass . ' text-start " style="' . $insertStyle . '; width: 230px; ">' . $name . '</a>';
 	}

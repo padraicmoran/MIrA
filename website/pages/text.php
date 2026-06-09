@@ -20,7 +20,9 @@ if (file_exists('../data/other/texts.xml')) {
 		 print '</h2>';
 
 		// stable URL
-		print '<div class="text-secondary small">Stable URL: <a class="text-secondary" href="/text/' . $id . '">http://mira.ie/texts/' . $id . '</a></div>';
+		$link = getLink('text', $id);
+		print '<div class="text-secondary small">Stable URL: <a class="text-secondary" href="' . $link . '">https://mira.ie' . $link . '</a></div>';
+
 
 		// linked data
 		$links = $text->xpath('xref');
@@ -46,7 +48,7 @@ if (file_exists('../data/other/texts.xml')) {
 		listMSS($resultsSorted);
 
 		// download
-		print '<div class="text-secondary small mt-5">Download <a class="text-secondary" href="/data/texts.xml">XML data</a> for texts.</div>';
+		print '<div class="text-secondary small mt-5">Download <a class="text-secondary" href="/data/other/texts.xml">XML data</a> for texts.</div>';
 
 	}
 	else {

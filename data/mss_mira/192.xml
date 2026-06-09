@@ -3,8 +3,8 @@
    <identifier libraryID="st-gall">
       <shelfmark>1395 (pp 418–419, 422–423, 426–427)</shelfmark>
       <shelfmark_indexer>1395 (418)</shelfmark_indexer>
-      <link type="images">http://www.e-codices.unifr.ch/en/csg/1395</link>
-      <link type="iiif" index="452">http://www.e-codices.unifr.ch/metadata/iiif/csg-1395/manifest.json</link>
+      <link type="images">https://www.e-codices.unifr.ch/en/csg/1395</link>
+      <link type="iiif" index="452">https://www.e-codices.unifr.ch/metadata/iiif/csg-1395/manifest.json</link>
    </identifier>
    <description>
       <type>Frag.</type>
@@ -28,7 +28,7 @@
       <canonical href="https://www.trismegistos.org/text/67133">TM 67133</canonical>
       <bibl corresp="#thesaurus" href="https://archive.org/details/thesauruspalaeo02stok/page/248"><i>Thesaurus</i> II 248–249</bibl>
       <bibl corresp="#bronner">Bronner 2013: 48–49</bibl>
-      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=47">Foundations of Irish Culture</link>
+      <link corresp="#foundations" href="https://foundationsirishculture.ie/record/?id=47">Foundations of Irish Culture</link>
       <canonical corresp="#alexander">Alexander, no. 58</canonical>
       <bibl id="duft_meyer_1954">Duft &amp; Meyer 1954: 76–78</bibl>
    </refs>

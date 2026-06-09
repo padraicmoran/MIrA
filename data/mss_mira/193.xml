@@ -3,8 +3,8 @@
    <identifier libraryID="st-gall">
       <shelfmark>1395 (pp 436–437)</shelfmark>
       <shelfmark_indexer>1395 (436)</shelfmark_indexer>
-      <link type="images">http://www.e-codices.unifr.ch/en/csg/1395</link>
-      <link type="iiif" index="486">http://www.e-codices.unifr.ch/metadata/iiif/csg-1395/manifest.json</link>
+      <link type="images">https://www.e-codices.unifr.ch/en/csg/1395</link>
+      <link type="iiif" index="486">https://www.e-codices.unifr.ch/metadata/iiif/csg-1395/manifest.json</link>
    </identifier>
    <description>
       <type />
@@ -26,7 +26,7 @@
    <refs>
       <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/1456"><i>CLA</i> 7.990</canonical>
       <canonical href="https://www.trismegistos.org/text/67135">TM 67135</canonical>
-      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=49">Foundations of Irish Culture</link>
+      <link corresp="#foundations" href="https://foundationsirishculture.ie/record/?id=49">Foundations of Irish Culture</link>
    </refs>
    <notes categories="#or-ire #sc-ire">
    </notes>

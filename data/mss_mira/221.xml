@@ -3,7 +3,7 @@
    <identifier unit="1" libraryID="vatican">
       <shelfmark>Lat. 5750 [palimpsest new]</shelfmark>
       <shelfmark_indexer>Lat. 05750</shelfmark_indexer>
-      <link type="images">http://digi.vatlib.it/view/MSS_Vat.lat.5750</link>
+      <link type="images">https://digi.vatlib.it/view/MSS_Vat.lat.5750</link>
       <link type="iiif" index="43">https://digi.vatlib.it/iiif/MSS_Vat.lat.5750/manifest.json</link>
    </identifier>
    <identifier unit="2" libraryID="milan">

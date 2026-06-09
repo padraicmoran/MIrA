@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" 
-   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-   xmlns="http://www.tei-c.org/ns/1.0">
+   xmlns:xsl="https://www.w3.org/1999/XSL/Transform"
+   xmlns="https://www.tei-c.org/ns/1.0">
 
    <xsl:output method="xml" indent="yes"/>
    <xsl:strip-space elements="*"/>
@@ -10,9 +10,9 @@
 <!-- main document template -->
 <xsl:template match="/">
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd">
+<TEI xmlns="https://www.tei-c.org/ns/1.0"
+   xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="https://www.tei-c.org/ns/1.0 https://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd">
    <xsl:attribute name="xml:id">mira_<xsl:value-of select="manuscript/@id" /></xsl:attribute>
    <teiHeader>
       <fileDesc>

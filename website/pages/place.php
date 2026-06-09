@@ -22,7 +22,8 @@ if (file_exists('../data/other/places.xml')) {
 		print $place->name . '</h2>';
 
 		// stable URL
-		print '<div class="text-secondary small mb-3">Stable URL: <a class="text-secondary" href="/places/' . $id . '">http://mira.ie/place/' . $id . '</a></div>';
+		$link = getLink('place', $id);
+		print '<div class="text-secondary small">Stable URL: <a class="text-secondary" href="' . $link . '">https://mira.ie' . $link . '</a></div>';
 
 		// other language versions
 		print '<p>';
@@ -36,7 +37,7 @@ if (file_exists('../data/other/places.xml')) {
 				print '<p>Region, including the following places:</p> ';
 				print '<ul>';
 				foreach ($subPlaces as $p) {
-					print '<li><a href="' . getLink('places', $p['id']) . '">' . $p->name . '</a></li>';
+					print '<li><a href="' . getLink('place', $p['id']) . '">' . $p->name . '</a></li>';
 				}				
 				print '</ul>';
 			}
@@ -95,7 +96,7 @@ if (file_exists('../data/other/places.xml')) {
 		}
 
 		// download
-		print '<div class="text-secondary small mt-5">Download <a class="text-secondary" href="/data/places.xml">XML data</a> for places.</div>';
+		print '<div class="text-secondary small mt-5">Download <a class="text-secondary" href="/data/other/places.xml">XML data</a> for places.</div>';
 
 	}
 	else {

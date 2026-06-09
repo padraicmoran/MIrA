@@ -3,7 +3,7 @@
    <identifier libraryID="vatican">
       <shelfmark>Pal. Lat. 210 (f. 1)</shelfmark>
       <shelfmark_indexer>Pal. Lat. 0210</shelfmark_indexer>
-      <link type="images">http://digi.vatlib.it/view/bav_pal_lat_210</link>
+      <link type="images">https://digi.vatlib.it/view/bav_pal_lat_210</link>
       <link type="iiif">https://digi.vatlib.it/iiif/bav_pal_lat_210/manifest.json</link>
    </identifier>
    <description>
@@ -24,7 +24,7 @@
    <refs>
       <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/96"><i>CLA</i> 1.84</canonical>
       <canonical href="https://www.trismegistos.org/text/66180">TM 66180</canonical>
-      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=4">Foundations of Irish Culture</link>
+      <link corresp="#foundations" href="https://foundationsirishculture.ie/record/?id=4">Foundations of Irish Culture</link>
    </refs>
    <notes categories="#sc-ire">
       Book-list added to outer page (originally blank) of manuscript containing shorter works of <person id="augustine">Augustine</person>,

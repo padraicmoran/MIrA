@@ -1,15 +1,20 @@
 DirectoryIndex index.php
 
 RewriteEngine on
-RewriteRule ^[0]*([0-9]+)/?$ index.php?page=mss&id=$1
-RewriteRule ^[0]*([0-9]+)/?$ index.php?page=mss&id=$1
-RewriteRule ^library/([a-z0-9_\-]+)/?$ index.php?page=mss&lib=$1 [QSA,L]
-RewriteRule ^people/([a-z0-9_\-]+)/?$ index.php?page=people&id=$1 [QSA,L]
-RewriteRule ^places/([a-z0-9_\-]+)/?$ index.php?page=places&id=$1 [QSA,L]
-RewriteRule ^texts/([a-z0-9_\-]+)/?$ index.php?page=texts&id=$1 [QSA,L]
 
-RewriteRule ^(about|mss|people|places|texts)/?$ index.php?page=$1
+# Content pages
+RewriteRule ^(libraries|manuscripts|people|places|texts)/?$ index.php?page=$1 [L,QSA]
+RewriteRule ^(about)/?$ index.php?page=$1
 
+# Entity router
+RewriteRule ^(library|manuscript|person|place|text)/([a-z0-9_\-]+)/?$ index.php?page=$1&id=$2 [L,QSA]
+# Handle old stable URL for MSS
+RewriteRule ^[0]*([0-9]+)/?$ index.php?page=manuscript&id=$1
+
+# Handle deferencing for URIs
+RewriteRule ^entity/(library|manuscript|person|text)/([a-z0-9_\-]+)/?$ entity_dereferencer.php?type=$1&id=$2 [L,QSA]
+
+# Handle download links
 RewriteRule ^([0-9]{1})/xml?$ download.php?p=mss_mira/00$1.xml
 RewriteRule ^([0-9]{2})/xml?$ download.php?p=mss_mira/0$1.xml
 RewriteRule ^([0-9]{3})/xml?$ download.php?p=mss_mira/$1.xml

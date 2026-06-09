@@ -3,8 +3,8 @@
    <identifier libraryID="schaffhausen">
       <shelfmark>Gen. 1</shelfmark>
       <ms_name>Schaffhausen Adomnán</ms_name>
-      <link type="images">http://www.e-codices.unifr.ch/en/sbs/0001</link>
-      <link type="iiif">http://www.e-codices.unifr.ch/metadata/iiif/sbs-0001/manifest.json</link>
+      <link type="images">https://www.e-codices.unifr.ch/en/sbs/0001</link>
+      <link type="iiif">https://www.e-codices.unifr.ch/metadata/iiif/sbs-0001/manifest.json</link>
    </identifier>
    <description>
       <type />
@@ -26,7 +26,7 @@
    <refs>
       <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/1464"><i>CLA</i> 7.998</canonical>
       <canonical href="https://www.trismegistos.org/text/67143">TM 67143</canonical>
-      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=52">Foundations of Irish Culture</link>
+      <link corresp="#foundations" href="https://foundationsirishculture.ie/record/?id=52">Foundations of Irish Culture</link>
    </refs>
    <notes categories="#or-ire #sc-ire">
    </notes>

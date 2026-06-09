@@ -3,7 +3,7 @@
    <identifier libraryID="vienna">
       <shelfmark>Lat. 15298</shelfmark>
       <shelfmark_indexer>Lat. 15298</shelfmark_indexer>
-      <link type="images">http://data.onb.ac.at/dtl/8650790</link>
+      <link type="images">https://data.onb.ac.at/dtl/8650790</link>
    </identifier>
    <description>
       <type />
@@ -24,7 +24,7 @@
    <refs>
       <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/234"><i>CLA</i> 10.1511</canonical>
       <canonical href="https://www.trismegistos.org/text/67698">TM 67698</canonical>
-      <link href="http://foundationsirishculture.ie/record/?id=63">Foundations of Irish Culture</link>
+      <link href="https://foundationsirishculture.ie/record/?id=63">Foundations of Irish Culture</link>
       <bibl corresp="#thesaurus" href="https://archive.org/details/thesauruspalaeo02stok/page/31"><i>Thesaurus</i> II 31–37</bibl>
       <bibl corresp="#bronner">Bronner, p. 54</bibl>
    </refs>

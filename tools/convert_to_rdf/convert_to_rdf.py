@@ -80,12 +80,12 @@ RDF_DIR = DATA_DIR / "rdf"
 # Namespaces (prefixes used to construct Wikidata-aligned RDF triples)
 # ----------------------------------------------------------------------
 
-WD = Namespace("http://www.wikidata.org/entity/")
-WDT = Namespace("http://www.wikidata.org/prop/direct/")
-P = Namespace("http://www.wikidata.org/prop/")
-PS = Namespace("http://www.wikidata.org/prop/statement/")
-PQ = Namespace("http://www.wikidata.org/prop/qualifier/")
-WB = Namespace("http://wikiba.se/ontology#")
+WD = Namespace("https://www.wikidata.org/entity/")
+WDT = Namespace("https://www.wikidata.org/prop/direct/")
+P = Namespace("https://www.wikidata.org/prop/")
+PS = Namespace("https://www.wikidata.org/prop/statement/")
+PQ = Namespace("https://www.wikidata.org/prop/qualifier/")
+WB = Namespace("https://wikiba.se/ontology#")
 MIRA = Namespace("https://mira.ie/entity/")
 
 # ----------------------------------------------------------------------
