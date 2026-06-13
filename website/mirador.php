@@ -53,7 +53,7 @@ var mirador = Mirador.viewer({
 
 </script>
 
-<!-- Default Statcounter code for MIrA http://www.mira.ie
+<!-- Default Statcounter code for MIrA https://www.mira.ie
 -->
 <script type="text/javascript">
 var sc_project=12541456; 

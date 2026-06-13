@@ -3,8 +3,8 @@
    <identifier libraryID="st-gall">
       <shelfmark>1394 (pp 101–104)</shelfmark>
       <shelfmark_indexer>1394 (101)</shelfmark_indexer>
-      <link type="images">http://www.e-codices.unifr.ch/en/csg/1394</link>
-      <link type="iiif" index="115">http://www.e-codices.unifr.ch/metadata/iiif/csg-1394/manifest.json</link>
+      <link type="images">https://www.e-codices.unifr.ch/en/csg/1394</link>
+      <link type="iiif" index="115">https://www.e-codices.unifr.ch/metadata/iiif/csg-1394/manifest.json</link>
    </identifier>
    <description>
       <type>Binding frag.</type>
@@ -26,7 +26,7 @@
    <refs>
       <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/1446"><i>CLA</i> 7.980</canonical>
       <canonical href="https://www.trismegistos.org/text/67125">TM 67125</canonical>
-      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=46">Foundations of Irish Culture</link>
+      <link corresp="#foundations" href="https://foundationsirishculture.ie/record/?id=46">Foundations of Irish Culture</link>
       <canonical corresp="#mcgurk">McGurk, no. 121</canonical>
    </refs>
    <notes categories="#or-ire #sc-ire">

@@ -105,7 +105,7 @@
    <identifier libraryID="vienna">
       <shelfmark>Lat. 15298</shelfmark>
       <shelfmark_indexer>Lat. 15298</shelfmark_indexer>
-      <link type="images">http://data.onb.ac.at/dtl/8650790</link>
+      <link type="images">https://data.onb.ac.at/dtl/8650790</link>
    </identifier>
    <description>
       <type />
@@ -126,7 +126,7 @@
    <refs>
       <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/234"><i>CLA</i> 10.1511</canonical>
       <canonical href="https://www.trismegistos.org/text/67698">TM 67698</canonical>
-      <link href="http://foundationsirishculture.ie/record/?id=63">Foundations of Irish Culture</link>
+      <link href="https://foundationsirishculture.ie/record/?id=63">Foundations of Irish Culture</link>
       <bibl corresp="#thesaurus" href="https://archive.org/details/thesauruspalaeo02stok/page/31"><i>Thesaurus</i> II 31–37</bibl>
       <bibl corresp="#bronner">Bronner, p. 54</bibl>
    </refs>
@@ -139,7 +139,7 @@
    <identifier libraryID="vienna">
       <shelfmark>Lat. 940</shelfmark>
       <shelfmark_indexer>Lat. 00940</shelfmark_indexer>
-      <link type="images">http://data.onb.ac.at/dtl/5897339</link>
+      <link type="images">https://data.onb.ac.at/dtl/5897339</link>
    </identifier>
    <description>
       <type />
@@ -191,7 +191,7 @@
    <refs>
       <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/282"><i>CLA</i> 10.1557</canonical>
       <canonical href="https://www.trismegistos.org/text/67724">TM 67724</canonical>
-      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=64">Foundations of Irish Culture</link>
+      <link corresp="#foundations" href="https://foundationsirishculture.ie/record/?id=64">Foundations of Irish Culture</link>
    </refs>
    <notes categories="#or-ire #sc-ire">
    </notes>
@@ -229,7 +229,7 @@
 </manuscript><manuscript id="8">
    <identifier libraryID="cambrai">
       <shelfmark>679 (619)</shelfmark>
-      <link type="images">http://bvmm.irht.cnrs.fr/consult/consult.php?reproductionId=10419</link>
+      <link type="images">https://bvmm.irht.cnrs.fr/consult/consult.php?reproductionId=10419</link>
    </identifier>
    <description>
       <type />
@@ -284,7 +284,7 @@
       <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/1165"><i>CLA</i> 6.757</canonical>
       <canonical href="https://www.trismegistos.org/text/66927">TM 66927</canonical>
       <link href="https://bvmm.irht.cnrs.fr/consult/consult.php?reproductionId=1958">Images</link>
-      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=39">Foundations of Irish Culture</link>
+      <link corresp="#foundations" href="https://foundationsirishculture.ie/record/?id=39">Foundations of Irish Culture</link>
    </refs>
    <notes categories="#or-ire #sc-ire">
    </notes>
@@ -770,7 +770,7 @@
    <refs>
       <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/946"><i>CLA</i> 5.581</canonical>
       <canonical href="https://www.trismegistos.org/text/66712">TM 66712</canonical>
-      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=32">Foundations of Irish Culture</link>
+      <link corresp="#foundations" href="https://foundationsirishculture.ie/record/?id=32">Foundations of Irish Culture</link>
    </refs>
    <notes categories="#or-ins #sc-ins">
    </notes>
@@ -803,7 +803,7 @@
    <refs>
       <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/948"><i>CLA</i> 5.583</canonical>
       <canonical href="https://www.trismegistos.org/text/66714">TM 66714</canonical>
-      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=34">Foundations of Irish Culture</link>
+      <link corresp="#foundations" href="https://foundationsirishculture.ie/record/?id=34">Foundations of Irish Culture</link>
    </refs>
    <notes categories="#or-ire #sc-ire">
    </notes>
@@ -836,7 +836,7 @@
    <refs>
       <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/947"><i>CLA</i> 5.582</canonical>
       <canonical href="https://www.trismegistos.org/text/66713">TM 66713</canonical>
-      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=33">Foundations of Irish Culture</link>
+      <link corresp="#foundations" href="https://foundationsirishculture.ie/record/?id=33">Foundations of Irish Culture</link>
    </refs>
    <notes categories="#or-ire #sc-ire">
    </notes>
@@ -946,7 +946,7 @@
       <canonical corresp="#bkat">Bischoff, <i>Katalog</i>, no. 4639a</canonical>
       <bibl corresp="#thesaurus" href="https://archive.org/details/thesauruspalaeo02stok/page/42"><i>Thesaurus</i> II 42</bibl>
       <bibl corresp="#bronner">Bronner 2013: 42</bibl>
-      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=35">Foundations of Irish Culture</link>
+      <link corresp="#foundations" href="https://foundationsirishculture.ie/record/?id=35">Foundations of Irish Culture</link>
    </refs>
    <notes categories="#or-ire #sc-ire #vern">
       Old Irish glosses.
@@ -1014,7 +1014,7 @@
       <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/983"><i>CLA</i> 5.610</canonical>
       <canonical href="https://www.trismegistos.org/text/66778">TM 66778</canonical>
       <bibl corresp="#bronner">Bronner 2013: 43</bibl>
-      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=36">Foundations of Irish Culture</link>
+      <link corresp="#foundations" href="https://foundationsirishculture.ie/record/?id=36">Foundations of Irish Culture</link>
    </refs>
    <notes categories="#or-ire #sc-ire">
    </notes>
@@ -1080,7 +1080,7 @@
    <refs>
       <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/1019"><i>CLA</i> 5.642</canonical>
       <canonical href="https://www.trismegistos.org/text/66809">TM 66809</canonical>
-      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=37">Foundations of Irish Culture</link>
+      <link corresp="#foundations" href="https://foundationsirishculture.ie/record/?id=37">Foundations of Irish Culture</link>
    </refs>
    <notes categories="#or-ire #sc-ire">
    </notes>
@@ -1154,7 +1154,7 @@
 </manuscript><manuscript id="37">
    <identifier libraryID="paris_arsenal">
       <shelfmark>8407</shelfmark>
-      <link type="images">http://gallica.bnf.fr/ark:/12148/btv1b550008210</link>
+      <link type="images">https://gallica.bnf.fr/ark:/12148/btv1b550008210</link>
       <link type="iiif">https://gallica.bnf.fr/iiif/ark:/12148/btv1b550008210/manifest.json</link>
    </identifier>
    <description>
@@ -1189,7 +1189,7 @@
    </identifier>
    <identifier unit="2" libraryID="vatican">
       <shelfmark>Reg. Lat. 596 (f. 9)</shelfmark>
-      <link type="images">http://digi.vatlib.it/view/MSS_Reg.lat.596</link>
+      <link type="images">https://digi.vatlib.it/view/MSS_Reg.lat.596</link>
       <link type="iiif" index="25">https://digi.vatlib.it/iiif/MSS_Reg.lat.596/manifest.json</link>
    </identifier>
    <description>
@@ -1218,7 +1218,7 @@
 </manuscript><manuscript id="39">
    <identifier libraryID="paris_arsenal">
       <shelfmark>237 (ff 1–184)</shelfmark>
-      <link type="images">http://gallica.bnf.fr/ark:/12148/btv1b7100626f</link>
+      <link type="images">https://gallica.bnf.fr/ark:/12148/btv1b7100626f</link>
       <link type="iiif">https://gallica.bnf.fr/iiif/ark:/12148/btv1b7100626f/manifest.json</link>
    </identifier>
    <description>
@@ -1301,7 +1301,7 @@
       <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/1243"><i>CLA</i> 6.828</canonical>
       <canonical href="https://www.trismegistos.org/text/67608">TM 67608</canonical>
       <bibl corresp="#bronner">Bronner 2013: 45</bibl>
-      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=41">Foundations of Irish Culture</link>
+      <link corresp="#foundations" href="https://foundationsirishculture.ie/record/?id=41">Foundations of Irish Culture</link>
    </refs>
    <notes categories="#or-ins #sc-ins #vern">
       Old Irish glosses. Flyleaf to 10th century MS.
@@ -1486,7 +1486,7 @@
    <identifier libraryID="dresden">
       <shelfmark>A.145.b</shelfmark>
       <ms_name>Codex Boernerianus</ms_name>
-      <link type="images">http://digital.slub-dresden.de/id274591448</link>
+      <link type="images">https://digital.slub-dresden.de/id274591448</link>
       <link type="iiif">https://iiif.slub-dresden.de/iiif/2/274591448/manifest.json</link>
    </identifier>
    <description>
@@ -1547,7 +1547,7 @@
    </identifier>
    <identifier unit="2" libraryID="columbia">
       <shelfmark>Plimpton Collection 54</shelfmark>
-      <link type="images"> http://ds.lib.berkeley.edu/PlimptonMS054_20</link>
+      <link type="images"> https://ds.lib.berkeley.edu/PlimptonMS054_20</link>
    </identifier>
    <identifier unit="3" libraryID="werden">
       <shelfmark>Fragm. Nr. 1</shelfmark>
@@ -1650,7 +1650,7 @@
    <identifier libraryID="karlsruhe">
       <shelfmark>Aug. perg. 18</shelfmark>
       <shelfmark_indexer>Aug. perg. 0018</shelfmark_indexer>
-      <link type="images">http://digital.blb-karlsruhe.de/id/20869</link>
+      <link type="images">https://digital.blb-karlsruhe.de/id/20869</link>
       <link type="iiif">https://digital.blb-karlsruhe.de/i3f/v20/20869/manifest</link>
    </identifier>
    <description>
@@ -1702,7 +1702,7 @@
    <refs>
       <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/1549"><i>CLA</i> 8.1083</canonical>
       <canonical href="https://www.trismegistos.org/text/67223">TM 67223</canonical>
-      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=59">Foundations of Irish Culture</link>
+      <link corresp="#foundations" href="https://foundationsirishculture.ie/record/?id=59">Foundations of Irish Culture</link>
    </refs>
    <notes categories="#or-ire #sc-ire">
       Rewritten with Priscian (<ms id="56">MIrA 56</ms>).
@@ -1735,7 +1735,7 @@
    <refs>
       <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/1550"><i>CLA</i> 8.1084</canonical>
       <canonical href="https://www.trismegistos.org/text/67224">TM 67224</canonical>
-      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=60">Foundations of Irish Culture</link>
+      <link corresp="#foundations" href="https://foundationsirishculture.ie/record/?id=60">Foundations of Irish Culture</link>
    </refs>
    <notes categories="#or-ire #sc-ire">
       Rewritten with Priscian (<ms id="56">MIrA 56</ms>).
@@ -1863,10 +1863,10 @@
    <refs>
       <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/1551"><i>CLA</i> 8.1085</canonical>
       <canonical href="https://www.trismegistos.org/text/67225">TM 67225</canonical>
-      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=61">Foundations of Irish Culture</link>
+      <link corresp="#foundations" href="https://foundationsirishculture.ie/record/?id=61">Foundations of Irish Culture</link>
    </refs>
    <notes categories="#or-ire #sc-ire">
-      One of five palimpsested manuscripts, probably originating in Ireland, combined and rewritten with Bede (<ms id="60">MIrA 60</ms>). See foliation notes for <i>CLA</i> 8.1085 in the <a href="http://foundationsirishculture.ie/record/?id=61">Foundations of Irish Culture</a> catalogue. 
+      One of five palimpsested manuscripts, probably originating in Ireland, combined and rewritten with Bede (<ms id="60">MIrA 60</ms>). See foliation notes for <i>CLA</i> 8.1085 in the <a href="https://foundationsirishculture.ie/record/?id=61">Foundations of Irish Culture</a> catalogue. 
    </notes>
    <revisionDesc>
       <change who="Pádraic Moran" when="2021-05-01">Created</change>
@@ -1932,10 +1932,10 @@
       <provenance><place id="reichenau">Reichenau</place></provenance>
    </history>
    <refs>
-      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=61">Foundations of Irish Culture</link>
+      <link corresp="#foundations" href="https://foundationsirishculture.ie/record/?id=61">Foundations of Irish Culture</link>
    </refs>
    <notes categories="#or-ire #sc-ire">
-      Rewritten with Bede and computistica (<ms id="60">MIrA 60</ms>). See foliation notes for <i>CLA</i> 8.1085 in the <a href="http://foundationsirishculture.ie/record/?id=61">Foundations of Irish Culture</a> catalogue. 
+      Rewritten with Bede and computistica (<ms id="60">MIrA 60</ms>). See foliation notes for <i>CLA</i> 8.1085 in the <a href="https://foundationsirishculture.ie/record/?id=61">Foundations of Irish Culture</a> catalogue. 
    </notes>
    <revisionDesc>
       <change who="Pádraic Moran" when="2021-05-01">Created</change>
@@ -1964,10 +1964,10 @@
    </history>
    <refs>
       <canonical corresp="#cla"><i>CLA</i> 8.1085</canonical>
-      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=61">Foundations of Irish Culture</link>
+      <link corresp="#foundations" href="https://foundationsirishculture.ie/record/?id=61">Foundations of Irish Culture</link>
    </refs>
    <notes categories="#or-ire #sc-ire">
-      Rewritten with Bede and computistica (<ms id="60">MIrA 60</ms>). See foliation notes for <i>CLA</i> 8.1085 in the <a href="http://foundationsirishculture.ie/record/?id=61">Foundations of Irish Culture</a> catalogue. 
+      Rewritten with Bede and computistica (<ms id="60">MIrA 60</ms>). See foliation notes for <i>CLA</i> 8.1085 in the <a href="https://foundationsirishculture.ie/record/?id=61">Foundations of Irish Culture</a> catalogue. 
    </notes>
    <revisionDesc>
       <change who="Pádraic Moran" when="2021-05-01">Created</change>
@@ -1996,10 +1996,10 @@
    </history>
    <refs>
       <canonical corresp="#cla"><i>CLA</i> 8.1085</canonical>
-      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=61">Foundations of Irish Culture</link>
+      <link corresp="#foundations" href="https://foundationsirishculture.ie/record/?id=61">Foundations of Irish Culture</link>
    </refs>
    <notes categories="#or-ire #sc-ire">
-      Rewritten with Bede and computistica (<ms id="60">MIrA 60</ms>). See foliation notes for <i>CLA</i> 8.1085 in the <a href="http://foundationsirishculture.ie/record/?id=61">Foundations of Irish Culture</a> catalogue. 
+      Rewritten with Bede and computistica (<ms id="60">MIrA 60</ms>). See foliation notes for <i>CLA</i> 8.1085 in the <a href="https://foundationsirishculture.ie/record/?id=61">Foundations of Irish Culture</a> catalogue. 
    </notes>
    <revisionDesc>
       <change who="Pádraic Moran" when="2021-05-01">Created</change>
@@ -2029,7 +2029,7 @@
       <canonical corresp="#cla"><i>CLA</i> 8.1085</canonical>
    </refs>
    <notes categories="#or-ire #sc-ire">
-      Rewritten with Bede and computistica (<ms id="60">MIrA 60</ms>). See foliation notes for <i>CLA</i> 8.1085 in the <a href="http://foundationsirishculture.ie/record/?id=61">Foundations of Irish Culture</a> catalogue. 
+      Rewritten with Bede and computistica (<ms id="60">MIrA 60</ms>). See foliation notes for <i>CLA</i> 8.1085 in the <a href="https://foundationsirishculture.ie/record/?id=61">Foundations of Irish Culture</a> catalogue. 
    </notes>
    <revisionDesc>
       <change who="Pádraic Moran" when="2021-05-01">Created</change>
@@ -2399,7 +2399,7 @@
 </manuscript><manuscript id="76">
    <identifier libraryID="kassel">
       <shelfmark>Theol. fol. 22</shelfmark>
-      <link type="images">http://orka.bibliothek.uni-kassel.de/viewer/image/1328187128694/1/</link>
+      <link type="images">https://orka.bibliothek.uni-kassel.de/viewer/image/1328187128694/1/</link>
    </identifier>
    <description>
       <type />
@@ -2521,7 +2521,7 @@
    <identifier libraryID="munich">
       <shelfmark>Clm 6302</shelfmark>
       <shelfmark_indexer>Clm 06302</shelfmark_indexer>
-      <link type="images">http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00047253-2</link>
+      <link type="images">https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00047253-2</link>
       <link type="iiif">https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00047253/manifest</link>
    </identifier>
    <description>
@@ -2875,7 +2875,7 @@
       <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/2103"><i>CLA</i> S.1797</canonical>
       <canonical href="https://www.trismegistos.org/text/67923">TM 67923</canonical>
       <bibl corresp="#bssb">Bischoff, <i>SSB</i>, 2.247</bibl>
-      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=71">Foundations of Irish Culture</link>
+      <link corresp="#foundations" href="https://foundationsirishculture.ie/record/?id=71">Foundations of Irish Culture</link>
    </refs>
    <notes categories="#or-ire #sc-ire">
       Formerly part of binding of Clm 14747 (10th century).
@@ -2916,7 +2916,7 @@
    <identifier libraryID="wurzburg">
       <shelfmark>M.p.misc.f.28</shelfmark>
       <shelfmark_indexer>1</shelfmark_indexer>
-      <link type="images">http://vb.uni-wuerzburg.de/ub/mpmiscf28/pages/mpmiscf28/1.html</link>
+      <link type="images">https://vb.uni-wuerzburg.de/ub/mpmiscf28/pages/mpmiscf28/1.html</link>
    </identifier>
    <description>
       <type>Binding fragments</type>
@@ -2950,7 +2950,7 @@
       <shelfmark>M.p.th.f.12</shelfmark>
       <shelfmark_indexer>M.p.th.f.012</shelfmark_indexer>
       <ms_name>Würzburg Glosses</ms_name>
-      <link type="images">http://vb.uni-wuerzburg.de/ub/permalink/mpthf12</link>
+      <link type="images">https://vb.uni-wuerzburg.de/ub/permalink/mpthf12</link>
    </identifier>
    <description>
       <type />
@@ -2985,7 +2985,7 @@
    <identifier libraryID="wurzburg">
       <shelfmark>M.p.th.f.61 (ff 21, 24) [palimpsest old]</shelfmark>
       <shelfmark_indexer>M.p.th.f.061 (021)</shelfmark_indexer>
-      <link type="images">http://vb.uni-wuerzburg.de/ub/permalink/mpthf61</link>
+      <link type="images">https://vb.uni-wuerzburg.de/ub/permalink/mpthf61</link>
    </identifier>
    <description>
       <type />
@@ -3017,7 +3017,7 @@
    <identifier libraryID="wurzburg">
       <shelfmark>M.p.th.f.61 [palimpsest new]</shelfmark>
       <shelfmark_indexer>M.p.th.f.061</shelfmark_indexer>
-      <link type="images">http://vb.uni-wuerzburg.de/ub/permalink/mpthf61</link>
+      <link type="images">https://vb.uni-wuerzburg.de/ub/permalink/mpthf61</link>
    </identifier>
    <description>
       <type />
@@ -3052,7 +3052,7 @@
    <identifier libraryID="wurzburg">
       <shelfmark>M.p.th.f.183 (flyleaf)</shelfmark>
       <shelfmark_indexer>M.p.th.f.183</shelfmark_indexer>
-      <link type="images">http://vb.uni-wuerzburg.de/ub/permalink/mpthf183</link>
+      <link type="images">https://vb.uni-wuerzburg.de/ub/permalink/mpthf183</link>
    </identifier>
    <description>
       <type>Flyleaf</type>
@@ -3630,9 +3630,9 @@
       <canonical corresp="#bkat">Bischoff, <i>Katalog</i>, no. 1212a</canonical>
       <canonical href="https://www.trismegistos.org/text/754918">TM 754918</canonical>
       <canonical href="https://www.trismegistos.org/text/66103">TM 66103</canonical>
-      <link href="http://digi.vatlib.it/view/MSS_Vat.lat.491">Images (Vat. Lat. 491)</link>
+      <link href="https://digi.vatlib.it/view/MSS_Vat.lat.491">Images (Vat. Lat. 491)</link>
       <link href="https://opac.vatlib.it/mss/detail/Vat.lat.491">Bibliography on library website</link>
-      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=2">Foundations of Irish Culture</link>
+      <link corresp="#foundations" href="https://foundationsirishculture.ie/record/?id=2">Foundations of Irish Culture</link>
       <bibl corresp="#vattasso_1902">Vattasso &amp; Franchi De' Cavalieri 1902: 371–372</bibl>
       <bibl corresp="#chisholm_1980">Chisholm 1980: 5–6</bibl>
    </refs>
@@ -3653,7 +3653,7 @@
 </manuscript><manuscript id="113">
    <identifier libraryID="florence">
       <shelfmark>Plut. 45.14</shelfmark>
-      <link type="images">http://teca.bmlonline.it/ImageViewer/servlet/ImageViewer?idr=TECA0000624876</link>
+      <link type="images">https://teca.bmlonline.it/ImageViewer/servlet/ImageViewer?idr=TECA0000624876</link>
    </identifier>
    <description>
       <type />
@@ -3742,7 +3742,7 @@
       <canonical href="https://www.trismegistos.org/text/66408">TM 66408</canonical>
       <bibl corresp="#thesaurus" href="https://archive.org/details/thesauruspalaeo02stok/page/"><i>Thesaurus</i> II xxxii</bibl>
       <bibl corresp="#bronner">Bronner 2013: 27</bibl>
-      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=7">Foundations of Irish Culture</link>
+      <link corresp="#foundations" href="https://foundationsirishculture.ie/record/?id=7">Foundations of Irish Culture</link>
    </refs>
    <notes categories="#or-ire #sc-ire">
    </notes>
@@ -3773,7 +3773,7 @@
    <refs>
       <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/649"><i>CLA</i> 3.312</canonical>
       <canonical href="https://www.trismegistos.org/text/66409">TM 66409</canonical>
-      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=8">Foundations of Irish Culture</link>
+      <link corresp="#foundations" href="https://foundationsirishculture.ie/record/?id=8">Foundations of Irish Culture</link>
    </refs>
    <notes categories="#sc-ire">
       Similar to Bobbio Orosius.
@@ -3868,7 +3868,7 @@
       <canonical href="https://www.trismegistos.org/text/66423">TM 66423</canonical>
       <bibl corresp="#thesaurus" href="https://archive.org/details/thesauruspalaeo01stok/page/7"><i>Thesaurus</i> I 7–483</bibl>
       <bibl corresp="#bronner">Bronner 2013: 27–28</bibl>
-      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=9">Foundations of Irish Culture</link>
+      <link corresp="#foundations" href="https://foundationsirishculture.ie/record/?id=9">Foundations of Irish Culture</link>
    <canonical corresp="#alexander">Alexander, no. 62</canonical></refs>
    <notes categories="#or-ire #sc-ire #scribe #vern">
       Old Irish glosses. Scribe Diarmait.
@@ -3901,7 +3901,7 @@
    <refs>
       <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/663"><i>CLA</i> 3.327</canonical>
       <canonical href="https://www.trismegistos.org/text/66424">TM 66424</canonical>
-      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=10">Foundations of Irish Culture</link>
+      <link corresp="#foundations" href="https://foundationsirishculture.ie/record/?id=10">Foundations of Irish Culture</link>
    </refs>
    <notes categories="#sc-ire">
    </notes>
@@ -3934,7 +3934,7 @@
    <refs>
       <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/664"><i>CLA</i> 3.328</canonical>
       <canonical href="https://www.trismegistos.org/text/66425">TM 66425</canonical>
-      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=11">Foundations of Irish Culture</link>
+      <link corresp="#foundations" href="https://foundationsirishculture.ie/record/?id=11">Foundations of Irish Culture</link>
    </refs>
    <notes categories="#sc-ire">
    </notes>
@@ -3967,7 +3967,7 @@
       <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/665"><i>CLA</i> 3.329</canonical>
       <canonical corresp="#alexander">Alexander, no. 3</canonical>
       <canonical href="https://www.trismegistos.org/text/66426">TM 66426</canonical>
-      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=12">Foundations of Irish Culture</link>
+      <link corresp="#foundations" href="https://foundationsirishculture.ie/record/?id=12">Foundations of Irish Culture</link>
    </refs>
    <notes categories="#or-ire #sc-ire">
       Fly leaves to <ms id="121">Bobbio Orosius</ms>.
@@ -4090,7 +4090,7 @@
       <canonical href="https://www.trismegistos.org/text/66436">TM 66436</canonical>
       <bibl corresp="#thesaurus" href="https://archive.org/details/thesauruspalaeo02stok/page/234"><i>Thesaurus</i> II 234, 2.500</bibl>
       <bibl corresp="#bronner">Bronner 2013: 28–29</bibl>
-      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=13">Foundations of Irish Culture</link>
+      <link corresp="#foundations" href="https://foundationsirishculture.ie/record/?id=13">Foundations of Irish Culture</link>
    </refs>
    <notes categories="#or-ire #sc-ire #vern">
       Composite manuscript in four parts (77 folios total): a) 1–46, 58–77; 
@@ -4126,7 +4126,7 @@
       <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/673"><i>CLA</i> 3.337</canonical>
       <canonical href="https://www.trismegistos.org/text/66437">TM 66437</canonical>
       <bibl corresp="#bronner">Bronner 2013: 29–30</bibl>
-      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=14">Foundations of Irish Culture</link>
+      <link corresp="#foundations" href="https://foundationsirishculture.ie/record/?id=14">Foundations of Irish Culture</link>
    </refs>
    <notes categories="#sc-ire">
       Composite manuscript in four parts (77 folios total): a) <ms id="126">1–46, 58–77</ms>; 
@@ -4161,7 +4161,7 @@
    <refs>
       <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/675"><i>CLA</i> 3.339</canonical>
       <canonical href="https://www.trismegistos.org/text/66439">TM 66439</canonical>
-      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=15">Foundations of Irish Culture</link>
+      <link corresp="#foundations" href="https://foundationsirishculture.ie/record/?id=15">Foundations of Irish Culture</link>
    </refs>
    <notes categories="#sc-ire">
       Composite manuscript in four parts (77 folios total): a) <ms id="126">1–46, 58–77</ms>; 
@@ -4196,7 +4196,7 @@
    <refs>
       <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/676"><i>CLA</i> 3.340</canonical>
       <canonical href="https://www.trismegistos.org/text/66440">TM 66440</canonical>
-      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=16">Foundations of Irish Culture</link>
+      <link corresp="#foundations" href="https://foundationsirishculture.ie/record/?id=16">Foundations of Irish Culture</link>
    </refs>
    <notes categories="#sc-ire">
       Composite manuscript in four parts (77 folios total): a) <ms id="126">1–46, 58–77</ms>; 
@@ -4257,7 +4257,7 @@
    <refs>
       <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/682"><i>CLA</i> 3.344b</canonical>
       <canonical href="https://www.trismegistos.org/text/66446">TM 66446</canonical>
-      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=17">Foundations of Irish Culture</link>
+      <link corresp="#foundations" href="https://foundationsirishculture.ie/record/?id=17">Foundations of Irish Culture</link>
    </refs>
    <notes categories="#misc">
       Text replaced in uncial, half-uncial, and Irish majuscule.
@@ -4289,7 +4289,7 @@
    <refs>
       <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/688"><i>CLA</i> 3.350</canonical>
       <canonical href="https://www.trismegistos.org/text/66451">TM 66451</canonical>
-      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=18">Foundations of Irish Culture</link>
+      <link corresp="#foundations" href="https://foundationsirishculture.ie/record/?id=18">Foundations of Irish Culture</link>
       <canonical corresp="#mcgurk">McGurk, no. 96</canonical>
    </refs>
    <notes categories="#sc-ire">
@@ -4334,7 +4334,7 @@
       <canonical href="https://www.trismegistos.org/text/67874">TM 67874</canonical>
       <bibl corresp="#thesaurus" href="https://archive.org/details/thesauruspalaeo02stok/page/39"><i>Thesaurus</i> II 39–41</bibl>
       <bibl corresp="#bronner">Bronner 2013: 8</bibl>
-      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=68">Foundations of Irish Culture</link>
+      <link corresp="#foundations" href="https://foundationsirishculture.ie/record/?id=68">Foundations of Irish Culture</link>
    </refs>
    <notes categories="#or-ire #sc-ire #vern">
       Latin &amp; Old Irish glosses (Vat.). Reused for binding at Bobbio. Heavily glossed.
@@ -4424,7 +4424,7 @@
    <refs>
       <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/693"><i>CLA</i> 3.355</canonical>
       <canonical href="https://www.trismegistos.org/text/66457">TM 66457</canonical>
-      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=19">Foundations of Irish Culture</link>
+      <link corresp="#foundations" href="https://foundationsirishculture.ie/record/?id=19">Foundations of Irish Culture</link>
    </refs>
    <notes categories="#or-ire #sc-ire">
    </notes>
@@ -4455,7 +4455,7 @@
    <refs>
       <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/699"><i>CLA</i> 3.361</canonical>
       <canonical href="https://www.trismegistos.org/text/66463">TM 66463</canonical>
-      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=20">Foundations of Irish Culture</link>
+      <link corresp="#foundations" href="https://foundationsirishculture.ie/record/?id=20">Foundations of Irish Culture</link>
    </refs>
    <notes categories="#sc-ire">
    </notes>
@@ -4498,7 +4498,7 @@
    <identifier unit="2" libraryID="vienna">
       <shelfmark>Lat. 954 [palimpsest new]</shelfmark>
       <shelfmark_indexer>Lat. 00954</shelfmark_indexer>
-      <link type="images">http://data.onb.ac.at/dtl/4412610"</link>
+      <link type="images">https://data.onb.ac.at/dtl/4412610"</link>
       <link type="iiif">https://api.onb.ac.at/iiif/presentation/v3/manifest/10044B14</link>
    </identifier>
    <description>
@@ -4520,7 +4520,7 @@
    <refs>
       <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/211"><i>CLA</i> 10.1492</canonical>
       <canonical href="https://www.trismegistos.org/text/67679">TM 67679</canonical>
-      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=62">Foundations of Irish Culture</link>
+      <link corresp="#foundations" href="https://foundationsirishculture.ie/record/?id=62">Foundations of Irish Culture</link>
    </refs>
    <notes categories="#sc-ire">
       Irish minuscule (ff 1–11v) &amp; Italian cursive minuscule (ff 13v–15). Same Irish hand as one of scribes of Naples, Lat. 2 (ff 42*–75).
@@ -4581,7 +4581,7 @@
    <refs>
       <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/729"><i>CLA</i> 3.391</canonical>
       <canonical href="https://www.trismegistos.org/text/66492">TM 66492</canonical>
-      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=21">Foundations of Irish Culture</link>
+      <link corresp="#foundations" href="https://foundationsirishculture.ie/record/?id=21">Foundations of Irish Culture</link>
    </refs>
    <notes categories="#sc-ire">
    </notes>
@@ -4614,7 +4614,7 @@
       <canonical href="https://www.trismegistos.org/text/66497">TM 66497</canonical>
       <bibl corresp="#thesaurus" href="https://archive.org/details/thesauruspalaeo02stok/page/42"><i>Thesaurus</i> II 42</bibl>
       <bibl corresp="#bronner">Bronner 2013: 36</bibl>
-      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=22">Foundations of Irish Culture</link>
+      <link corresp="#foundations" href="https://foundationsirishculture.ie/record/?id=22">Foundations of Irish Culture</link>
    </refs>
    <notes categories="#sc-ire #vern">
       Formerly Vienna, Hofbibliothek, 16. Old Irish glosses. 
@@ -4645,7 +4645,7 @@
       <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/738"><i>CLA</i> 3.400</canonical>
       <canonical href="https://www.trismegistos.org/text/66504">TM 66504</canonical>
       <bibl corresp="#bronner">Bronner 2013: 37</bibl>
-      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=2489">Foundations of Irish Culture</link>
+      <link corresp="#foundations" href="https://foundationsirishculture.ie/record/?id=2489">Foundations of Irish Culture</link>
    </refs>
    <notes categories="#sc-ire #vern">
       1 Old Irish gloss f. 33.
@@ -4675,7 +4675,7 @@
    <refs>
       <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/735"><i>CLA</i> 3.397b</canonical>
       <canonical href="https://www.trismegistos.org/text/66502">TM 66502</canonical>
-      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=23">Foundations of Irish Culture</link>
+      <link corresp="#foundations" href="https://foundationsirishculture.ie/record/?id=23">Foundations of Irish Culture</link>
    </refs>
    <notes categories="#sc-ire">
    </notes>
@@ -4734,7 +4734,7 @@
    <refs>
       <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/2046"><i>CLA</i> S.1741</canonical>
       <canonical href="https://www.trismegistos.org/text/67879">TM 67879</canonical>
-      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=69">Foundations of Irish Culture</link>
+      <link corresp="#foundations" href="https://foundationsirishculture.ie/record/?id=69">Foundations of Irish Culture</link>
    </refs>
    <notes categories="#sc-ire">
    </notes>
@@ -4792,7 +4792,7 @@
    <refs>
       <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/788"><i>CLA</i> 4.441</canonical>
       <canonical href="https://www.trismegistos.org/text/66547">TM 66547</canonical>
-      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=25">Foundations of Irish Culture</link>
+      <link corresp="#foundations" href="https://foundationsirishculture.ie/record/?id=25">Foundations of Irish Culture</link>
    </refs>
    <notes categories="#sc-ire">
       Destroyed by fire 1904.
@@ -4881,7 +4881,7 @@
       <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/800"><i>CLA</i> 4.452</canonical>
       <canonical href="https://www.trismegistos.org/text/66559">TM 66559</canonical>
       <canonical corresp="#bkat">Bischoff, <i>Katalog</i>, no. vol. 3, p. 389 (excluded)</canonical>
-      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=26">Foundations of Irish Culture</link>
+      <link corresp="#foundations" href="https://foundationsirishculture.ie/record/?id=26">Foundations of Irish Culture</link>
    </refs>
    <notes categories="#sc-ire">
       Dimensions 23–27 × 17–21 cm (now shrunk to 22.2 × 16 cm); 38–59 lines per page.
@@ -4917,7 +4917,7 @@
       <canonical href="https://www.trismegistos.org/text/66561">TM 66561</canonical>
       <bibl corresp="#thesaurus" href="https://archive.org/details/thesauruspalaeo02stok/page/365"><i>Thesaurus</i> II 365</bibl>
       <bibl corresp="#bronner">Bronner 2013: 51–52</bibl>
-      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=28">Foundations of Irish Culture</link>
+      <link corresp="#foundations" href="https://foundationsirishculture.ie/record/?id=28">Foundations of Irish Culture</link>
    </refs>
    <notes categories="#or-ire #sc-ire #vern">
       Irish rubric. Text similar to <ms id="115">Bangor Antiphonary</ms>. 
@@ -4951,7 +4951,7 @@
       <canonical href="https://www.trismegistos.org/text/66564">TM 66564</canonical>
       <bibl corresp="#thesaurus" href="https://archive.org/details/thesauruspalaeo01stok/page/713"><i>Thesaurus</i> I 713–714</bibl>
       <bibl corresp="#bronner">Bronner 2013: 52</bibl>
-      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=29">Foundations of Irish Culture</link>
+      <link corresp="#foundations" href="https://foundationsirishculture.ie/record/?id=29">Foundations of Irish Culture</link>
    </refs>
    <notes categories="#or-ire #sc-ire #vern">
       Latin &amp; Old Irish glosses. Rewritten in <place id="bobbio">Bobbio</place>, s. XI. Glosses very archaic.
@@ -4983,7 +4983,7 @@
    <refs>
       <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/812"><i>CLA</i> 4.466</canonical>
       <canonical href="https://www.trismegistos.org/text/66573">TM 66573</canonical>
-      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=30">Foundations of Irish Culture</link>
+      <link corresp="#foundations" href="https://foundationsirishculture.ie/record/?id=30">Foundations of Irish Culture</link>
       <canonical corresp="#alexander">Alexander, no. 61</canonical>
       <canonical corresp="#mcgurk">McGurk, no. 107</canonical>
    </refs>
@@ -5019,7 +5019,7 @@
       <canonical href="https://www.trismegistos.org/text/66560">TM 66560</canonical>
       <bibl corresp="#thesaurus" href="https://archive.org/details/thesauruspalaeo01stok/page/484"><i>Thesaurus</i> I 484–494</bibl>
       <bibl corresp="#bronner">Bronner 2013: 51</bibl>
-      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=27">Foundations of Irish Culture</link>
+      <link corresp="#foundations" href="https://foundationsirishculture.ie/record/?id=27">Foundations of Irish Culture</link>
    </refs>
    <notes categories="#or-ire #sc-ire #vern">
       Old Irish glosses. Perhaps same centre as Milan C 301 inf.; glosses written on Continent (<place id="auxerre">Auxerre</place>)?
@@ -5093,7 +5093,7 @@
    <identifier libraryID="leiden">
       <shelfmark>BPL 67D (ff 13–14) [palimpsest old]</shelfmark>
       <shelfmark_indexer>BPL 0067D (013)</shelfmark_indexer>
-      <link type="images">http://hdl.handle.net/1887.1/item:882931</link>
+      <link type="images">https://hdl.handle.net/1887.1/item:882931</link>
       <link type="iiif" index="21">https://digitalcollections.universiteitleiden.nl/iiif_manifest/item:882931/manifest</link>
    </identifier>
    <description>
@@ -5114,7 +5114,7 @@
       <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/301"><i>CLA</i> 10.1574</canonical>
       <canonical href="https://www.trismegistos.org/text/67740">TM 67740</canonical>
       <canonical corresp="#bkat">Bischoff, <i>Katalog</i>, no. 2140</canonical>
-      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=65">Foundations of Irish Culture</link>
+      <link corresp="#foundations" href="https://foundationsirishculture.ie/record/?id=65">Foundations of Irish Culture</link>
    </refs>
    <notes categories="#or-ire #sc-ire">
       <i>CLA</i>: "Rewritten in a French scriptorium with Irish connections."
@@ -5127,7 +5127,7 @@
       <shelfmark>BPL 67</shelfmark>
       <shelfmark_indexer>BPL 0067</shelfmark_indexer>
       <ms_name>Leiden Priscian</ms_name>
-      <link type="images">http://hdl.handle.net/1887.1/item:1603880</link>
+      <link type="images">https://hdl.handle.net/1887.1/item:1603880</link>
       <link type="iiif">https://digitalcollections.universiteitleiden.nl/iiif_manifest/item:1603880/manifest</link>
    </identifier>
    <description>
@@ -5161,7 +5161,7 @@
    <identifier libraryID="leiden">
       <shelfmark>BPL 67D [palimpsest new]</shelfmark>
       <shelfmark_indexer>BPL 0067D</shelfmark_indexer>
-      <link type="images">http://hdl.handle.net/1887.1/item:882931</link>
+      <link type="images">https://hdl.handle.net/1887.1/item:882931</link>
       <link type="iiif">https://digitalcollections.universiteitleiden.nl/iiif_manifest/item:882931/manifest</link>
    </identifier>
    <description>
@@ -5191,7 +5191,7 @@
    <identifier libraryID="leiden">
       <shelfmark>BPL 88 (ff 168–181)</shelfmark>
       <shelfmark_indexer>BPL 0088</shelfmark_indexer>
-      <link type="images">http://hdl.handle.net/1887.1/item:2028417</link>
+      <link type="images">https://hdl.handle.net/1887.1/item:2028417</link>
       <link type="iiif">https://digitalcollections.universiteitleiden.nl/iiif_manifest/item:2028417/manifest</link>
    </identifier>
    <description>
@@ -5222,7 +5222,7 @@
       <shelfmark>BPL 135 (ff 87–112)</shelfmark>
       <shelfmark_indexer>BPL 0135</shelfmark_indexer>
       <ms_name>Codex Burmannianus</ms_name>
-      <link type="images">http://hdl.handle.net/1887.1/item:1616565</link>
+      <link type="images">https://hdl.handle.net/1887.1/item:1616565</link>
       <link type="iiif">https://digitalcollections.universiteitleiden.nl/iiif_manifest/item:1616565/manifest</link>
    </identifier>
    <description>
@@ -5255,7 +5255,7 @@
    <identifier libraryID="leiden">
       <shelfmark>BPL 2391 a</shelfmark>
       <shelfmark_indexer>BPL 2391a</shelfmark_indexer>
-      <link type="images">http://hdl.handle.net/1887.1/item:761096</link>
+      <link type="images">https://hdl.handle.net/1887.1/item:761096</link>
       <link type="iiif">https://digitalcollections.universiteitleiden.nl/iiif_manifest/item:761096/manifest</link>
    </identifier>
    <description>
@@ -5324,7 +5324,7 @@
    </identifier>
    <identifier unit="3" libraryID="paris_bnf">
       <shelfmark>N.A.L. 1630 (ff 14–16)</shelfmark>
-      <link type="images">http://gallica.bnf.fr/ark:/12148/btv1b10546494c</link>
+      <link type="images">https://gallica.bnf.fr/ark:/12148/btv1b10546494c</link>
       <link type="iiif" index="36">https://gallica.bnf.fr/iiif/ark:/12148/btv1b10546494c/manifest.json</link>
    </identifier>
    <description>
@@ -5438,7 +5438,7 @@
 </manuscript><manuscript id="169">
    <identifier libraryID="basel">
       <shelfmark>F III 15d</shelfmark>
-      <link type="iiif">http://www.e-codices.unifr.ch/metadata/iiif/ubb-F-III-0015d/manifest.json</link>
+      <link type="iiif">https://www.e-codices.unifr.ch/metadata/iiif/ubb-F-III-0015d/manifest.json</link>
    </identifier>
    <description>
       <type />
@@ -5483,9 +5483,9 @@
    <refs>
       <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/1300"><i>CLA</i> 7.847</canonical>
       <canonical href="https://www.trismegistos.org/text/66986">TM 66986</canonical>
-      <link href="http://dx.doi.org/10.5076/e-codices-ubb-F-III-0015d">Online catalogue</link>
-      <link href="http://www.e-codices.unifr.ch/en/ubb/F-III-0015d">Images</link>
-      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=42">Foundations of Irish Culture</link>
+      <link href="https://dx.doi.org/10.5076/e-codices-ubb-F-III-0015d">Online catalogue</link>
+      <link href="https://www.e-codices.unifr.ch/en/ubb/F-III-0015d">Images</link>
+      <link corresp="#foundations" href="https://foundationsirishculture.ie/record/?id=42">Foundations of Irish Culture</link>
    </refs>
    <notes categories="#or-ire #sc-ire">
       Original Irish binding (parchment cover). Came to Basel during 16th century 
@@ -5525,8 +5525,8 @@
 </manuscript><manuscript id="171">
    <identifier libraryID="basel">
       <shelfmark>A VII 3</shelfmark>
-      <link type="images">http://www.e-codices.unifr.ch/en/ubb/A-VII-0003</link>
-      <link type="iiif">http://www.e-codices.unifr.ch/metadata/iiif/ubb-A-VII-0003/manifest.json</link>
+      <link type="images">https://www.e-codices.unifr.ch/en/ubb/A-VII-0003</link>
+      <link type="iiif">https://www.e-codices.unifr.ch/metadata/iiif/ubb-A-VII-0003/manifest.json</link>
    </identifier>
    <description>
       <type />
@@ -5584,13 +5584,13 @@
 </manuscript><manuscript id="173">
    <identifier unit="1" libraryID="bern">
       <shelfmark>207</shelfmark>
-      <link type="images">http://e-codices.ch/en/searchresult/list/one/bbb/0207</link>
-      <link type="iiif">http://www.e-codices.unifr.ch/metadata/iiif/bbb-0207/manifest.json</link>
+      <link type="images">https://e-codices.ch/en/searchresult/list/one/bbb/0207</link>
+      <link type="iiif">https://www.e-codices.unifr.ch/metadata/iiif/bbb-0207/manifest.json</link>
    </identifier>
    <identifier unit="2" libraryID="paris_bnf">
       <shelfmark>Lat. 7520 (ff 1–24)</shelfmark>
       <shelfmark_indexer>Lat. 07520 (001)</shelfmark_indexer>
-      <link type="images">http://gallica.bnf.fr/ark:/12148/btv1b84900632</link>
+      <link type="images">https://gallica.bnf.fr/ark:/12148/btv1b84900632</link>
       <link type="iiif">https://gallica.bnf.fr/iiif/ark:/12148/btv1b84900632/manifest.json</link>
    </identifier>
    <description>
@@ -5625,8 +5625,8 @@
 </manuscript><manuscript id="174">
    <identifier libraryID="bern">
       <shelfmark>224 (ff 3–226)</shelfmark>
-      <link type="images">http://e-codices.ch/en/searchresult/list/one/bbb/0224</link>
-      <link type="iiif" index="2">http://www.e-codices.unifr.ch/metadata/iiif/bbb-0224/manifest.json</link>
+      <link type="images">https://e-codices.ch/en/searchresult/list/one/bbb/0224</link>
+      <link type="iiif" index="2">https://www.e-codices.unifr.ch/metadata/iiif/bbb-0224/manifest.json</link>
    </identifier>
    <description>
       <type />
@@ -5654,8 +5654,8 @@
 </manuscript><manuscript id="175">
    <identifier libraryID="bern">
       <shelfmark>234 (ff 1–53)</shelfmark>
-      <link type="images">http://e-codices.ch/en/searchresult/list/one/bbb/0234</link>
-      <link type="iiif">http://www.e-codices.unifr.ch/metadata/iiif/bbb-0234/manifest.json</link>
+      <link type="images">https://e-codices.ch/en/searchresult/list/one/bbb/0234</link>
+      <link type="iiif">https://www.e-codices.unifr.ch/metadata/iiif/bbb-0234/manifest.json</link>
    </identifier>
    <description>
       <type />
@@ -5716,8 +5716,8 @@
 </manuscript><manuscript id="177">
    <identifier libraryID="einsiedeln">
       <shelfmark>191 (277)</shelfmark>
-      <link type="images">http://www.e-codices.unifr.ch/de/sbe/0191</link>
-      <link type="iiif">http://www.e-codices.unifr.ch/metadata/iiif/sbe-0191/manifest.json</link>
+      <link type="images">https://www.e-codices.unifr.ch/de/sbe/0191</link>
+      <link type="iiif">https://www.e-codices.unifr.ch/metadata/iiif/sbe-0191/manifest.json</link>
    </identifier>
    <description>
       <type />
@@ -5747,8 +5747,8 @@
 </manuscript><manuscript id="178">
    <identifier libraryID="einsiedeln">
       <shelfmark>321 (647) (ff 27–156)</shelfmark>
-      <link type="images">http://www.e-codices.unifr.ch/de/list/one/sbe/0321</link>
-      <link type="iiif">http://www.e-codices.unifr.ch/metadata/iiif/sbe-0321/manifest.json</link>
+      <link type="images">https://www.e-codices.unifr.ch/de/list/one/sbe/0321</link>
+      <link type="iiif">https://www.e-codices.unifr.ch/metadata/iiif/sbe-0321/manifest.json</link>
    </identifier>
    <description>
       <type />
@@ -5798,7 +5798,7 @@
    <refs>
       <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/1465"><i>CLA</i> 7.999</canonical>
       <canonical href="https://www.trismegistos.org/text/67144">TM 67144</canonical>
-      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=53">Foundations of Irish Culture</link>
+      <link corresp="#foundations" href="https://foundationsirishculture.ie/record/?id=53">Foundations of Irish Culture</link>
    </refs>
    <notes categories="#or-ire #sc-ire">
    </notes>
@@ -5809,8 +5809,8 @@
    <identifier libraryID="schaffhausen">
       <shelfmark>Gen. 1</shelfmark>
       <ms_name>Schaffhausen Adomnán</ms_name>
-      <link type="images">http://www.e-codices.unifr.ch/en/sbs/0001</link>
-      <link type="iiif">http://www.e-codices.unifr.ch/metadata/iiif/sbs-0001/manifest.json</link>
+      <link type="images">https://www.e-codices.unifr.ch/en/sbs/0001</link>
+      <link type="iiif">https://www.e-codices.unifr.ch/metadata/iiif/sbs-0001/manifest.json</link>
    </identifier>
    <description>
       <type />
@@ -5832,7 +5832,7 @@
    <refs>
       <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/1464"><i>CLA</i> 7.998</canonical>
       <canonical href="https://www.trismegistos.org/text/67143">TM 67143</canonical>
-      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=52">Foundations of Irish Culture</link>
+      <link corresp="#foundations" href="https://foundationsirishculture.ie/record/?id=52">Foundations of Irish Culture</link>
    </refs>
    <notes categories="#or-ire #sc-ire">
    </notes>
@@ -5842,8 +5842,8 @@
 </manuscript><manuscript id="181">
    <identifier libraryID="schaffhausen">
       <shelfmark>Min. 45 (ff 2–7, 10–15, 18–23, 34–41, 46, 47, 52, 54–58, 63–66, 70, 75) [palimpsest old]</shelfmark>
-      <link type="images">http://www.e-codices.unifr.ch/en/sbs/min0045</link>
-      <link type="iiif">http://www.e-codices.unifr.ch/metadata/iiif/sbs-min0045/manifest.json</link>
+      <link type="images">https://www.e-codices.unifr.ch/en/sbs/min0045</link>
+      <link type="iiif">https://www.e-codices.unifr.ch/metadata/iiif/sbs-min0045/manifest.json</link>
    </identifier>
    <description>
       <type />
@@ -5862,7 +5862,7 @@
    <refs>
       <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/1271"><i>CLA</i> 7.1000</canonical>
       <canonical href="https://www.trismegistos.org/text/67145">TM 67145</canonical>
-      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=54">Foundations of Irish Culture</link>
+      <link corresp="#foundations" href="https://foundationsirishculture.ie/record/?id=54">Foundations of Irish Culture</link>
    </refs>
    <notes categories="#sc-ire">
       From <i>CLA</i>: "most likely by an Irish hand". "Verses 21 and 27 f. of Lc 23 are clearly decipherable on fol. 18." "Used for rewriting in the late eleventh century, apparently in the monastery of Allerheiligen at Schaffhausen." 
@@ -5873,8 +5873,8 @@
 </manuscript><manuscript id="182">
    <identifier libraryID="schaffhausen">
       <shelfmark>Min. 45 (ff 44, 45, 48, 49) [palimpsest old   ]</shelfmark>
-      <link type="images">http://www.e-codices.unifr.ch/en/sbs/min0045</link>
-      <link type="iiif">http://www.e-codices.unifr.ch/metadata/iiif/sbs-min0045/manifest.json</link>
+      <link type="images">https://www.e-codices.unifr.ch/en/sbs/min0045</link>
+      <link type="iiif">https://www.e-codices.unifr.ch/metadata/iiif/sbs-min0045/manifest.json</link>
    </identifier>
    <description>
       <type />
@@ -5893,7 +5893,7 @@
    <refs>
       <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/1272"><i>CLA</i> 7.1001</canonical>
       <canonical href="https://www.trismegistos.org/text/67146">TM 67146</canonical>
-      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=55">Foundations of Irish Culture</link>
+      <link corresp="#foundations" href="https://foundationsirishculture.ie/record/?id=55">Foundations of Irish Culture</link>
    </refs>
    <notes categories="#or-ire #sc-ire">
       From <i>CLA</i>: Scribe "to all appearances Irish". "Used for rewriting in the late eleventh century, apparently in the monastery of Allerheiligen at Schaffhausen.""
@@ -5905,8 +5905,8 @@
    <identifier libraryID="st-gall">
       <shelfmark>51 [palimpsest new]</shelfmark>
       <shelfmark_indexer>0051</shelfmark_indexer>
-      <link type="images">http://www.e-codices.unifr.ch/de/csg/0051</link>
-      <link type="iiif">http://www.e-codices.unifr.ch/metadata/iiif/csg-0051/manifest.json</link>
+      <link type="images">https://www.e-codices.unifr.ch/de/csg/0051</link>
+      <link type="iiif">https://www.e-codices.unifr.ch/metadata/iiif/csg-0051/manifest.json</link>
    </identifier>
    <description>
       <type />
@@ -5929,7 +5929,7 @@
       <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/1359"><i>CLA</i> 7.901</canonical>
       <canonical href="https://www.trismegistos.org/text/67045">TM 67045</canonical>
       <canonical corresp="#bkat">Bischoff, <i>Katalog</i>, no. 5536a</canonical>
-      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=43">Foundations of Irish Culture</link>
+      <link corresp="#foundations" href="https://foundationsirishculture.ie/record/?id=43">Foundations of Irish Culture</link>
       <canonical corresp="#alexander">Alexander, no. 44</canonical>
       <canonical corresp="#mcgurk">McGurk, no. 117</canonical>
       <bibl id="duft_meyer_1954">Duft &amp; Meyer 1954: 69–71</bibl>
@@ -5944,8 +5944,8 @@
    <identifier libraryID="st-gall">
       <shelfmark>60</shelfmark>
       <shelfmark_indexer>0060</shelfmark_indexer>
-      <link type="images">http://www.e-codices.unifr.ch/de/csg/0060</link>
-      <link type="iiif">http://www.e-codices.unifr.ch/metadata/iiif/csg-0060/manifest.json</link>
+      <link type="images">https://www.e-codices.unifr.ch/de/csg/0060</link>
+      <link type="iiif">https://www.e-codices.unifr.ch/metadata/iiif/csg-0060/manifest.json</link>
    </identifier>
    <description>
       <type />
@@ -5968,7 +5968,7 @@
       <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/1360"><i>CLA</i> 7.902</canonical>
       <canonical corresp="#ocorrain">Ó Corráin, <i>Clavis</i>, no. 379</canonical>
       <canonical href="https://www.trismegistos.org/text/67046">TM 67046</canonical>
-      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=44">Foundations of Irish Culture</link>
+      <link corresp="#foundations" href="https://foundationsirishculture.ie/record/?id=44">Foundations of Irish Culture</link>
       <canonical corresp="#alexander">Alexander, no. 60</canonical>
       <canonical corresp="#mcgurk">McGurk, no. 118</canonical>
       <bibl id="duft_meyer_1954">Duft &amp; Meyer 1954: 71–72</bibl>
@@ -5982,8 +5982,8 @@
    <identifier libraryID="st-gall">
       <shelfmark>136</shelfmark>
       <shelfmark_indexer>0136</shelfmark_indexer>
-      <link type="images">http://www.e-codices.unifr.ch/de/list/one/csg/0136</link>
-      <link type="iiif">http://www.e-codices.unifr.ch/metadata/iiif/csg-0136/manifest.json</link>
+      <link type="images">https://www.e-codices.unifr.ch/de/list/one/csg/0136</link>
+      <link type="iiif">https://www.e-codices.unifr.ch/metadata/iiif/csg-0136/manifest.json</link>
    </identifier>
    <description>
       <type />
@@ -6016,8 +6016,8 @@
    <identifier libraryID="st-gall">
       <shelfmark>258</shelfmark>
       <shelfmark_indexer>0258</shelfmark_indexer>
-      <link type="images">http://www.e-codices.unifr.ch/de/list/one/csg/0258</link>
-      <link type="iiif">http://www.e-codices.unifr.ch/metadata/iiif/csg-0258/manifest.json</link>
+      <link type="images">https://www.e-codices.unifr.ch/de/list/one/csg/0258</link>
+      <link type="iiif">https://www.e-codices.unifr.ch/metadata/iiif/csg-0258/manifest.json</link>
    </identifier>
    <description>
       <type />
@@ -6049,8 +6049,8 @@
    <identifier libraryID="st-gall">
       <shelfmark>904</shelfmark>
       <shelfmark_indexer>0904</shelfmark_indexer>
-      <link type="images">http://www.e-codices.unifr.ch/de/list/one/csg/0904</link>
-      <link type="iiif">http://www.e-codices.unifr.ch/metadata/iiif/csg-0904/manifest.json</link>
+      <link type="images">https://www.e-codices.unifr.ch/de/list/one/csg/0904</link>
+      <link type="iiif">https://www.e-codices.unifr.ch/metadata/iiif/csg-0904/manifest.json</link>
    </identifier>
    <description>
       <type />
@@ -6087,8 +6087,8 @@
    <identifier libraryID="st-gall">
       <shelfmark>1394 (pp 101–104)</shelfmark>
       <shelfmark_indexer>1394 (101)</shelfmark_indexer>
-      <link type="images">http://www.e-codices.unifr.ch/en/csg/1394</link>
-      <link type="iiif" index="115">http://www.e-codices.unifr.ch/metadata/iiif/csg-1394/manifest.json</link>
+      <link type="images">https://www.e-codices.unifr.ch/en/csg/1394</link>
+      <link type="iiif" index="115">https://www.e-codices.unifr.ch/metadata/iiif/csg-1394/manifest.json</link>
    </identifier>
    <description>
       <type>Binding frag.</type>
@@ -6110,7 +6110,7 @@
    <refs>
       <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/1446"><i>CLA</i> 7.980</canonical>
       <canonical href="https://www.trismegistos.org/text/67125">TM 67125</canonical>
-      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=46">Foundations of Irish Culture</link>
+      <link corresp="#foundations" href="https://foundationsirishculture.ie/record/?id=46">Foundations of Irish Culture</link>
       <canonical corresp="#mcgurk">McGurk, no. 121</canonical>
    </refs>
    <notes categories="#or-ire #sc-ire">
@@ -6122,8 +6122,8 @@
    <identifier libraryID="st-gall">
       <shelfmark>1394 (pp 95–98)</shelfmark>
       <shelfmark_indexer>1394 (095)</shelfmark_indexer>
-      <link type="images">http://www.e-codices.unifr.ch/en/csg/1394</link>
-      <link type="iiif" index="109">http://www.e-codices.unifr.ch/metadata/iiif/csg-1394/manifest.json</link>
+      <link type="images">https://www.e-codices.unifr.ch/en/csg/1394</link>
+      <link type="iiif" index="109">https://www.e-codices.unifr.ch/metadata/iiif/csg-1394/manifest.json</link>
    </identifier>
    <description>
       <type>Binding frament.</type>
@@ -6145,7 +6145,7 @@
    <refs>
       <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/1445"><i>CLA</i> 7.979</canonical>
       <canonical href="https://www.trismegistos.org/text/67124">TM 67124</canonical>
-      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=45">Foundations of Irish Culture</link>
+      <link corresp="#foundations" href="https://foundationsirishculture.ie/record/?id=45">Foundations of Irish Culture</link>
       <bibl id="duft_meyer_1954">Duft &amp; Meyer 1954: 74–75</bibl>
    </refs>
    <notes categories="#or-ire #sc-ire">
@@ -6158,8 +6158,8 @@
    <identifier libraryID="st-gall">
       <shelfmark>1395 (pp 430–433)</shelfmark>
       <shelfmark_indexer>1395 (430)</shelfmark_indexer>
-      <link type="images">http://www.e-codices.unifr.ch/en/csg/1395</link>
-      <link type="iiif" index="476">http://www.e-codices.unifr.ch/metadata/iiif/csg-1395/manifest.json</link>
+      <link type="images">https://www.e-codices.unifr.ch/en/csg/1395</link>
+      <link type="iiif" index="476">https://www.e-codices.unifr.ch/metadata/iiif/csg-1395/manifest.json</link>
    </identifier>
    <description>
       <type>Binding fragment</type>
@@ -6181,7 +6181,7 @@
    <refs>
       <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/1455"><i>CLA</i> 7.989</canonical>
       <canonical href="https://www.trismegistos.org/text/67134">TM 67134</canonical>
-      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=48">Foundations of Irish Culture</link>
+      <link corresp="#foundations" href="https://foundationsirishculture.ie/record/?id=48">Foundations of Irish Culture</link>
       <bibl id="duft_meyer_1954">Duft &amp; Meyer 1954: 78–79</bibl>
    </refs>
    <notes categories="#or-ire #sc-ire">
@@ -6193,8 +6193,8 @@
    <identifier libraryID="st-gall">
       <shelfmark>1395 (pp 444–447)</shelfmark>
       <shelfmark_indexer>1395 (444)</shelfmark_indexer>
-      <link type="images">http://www.e-codices.unifr.ch/en/csg/1395</link>
-      <link type="iiif" index="498">http://www.e-codices.unifr.ch/metadata/iiif/csg-1395/manifest.json</link>
+      <link type="images">https://www.e-codices.unifr.ch/en/csg/1395</link>
+      <link type="iiif" index="498">https://www.e-codices.unifr.ch/metadata/iiif/csg-1395/manifest.json</link>
    </identifier>
    <description>
       <type />
@@ -6216,7 +6216,7 @@
    <refs>
       <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/1457"><i>CLA</i> 7.991</canonical>
       <canonical href="https://www.trismegistos.org/text/67136">TM 67136</canonical>
-      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=50">Foundations of Irish Culture</link>
+      <link corresp="#foundations" href="https://foundationsirishculture.ie/record/?id=50">Foundations of Irish Culture</link>
       <bibl id="duft_meyer_1954">Duft &amp; Meyer 1954: 79–80</bibl>
    </refs>
    <notes categories="#or-ire #sc-ire">
@@ -6228,8 +6228,8 @@
    <identifier libraryID="st-gall">
       <shelfmark>1395 (pp 418–419, 422–423, 426–427)</shelfmark>
       <shelfmark_indexer>1395 (418)</shelfmark_indexer>
-      <link type="images">http://www.e-codices.unifr.ch/en/csg/1395</link>
-      <link type="iiif" index="452">http://www.e-codices.unifr.ch/metadata/iiif/csg-1395/manifest.json</link>
+      <link type="images">https://www.e-codices.unifr.ch/en/csg/1395</link>
+      <link type="iiif" index="452">https://www.e-codices.unifr.ch/metadata/iiif/csg-1395/manifest.json</link>
    </identifier>
    <description>
       <type>Frag.</type>
@@ -6253,7 +6253,7 @@
       <canonical href="https://www.trismegistos.org/text/67133">TM 67133</canonical>
       <bibl corresp="#thesaurus" href="https://archive.org/details/thesauruspalaeo02stok/page/248"><i>Thesaurus</i> II 248–249</bibl>
       <bibl corresp="#bronner">Bronner 2013: 48–49</bibl>
-      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=47">Foundations of Irish Culture</link>
+      <link corresp="#foundations" href="https://foundationsirishculture.ie/record/?id=47">Foundations of Irish Culture</link>
       <canonical corresp="#alexander">Alexander, no. 58</canonical>
       <bibl id="duft_meyer_1954">Duft &amp; Meyer 1954: 76–78</bibl>
    </refs>
@@ -6266,8 +6266,8 @@
    <identifier libraryID="st-gall">
       <shelfmark>1395 (pp 436–437)</shelfmark>
       <shelfmark_indexer>1395 (436)</shelfmark_indexer>
-      <link type="images">http://www.e-codices.unifr.ch/en/csg/1395</link>
-      <link type="iiif" index="486">http://www.e-codices.unifr.ch/metadata/iiif/csg-1395/manifest.json</link>
+      <link type="images">https://www.e-codices.unifr.ch/en/csg/1395</link>
+      <link type="iiif" index="486">https://www.e-codices.unifr.ch/metadata/iiif/csg-1395/manifest.json</link>
    </identifier>
    <description>
       <type />
@@ -6289,7 +6289,7 @@
    <refs>
       <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/1456"><i>CLA</i> 7.990</canonical>
       <canonical href="https://www.trismegistos.org/text/67135">TM 67135</canonical>
-      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=49">Foundations of Irish Culture</link>
+      <link corresp="#foundations" href="https://foundationsirishculture.ie/record/?id=49">Foundations of Irish Culture</link>
    </refs>
    <notes categories="#or-ire #sc-ire">
    </notes>
@@ -6319,7 +6319,7 @@
    <refs>
       <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/1461"><i>CLA</i> 7.995</canonical>
       <canonical href="https://www.trismegistos.org/text/67140">TM 67140</canonical>
-      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=51">Foundations of Irish Culture</link>
+      <link corresp="#foundations" href="https://foundationsirishculture.ie/record/?id=51">Foundations of Irish Culture</link>
       <bibl id="duft_meyer_1954">Duft &amp; Meyer 1954: 81</bibl>
    </refs>
    <notes categories="#sc-ire">
@@ -6350,7 +6350,7 @@
    <refs>
       <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/1281"><i>CLA</i> 7.1010</canonical>
       <canonical href="https://www.trismegistos.org/text/67155">TM 67155</canonical>
-      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=57">Foundations of Irish Culture</link>
+      <link corresp="#foundations" href="https://foundationsirishculture.ie/record/?id=57">Foundations of Irish Culture</link>
    </refs>
    <notes categories="#or-ire #sc-ire">
    </notes>
@@ -6380,7 +6380,7 @@
    <refs>
       <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/1283"><i>CLA</i> 7.1012</canonical>
       <canonical href="https://www.trismegistos.org/text/67157">TM 67157</canonical>
-      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=58">Foundations of Irish Culture</link>
+      <link corresp="#foundations" href="https://foundationsirishculture.ie/record/?id=58">Foundations of Irish Culture</link>
    </refs>
    <notes categories="#or-ire #sc-ire">
       Discarded in 11th century
@@ -6412,7 +6412,7 @@
    <refs>
       <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/1279"><i>CLA</i> 7.1008</canonical>
       <canonical href="https://www.trismegistos.org/text/67153">TM 67153</canonical>
-      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=56">Foundations of Irish Culture</link>
+      <link corresp="#foundations" href="https://foundationsirishculture.ie/record/?id=56">Foundations of Irish Culture</link>
    </refs>
    <notes categories="#or-ire #sc-ire">
       Poss. the Ezechiel of St Gall catalogue (Libri Scottice Scripti); gloss commentary.
@@ -6520,7 +6520,7 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    </identifier>
    <identifier unit="2" libraryID="london_bl">
       <shelfmark>Cotton Vitellius C. VIII (ff 86–90)</shelfmark>
-      <link type="images">http://access.bl.uk/item/viewer/ark:/81055/vdc_100059907888.0x000001</link>
+      <link type="images">https://access.bl.uk/item/viewer/ark:/81055/vdc_100059907888.0x000001</link>
       <link type="iiif" index="174">https://api.bl.uk/metadata/iiif/ark:/81055/vdc_100059907888.0x000001/manifest.json</link>
    </identifier>
    <description>
@@ -6861,7 +6861,7 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
 </manuscript><manuscript id="212">
    <identifier libraryID="london_bl">
       <shelfmark>Cotton MS Nero A.II (ff 14–45)</shelfmark>
-      <link type="images">http://access.bl.uk/item/viewer/ark:/81055/vdc_100064359517.0x000001</link>
+      <link type="images">https://access.bl.uk/item/viewer/ark:/81055/vdc_100064359517.0x000001</link>
       <link type="iiif" index="40">https://api.bl.uk/metadata/iiif/ark:/81055/vdc_100064359517.0x000001/manifest.json</link>
    </identifier>
    <description>
@@ -7053,7 +7053,7 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    <identifier libraryID="harvard">
       <shelfmark>Typ. 620</shelfmark>
       <ms_name>Rosenthal fragment</ms_name>
-      <link type="images">http://nrs.harvard.edu/urn-3:FHCL.HOUGH:3429165</link>
+      <link type="images">https://nrs.harvard.edu/urn-3:FHCL.HOUGH:3429165</link>
 		<link type="iiif">https://iiif.lib.harvard.edu/manifests/drs:14679519</link>
    </identifier>
    <description>
@@ -7084,7 +7084,7 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
 </manuscript><manuscript id="219">
    <identifier unit="1" libraryID="harvard">
       <shelfmark>Typ. 613 (20688) (ff 1–8)</shelfmark>
-      <link type="images">http://nrs.harvard.edu/urn-3:FHCL.HOUGH:1124603</link>
+      <link type="images">https://nrs.harvard.edu/urn-3:FHCL.HOUGH:1124603</link>
 		<link type="iiif">https://iiif.lib.harvard.edu/manifests/drs:6650256</link>
    </identifier>
    <identifier unit="2" libraryID="munich">
@@ -7094,12 +7094,12 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    <identifier unit="3" libraryID="munich">
       <shelfmark>Clm 29410/2</shelfmark>
       <shelfmark_indexer>Clm 29410/2</shelfmark_indexer>
-      <link type="images">http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00071374-7</link>
+      <link type="images">https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00071374-7</link>
       <link type="iiif">https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00071374/manifest</link>
    </identifier>
    <identifier unit="4" libraryID="columbia">
       <shelfmark>Plimpton Collection 127</shelfmark>
-      <link type="images">http://ds.lib.berkeley.edu/PlimptonMS127_20</link>
+      <link type="images">https://ds.lib.berkeley.edu/PlimptonMS127_20</link>
    </identifier>
    <identifier unit="5" libraryID="regensburg">
       <shelfmark>Fragm. 1</shelfmark>
@@ -7138,7 +7138,7 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    <identifier libraryID="vatican">
       <shelfmark>Pal. Lat. 210 (f. 1)</shelfmark>
       <shelfmark_indexer>Pal. Lat. 0210</shelfmark_indexer>
-      <link type="images">http://digi.vatlib.it/view/bav_pal_lat_210</link>
+      <link type="images">https://digi.vatlib.it/view/bav_pal_lat_210</link>
       <link type="iiif">https://digi.vatlib.it/iiif/bav_pal_lat_210/manifest.json</link>
    </identifier>
    <description>
@@ -7159,7 +7159,7 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    <refs>
       <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/96"><i>CLA</i> 1.84</canonical>
       <canonical href="https://www.trismegistos.org/text/66180">TM 66180</canonical>
-      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=4">Foundations of Irish Culture</link>
+      <link corresp="#foundations" href="https://foundationsirishculture.ie/record/?id=4">Foundations of Irish Culture</link>
    </refs>
    <notes categories="#sc-ire">
       Book-list added to outer page (originally blank) of manuscript containing shorter works of <person id="augustine">Augustine</person>,
@@ -7174,7 +7174,7 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    <identifier unit="1" libraryID="vatican">
       <shelfmark>Lat. 5750 [palimpsest new]</shelfmark>
       <shelfmark_indexer>Lat. 05750</shelfmark_indexer>
-      <link type="images">http://digi.vatlib.it/view/MSS_Vat.lat.5750</link>
+      <link type="images">https://digi.vatlib.it/view/MSS_Vat.lat.5750</link>
       <link type="iiif" index="43">https://digi.vatlib.it/iiif/MSS_Vat.lat.5750/manifest.json</link>
    </identifier>
    <identifier unit="2" libraryID="milan">
@@ -7231,9 +7231,9 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
       <canonical corresp="#kenney">Kenney, no. 465</canonical>
       <canonical corresp="#ocorrain">Ó Corráin, <i>Clavis</i>, no. 54</canonical>
       <canonical href="https://www.trismegistos.org/text/66174">TM 66174</canonical>
-      <link href="http://digi.vatlib.it/view/bav_pal_lat_68">Images</link>
+      <link href="https://digi.vatlib.it/view/bav_pal_lat_68">Images</link>
       <link href="https://opac.vatlib.it/mss/detail/Pal.lat.68">Bibliography on library website</link>
-      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=3">Foundations of Irish Culture</link>
+      <link corresp="#foundations" href="https://foundationsirishculture.ie/record/?id=3">Foundations of Irish Culture</link>
       <bibl corresp="#thesaurus" href="https://archive.org/details/thesauruspalaeo01stok/page/3"><i>Thesaurus</i> I 3</bibl>
       <bibl corresp="#mcnmara_1986">ed. McNamara 1986.</bibl>
       <bibl corresp="#sharpe_2010">Sharpe 2010: 6</bibl>
@@ -7275,8 +7275,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
       <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/99"><i>CLA</i> 1.87</canonical>
       <canonical href="https://www.trismegistos.org/text/66183">TM 66183</canonical>
       <canonical corresp="#gneuss_lapidge">Gneuss &amp; Lapidge, no. 910</canonical>
-      <link href="http://digi.vatlib.it/view/bav_pal_lat_235/0013">Images</link>
-      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=5">Foundations of Irish Culture</link>
+      <link href="https://digi.vatlib.it/view/bav_pal_lat_235/0013">Images</link>
+      <link corresp="#foundations" href="https://foundationsirishculture.ie/record/?id=5">Foundations of Irish Culture</link>
       <bibl corresp="#brown_mackay_1988">Brown &amp; Mackey 1988 (facsimile)</bibl>
       <bibl corresp="#story_2003">Story 2003: 261–264</bibl>
    </refs>
@@ -7327,9 +7327,9 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
       <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/7"><i>CLA</i> 1.5a</canonical>
       <canonical corresp="#bkat">Bischoff, <i>Katalog</i>, no. 1212a</canonical>
       <canonical href="https://www.trismegistos.org/text/66103">TM 66103</canonical>
-      <link href="http://digi.vatlib.it/view/MSS_Vat.lat.491">Images</link>
+      <link href="https://digi.vatlib.it/view/MSS_Vat.lat.491">Images</link>
       <link href="https://opac.vatlib.it/mss/detail/Vat.lat.491">Bibliography on library website</link>
-      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=1">Foundations of Irish Culture</link>
+      <link corresp="#foundations" href="https://foundationsirishculture.ie/record/?id=1">Foundations of Irish Culture</link>
       <bibl corresp="#vattasso_1902">Vattasso &amp; Franchi De' Cavalieri 1902: 371–372</bibl>
    </refs>
    <notes categories="#sc-ins">
@@ -7366,7 +7366,7 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    <refs>
       <canonical corresp="#bkat">Bischoff, <i>Katalog</i>, no. 6953</canonical>
       <canonical corresp="#ocorrain">Ó Corráin, <i>Clavis</i>, no. 554</canonical>
-      <link href="http://digi.vatlib.it/view/MSS_Vat.lat.13501">Images</link>
+      <link href="https://digi.vatlib.it/view/MSS_Vat.lat.13501">Images</link>
       <link href="https://opac.vatlib.it/mss/detail/Vat.lat.13501">Bibliography on library website</link>
       <bibl corresp="#bischoff_1977">Bischoff 1977: 49</bibl>
       <bibl corresp="#bronner">Bronner 2013: 8</bibl>
@@ -7418,7 +7418,7 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    <identifier libraryID="vatican">
       <shelfmark>Reg. Lat. 215</shelfmark>
       <shelfmark_indexer>Reg. Lat 215</shelfmark_indexer>
-      <link type="images">http://digi.vatlib.it/view/MSS_Reg.lat.215</link>
+      <link type="images">https://digi.vatlib.it/view/MSS_Reg.lat.215</link>
       <link type="iiif">https://digi.vatlib.it/iiif/MSS_Reg.lat.215/manifest.json</link>
    </identifier>
    <description>
@@ -7480,7 +7480,7 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    <identifier libraryID="munich">
       <shelfmark>Clm 6398</shelfmark>
       <shelfmark_indexer>Clm 06398</shelfmark_indexer>
-      <link type="images">http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00065392-8</link>
+      <link type="images">https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00065392-8</link>
       <link type="iiif">https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00065392/manifest</link>
    </identifier>
    <description>
@@ -7595,7 +7595,7 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
 </manuscript><manuscript id="233">
    <identifier libraryID="florence">
       <shelfmark>Plut. 29.24</shelfmark>
-      <link type="images">http://teca.bmlonline.it/ImageViewer/servlet/ImageViewer?idr=TECA0000620608&amp;keyworks=plut.29.24</link>
+      <link type="images">https://teca.bmlonline.it/ImageViewer/servlet/ImageViewer?idr=TECA0000620608&amp;keyworks=plut.29.24</link>
    </identifier>
    <description>
       <type />
@@ -7648,7 +7648,7 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    </refs>
    <notes categories="#ex-ire #vern">
       Bischoff: Irish exemplar? Mynors (ed.), <i>Cassiodori Senatoris Institutiones</i> (Oxford, 1937), pp XV–XVI: Irish abbreviations for <i>autem</i> and <i>per</i> sometimes taken over, sometimes wrongly interpreted. 
-      Two embedded Irish glosses misunderstood: <i>sitipio</i> (sc. <i>stibio</i>): <i>id est o dub dabrom</i> (John Fraser: <i>ó dub da bró</i>); <i>fenus</i>: <i>id est amthi</i> (cf. <a href="http://www.stgallpriscian.ie/index.php?kV=2&amp;kP=273&amp;id=7041#hi">Sg. 11b19 l</a>: <i>foenus</i>: <i>aithi</i>). 
+      Two embedded Irish glosses misunderstood: <i>sitipio</i> (sc. <i>stibio</i>): <i>id est o dub dabrom</i> (John Fraser: <i>ó dub da bró</i>); <i>fenus</i>: <i>id est amthi</i> (cf. <a href="https://www.stgallpriscian.ie/index.php?kV=2&amp;kP=273&amp;id=7041#hi">Sg. 11b19 l</a>: <i>foenus</i>: <i>aithi</i>). 
       </notes>
    <revisionDesc>
       <change who="Pádraic Moran" when="2021-05-01">Created</change>
@@ -7842,8 +7842,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
 </manuscript><manuscript id="241">
    <identifier libraryID="bern">
       <shelfmark>258</shelfmark>
-      <link type="images">http://e-codices.ch/en/searchresult/list/one/bbb/0258</link>
-      <link type="iiif">http://www.e-codices.unifr.ch/metadata/iiif/bbb-0258/manifest.json</link>
+      <link type="images">https://e-codices.ch/en/searchresult/list/one/bbb/0258</link>
+      <link type="iiif">https://www.e-codices.unifr.ch/metadata/iiif/bbb-0258/manifest.json</link>
    </identifier>
    <description>
       <type />
@@ -8109,8 +8109,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    <identifier libraryID="st-gall">
       <shelfmark>VadSlg Ms. 317</shelfmark>
       <shelfmark_indexer>VadSlg Ms. 317 (ff 16–23)</shelfmark_indexer>
-      <link type="images">http://www.e-codices.unifr.ch/de/list/one/vad/0317</link>
-      <link type="iiif">http://www.e-codices.unifr.ch/metadata/iiif/vad-0317/manifest.json</link>
+      <link type="images">https://www.e-codices.unifr.ch/de/list/one/vad/0317</link>
+      <link type="iiif">https://www.e-codices.unifr.ch/metadata/iiif/vad-0317/manifest.json</link>
    </identifier>
    <description>
       <type />
@@ -8604,7 +8604,7 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
 </manuscript><manuscript id="266">
    <identifier unit="1" libraryID="berlin">
       <shelfmark>Phillipps 1830 (Rose 129)</shelfmark>
-      <link type="images">http://resolver.staatsbibliothek-berlin.de/SBB000017B900000000</link>
+      <link type="images">https://resolver.staatsbibliothek-berlin.de/SBB000017B900000000</link>
    </identifier>
    <identifier unit="2" libraryID="berlin">
       <shelfmark>Phillipps 1832 (Rose 130) </shelfmark>
@@ -8756,8 +8756,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
 </manuscript><manuscript id="271">
    <identifier libraryID="basel">
       <shelfmark>F III 15l</shelfmark>
-      <link type="images">http://www.e-codices.unifr.ch/en/ubb/F-III-0015l</link>
-      <link type="iiif">http://www.e-codices.unifr.ch/metadata/iiif/ubb-F-III-0015l/manifest.json</link>
+      <link type="images">https://www.e-codices.unifr.ch/en/ubb/F-III-0015l</link>
+      <link type="iiif">https://www.e-codices.unifr.ch/metadata/iiif/ubb-F-III-0015l/manifest.json</link>
    </identifier>
    <description>
       <type />
@@ -8787,7 +8787,7 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
 </manuscript><manuscript id="272">
    <identifier libraryID="london_bl">
       <shelfmark>Egerton 2831 (ff 110–143)</shelfmark>
-      <link type="images">http://access.bl.uk/item/viewer/ark:/81055/vdc_100056031595.0x000001</link>
+      <link type="images">https://access.bl.uk/item/viewer/ark:/81055/vdc_100056031595.0x000001</link>
       <link type="iiif" index="223">https://api.bl.uk/metadata/iiif/ark:/81055/vdc_100056031595.0x000001/manifest.json</link>
    </identifier>
    <description>
@@ -8854,8 +8854,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
       <shelfmark>48</shelfmark>
       <shelfmark_indexer>0048</shelfmark_indexer>
       <ms_name>Codex Delta</ms_name>
-      <link type="images">http://www.e-codices.ch/en/csg/0048/</link>
-      <link type="iiif">http://www.e-codices.unifr.ch/metadata/iiif/csg-0048/manifest.json</link>
+      <link type="images">https://www.e-codices.ch/en/csg/0048/</link>
+      <link type="iiif">https://www.e-codices.unifr.ch/metadata/iiif/csg-0048/manifest.json</link>
    </identifier>
    <description>
       <type />
@@ -8887,8 +8887,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    <identifier libraryID="st-gall">
       <shelfmark>1346</shelfmark>
       <shelfmark_indexer>1346</shelfmark_indexer>
-      <link type="images">http://www.e-codices.ch/en/csg/1346/1/0/</link>
-      <link type="iiif">http://www.e-codices.unifr.ch/metadata/iiif/csg-1346/manifest.json</link>
+      <link type="images">https://www.e-codices.ch/en/csg/1346/1/0/</link>
+      <link type="iiif">https://www.e-codices.unifr.ch/metadata/iiif/csg-1346/manifest.json</link>
    </identifier>
    <description>
       <type />
@@ -9075,7 +9075,7 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    <identifier libraryID="munich">
       <shelfmark>Clm 6411</shelfmark>
       <shelfmark_indexer>Clm 06411</shelfmark_indexer>
-      <link type="images">http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00012886-4</link>
+      <link type="images">https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00012886-4</link>
       <link type="iiif">https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00012886/manifest</link>
    </identifier>
    <description>
@@ -9145,7 +9145,7 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    <identifier libraryID="vienna">
       <shelfmark>Lat. 2195 (ff 2–46)</shelfmark>
       <shelfmark_indexer>Lat. 02195</shelfmark_indexer>
-      <link type="images">http://data.onb.ac.at/dtl/2886218</link>
+      <link type="images">https://data.onb.ac.at/dtl/2886218</link>
    </identifier>
    <description>
       <type />
@@ -9207,7 +9207,7 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    <identifier libraryID="vienna">
       <shelfmark>Lat. 2233</shelfmark>
       <shelfmark_indexer>Lat. 02233</shelfmark_indexer>
-      <link type="images">http://data.onb.ac.at/dtl/3833902</link>
+      <link type="images">https://data.onb.ac.at/dtl/3833902</link>
    </identifier>
    <description>
       <type />
@@ -9238,7 +9238,7 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    <identifier libraryID="vienna">
       <shelfmark>Lat. 997</shelfmark>
       <shelfmark_indexer>Lat. 00997</shelfmark_indexer>
-      <link type="images">http://data.onb.ac.at/dtl/7336151</link>
+      <link type="images">https://data.onb.ac.at/dtl/7336151</link>
    </identifier>
    <description>
       <type />
@@ -9328,7 +9328,7 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    <identifier libraryID="vienna">
       <shelfmark>Lat. 1003</shelfmark>
       <shelfmark_indexer>Lat. 01003</shelfmark_indexer>
-      <link type="images">http://data.onb.ac.at/dtl/9138434</link>
+      <link type="images">https://data.onb.ac.at/dtl/9138434</link>
    </identifier>
    <description>
       <type />
@@ -9358,7 +9358,7 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    <identifier libraryID="vienna">
       <shelfmark>Lat. 522</shelfmark>
       <shelfmark_indexer>Lat. 00522</shelfmark_indexer>
-      <link type="images">http://data.onb.ac.at/dtl/3320833</link>
+      <link type="images">https://data.onb.ac.at/dtl/3320833</link>
    </identifier>
    <description>
       <type />
@@ -9636,8 +9636,8 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    <identifier libraryID="st-gall">
       <shelfmark>51 (pp 239–240) [palimpsest old]</shelfmark>
       <shelfmark_indexer>0051</shelfmark_indexer>
-      <link type="images">http://www.e-codices.unifr.ch/de/csg/0051</link>
-      <link type="iiif">http://www.e-codices.unifr.ch/metadata/iiif/csg-0051/manifest.json</link>
+      <link type="images">https://www.e-codices.unifr.ch/de/csg/0051</link>
+      <link type="iiif">https://www.e-codices.unifr.ch/metadata/iiif/csg-0051/manifest.json</link>
    </identifier>
    <description>
       <type />
@@ -9657,7 +9657,7 @@ Old Irish gloss (1). Scribe Walahfrid Strabo?
    <refs>
       <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/1359"><i>CLA</i> 7.901</canonical>
       <canonical href="https://www.trismegistos.org/text/67045">TM 67045</canonical>
-      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=43">Foundations of Irish Culture</link>
+      <link corresp="#foundations" href="https://foundationsirishculture.ie/record/?id=43">Foundations of Irish Culture</link>
       <bibl id="duft_meyer_1954">Duft &amp; Meyer 1954: 69–71</bibl>
    </refs>
    <notes categories="#or-ire #sc-ire">

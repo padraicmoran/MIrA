@@ -3,7 +3,7 @@
    <identifier libraryID="leiden">
       <shelfmark>BPL 67D (ff 13–14) [palimpsest old]</shelfmark>
       <shelfmark_indexer>BPL 0067D (013)</shelfmark_indexer>
-      <link type="images">http://hdl.handle.net/1887.1/item:882931</link>
+      <link type="images">https://hdl.handle.net/1887.1/item:882931</link>
       <link type="iiif" index="21">https://digitalcollections.universiteitleiden.nl/iiif_manifest/item:882931/manifest</link>
    </identifier>
    <description>
@@ -24,7 +24,7 @@
       <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/301"><i>CLA</i> 10.1574</canonical>
       <canonical href="https://www.trismegistos.org/text/67740">TM 67740</canonical>
       <canonical corresp="#bkat">Bischoff, <i>Katalog</i>, no. 2140</canonical>
-      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=65">Foundations of Irish Culture</link>
+      <link corresp="#foundations" href="https://foundationsirishculture.ie/record/?id=65">Foundations of Irish Culture</link>
    </refs>
    <notes categories="#or-ire #sc-ire">
       <i>CLA</i>: "Rewritten in a French scriptorium with Irish connections."

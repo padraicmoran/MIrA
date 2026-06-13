@@ -6,37 +6,66 @@ $page = cleanInput('page') ?? '';
 $id = cleanInput('id') ?? '';
 $search = cleanInput('search') ?? '';
 
-// if search is a number, redirect to ms page
+// if search is a number, shortcut to manuscript page
 if ((int) $search > 0 && (int) $search <= $totalMSS) {
-	$page = 'mss';
+	$page = 'manuscript';
 	$id = $search;
 }
 
-
-// content router
-if (isset($xml_mss)) {
-	if ($page == 'mss') {
+// route to entity details
+if ($id) {
+	if ($page == 'manuscript') {
 		templateTop(1);
-		if ($id != '') require 'pages/ms_detail.php';
-		else require 'pages/mss.php';
+		require 'pages/manuscript.php';
 	}
-	elseif ($page == 'texts') {
+	elseif ($page == 'library') {
 		templateTop(2);
-		if ($id != '') require 'pages/texts_detail.php';
-		else require 'pages/texts.php';
+		require 'pages/library.php';
+	}
+	elseif ($page == 'person') {
+		templateTop(3);
+		require 'pages/person.php';
+	}
+	elseif ($page == 'place') {
+		templateTop(4);
+	require 'pages/place.php';
+	}
+	elseif ($page == 'text') {
+		templateTop(5);
+		require 'pages/text.php';
+	}
+	// fall back: route to home page
+	else {	
+		templateTop(0);
+		require 'pages/home.php';
+	}
+}
+else {
+	// else, route to list or content pages
+	if ($page == 'manuscripts') {
+		templateTop(1);
+		require 'pages/manuscript_list.php';
+	}
+	elseif ($page == 'libraries') {
+		templateTop(2);
+		require 'pages/library_list.php';
 	}
 	elseif ($page == 'people') {
 		templateTop(3);
-		if ($id != '') require 'pages/people_detail.php';
-		else require 'pages/people.php';
+		require 'pages/person_list.php';
 	}
 	elseif ($page == 'places') {
 		templateTop(4);
-		if ($id != '') require 'pages/places_detail.php';
-		else require 'pages/places.php';
+	require 'pages/place_list.php';
 	}
-	elseif ($page == 'about') {
+	elseif ($page == 'texts') {
 		templateTop(5);
+		require 'pages/text_list.php';
+	}
+
+	// content pages
+	elseif ($page == 'about') {
+		templateTop(6);
 		require 'pages/about.php';
 	}
 	// in development
@@ -44,18 +73,14 @@ if (isset($xml_mss)) {
 		templateTop(1);
 		require 'pages/xpath.php';
 	}
-	// home page (in the last resort)
+	// fall back: route to home page
 	else {	
 		templateTop(0);
 		require 'pages/home.php';
 	}
-	// template
-	templateBottom();	
-}
-else {
-	// some problem accessing XML
-	print 'This resource is currently unavailable. Please try again later.';
 }
 
+// template
+templateBottom();	
 
 ?>

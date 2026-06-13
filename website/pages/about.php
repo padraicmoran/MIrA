@@ -5,7 +5,7 @@
 <div class="row gx-5">
 <div class="col-lg-8">
 
-<p>Data compiled and website developed by <a target="_blank" href="http://www.pmoran.ie/">Pádraic Moran</a>, Classics, University of Galway (Ireland).</p>
+<p>Data compiled and website developed by <a target="_blank" href="https://www.pmoran.ie/">Pádraic Moran</a>, Classics, University of Galway (Ireland).</p>
 
 <p>Additions, corrections, suggestions welcome: <a href="mailto:padraic.moran@universityofgalway.ie">padraic.moran@universityofgalway.ie</a>.</p>
 
@@ -13,7 +13,7 @@
 <ul>
 <li>Bernhard Bischoff, <i>Südostdeutschen Schreibschulen und Bibliotheken in der Karolingerzeit</i>, 2 vols (Wiesbaden, 1940–1980).</li>
 <li>Bernhard Bischoff, <i>Katalog der festländischen Handschriften des neunten Jahrhunderts</i>, 3 vols (Wiesbaden, 1998–2014).</li>
-<li>E. A. Lowe, <i>Codices Latini Antiquiores</i>, 12 vols (Oxford, 1934–1971), digitised and updated at Mark Stansbury, <a target="_blank" href="http://elmss.nuigalway.ie/">Early Latin Manuscripts</a>.</li>
+<li>E. A. Lowe, <i>Codices Latini Antiquiores</i>, 12 vols (Oxford, 1934–1971), digitised and updated at Mark Stansbury, <a target="_blank" href="https://elmss.nuigalway.ie/">Early Latin Manuscripts</a>.</li>
 </ul>
 
 

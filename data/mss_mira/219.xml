@@ -2,7 +2,7 @@
 <manuscript id="219">
    <identifier unit="1" libraryID="harvard">
       <shelfmark>Typ. 613 (20688) (ff 1–8)</shelfmark>
-      <link type="images">http://nrs.harvard.edu/urn-3:FHCL.HOUGH:1124603</link>
+      <link type="images">https://nrs.harvard.edu/urn-3:FHCL.HOUGH:1124603</link>
 		<link type="iiif">https://iiif.lib.harvard.edu/manifests/drs:6650256</link>
    </identifier>
    <identifier unit="2" libraryID="munich">
@@ -12,12 +12,12 @@
    <identifier unit="3" libraryID="munich">
       <shelfmark>Clm 29410/2</shelfmark>
       <shelfmark_indexer>Clm 29410/2</shelfmark_indexer>
-      <link type="images">http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00071374-7</link>
+      <link type="images">https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00071374-7</link>
       <link type="iiif">https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00071374/manifest</link>
    </identifier>
    <identifier unit="4" libraryID="columbia">
       <shelfmark>Plimpton Collection 127</shelfmark>
-      <link type="images">http://ds.lib.berkeley.edu/PlimptonMS127_20</link>
+      <link type="images">https://ds.lib.berkeley.edu/PlimptonMS127_20</link>
    </identifier>
    <identifier unit="5" libraryID="regensburg">
       <shelfmark>Fragm. 1</shelfmark>

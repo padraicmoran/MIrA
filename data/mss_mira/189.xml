@@ -3,8 +3,8 @@
    <identifier libraryID="st-gall">
       <shelfmark>1394 (pp 95–98)</shelfmark>
       <shelfmark_indexer>1394 (095)</shelfmark_indexer>
-      <link type="images">http://www.e-codices.unifr.ch/en/csg/1394</link>
-      <link type="iiif" index="109">http://www.e-codices.unifr.ch/metadata/iiif/csg-1394/manifest.json</link>
+      <link type="images">https://www.e-codices.unifr.ch/en/csg/1394</link>
+      <link type="iiif" index="109">https://www.e-codices.unifr.ch/metadata/iiif/csg-1394/manifest.json</link>
    </identifier>
    <description>
       <type>Binding frament.</type>
@@ -26,7 +26,7 @@
    <refs>
       <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/1445"><i>CLA</i> 7.979</canonical>
       <canonical href="https://www.trismegistos.org/text/67124">TM 67124</canonical>
-      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=45">Foundations of Irish Culture</link>
+      <link corresp="#foundations" href="https://foundationsirishculture.ie/record/?id=45">Foundations of Irish Culture</link>
       <bibl id="duft_meyer_1954">Duft &amp; Meyer 1954: 74–75</bibl>
    </refs>
    <notes categories="#or-ire #sc-ire">

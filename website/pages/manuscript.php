@@ -16,7 +16,8 @@ if ($filter) {
 	print '<h1 class="h2">MIrA ' . $id . ': ' . $heading . '</h1>';
 
 	// stable URL
-	print '<div class="text-secondary small">Stable URL: <a class="text-secondary" href="/' . $id . '">http://mira.ie/' . $id . '</a></div>';
+	$link = getLink('manuscript', $id);
+	print '<div class="text-secondary small">Stable URL: <a class="text-secondary" href="' . $link . '">https://mira.ie' . $link . '</a></div>';
 
 	// write categories
 	if ($ms->notes['categories'] != '') {
@@ -56,7 +57,7 @@ if ($filter) {
 		if ($identifierCount > 1) print '<tr><td colspan="2"><h4 class="h6 mt-3 mb-0">UNIT ' . $unit . '</h4></td></tr>';
 
 		writeRow('Country', $libraries[$libraryID]['country'], '', '');
-		writeRow('Location', $libraries[$libraryID]['city'] . ', ' . $libraries[$libraryID]['name'], '/index.php?page=mss&lib=' . $libraryID);
+		writeRow('Location', $libraries[$libraryID]['city'] . ', ' . $libraries[$libraryID]['name'], '/library/' . $libraryID);
 
 		$shelfmarkLink = $ms->identifier[$n]->shelfmark;
 		if ($ms->identifier[$n]->xpath('link[@type="images"]')) {
@@ -217,9 +218,9 @@ function processData($str) {
 	$str = preg_replace('/<\/ms>/', '</a>', $str);
 
 	if ($tidyURLs) {
-		$str = preg_replace('/<person id="([a-z0-9_\-]*)">/', '<a href="/people/\1">', $str);
-		$str = preg_replace('/<place id="([a-z0-9_\-]*)">/', '<a href="/places/\1">', $str);
-		$str = preg_replace('/<text id="([a-z0-9_\-]*)">/', '<a href="/texts/\1">', $str);
+		$str = preg_replace('/<person id="([a-z0-9_\-]*)">/', '<a href="/person/\1">', $str);
+		$str = preg_replace('/<place id="([a-z0-9_\-]*)">/', '<a href="/place/\1">', $str);
+		$str = preg_replace('/<text id="([a-z0-9_\-]*)">/', '<a href="/text/\1">', $str);
 	}
 	else {
 		$str = preg_replace('/<person id="([a-z0-9_\-]*)">/', '<a href="index.php?page=people&id=\1">', $str);

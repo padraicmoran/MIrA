@@ -2,8 +2,8 @@
 <manuscript id="182">
    <identifier libraryID="schaffhausen">
       <shelfmark>Min. 45 (ff 44, 45, 48, 49) [palimpsest old   ]</shelfmark>
-      <link type="images">http://www.e-codices.unifr.ch/en/sbs/min0045</link>
-      <link type="iiif">http://www.e-codices.unifr.ch/metadata/iiif/sbs-min0045/manifest.json</link>
+      <link type="images">https://www.e-codices.unifr.ch/en/sbs/min0045</link>
+      <link type="iiif">https://www.e-codices.unifr.ch/metadata/iiif/sbs-min0045/manifest.json</link>
    </identifier>
    <description>
       <type />
@@ -22,7 +22,7 @@
    <refs>
       <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/1272"><i>CLA</i> 7.1001</canonical>
       <canonical href="https://www.trismegistos.org/text/67146">TM 67146</canonical>
-      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=55">Foundations of Irish Culture</link>
+      <link corresp="#foundations" href="https://foundationsirishculture.ie/record/?id=55">Foundations of Irish Culture</link>
    </refs>
    <notes categories="#or-ire #sc-ire">
       From <i>CLA</i>: Scribe "to all appearances Irish". "Used for rewriting in the late eleventh century, apparently in the monastery of Allerheiligen at Schaffhausen.""

@@ -29,7 +29,7 @@ function nodeString($node) {
         title: "' . $node[1]  . '", 
         shape: "circle", 
         color: "darkred", 
-        url: "/' . $node[0] . '",
+        url: "' . getLink('manuscript', $node[0]) . '",
         category: "ms"
       },' . "\n";
       break;
@@ -42,7 +42,7 @@ function nodeString($node) {
         label: "' . $node[1]  . '", 
         shape: "box", 
         color: "green", 
-        url: "/places/' . $node[0] . '",
+        url: "' . getLink('place', $node[0]) . '",
         x: ' . $node[2] . ',
         y: ' . $node[3] . ',
         fixed: { x: true, y: true },
@@ -56,7 +56,7 @@ function nodeString($node) {
           label: "' . $node[1]  . '", 
           shape: "box", 
           color: "indianred", 
-          url: "/library/' . substr($node[0], strlen('library_')) . '",
+          url: "' . getLink('library', substr($node[0], strlen('library_'))) . '",
           x: ' . $node[2] . ',
           y: ' . $node[3] . ',
           fixed: { x: true, y: true },

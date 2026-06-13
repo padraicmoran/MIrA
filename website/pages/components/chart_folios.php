@@ -80,7 +80,7 @@ function chartFolios($data) {
 				
 		// chart
 		print '<div id="chartHolder">';
-		print '<svg id="chart" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="280" style="border: none;">';
+		print '<svg id="chart" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" width="100%" height="280" style="border: none;">';
 
 		// write axes
 		writeXAxis($xAxisMin, $xAxisMax, $xAxisStep, $xPad, $yPad);
@@ -92,8 +92,9 @@ function chartFolios($data) {
 
 		foreach ($fols as $ms) {
 			$cntFols ++;
+			$url = getLink('manuscript', $ms[1]);
 			$label = $ms[2] . ': ' . $ms[0] . ' ' . switchSgPl($ms[0], 'folio', 'folios');
-			drawBar($cntFols, $ms[0], $xAxisMin, $xAxisMax, $xPad, $yAxisMin, $yAxisMax, $yPad, 'darkred', '/' . $ms[1], $label);
+			drawBar($cntFols, $ms[0], $xAxisMin, $xAxisMax, $xPad, $yAxisMin, $yAxisMax, $yPad, 'darkred', $url, $label);
 		}
 		
 		// draw average line

@@ -3,8 +3,8 @@
    <identifier libraryID="st-gall">
       <shelfmark>60</shelfmark>
       <shelfmark_indexer>0060</shelfmark_indexer>
-      <link type="images">http://www.e-codices.unifr.ch/de/csg/0060</link>
-      <link type="iiif">http://www.e-codices.unifr.ch/metadata/iiif/csg-0060/manifest.json</link>
+      <link type="images">https://www.e-codices.unifr.ch/de/csg/0060</link>
+      <link type="iiif">https://www.e-codices.unifr.ch/metadata/iiif/csg-0060/manifest.json</link>
    </identifier>
    <description>
       <type />
@@ -27,7 +27,7 @@
       <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/1360"><i>CLA</i> 7.902</canonical>
       <canonical corresp="#ocorrain">Ó Corráin, <i>Clavis</i>, no. 379</canonical>
       <canonical href="https://www.trismegistos.org/text/67046">TM 67046</canonical>
-      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=44">Foundations of Irish Culture</link>
+      <link corresp="#foundations" href="https://foundationsirishculture.ie/record/?id=44">Foundations of Irish Culture</link>
       <canonical corresp="#alexander">Alexander, no. 60</canonical>
       <canonical corresp="#mcgurk">McGurk, no. 118</canonical>
       <bibl id="duft_meyer_1954">Duft &amp; Meyer 1954: 71–72</bibl>

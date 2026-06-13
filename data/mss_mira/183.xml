@@ -3,8 +3,8 @@
    <identifier libraryID="st-gall">
       <shelfmark>51 [palimpsest new]</shelfmark>
       <shelfmark_indexer>0051</shelfmark_indexer>
-      <link type="images">http://www.e-codices.unifr.ch/de/csg/0051</link>
-      <link type="iiif">http://www.e-codices.unifr.ch/metadata/iiif/csg-0051/manifest.json</link>
+      <link type="images">https://www.e-codices.unifr.ch/de/csg/0051</link>
+      <link type="iiif">https://www.e-codices.unifr.ch/metadata/iiif/csg-0051/manifest.json</link>
    </identifier>
    <description>
       <type />
@@ -27,7 +27,7 @@
       <canonical corresp="#cla" href="https://elmss.nuigalway.ie/catalogue/1359"><i>CLA</i> 7.901</canonical>
       <canonical href="https://www.trismegistos.org/text/67045">TM 67045</canonical>
       <canonical corresp="#bkat">Bischoff, <i>Katalog</i>, no. 5536a</canonical>
-      <link corresp="#foundations" href="http://foundationsirishculture.ie/record/?id=43">Foundations of Irish Culture</link>
+      <link corresp="#foundations" href="https://foundationsirishculture.ie/record/?id=43">Foundations of Irish Culture</link>
       <canonical corresp="#alexander">Alexander, no. 44</canonical>
       <canonical corresp="#mcgurk">McGurk, no. 117</canonical>
       <bibl id="duft_meyer_1954">Duft &amp; Meyer 1954: 69–71</bibl>

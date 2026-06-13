@@ -18,7 +18,8 @@ if (file_exists('../data/other/people.xml')) {
 		print '<p>' . $person->lifetime . '</p>';
 
 		// stable URL
-		print '<div class="text-secondary small">Stable URL: <a class="text-secondary" href="/people/' . $id . '">http://mira.ie/people/' . $id . '</a></div>';
+		$link = getLink('person', $id);
+		print '<div class="text-secondary small">Stable URL: <a class="text-secondary" href="' . $link . '">https://mira.ie' . $link . '</a></div>';
 
 		// linked data
 		$links = $person->xpath('xref');
@@ -45,7 +46,7 @@ if (file_exists('../data/other/people.xml')) {
 		listMSS($resultsSorted);
 
 		// download
-		print '<div class="text-secondary small mt-5">Download <a class="text-secondary" href="/data/people.xml">XML data</a> for people.</div>';
+		print '<div class="text-secondary small mt-5">Download <a class="text-secondary" href="/data/other/people.xml">XML data</a> for people.</div>';
 
 	}
 	else {
