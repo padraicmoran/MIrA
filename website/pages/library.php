@@ -10,15 +10,15 @@ if (file_exists('../data/other/libraries.xml')) {
 
 		if ($tidyURLs) $linkBack = '/libraries/';
 		else $linkBack = '/index.php?page=libraries';
-		print '<div class="h5 text-secondary"></div>';
+		echo '<div class="h5 text-secondary"></div>';
 
-		print '<h2>';
-		print '<a class="text-reset" href="' . $linkBack . '">Library</a>: ';
-		print $library->city . ', ' . $library->name . '</h2>';
+		echo '<h2>';
+		echo '<a class="text-reset" href="' . $linkBack . '">Libraries</a> ‣ ';
+		echo $library->city . ', ' . $library->name . '</h2>';
 
 		// stable URL
 		$link = getLink('library', $id);
-		print '<div class="text-secondary small">Stable URL: <a class="text-secondary" href="' . $link . '">https://mira.ie' . $link . '</a></div>';
+		echo '<div class="mb-5 text-secondary small">Stable URL: <a class="text-secondary" href="' . $link . '">https://mira.ie' . $link . '</a></div>';
 
 		// find related manuscripts
 		$results = $xml_mss->xpath('manuscript[identifier[@libraryID="' . $id . '"]]');
@@ -33,12 +33,12 @@ if (file_exists('../data/other/libraries.xml')) {
 		listMSS($resultsSorted);
 
 		// download
-		print '<div class="text-secondary small mt-5">Download <a class="text-secondary" href="/data/other/libraries.xml">XML data</a> for libraries.</div>';
+		echo '<div class="text-secondary small mt-5">Download <a class="text-secondary" href="/data/other/libraries.xml">XML data</a> for libraries.</div>';
 
 	}
 	else {
 		// if no match, exit to general list
-		require 'pages/people.php';
+		require 'pages/library_list.php';
 	}
 }
 

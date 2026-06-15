@@ -41,7 +41,7 @@ $manifestString = getAllManifests();
 var mirador = Mirador.viewer({
 	id: "miradorViewer",
 	catalog: [ 
-	<?php print $manifestString; ?> 
+	<?php echo $manifestString; ?> 
 	],
 	thumbnailNavigation: {
 		defaultPosition: 'far-bottom'

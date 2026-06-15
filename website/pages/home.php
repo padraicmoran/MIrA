@@ -10,7 +10,7 @@
 ("Irish" here is shorthand for the broader Gaelic world, including early medieval Scotland.)
 </p>
 <p>
-The catalogue currently contains <a href="/mss"><?php print $totalMSS; ?> manuscripts</a>.
+The catalogue currently contains <a href="/mss"><?php echo $totalMSS; ?> manuscripts</a>.
 Manuscripts are assigned to one or more categories.
 The principal criteria for inclusion are as follows:
 </p>
@@ -82,7 +82,7 @@ The following categories are also considered. The contents here are currently st
 
 
 <?php
-mapLibraries($xml_mss);
+mapLibraries($xml_mss, true);
 ?>
 
 <div class="row mt-5 pb-4">
@@ -137,6 +137,7 @@ Findable, Accessible, Interoperable, and Reuseable.
 </li>
 
 <li>Work is in progress to make data accessible in machine-readable format (RDF).
+	<br>We are currently testing a <a target="blank" href="https://mira-sparql.universityofgalway.ie/">MIrA SPARQL endpoint</a>.
 </li>
 </ul>
 

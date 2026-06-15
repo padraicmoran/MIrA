@@ -6,24 +6,22 @@ body {
 nav, .bg-mira {
 	background-color: #0e300e; 
 }
-a.navbar-brand {
-	font-weight: bold;
-	font-size: 1.1em;
-}
-a.active {
-   text-decoration: underline;
-}
 
 footer {
 	background-color: #9F9F92; 
 }
 
 
+a.navbar-brand {
+	font-weight: bold;
+	font-size: 1.1em;
+}
 a, a:hover, .leaflet-container a {
-	color: #4B6C60;
+   text-decoration: none;
+	color: #1a7a3c;
 }
 a:hover {
-	text-decoration: none;
+	text-decoration: underline;
 }
 a[href^="https://"]:after, a[href^="https://"]:after {
     content: "↗";
@@ -31,7 +29,6 @@ a[href^="https://"]:after, a[href^="https://"]:after {
     color: #aaaaaa;
     font-weight: bold;
 }
-
 a.btn {
 	font-size: 0.9em;
 }

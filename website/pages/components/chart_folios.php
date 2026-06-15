@@ -6,7 +6,7 @@ Bar chart for number of folios
 function chartFolios($data) {
 	global $libraries;
 
-	print '<h3 class="mt-5 pt-2">Folio count</h4>';
+	echo '<h3 class="mt-5 pt-2">Folio count</h4>';
 
 	//
 	// compile chart data
@@ -39,17 +39,17 @@ function chartFolios($data) {
 
 	// check whether data is available
 	if ($cntFols == 0) {
-		print '<p>No data available for this list.</p>';
+		echo '<p>No data available for this list.</p>';
 	}
 		else {	
 
 		// work out average
 		$avgF = floor($totalF / $cntFols);
 		
-		print '<p>';
-		print 'Data available for ' . $cntFols . ' ' . switchSgPl($cntFols, 'manuscript', 'manuscripts') . ' (' . intval($cntFols / count($data) * 100) . '% of this list). ';
-		print 'Range of folio numbers: ' . $minF . '–' . $maxF . ' (average ' . $avgF . '). ';
-		print '<br>Charted below (with red line for average). Click on a bar to view manuscript.</p>';
+		echo '<p>';
+		echo 'Data available for ' . $cntFols . ' ' . switchSgPl($cntFols, 'manuscript', 'manuscripts') . ' (' . intval($cntFols / count($data) * 100) . '% of this list). ';
+		echo 'Range of folio numbers: ' . $minF . '–' . $maxF . ' (average ' . $avgF . '). ';
+		echo '<br>Charted below (with red line for average). Click on a bar to view manuscript.</p>';
 
 		// sort asc
 		usort($fols, 'sortF');
@@ -79,8 +79,8 @@ function chartFolios($data) {
 		}
 				
 		// chart
-		print '<div id="chartHolder">';
-		print '<svg id="chart" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" width="100%" height="280" style="border: none;">';
+		echo '<div id="chartHolder">';
+		echo '<svg id="chart" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" width="100%" height="280" style="border: none;">';
 
 		// write axes
 		writeXAxis($xAxisMin, $xAxisMax, $xAxisStep, $xPad, $yPad);
@@ -98,9 +98,9 @@ function chartFolios($data) {
 		}
 		
 		// draw average line
-		print '<line x1="' . $xPad . '%" y1="' . getChartYcoord($avgF, $yAxisMin, $yAxisMax, $yPad) . '%" x2="' . (100 - $xPad) . '%" y2="' . getChartYcoord($avgF, $yAxisMin, $yAxisMax, $yPad) . '%" style="stroke:#cc3333;stroke-width:0.7" />';
-		print '</svg>';
-		print '</div>';
+		echo '<line x1="' . $xPad . '%" y1="' . getChartYcoord($avgF, $yAxisMin, $yAxisMax, $yPad) . '%" x2="' . (100 - $xPad) . '%" y2="' . getChartYcoord($avgF, $yAxisMin, $yAxisMax, $yPad) . '%" style="stroke:#cc3333;stroke-width:0.7" />';
+		echo '</svg>';
+		echo '</div>';
 
 	}
 }

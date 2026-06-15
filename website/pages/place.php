@@ -17,50 +17,50 @@ if (file_exists('../data/other/places.xml')) {
 	<div class="col-lg-4">
 <?php
 
-		print '<h2>';
-		print '<a class="text-reset" href="' . $linkBack . '">Places</a> ‣ ';
-		print $place->name . '</h2>';
+		echo '<h2>';
+		echo '<a class="text-reset" href="' . $linkBack . '">Places</a> ‣ ';
+		echo $place->name . '</h2>';
 
 		// stable URL
 		$link = getLink('place', $id);
-		print '<div class="text-secondary small">Stable URL: <a class="text-secondary" href="' . $link . '">https://mira.ie' . $link . '</a></div>';
+		echo '<div class="text-secondary small">Stable URL: <a class="text-secondary" href="' . $link . '">https://mira.ie' . $link . '</a></div>';
 
 		// other language versions
-		print '<p>';
+		echo '<p class="mt-3">';
 		writeTrans($place->xpath('name'));
-		print '</p>';
+		echo '</p>';
 
 		// if region: show sub-locations
 		if ($place['type'] == 'region') {
 			$subPlaces = $xml_places->xpath('//place[@id="' . $id . '"]/place');
 			if ($subPlaces) {
-				print '<p>Region, including the following places:</p> ';
-				print '<ul>';
+				echo '<p>Region, including the following places:</p> ';
+				echo '<ul>';
 				foreach ($subPlaces as $p) {
-					print '<li><a href="' . getLink('place', $p['id']) . '">' . $p->name . '</a></li>';
+					echo '<li><a href="' . getLink('place', $p['id']) . '">' . $p->name . '</a></li>';
 				}				
-				print '</ul>';
+				echo '</ul>';
 			}
 			else {
 				// no sub-locations
-				print '<p>Region.</p>';
+				echo '<p>Region.</p>';
 			}
 		}
 		// if not region: check if part of a region
 		else {
 			$priorPlace = $xml_places->xpath('//place[@id="' . $id . '"]/ancestor::place');
-			if ($priorPlace) print '<p>Part of region: <a href="' . getLink('places', $priorPlace[0]['id']) . '">' . $priorPlace[0]->name . '</a></p>';
+			if ($priorPlace) echo '<p>Part of region: <a href="' . getLink('places', $priorPlace[0]['id']) . '">' . $priorPlace[0]->name . '</a></p>';
 		}
 
 		// linked data
 		$links = $place->xpath('xref');
 		if (sizeof($links) > 0) {
-			print '<h3 class="mt-5">Linked data</h3>';
+			echo '<h3 class="mt-5">Linked data</h3>';
 			foreach ($links as $link) {
-				if ($link['type'] == 'pleiades') print '<a href="' . $link . '">Pleiades</a><br/>';
-				if ($link['type'] == 'viaf') print '<a href="' . $link . '">VIAF</a><br/>';
-				if ($link['type'] == 'wikidata') print '<a href="' . $link . '">Wikidata</a><br/>';
-				if ($link['type'] == 'biblissima') print '<a href="' . $link . '">Biblissima</a><br/>';
+				if ($link['type'] == 'pleiades') echo '<a href="' . $link . '">Pleiades</a><br/>';
+				if ($link['type'] == 'viaf') echo '<a href="' . $link . '">VIAF</a><br/>';
+				if ($link['type'] == 'wikidata') echo '<a href="' . $link . '">Wikidata</a><br/>';
+				if ($link['type'] == 'biblissima') echo '<a href="' . $link . '">Biblissima</a><br/>';
 			}
 		}
 
@@ -96,7 +96,7 @@ if (file_exists('../data/other/places.xml')) {
 		}
 
 		// download
-		print '<div class="text-secondary small mt-5">Download <a class="text-secondary" href="/data/other/places.xml">XML data</a> for places.</div>';
+		echo '<div class="text-secondary small mt-5">Download <a class="text-secondary" href="/data/other/places.xml">XML data</a> for places.</div>';
 
 	}
 	else {
@@ -108,8 +108,8 @@ if (file_exists('../data/other/places.xml')) {
 function writeTrans($arr) {
 foreach ($arr as $name) {
 	if (trim($name) <> '') {
-		if ($name['lang'] == 'la') print 'Latin: <i>' . $name . '</i><br/>';
-		if ($name['lang'] == 'de') print 'German: <i>' . $name . '</i><br/>';
+		if ($name['lang'] == 'la') echo 'Latin: <i>' . $name . '</i><br/>';
+		if ($name['lang'] == 'de') echo 'German: <i>' . $name . '</i><br/>';
 	}
 }
 

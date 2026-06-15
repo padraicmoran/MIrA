@@ -4,7 +4,7 @@ Configuration options
 */
 
 $version = '0.7 dev';
-$versionDate = '2025';
+$versionDate = '2026';
 $debug = true;
 
 // Set as true if there is a .htaccess file in the root directory and server permission for URL rewrites.

@@ -4,7 +4,8 @@ RewriteEngine on
 
 # Content pages
 RewriteRule ^(libraries|manuscripts|people|places|texts)/?$ index.php?page=$1 [L,QSA]
-RewriteRule ^(about)/?$ index.php?page=$1
+RewriteRule ^(about)/?$ index.php?page=$1&subpage=$2 [L,QSA]
+RewriteRule ^(about)/([a-z]+)/?$ index.php?page=$1__$2 [L,QSA]
 
 # Entity router
 RewriteRule ^(library|manuscript|person|place|text)/([a-z0-9_\-]+)/?$ index.php?page=$1&id=$2 [L,QSA]

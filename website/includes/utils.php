@@ -15,9 +15,9 @@ function switchSgPl($val, $sg, $pl) {
 
 // write a form select opion
 function writeOption($val, $label, $currentVal) {
-		print '<option value="'. $val . '"';
-		if ($val == $currentVal) print ' selected';
-		print '>' . $label . '</option>';
+		echo '<option value="'. $val . '"';
+		if ($val == $currentVal) echo ' selected';
+		echo '>' . $label . '</option>';
 }
 
 // replace letters with diactrics, etc. with plain text letters

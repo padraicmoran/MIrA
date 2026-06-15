@@ -20,7 +20,7 @@ function writeCategoryButton($catID, $linking) {
 	$type = $msCategories[$catID]['type'];
 	$color = $msCategories[$catID]['color'];
 
-	print '<div class="btn-group" role="group">';
+	echo '<div class="btn-group" role="group">';
 
 	// prepare styles
 	if ($type == 'outline') {
@@ -34,14 +34,14 @@ function writeCategoryButton($catID, $linking) {
 	
 	if ($linking) {
 		$url = '/manuscripts?cat=' . $catID;
-		print '  <a type="button" href="' . $url . '" class="' . $insertClass . 'px-0" style="' . $insertStyle . '; width: 45px; "><b>' . $displayCode . '</b></a>';
-		print '  <a type="button" href="' . $url . '" class="' . $insertClass . ' text-start " style="' . $insertStyle . '; width: 230px; ">' . $name . '</a>';
+		echo '  <a type="button" href="' . $url . '" class="' . $insertClass . 'px-0" style="' . $insertStyle . '; width: 45px; "><b>' . $displayCode . '</b></a>';
+		echo '  <a type="button" href="' . $url . '" class="' . $insertClass . ' text-start " style="' . $insertStyle . '; width: 230px; ">' . $name . '</a>';
 	}
 	else {
-		print '  <button type="button" class="' . $insertClass . 'px-0" style="' . $insertStyle . 'width: 45px; cursor: default; "><b>' . $displayCode . '</b></button>';
-		print '  <button type="button" class="' . $insertClass . ' text-start " style="' . $insertStyle . 'width: 230px; cursor: default; ">' . $name . '</button>';
+		echo '  <button type="button" class="' . $insertClass . 'px-0" style="' . $insertStyle . 'width: 45px; cursor: default; "><b>' . $displayCode . '</b></button>';
+		echo '  <button type="button" class="' . $insertClass . ' text-start " style="' . $insertStyle . 'width: 230px; cursor: default; ">' . $name . '</button>';
 	}
-	print '</div> ' . "\n";
+	echo '</div> ' . "\n";
 }
 
 // write a small category icon
@@ -61,7 +61,7 @@ function writeCategoryIcon($catID, $linking) {
 		$insertClass = 'btn btn-secondary btn-small mb-1 ';
 		$insertStyle = 'background-color: ' . $color . '; padding: 2px; ';
 	}
-	print '<a type="button" title="' . $name . '" data-bs-toggle="tooltip" href="/index.php?page=mss&cat=' . $catID . '" class="' . $insertClass . '" style="' . $insertStyle . '"><b>' . $displayCode . '</b></a> ';
+	echo '<a type="button" title="' . $name . '" data-bs-toggle="tooltip" href="/manuscripts?&cat=' . $catID . '" class="' . $insertClass . '" style="' . $insertStyle . '"><b>' . $displayCode . '</b></a> ';
 }
 
 ?>

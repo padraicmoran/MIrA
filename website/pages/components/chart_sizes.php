@@ -6,7 +6,7 @@ Bar chart for folio sizes
 function chartSizes($data) {
 	global $libraries;
 
-	print '<h3 class="mt-5 pt-2">Page sizes</h4>';
+	echo '<h3 class="mt-5 pt-2">Page sizes</h4>';
 
 	//
 	// compile chart data
@@ -43,7 +43,7 @@ function chartSizes($data) {
 
 	// check whether data is available
 	if ($cntSizes == 0) {
-		print '<p>No data available for this list.</p>';
+		echo '<p>No data available for this list.</p>';
 	}
 	else {	
 
@@ -51,11 +51,11 @@ function chartSizes($data) {
 		$avgH = floor($totalH / $cntSizes);
 		$avgW = floor($totalW / $cntSizes);
 		
-		print '<p>';
-		print 'Data available for ' . $cntSizes . ' ' . switchSgPl($cntSizes, 'manuscript', 'manuscripts') . ' (' . intval($cntSizes / count($data) * 100) . '% of this list). <br/>';
-		print 'Height range: ' . $minH . '–' . $maxH . ' cm (average ' . $avgH . ' cm). ';
-		print 'Width range: ' . $minW . '–' . $maxW . ' cm (average ' . $avgW . ' cm). <br/>';
-		print 'Heights charted below (with red line for average). Click on a bar to view manuscript.</p>';
+		echo '<p>';
+		echo 'Data available for ' . $cntSizes . ' ' . switchSgPl($cntSizes, 'manuscript', 'manuscripts') . ' (' . intval($cntSizes / count($data) * 100) . '% of this list). <br/>';
+		echo 'Height range: ' . $minH . '–' . $maxH . ' cm (average ' . $avgH . ' cm). ';
+		echo 'Width range: ' . $minW . '–' . $maxW . ' cm (average ' . $avgW . ' cm). <br/>';
+		echo 'Heights charted below (with red line for average). Click on a bar to view manuscript.</p>';
 
 		// sort asc
 		usort($sizes, 'sortH');
@@ -78,7 +78,7 @@ function chartSizes($data) {
 		$yAxisStep = 10;
 		
 		// chart
-		print '<svg xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" width="100%" height="280" style="border: none;">';
+		echo '<svg xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" width="100%" height="280" style="border: none;">';
 
 		// write axes
 		writeXAxis($xAxisMin, $xAxisMax, $xAxisStep, $xPad, $yPad);
@@ -96,8 +96,8 @@ function chartSizes($data) {
 		}
 		
 		// draw average line
-		print '<line x1="' . $xPad . '%" y1="' . getChartYcoord($avgH, $yAxisMin, $yAxisMax, $yPad) . '%" x2="' . (100 - $xPad) . '%" y2="' . getChartYcoord($avgH, $yAxisMin, $yAxisMax, $yPad) . '%" style="stroke:#cc3333;stroke-width:0.7" />';
-		print '</svg>';
+		echo '<line x1="' . $xPad . '%" y1="' . getChartYcoord($avgH, $yAxisMin, $yAxisMax, $yPad) . '%" x2="' . (100 - $xPad) . '%" y2="' . getChartYcoord($avgH, $yAxisMin, $yAxisMax, $yPad) . '%" style="stroke:#cc3333;stroke-width:0.7" />';
+		echo '</svg>';
 
 	}
 }

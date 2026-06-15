@@ -3,50 +3,25 @@
 Standard page template
 */
 
-function templateTop($activeNav) {
+function templateTop($activeNavID) {
 	global $tidyURLs, $search;
 	
-	$navLabels = array(
-		'Home',
-		'Manuscripts',
-		'Libraries',
-		'People',
-		'Places',
-		'Texts',
-		'About'	
-	);
-	if ($tidyURLs) {
-		$navURLs = array(
-			'/',
-			'/manuscripts',
-			'/libraries',
-			'/people',
-			'/places',
-			'/texts',
-			'/about'	
-		);
-	}
-	else {
-		$navURLs = array(
-			'/',
-			'/index.php?page=manuscripts',
-			'/index.php?page=libraries',
-			'/index.php?page=people',
-			'/index.php?page=places',
-			'/index.php?page=about',	
-			'/index.php?page=texts'
-		);
-	}
-	$pageTitles = array(
-		'Manuscripts with Irish Associations (MIrA)',
-		'MIrA • Manuscripts',
-		'MIrA • Libraries',
-		'MIrA • People',
-		'MIrA • Places',
-		'MIrA • About',	
-		'MIrA • Texts'
-	);
-	$title = $pageTitles[$activeNav];
+	$nav = [
+		'home' => 			['label' => 'Home',        'url' => '/',            'title' => 'Manuscripts with Irish Associations • Information about early Irish book culture'],
+		'manuscripts' =>	['label' => 'Manuscripts', 'url' => '/manuscripts', 'title' => 'MIrA • Manuscripts'],
+		'libraries' => 		['label' => 'Libraries',   'url' => '/libraries',   'title' => 'MIrA • Libraries'],
+		'people' => 		['label' => 'People',      'url' => '/people',      'title' => 'MIrA • People'],
+		'places' =>			['label' => 'Places',      'url' => '/places',      'title' => 'MIrA • Places'],
+		'texts' => 			['label' => 'Texts',       'url' => '/texts',       'title' => 'MIrA • Texts'],
+		'about' => 			['label' => 'About',       'url' => '/about',       'title' => 'MIrA • About',
+		'children' => [
+			'bibliography' => 	['label' => 'Bibliography',     'url' => '/about/bibliography',    'title' => 'MIrA • Bibliography'],
+			'versions' => 		['label' => 'Version history',  'url' => '/about/versions',		  'title' => 'MIrA • Version history'],
+			//'data' => 			['label' => 'Data management',  'url' => '/about/data',			  'title' => 'MIrA • Data management'],
+		]],
+	];
+	if (isset($nav[$activeNavID])) $title = $nav[$activeNavID]['title'];
+	else $title = $nav['home']['title'];
 
 ?><!doctype html>
 <html lang="en">
@@ -54,12 +29,12 @@ function templateTop($activeNav) {
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title><?php print $title; ?></title>
+	<title><?php echo $title; ?></title>
 
 	<!-- metadata -->
 	<meta name="description" lang="en" content="Manuscripts with Irish Associations (MIrA): Evidence for early Irish book culture, c. AD 600–1000."/>
 
-	<meta name="DC.title" lang="en" content="<?php print $title; ?>"/>
+	<meta name="DC.title" lang="en" content="<?php echo $title; ?>"/>
 	<meta name="DC.description" lang="en" content="Manuscripts with Irish Associations (MIrA): Evidence for early Irish book culture, c. AD 600–1000."/>
 	<meta name="DC.creator" content="Pádraic Moran" />
 	<meta name="DC.publisher" content="Pádraic Moran, University of Galway" />
@@ -69,10 +44,10 @@ function templateTop($activeNav) {
 	<meta name="DC.source" content="University of Galway" />
 	<meta name="DC.language" content="en_IE" />
 
-	<meta property="og:title" content="<?php print $title; ?>" />
+	<meta property="og:title" content="<?php echo $title; ?>" />
 	<meta property="og:site_name" content="Manuscripts with Irish Associations (MIrA)" />    
 	<meta property="og:description" content="Manuscripts with Irish Associations (MIrA): Evidence for early Irish book culture, c. AD 600–1000." />
-	<meta property="og:url" content="https://<?php print $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'] ?>" />
+	<meta property="og:url" content="https://<?php echo $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'] ?>" />
 	<meta property="og:locale" content="en_US" />
 	<meta property="og:type" content="website" />
 
@@ -124,30 +99,49 @@ function templateTop($activeNav) {
 	</button>
 
 
-		<div class="collapse navbar-collapse" id="navbarSupportedContent">
-			<ul class="navbar-nav ms-4 me-auto mb-2 mb-lg-0">
-<?php
-	for ($x = 0; $x < count($navLabels); $x ++) {
-		print '<li class="nav-item"><a class="nav-link';
-		if ($x == $activeNav) print ' active';
-		print '" href="' . $navURLs[$x] . '">' . $navLabels[$x] . '</a></li>';
-	}
-?>
-			</ul>
-
-			<form class="d-flex" action="/index.php" method="get">
-				<input type="hidden" name="page" value="mss">
-				<input class="form-control me-2" name="search" type="search" placeholder="MIrA number or keyword" aria-label="Search" value="<?php print $search ?>">
-				<button class="btn btn-success" type="submit">Search</button>
-			</form>
-		</div>
+	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		<ul class="navbar-nav ms-4 me-auto mb-2 mb-lg-0">
+	<?php
+	foreach ($nav as $navID => $item):
+		$isActive    = ($navID === $activeNavID);
+		$hasChildren = !empty($item['children']);
+	?>
+	<?php if ($hasChildren): ?>
+    <li class="nav-item dropdown d-flex align-items-center">
+        <a class="nav-link<?= $isActive ? ' active' : '' ?>"
+           href="<?= $item['url'] ?>"><?= $item['label'] ?></a>
+        <a class="nav-link dropdown-toggle dropdown-toggle-split p-0"
+           role="button" data-bs-toggle="dropdown"
+           aria-expanded="false"><span class="visually-hidden">Toggle dropdown</span></a>
+        <ul class="dropdown-menu">
+		<?php foreach ($item['children'] as $childID => $child): ?>
+            <li><a class="dropdown-item<?= ($childID === $activeNavID) ? ' active' : '' ?>"
+                   href="<?= $child['url'] ?>"><?= $child['label'] ?></a></li>
+		<?php endforeach ?>
+        </ul>
+    </li>
+		<?php else: ?>
+		<li class="nav-item">
+			<a class="nav-link<?= $isActive ? ' active' : '' ?>"
+			href="<?= $item['url'] ?>"><?= $item['label'] ?></a>
+		</li>
+	<?php endif ?>
+	<?php endforeach ?>
+		</ul>
+		<form class="d-flex" action="/manuscripts" method="get">
+			<input class="form-control me-2" name="search" type="search"
+				placeholder="MIrA number or keyword" aria-label="Search"
+				value="<?= $search ?>">
+			<button class="btn btn-success" type="submit">Search</button>
+		</form>
 	</div>
+
 </nav>
 
 
 <?php
 // home page header
-if ($activeNav == 0) print '<div class="container-fluid p-0 overflow-auto bg-dark"><a href="/110"><img class="img-fluid" src="/images/header_0-3.jpg" alt="Detail from the Book of Armagh"></a></div>';
+if ($activeNavID == 'home') echo '<div class="container-fluid p-0 overflow-auto bg-dark"><a href="/110"><img class="img-fluid" src="/images/header_0-3.jpg" alt="Detail from the Book of Armagh"></a></div>';
 ?>
 
 <!-- main content holder -->
@@ -165,11 +159,11 @@ function templateBottom() {
 	<div class="container mb-0">
 
 <p>Pádraic Moran, <i>Manuscripts with Irish Associations</i> (<i>MIrA</i>)</i>, 
-	version <?php print $version; ?> (<?php print $versionDate; ?>)
+	version <?php echo $version; ?> (<?php echo $versionDate; ?>)
 <?php
 // URL and date
-print '&lt;<a class="text-reset" href="' . $_SERVER['REQUEST_URI'] . '">https://mira.ie' . $_SERVER['REQUEST_URI'] . '</a>&gt; ';
-print '[accessed ' . date("j F Y") . ']';
+echo '&lt;<a class="text-reset" href="' . $_SERVER['REQUEST_URI'] . '">https://mira.ie' . $_SERVER['REQUEST_URI'] . '</a>&gt; ';
+echo '[accessed ' . date("j F Y") . ']';
 ?>
 </p>
 

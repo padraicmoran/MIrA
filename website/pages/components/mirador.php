@@ -5,7 +5,7 @@ Display Mirador viewer
 
 function mirador($iiifLinks) {
 
-	print '<div id="images" class="mt-4 mb-5">';
+	echo '<div id="images" class="mt-4 mb-5">';
 	$manifestString = getAllManifests();
 
 	// Mirador viewer code
@@ -13,7 +13,7 @@ function mirador($iiifLinks) {
 
 <script src="https://unpkg.com/mirador@latest/dist/mirador.min.js"></script>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500">
-<div id="miradorViewer" class="rounded shadow" style="position: relative; height: 600px; margin-bottom: 15px;">
+<div id="miradorViewer" class="rounded shadow" style="position: relative; height: 700px; margin-bottom: 15px;">
 	<!-- spinner -->
 	<button class="btn btn-primary" type="button" disabled>
 	  <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
@@ -25,25 +25,25 @@ function mirador($iiifLinks) {
 var mirador = Mirador.viewer({
 	id: "miradorViewer",
 	catalog: [ 
-	<?php print $manifestString; ?> 
+	<?php echo $manifestString; ?> 
 	],
 	windows: [
 <?php
 
 	foreach ($iiifLinks as $i) {
-		print '{ ';
-		print 'manifestId: "' . $i . '", ';		
-		if ($i->xpath('@index')) print 'canvasIndex: ' . $i->xpath('@index')[0] .  ', ';
-		print 'thumbnailNavigationPosition: "far-bottom" ';
-		print '}';
-		if (next($iiifLinks)) print ', ';
+		echo '{ ';
+		echo 'manifestId: "' . $i . '", ';		
+		if ($i->xpath('@index')) echo 'canvasIndex: ' . $i->xpath('@index')[0] .  ', ';
+		echo 'thumbnailNavigationPosition: "far-right" ';
+		echo '}';
+		if (next($iiifLinks)) echo ', ';
 	}
 	
 ?>	
 
 	],
 	thumbnailNavigation: {
-		defaultPosition: 'far-bottom'
+		defaultPosition: 'far-right'
 	},
   	workspace: {
 		showZoomControls: true

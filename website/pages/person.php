@@ -10,27 +10,29 @@ if (file_exists('../data/other/people.xml')) {
 
 		if ($tidyURLs) $linkBack = '/people/';
 		else $linkBack = '/index.php?page=people';
-		print '<div class="h5 text-secondary"></div>';
+		echo '<div class="h5 text-secondary"></div>';
 
-		print '<h2>';
-		print '<a class="text-reset" href="' . $linkBack . '">People</a> ‣ ';
-		print $person->firstNames . ' ' . $person->surname . '</h2>';
-		print '<p>' . $person->lifetime . '</p>';
+		echo '<h2>';
+		echo '<a class="text-reset" href="' . $linkBack . '">People</a> ‣ ';
+		echo $person->firstNames . ' ' . $person->surname . '</h2>';
+		echo '<p>' . $person->lifetime . '</p>';
 
 		// stable URL
 		$link = getLink('person', $id);
-		print '<div class="text-secondary small">Stable URL: <a class="text-secondary" href="' . $link . '">https://mira.ie' . $link . '</a></div>';
+		echo '<div class="text-secondary small mb-5">Stable URL: <a class="text-secondary" href="' . $link . '">https://mira.ie' . $link . '</a></div>';
 
 		// linked data
 		$links = $person->xpath('xref');
 		if (sizeof($links) > 0) {
-			print '<h3 class="mt-5">Linked data</h3>';
+			echo '<div class="my-5">';
+			echo '<h3>Linked data</h3>';
 			foreach ($links as $link) {
-				if ($link['type'] == 'biblissima') print '<a href="' . $link . '">Biblissima</a><br/>';
-				if ($link['type'] == 'dib') print '<a href="https://www.dib.ie/biography/' . $link . '">Dictionary of Irish Biography</a><br/>';
-				if ($link['type'] == 'viaf') print '<a href="' . $link . '">VIAF</a><br/>';
-				if ($link['type'] == 'wikidata') print '<a href="' . $link . '">Wikidata</a><br/>';
+				if ($link['type'] == 'biblissima') echo '<a href="' . $link . '">Biblissima</a><br/>';
+				if ($link['type'] == 'dib') echo '<a href="https://www.dib.ie/biography/' . $link . '">Dictionary of Irish Biography</a><br/>';
+				if ($link['type'] == 'viaf') echo '<a href="' . $link . '">VIAF</a><br/>';
+				if ($link['type'] == 'wikidata') echo '<a href="' . $link . '">Wikidata</a><br/>';
 			}
+			echo '</div>';
 		}
 
 		// find related manuscripts
@@ -46,7 +48,7 @@ if (file_exists('../data/other/people.xml')) {
 		listMSS($resultsSorted);
 
 		// download
-		print '<div class="text-secondary small mt-5">Download <a class="text-secondary" href="/data/other/people.xml">XML data</a> for people.</div>';
+		echo '<div class="text-secondary small mt-5">Download <a class="text-secondary" href="/data/other/people.xml">XML data</a> for people.</div>';
 
 	}
 	else {

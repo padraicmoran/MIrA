@@ -20,9 +20,16 @@ function makeMsHeading($ms) {
 	global $libraries;
 
 	$libraryID = strval($ms->identifier['libraryID']);
-	$heading = $libraries[$libraryID]['city'] . ', ' . $libraries[$libraryID]['name'] . ', ' . $ms->identifier->shelfmark;
-	if ($ms->identifier->ms_name !='') $heading = $ms->identifier->ms_name . ': ' . $heading;
-	if (count($ms->identifier) > 1) $heading .= ', etc.';
+	// get official shelfmark
+	$libraryShelfmark = $libraries[$libraryID]['city'] . ', ' . $libraries[$libraryID]['name'] . ', ' . $ms->identifier->shelfmark;
+	if (count($ms->identifier) > 1) $libraryShelfmark .= ', etc.';
+	// add common name if available
+	if ($ms->identifier->ms_name !='') {
+		$heading = $ms->identifier->ms_name . ' (' . $libraryShelfmark . ')';
+	}
+	else {
+		$heading = $libraryShelfmark;
+	}
 	return $heading;	
 }
 

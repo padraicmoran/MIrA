@@ -9,28 +9,30 @@ if ($filter) {
 	//
 	// HEADERS 
 	//
-	if ($tidyURLs) $linkBack = '/mss/';
-	else $linkBack = '/index.php?page=mss';
+	if ($tidyURLs) $linkBack = '/manuscripts/';
+	else $linkBack = '/index.php?page=manuscripts';
 
 	$heading = makeMsHeading($ms);
-	print '<h1 class="h2">MIrA ' . $id . ': ' . $heading . '</h1>';
+	echo '<h2 class="h3">';
+	echo '<a class="text-reset" href="' . $linkBack . '">Manuscripts</a> ‣ MIrA ' . $id . '</h2>';
+	echo '<h1>' .  $heading . '</h1>';
 
 	// stable URL
 	$link = getLink('manuscript', $id);
-	print '<div class="text-secondary small">Stable URL: <a class="text-secondary" href="' . $link . '">https://mira.ie' . $link . '</a></div>';
+	echo '<div class="text-secondary small">Stable URL: <a class="text-secondary" href="' . $link . '">https://mira.ie' . $link . '</a></div>';
 
 	// write categories
 	if ($ms->notes['categories'] != '') {
-		print '<div class="my-4">';
+		echo '<div class="my-4">';
 		$theseCats = explode(' ', $ms->notes['categories']);
 		foreach ($theseCats as $cat) {
 			$cat = str_replace('#', '', $cat);
 			if (isset($msCategories[$cat])) writeCategoryButton($cat, true);
 		} 
-		print '</div>';
+		echo '</div>';
 	}
 	else {
-		print '<div class="mt-3 alert alert-warning">This is a legacy record for a manuscript that has now been excluded from the database.</div>';
+		echo '<div class="mt-3 alert alert-warning">This is a legacy record for a manuscript that has now been excluded from the database.</div>';
 	}
 
 
@@ -43,10 +45,10 @@ if ($filter) {
 	// 
 	// TABLE OF DETAILS
 	//
-	print '<table class="table">';
+	echo '<table class="table">';
 
 	// identifiers
-	print '<tr><th colspan="2"><h3 class="mt-5">Identifiers</h3></th></tr>';
+	echo '<tr><th colspan="2"><h3 class="mt-5">Identifiers</h3></th></tr>';
 
 	// list parts (perhaps more than one)
 	$identifierCount = count($ms->identifier);
@@ -54,7 +56,7 @@ if ($filter) {
 		$libraryID = strval($ms->identifier[$n]['libraryID']);	
 		$unit = $ms->identifier[$n]["unit"];
 
-		if ($identifierCount > 1) print '<tr><td colspan="2"><h4 class="h6 mt-3 mb-0">UNIT ' . $unit . '</h4></td></tr>';
+		if ($identifierCount > 1) echo '<tr><td colspan="2"><h4 class="h6 mt-3 mb-0">UNIT ' . $unit . '</h4></td></tr>';
 
 		writeRow('Country', $libraries[$libraryID]['country'], '', '');
 		writeRow('Location', $libraries[$libraryID]['city'] . ', ' . $libraries[$libraryID]['name'], '/library/' . $libraryID);
@@ -72,7 +74,7 @@ if ($filter) {
 	}
 
 	// description, incl. contents
-	print '<tr><th colspan="2"><h3 class="h3 mt-5">Description</h3></th></tr>';
+	echo '<tr><th colspan="2"><h3 class="h3 mt-5">Description</h3></th></tr>';
 	writeRow('MS type', $ms->description->type, '');
 	writeRow('No. of folios', $ms->description->folios, '');
 	writeRow('Page height (cm)', $ms->description->page_h, '');
@@ -86,40 +88,40 @@ if ($filter) {
 	if (! $ms->description->contents->msItem) writeRow('Contents', processData($ms->description->contents->asXML()), '');
 	else {
 		// detailed contents
-		print '<tr><th>Contents</th><td>';
-		print '<table class="table table-sm">';
+		echo '<tr><th>Contents</th><td>';
+		echo '<table class="table table-sm">';
 		foreach ($ms->description->contents->msItem as $item) {
-			print '<tr>';
-			print '<td>' . $item->locus . '</td>';
-			print '<td>' . $item->author . ', <i>' . $item->title . '</i> ';
-			if ($item->note) print '(' . $item->note . ')';
-			print '</td>';
-			print '<tr>';
+			echo '<tr>';
+			echo '<td>' . $item->locus . '</td>';
+			echo '<td>' . $item->author . ', <i>' . $item->title . '</i> ';
+			if ($item->note) echo '(' . $item->note . ')';
+			echo '</td>';
+			echo '<tr>';
 		}
-		print '</table>';
-		print '</td></tr>';
+		echo '</table>';
+		echo '</td></tr>';
 	}
 
-	print '<tr><th colspan="2"><h3 class="h3 mt-5">History</h3></th></tr>';
+	echo '<tr><th colspan="2"><h3 class="h3 mt-5">History</h3></th></tr>';
 	writeRow('Dating', $ms->history->date_desc . ' (' . $ms->history->term_post . '–' . $ms->history->term_ante . ')', '');
 	writeRow('Origin', processData($ms->history->origin->asXML()), '');
 	writeRow('Provenance', processData($ms->history->provenance->asXML()), '');
 
 
-	print '<tr><th colspan="2"><h3 class="mt-5">Resources</h3></th></tr>';
+	echo '<tr><th colspan="2"><h3 class="mt-5">Resources</h3></th></tr>';
 	writeResources('Catalogue entries/identifiers', $ms->refs->xpath('canonical'));
 	writeResources('Links', $ms->refs->xpath('link'));
 	writeResources('Other resources', $ms->refs->xpath('bibl'));
 
 
 	if ($ms->notes != '') {
-		print '<tr><th colspan="2"><h3 class="h3 mt-5">Notes</h3></th></tr>';
-		print '<tr><td colspan="2">' . processData($ms->notes->asXML()) . '</td></tr>';
+		echo '<tr><th colspan="2"><h3 class="h3 mt-5">Notes</h3></th></tr>';
+		echo '<tr><td colspan="2">' . processData($ms->notes->asXML()) . '</td></tr>';
 	}
 
 
-	print '<tr><th colspan="2"><h3 class="h3 mt-5">References</h3></th></tr>';
-	print '<tr><td colspan="2">';
+	echo '<tr><th colspan="2"><h3 class="h3 mt-5">References</h3></th></tr>';
+	echo '<tr><td colspan="2">';
 	// make list of reference IDs for this MS entry
 	$refList = array();
 	$refs = $ms->refs->xpath('.//*/@corresp');
@@ -129,33 +131,33 @@ if ($filter) {
 	//	cycle through bibliography and print entries with matching IDs
 	if (file_exists('../data/other/bibliography.xml')) {
 		$xml_bibl = simplexml_load_file('../data/other/bibliography.xml');
-		print '<ul class="list-unstyled small">';
+		echo '<ul class="list-unstyled small">';
 		foreach($xml_bibl as $bibl) {
 			$biblID = strval($bibl['id']);
 			if (in_array($biblID, $refList)) {
-				print '<li class="mb-2">' . $bibl->asXML() . '</li>';
+				echo '<li class="mb-2">' . $bibl->asXML() . '</li>';
 			}
 		}
-		print '</ul>';
+		echo '</ul>';
 	}
 	
 	
-	print '</td></tr>';
-	print '</table>';
+	echo '</td></tr>';
+	echo '</table>';
 
 	// library map
 	if ($libraries[$libraryID]['coords'] != '') {
-		mapLibraries($filter);
+		mapLibraries($filter, true);
 	}
 
 	// download
 	if ($tidyURLs) $xmlURL = '/' . sprintf("%03d", $id) . '/xml';
 	else $xmlURL = '../data/mss/' . sprintf("%03d", $id) . '.xml';
-	print '<div class="text-secondary small mt-5">Download <a class="text-secondary" href="' . $xmlURL . '">XML data</a> for this manuscript.</div>';
+	echo '<div class="text-secondary small mt-5">Download <a class="text-secondary" href="' . $xmlURL . '">XML data</a> for this manuscript.</div>';
 
 }
 else {
-	print '<!-- MS not found -->';
+	echo '<!-- MS not found -->';
 	require 'pages/home.php';
 }
 
@@ -168,8 +170,8 @@ function writeRow($header, $value, $link) {
 		$target = '';
 		if (substr($link, 0, 4) == 'http') $target = '_blank';
 		
-		if ($link != '') print '<tr><th width="400">' . $header . '</th><td><a href="' . $link . '" target="' . $target . '">' . $value . '</a></td></tr>';
-		else print '<tr><th width="400">' . $header . '</th><td>' . $value . '</td></tr>';
+		if ($link != '') echo '<tr><th width="400">' . $header . '</th><td><a href="' . $link . '" target="' . $target . '">' . $value . '</a></td></tr>';
+		else echo '<tr><th width="400">' . $header . '</th><td>' . $value . '</td></tr>';
 	}
 }
 
@@ -177,15 +179,15 @@ function writeRow($header, $value, $link) {
 function writeResources($heading, $node) {
 	$refs = $node;
 	if ($refs) {
-		print '<tr><th>' . $heading .'</th><td>';
-		print '<ul class="list-unstyled">';
+		echo '<tr><th>' . $heading .'</th><td>';
+		echo '<ul class="list-unstyled">';
 		foreach ($refs as $ref) {
 			$text = $ref->asXML();
 			if ($ref['href'] <> '') $text = '<a target="_blank" href="' . $ref['href'] . '">' . $text . '</a>';
-			print '<li>' . $text . '</li>';
+			echo '<li>' . $text . '</li>';
 		}
-		print '</ul>';
-		print '</td></tr>';
+		echo '</ul>';
+		echo '</td></tr>';
 	}	
 }
 

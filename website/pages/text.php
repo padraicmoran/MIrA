@@ -12,26 +12,28 @@ if (file_exists('../data/other/texts.xml')) {
 		else $linkBack = '/index.php?page=texts';
 
 		// page title
-		print '<h2>';
-		print '<a class="text-reset" href="' . $linkBack . '">Texts</a> ‣ ';
-		if ($text->author != '') print $text->author . ', ';
-		if ($text->title['style'] == 'roman') print $text->title;
-		else print '<i>' . $text->title . '</i>';
-		 print '</h2>';
+		echo '<h2>';
+		echo '<a class="text-reset" href="' . $linkBack . '">Texts</a> ‣ ';
+		if ($text->author != '') echo $text->author . ', ';
+		if ($text->title['style'] == 'roman') echo $text->title;
+		else echo '<i>' . $text->title . '</i>';
+		 echo '</h2>';
 
 		// stable URL
 		$link = getLink('text', $id);
-		print '<div class="text-secondary small">Stable URL: <a class="text-secondary" href="' . $link . '">https://mira.ie' . $link . '</a></div>';
+		echo '<div class="text-secondary small">Stable URL: <a class="text-secondary" href="' . $link . '">https://mira.ie' . $link . '</a></div>';
 
 
 		// linked data
 		$links = $text->xpath('xref');
 		if (sizeof($links) > 0) {
-			print '<h3 class="mt-5">Linked data</h3>';
+			echo '<div class="my-5">';
+			echo '<h3>Linked data</h3>';
 			foreach ($links as $link) {
-				if ($link['type'] == 'viaf') print '<a href="' . $link . '">VIAF</a><br/>';
-				if ($link['type'] == 'wikidata') print '<a href="' . $link . '">Wikidata</a><br/>';
+				if ($link['type'] == 'viaf') echo '<a href="' . $link . '">VIAF</a><br/>';
+				if ($link['type'] == 'wikidata') echo '<a href="' . $link . '">Wikidata</a><br/>';
 			}
+			echo '</div>';
 		}
 
 		// find related manuscripts
@@ -48,7 +50,7 @@ if (file_exists('../data/other/texts.xml')) {
 		listMSS($resultsSorted);
 
 		// download
-		print '<div class="text-secondary small mt-5">Download <a class="text-secondary" href="/data/other/texts.xml">XML data</a> for texts.</div>';
+		echo '<div class="text-secondary small mt-5">Download <a class="text-secondary" href="/data/other/texts.xml">XML data</a> for texts.</div>';
 
 	}
 	else {

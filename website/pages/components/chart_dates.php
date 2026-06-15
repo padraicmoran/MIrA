@@ -58,8 +58,8 @@ function chartDates($data) {
 	
 
 	// chart
-	print '<h3 class="mt-5 pt-2">Manuscript dates (approx.)</h3>';
-	print '<svg width="100%" height="280" style="border: none;">';
+	echo '<h3 class="mt-5 pt-2">Manuscript dates (approx.)</h3>';
+	echo '<svg width="100%" height="280" style="border: none;">';
 
 	// write axes
 	writeXAxis($xAxisMin, $xAxisMax, $xAxisStep, $xPad, $yPad);
@@ -72,10 +72,10 @@ function chartDates($data) {
 		$x = getChartXcoord($xVal, $xAxisMin, $xAxisMax, $xPad);
 		$w = getChartXcoord($xVal + (100/3), $xAxisMin, $xAxisMax, $xPad) - $x;
 		$y = getChartYcoord($yVal, $yAxisMin, $yAxisMax, $yPad);
-		if ($xVal >= $xAxisMin && $xVal <= $xAxisMax) print '<rect x="' . ($x + 1) . '%" y="' . $y . '%" width="' . ($w - 1) . '%" height="' . (100 - $yPad - $y) . '%" style="fill:' . $colour . ';stroke:none;fill-opacity:0.5"><title>' . $yVal . ' MSS</title></rect>';	
+		if ($xVal >= $xAxisMin && $xVal <= $xAxisMax) echo '<rect x="' . ($x + 1) . '%" y="' . $y . '%" width="' . ($w - 1) . '%" height="' . (100 - $yPad - $y) . '%" style="fill:' . $colour . ';stroke:none;fill-opacity:0.5"><title>' . $yVal . ' MSS</title></rect>';	
 	}
 	
-	print '</svg>';
+	echo '</svg>';
 
 }
 

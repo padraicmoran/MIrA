@@ -6,13 +6,13 @@ $page = cleanInput('page') ?? '';
 $id = cleanInput('id') ?? '';
 $search = cleanInput('search') ?? '';
 
+
 // content router
 if (isset($xml_mss)) {
 
-	if ($page == 'mss') {
+	if ($page == 'manuscripts') {
 
 		$searchCat = cleanInput('cat') ?? '';
-		$searchLib = cleanInput('lib') ?? '';
 
 		if ($search != '') {
 			// keyword search
@@ -24,23 +24,22 @@ if (isset($xml_mss)) {
 				$results = searchMSS($xml_mss, 'category', $searchCat);
 			}
 		}
-		elseif ($searchLib != '') {
-			// browse by library
-			$results = searchMSS($xml_mss, 'library', $searchLib);
-		}
 		else {
 			// show all entries
 			$results = searchMSS($xml_mss, null, null);
 		}
 	}
-	elseif ($page == 'texts') {
-		$results = $xml_mss->xpath('manuscript[//text[@id="' . $id . '"]]');
+	elseif ($page == 'library') {
+		$results = $xml_mss->xpath('manuscript[identifier[@libraryID="' . $id . '"]]');
 	}
-	elseif ($page == 'people') {
-		$results = $xml_mss->xpath('manuscript[//person[@id="' . $id . '"]]');
+	elseif ($page == 'person') {
+		$results = $xml_mss->xpath('manuscript[.//person[@id="' . $id . '"]]');
 	}
-	elseif ($page == 'places') {
-		$results = $xml_mss->xpath('manuscript[//place[@id="' . $id . '"]]');
+	elseif ($page == 'place') {
+		$results = $xml_mss->xpath('manuscript[.//place[@id="' . $id . '"]]');
+	}
+	elseif ($page == 'text') {
+		$results = $xml_mss->xpath('manuscript[.//text[@id="' . $id . '"]]');
 	}
 }
 
@@ -97,7 +96,7 @@ if (isset($results)) {
 			fputcsv($output, 
 				array(
 					$miraRef,
-					'https://mira.ie/' . $ms['id'],
+					'https://mira.ie/manuscript/' . $ms['id'],
 					$libraries[$libraryID]['city'],
 					$libraries[$libraryID]['name'],
 					$ms->identifier[$n]->shelfmark,
@@ -117,7 +116,7 @@ if (isset($results)) {
 	}
 }
 else {
-	print 'Error: no data found.';
+	echo 'Error: no data found.';
 }
 
 function stripTagsInNode($node) {

@@ -8,8 +8,8 @@ function networkGraph1($results) {
   global $placeInfo, $libraries;
   $showLibraries = false;
 
-  print '<h3 id="network" class="mt-5 pt-2">Network graph</h3>';
-  if (sizeof($results) > 50) print '<p id="slowLoadWarning" class="bg-warning rounded py-1 px-3">Large result sets may take several seconds to draw.</p>';
+  echo '<h3 id="network" class="mt-5 pt-2">Network graph</h3>';
+  if (sizeof($results) > 50) echo '<p id="slowLoadWarning" class="bg-warning rounded py-1 px-3">Large result sets may take several seconds to draw.</p>';
 
   /* PREPARE DATA
   */
@@ -137,7 +137,7 @@ var nodes = new vis.DataSet([
 <?php
   // write nodes
   foreach ($nodeList as $node) {
-    print nodeString($node);
+    echo nodeString($node);
   }
 ?>
 ]);
@@ -147,7 +147,7 @@ var edges = new vis.DataSet([
 <?php
   // write edges
   foreach ($edgeList as $edge) {
-    print edgeString1($edge);
+    echo edgeString1($edge);
   }
 ?>
 ]);

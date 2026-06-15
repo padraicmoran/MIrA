@@ -64,10 +64,10 @@ var bounds = new L.LatLngBounds();
 
 	// if showing one result, centre map
 	if ($selectedID != '') {
-		print 'mapPlaces.setView([' . $placeInfo[$selectedID]['coords'] . '], 8); ';
-		print 'markers["' . $selectedID . '"].openPopup(); ';	
+		echo 'mapPlaces.setView([' . $placeInfo[$selectedID]['coords'] . '], 8); ';
+		echo 'markers["' . $selectedID . '"].openPopup(); ';	
 	}
-	else print 'mapPlaces.fitBounds(bounds); ';
+	else echo 'mapPlaces.fitBounds(bounds); ';
 
 ?>
 
@@ -116,11 +116,11 @@ function writePlaceMarker($place, $selectedID) {
 	else $appearance = 'radius: 8,  stroke: false, fillColor: "#300e0e", fillOpacity: 0.8';
 
 	// write marker
-	print 'markers["' . $id . '"] = L.circleMarker([' . $place->coords . '], { ' . $appearance . ' }).addTo(mapPlaces); ';
-	print 'markers["' . $id . '"].bindPopup(\'' . addSlashes($content) . '\'); ';
-	print 'markers["' . $id . '"].on("click", function(e) { this.openPopup; }); ';
+	echo 'markers["' . $id . '"] = L.circleMarker([' . $place->coords . '], { ' . $appearance . ' }).addTo(mapPlaces); ';
+	echo 'markers["' . $id . '"].bindPopup(\'' . addSlashes($content) . '\'); ';
+	echo 'markers["' . $id . '"].on("click", function(e) { this.openPopup; }); ';
 		
 	// add to bounds object (to zoom to show all markers)
-	print 'bounds.extend(markers["' . $id . '"].getLatLng());' . "\n";
+	echo 'bounds.extend(markers["' . $id . '"].getLatLng());' . "\n";
 }
 ?>

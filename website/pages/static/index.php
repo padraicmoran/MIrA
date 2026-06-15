@@ -24,11 +24,11 @@
 // output bibliography
 if (file_exists('../data/other/bibliography.xml')) {
    $xml_bibl = simplexml_load_file('../data/other/bibliography.xml');
-   print '<ul class="">';
+   echo '<ul class="">';
    foreach($xml_bibl as $bibl) {
-      print '<li class="mb-2">' . $bibl->asXML() . '</li>';
+      echo '<li class="mb-2">' . $bibl->asXML() . '</li>';
    }
-   print '</ul>';
+   echo '</ul>';
 }
 
 ?>
@@ -39,7 +39,7 @@ if (file_exists('../data/other/bibliography.xml')) {
 <p>Current version:</p>
 
 <ul>
-<li>0.7 (dev). New data for columns and lines (supplied by Chiara Corongiu).</li>
+<li>0.7 (dev). New data for columns and lines (supplied by Chiara Corongiu). Linked Open Data enabling partially implemented.</li>
 </ul>
 
 <p>Previous versions:</p>
