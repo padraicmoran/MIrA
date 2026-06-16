@@ -1,0 +1,18 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://mira.ie/entity/manuscript/93> rdfs:label "Universitätsbibliothek — M.p.th.f.12" ;
+    skos:prefLabel "Universitätsbibliothek — M.p.th.f.12" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1574 <https://mira.ie/entity/text/paul> ;
+    wdt:P195 <https://mira.ie/entity/library/wurzburg> ;
+    wdt:P2048 32.0 ;
+    wdt:P2049 23.5 ;
+    wdt:P217 "M.p.th.f.12" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0786"^^xsd:gYear,
+        "0800"^^xsd:gYear .
+

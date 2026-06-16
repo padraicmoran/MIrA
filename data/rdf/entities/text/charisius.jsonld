@@ -1,0 +1,20 @@
+[
+  {
+    "@id": "https://mira.ie/entity/text/charisius",
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Ars grammatica"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "Ars grammatica"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q7725634"
+      }
+    ]
+  }
+]

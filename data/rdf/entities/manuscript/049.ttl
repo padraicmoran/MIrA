@@ -1,0 +1,17 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://mira.ie/entity/manuscript/49> rdfs:label "Sächsische Landesbibliothek – Staats- und Universitätsbibliothek — Dc 182 (ff 63–135)" ;
+    skos:prefLabel "Sächsische Landesbibliothek – Staats- und Universitätsbibliothek — Dc 182 (ff 63–135)" ;
+    wdt:P1071 wd:Q41876 ;
+    wdt:P195 <https://mira.ie/entity/library/dresden> ;
+    wdt:P2048 22.0 ;
+    wdt:P2049 18.0 ;
+    wdt:P217 "Dc 182 (ff 63–135)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0851"^^xsd:gYear,
+        "0900"^^xsd:gYear .
+

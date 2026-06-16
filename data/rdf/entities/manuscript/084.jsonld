@@ -1,0 +1,45 @@
+[
+  {
+    "@id": "https://mira.ie/entity/manuscript/84",
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Bayerische Staatsbibliothek — Clm 14429 (ff 1–62, 64–71, 73–82) [palimpsest old]"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "Bayerische Staatsbibliothek — Clm 14429 (ff 1–62, 64–71, 73–82) [palimpsest old]"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P1071": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q22890"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P195": [
+      {
+        "@id": "https://mira.ie/entity/library/munich"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P217": [
+      {
+        "@value": "Clm 14429 (ff 1–62, 64–71, 73–82) [palimpsest old]"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q87167"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P571": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "0680"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "0720"
+      }
+    ]
+  }
+]

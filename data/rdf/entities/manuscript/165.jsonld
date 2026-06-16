@@ -1,0 +1,45 @@
+[
+  {
+    "@id": "https://mira.ie/entity/manuscript/165",
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Universiteitsbibliotheek — Voss. Lat. F. 70 I (ff 1–66)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "Universiteitsbibliotheek — Voss. Lat. F. 70 I (ff 1–66)"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P1071": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q142"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P195": [
+      {
+        "@id": "https://mira.ie/entity/library/leiden"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P217": [
+      {
+        "@value": "Voss. Lat. F. 70 I (ff 1–66)"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q87167"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P571": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "0851"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "0875"
+      }
+    ]
+  }
+]

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+   xmlns:wdt="http://www.wikidata.org/prop/direct/"
+>
+  <rdf:Description rdf:about="https://mira.ie/entity/library/beuron">
+    <wdt:P31 rdf:resource="http://www.wikidata.org/entity/Q7075"/>
+    <wdt:P31 rdf:resource="http://www.wikidata.org/entity/Q43229"/>
+    <rdfs:label>Bibliothek der Benediktiner-Erzabtei</rdfs:label>
+    <skos:prefLabel>Bibliothek der Benediktiner-Erzabtei</skos:prefLabel>
+  </rdf:Description>
+</rdf:RDF>

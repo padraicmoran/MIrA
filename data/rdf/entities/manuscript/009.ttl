@@ -1,0 +1,19 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://mira.ie/entity/manuscript/9> rdfs:label "Bibliothèque municipale — 217 (444) (flyleaf)" ;
+    skos:prefLabel "Bibliothèque municipale — 217 (444) (flyleaf)" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P195 <https://mira.ie/entity/library/colmar> ;
+    wdt:P2048 24.5 ;
+    wdt:P2049 19.0 ;
+    wdt:P217 "217 (444) (flyleaf)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0751"^^xsd:gYear,
+        "0800"^^xsd:gYear ;
+    wdt:P953 "http://foundationsirishculture.ie/record/?id=39"^^xsd:anyURI,
+        "https://bvmm.irht.cnrs.fr/consult/consult.php?reproductionId=1958"^^xsd:anyURI .
+

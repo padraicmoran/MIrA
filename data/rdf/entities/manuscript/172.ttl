@@ -7,8 +7,6 @@
 <https://mira.ie/entity/manuscript/172> rdfs:label "Burgerbibliothek — A 756 / 76" ;
     skos:prefLabel "Burgerbibliothek — A 756 / 76" ;
     wdt:P195 <https://mira.ie/entity/library/bern> ;
-    wdt:P2048 26.0 ;
-    wdt:P2049 34.5 ;
     wdt:P217 "A 756 / 76" ;
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0701"^^xsd:gYear,

@@ -1,0 +1,25 @@
+[
+  {
+    "@id": "https://mira.ie/entity/person/sedulius",
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Sedulius Scottus"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q2609522"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "Sedulius Scottus"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q5"
+      }
+    ]
+  }
+]

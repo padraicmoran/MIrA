@@ -1,0 +1,15 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://mira.ie/entity/manuscript/8> rdfs:label "Bibliothèque municipale — 679 (619)" ;
+    skos:prefLabel "Bibliothèque municipale — 679 (619)" ;
+    wdt:P1071 wd:Q217768 ;
+    wdt:P195 <https://mira.ie/entity/library/cambrai> ;
+    wdt:P217 "679 (619)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0763"^^xsd:gYear,
+        "0790"^^xsd:gYear .
+

@@ -1,0 +1,54 @@
+[
+  {
+    "@id": "https://mira.ie/entity/manuscript/41",
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Bibliothèque municipale — 342 bis (fol. B)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "Bibliothèque municipale — 342 bis (fol. B)"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P1071": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q22890"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q25"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P195": [
+      {
+        "@id": "https://mira.ie/entity/library/saint-omer"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P217": [
+      {
+        "@value": "342 bis (fol. B)"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q87167"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P571": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "0680"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "0720"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P953": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "http://foundationsirishculture.ie/record/?id=41"
+      }
+    ]
+  }
+]

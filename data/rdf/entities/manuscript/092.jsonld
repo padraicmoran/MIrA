@@ -1,0 +1,45 @@
+[
+  {
+    "@id": "https://mira.ie/entity/manuscript/92",
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Universitätsbibliothek — M.p.th.f.1 + M.p.th.f.18 + M.p.j.f.7 + M.p.j.f.5 + M.p.th.f.78 [binding]"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "Universitätsbibliothek — M.p.th.f.1 + M.p.th.f.18 + M.p.j.f.7 + M.p.j.f.5 + M.p.th.f.78 [binding]"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P1071": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q22890"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P195": [
+      {
+        "@id": "https://mira.ie/entity/library/wurzburg"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P217": [
+      {
+        "@value": "M.p.th.f.1 + M.p.th.f.18 + M.p.j.f.7 + M.p.j.f.5 + M.p.th.f.78 [binding]"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q87167"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P571": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "0786"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "0800"
+      }
+    ]
+  }
+]

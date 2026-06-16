@@ -1,0 +1,25 @@
+[
+  {
+    "@id": "https://mira.ie/entity/person/jerome",
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Jerome"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q44248"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "Jerome"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q5"
+      }
+    ]
+  }
+]

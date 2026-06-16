@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+   xmlns:wdt="http://www.wikidata.org/prop/direct/"
+>
+  <rdf:Description rdf:about="https://mira.ie/entity/manuscript/243">
+    <wdt:P31 rdf:resource="http://www.wikidata.org/entity/Q87167"/>
+    <wdt:P217>Ii.6.32</wdt:P217>
+    <rdfs:label>University Library — Ii.6.32</rdfs:label>
+    <skos:prefLabel>University Library — Ii.6.32</skos:prefLabel>
+    <wdt:P195 rdf:resource="https://mira.ie/entity/library/cambridge_ul"/>
+    <wdt:P571 rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0850</wdt:P571>
+    <wdt:P571 rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0950</wdt:P571>
+    <wdt:P1071 rdf:resource="http://www.wikidata.org/entity/Q1382485"/>
+    <wdt:P2048 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">15.7</wdt:P2048>
+    <wdt:P2049 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.8</wdt:P2049>
+    <wdt:P1574 rdf:resource="https://mira.ie/entity/text/gospels"/>
+  </rdf:Description>
+</rdf:RDF>

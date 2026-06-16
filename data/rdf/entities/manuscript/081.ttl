@@ -1,0 +1,18 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://mira.ie/entity/manuscript/81> rdfs:label "Bayerische Staatsbibliothek — Clm 6415 (ff 1–45)" ;
+    skos:prefLabel "Bayerische Staatsbibliothek — Clm 6415 (ff 1–45)" ;
+    wdt:P1071 wd:Q11498,
+        wd:Q38 ;
+    wdt:P195 <https://mira.ie/entity/library/munich> ;
+    wdt:P2048 19.2 ;
+    wdt:P2049 15.2 ;
+    wdt:P217 "Clm 6415 (ff 1–45)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0826"^^xsd:gYear,
+        "0850"^^xsd:gYear .
+

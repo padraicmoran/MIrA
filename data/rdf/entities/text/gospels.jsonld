@@ -1,0 +1,25 @@
+[
+  {
+    "@id": "https://mira.ie/entity/text/gospels",
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Gospels"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q5852633"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "Gospels"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q7725634"
+      }
+    ]
+  }
+]

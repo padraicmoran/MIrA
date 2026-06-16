@@ -1,0 +1,48 @@
+[
+  {
+    "@id": "https://mira.ie/entity/manuscript/78",
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Hospitalbibliothek — 171 (formerly binding)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "Hospitalbibliothek — 171 (formerly binding)"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P1071": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q22890"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q107299"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P195": [
+      {
+        "@id": "https://mira.ie/entity/library/kues"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P217": [
+      {
+        "@value": "171 (formerly binding)"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q87167"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P571": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "0686"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "0700"
+      }
+    ]
+  }
+]

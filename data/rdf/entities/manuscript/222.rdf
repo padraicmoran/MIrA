@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+   xmlns:wdt="http://www.wikidata.org/prop/direct/"
+>
+  <rdf:Description rdf:about="https://mira.ie/entity/manuscript/222">
+    <wdt:P31 rdf:resource="http://www.wikidata.org/entity/Q87167"/>
+    <wdt:P217>Pal. Lat. 68</wdt:P217>
+    <rdfs:label>Biblioteca Apostolica Vaticana — Pal. Lat. 68</rdfs:label>
+    <skos:prefLabel>Biblioteca Apostolica Vaticana — Pal. Lat. 68</skos:prefLabel>
+    <wdt:P195 rdf:resource="https://mira.ie/entity/library/vatican"/>
+    <wdt:P571 rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0701</wdt:P571>
+    <wdt:P571 rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0800</wdt:P571>
+    <wdt:P1071 rdf:resource="http://www.wikidata.org/entity/Q21"/>
+    <wdt:P1071 rdf:resource="http://www.wikidata.org/entity/Q22890"/>
+    <wdt:P2048 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">31</wdt:P2048>
+    <wdt:P2049 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">19</wdt:P2049>
+    <wdt:P953 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://digi.vatlib.it/view/bav_pal_lat_68</wdt:P953>
+    <wdt:P953 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://opac.vatlib.it/mss/detail/Pal.lat.68</wdt:P953>
+    <wdt:P953 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://foundationsirishculture.ie/record/?id=3</wdt:P953>
+  </rdf:Description>
+</rdf:RDF>

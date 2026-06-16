@@ -4,15 +4,13 @@
 @prefix wdt: <http://www.wikidata.org/prop/direct/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://mira.ie/entity/manuscript/206> rdfs:label "Cathedral Library — A.II.17 (ff 2–102)" ;
-    skos:prefLabel "Cathedral Library — A.II.17 (ff 2–102)" ;
+<https://mira.ie/entity/manuscript/206> rdfs:label "Cathedral Library — A.II.17 (ff 2-102)" ;
+    skos:prefLabel "Cathedral Library — A.II.17 (ff 2-102)" ;
     wdt:P1071 wd:Q107299,
         wd:Q22890 ;
     wdt:P1574 <https://mira.ie/entity/text/gospels> ;
     wdt:P195 <https://mira.ie/entity/library/durham> ;
-    wdt:P2048 34.0 ;
-    wdt:P2049 26.0 ;
-    wdt:P217 "A.II.17 (ff 2–102)" ;
+    wdt:P217 "A.II.17 (ff 2-102)" ;
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0701"^^xsd:gYear,
         "0800"^^xsd:gYear .

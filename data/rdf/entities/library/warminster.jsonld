@@ -1,0 +1,23 @@
+[
+  {
+    "@id": "https://mira.ie/entity/library/warminster",
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Library of the Marquess of Bath [Longleat House]"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "Library of the Marquess of Bath [Longleat House]"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q7075"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q43229"
+      }
+    ]
+  }
+]
