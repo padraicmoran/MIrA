@@ -1,0 +1,18 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://mira.ie/entity/manuscript/191> rdfs:label "Stiftsbibliothek — 1395 (pp 444–447)" ;
+    skos:prefLabel "Stiftsbibliothek — 1395 (pp 444–447)" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P195 <https://mira.ie/entity/library/st-gall> ;
+    wdt:P2048 24.0 ;
+    wdt:P2049 19.0 ;
+    wdt:P217 "1395 (pp 444–447)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0701"^^xsd:gYear,
+        "0800"^^xsd:gYear ;
+    wdt:P953 "https://foundationsirishculture.ie/record/?id=50"^^xsd:anyURI .
+

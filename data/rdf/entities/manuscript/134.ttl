@@ -1,0 +1,18 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://mira.ie/entity/manuscript/134> rdfs:label "Biblioteca Ambrosiana — L 22 sup." ;
+    skos:prefLabel "Biblioteca Ambrosiana — L 22 sup." ;
+    wdt:P1071 wd:Q11498,
+        wd:Q38 ;
+    wdt:P195 <https://mira.ie/entity/library/milan> ;
+    wdt:P2048 18.0 ;
+    wdt:P2049 11.5 ;
+    wdt:P217 "L 22 sup." ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0876"^^xsd:gYear,
+        "0900"^^xsd:gYear .
+

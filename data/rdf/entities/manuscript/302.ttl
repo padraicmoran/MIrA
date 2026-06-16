@@ -1,0 +1,18 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://mira.ie/entity/manuscript/302> rdfs:label "Bibliothèque municipale — 24 (olim A 41 al.)" ;
+    skos:prefLabel "Bibliothèque municipale — 24 (olim A 41 al.)" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1574 <https://mira.ie/entity/text/psalms> ;
+    wdt:P195 <https://mira.ie/entity/library/rouen> ;
+    wdt:P2048 24.0 ;
+    wdt:P2049 16.5 ;
+    wdt:P217 "24 (olim A 41 al.)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0901"^^xsd:gYear,
+        "1000"^^xsd:gYear .
+

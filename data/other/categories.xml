@@ -8,9 +8,9 @@
 	<category id="text" displayCode="T" type="main" color="darkslategrey">Text of Irish origin</category>
 	<category id="ex-ire" displayCode="Ex" type="main" color="saddlebrown">Exemplar: Irish</category>
 	
-	<category id="or-ins" displayCode="Or*" type="outline" color="#0e300e">Origin: Insular (Ireland?)</category>
-	<category id="sc-ins" displayCode="S*" type="outline" color="darkred">Script: Insular (Irish?)</category>
-	<category id="ex-ins" displayCode="Ex*" type="outline" color="saddlebrown">Exemplar: Insular (Irish?)</category>
+	<category id="or-ins" displayCode="Or?" type="outline" color="#0e300e">Origin: Insular (Ireland?)</category>
+	<category id="sc-ins" displayCode="S?" type="outline" color="darkred">Script: Insular (Irish?)</category>
+	<category id="ex-ins" displayCode="Ex?" type="outline" color="saddlebrown">Exemplar: Insular (Irish?)</category>
 
 	<category id="misc" displayCode="M" type="main" color="#777777">Miscellaneous/other</category>
 

@@ -1,0 +1,17 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://mira.ie/entity/manuscript/111> rdfs:label "Biblioteca Universitaria — 797" ;
+    skos:prefLabel "Biblioteca Universitaria — 797" ;
+    wdt:P1071 wd:Q41876 ;
+    wdt:P195 <https://mira.ie/entity/library/bologna> ;
+    wdt:P2048 21.0 ;
+    wdt:P2049 12.5 ;
+    wdt:P217 "797" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0876"^^xsd:gYear,
+        "0900"^^xsd:gYear .
+

@@ -42,8 +42,8 @@ $languages = array(
 // 
 // LOAD DATA
 // manuscripts
-if (file_exists('../data/mss_compiled.xml')) {
-	$xml_mss = simplexml_load_file('../data/mss_compiled.xml');
+if (file_exists('../data/mss_mira/compiled/mss_compiled.xml')) {
+	$xml_mss = simplexml_load_file('../data/mss_mira/compiled/mss_compiled.xml');
 	$totalMSS = count($xml_mss->xpath('manuscript[notes[not(contains(@categories, "#excl"))]]'));
 }
 

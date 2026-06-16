@@ -1,0 +1,39 @@
+=== MIrA XML → Wikidata-aligned RDF evaluation ===
+Date: 2026-06-16T14:57:20.474551
+
+Combined triples: 3412
+
+[Coverage]
+- entity_file_library: 72
+- entity_file_manuscript: 302
+- entity_file_person: 11
+- entity_file_text: 7
+- folios_seen_not_exported: 258
+- library_entities: 72
+- manuscript_entities: 302
+- manuscript_p1071: 327
+- manuscript_p1574: 51
+- manuscript_p195_local_library: 302
+- manuscript_p2048_cm: 244
+- manuscript_p2049_cm: 244
+- manuscript_p571_end: 296
+- manuscript_p571_single_year_start_equals_end: 6
+- manuscript_p571_start: 296
+- manuscript_p953: 83
+- people_seen_without_role: 106
+- person_entities: 11
+- person_wikidata_links: 9
+- text_entities: 7
+- text_wikidata_links: 4
+
+[Warnings]
+(none)
+
+[Notes]
+- Separate entity files are written for library, manuscript, person, and text only.
+- No separate place files are written; places are linked to Wikidata QIDs where available.
+- Manuscript page_h/page_w values are exported as centimetres for P2048/P2049.
+- If term_post and term_ante are different, both years are exported as P571.
+- If term_post and term_ante are identical, RDF stores one P571 triple and the case is counted in the log.
+- Folio counts are seen but not exported as P1104, because P1104 means number of pages.
+- Local MIrA entities may use owl:sameAs to record Wikidata QIDs.

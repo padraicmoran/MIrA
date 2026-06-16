@@ -1,0 +1,16 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://mira.ie/entity/manuscript/199> rdfs:label "Zentralbibliothek — Rh. 73 (ff 1–29)" ;
+    skos:prefLabel "Zentralbibliothek — Rh. 73 (ff 1–29)" ;
+    wdt:P1071 wd:Q632880 ;
+    wdt:P195 <https://mira.ie/entity/library/zurich_zentral> ;
+    wdt:P2048 23.8 ;
+    wdt:P2049 16.8 ;
+    wdt:P217 "Rh. 73 (ff 1–29)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0842"^^xsd:gYear .
+

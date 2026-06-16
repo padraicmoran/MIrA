@@ -1,0 +1,21 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://mira.ie/entity/manuscript/222> rdfs:label "Biblioteca Apostolica Vaticana — Pal. Lat. 68" ;
+    skos:prefLabel "Biblioteca Apostolica Vaticana — Pal. Lat. 68" ;
+    wdt:P1071 wd:Q21,
+        wd:Q22890 ;
+    wdt:P195 <https://mira.ie/entity/library/vatican> ;
+    wdt:P2048 31.0 ;
+    wdt:P2049 19.0 ;
+    wdt:P217 "Pal. Lat. 68" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0701"^^xsd:gYear,
+        "0800"^^xsd:gYear ;
+    wdt:P953 "https://digi.vatlib.it/view/bav_pal_lat_68"^^xsd:anyURI,
+        "https://foundationsirishculture.ie/record/?id=3"^^xsd:anyURI,
+        "https://opac.vatlib.it/mss/detail/Pal.lat.68"^^xsd:anyURI .
+

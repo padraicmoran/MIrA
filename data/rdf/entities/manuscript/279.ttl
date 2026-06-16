@@ -1,0 +1,17 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://mira.ie/entity/manuscript/279> rdfs:label "Bayerische Staatsbibliothek — Clm 14248" ;
+    skos:prefLabel "Bayerische Staatsbibliothek — Clm 14248" ;
+    wdt:P1071 wd:Q2978 ;
+    wdt:P195 <https://mira.ie/entity/library/munich> ;
+    wdt:P2048 29.8 ;
+    wdt:P2049 18.8 ;
+    wdt:P217 "Clm 14248" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0801"^^xsd:gYear,
+        "0825"^^xsd:gYear .
+

@@ -7,7 +7,7 @@ import os
 
 current_dir = os.path.dirname(os.path.abspath(__file__))
 
-xml_source = 'data/mss_compiled.xml'
+xml_source = 'data/mss_mira/compiled/mss_compiled.xml'
 output_path = current_dir + '/nodes_libraries.csv'
 
 # Open the XML file

@@ -1,0 +1,17 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://mira.ie/entity/manuscript/293> rdfs:label "Bayerische Staatsbibliothek — Clm 6434 (ff 41–422)" ;
+    skos:prefLabel "Bayerische Staatsbibliothek — Clm 6434 (ff 41–422)" ;
+    wdt:P1071 wd:Q6998 ;
+    wdt:P195 <https://mira.ie/entity/library/munich> ;
+    wdt:P2048 18.0 ;
+    wdt:P2049 13.0 ;
+    wdt:P217 "Clm 6434 (ff 41–422)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0786"^^xsd:gYear,
+        "0800"^^xsd:gYear .
+

@@ -59,7 +59,7 @@ if ($filter) {
 		if ($identifierCount > 1) echo '<tr><td colspan="2"><h4 class="h6 mt-3 mb-0">UNIT ' . $unit . '</h4></td></tr>';
 
 		writeRow('Country', $libraries[$libraryID]['country'], '', '');
-		writeRow('Location', $libraries[$libraryID]['city'] . ', ' . $libraries[$libraryID]['name'], '/library/' . $libraryID);
+		writeRow('Library', $libraries[$libraryID]['city'] . ', ' . $libraries[$libraryID]['name'], '/library/' . $libraryID);
 
 		$shelfmarkLink = $ms->identifier[$n]->shelfmark;
 		if ($ms->identifier[$n]->xpath('link[@type="images"]')) {
@@ -77,8 +77,7 @@ if ($filter) {
 	echo '<tr><th colspan="2"><h3 class="h3 mt-5">Description</h3></th></tr>';
 	writeRow('MS type', $ms->description->type, '');
 	writeRow('No. of folios', $ms->description->folios, '');
-	writeRow('Page height (cm)', $ms->description->page_h, '');
-	writeRow('Page width (cm)', $ms->description->page_w, '');
+	writeRow('Page dimensions (cm)', $ms->description->page_h . ' (height) × ' . $ms->description->page_w . ' (width)', '');
 	writeRow('Columns', $ms->description->cols, '');
 	writeRow('Lines', $ms->description->lines . indicativeLineHeight($ms->description->lines, $ms->description->page_h), '');
 	writeRow('Script', $ms->description->script, '');
@@ -251,7 +250,7 @@ function indicativeLineHeight($lines, $pageHeight) {
 		else {
 			$avgNote = '';
 		}
-		return ' &nbsp; (' . $avgNote . 'approx. height: ' . $lineHeight . ' cm)';
+		return ' &nbsp; (' . $avgNote . 'approx. line height: ' . $lineHeight . ' cm)';
 	}
 	else return '';
 }

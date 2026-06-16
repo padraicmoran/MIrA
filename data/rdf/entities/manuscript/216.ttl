@@ -1,0 +1,18 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://mira.ie/entity/manuscript/216> rdfs:label "Bodleian Library — Rawlinson G 167 [S.C. 14890]" ;
+    skos:prefLabel "Bodleian Library — Rawlinson G 167 [S.C. 14890]" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1574 <https://mira.ie/entity/text/gospels> ;
+    wdt:P195 <https://mira.ie/entity/library/oxford_bodleian> ;
+    wdt:P2048 34.0 ;
+    wdt:P2049 20.7 ;
+    wdt:P217 "Rawlinson G 167 [S.C. 14890]" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0780"^^xsd:gYear,
+        "0820"^^xsd:gYear .
+

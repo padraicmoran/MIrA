@@ -1,0 +1,18 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://mira.ie/entity/manuscript/121> rdfs:label "Biblioteca Ambrosiana — D 23 sup." ;
+    skos:prefLabel "Biblioteca Ambrosiana — D 23 sup." ;
+    wdt:P1071 wd:Q11498 ;
+    wdt:P195 <https://mira.ie/entity/library/milan> ;
+    wdt:P2048 21.0 ;
+    wdt:P2049 15.0 ;
+    wdt:P217 "D 23 sup." ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0601"^^xsd:gYear,
+        "0700"^^xsd:gYear ;
+    wdt:P953 "https://foundationsirishculture.ie/record/?id=11"^^xsd:anyURI .
+

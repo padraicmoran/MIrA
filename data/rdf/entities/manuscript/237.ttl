@@ -1,0 +1,17 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://mira.ie/entity/manuscript/237> rdfs:label "Archivio dell'Abbazia — 320 (pp 5–398)" ;
+    skos:prefLabel "Archivio dell'Abbazia — 320 (pp 5–398)" ;
+    wdt:P1071 wd:Q38 ;
+    wdt:P195 <https://mira.ie/entity/library/montecassino> ;
+    wdt:P2048 31.0 ;
+    wdt:P2049 24.5 ;
+    wdt:P217 "320 (pp 5–398)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0880"^^xsd:gYear,
+        "0915"^^xsd:gYear .
+

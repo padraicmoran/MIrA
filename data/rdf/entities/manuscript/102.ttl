@@ -1,0 +1,18 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://mira.ie/entity/manuscript/102> rdfs:label "Trinity College — 59 (A.IV.23)" ;
+    skos:prefLabel "Trinity College — 59 (A.IV.23)" ;
+    wdt:P1071 wd:Q1003178 ;
+    wdt:P1574 <https://mira.ie/entity/text/gospels> ;
+    wdt:P195 <https://mira.ie/entity/library/dublin_tcd> ;
+    wdt:P2048 17.5 ;
+    wdt:P2049 14.2 ;
+    wdt:P217 "59 (A.IV.23)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0751"^^xsd:gYear,
+        "0800"^^xsd:gYear .
+

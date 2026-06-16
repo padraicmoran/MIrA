@@ -1,0 +1,11 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+
+<https://mira.ie/entity/text/paul> rdfs:label "Epistles" ;
+    owl:sameAs wd:Q265283 ;
+    skos:prefLabel "Epistles" ;
+    wdt:P31 wd:Q7725634 .
+

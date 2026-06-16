@@ -1,0 +1,17 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://mira.ie/entity/manuscript/113> rdfs:label "Biblioteca Medicea Laurenziana — Plut. 45.14" ;
+    skos:prefLabel "Biblioteca Medicea Laurenziana — Plut. 45.14" ;
+    wdt:P1071 wd:Q142 ;
+    wdt:P195 <https://mira.ie/entity/library/florence> ;
+    wdt:P2048 36.7 ;
+    wdt:P2049 28.0 ;
+    wdt:P217 "Plut. 45.14" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0834"^^xsd:gYear,
+        "0866"^^xsd:gYear .
+

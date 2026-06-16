@@ -1,0 +1,18 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://mira.ie/entity/manuscript/288> rdfs:label "Österreichische Nationalbibliothek — Lat. 921" ;
+    skos:prefLabel "Österreichische Nationalbibliothek — Lat. 921" ;
+    wdt:P1071 wd:Q34713 ;
+    wdt:P1574 <https://mira.ie/entity/text/lathcen> ;
+    wdt:P195 <https://mira.ie/entity/library/vienna> ;
+    wdt:P2048 33.0 ;
+    wdt:P2049 23.0 ;
+    wdt:P217 "Lat. 921" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0836"^^xsd:gYear,
+        "0859"^^xsd:gYear .
+

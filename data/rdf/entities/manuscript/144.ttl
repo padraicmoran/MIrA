@@ -1,0 +1,16 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://mira.ie/entity/manuscript/144> rdfs:label "Biblioteca Nazionale — Lat. 2 (ff 157–158)" ;
+    skos:prefLabel "Biblioteca Nazionale — Lat. 2 (ff 157–158)" ;
+    wdt:P1071 wd:Q11498 ;
+    wdt:P195 <https://mira.ie/entity/library/naples> ;
+    wdt:P217 "Lat. 2 (ff 157–158)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0701"^^xsd:gYear,
+        "0800"^^xsd:gYear ;
+    wdt:P953 "https://foundationsirishculture.ie/record/?id=23"^^xsd:anyURI .
+

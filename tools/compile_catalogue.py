@@ -7,7 +7,7 @@ from xml.etree.ElementTree import Element, ElementTree
 
 # load master file
 sourceDir = "data/mss_mira/"
-targetPath = "data/mss_compiled.xml"
+targetPath = "data/mss_mira/compiled/mss_compiled.xml"
 
 # prepare new output file
 outputTree = ElementTree()
@@ -18,9 +18,11 @@ outputRoot = outputTree.getroot()
 mss = os.listdir(sourceDir)
 mss.sort()
 for ms in mss:
-    print(ms)
-    msTree = ElementTree().parse(sourceDir + ms)
-    outputRoot.append(msTree)        
+    full_path = os.path.join(sourceDir, ms)
+    if os.path.isfile(full_path):
+        print(ms)
+        msTree = ElementTree().parse(sourceDir + ms)
+        outputRoot.append(msTree)        
 
 # sort output file
 # TO DO: sort by library, then shelfmark_indexer, then shelfmark

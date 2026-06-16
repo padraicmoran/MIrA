@@ -1,0 +1,17 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://mira.ie/entity/manuscript/173> rdfs:label "Burgerbibliothek — 207" ;
+    skos:prefLabel "Burgerbibliothek — 207" ;
+    wdt:P1071 wd:Q947030 ;
+    wdt:P195 <https://mira.ie/entity/library/bern> ;
+    wdt:P2048 30.0 ;
+    wdt:P2049 17.5 ;
+    wdt:P217 "207" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0779"^^xsd:gYear,
+        "0797"^^xsd:gYear .
+

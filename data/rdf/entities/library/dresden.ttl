@@ -1,0 +1,10 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+
+<https://mira.ie/entity/library/dresden> rdfs:label "Sächsische Landesbibliothek – Staats- und Universitätsbibliothek" ;
+    skos:prefLabel "Sächsische Landesbibliothek – Staats- und Universitätsbibliothek" ;
+    wdt:P31 wd:Q43229,
+        wd:Q7075 .
+

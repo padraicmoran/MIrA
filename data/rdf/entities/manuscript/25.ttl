@@ -1,0 +1,19 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://mira.ie/entity/manuscript/25> rdfs:label "Bibliothèque nationale de France — Lat. 9488 (ff 3–4)" ;
+    skos:prefLabel "Bibliothèque nationale de France — Lat. 9488 (ff 3–4)" ;
+    wdt:P1071 wd:Q21,
+        wd:Q22890 ;
+    wdt:P195 <https://mira.ie/entity/library/paris_bnf> ;
+    wdt:P2048 35.0 ;
+    wdt:P2049 28.5 ;
+    wdt:P217 "Lat. 9488 (ff 3–4)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0701"^^xsd:gYear,
+        "0800"^^xsd:gYear ;
+    wdt:P953 "https://foundationsirishculture.ie/record/?id=32"^^xsd:anyURI .
+

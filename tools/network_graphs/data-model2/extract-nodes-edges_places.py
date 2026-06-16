@@ -15,7 +15,7 @@ import os
 
 current_dir = os.path.dirname(os.path.abspath(__file__))
 
-xml_source = 'data/mss_compiled.xml'
+xml_source = 'data/mss_mira/compiled/mss_compiled.xml'
 output_path1 = current_dir + '/nodes_places.csv'
 output_path2 = current_dir + '/edges_places-hierarchy.csv'
 

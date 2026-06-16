@@ -1,0 +1,17 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://mira.ie/entity/manuscript/170> rdfs:label "Universitätsbibliothek — B III 3" ;
+    skos:prefLabel "Universitätsbibliothek — B III 3" ;
+    wdt:P1071 wd:Q39 ;
+    wdt:P195 <https://mira.ie/entity/library/basel> ;
+    wdt:P2048 33.8 ;
+    wdt:P2049 26.5 ;
+    wdt:P217 "B III 3" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0826"^^xsd:gYear,
+        "0850"^^xsd:gYear .
+

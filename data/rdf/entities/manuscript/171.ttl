@@ -1,0 +1,18 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://mira.ie/entity/manuscript/171> rdfs:label "Universitätsbibliothek — A VII 3" ;
+    skos:prefLabel "Universitätsbibliothek — A VII 3" ;
+    wdt:P1071 wd:Q25607 ;
+    wdt:P1574 <https://mira.ie/entity/text/psalms> ;
+    wdt:P195 <https://mira.ie/entity/library/basel> ;
+    wdt:P2048 22.6 ;
+    wdt:P2049 17.5 ;
+    wdt:P217 "A VII 3" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0876"^^xsd:gYear,
+        "0900"^^xsd:gYear .
+

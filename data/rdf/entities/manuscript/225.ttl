@@ -1,0 +1,19 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://mira.ie/entity/manuscript/225> rdfs:label "Biblioteca Apostolica Vaticana — Lat. 13501/XXIV (ff 44–45)" ;
+    skos:prefLabel "Biblioteca Apostolica Vaticana — Lat. 13501/XXIV (ff 44–45)" ;
+    wdt:P1071 wd:Q142,
+        wd:Q167152,
+        wd:Q22890 ;
+    wdt:P195 <https://mira.ie/entity/library/vatican> ;
+    wdt:P217 "Lat. 13501/XXIV (ff 44–45)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0801"^^xsd:gYear,
+        "0900"^^xsd:gYear ;
+    wdt:P953 "https://digi.vatlib.it/view/MSS_Vat.lat.13501"^^xsd:anyURI,
+        "https://opac.vatlib.it/mss/detail/Vat.lat.13501"^^xsd:anyURI .
+

@@ -1,0 +1,16 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://mira.ie/entity/manuscript/226> rdfs:label "Biblioteca Apostolica Vaticana — Ottob. lat. 35 (ff 1–35)" ;
+    skos:prefLabel "Biblioteca Apostolica Vaticana — Ottob. lat. 35 (ff 1–35)" ;
+    wdt:P195 <https://mira.ie/entity/library/vatican> ;
+    wdt:P217 "Ottob. lat. 35 (ff 1–35)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0801"^^xsd:gYear,
+        "0850"^^xsd:gYear ;
+    wdt:P953 "https://digi.vatlib.it/view/MSS_Ott.lat.35"^^xsd:anyURI,
+        "https://opac.vatlib.it/mss/detail/Ott.lat.35"^^xsd:anyURI .
+

@@ -1,0 +1,18 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://mira.ie/entity/manuscript/181> rdfs:label "Stadtbibliothek — Min. 45 (ff 2–7, 10–15, 18–23, 34–41, 46, 47, 52, 54–58, 63–66, 70, 75) [palimpsest old]" ;
+    skos:prefLabel "Stadtbibliothek — Min. 45 (ff 2–7, 10–15, 18–23, 34–41, 46, 47, 52, 54–58, 63–66, 70, 75) [palimpsest old]" ;
+    wdt:P1574 <https://mira.ie/entity/text/gospels> ;
+    wdt:P195 <https://mira.ie/entity/library/schaffhausen> ;
+    wdt:P2048 24.5 ;
+    wdt:P2049 17.0 ;
+    wdt:P217 "Min. 45 (ff 2–7, 10–15, 18–23, 34–41, 46, 47, 52, 54–58, 63–66, 70, 75) [palimpsest old]" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0701"^^xsd:gYear,
+        "0800"^^xsd:gYear ;
+    wdt:P953 "https://foundationsirishculture.ie/record/?id=54"^^xsd:anyURI .
+

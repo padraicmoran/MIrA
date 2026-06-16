@@ -1,0 +1,17 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://mira.ie/entity/manuscript/140> rdfs:label "Biblioteca Nazionale — Lat. 2 (ff 76–111, 140–156, 159)" ;
+    skos:prefLabel "Biblioteca Nazionale — Lat. 2 (ff 76–111, 140–156, 159)" ;
+    wdt:P1071 wd:Q11498,
+        wd:Q38 ;
+    wdt:P1574 <https://mira.ie/entity/text/priscian_ars> ;
+    wdt:P195 <https://mira.ie/entity/library/naples> ;
+    wdt:P217 "Lat. 2 (ff 76–111, 140–156, 159)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0401"^^xsd:gYear,
+        "0500"^^xsd:gYear .
+

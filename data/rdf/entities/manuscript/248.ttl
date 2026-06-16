@@ -1,0 +1,17 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://mira.ie/entity/manuscript/248> rdfs:label "Bibliothèque nationale de France — Lat. 12021 (ff 33–139)" ;
+    skos:prefLabel "Bibliothèque nationale de France — Lat. 12021 (ff 33–139)" ;
+    wdt:P1071 wd:Q12130 ;
+    wdt:P195 <https://mira.ie/entity/library/paris_bnf> ;
+    wdt:P2048 32.0 ;
+    wdt:P2049 24.0 ;
+    wdt:P217 "Lat. 12021 (ff 33–139)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0851"^^xsd:gYear,
+        "1000"^^xsd:gYear .
+
