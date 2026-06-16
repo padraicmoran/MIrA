@@ -11,6 +11,9 @@ nodes and are connected to places of origin/provenance. Place hierarchy edges
 are also included, so the model captures both manuscript-place associations
 and broader geographic structure.
 
+Important note on edge weights
+------------------------------
+In this project, edge weight means relationship strength/certainty.
 
 - For in-strength, out-strength, total strength, PageRank, and eigenvector
   centrality, the edge weight is used directly.
@@ -25,7 +28,7 @@ and broader geographic structure.
 
   This means stronger manuscript links become shorter paths.
 
-Input files
+Expected input files
 --------------------
 Place this script in the same folder as:
 
@@ -36,15 +39,16 @@ Place this script in the same folder as:
 
 Main outputs
 ------------
+This version writes both tables and heatmaps.
 
-
-
+Paper-ready:
 - model1_place_metrics.csv
 - model1_place_metrics_percentiles.csv
 - model1_manuscript_metrics.csv
 - model1_manuscript_metrics_percentiles.csv
 
-
+Audit:
+- audit/model1_all_nodes_audit.csv
 """
 
 import os
@@ -325,6 +329,85 @@ def save_tables(df_all: pd.DataFrame, df_percentiles: pd.DataFrame) -> None:
 
 
 # ============================================================
+# HEATMAPS
+# ============================================================
+
+import matplotlib.pyplot as plt
+
+
+def plot_heatmap(df_pct: pd.DataFrame, places: list, filename: str, height_per_row: float = 0.28) -> None:
+    """
+    Plot a heatmap without a figure title. This keeps the figure clean for
+    article use; the caption should explain what the figure shows.
+    """
+    subset = df_pct[df_pct["Label"].isin(places)].copy()
+    if subset.empty:
+        print(f"Skipping empty heatmap: {filename}")
+        return
+
+    subset["Label"] = pd.Categorical(subset["Label"], categories=places, ordered=True)
+    subset = subset.sort_values("Label")
+
+    data = subset.set_index("Label")[PAPER_METRICS]
+
+    fig_height = max(4, len(data) * height_per_row)
+    fig_width = 11
+
+    fig, ax = plt.subplots(figsize=(fig_width, fig_height))
+    im = ax.imshow(data.values, aspect="auto", vmin=0, vmax=1, cmap="coolwarm")
+
+    ax.set_xticks(np.arange(len(PAPER_METRICS)))
+    ax.set_xticklabels(PAPER_METRICS, rotation=45, ha="right")
+    ax.set_yticks(np.arange(len(data.index)))
+    ax.set_yticklabels(data.index)
+
+    ax.set_xlabel("Metric percentile among places (0 = lowest, 1 = highest)")
+    ax.set_ylabel("Place")
+
+    cbar = fig.colorbar(im, ax=ax)
+    cbar.set_label("Metric percentile")
+
+    ax.set_xticks(np.arange(-0.5, len(PAPER_METRICS), 1), minor=True)
+    ax.set_yticks(np.arange(-0.5, len(data.index), 1), minor=True)
+    ax.grid(which="minor", color="white", linestyle="-", linewidth=0.5)
+    ax.tick_params(which="minor", bottom=False, left=False)
+
+    plt.tight_layout()
+    outpath = os.path.join(OUTPUT_DIR, filename)
+    plt.savefig(outpath, dpi=300, bbox_inches="tight")
+    plt.close()
+    print(f"Saved: {outpath}")
+
+
+def save_heatmaps(place_pct: pd.DataFrame) -> None:
+    place_pct = place_pct.copy()
+    place_pct = place_pct.sort_values("Mean percentile", ascending=False)
+
+    all_places = place_pct["Label"].tolist()
+    top10 = place_pct.head(10)["Label"].tolist()
+    bottom10 = place_pct.tail(10)["Label"].tolist()
+
+    plot_heatmap(place_pct, all_places, "figure_model1_all_place_metrics.png", height_per_row=0.24)
+    plot_heatmap(place_pct, top10, "figure_model1_top10_places.png", height_per_row=0.55)
+    plot_heatmap(place_pct, bottom10, "figure_model1_bottom10_places.png", height_per_row=0.55)
+
+    manuscript_centres = [
+        "Reichenau", "St Gall", "Bobbio", "Laon", "Regensburg",
+        "Corbie", "Strasbourg", "Freising", "Fulda", "Reims",
+        "Fleury", "Verdun", "Echternach", "Canterbury", "Würzburg"
+    ]
+    manuscript_centres = [p for p in manuscript_centres if p in all_places]
+    plot_heatmap(place_pct, manuscript_centres, "figure_model1_manuscript_centres.png", height_per_row=0.45)
+
+    regional_places = [
+        "Ireland*", "France", "Germany", "Italy", "England",
+        "Northumbria", "Brittany", "Switzerland", "Wales", "Salzburg"
+    ]
+    regional_places = [p for p in regional_places if p in all_places]
+    plot_heatmap(place_pct, regional_places, "figure_model1_regional_places.png", height_per_row=0.55)
+
+
+# ============================================================
 # MAIN
 # ============================================================
 
@@ -341,7 +424,10 @@ def main():
 
     save_tables(df_all, df_pct)
 
-    print("\nDone. Tables are in:", os.path.abspath(OUTPUT_DIR))
+    place_pct = df_pct[df_pct["Type"].str.lower().eq("place")].copy()
+    save_heatmaps(place_pct)
+
+    print("\nDone. Tables and heatmaps are in:", os.path.abspath(OUTPUT_DIR))
 
 
 if __name__ == "__main__":
