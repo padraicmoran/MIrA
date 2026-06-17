@@ -1,0 +1,57 @@
+[
+  {
+    "@id": "https://mira.ie/entity/manuscript/272",
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "British Library — Egerton 2831 (ff 110–143)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "British Library — Egerton 2831 (ff 110–143)"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P1071": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q288"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P195": [
+      {
+        "@id": "https://mira.ie/entity/library/london_bl"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P2048": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "29"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P2049": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "21.5"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P217": [
+      {
+        "@value": "Egerton 2831 (ff 110–143)"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q87167"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P571": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "0751"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "0800"
+      }
+    ]
+  }
+]

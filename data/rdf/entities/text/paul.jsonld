@@ -1,0 +1,25 @@
+[
+  {
+    "@id": "https://mira.ie/entity/text/paul",
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Epistles"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q265283"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "Epistles"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q7725634"
+      }
+    ]
+  }
+]

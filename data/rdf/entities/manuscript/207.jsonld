@@ -1,0 +1,50 @@
+[
+  {
+    "@id": "https://mira.ie/entity/manuscript/207",
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Cathedral Library — A.II.16 (ff 24–33, 87–101)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "Cathedral Library — A.II.16 (ff 24–33, 87–101)"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P1071": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q107299"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P1574": [
+      {
+        "@id": "https://mira.ie/entity/text/gospels"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P195": [
+      {
+        "@id": "https://mira.ie/entity/library/durham"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P217": [
+      {
+        "@value": "A.II.16 (ff 24–33, 87–101)"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q87167"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P571": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "0701"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "0800"
+      }
+    ]
+  }
+]

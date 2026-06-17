@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+   xmlns:wdt="http://www.wikidata.org/prop/direct/"
+>
+  <rdf:Description rdf:about="https://mira.ie/entity/manuscript/154">
+    <wdt:P31 rdf:resource="http://www.wikidata.org/entity/Q87167"/>
+    <wdt:P217>F.IV.14 (binding) [palimpsest old] + F.IV.16 (binding) [palimpsest old] + F.VI.2 Fasc. 8 [palimpsest old] + G.V.2 (ff 139, 167–170) [palimpsest old] + O.IV.20 [palimpsest old]</wdt:P217>
+    <rdfs:label>Biblioteca Nazionale — F.IV.14 (binding) [palimpsest old] + F.IV.16 (binding) [palimpsest old] + F.VI.2 Fasc. 8 [palimpsest old] + G.V.2 (ff 139, 167–170) [palimpsest old] + O.IV.20 [palimpsest old]</rdfs:label>
+    <skos:prefLabel>Biblioteca Nazionale — F.IV.14 (binding) [palimpsest old] + F.IV.16 (binding) [palimpsest old] + F.VI.2 Fasc. 8 [palimpsest old] + G.V.2 (ff 139, 167–170) [palimpsest old] + O.IV.20 [palimpsest old]</skos:prefLabel>
+    <wdt:P195 rdf:resource="https://mira.ie/entity/library/turin"/>
+    <wdt:P571 rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0701</wdt:P571>
+    <wdt:P571 rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0800</wdt:P571>
+    <wdt:P1071 rdf:resource="http://www.wikidata.org/entity/Q22890"/>
+    <wdt:P2048 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">28</wdt:P2048>
+    <wdt:P2049 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">19.6</wdt:P2049>
+    <wdt:P953 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://foundationsirishculture.ie/record/?id=30</wdt:P953>
+    <wdt:P1574 rdf:resource="https://mira.ie/entity/text/gospels"/>
+  </rdf:Description>
+</rdf:RDF>

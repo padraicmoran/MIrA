@@ -1,0 +1,60 @@
+[
+  {
+    "@id": "https://mira.ie/entity/manuscript/186",
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Stiftsbibliothek — 258"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "Stiftsbibliothek — 258"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P1071": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q142"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q41876"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P195": [
+      {
+        "@id": "https://mira.ie/entity/library/st-gall"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P2048": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "24"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P2049": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "16.7"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P217": [
+      {
+        "@value": "258"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q87167"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P571": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "0840"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "0875"
+      }
+    ]
+  }
+]

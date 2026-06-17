@@ -28,32 +28,7 @@ Main features:
        No separate place entities are generated because places are
        linked directly using Wikidata QIDs.
 
-    3. Uses stable MIrA URIs:
-        https://mira.ie/entity/{entity_type}/{id}
-
-       The URI category "text" is used instead of "work".
-
-    4. Uses Wikidata direct properties (wdt:P...) for semantic alignment.
-       Example:
-            P31   instance of
-            P217  inventory number
-            P571  inception
-            P1071 location of creation
-
-    5. Manuscript date ranges include both start and end years
-       when available (e.g. 0800–0900).
-
-    6. MIrA entities remain locally identifiable.
-       If an external Wikidata entity exists, the relationship is
-       recorded using owl:sameAs.
-
-    7. Manuscript dimensions are converted from millimetres
-       (as stored in MIrA XML) to centimetres for Wikidata-compatible
-       height (P2048) and width (P2049).
-
-    8. Folio counts are preserved for future modelling but are not
-       exported using P1104 because Wikidata P1104 represents
-       number of pages, not folios.
+    
 
 Input files:
     - mss_compiled.xml
@@ -65,6 +40,8 @@ Input files:
 Output:
     rdf_output/
         mira_wikidata_aligned.ttl
+        mira_wikidata_aligned.jsonld
+        mira_wikidata_aligned.rdf
         mira_wikidata_aligned_evaluation_log.txt
 
         entities/
@@ -72,6 +49,10 @@ Output:
             manuscript/
             person/
             text/
+
+        Each entity is also written in Turtle (.ttl), JSON-LD (.jsonld),
+        and RDF/XML (.rdf). Numeric filenames are zero-padded, e.g.:
+            entities/manuscript/001.ttl
 
 Reference:
     Wikidata WikiProject Manuscripts Data Model:
@@ -145,20 +126,25 @@ def extract_qid(text: Optional[str]) -> Optional[str]:
 
 
 def extract_year(text: Optional[str]) -> Optional[str]:
-    """Return a valid 4-digit gYear string if one can be safely extracted."""
+    """
+    Return a valid 4-digit gYear string if one can be safely extracted.
+
+    Only explicit 3- or 4-digit years are converted.
+    One- or two-digit values are not treated as centuries because that can
+    be misleading for manuscript dating.
+    """
     if not text:
         return None
     text = str(text)
+
     m4 = re.search(r"\b(\d{4})\b", text)
     if m4:
         return m4.group(1)
+
     m3 = re.search(r"\b(\d{3})\b", text)
     if m3:
         return m3.group(1).zfill(4)
-    mc = re.search(r"\b(\d{1,2})c\b", text.lower())
-    if mc:
-        c = int(mc.group(1))
-        return str((c - 1) * 100 + 50).zfill(4)
+
     return None
 
 
@@ -173,11 +159,15 @@ def int_literal(value: Optional[str]) -> Optional[Literal]:
 
 def dimension_cm_literal(value: Optional[str]) -> Optional[Literal]:
     """
-    Convert page_h/page_w to centimetres for Wikidata P2048/P2049.
+    Normalise page_h/page_w values to centimetres for Wikidata P2048/P2049.
 
-    The current mss_compiled.xml values such as 225 and 155 appear to be millimetres.
-    For Wikidata-readable output we convert values >= 100 as mm → cm.
-    Values below 100 are assumed already to be centimetres.
+    Some MIrA source values are encoded without a decimal point:
+        225 = 22.5 cm
+        155 = 15.5 cm
+
+    These are not treated as millimetres here; the function simply restores
+    the decimal scale by dividing values >= 100 by 10. Values below 100 are
+    assumed already to be centimetres.
     """
     if not value:
         return None
@@ -209,6 +199,21 @@ def normalize_title_key(s: str) -> str:
     s = re.sub(r"[’'`]", "", s)
     s = re.sub(r"[^a-z0-9\s]", " ", s)
     return re.sub(r"\s+", " ", s).strip()
+
+
+def output_file_stem(key: str) -> str:
+    """
+    Return a stable output filename stem.
+
+    Numeric entity IDs are zero-padded to three digits:
+        1   -> 001
+        25  -> 025
+        163 -> 163
+
+    Non-numeric IDs keep the cleaned MIrA identifier.
+    """
+    clean = safe_id(key)
+    return clean.zfill(3) if clean.isdigit() else clean
 
 # ---------------------------------------------------------------------
 # Authority loading
@@ -510,6 +515,24 @@ def triples_for_subject(source: Graph, subj: URIRef) -> Graph:
     return out
 
 
+SERIALIZATIONS = [
+    ("ttl", "turtle"),
+    ("jsonld", "json-ld"),
+    ("rdf", "xml"),
+]
+
+
+def serialize_graph_all_formats(g: Graph, base_path: Path) -> None:
+    """
+    Write one RDF graph in all requested formats:
+        - Turtle (.ttl)
+        - JSON-LD (.jsonld)
+        - RDF/XML (.rdf)
+    """
+    for ext, fmt in SERIALIZATIONS:
+        g.serialize(destination=str(base_path.with_suffix(f".{ext}")), format=fmt)
+
+
 def write_entity_files(g: Graph, out_dir: Path) -> Counter:
     counts = Counter()
     entities_dir = out_dir / "entities"
@@ -530,20 +553,28 @@ def write_entity_files(g: Graph, out_dir: Path) -> Counter:
         kind, key = parts
         if kind not in {"library", "manuscript", "person", "text"}:
             continue
+
         eg = triples_for_subject(g, subj)
         if len(eg) == 0:
             continue
-        path = entities_dir / kind / f"{safe_id(key)}.ttl"
-        eg.serialize(destination=str(path), format="turtle")
+
+        stem = output_file_stem(key)
+        base_path = entities_dir / kind / stem
+        serialize_graph_all_formats(eg, base_path)
+
         counts[f"entity_file_{kind}"] += 1
+        counts[f"entity_file_{kind}_ttl"] += 1
+        counts[f"entity_file_{kind}_jsonld"] += 1
+        counts[f"entity_file_{kind}_rdfxml"] += 1
+
     return counts
 
 
 def write_outputs(g: Graph, out_dir: Path, stats: Counter, warnings: list[str]) -> None:
     out_dir.mkdir(parents=True, exist_ok=True)
 
-    combined = out_dir / "mira_wikidata_aligned.ttl"
-    g.serialize(destination=str(combined), format="turtle")
+    combined_base = out_dir / "mira_wikidata_aligned"
+    serialize_graph_all_formats(g, combined_base)
 
     file_counts = write_entity_files(g, out_dir)
     stats.update(file_counts)
@@ -565,15 +596,17 @@ def write_outputs(g: Graph, out_dir: Path, stats: Counter, warnings: list[str]) 
         f.write("\n[Notes]\n")
         f.write("- Separate entity files are written for library, manuscript, person, and text only.\n")
         f.write("- No separate place files are written; places are linked to Wikidata QIDs where available.\n")
-        f.write("- Manuscript page_h/page_w values are exported as centimetres for P2048/P2049.\n")
+        f.write("- Manuscript page_h/page_w values are normalised to centimetres for P2048/P2049.\n")
         f.write("- If term_post and term_ante are different, both years are exported as P571.\n")
         f.write("- If term_post and term_ante are identical, RDF stores one P571 triple and the case is counted in the log.\n")
         if not EXPORT_FOLIOS_AS_P1104:
             f.write("- Folio counts are seen but not exported as P1104, because P1104 means number of pages.\n")
         f.write("- Local MIrA entities may use owl:sameAs to record Wikidata QIDs.\n")
+        f.write("- Combined and per-entity RDF files are written in Turtle, JSON-LD, and RDF/XML.\n")
+        f.write("- Numeric entity filenames are zero-padded to three digits, e.g. 001.ttl.\n")
 
     print("Done.")
-    print(f"Combined TTL: {combined}")
+    print(f"Combined RDF: {combined_base}.ttl / .jsonld / .rdf")
     print(f"Entity folder: {out_dir / 'entities'}")
     print(f"Log: {log_path}")
 
@@ -612,13 +645,12 @@ def build_graph(args) -> tuple[Graph, Counter, list[str]]:
 
 def parse_args():
     ap = argparse.ArgumentParser(description="MIrA XML → Wikidata-aligned RDF")
-    # path assume running script from repository root folder
-    ap.add_argument("--mss", default="data/mss_mira/compiled/mss_compiled.xml", help="Input mss_compiled.xml")
-    ap.add_argument("--people", default="data/other/people.xml", help="Input people.xml")
-    ap.add_argument("--places", default="data/other/places.xml", help="Input places.xml")
-    ap.add_argument("--texts", default="data/other/texts.xml", help="Input texts.xml")
-    ap.add_argument("--libraries", default="data/other/libraries.xml", help="Input libraries.xml")
-    ap.add_argument("--outdir", default="data/rdf", help="Output folder")
+    ap.add_argument("--mss", default="mss_compiled.xml", help="Input mss_compiled.xml")
+    ap.add_argument("--people", default="people.xml", help="Input people.xml")
+    ap.add_argument("--places", default="places.xml", help="Input places.xml")
+    ap.add_argument("--texts", default="texts.xml", help="Input texts.xml")
+    ap.add_argument("--libraries", default="libraries.xml", help="Input libraries.xml")
+    ap.add_argument("--outdir", default="rdf_output", help="Output folder")
     return ap.parse_args()
 
 

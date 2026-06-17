@@ -14,5 +14,5 @@
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0780"^^xsd:gYear,
         "0820"^^xsd:gYear ;
-    wdt:P953 "https://foundationsirishculture.ie/record/?id=45"^^xsd:anyURI .
+    wdt:P953 "http://foundationsirishculture.ie/record/?id=45"^^xsd:anyURI .
 

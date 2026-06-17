@@ -1,0 +1,63 @@
+[
+  {
+    "@id": "https://mira.ie/entity/manuscript/195",
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Staatsarchiv — A.G. 19 No. 16 (fol. 32 = p. 77–78)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "Staatsarchiv — A.G. 19 No. 16 (fol. 32 = p. 77–78)"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P1071": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q22890"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P195": [
+      {
+        "@id": "https://mira.ie/entity/library/zurich"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P2048": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "23.5"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P2049": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "17"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P217": [
+      {
+        "@value": "A.G. 19 No. 16 (fol. 32 = p. 77–78)"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q87167"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P571": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "0701"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "0800"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P953": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "http://foundationsirishculture.ie/record/?id=57"
+      }
+    ]
+  }
+]

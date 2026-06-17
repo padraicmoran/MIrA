@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+   xmlns:wdt="http://www.wikidata.org/prop/direct/"
+>
+  <rdf:Description rdf:about="https://mira.ie/entity/manuscript/251">
+    <wdt:P31 rdf:resource="http://www.wikidata.org/entity/Q87167"/>
+    <wdt:P217>38</wdt:P217>
+    <rdfs:label>Bibliothèque municipale — 38</rdfs:label>
+    <skos:prefLabel>Bibliothèque municipale — 38</skos:prefLabel>
+    <wdt:P195 rdf:resource="https://mira.ie/entity/library/laon"/>
+    <wdt:P571 rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0826</wdt:P571>
+    <wdt:P571 rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0850</wdt:P571>
+    <wdt:P1071 rdf:resource="http://www.wikidata.org/entity/Q142"/>
+    <wdt:P2048 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30</wdt:P2048>
+    <wdt:P2049 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24.8</wdt:P2049>
+  </rdf:Description>
+</rdf:RDF>

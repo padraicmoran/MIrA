@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+   xmlns:wdt="http://www.wikidata.org/prop/direct/"
+>
+  <rdf:Description rdf:about="https://mira.ie/entity/manuscript/6">
+    <wdt:P31 rdf:resource="http://www.wikidata.org/entity/Q87167"/>
+    <wdt:P217>254 (Catal. 445) (fol. 172)</wdt:P217>
+    <rdfs:label>Universiteitsbibliotheek — 254 (Catal. 445) (fol. 172)</rdfs:label>
+    <skos:prefLabel>Universiteitsbibliotheek — 254 (Catal. 445) (fol. 172)</skos:prefLabel>
+    <wdt:P195 rdf:resource="https://mira.ie/entity/library/ghent"/>
+    <wdt:P571 rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0701</wdt:P571>
+    <wdt:P571 rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0800</wdt:P571>
+    <wdt:P1071 rdf:resource="http://www.wikidata.org/entity/Q22890"/>
+    <wdt:P2048 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24.2</wdt:P2048>
+    <wdt:P2049 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">21.5</wdt:P2049>
+    <wdt:P953 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://foundationsirishculture.ie/record/?id=64</wdt:P953>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,18 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://mira.ie/entity/manuscript/59> rdfs:label "Badische Landesbibliothek — Aug. perg. 167 (fol. 34) [palimpsest old]" ;
+    skos:prefLabel "Badische Landesbibliothek — Aug. perg. 167 (fol. 34) [palimpsest old]" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P195 <https://mira.ie/entity/library/karlsruhe> ;
+    wdt:P2048 28.5 ;
+    wdt:P2049 20.0 ;
+    wdt:P217 "Aug. perg. 167 (fol. 34) [palimpsest old]" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0701"^^xsd:gYear,
+        "0800"^^xsd:gYear ;
+    wdt:P953 "http://foundationsirishculture.ie/record/?id=61"^^xsd:anyURI .
+

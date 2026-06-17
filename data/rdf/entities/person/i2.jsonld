@@ -1,0 +1,20 @@
+[
+  {
+    "@id": "https://mira.ie/entity/person/i2",
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "i2 (assistant of Eriugena)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "i2 (assistant of Eriugena)"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q5"
+      }
+    ]
+  }
+]

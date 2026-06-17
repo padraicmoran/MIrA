@@ -1,0 +1,17 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://mira.ie/entity/manuscript/16> rdfs:label "Bibliothèque municipale — 447" ;
+    skos:prefLabel "Bibliothèque municipale — 447" ;
+    wdt:P1071 wd:Q1720 ;
+    wdt:P195 <https://mira.ie/entity/library/laon> ;
+    wdt:P2048 34.5 ;
+    wdt:P2049 24.5 ;
+    wdt:P217 "447" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0826"^^xsd:gYear,
+        "0850"^^xsd:gYear .
+

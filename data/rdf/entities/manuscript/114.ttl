@@ -9,8 +9,6 @@
     wdt:P1071 wd:Q11498,
         wd:Q22890 ;
     wdt:P195 <https://mira.ie/entity/library/milan> ;
-    wdt:P2048 28.0 ;
-    wdt:P2049 20.0 ;
     wdt:P217 "A 138 sup." ;
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0801"^^xsd:gYear,

@@ -1,0 +1,18 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://mira.ie/entity/manuscript/71> rdfs:label "Badische Landesbibliothek — Aug. perg. 233 (ff 1–40)" ;
+    skos:prefLabel "Badische Landesbibliothek — Aug. perg. 233 (ff 1–40)" ;
+    wdt:P1071 wd:Q632880 ;
+    wdt:P1574 <https://mira.ie/entity/text/paul> ;
+    wdt:P195 <https://mira.ie/entity/library/karlsruhe> ;
+    wdt:P2048 22.8 ;
+    wdt:P2049 14.8 ;
+    wdt:P217 "Aug. perg. 233 (ff 1–40)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0801"^^xsd:gYear,
+        "0833"^^xsd:gYear .
+

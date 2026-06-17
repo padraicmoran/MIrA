@@ -1,0 +1,71 @@
+[
+  {
+    "@id": "https://mira.ie/entity/manuscript/169",
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Universitätsbibliothek — F III 15d"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "Universitätsbibliothek — F III 15d"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P1071": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q22890"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P195": [
+      {
+        "@id": "https://mira.ie/entity/library/basel"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P2048": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "27.5"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P2049": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "23.7"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P217": [
+      {
+        "@value": "F III 15d"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q87167"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P571": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "0701"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "0800"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P953": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "http://dx.doi.org/10.5076/e-codices-ubb-F-III-0015d"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "http://www.e-codices.unifr.ch/en/ubb/F-III-0015d"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "http://foundationsirishculture.ie/record/?id=42"
+      }
+    ]
+  }
+]

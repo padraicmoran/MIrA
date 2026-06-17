@@ -1,0 +1,25 @@
+[
+  {
+    "@id": "https://mira.ie/entity/person/martin",
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Martin of Laon, Hiberniensis"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q94276"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "Martin of Laon, Hiberniensis"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q5"
+      }
+    ]
+  }
+]

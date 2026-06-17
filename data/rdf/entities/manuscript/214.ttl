@@ -8,8 +8,6 @@
     skos:prefLabel "Bodleian Library — Auctarium F.III.15 [S.C. 3511] (ff 54–65)" ;
     wdt:P1071 wd:Q22890 ;
     wdt:P195 <https://mira.ie/entity/library/oxford_bodleian> ;
-    wdt:P2048 24.4 ;
-    wdt:P2049 16.8 ;
     wdt:P217 "Auctarium F.III.15 [S.C. 3511] (ff 54–65)" ;
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0701"^^xsd:gYear,

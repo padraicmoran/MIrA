@@ -4,13 +4,13 @@
 @prefix wdt: <http://www.wikidata.org/prop/direct/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://mira.ie/entity/manuscript/269> rdfs:label "Bischöfliche Ordinariatsbibliothek — 2" ;
-    skos:prefLabel "Bischöfliche Ordinariatsbibliothek — 2" ;
+<https://mira.ie/entity/manuscript/269> rdfs:label "Bischöfliche Ordinariatsbibliothek — 1" ;
+    skos:prefLabel "Bischöfliche Ordinariatsbibliothek — 1" ;
     wdt:P1071 wd:Q2749 ;
     wdt:P195 <https://mira.ie/entity/library/augsburg> ;
     wdt:P2048 24.8 ;
     wdt:P2049 16.0 ;
-    wdt:P217 "2" ;
+    wdt:P217 "1" ;
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0786"^^xsd:gYear,
         "0815"^^xsd:gYear .

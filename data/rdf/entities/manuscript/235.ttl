@@ -6,7 +6,7 @@
 
 <https://mira.ie/entity/manuscript/235> rdfs:label "Badische Landesbibliothek — Fragm. Aug. 18 [palimpsest new]" ;
     skos:prefLabel "Badische Landesbibliothek — Fragm. Aug. 18 [palimpsest new]" ;
-    wdt:P1071 wd:Q1102232 ;
+    wdt:P1071 wd:Q22890 ;
     wdt:P195 <https://mira.ie/entity/library/karlsruhe> ;
     wdt:P217 "Fragm. Aug. 18 [palimpsest new]" ;
     wdt:P31 wd:Q87167 ;

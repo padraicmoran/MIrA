@@ -1,0 +1,51 @@
+[
+  {
+    "@id": "https://mira.ie/entity/manuscript/141",
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Biblioteca Nazionale — Lat. 2 (ff 1–42) [palimpsest new]"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "Biblioteca Nazionale — Lat. 2 (ff 1–42) [palimpsest new]"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P1071": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q11498"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P195": [
+      {
+        "@id": "https://mira.ie/entity/library/naples"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P217": [
+      {
+        "@value": "Lat. 2 (ff 1–42) [palimpsest new]"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q87167"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P571": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "0701"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "0800"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P953": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "http://foundationsirishculture.ie/record/?id=21"
+      }
+    ]
+  }
+]

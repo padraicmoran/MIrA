@@ -8,7 +8,7 @@
     skos:prefLabel "British Library — Sloane MS 1044 (fol. 3)" ;
     wdt:P1071 wd:Q22890 ;
     wdt:P195 <https://mira.ie/entity/library/london_bl> ;
-    wdt:P2048 6.5 ;
+    wdt:P2048 65.0 ;
     wdt:P2049 22.0 ;
     wdt:P217 "Sloane MS 1044 (fol. 3)" ;
     wdt:P31 wd:Q87167 ;

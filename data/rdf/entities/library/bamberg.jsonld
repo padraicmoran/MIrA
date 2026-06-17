@@ -1,0 +1,23 @@
+[
+  {
+    "@id": "https://mira.ie/entity/library/bamberg",
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Staatsbibliothek"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "Staatsbibliothek"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q7075"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q43229"
+      }
+    ]
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "@id": "https://mira.ie/entity/text/paulinus",
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Carmina"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "Carmina"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q7725634"
+      }
+    ]
+  }
+]

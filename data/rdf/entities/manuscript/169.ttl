@@ -14,7 +14,7 @@
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0701"^^xsd:gYear,
         "0800"^^xsd:gYear ;
-    wdt:P953 "https://dx.doi.org/10.5076/e-codices-ubb-F-III-0015d"^^xsd:anyURI,
-        "https://foundationsirishculture.ie/record/?id=42"^^xsd:anyURI,
-        "https://www.e-codices.unifr.ch/en/ubb/F-III-0015d"^^xsd:anyURI .
+    wdt:P953 "http://dx.doi.org/10.5076/e-codices-ubb-F-III-0015d"^^xsd:anyURI,
+        "http://foundationsirishculture.ie/record/?id=42"^^xsd:anyURI,
+        "http://www.e-codices.unifr.ch/en/ubb/F-III-0015d"^^xsd:anyURI .
 

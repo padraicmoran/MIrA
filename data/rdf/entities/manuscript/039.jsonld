@@ -1,0 +1,48 @@
+[
+  {
+    "@id": "https://mira.ie/entity/manuscript/39",
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Bibliothèque de l’Arsenal — 237 (ff 1–184)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "Bibliothèque de l’Arsenal — 237 (ff 1–184)"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P195": [
+      {
+        "@id": "https://mira.ie/entity/library/paris_arsenal"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P2048": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "24.7"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P2049": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "20.2"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P217": [
+      {
+        "@value": "237 (ff 1–184)"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q87167"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P571": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "0862"
+      }
+    ]
+  }
+]
