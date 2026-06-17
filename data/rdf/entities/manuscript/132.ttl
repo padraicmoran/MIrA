@@ -4,16 +4,16 @@
 @prefix wdt: <http://www.wikidata.org/prop/direct/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://mira.ie/entity/manuscript/132> rdfs:label "Biblioteca Ambrosiana — I 61 sup." ;
-    skos:prefLabel "Biblioteca Ambrosiana — I 61 sup." ;
+<https://mira.ie/entity/manuscript/132> rdfs:label "Biblioteca Ambrosiana — I 61 sup. (ff 1–89)" ;
+    skos:prefLabel "Biblioteca Ambrosiana — I 61 sup. (ff 1–89)" ;
     wdt:P1071 wd:Q11498 ;
     wdt:P1574 <https://mira.ie/entity/text/gospels> ;
     wdt:P195 <https://mira.ie/entity/library/milan> ;
     wdt:P2048 23.2 ;
     wdt:P2049 17.4 ;
-    wdt:P217 "I 61 sup." ;
+    wdt:P217 "I 61 sup. (ff 1–89)" ;
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0651"^^xsd:gYear,
         "0700"^^xsd:gYear ;
-    wdt:P953 "http://foundationsirishculture.ie/record/?id=18"^^xsd:anyURI .
+    wdt:P953 "https://foundationsirishculture.ie/record/?id=18"^^xsd:anyURI .
 

@@ -8,13 +8,9 @@ if (file_exists('../data/other/libraries.xml')) {
 	if ($filter) {
 		$library = $filter[0];
 
-		if ($tidyURLs) $linkBack = '/libraries/';
-		else $linkBack = '/index.php?page=libraries';
-		echo '<div class="h5 text-secondary"></div>';
-
-		echo '<h2>';
-		echo '<a class="text-reset" href="' . $linkBack . '">Libraries</a> ‣ ';
-		echo $library->city . ', ' . $library->name . '</h2>';
+		// breadcrumb
+		writeBreadcrumb('library', '');
+		echo '<h2>' . $library->city . ', ' . $library->name . '</h2>';
 
 		// stable URL
 		$link = getLink('library', $id);
@@ -33,7 +29,11 @@ if (file_exists('../data/other/libraries.xml')) {
 		listMSS($resultsSorted);
 
 		// download
-		echo '<div class="text-secondary small mt-5">Download <a class="text-secondary" href="/data/other/libraries.xml">XML data</a> for libraries.</div>';
+		echo '<div class="text-secondary small mt-5">Download:
+			<a class="text-secondary" href="/data/library/' . $id . '.ttl">TTL</a> |
+			<a class="text-secondary" href="/data/library/' . $id . '.jsonld">JSON-LD</a> |
+			<a class="text-secondary" href="/data/library/' . $id . '.rdf">RDF</a>
+			</div>';
 
 	}
 	else {

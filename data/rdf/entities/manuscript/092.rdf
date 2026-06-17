@@ -7,12 +7,14 @@
 >
   <rdf:Description rdf:about="https://mira.ie/entity/manuscript/92">
     <wdt:P31 rdf:resource="http://www.wikidata.org/entity/Q87167"/>
-    <wdt:P217>M.p.th.f.1 + M.p.th.f.18 + M.p.j.f.7 + M.p.j.f.5 + M.p.th.f.78 [binding]</wdt:P217>
-    <rdfs:label>Universitätsbibliothek — M.p.th.f.1 + M.p.th.f.18 + M.p.j.f.7 + M.p.j.f.5 + M.p.th.f.78 [binding]</rdfs:label>
-    <skos:prefLabel>Universitätsbibliothek — M.p.th.f.1 + M.p.th.f.18 + M.p.j.f.7 + M.p.j.f.5 + M.p.th.f.78 [binding]</skos:prefLabel>
+    <wdt:P217>M.p.misc.f.28</wdt:P217>
+    <rdfs:label>Universitätsbibliothek — M.p.misc.f.28</rdfs:label>
+    <skos:prefLabel>Universitätsbibliothek — M.p.misc.f.28</skos:prefLabel>
     <wdt:P195 rdf:resource="https://mira.ie/entity/library/wurzburg"/>
     <wdt:P571 rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0786</wdt:P571>
     <wdt:P571 rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0800</wdt:P571>
     <wdt:P1071 rdf:resource="http://www.wikidata.org/entity/Q22890"/>
+    <wdt:P2048 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">27.5</wdt:P2048>
+    <wdt:P2049 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">22</wdt:P2049>
   </rdf:Description>
 </rdf:RDF>

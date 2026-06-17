@@ -8,8 +8,8 @@
   <rdf:Description rdf:about="https://mira.ie/entity/manuscript/208">
     <wdt:P31 rdf:resource="http://www.wikidata.org/entity/Q87167"/>
     <wdt:P217>I</wdt:P217>
-    <rdfs:label>Cathedral library — I</rdfs:label>
-    <skos:prefLabel>Cathedral library — I</skos:prefLabel>
+    <rdfs:label>Cathedral Library — I</rdfs:label>
+    <skos:prefLabel>Cathedral Library — I</skos:prefLabel>
     <wdt:P195 rdf:resource="https://mira.ie/entity/library/lichfield"/>
     <wdt:P571 rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0701</wdt:P571>
     <wdt:P571 rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0750</wdt:P571>

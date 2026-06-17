@@ -21,6 +21,18 @@
         "@id": "https://mira.ie/entity/library/munich"
       }
     ],
+    "http://www.wikidata.org/prop/direct/P2048": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "17.3"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P2049": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "13.8"
+      }
+    ],
     "http://www.wikidata.org/prop/direct/P217": [
       {
         "@value": "Clm 29300/2"
@@ -44,7 +56,7 @@
     "http://www.wikidata.org/prop/direct/P953": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
-        "@value": "http://foundationsirishculture.ie/record/?id=71"
+        "@value": "https://foundationsirishculture.ie/record/?id=71"
       }
     ]
   }

@@ -9,7 +9,7 @@
     wdt:P1071 wd:Q22890 ;
     wdt:P1574 <https://mira.ie/entity/text/psalms> ;
     wdt:P195 <https://mira.ie/entity/library/dublin_museum> ;
-    wdt:P2048 77.0 ;
+    wdt:P2048 7.7 ;
     wdt:P2049 21.0 ;
     wdt:P217 "S.A. 1914: 2" ;
     wdt:P31 wd:Q87167 ;

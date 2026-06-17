@@ -13,5 +13,7 @@
     <wdt:P195 rdf:resource="https://mira.ie/entity/library/bern"/>
     <wdt:P571 rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0701</wdt:P571>
     <wdt:P571 rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0800</wdt:P571>
+    <wdt:P2048 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">26</wdt:P2048>
+    <wdt:P2049 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">34.5</wdt:P2049>
   </rdf:Description>
 </rdf:RDF>

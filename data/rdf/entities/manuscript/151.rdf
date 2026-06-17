@@ -14,6 +14,8 @@
     <wdt:P571 rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0780</wdt:P571>
     <wdt:P571 rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0820</wdt:P571>
     <wdt:P1071 rdf:resource="http://www.wikidata.org/entity/Q11498"/>
-    <wdt:P953 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://foundationsirishculture.ie/record/?id=26</wdt:P953>
+    <wdt:P2048 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">25</wdt:P2048>
+    <wdt:P2049 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">19</wdt:P2049>
+    <wdt:P953 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://foundationsirishculture.ie/record/?id=26</wdt:P953>
   </rdf:Description>
 </rdf:RDF>

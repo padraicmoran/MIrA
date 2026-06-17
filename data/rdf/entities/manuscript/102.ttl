@@ -6,7 +6,7 @@
 
 <https://mira.ie/entity/manuscript/102> rdfs:label "Trinity College — 59 (A.IV.23)" ;
     skos:prefLabel "Trinity College — 59 (A.IV.23)" ;
-    wdt:P1071 wd:Q22890 ;
+    wdt:P1071 wd:Q1003178 ;
     wdt:P1574 <https://mira.ie/entity/text/gospels> ;
     wdt:P195 <https://mira.ie/entity/library/dublin_tcd> ;
     wdt:P2048 17.5 ;

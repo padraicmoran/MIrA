@@ -13,12 +13,24 @@
     ],
     "http://www.wikidata.org/prop/direct/P1071": [
       {
-        "@id": "http://www.wikidata.org/entity/Q22890"
+        "@id": "http://www.wikidata.org/entity/Q7680015"
       }
     ],
     "http://www.wikidata.org/prop/direct/P195": [
       {
         "@id": "https://mira.ie/entity/library/karlsruhe"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P2048": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "10"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P2049": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "9"
       }
     ],
     "http://www.wikidata.org/prop/direct/P217": [

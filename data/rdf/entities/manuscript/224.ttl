@@ -14,7 +14,7 @@
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0701"^^xsd:gYear,
         "0800"^^xsd:gYear ;
-    wdt:P953 "http://digi.vatlib.it/view/MSS_Vat.lat.491"^^xsd:anyURI,
-        "http://foundationsirishculture.ie/record/?id=1"^^xsd:anyURI,
+    wdt:P953 "https://digi.vatlib.it/view/MSS_Vat.lat.491"^^xsd:anyURI,
+        "https://foundationsirishculture.ie/record/?id=1"^^xsd:anyURI,
         "https://opac.vatlib.it/mss/detail/Vat.lat.491"^^xsd:anyURI .
 

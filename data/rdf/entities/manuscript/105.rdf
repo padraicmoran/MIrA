@@ -13,7 +13,7 @@
     <wdt:P195 rdf:resource="https://mira.ie/entity/library/dublin_ria"/>
     <wdt:P571 rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0780</wdt:P571>
     <wdt:P571 rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0820</wdt:P571>
-    <wdt:P1071 rdf:resource="http://www.wikidata.org/entity/Q22890"/>
+    <wdt:P1071 rdf:resource="http://www.wikidata.org/entity/Q7680015"/>
     <wdt:P2048 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">14</wdt:P2048>
     <wdt:P2049 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">11.5</wdt:P2049>
   </rdf:Description>

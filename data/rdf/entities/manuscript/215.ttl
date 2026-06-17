@@ -6,7 +6,7 @@
 
 <https://mira.ie/entity/manuscript/215> rdfs:label "Bodleian Library — Auctarium D.II.19 [S.C. 3946]" ;
     skos:prefLabel "Bodleian Library — Auctarium D.II.19 [S.C. 3946]" ;
-    wdt:P1071 wd:Q22890 ;
+    wdt:P1071 wd:Q865849 ;
     wdt:P1574 <https://mira.ie/entity/text/gospels> ;
     wdt:P195 <https://mira.ie/entity/library/oxford_bodleian> ;
     wdt:P2048 35.0 ;

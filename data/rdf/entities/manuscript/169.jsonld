@@ -56,15 +56,15 @@
     "http://www.wikidata.org/prop/direct/P953": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
-        "@value": "http://dx.doi.org/10.5076/e-codices-ubb-F-III-0015d"
+        "@value": "https://dx.doi.org/10.5076/e-codices-ubb-F-III-0015d"
       },
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
-        "@value": "http://www.e-codices.unifr.ch/en/ubb/F-III-0015d"
+        "@value": "https://www.e-codices.unifr.ch/en/ubb/F-III-0015d"
       },
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
-        "@value": "http://foundationsirishculture.ie/record/?id=42"
+        "@value": "https://foundationsirishculture.ie/record/?id=42"
       }
     ]
   }

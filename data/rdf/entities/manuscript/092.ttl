@@ -4,11 +4,13 @@
 @prefix wdt: <http://www.wikidata.org/prop/direct/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://mira.ie/entity/manuscript/92> rdfs:label "Universitätsbibliothek — M.p.th.f.1 + M.p.th.f.18 + M.p.j.f.7 + M.p.j.f.5 + M.p.th.f.78 [binding]" ;
-    skos:prefLabel "Universitätsbibliothek — M.p.th.f.1 + M.p.th.f.18 + M.p.j.f.7 + M.p.j.f.5 + M.p.th.f.78 [binding]" ;
+<https://mira.ie/entity/manuscript/92> rdfs:label "Universitätsbibliothek — M.p.misc.f.28" ;
+    skos:prefLabel "Universitätsbibliothek — M.p.misc.f.28" ;
     wdt:P1071 wd:Q22890 ;
     wdt:P195 <https://mira.ie/entity/library/wurzburg> ;
-    wdt:P217 "M.p.th.f.1 + M.p.th.f.18 + M.p.j.f.7 + M.p.j.f.5 + M.p.th.f.78 [binding]" ;
+    wdt:P2048 27.5 ;
+    wdt:P2049 22.0 ;
+    wdt:P217 "M.p.misc.f.28" ;
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0786"^^xsd:gYear,
         "0800"^^xsd:gYear .

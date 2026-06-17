@@ -1,12 +1,12 @@
-
-<h2>Libraries</h2>
-
 <?php
+writeBreadcrumb('library', null);
+echo '<h2>Libraries</h2>';
+
 if (file_exists('../data/other/libraries.xml')) {
 	$xml_libraries = simplexml_load_file('../data/other/libraries.xml');
 
 	$matches = count($xml_libraries);
-	echo '<div class="d-inline-flex my-2 px-3 py-2 text-light small bg-mira rounded">' . $matches;
+	echo '<div class="d-inline-flex mt-2 mb-4 px-3 py-2 text-light small bg-mira rounded">' . $matches;
 	echo switchSgPl($matches, ' library', ' libraries');
 	echo '</div>';
 

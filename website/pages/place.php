@@ -8,18 +8,14 @@ if (file_exists('../data/other/places.xml')) {
 	$filter = $xml_places->xpath('//place[@id="' . $id . '"]');
 	if ($filter) {
 		$place = $filter[0];
-		
-		if ($tidyURLs) $linkBack = '/places/';
-		else $linkBack = '/index.php?page=places';
 ?>
 
 <div class="row">
 	<div class="col-lg-4">
 <?php
 
-		echo '<h2>';
-		echo '<a class="text-reset" href="' . $linkBack . '">Places</a> ‣ ';
-		echo $place->name . '</h2>';
+		writeBreadcrumb('place', '');
+		echo '<h2>' . $place->name . '</h2>';
 
 		// stable URL
 		$link = getLink('place', $id);
@@ -96,7 +92,7 @@ if (file_exists('../data/other/places.xml')) {
 		}
 
 		// download
-		echo '<div class="text-secondary small mt-5">Download <a class="text-secondary" href="/data/other/places.xml">XML data</a> for places.</div>';
+#		echo '<div class="text-secondary small mt-5">Download <a class="text-secondary" href="/data/other/places.xml">XML data</a> for places.</div>';
 
 	}
 	else {

@@ -17,6 +17,6 @@
     <wdt:P2048 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24.5</wdt:P2048>
     <wdt:P2049 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">19</wdt:P2049>
     <wdt:P953 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://bvmm.irht.cnrs.fr/consult/consult.php?reproductionId=1958</wdt:P953>
-    <wdt:P953 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://foundationsirishculture.ie/record/?id=39</wdt:P953>
+    <wdt:P953 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://foundationsirishculture.ie/record/?id=39</wdt:P953>
   </rdf:Description>
 </rdf:RDF>

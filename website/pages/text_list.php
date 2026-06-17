@@ -1,7 +1,7 @@
-
-<h2>Texts</h2>
-
 <?php
+writeBreadcrumb('text', null);
+echo '<h2>Texts</h2>';
+
 if (file_exists('../data/other/texts.xml')) {
 	$xml_texts = simplexml_load_file('../data/other/texts.xml');
 

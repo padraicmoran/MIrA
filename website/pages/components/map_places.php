@@ -4,7 +4,7 @@ Map for place entries
 */
 
 function mapPlaces($results, $selectedID) {
-	global $tidyURLs, $placeInfo;
+	global $placeInfo;
 
 	// set up map
 ?>

@@ -34,6 +34,8 @@ if ($format === 'html') {
     handle_human_redirect($type, $id);
 } else {
     // Requester is a machine -> Serve or redirect to the data file
+    // If a manuscript, zero-pad ID      
+    if ($type == 'manuscript') $id = str_pad($id, 3, '0', STR_PAD_LEFT);
     handle_machine_request($type, $id, $format);
 }
 
@@ -79,6 +81,8 @@ function handle_human_redirect($type, $id) {
  * Handles delivering the semantic data files to machines.
  */
 function handle_machine_request($type, $id, $format) {
+global $message;
+
     // Define the content types mapping
     $content_types = [
         'ttl'    => 'text/turtle; charset=utf-8',

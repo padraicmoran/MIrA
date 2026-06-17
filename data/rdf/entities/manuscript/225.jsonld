@@ -50,7 +50,7 @@
     "http://www.wikidata.org/prop/direct/P953": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
-        "@value": "http://digi.vatlib.it/view/MSS_Vat.lat.13501"
+        "@value": "https://digi.vatlib.it/view/MSS_Vat.lat.13501"
       },
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",

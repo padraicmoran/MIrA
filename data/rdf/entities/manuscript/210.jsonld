@@ -24,7 +24,7 @@
     "http://www.wikidata.org/prop/direct/P2048": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#decimal",
-        "@value": "65"
+        "@value": "6.5"
       }
     ],
     "http://www.wikidata.org/prop/direct/P2049": [

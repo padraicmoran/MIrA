@@ -10,6 +10,8 @@
         wd:Q3963 ;
     wdt:P1574 <https://mira.ie/entity/text/gospels> ;
     wdt:P195 <https://mira.ie/entity/library/fulda> ;
+    wdt:P2048 12.5 ;
+    wdt:P2049 11.2 ;
     wdt:P217 "Bonifatianus 3" ;
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0701"^^xsd:gYear,

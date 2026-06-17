@@ -13,7 +13,7 @@
     <wdt:P195 rdf:resource="https://mira.ie/entity/library/oxford_bodleian"/>
     <wdt:P571 rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0780</wdt:P571>
     <wdt:P571 rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0821</wdt:P571>
-    <wdt:P1071 rdf:resource="http://www.wikidata.org/entity/Q22890"/>
+    <wdt:P1071 rdf:resource="http://www.wikidata.org/entity/Q865849"/>
     <wdt:P2048 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">35</wdt:P2048>
     <wdt:P2049 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">27</wdt:P2049>
     <wdt:P1574 rdf:resource="https://mira.ie/entity/text/gospels"/>

@@ -13,7 +13,7 @@
     <wdt:P195 rdf:resource="https://mira.ie/entity/library/london_lambeth"/>
     <wdt:P571 rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0851</wdt:P571>
     <wdt:P571 rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0900</wdt:P571>
-    <wdt:P1071 rdf:resource="http://www.wikidata.org/entity/Q22890"/>
+    <wdt:P1071 rdf:resource="http://www.wikidata.org/entity/Q193452"/>
     <wdt:P2048 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">15.8</wdt:P2048>
     <wdt:P2049 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">11.1</wdt:P2049>
     <wdt:P1574 rdf:resource="https://mira.ie/entity/text/gospels"/>

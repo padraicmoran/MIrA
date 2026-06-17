@@ -8,7 +8,7 @@
     skos:prefLabel "Bayerische Staatsbibliothek — Clm 14846" ;
     wdt:P195 <https://mira.ie/entity/library/munich> ;
     wdt:P2048 12.1 ;
-    wdt:P2049 95.0 ;
+    wdt:P2049 9.5 ;
     wdt:P217 "Clm 14846" ;
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0886"^^xsd:gYear,

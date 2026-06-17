@@ -26,6 +26,18 @@
         "@id": "https://mira.ie/entity/library/milan"
       }
     ],
+    "http://www.wikidata.org/prop/direct/P2048": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "21"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P2049": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "16"
+      }
+    ],
     "http://www.wikidata.org/prop/direct/P217": [
       {
         "@value": "D 10 sup. (front flyleaves)"
@@ -49,7 +61,7 @@
     "http://www.wikidata.org/prop/direct/P953": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
-        "@value": "http://foundationsirishculture.ie/record/?id=10"
+        "@value": "https://foundationsirishculture.ie/record/?id=10"
       }
     ]
   }

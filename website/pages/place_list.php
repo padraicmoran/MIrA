@@ -1,12 +1,13 @@
-
-<h2>Places</h2>
-
 <?php
+
+writeBreadcrumb('place', null);
+echo '<h2>Places</h2>';
+
 if (file_exists('../data/other/places.xml')) {
 	$xml_places = simplexml_load_file('../data/other/places.xml');
 
 	$matches = count($xml_places->xpath('//place'));
-	echo '<div class="d-inline-flex my-2 px-3 py-2 text-light small bg-mira	rounded">' . $matches;
+	echo '<div class="d-inline-flex mt-2 mb-4 px-3 py-2 text-light small bg-mira	rounded">' . $matches;
 	echo switchSgPl($matches, ' place', ' places');
 	echo '</div>';
 

@@ -9,13 +9,13 @@ if ($filter) {
 	//
 	// HEADERS 
 	//
-	if ($tidyURLs) $linkBack = '/manuscripts/';
-	else $linkBack = '/index.php?page=manuscripts';
 
+	// breadcrumb
+	writeBreadcrumb('manuscript', 'MIrA ' . $id);
 	$heading = makeMsHeading($ms);
-	echo '<h2 class="h3">';
-	echo '<a class="text-reset" href="' . $linkBack . '">Manuscripts</a> ‣ MIrA ' . $id . '</h2>';
 	echo '<h1>' .  $heading . '</h1>';
+	// breadcrumb
+
 
 	// stable URL
 	$link = getLink('manuscript', $id);
@@ -34,8 +34,6 @@ if ($filter) {
 	else {
 		echo '<div class="mt-3 alert alert-warning">This is a legacy record for a manuscript that has now been excluded from the database.</div>';
 	}
-
-
 
 
 	// Mirador viewer
@@ -150,10 +148,13 @@ if ($filter) {
 	}
 
 	// download
-	if ($tidyURLs) $xmlURL = '/' . sprintf("%03d", $id) . '/xml';
-	else $xmlURL = '../data/mss/' . sprintf("%03d", $id) . '.xml';
-	echo '<div class="text-secondary small mt-5">Download <a class="text-secondary" href="' . $xmlURL . '">XML data</a> for this manuscript.</div>';
-
+	echo '<div class="text-secondary small mt-5">Download:
+		<a class="text-secondary" href="/data/manuscript/' . $id . '.xml">XML (MIrA)</a> |
+		<a class="text-secondary" href="/data/manuscript/' . $id . '_tei.xml">XML (TEI)</a> |
+		<a class="text-secondary" href="/data/manuscript/' . $id . '.ttl">TTL</a> |
+		<a class="text-secondary" href="/data/manuscript/' . $id . '.jsonld">JSON-LD</a> |
+		<a class="text-secondary" href="/data/manuscript/' . $id . '.rdf">RDF</a>
+		</div>';
 }
 else {
 	echo '<!-- MS not found -->';
@@ -213,21 +214,13 @@ function parseThesaurusRef($ref) {
 
 // replace XML cross-references (data) with HTML links (application)
 function processData($str) {
-	global $tidyURLs;
 
 	$str = preg_replace('/<ms id="([0-9]*)">/', '<a href="\1">', $str);
 	$str = preg_replace('/<\/ms>/', '</a>', $str);
 
-	if ($tidyURLs) {
-		$str = preg_replace('/<person id="([a-z0-9_\-]*)">/', '<a href="/person/\1">', $str);
-		$str = preg_replace('/<place id="([a-z0-9_\-]*)">/', '<a href="/place/\1">', $str);
-		$str = preg_replace('/<text id="([a-z0-9_\-]*)">/', '<a href="/text/\1">', $str);
-	}
-	else {
-		$str = preg_replace('/<person id="([a-z0-9_\-]*)">/', '<a href="index.php?page=people&id=\1">', $str);
-		$str = preg_replace('/<place id="([a-z0-9_\-]*)">/', '<a href="index.php?page=places&id=\1">', $str);
-		$str = preg_replace('/<text id="([a-z0-9_\-]*)">/', '<a href="index.php?page=texts&id=\1">', $str);
-	}
+	$str = preg_replace('/<person id="([a-z0-9_\-]*)">/', '<a href="/person/\1">', $str);
+	$str = preg_replace('/<place id="([a-z0-9_\-]*)">/', '<a href="/place/\1">', $str);
+	$str = preg_replace('/<text id="([a-z0-9_\-]*)">/', '<a href="/text/\1">', $str);
 	
 	$str = preg_replace('/<\/person>/', '</a>', $str);
 	$str = preg_replace('/<\/place>/', '</a>', $str);

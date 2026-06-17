@@ -3,12 +3,12 @@
     "@id": "https://mira.ie/entity/manuscript/269",
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": "Bischöfliche Ordinariatsbibliothek — 1"
+        "@value": "Bischöfliche Ordinariatsbibliothek — 2"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
-        "@value": "Bischöfliche Ordinariatsbibliothek — 1"
+        "@value": "Bischöfliche Ordinariatsbibliothek — 2"
       }
     ],
     "http://www.wikidata.org/prop/direct/P1071": [
@@ -35,7 +35,7 @@
     ],
     "http://www.wikidata.org/prop/direct/P217": [
       {
-        "@value": "1"
+        "@value": "2"
       }
     ],
     "http://www.wikidata.org/prop/direct/P31": [

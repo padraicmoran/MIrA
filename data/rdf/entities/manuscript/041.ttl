@@ -9,9 +9,11 @@
     wdt:P1071 wd:Q22890,
         wd:Q25 ;
     wdt:P195 <https://mira.ie/entity/library/saint-omer> ;
+    wdt:P2048 28.5 ;
+    wdt:P2049 20.0 ;
     wdt:P217 "342 bis (fol. B)" ;
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0680"^^xsd:gYear,
         "0720"^^xsd:gYear ;
-    wdt:P953 "http://foundationsirishculture.ie/record/?id=41"^^xsd:anyURI .
+    wdt:P953 "https://foundationsirishculture.ie/record/?id=41"^^xsd:anyURI .
 

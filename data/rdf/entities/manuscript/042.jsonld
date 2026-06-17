@@ -3,12 +3,17 @@
     "@id": "https://mira.ie/entity/manuscript/42",
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": "Bibliothèque municipale — 412 (393 bis) [rear flyleaf?]"
+        "@value": "Bibliothèque municipale — 412 (393 bis) [rear flyleaf]"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
-        "@value": "Bibliothèque municipale — 412 (393 bis) [rear flyleaf?]"
+        "@value": "Bibliothèque municipale — 412 (393 bis) [rear flyleaf]"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P1071": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q1067570"
       }
     ],
     "http://www.wikidata.org/prop/direct/P195": [
@@ -16,9 +21,21 @@
         "@id": "https://mira.ie/entity/library/valenciennes"
       }
     ],
+    "http://www.wikidata.org/prop/direct/P2048": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "23"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P2049": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "15.3"
+      }
+    ],
     "http://www.wikidata.org/prop/direct/P217": [
       {
-        "@value": "412 (393 bis) [rear flyleaf?]"
+        "@value": "412 (393 bis) [rear flyleaf]"
       }
     ],
     "http://www.wikidata.org/prop/direct/P31": [

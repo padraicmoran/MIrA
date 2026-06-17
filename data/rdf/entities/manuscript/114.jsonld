@@ -24,6 +24,18 @@
         "@id": "https://mira.ie/entity/library/milan"
       }
     ],
+    "http://www.wikidata.org/prop/direct/P2048": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "28"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P2049": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "20"
+      }
+    ],
     "http://www.wikidata.org/prop/direct/P217": [
       {
         "@value": "A 138 sup."

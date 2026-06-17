@@ -8,9 +8,11 @@
     skos:prefLabel "Biblioteca Nazionale — F.IV.1, fasc. 9" ;
     wdt:P1071 wd:Q22890 ;
     wdt:P195 <https://mira.ie/entity/library/turin> ;
+    wdt:P2048 26.0 ;
+    wdt:P2049 22.0 ;
     wdt:P217 "F.IV.1, fasc. 9" ;
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0701"^^xsd:gYear,
         "0725"^^xsd:gYear ;
-    wdt:P953 "http://foundationsirishculture.ie/record/?id=28"^^xsd:anyURI .
+    wdt:P953 "https://foundationsirishculture.ie/record/?id=28"^^xsd:anyURI .
 

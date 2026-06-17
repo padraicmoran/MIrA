@@ -14,6 +14,6 @@
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0801"^^xsd:gYear,
         "0900"^^xsd:gYear ;
-    wdt:P953 "http://digi.vatlib.it/view/MSS_Vat.lat.13501"^^xsd:anyURI,
+    wdt:P953 "https://digi.vatlib.it/view/MSS_Vat.lat.13501"^^xsd:anyURI,
         "https://opac.vatlib.it/mss/detail/Vat.lat.13501"^^xsd:anyURI .
 

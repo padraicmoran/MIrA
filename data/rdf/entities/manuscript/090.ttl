@@ -8,9 +8,11 @@
     skos:prefLabel "Bayerische Staatsbibliothek — Clm 29300/2" ;
     wdt:P1071 wd:Q22890 ;
     wdt:P195 <https://mira.ie/entity/library/munich> ;
+    wdt:P2048 17.3 ;
+    wdt:P2049 13.8 ;
     wdt:P217 "Clm 29300/2" ;
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0701"^^xsd:gYear,
         "0800"^^xsd:gYear ;
-    wdt:P953 "http://foundationsirishculture.ie/record/?id=71"^^xsd:anyURI .
+    wdt:P953 "https://foundationsirishculture.ie/record/?id=71"^^xsd:anyURI .
 

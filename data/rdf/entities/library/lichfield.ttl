@@ -3,8 +3,8 @@
 @prefix wd: <http://www.wikidata.org/entity/> .
 @prefix wdt: <http://www.wikidata.org/prop/direct/> .
 
-<https://mira.ie/entity/library/lichfield> rdfs:label "Cathedral library" ;
-    skos:prefLabel "Cathedral library" ;
+<https://mira.ie/entity/library/lichfield> rdfs:label "Cathedral Library" ;
+    skos:prefLabel "Cathedral Library" ;
     wdt:P31 wd:Q43229,
         wd:Q7075 .
 

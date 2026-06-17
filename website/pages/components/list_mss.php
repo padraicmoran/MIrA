@@ -5,7 +5,7 @@ Results page for MS searches
 
 function listMSS($results) {
 	global $page, $id, $search, $searchCat, $searchLib;
-	global $libraries, $msCategories, $tidyURLs;
+	global $libraries, $msCategories;
 
 	// sort results
 	// cannot sort a SimpleXML object, so transfer top-level objects into an array instead

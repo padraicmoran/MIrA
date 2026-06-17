@@ -8,9 +8,11 @@
     skos:prefLabel "Biblioteca Ambrosiana — M 67 sup. (flyleaves)" ;
     wdt:P1071 wd:Q22890 ;
     wdt:P195 <https://mira.ie/entity/library/milan> ;
+    wdt:P2048 23.5 ;
+    wdt:P2049 19.5 ;
     wdt:P217 "M 67 sup. (flyleaves)" ;
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0701"^^xsd:gYear,
         "0800"^^xsd:gYear ;
-    wdt:P953 "http://foundationsirishculture.ie/record/?id=19"^^xsd:anyURI .
+    wdt:P953 "https://foundationsirishculture.ie/record/?id=19"^^xsd:anyURI .
 

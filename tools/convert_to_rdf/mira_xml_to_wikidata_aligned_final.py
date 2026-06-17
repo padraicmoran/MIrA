@@ -29,16 +29,15 @@ Main features:
        linked directly using Wikidata QIDs.
 
     
-
 Input files:
-    - mss_compiled.xml
-    - libraries.xml
-    - people.xml
-    - places.xml
-    - texts.xml
+    - data/mss_mira/compiled/mss_compiled.xml
+    - data/other/libraries.xml
+    - data/other/people.xml
+    - data/other/places.xml
+    - data/other/texts.xml
 
 Output:
-    rdf_output/
+    rdf/
         mira_wikidata_aligned.ttl
         mira_wikidata_aligned.jsonld
         mira_wikidata_aligned.rdf
@@ -128,10 +127,7 @@ def extract_qid(text: Optional[str]) -> Optional[str]:
 def extract_year(text: Optional[str]) -> Optional[str]:
     """
     Return a valid 4-digit gYear string if one can be safely extracted.
-
     Only explicit 3- or 4-digit years are converted.
-    One- or two-digit values are not treated as centuries because that can
-    be misleading for manuscript dating.
     """
     if not text:
         return None
@@ -645,12 +641,12 @@ def build_graph(args) -> tuple[Graph, Counter, list[str]]:
 
 def parse_args():
     ap = argparse.ArgumentParser(description="MIrA XML → Wikidata-aligned RDF")
-    ap.add_argument("--mss", default="mss_compiled.xml", help="Input mss_compiled.xml")
-    ap.add_argument("--people", default="people.xml", help="Input people.xml")
-    ap.add_argument("--places", default="places.xml", help="Input places.xml")
-    ap.add_argument("--texts", default="texts.xml", help="Input texts.xml")
-    ap.add_argument("--libraries", default="libraries.xml", help="Input libraries.xml")
-    ap.add_argument("--outdir", default="rdf_output", help="Output folder")
+    ap.add_argument("--mss", default="data/mss_mira/compiled/mss_compiled.xml", help="Input mss_compiled.xml")
+    ap.add_argument("--people", default="data/other/people.xml", help="Input people.xml")
+    ap.add_argument("--places", default="data/other/places.xml", help="Input places.xml")
+    ap.add_argument("--texts", default="data/other/texts.xml", help="Input texts.xml")
+    ap.add_argument("--libraries", default="data/other/libraries.xml", help="Input libraries.xml")
+    ap.add_argument("--outdir", default="data/rdf", help="Output folder")
     return ap.parse_args()
 
 

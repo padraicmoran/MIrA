@@ -4,7 +4,7 @@ Standard page template
 */
 
 function templateTop($activeNavID) {
-	global $tidyURLs, $search;
+	global $search;
 	
 	$nav = [
 		'home' => 			['label' => 'Home',        'url' => '/',            'title' => 'Manuscripts with Irish Associations • Information about early Irish book culture'],
@@ -52,9 +52,8 @@ function templateTop($activeNavID) {
 	<meta property="og:type" content="website" />
 
 	<!-- Bootstrap -->
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-	<script src="https://unpkg.com/@popperjs/core@2"></script>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 
 	<!-- Leaflet -->
 	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/>
@@ -100,7 +99,7 @@ function templateTop($activeNavID) {
 
 
 	<div class="collapse navbar-collapse" id="navbarSupportedContent">
-		<ul class="navbar-nav ms-4 me-auto mb-2 mb-lg-0">
+		<ul class="navbar-nav ms-4 me-auto mb-2 mb-lg-0 small">
 	<?php
 	foreach ($nav as $navID => $item):
 		$isActive    = ($navID === $activeNavID);
@@ -155,7 +154,7 @@ function templateBottom() {
 ?>
 </main>
 
-<footer class="container-fluid mt-4 p-5">
+<footer class="container-fluid mt-4 p-5 border-top">
 	<div class="container mb-0">
 
 <p>Pádraic Moran, <i>Manuscripts with Irish Associations</i> (<i>MIrA</i>)</i>, 

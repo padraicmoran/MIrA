@@ -14,6 +14,6 @@
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0751"^^xsd:gYear,
         "0800"^^xsd:gYear ;
-    wdt:P953 "http://foundationsirishculture.ie/record/?id=39"^^xsd:anyURI,
-        "https://bvmm.irht.cnrs.fr/consult/consult.php?reproductionId=1958"^^xsd:anyURI .
+    wdt:P953 "https://bvmm.irht.cnrs.fr/consult/consult.php?reproductionId=1958"^^xsd:anyURI,
+        "https://foundationsirishculture.ie/record/?id=39"^^xsd:anyURI .
 

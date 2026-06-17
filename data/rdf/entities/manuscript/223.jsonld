@@ -64,11 +64,11 @@
     "http://www.wikidata.org/prop/direct/P953": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
-        "@value": "http://digi.vatlib.it/view/bav_pal_lat_235/0013"
+        "@value": "https://digi.vatlib.it/view/bav_pal_lat_235/0013"
       },
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
-        "@value": "http://foundationsirishculture.ie/record/?id=5"
+        "@value": "https://foundationsirishculture.ie/record/?id=5"
       }
     ]
   }

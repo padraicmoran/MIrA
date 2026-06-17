@@ -49,7 +49,7 @@
     "http://www.wikidata.org/prop/direct/P953": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
-        "@value": "http://foundationsirishculture.ie/record/?id=2489"
+        "@value": "https://foundationsirishculture.ie/record/?id=2489"
       }
     ]
   }

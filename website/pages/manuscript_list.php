@@ -7,6 +7,9 @@ $searchCat = cleanInput('cat') ?? '';
 
 // display headers
 //
+// breadcrumb
+writeBreadcrumb('manuscript', null);
+
 echo '<h2>Manuscripts</h2>';
 if ($search != '') {
 	// keyword search

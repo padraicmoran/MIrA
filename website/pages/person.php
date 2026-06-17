@@ -8,12 +8,10 @@ if (file_exists('../data/other/people.xml')) {
 	if ($filter) {
 		$person = $filter[0];
 
-		if ($tidyURLs) $linkBack = '/people/';
-		else $linkBack = '/index.php?page=people';
-		echo '<div class="h5 text-secondary"></div>';
-
+		// breadcrumb
+		writeBreadcrumb('person', '');
 		echo '<h2>';
-		echo '<a class="text-reset" href="' . $linkBack . '">People</a> ‣ ';
+		echo '<a class="text-reset" href="/people/">People</a> ‣ ';
 		echo $person->firstNames . ' ' . $person->surname . '</h2>';
 		echo '<p>' . $person->lifetime . '</p>';
 
@@ -48,7 +46,11 @@ if (file_exists('../data/other/people.xml')) {
 		listMSS($resultsSorted);
 
 		// download
-		echo '<div class="text-secondary small mt-5">Download <a class="text-secondary" href="/data/other/people.xml">XML data</a> for people.</div>';
+		echo '<div class="text-secondary small mt-5">Download:
+			<a class="text-secondary" href="/data/person/' . $id . '.ttl">TTL</a> |
+			<a class="text-secondary" href="/data/person/' . $id . '.jsonld">JSON-LD</a> |
+			<a class="text-secondary" href="/data/person/' . $id . '.rdf">RDF</a>
+			</div>';
 
 	}
 	else {

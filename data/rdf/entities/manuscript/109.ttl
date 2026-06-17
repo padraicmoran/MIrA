@@ -9,6 +9,8 @@
     wdt:P1071 wd:Q22890 ;
     wdt:P1574 <https://mira.ie/entity/text/psalms> ;
     wdt:P195 <https://mira.ie/entity/library/dublin_museum> ;
+    wdt:P2048 30.0 ;
+    wdt:P2049 26.0 ;
     wdt:P217 "n/a" ;
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0790"^^xsd:gYear,

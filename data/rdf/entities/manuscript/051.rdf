@@ -15,6 +15,8 @@
     <wdt:P571 rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0800</wdt:P571>
     <wdt:P1071 rdf:resource="http://www.wikidata.org/entity/Q3963"/>
     <wdt:P1071 rdf:resource="http://www.wikidata.org/entity/Q22890"/>
+    <wdt:P2048 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12.5</wdt:P2048>
+    <wdt:P2049 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">11.2</wdt:P2049>
     <wdt:P1574 rdf:resource="https://mira.ie/entity/text/gospels"/>
   </rdf:Description>
 </rdf:RDF>

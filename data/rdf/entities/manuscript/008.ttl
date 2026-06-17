@@ -6,7 +6,8 @@
 
 <https://mira.ie/entity/manuscript/8> rdfs:label "Bibliothèque municipale — 679 (619)" ;
     skos:prefLabel "Bibliothèque municipale — 679 (619)" ;
-    wdt:P1071 wd:Q217768 ;
+    wdt:P1071 wd:Q181285,
+        wd:Q217768 ;
     wdt:P195 <https://mira.ie/entity/library/cambrai> ;
     wdt:P217 "679 (619)" ;
     wdt:P31 wd:Q87167 ;

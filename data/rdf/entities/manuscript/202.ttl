@@ -9,7 +9,7 @@
     wdt:P1071 wd:Q90 ;
     wdt:P195 <https://mira.ie/entity/library/cambridge_pembroke> ;
     wdt:P2048 30.0 ;
-    wdt:P2049 57.0 ;
+    wdt:P2049 5.7 ;
     wdt:P217 "312C (ff 3, 4)" ;
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0825"^^xsd:gYear,

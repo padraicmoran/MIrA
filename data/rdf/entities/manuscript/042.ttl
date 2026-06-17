@@ -4,10 +4,13 @@
 @prefix wdt: <http://www.wikidata.org/prop/direct/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://mira.ie/entity/manuscript/42> rdfs:label "Bibliothèque municipale — 412 (393 bis) [rear flyleaf?]" ;
-    skos:prefLabel "Bibliothèque municipale — 412 (393 bis) [rear flyleaf?]" ;
+<https://mira.ie/entity/manuscript/42> rdfs:label "Bibliothèque municipale — 412 (393 bis) [rear flyleaf]" ;
+    skos:prefLabel "Bibliothèque municipale — 412 (393 bis) [rear flyleaf]" ;
+    wdt:P1071 wd:Q1067570 ;
     wdt:P195 <https://mira.ie/entity/library/valenciennes> ;
-    wdt:P217 "412 (393 bis) [rear flyleaf?]" ;
+    wdt:P2048 23.0 ;
+    wdt:P2049 15.3 ;
+    wdt:P217 "412 (393 bis) [rear flyleaf]" ;
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0801"^^xsd:gYear,
         "0860"^^xsd:gYear .

@@ -60,7 +60,7 @@
       },
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
-        "@value": "http://foundationsirishculture.ie/record/?id=39"
+        "@value": "https://foundationsirishculture.ie/record/?id=39"
       }
     ]
   }

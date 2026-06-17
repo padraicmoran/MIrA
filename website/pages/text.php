@@ -8,12 +8,9 @@ if (file_exists('../data/other/texts.xml')) {
 	if ($filter) {
 		$text = $filter[0];
 		
-		if ($tidyURLs) $linkBack = '/texts/';
-		else $linkBack = '/index.php?page=texts';
-
 		// page title
+		writeBreadcrumb('text', '');
 		echo '<h2>';
-		echo '<a class="text-reset" href="' . $linkBack . '">Texts</a> ‣ ';
 		if ($text->author != '') echo $text->author . ', ';
 		if ($text->title['style'] == 'roman') echo $text->title;
 		else echo '<i>' . $text->title . '</i>';
@@ -50,7 +47,11 @@ if (file_exists('../data/other/texts.xml')) {
 		listMSS($resultsSorted);
 
 		// download
-		echo '<div class="text-secondary small mt-5">Download <a class="text-secondary" href="/data/other/texts.xml">XML data</a> for texts.</div>';
+		echo '<div class="text-secondary small mt-5">Download:
+			<a class="text-secondary" href="/data/text/' . $id . '.ttl">TTL</a> |
+			<a class="text-secondary" href="/data/text/' . $id . '.jsonld">JSON-LD</a> |
+			<a class="text-secondary" href="/data/text/' . $id . '.rdf">RDF</a>
+			</div>';
 
 	}
 	else {

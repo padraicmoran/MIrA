@@ -26,6 +26,18 @@
         "@id": "https://mira.ie/entity/library/oxford_bodleian"
       }
     ],
+    "http://www.wikidata.org/prop/direct/P2048": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "34"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P2049": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "20.7"
+      }
+    ],
     "http://www.wikidata.org/prop/direct/P217": [
       {
         "@value": "Rawlinson G 167 [S.C. 14890]"

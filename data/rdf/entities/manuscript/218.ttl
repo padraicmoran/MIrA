@@ -9,6 +9,8 @@
     wdt:P1071 wd:Q22890 ;
     wdt:P1574 <https://mira.ie/entity/text/gospels> ;
     wdt:P195 <https://mira.ie/entity/library/harvard> ;
+    wdt:P2048 22.0 ;
+    wdt:P2049 15.0 ;
     wdt:P217 "Typ. 620" ;
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0751"^^xsd:gYear,

@@ -14,6 +14,6 @@
     <wdt:P571 rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0886</wdt:P571>
     <wdt:P571 rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0915</wdt:P571>
     <wdt:P2048 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12.1</wdt:P2048>
-    <wdt:P2049 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">95</wdt:P2049>
+    <wdt:P2049 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.5</wdt:P2049>
   </rdf:Description>
 </rdf:RDF>

@@ -81,7 +81,7 @@
 
 <https://mira.ie/entity/manuscript/102> rdfs:label "Trinity College — 59 (A.IV.23)" ;
     skos:prefLabel "Trinity College — 59 (A.IV.23)" ;
-    wdt:P1071 wd:Q22890 ;
+    wdt:P1071 wd:Q1003178 ;
     wdt:P1574 <https://mira.ie/entity/text/gospels> ;
     wdt:P195 <https://mira.ie/entity/library/dublin_tcd> ;
     wdt:P2048 17.5 ;
@@ -117,7 +117,7 @@
 
 <https://mira.ie/entity/manuscript/105> rdfs:label "Royal Irish Academy — D II 3 (ff 12–67)" ;
     skos:prefLabel "Royal Irish Academy — D II 3 (ff 12–67)" ;
-    wdt:P1071 wd:Q22890 ;
+    wdt:P1071 wd:Q7680015 ;
     wdt:P195 <https://mira.ie/entity/library/dublin_ria> ;
     wdt:P2048 14.0 ;
     wdt:P2049 11.5 ;
@@ -167,6 +167,8 @@
     wdt:P1071 wd:Q22890 ;
     wdt:P1574 <https://mira.ie/entity/text/psalms> ;
     wdt:P195 <https://mira.ie/entity/library/dublin_museum> ;
+    wdt:P2048 30.0 ;
+    wdt:P2049 26.0 ;
     wdt:P217 "n/a" ;
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0790"^^xsd:gYear,
@@ -186,7 +188,7 @@
 
 <https://mira.ie/entity/manuscript/110> rdfs:label "Trinity College — 52" ;
     skos:prefLabel "Trinity College — 52" ;
-    wdt:P1071 wd:Q22890 ;
+    wdt:P1071 wd:Q193452 ;
     wdt:P1574 <https://mira.ie/entity/text/gospels> ;
     wdt:P195 <https://mira.ie/entity/library/dublin_tcd> ;
     wdt:P2048 19.5 ;
@@ -217,8 +219,8 @@
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0786"^^xsd:gYear,
         "0800"^^xsd:gYear ;
-    wdt:P953 "http://digi.vatlib.it/view/MSS_Vat.lat.491"^^xsd:anyURI,
-        "http://foundationsirishculture.ie/record/?id=2"^^xsd:anyURI,
+    wdt:P953 "https://digi.vatlib.it/view/MSS_Vat.lat.491"^^xsd:anyURI,
+        "https://foundationsirishculture.ie/record/?id=2"^^xsd:anyURI,
         "https://opac.vatlib.it/mss/detail/Vat.lat.491"^^xsd:anyURI .
 
 <https://mira.ie/entity/manuscript/113> rdfs:label "Biblioteca Medicea Laurenziana — Plut. 45.14" ;
@@ -237,6 +239,8 @@
     wdt:P1071 wd:Q11498,
         wd:Q22890 ;
     wdt:P195 <https://mira.ie/entity/library/milan> ;
+    wdt:P2048 28.0 ;
+    wdt:P2049 20.0 ;
     wdt:P217 "A 138 sup." ;
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0801"^^xsd:gYear,
@@ -244,23 +248,27 @@
 
 <https://mira.ie/entity/manuscript/115> rdfs:label "Biblioteca Ambrosiana — C 5 inf." ;
     skos:prefLabel "Biblioteca Ambrosiana — C 5 inf." ;
-    wdt:P1071 wd:Q22890 ;
+    wdt:P1071 wd:Q591192 ;
     wdt:P195 <https://mira.ie/entity/library/milan> ;
+    wdt:P2048 24.0 ;
+    wdt:P2049 22.0 ;
     wdt:P217 "C 5 inf." ;
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0680"^^xsd:gYear,
         "0691"^^xsd:gYear ;
-    wdt:P953 "http://foundationsirishculture.ie/record/?id=7"^^xsd:anyURI .
+    wdt:P953 "https://foundationsirishculture.ie/record/?id=7"^^xsd:anyURI .
 
 <https://mira.ie/entity/manuscript/116> rdfs:label "Biblioteca Ambrosiana — C 26 sup." ;
     skos:prefLabel "Biblioteca Ambrosiana — C 26 sup." ;
     wdt:P1071 wd:Q11498 ;
     wdt:P195 <https://mira.ie/entity/library/milan> ;
+    wdt:P2048 21.0 ;
+    wdt:P2049 14.0 ;
     wdt:P217 "C 26 sup." ;
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0686"^^xsd:gYear,
         "0700"^^xsd:gYear ;
-    wdt:P953 "http://foundationsirishculture.ie/record/?id=8"^^xsd:anyURI .
+    wdt:P953 "https://foundationsirishculture.ie/record/?id=8"^^xsd:anyURI .
 
 <https://mira.ie/entity/manuscript/117> rdfs:label "Biblioteca Ambrosiana — C 73 inf. [palimpsest new]" ;
     skos:prefLabel "Biblioteca Ambrosiana — C 73 inf. [palimpsest new]" ;
@@ -282,13 +290,16 @@
 
 <https://mira.ie/entity/manuscript/119> rdfs:label "Biblioteca Ambrosiana — C 301 inf." ;
     skos:prefLabel "Biblioteca Ambrosiana — C 301 inf." ;
-    wdt:P1071 wd:Q22890 ;
+    wdt:P1071 wd:Q22890,
+        wd:Q591192 ;
     wdt:P195 <https://mira.ie/entity/library/milan> ;
+    wdt:P2048 35.0 ;
+    wdt:P2049 23.0 ;
     wdt:P217 "C 301 inf." ;
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0780"^^xsd:gYear,
         "0820"^^xsd:gYear ;
-    wdt:P953 "http://foundationsirishculture.ie/record/?id=9"^^xsd:anyURI .
+    wdt:P953 "https://foundationsirishculture.ie/record/?id=9"^^xsd:anyURI .
 
 <https://mira.ie/entity/manuscript/12> rdfs:label "Bibliothèque municipale — 50" ;
     skos:prefLabel "Bibliothèque municipale — 50" ;
@@ -306,11 +317,13 @@
     wdt:P1071 wd:Q11498 ;
     wdt:P1574 <https://mira.ie/entity/text/gospels> ;
     wdt:P195 <https://mira.ie/entity/library/milan> ;
+    wdt:P2048 21.0 ;
+    wdt:P2049 16.0 ;
     wdt:P217 "D 10 sup. (front flyleaves)" ;
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0701"^^xsd:gYear,
         "0800"^^xsd:gYear ;
-    wdt:P953 "http://foundationsirishculture.ie/record/?id=10"^^xsd:anyURI .
+    wdt:P953 "https://foundationsirishculture.ie/record/?id=10"^^xsd:anyURI .
 
 <https://mira.ie/entity/manuscript/121> rdfs:label "Biblioteca Ambrosiana — D 23 sup." ;
     skos:prefLabel "Biblioteca Ambrosiana — D 23 sup." ;
@@ -322,17 +335,19 @@
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0601"^^xsd:gYear,
         "0700"^^xsd:gYear ;
-    wdt:P953 "http://foundationsirishculture.ie/record/?id=11"^^xsd:anyURI .
+    wdt:P953 "https://foundationsirishculture.ie/record/?id=11"^^xsd:anyURI .
 
 <https://mira.ie/entity/manuscript/122> rdfs:label "Biblioteca Ambrosiana — *D 23 sup." ;
     skos:prefLabel "Biblioteca Ambrosiana — *D 23 sup." ;
     wdt:P1071 wd:Q22890 ;
     wdt:P195 <https://mira.ie/entity/library/milan> ;
+    wdt:P2048 23.0 ;
+    wdt:P2049 16.0 ;
     wdt:P217 "*D 23 sup." ;
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0701"^^xsd:gYear,
         "0800"^^xsd:gYear ;
-    wdt:P953 "http://foundationsirishculture.ie/record/?id=12"^^xsd:anyURI .
+    wdt:P953 "https://foundationsirishculture.ie/record/?id=12"^^xsd:anyURI .
 
 <https://mira.ie/entity/manuscript/123> rdfs:label "Biblioteca Ambrosiana — D 36 sup." ;
     skos:prefLabel "Biblioteca Ambrosiana — D 36 sup." ;
@@ -372,7 +387,7 @@
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0701"^^xsd:gYear,
         "0800"^^xsd:gYear ;
-    wdt:P953 "http://foundationsirishculture.ie/record/?id=13"^^xsd:anyURI .
+    wdt:P953 "https://foundationsirishculture.ie/record/?id=13"^^xsd:anyURI .
 
 <https://mira.ie/entity/manuscript/127> rdfs:label "Biblioteca Ambrosiana — F 60 sup. (ff 47–49, 55–57, 58) [palimpsest new]" ;
     skos:prefLabel "Biblioteca Ambrosiana — F 60 sup. (ff 47–49, 55–57, 58) [palimpsest new]" ;
@@ -384,17 +399,19 @@
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0786"^^xsd:gYear,
         "0800"^^xsd:gYear ;
-    wdt:P953 "http://foundationsirishculture.ie/record/?id=14"^^xsd:anyURI .
+    wdt:P953 "https://foundationsirishculture.ie/record/?id=14"^^xsd:anyURI .
 
 <https://mira.ie/entity/manuscript/128> rdfs:label "Biblioteca Ambrosiana — F 60 sup. (ff 50, 52–54)" ;
     skos:prefLabel "Biblioteca Ambrosiana — F 60 sup. (ff 50, 52–54)" ;
     wdt:P1071 wd:Q11498 ;
     wdt:P195 <https://mira.ie/entity/library/milan> ;
+    wdt:P2048 24.0 ;
+    wdt:P2049 19.0 ;
     wdt:P217 "F 60 sup. (ff 50, 52–54)" ;
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0786"^^xsd:gYear,
         "0800"^^xsd:gYear ;
-    wdt:P953 "http://foundationsirishculture.ie/record/?id=15"^^xsd:anyURI .
+    wdt:P953 "https://foundationsirishculture.ie/record/?id=15"^^xsd:anyURI .
 
 <https://mira.ie/entity/manuscript/129> rdfs:label "Biblioteca Ambrosiana — F 60 sup. (fol. 51)" ;
     skos:prefLabel "Biblioteca Ambrosiana — F 60 sup. (fol. 51)" ;
@@ -404,7 +421,7 @@
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0786"^^xsd:gYear,
         "0800"^^xsd:gYear ;
-    wdt:P953 "http://foundationsirishculture.ie/record/?id=16"^^xsd:anyURI .
+    wdt:P953 "https://foundationsirishculture.ie/record/?id=16"^^xsd:anyURI .
 
 <https://mira.ie/entity/manuscript/13> rdfs:label "Bibliothèque municipale — 55 [incl. frag.]" ;
     skos:prefLabel "Bibliothèque municipale — 55 [incl. frag.]" ;
@@ -433,30 +450,32 @@
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0651"^^xsd:gYear,
         "0700"^^xsd:gYear ;
-    wdt:P953 "http://foundationsirishculture.ie/record/?id=17"^^xsd:anyURI .
+    wdt:P953 "https://foundationsirishculture.ie/record/?id=17"^^xsd:anyURI .
 
-<https://mira.ie/entity/manuscript/132> rdfs:label "Biblioteca Ambrosiana — I 61 sup." ;
-    skos:prefLabel "Biblioteca Ambrosiana — I 61 sup." ;
+<https://mira.ie/entity/manuscript/132> rdfs:label "Biblioteca Ambrosiana — I 61 sup. (ff 1–89)" ;
+    skos:prefLabel "Biblioteca Ambrosiana — I 61 sup. (ff 1–89)" ;
     wdt:P1071 wd:Q11498 ;
     wdt:P1574 <https://mira.ie/entity/text/gospels> ;
     wdt:P195 <https://mira.ie/entity/library/milan> ;
     wdt:P2048 23.2 ;
     wdt:P2049 17.4 ;
-    wdt:P217 "I 61 sup." ;
+    wdt:P217 "I 61 sup. (ff 1–89)" ;
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0651"^^xsd:gYear,
         "0700"^^xsd:gYear ;
-    wdt:P953 "http://foundationsirishculture.ie/record/?id=18"^^xsd:anyURI .
+    wdt:P953 "https://foundationsirishculture.ie/record/?id=18"^^xsd:anyURI .
 
 <https://mira.ie/entity/manuscript/133> rdfs:label "Biblioteca Ambrosiana — L 22 sup. (ff 146, 147)" ;
     skos:prefLabel "Biblioteca Ambrosiana — L 22 sup. (ff 146, 147)" ;
     wdt:P1071 wd:Q22890 ;
     wdt:P195 <https://mira.ie/entity/library/milan> ;
+    wdt:P2048 19.0 ;
+    wdt:P2049 12.0 ;
     wdt:P217 "L 22 sup. (ff 146, 147)" ;
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0780"^^xsd:gYear,
         "0825"^^xsd:gYear ;
-    wdt:P953 "http://foundationsirishculture.ie/record/?id=68"^^xsd:anyURI .
+    wdt:P953 "https://foundationsirishculture.ie/record/?id=68"^^xsd:anyURI .
 
 <https://mira.ie/entity/manuscript/134> rdfs:label "Biblioteca Ambrosiana — L 22 sup." ;
     skos:prefLabel "Biblioteca Ambrosiana — L 22 sup." ;
@@ -483,21 +502,25 @@
     skos:prefLabel "Biblioteca Ambrosiana — M 67 sup. (flyleaves)" ;
     wdt:P1071 wd:Q22890 ;
     wdt:P195 <https://mira.ie/entity/library/milan> ;
+    wdt:P2048 23.5 ;
+    wdt:P2049 19.5 ;
     wdt:P217 "M 67 sup. (flyleaves)" ;
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0701"^^xsd:gYear,
         "0800"^^xsd:gYear ;
-    wdt:P953 "http://foundationsirishculture.ie/record/?id=19"^^xsd:anyURI .
+    wdt:P953 "https://foundationsirishculture.ie/record/?id=19"^^xsd:anyURI .
 
 <https://mira.ie/entity/manuscript/137> rdfs:label "Biblioteca Ambrosiana — O 212 sup." ;
     skos:prefLabel "Biblioteca Ambrosiana — O 212 sup." ;
     wdt:P1071 wd:Q11498 ;
     wdt:P195 <https://mira.ie/entity/library/milan> ;
+    wdt:P2048 25.0 ;
+    wdt:P2049 18.0 ;
     wdt:P217 "O 212 sup." ;
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0686"^^xsd:gYear,
         "0700"^^xsd:gYear ;
-    wdt:P953 "http://foundationsirishculture.ie/record/?id=20"^^xsd:anyURI .
+    wdt:P953 "https://foundationsirishculture.ie/record/?id=20"^^xsd:anyURI .
 
 <https://mira.ie/entity/manuscript/138> rdfs:label "Biblioteca Ambrosiana — S 45 sup. [palimpsest new]" ;
     skos:prefLabel "Biblioteca Ambrosiana — S 45 sup. [palimpsest new]" ;
@@ -518,7 +541,7 @@
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0701"^^xsd:gYear,
         "0800"^^xsd:gYear ;
-    wdt:P953 "http://foundationsirishculture.ie/record/?id=62"^^xsd:anyURI .
+    wdt:P953 "https://foundationsirishculture.ie/record/?id=62"^^xsd:anyURI .
 
 <https://mira.ie/entity/manuscript/14> rdfs:label "Bibliothèque municipale — 81" ;
     skos:prefLabel "Bibliothèque municipale — 81" ;
@@ -549,7 +572,7 @@
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0701"^^xsd:gYear,
         "0800"^^xsd:gYear ;
-    wdt:P953 "http://foundationsirishculture.ie/record/?id=21"^^xsd:anyURI .
+    wdt:P953 "https://foundationsirishculture.ie/record/?id=21"^^xsd:anyURI .
 
 <https://mira.ie/entity/manuscript/142> rdfs:label "Biblioteca Nazionale — Lat. 2 (ff 42*–75) [palimpsest new]" ;
     skos:prefLabel "Biblioteca Nazionale — Lat. 2 (ff 42*–75) [palimpsest new]" ;
@@ -559,7 +582,7 @@
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0701"^^xsd:gYear,
         "0800"^^xsd:gYear ;
-    wdt:P953 "http://foundationsirishculture.ie/record/?id=22"^^xsd:anyURI .
+    wdt:P953 "https://foundationsirishculture.ie/record/?id=22"^^xsd:anyURI .
 
 <https://mira.ie/entity/manuscript/143> rdfs:label "Biblioteca Nazionale — IV.A.8 (ff 1–39) [palimpsest new]" ;
     skos:prefLabel "Biblioteca Nazionale — IV.A.8 (ff 1–39) [palimpsest new]" ;
@@ -570,7 +593,7 @@
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0701"^^xsd:gYear,
         "0800"^^xsd:gYear ;
-    wdt:P953 "http://foundationsirishculture.ie/record/?id=2489"^^xsd:anyURI .
+    wdt:P953 "https://foundationsirishculture.ie/record/?id=2489"^^xsd:anyURI .
 
 <https://mira.ie/entity/manuscript/144> rdfs:label "Biblioteca Nazionale — Lat. 2 (ff 157–158)" ;
     skos:prefLabel "Biblioteca Nazionale — Lat. 2 (ff 157–158)" ;
@@ -580,7 +603,7 @@
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0701"^^xsd:gYear,
         "0800"^^xsd:gYear ;
-    wdt:P953 "http://foundationsirishculture.ie/record/?id=23"^^xsd:anyURI .
+    wdt:P953 "https://foundationsirishculture.ie/record/?id=23"^^xsd:anyURI .
 
 <https://mira.ie/entity/manuscript/145> rdfs:label "Biblioteca Nazionale — IV.A.34" ;
     skos:prefLabel "Biblioteca Nazionale — IV.A.34" ;
@@ -601,7 +624,7 @@
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0751"^^xsd:gYear,
         "0800"^^xsd:gYear ;
-    wdt:P953 "http://foundationsirishculture.ie/record/?id=69"^^xsd:anyURI .
+    wdt:P953 "https://foundationsirishculture.ie/record/?id=69"^^xsd:anyURI .
 
 <https://mira.ie/entity/manuscript/147> rdfs:label "Biblioteca Nazionale — G.V.37" ;
     skos:prefLabel "Biblioteca Nazionale — G.V.37" ;
@@ -619,7 +642,7 @@
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0601"^^xsd:gYear,
         "0700"^^xsd:gYear ;
-    wdt:P953 "http://foundationsirishculture.ie/record/?id=25"^^xsd:anyURI .
+    wdt:P953 "https://foundationsirishculture.ie/record/?id=25"^^xsd:anyURI .
 
 <https://mira.ie/entity/manuscript/149> rdfs:label "Biblioteca Nazionale — A.II.2 [lost]" ;
     skos:prefLabel "Biblioteca Nazionale — A.II.2 [lost]" ;
@@ -655,32 +678,38 @@
     skos:prefLabel "Biblioteca Nazionale — F.IV.1, fasc. 5 + 6" ;
     wdt:P1071 wd:Q11498 ;
     wdt:P195 <https://mira.ie/entity/library/turin> ;
+    wdt:P2048 25.0 ;
+    wdt:P2049 19.0 ;
     wdt:P217 "F.IV.1, fasc. 5 + 6" ;
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0780"^^xsd:gYear,
         "0820"^^xsd:gYear ;
-    wdt:P953 "http://foundationsirishculture.ie/record/?id=26"^^xsd:anyURI .
+    wdt:P953 "https://foundationsirishculture.ie/record/?id=26"^^xsd:anyURI .
 
 <https://mira.ie/entity/manuscript/152> rdfs:label "Biblioteca Nazionale — F.IV.1, fasc. 9" ;
     skos:prefLabel "Biblioteca Nazionale — F.IV.1, fasc. 9" ;
     wdt:P1071 wd:Q22890 ;
     wdt:P195 <https://mira.ie/entity/library/turin> ;
+    wdt:P2048 26.0 ;
+    wdt:P2049 22.0 ;
     wdt:P217 "F.IV.1, fasc. 9" ;
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0701"^^xsd:gYear,
         "0725"^^xsd:gYear ;
-    wdt:P953 "http://foundationsirishculture.ie/record/?id=28"^^xsd:anyURI .
+    wdt:P953 "https://foundationsirishculture.ie/record/?id=28"^^xsd:anyURI .
 
 <https://mira.ie/entity/manuscript/153> rdfs:label "Biblioteca Nazionale — F.IV.24 (fol. 93) [palimpsest old]" ;
     skos:prefLabel "Biblioteca Nazionale — F.IV.24 (fol. 93) [palimpsest old]" ;
     wdt:P1071 wd:Q22890 ;
     wdt:P1574 <https://mira.ie/entity/text/paul> ;
     wdt:P195 <https://mira.ie/entity/library/turin> ;
+    wdt:P2048 34.0 ;
+    wdt:P2049 25.0 ;
     wdt:P217 "F.IV.24 (fol. 93) [palimpsest old]" ;
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0701"^^xsd:gYear,
         "0800"^^xsd:gYear ;
-    wdt:P953 "http://foundationsirishculture.ie/record/?id=29"^^xsd:anyURI .
+    wdt:P953 "https://foundationsirishculture.ie/record/?id=29"^^xsd:anyURI .
 
 <https://mira.ie/entity/manuscript/154> rdfs:label "Biblioteca Nazionale — F.IV.14 (binding) [palimpsest old] + F.IV.16 (binding) [palimpsest old] + F.VI.2 Fasc. 8 [palimpsest old] + G.V.2 (ff 139, 167–170) [palimpsest old] + O.IV.20 [palimpsest old]" ;
     skos:prefLabel "Biblioteca Nazionale — F.IV.14 (binding) [palimpsest old] + F.IV.16 (binding) [palimpsest old] + F.VI.2 Fasc. 8 [palimpsest old] + G.V.2 (ff 139, 167–170) [palimpsest old] + O.IV.20 [palimpsest old]" ;
@@ -693,17 +722,19 @@
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0701"^^xsd:gYear,
         "0800"^^xsd:gYear ;
-    wdt:P953 "http://foundationsirishculture.ie/record/?id=30"^^xsd:anyURI .
+    wdt:P953 "https://foundationsirishculture.ie/record/?id=30"^^xsd:anyURI .
 
 <https://mira.ie/entity/manuscript/155> rdfs:label "Biblioteca Nazionale — F.IV.1, fasc. 7" ;
     skos:prefLabel "Biblioteca Nazionale — F.IV.1, fasc. 7" ;
     wdt:P1071 wd:Q22890 ;
     wdt:P195 <https://mira.ie/entity/library/turin> ;
+    wdt:P2048 29.0 ;
+    wdt:P2049 21.0 ;
     wdt:P217 "F.IV.1, fasc. 7" ;
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0780"^^xsd:gYear,
         "0820"^^xsd:gYear ;
-    wdt:P953 "http://foundationsirishculture.ie/record/?id=27"^^xsd:anyURI .
+    wdt:P953 "https://foundationsirishculture.ie/record/?id=27"^^xsd:anyURI .
 
 <https://mira.ie/entity/manuscript/156> rdfs:label "Biblioteca Nazionale — F.III.16 (ff 176–181)" ;
     skos:prefLabel "Biblioteca Nazionale — F.III.16 (ff 176–181)" ;
@@ -732,7 +763,7 @@
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0780"^^xsd:gYear,
         "0820"^^xsd:gYear ;
-    wdt:P953 "http://foundationsirishculture.ie/record/?id=65"^^xsd:anyURI .
+    wdt:P953 "https://foundationsirishculture.ie/record/?id=65"^^xsd:anyURI .
 
 <https://mira.ie/entity/manuscript/159> rdfs:label "Universiteitsbibliotheek — BPL 67" ;
     skos:prefLabel "Universiteitsbibliotheek — BPL 67" ;
@@ -862,9 +893,9 @@
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0701"^^xsd:gYear,
         "0800"^^xsd:gYear ;
-    wdt:P953 "http://dx.doi.org/10.5076/e-codices-ubb-F-III-0015d"^^xsd:anyURI,
-        "http://foundationsirishculture.ie/record/?id=42"^^xsd:anyURI,
-        "http://www.e-codices.unifr.ch/en/ubb/F-III-0015d"^^xsd:anyURI .
+    wdt:P953 "https://dx.doi.org/10.5076/e-codices-ubb-F-III-0015d"^^xsd:anyURI,
+        "https://foundationsirishculture.ie/record/?id=42"^^xsd:anyURI,
+        "https://www.e-codices.unifr.ch/en/ubb/F-III-0015d"^^xsd:anyURI .
 
 <https://mira.ie/entity/manuscript/17> rdfs:label "Bibliothèque municipale — 448" ;
     skos:prefLabel "Bibliothèque municipale — 448" ;
@@ -904,6 +935,8 @@
 <https://mira.ie/entity/manuscript/172> rdfs:label "Burgerbibliothek — A 756 / 76" ;
     skos:prefLabel "Burgerbibliothek — A 756 / 76" ;
     wdt:P195 <https://mira.ie/entity/library/bern> ;
+    wdt:P2048 26.0 ;
+    wdt:P2049 34.5 ;
     wdt:P217 "A 756 / 76" ;
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0701"^^xsd:gYear,
@@ -982,12 +1015,12 @@
     wdt:P1071 wd:Q22890 ;
     wdt:P195 <https://mira.ie/entity/library/schaffhausen> ;
     wdt:P2048 24.0 ;
-    wdt:P2049 14.0 ;
+    wdt:P2049 1.4 ;
     wdt:P217 "Min. 25 a" ;
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0686"^^xsd:gYear,
         "0700"^^xsd:gYear ;
-    wdt:P953 "http://foundationsirishculture.ie/record/?id=53"^^xsd:anyURI .
+    wdt:P953 "https://foundationsirishculture.ie/record/?id=53"^^xsd:anyURI .
 
 <https://mira.ie/entity/manuscript/18> rdfs:label "Bibliothèque municipale — 468 (ff 1–61)" ;
     skos:prefLabel "Bibliothèque municipale — 468 (ff 1–61)" ;
@@ -1010,7 +1043,7 @@
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0680"^^xsd:gYear,
         "0712"^^xsd:gYear ;
-    wdt:P953 "http://foundationsirishculture.ie/record/?id=52"^^xsd:anyURI .
+    wdt:P953 "https://foundationsirishculture.ie/record/?id=52"^^xsd:anyURI .
 
 <https://mira.ie/entity/manuscript/181> rdfs:label "Stadtbibliothek — Min. 45 (ff 2–7, 10–15, 18–23, 34–41, 46, 47, 52, 54–58, 63–66, 70, 75) [palimpsest old]" ;
     skos:prefLabel "Stadtbibliothek — Min. 45 (ff 2–7, 10–15, 18–23, 34–41, 46, 47, 52, 54–58, 63–66, 70, 75) [palimpsest old]" ;
@@ -1022,7 +1055,7 @@
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0701"^^xsd:gYear,
         "0800"^^xsd:gYear ;
-    wdt:P953 "http://foundationsirishculture.ie/record/?id=54"^^xsd:anyURI .
+    wdt:P953 "https://foundationsirishculture.ie/record/?id=54"^^xsd:anyURI .
 
 <https://mira.ie/entity/manuscript/182> rdfs:label "Stadtbibliothek — Min. 45 (ff 44, 45, 48, 49) [palimpsest old ]" ;
     skos:prefLabel "Stadtbibliothek — Min. 45 (ff 44, 45, 48, 49) [palimpsest old ]" ;
@@ -1034,7 +1067,7 @@
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0701"^^xsd:gYear,
         "0800"^^xsd:gYear ;
-    wdt:P953 "http://foundationsirishculture.ie/record/?id=55"^^xsd:anyURI .
+    wdt:P953 "https://foundationsirishculture.ie/record/?id=55"^^xsd:anyURI .
 
 <https://mira.ie/entity/manuscript/183> rdfs:label "Stiftsbibliothek — 51 [palimpsest new]" ;
     skos:prefLabel "Stiftsbibliothek — 51 [palimpsest new]" ;
@@ -1047,7 +1080,7 @@
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0750"^^xsd:gYear,
         "0820"^^xsd:gYear ;
-    wdt:P953 "http://foundationsirishculture.ie/record/?id=43"^^xsd:anyURI .
+    wdt:P953 "https://foundationsirishculture.ie/record/?id=43"^^xsd:anyURI .
 
 <https://mira.ie/entity/manuscript/184> rdfs:label "Stiftsbibliothek — 60" ;
     skos:prefLabel "Stiftsbibliothek — 60" ;
@@ -1059,7 +1092,7 @@
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0780"^^xsd:gYear,
         "0820"^^xsd:gYear ;
-    wdt:P953 "http://foundationsirishculture.ie/record/?id=44"^^xsd:anyURI .
+    wdt:P953 "https://foundationsirishculture.ie/record/?id=44"^^xsd:anyURI .
 
 <https://mira.ie/entity/manuscript/185> rdfs:label "Stiftsbibliothek — 136" ;
     skos:prefLabel "Stiftsbibliothek — 136" ;
@@ -1105,7 +1138,7 @@
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0701"^^xsd:gYear,
         "0800"^^xsd:gYear ;
-    wdt:P953 "http://foundationsirishculture.ie/record/?id=46"^^xsd:anyURI .
+    wdt:P953 "https://foundationsirishculture.ie/record/?id=46"^^xsd:anyURI .
 
 <https://mira.ie/entity/manuscript/189> rdfs:label "Stiftsbibliothek — 1394 (pp 95–98)" ;
     skos:prefLabel "Stiftsbibliothek — 1394 (pp 95–98)" ;
@@ -1117,7 +1150,7 @@
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0780"^^xsd:gYear,
         "0820"^^xsd:gYear ;
-    wdt:P953 "http://foundationsirishculture.ie/record/?id=45"^^xsd:anyURI .
+    wdt:P953 "https://foundationsirishculture.ie/record/?id=45"^^xsd:anyURI .
 
 <https://mira.ie/entity/manuscript/19> rdfs:label "Bibliothèque municipale — 24" ;
     skos:prefLabel "Bibliothèque municipale — 24" ;
@@ -1140,7 +1173,7 @@
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0701"^^xsd:gYear,
         "0800"^^xsd:gYear ;
-    wdt:P953 "http://foundationsirishculture.ie/record/?id=48"^^xsd:anyURI .
+    wdt:P953 "https://foundationsirishculture.ie/record/?id=48"^^xsd:anyURI .
 
 <https://mira.ie/entity/manuscript/191> rdfs:label "Stiftsbibliothek — 1395 (pp 444–447)" ;
     skos:prefLabel "Stiftsbibliothek — 1395 (pp 444–447)" ;
@@ -1152,7 +1185,7 @@
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0701"^^xsd:gYear,
         "0800"^^xsd:gYear ;
-    wdt:P953 "http://foundationsirishculture.ie/record/?id=50"^^xsd:anyURI .
+    wdt:P953 "https://foundationsirishculture.ie/record/?id=50"^^xsd:anyURI .
 
 <https://mira.ie/entity/manuscript/192> rdfs:label "Stiftsbibliothek — 1395 (pp 418–419, 422–423, 426–427)" ;
     skos:prefLabel "Stiftsbibliothek — 1395 (pp 418–419, 422–423, 426–427)" ;
@@ -1164,7 +1197,7 @@
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0751"^^xsd:gYear,
         "0800"^^xsd:gYear ;
-    wdt:P953 "http://foundationsirishculture.ie/record/?id=47"^^xsd:anyURI .
+    wdt:P953 "https://foundationsirishculture.ie/record/?id=47"^^xsd:anyURI .
 
 <https://mira.ie/entity/manuscript/193> rdfs:label "Stiftsbibliothek — 1395 (pp 436–437)" ;
     skos:prefLabel "Stiftsbibliothek — 1395 (pp 436–437)" ;
@@ -1176,7 +1209,7 @@
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0780"^^xsd:gYear,
         "0820"^^xsd:gYear ;
-    wdt:P953 "http://foundationsirishculture.ie/record/?id=49"^^xsd:anyURI .
+    wdt:P953 "https://foundationsirishculture.ie/record/?id=49"^^xsd:anyURI .
 
 <https://mira.ie/entity/manuscript/194> rdfs:label "Stiftsbibliothek — 1399 a 1" ;
     skos:prefLabel "Stiftsbibliothek — 1399 a 1" ;
@@ -1188,7 +1221,7 @@
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0636"^^xsd:gYear,
         "0700"^^xsd:gYear ;
-    wdt:P953 "http://foundationsirishculture.ie/record/?id=51"^^xsd:anyURI .
+    wdt:P953 "https://foundationsirishculture.ie/record/?id=51"^^xsd:anyURI .
 
 <https://mira.ie/entity/manuscript/195> rdfs:label "Staatsarchiv — A.G. 19 No. 16 (fol. 32 = p. 77–78)" ;
     skos:prefLabel "Staatsarchiv — A.G. 19 No. 16 (fol. 32 = p. 77–78)" ;
@@ -1200,7 +1233,7 @@
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0701"^^xsd:gYear,
         "0800"^^xsd:gYear ;
-    wdt:P953 "http://foundationsirishculture.ie/record/?id=57"^^xsd:anyURI .
+    wdt:P953 "https://foundationsirishculture.ie/record/?id=57"^^xsd:anyURI .
 
 <https://mira.ie/entity/manuscript/196> rdfs:label "Staatsarchiv — A.G. 19 No. 36 (fol. 57 = p. 117–118)" ;
     skos:prefLabel "Staatsarchiv — A.G. 19 No. 36 (fol. 57 = p. 117–118)" ;
@@ -1212,7 +1245,7 @@
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0701"^^xsd:gYear,
         "0800"^^xsd:gYear ;
-    wdt:P953 "http://foundationsirishculture.ie/record/?id=58"^^xsd:anyURI .
+    wdt:P953 "https://foundationsirishculture.ie/record/?id=58"^^xsd:anyURI .
 
 <https://mira.ie/entity/manuscript/197> rdfs:label "Staatsarchiv — A.G.W 19 No. 12 (ff 24–5 = p. 61–4)" ;
     skos:prefLabel "Staatsarchiv — A.G.W 19 No. 12 (ff 24–5 = p. 61–4)" ;
@@ -1224,7 +1257,7 @@
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0780"^^xsd:gYear,
         "0820"^^xsd:gYear ;
-    wdt:P953 "http://foundationsirishculture.ie/record/?id=56"^^xsd:anyURI .
+    wdt:P953 "https://foundationsirishculture.ie/record/?id=56"^^xsd:anyURI .
 
 <https://mira.ie/entity/manuscript/198> rdfs:label "Zentralbibliothek — Rh. 30" ;
     skos:prefLabel "Zentralbibliothek — Rh. 30" ;
@@ -1292,7 +1325,7 @@
     wdt:P1071 wd:Q90 ;
     wdt:P195 <https://mira.ie/entity/library/cambridge_pembroke> ;
     wdt:P2048 30.0 ;
-    wdt:P2049 57.0 ;
+    wdt:P2049 5.7 ;
     wdt:P217 "312C (ff 3, 4)" ;
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0825"^^xsd:gYear,
@@ -1330,13 +1363,15 @@
     wdt:P571 "0640"^^xsd:gYear,
         "0660"^^xsd:gYear .
 
-<https://mira.ie/entity/manuscript/206> rdfs:label "Cathedral Library — A.II.17 (ff 2-102)" ;
-    skos:prefLabel "Cathedral Library — A.II.17 (ff 2-102)" ;
+<https://mira.ie/entity/manuscript/206> rdfs:label "Cathedral Library — A.II.17 (ff 2–102)" ;
+    skos:prefLabel "Cathedral Library — A.II.17 (ff 2–102)" ;
     wdt:P1071 wd:Q107299,
         wd:Q22890 ;
     wdt:P1574 <https://mira.ie/entity/text/gospels> ;
     wdt:P195 <https://mira.ie/entity/library/durham> ;
-    wdt:P217 "A.II.17 (ff 2-102)" ;
+    wdt:P2048 34.0 ;
+    wdt:P2049 26.0 ;
+    wdt:P217 "A.II.17 (ff 2–102)" ;
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0701"^^xsd:gYear,
         "0800"^^xsd:gYear .
@@ -1351,8 +1386,8 @@
     wdt:P571 "0701"^^xsd:gYear,
         "0800"^^xsd:gYear .
 
-<https://mira.ie/entity/manuscript/208> rdfs:label "Cathedral library — I" ;
-    skos:prefLabel "Cathedral library — I" ;
+<https://mira.ie/entity/manuscript/208> rdfs:label "Cathedral Library — I" ;
+    skos:prefLabel "Cathedral Library — I" ;
     wdt:P1071 wd:Q25 ;
     wdt:P1574 <https://mira.ie/entity/text/gospels> ;
     wdt:P195 <https://mira.ie/entity/library/lichfield> ;
@@ -1387,7 +1422,7 @@
     skos:prefLabel "British Library — Sloane MS 1044 (fol. 3)" ;
     wdt:P1071 wd:Q22890 ;
     wdt:P195 <https://mira.ie/entity/library/london_bl> ;
-    wdt:P2048 65.0 ;
+    wdt:P2048 6.5 ;
     wdt:P2049 22.0 ;
     wdt:P217 "Sloane MS 1044 (fol. 3)" ;
     wdt:P31 wd:Q87167 ;
@@ -1419,7 +1454,7 @@
 
 <https://mira.ie/entity/manuscript/213> rdfs:label "Lambeth Palace Library — 1370" ;
     skos:prefLabel "Lambeth Palace Library — 1370" ;
-    wdt:P1071 wd:Q22890 ;
+    wdt:P1071 wd:Q193452 ;
     wdt:P1574 <https://mira.ie/entity/text/gospels> ;
     wdt:P195 <https://mira.ie/entity/library/london_lambeth> ;
     wdt:P2048 15.8 ;
@@ -1433,6 +1468,8 @@
     skos:prefLabel "Bodleian Library — Auctarium F.III.15 [S.C. 3511] (ff 54–65)" ;
     wdt:P1071 wd:Q22890 ;
     wdt:P195 <https://mira.ie/entity/library/oxford_bodleian> ;
+    wdt:P2048 24.4 ;
+    wdt:P2049 16.8 ;
     wdt:P217 "Auctarium F.III.15 [S.C. 3511] (ff 54–65)" ;
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0701"^^xsd:gYear,
@@ -1440,7 +1477,7 @@
 
 <https://mira.ie/entity/manuscript/215> rdfs:label "Bodleian Library — Auctarium D.II.19 [S.C. 3946]" ;
     skos:prefLabel "Bodleian Library — Auctarium D.II.19 [S.C. 3946]" ;
-    wdt:P1071 wd:Q22890 ;
+    wdt:P1071 wd:Q865849 ;
     wdt:P1574 <https://mira.ie/entity/text/gospels> ;
     wdt:P195 <https://mira.ie/entity/library/oxford_bodleian> ;
     wdt:P2048 35.0 ;
@@ -1455,6 +1492,8 @@
     wdt:P1071 wd:Q22890 ;
     wdt:P1574 <https://mira.ie/entity/text/gospels> ;
     wdt:P195 <https://mira.ie/entity/library/oxford_bodleian> ;
+    wdt:P2048 34.0 ;
+    wdt:P2049 20.7 ;
     wdt:P217 "Rawlinson G 167 [S.C. 14890]" ;
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0780"^^xsd:gYear,
@@ -1464,6 +1503,8 @@
     skos:prefLabel "Library of the Marquess of Bath [Longleat House] — NMR 10589 (flyleaves)" ;
     wdt:P1071 wd:Q22890 ;
     wdt:P195 <https://mira.ie/entity/library/warminster> ;
+    wdt:P2048 33.6 ;
+    wdt:P2049 21.7 ;
     wdt:P217 "NMR 10589 (flyleaves)" ;
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0680"^^xsd:gYear,
@@ -1474,6 +1515,8 @@
     wdt:P1071 wd:Q22890 ;
     wdt:P1574 <https://mira.ie/entity/text/gospels> ;
     wdt:P195 <https://mira.ie/entity/library/harvard> ;
+    wdt:P2048 22.0 ;
+    wdt:P2049 15.0 ;
     wdt:P217 "Typ. 620" ;
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0751"^^xsd:gYear,
@@ -1509,7 +1552,7 @@
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0801"^^xsd:gYear,
         "0900"^^xsd:gYear ;
-    wdt:P953 "http://foundationsirishculture.ie/record/?id=4"^^xsd:anyURI .
+    wdt:P953 "https://foundationsirishculture.ie/record/?id=4"^^xsd:anyURI .
 
 <https://mira.ie/entity/manuscript/221> rdfs:label "Biblioteca Apostolica Vaticana — Lat. 5750 [palimpsest new]" ;
     skos:prefLabel "Biblioteca Apostolica Vaticana — Lat. 5750 [palimpsest new]" ;
@@ -1531,8 +1574,8 @@
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0701"^^xsd:gYear,
         "0800"^^xsd:gYear ;
-    wdt:P953 "http://digi.vatlib.it/view/bav_pal_lat_68"^^xsd:anyURI,
-        "http://foundationsirishculture.ie/record/?id=3"^^xsd:anyURI,
+    wdt:P953 "https://digi.vatlib.it/view/bav_pal_lat_68"^^xsd:anyURI,
+        "https://foundationsirishculture.ie/record/?id=3"^^xsd:anyURI,
         "https://opac.vatlib.it/mss/detail/Pal.lat.68"^^xsd:anyURI .
 
 <https://mira.ie/entity/manuscript/223> rdfs:label "Biblioteca Apostolica Vaticana — Pal. Lat. 235 (ff 4–29)" ;
@@ -1547,8 +1590,8 @@
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0800"^^xsd:gYear,
         "0801"^^xsd:gYear ;
-    wdt:P953 "http://digi.vatlib.it/view/bav_pal_lat_235/0013"^^xsd:anyURI,
-        "http://foundationsirishculture.ie/record/?id=5"^^xsd:anyURI .
+    wdt:P953 "https://digi.vatlib.it/view/bav_pal_lat_235/0013"^^xsd:anyURI,
+        "https://foundationsirishculture.ie/record/?id=5"^^xsd:anyURI .
 
 <https://mira.ie/entity/manuscript/224> rdfs:label "Biblioteca Apostolica Vaticana — Lat. 491 (ff 1–33)" ;
     skos:prefLabel "Biblioteca Apostolica Vaticana — Lat. 491 (ff 1–33)" ;
@@ -1560,8 +1603,8 @@
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0701"^^xsd:gYear,
         "0800"^^xsd:gYear ;
-    wdt:P953 "http://digi.vatlib.it/view/MSS_Vat.lat.491"^^xsd:anyURI,
-        "http://foundationsirishculture.ie/record/?id=1"^^xsd:anyURI,
+    wdt:P953 "https://digi.vatlib.it/view/MSS_Vat.lat.491"^^xsd:anyURI,
+        "https://foundationsirishculture.ie/record/?id=1"^^xsd:anyURI,
         "https://opac.vatlib.it/mss/detail/Vat.lat.491"^^xsd:anyURI .
 
 <https://mira.ie/entity/manuscript/225> rdfs:label "Biblioteca Apostolica Vaticana — Lat. 13501/XXIV (ff 44–45)" ;
@@ -1574,7 +1617,7 @@
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0801"^^xsd:gYear,
         "0900"^^xsd:gYear ;
-    wdt:P953 "http://digi.vatlib.it/view/MSS_Vat.lat.13501"^^xsd:anyURI,
+    wdt:P953 "https://digi.vatlib.it/view/MSS_Vat.lat.13501"^^xsd:anyURI,
         "https://opac.vatlib.it/mss/detail/Vat.lat.13501"^^xsd:anyURI .
 
 <https://mira.ie/entity/manuscript/226> rdfs:label "Biblioteca Apostolica Vaticana — Ottob. lat. 35 (ff 1–35)" ;
@@ -1687,7 +1730,7 @@
 
 <https://mira.ie/entity/manuscript/235> rdfs:label "Badische Landesbibliothek — Fragm. Aug. 18 [palimpsest new]" ;
     skos:prefLabel "Badische Landesbibliothek — Fragm. Aug. 18 [palimpsest new]" ;
-    wdt:P1071 wd:Q22890 ;
+    wdt:P1071 wd:Q1102232 ;
     wdt:P195 <https://mira.ie/entity/library/karlsruhe> ;
     wdt:P217 "Fragm. Aug. 18 [palimpsest new]" ;
     wdt:P31 wd:Q87167 ;
@@ -1869,7 +1912,7 @@
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0701"^^xsd:gYear,
         "0800"^^xsd:gYear ;
-    wdt:P953 "http://foundationsirishculture.ie/record/?id=32"^^xsd:anyURI .
+    wdt:P953 "https://foundationsirishculture.ie/record/?id=32"^^xsd:anyURI .
 
 <https://mira.ie/entity/manuscript/250> rdfs:label "Bibliothèque municipale — 37" ;
     skos:prefLabel "Bibliothèque municipale — 37" ;
@@ -1992,7 +2035,7 @@
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0751"^^xsd:gYear,
         "0800"^^xsd:gYear ;
-    wdt:P953 "http://foundationsirishculture.ie/record/?id=34"^^xsd:anyURI .
+    wdt:P953 "https://foundationsirishculture.ie/record/?id=34"^^xsd:anyURI .
 
 <https://mira.ie/entity/manuscript/260> rdfs:label "Bibliothèque municipale — 319" ;
     skos:prefLabel "Bibliothèque municipale — 319" ;
@@ -2093,13 +2136,13 @@
     wdt:P571 "0801"^^xsd:gYear,
         "0900"^^xsd:gYear .
 
-<https://mira.ie/entity/manuscript/269> rdfs:label "Bischöfliche Ordinariatsbibliothek — 1" ;
-    skos:prefLabel "Bischöfliche Ordinariatsbibliothek — 1" ;
+<https://mira.ie/entity/manuscript/269> rdfs:label "Bischöfliche Ordinariatsbibliothek — 2" ;
+    skos:prefLabel "Bischöfliche Ordinariatsbibliothek — 2" ;
     wdt:P1071 wd:Q2749 ;
     wdt:P195 <https://mira.ie/entity/library/augsburg> ;
     wdt:P2048 24.8 ;
     wdt:P2049 16.0 ;
-    wdt:P217 "1" ;
+    wdt:P217 "2" ;
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0786"^^xsd:gYear,
         "0815"^^xsd:gYear .
@@ -2114,7 +2157,7 @@
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0786"^^xsd:gYear,
         "0800"^^xsd:gYear ;
-    wdt:P953 "http://foundationsirishculture.ie/record/?id=33"^^xsd:anyURI .
+    wdt:P953 "https://foundationsirishculture.ie/record/?id=33"^^xsd:anyURI .
 
 <https://mira.ie/entity/manuscript/270> rdfs:label "Bibliothèque nationale de France — Lat. 2709" ;
     skos:prefLabel "Bibliothèque nationale de France — Lat. 2709" ;
@@ -2465,7 +2508,7 @@
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0701"^^xsd:gYear,
         "0800"^^xsd:gYear ;
-    wdt:P953 "http://foundationsirishculture.ie/record/?id=43"^^xsd:anyURI .
+    wdt:P953 "https://foundationsirishculture.ie/record/?id=43"^^xsd:anyURI .
 
 <https://mira.ie/entity/manuscript/3> rdfs:label "Österreichische Nationalbibliothek — Lat. 15269 + Lat. Ser. nov. 37" ;
     skos:prefLabel "Österreichische Nationalbibliothek — Lat. 15269 + Lat. Ser. nov. 37" ;
@@ -2486,7 +2529,7 @@
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0780"^^xsd:gYear,
         "0820"^^xsd:gYear ;
-    wdt:P953 "http://foundationsirishculture.ie/record/?id=35"^^xsd:anyURI .
+    wdt:P953 "https://foundationsirishculture.ie/record/?id=35"^^xsd:anyURI .
 
 <https://mira.ie/entity/manuscript/300> rdfs:label "Badische Landesbibliothek — Fragm. Aug. 17" ;
     skos:prefLabel "Badische Landesbibliothek — Fragm. Aug. 17" ;
@@ -2496,6 +2539,30 @@
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0780"^^xsd:gYear,
         "0850"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/301> rdfs:label "British Library — Cotton Vitellius F.XI" ;
+    skos:prefLabel "British Library — Cotton Vitellius F.XI" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1574 <https://mira.ie/entity/text/psalms> ;
+    wdt:P195 <https://mira.ie/entity/library/london_bl> ;
+    wdt:P2048 17.0 ;
+    wdt:P2049 12.5 ;
+    wdt:P217 "Cotton Vitellius F.XI" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0910"^^xsd:gYear,
+        "0930"^^xsd:gYear .
+
+<https://mira.ie/entity/manuscript/302> rdfs:label "Bibliothèque municipale — 24 (olim A 41 al.)" ;
+    skos:prefLabel "Bibliothèque municipale — 24 (olim A 41 al.)" ;
+    wdt:P1071 wd:Q22890 ;
+    wdt:P1574 <https://mira.ie/entity/text/psalms> ;
+    wdt:P195 <https://mira.ie/entity/library/rouen> ;
+    wdt:P2048 24.0 ;
+    wdt:P2049 16.5 ;
+    wdt:P217 "24 (olim A 41 al.)" ;
+    wdt:P31 wd:Q87167 ;
+    wdt:P571 "0901"^^xsd:gYear,
+        "1000"^^xsd:gYear .
 
 <https://mira.ie/entity/manuscript/31> rdfs:label "Bibliothèque nationale de France — Lat. 11308" ;
     skos:prefLabel "Bibliothèque nationale de France — Lat. 11308" ;
@@ -2518,7 +2585,7 @@
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0751"^^xsd:gYear,
         "0800"^^xsd:gYear ;
-    wdt:P953 "http://foundationsirishculture.ie/record/?id=36"^^xsd:anyURI .
+    wdt:P953 "https://foundationsirishculture.ie/record/?id=36"^^xsd:anyURI .
 
 <https://mira.ie/entity/manuscript/33> rdfs:label "Bibliothèque nationale de France — Lat. 11884 (ff 7–19)" ;
     skos:prefLabel "Bibliothèque nationale de France — Lat. 11884 (ff 7–19)" ;
@@ -2541,7 +2608,7 @@
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0780"^^xsd:gYear,
         "0820"^^xsd:gYear ;
-    wdt:P953 "http://foundationsirishculture.ie/record/?id=37"^^xsd:anyURI .
+    wdt:P953 "https://foundationsirishculture.ie/record/?id=37"^^xsd:anyURI .
 
 <https://mira.ie/entity/manuscript/35> rdfs:label "Bibliothèque nationale de France — Lat. 13026 (ff 121–181)" ;
     skos:prefLabel "Bibliothèque nationale de France — Lat. 13026 (ff 121–181)" ;
@@ -2606,7 +2673,7 @@
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0780"^^xsd:gYear,
         "0820"^^xsd:gYear ;
-    wdt:P953 "http://foundationsirishculture.ie/record/?id=63"^^xsd:anyURI .
+    wdt:P953 "https://foundationsirishculture.ie/record/?id=63"^^xsd:anyURI .
 
 <https://mira.ie/entity/manuscript/40> rdfs:label "Bibliothèque nationale de France — Lat. 2024" ;
     skos:prefLabel "Bibliothèque nationale de France — Lat. 2024" ;
@@ -2625,16 +2692,21 @@
     wdt:P1071 wd:Q22890,
         wd:Q25 ;
     wdt:P195 <https://mira.ie/entity/library/saint-omer> ;
+    wdt:P2048 28.5 ;
+    wdt:P2049 20.0 ;
     wdt:P217 "342 bis (fol. B)" ;
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0680"^^xsd:gYear,
         "0720"^^xsd:gYear ;
-    wdt:P953 "http://foundationsirishculture.ie/record/?id=41"^^xsd:anyURI .
+    wdt:P953 "https://foundationsirishculture.ie/record/?id=41"^^xsd:anyURI .
 
-<https://mira.ie/entity/manuscript/42> rdfs:label "Bibliothèque municipale — 412 (393 bis) [rear flyleaf?]" ;
-    skos:prefLabel "Bibliothèque municipale — 412 (393 bis) [rear flyleaf?]" ;
+<https://mira.ie/entity/manuscript/42> rdfs:label "Bibliothèque municipale — 412 (393 bis) [rear flyleaf]" ;
+    skos:prefLabel "Bibliothèque municipale — 412 (393 bis) [rear flyleaf]" ;
+    wdt:P1071 wd:Q1067570 ;
     wdt:P195 <https://mira.ie/entity/library/valenciennes> ;
-    wdt:P217 "412 (393 bis) [rear flyleaf?]" ;
+    wdt:P2048 23.0 ;
+    wdt:P2049 15.3 ;
+    wdt:P217 "412 (393 bis) [rear flyleaf]" ;
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0801"^^xsd:gYear,
         "0860"^^xsd:gYear .
@@ -2744,6 +2816,8 @@
         wd:Q3963 ;
     wdt:P1574 <https://mira.ie/entity/text/gospels> ;
     wdt:P195 <https://mira.ie/entity/library/fulda> ;
+    wdt:P2048 12.5 ;
+    wdt:P2049 11.2 ;
     wdt:P217 "Bonifatianus 3" ;
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0701"^^xsd:gYear,
@@ -2779,7 +2853,7 @@
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0701"^^xsd:gYear,
         "0800"^^xsd:gYear ;
-    wdt:P953 "http://foundationsirishculture.ie/record/?id=59"^^xsd:anyURI .
+    wdt:P953 "https://foundationsirishculture.ie/record/?id=59"^^xsd:anyURI .
 
 <https://mira.ie/entity/manuscript/55> rdfs:label "Badische Landesbibliothek — Aug. perg. 132 (ff 86, 91, 92, 97–99, 101–104, 106, 107) [palimpsest old]" ;
     skos:prefLabel "Badische Landesbibliothek — Aug. perg. 132 (ff 86, 91, 92, 97–99, 101–104, 106, 107) [palimpsest old]" ;
@@ -2791,7 +2865,7 @@
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0701"^^xsd:gYear,
         "0800"^^xsd:gYear ;
-    wdt:P953 "http://foundationsirishculture.ie/record/?id=60"^^xsd:anyURI .
+    wdt:P953 "https://foundationsirishculture.ie/record/?id=60"^^xsd:anyURI .
 
 <https://mira.ie/entity/manuscript/56> rdfs:label "Badische Landesbibliothek — Aug. perg. 132 [palimpsest new]" ;
     skos:prefLabel "Badische Landesbibliothek — Aug. perg. 132 [palimpsest new]" ;
@@ -2838,7 +2912,7 @@
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0701"^^xsd:gYear,
         "0800"^^xsd:gYear ;
-    wdt:P953 "http://foundationsirishculture.ie/record/?id=61"^^xsd:anyURI .
+    wdt:P953 "https://foundationsirishculture.ie/record/?id=61"^^xsd:anyURI .
 
 <https://mira.ie/entity/manuscript/6> rdfs:label "Universiteitsbibliotheek — 254 (Catal. 445) (fol. 172)" ;
     skos:prefLabel "Universiteitsbibliotheek — 254 (Catal. 445) (fol. 172)" ;
@@ -2850,7 +2924,7 @@
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0701"^^xsd:gYear,
         "0800"^^xsd:gYear ;
-    wdt:P953 "http://foundationsirishculture.ie/record/?id=64"^^xsd:anyURI .
+    wdt:P953 "https://foundationsirishculture.ie/record/?id=64"^^xsd:anyURI .
 
 <https://mira.ie/entity/manuscript/60> rdfs:label "Badische Landesbibliothek — Aug. perg. 167 [palimpsest new]" ;
     skos:prefLabel "Badische Landesbibliothek — Aug. perg. 167 [palimpsest new]" ;
@@ -2875,7 +2949,7 @@
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0701"^^xsd:gYear,
         "0800"^^xsd:gYear ;
-    wdt:P953 "http://foundationsirishculture.ie/record/?id=61"^^xsd:anyURI .
+    wdt:P953 "https://foundationsirishculture.ie/record/?id=61"^^xsd:anyURI .
 
 <https://mira.ie/entity/manuscript/62> rdfs:label "Badische Landesbibliothek — Aug. perg. 167 (ff 16/17) [palimpsest old]" ;
     skos:prefLabel "Badische Landesbibliothek — Aug. perg. 167 (ff 16/17) [palimpsest old]" ;
@@ -2885,7 +2959,7 @@
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0701"^^xsd:gYear,
         "0800"^^xsd:gYear ;
-    wdt:P953 "http://foundationsirishculture.ie/record/?id=61"^^xsd:anyURI .
+    wdt:P953 "https://foundationsirishculture.ie/record/?id=61"^^xsd:anyURI .
 
 <https://mira.ie/entity/manuscript/63> rdfs:label "Badische Landesbibliothek — Aug. perg. 167 (ff 24, 25, 27?, 29, 33?, 35, 36) [palimpsest old]" ;
     skos:prefLabel "Badische Landesbibliothek — Aug. perg. 167 (ff 24, 25, 27?, 29, 33?, 35, 36) [palimpsest old]" ;
@@ -2897,7 +2971,7 @@
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0701"^^xsd:gYear,
         "0800"^^xsd:gYear ;
-    wdt:P953 "http://foundationsirishculture.ie/record/?id=61"^^xsd:anyURI .
+    wdt:P953 "https://foundationsirishculture.ie/record/?id=61"^^xsd:anyURI .
 
 <https://mira.ie/entity/manuscript/64> rdfs:label "Badische Landesbibliothek — Aug. perg. 167 (fol. 38, 40–47, 49) [palimpsest old]" ;
     skos:prefLabel "Badische Landesbibliothek — Aug. perg. 167 (fol. 38, 40–47, 49) [palimpsest old]" ;
@@ -3018,8 +3092,10 @@
 
 <https://mira.ie/entity/manuscript/74> rdfs:label "Badische Landesbibliothek — Fragm. Aug. 20" ;
     skos:prefLabel "Badische Landesbibliothek — Fragm. Aug. 20" ;
-    wdt:P1071 wd:Q22890 ;
+    wdt:P1071 wd:Q7680015 ;
     wdt:P195 <https://mira.ie/entity/library/karlsruhe> ;
+    wdt:P2048 10.0 ;
+    wdt:P2049 9.0 ;
     wdt:P217 "Fragm. Aug. 20" ;
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0780"^^xsd:gYear,
@@ -3077,7 +3153,8 @@
 
 <https://mira.ie/entity/manuscript/8> rdfs:label "Bibliothèque municipale — 679 (619)" ;
     skos:prefLabel "Bibliothèque municipale — 679 (619)" ;
-    wdt:P1071 wd:Q217768 ;
+    wdt:P1071 wd:Q181285,
+        wd:Q217768 ;
     wdt:P195 <https://mira.ie/entity/library/cambrai> ;
     wdt:P217 "679 (619)" ;
     wdt:P31 wd:Q87167 ;
@@ -3182,7 +3259,7 @@
     skos:prefLabel "Bayerische Staatsbibliothek — Clm 14846" ;
     wdt:P195 <https://mira.ie/entity/library/munich> ;
     wdt:P2048 12.1 ;
-    wdt:P2049 95.0 ;
+    wdt:P2049 9.5 ;
     wdt:P217 "Clm 14846" ;
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0886"^^xsd:gYear,
@@ -3198,18 +3275,20 @@
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0751"^^xsd:gYear,
         "0800"^^xsd:gYear ;
-    wdt:P953 "http://foundationsirishculture.ie/record/?id=39"^^xsd:anyURI,
-        "https://bvmm.irht.cnrs.fr/consult/consult.php?reproductionId=1958"^^xsd:anyURI .
+    wdt:P953 "https://bvmm.irht.cnrs.fr/consult/consult.php?reproductionId=1958"^^xsd:anyURI,
+        "https://foundationsirishculture.ie/record/?id=39"^^xsd:anyURI .
 
 <https://mira.ie/entity/manuscript/90> rdfs:label "Bayerische Staatsbibliothek — Clm 29300/2" ;
     skos:prefLabel "Bayerische Staatsbibliothek — Clm 29300/2" ;
     wdt:P1071 wd:Q22890 ;
     wdt:P195 <https://mira.ie/entity/library/munich> ;
+    wdt:P2048 17.3 ;
+    wdt:P2049 13.8 ;
     wdt:P217 "Clm 29300/2" ;
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0701"^^xsd:gYear,
         "0800"^^xsd:gYear ;
-    wdt:P953 "http://foundationsirishculture.ie/record/?id=71"^^xsd:anyURI .
+    wdt:P953 "https://foundationsirishculture.ie/record/?id=71"^^xsd:anyURI .
 
 <https://mira.ie/entity/manuscript/91> rdfs:label "Stadtbibliothek — 137 (ff 48–61) [palimpsest old]" ;
     skos:prefLabel "Stadtbibliothek — 137 (ff 48–61) [palimpsest old]" ;
@@ -3220,11 +3299,13 @@
     wdt:P571 "0751"^^xsd:gYear,
         "0800"^^xsd:gYear .
 
-<https://mira.ie/entity/manuscript/92> rdfs:label "Universitätsbibliothek — M.p.th.f.1 + M.p.th.f.18 + M.p.j.f.7 + M.p.j.f.5 + M.p.th.f.78 [binding]" ;
-    skos:prefLabel "Universitätsbibliothek — M.p.th.f.1 + M.p.th.f.18 + M.p.j.f.7 + M.p.j.f.5 + M.p.th.f.78 [binding]" ;
+<https://mira.ie/entity/manuscript/92> rdfs:label "Universitätsbibliothek — M.p.misc.f.28" ;
+    skos:prefLabel "Universitätsbibliothek — M.p.misc.f.28" ;
     wdt:P1071 wd:Q22890 ;
     wdt:P195 <https://mira.ie/entity/library/wurzburg> ;
-    wdt:P217 "M.p.th.f.1 + M.p.th.f.18 + M.p.j.f.7 + M.p.j.f.5 + M.p.th.f.78 [binding]" ;
+    wdt:P2048 27.5 ;
+    wdt:P2049 22.0 ;
+    wdt:P217 "M.p.misc.f.28" ;
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0786"^^xsd:gYear,
         "0800"^^xsd:gYear .
@@ -3301,7 +3382,7 @@
     wdt:P1071 wd:Q22890 ;
     wdt:P1574 <https://mira.ie/entity/text/psalms> ;
     wdt:P195 <https://mira.ie/entity/library/dublin_museum> ;
-    wdt:P2048 77.0 ;
+    wdt:P2048 7.7 ;
     wdt:P2049 21.0 ;
     wdt:P217 "S.A. 1914: 2" ;
     wdt:P31 wd:Q87167 ;
@@ -3345,6 +3426,10 @@
 <https://mira.ie/entity/person/martin> rdfs:label "Martin of Laon, Hiberniensis" ;
     owl:sameAs wd:Q94276 ;
     skos:prefLabel "Martin of Laon, Hiberniensis" ;
+    wdt:P31 wd:Q5 .
+
+<https://mira.ie/entity/person/probus> rdfs:label "Probus of Mainz" ;
+    skos:prefLabel "Probus of Mainz" ;
     wdt:P31 wd:Q5 .
 
 <https://mira.ie/entity/person/sedulius> rdfs:label "Sedulius Scottus" ;
@@ -3446,8 +3531,8 @@
     wdt:P31 wd:Q43229,
         wd:Q7075 .
 
-<https://mira.ie/entity/library/lichfield> rdfs:label "Cathedral library" ;
-    skos:prefLabel "Cathedral library" ;
+<https://mira.ie/entity/library/lichfield> rdfs:label "Cathedral Library" ;
+    skos:prefLabel "Cathedral Library" ;
     wdt:P31 wd:Q43229,
         wd:Q7075 .
 
@@ -3488,6 +3573,11 @@
 
 <https://mira.ie/entity/library/reims> rdfs:label "Abbey of Saint-Remi" ;
     skos:prefLabel "Abbey of Saint-Remi" ;
+    wdt:P31 wd:Q43229,
+        wd:Q7075 .
+
+<https://mira.ie/entity/library/rouen> rdfs:label "Bibliothèque municipale" ;
+    skos:prefLabel "Bibliothèque municipale" ;
     wdt:P31 wd:Q43229,
         wd:Q7075 .
 
@@ -3619,13 +3709,13 @@
     wdt:P31 wd:Q43229,
         wd:Q7075 .
 
-<https://mira.ie/entity/library/london_bl> rdfs:label "British Library" ;
-    skos:prefLabel "British Library" ;
+<https://mira.ie/entity/library/schaffhausen> rdfs:label "Stadtbibliothek" ;
+    skos:prefLabel "Stadtbibliothek" ;
     wdt:P31 wd:Q43229,
         wd:Q7075 .
 
-<https://mira.ie/entity/library/schaffhausen> rdfs:label "Stadtbibliothek" ;
-    skos:prefLabel "Stadtbibliothek" ;
+<https://mira.ie/entity/library/london_bl> rdfs:label "British Library" ;
+    skos:prefLabel "British Library" ;
     wdt:P31 wd:Q43229,
         wd:Q7075 .
 
@@ -3649,11 +3739,6 @@
     wdt:P31 wd:Q43229,
         wd:Q7075 .
 
-<https://mira.ie/entity/text/psalms> rdfs:label "Psalms" ;
-    owl:sameAs wd:Q41064 ;
-    skos:prefLabel "Psalms" ;
-    wdt:P31 wd:Q7725634 .
-
 <https://mira.ie/entity/library/naples> rdfs:label "Biblioteca Nazionale" ;
     skos:prefLabel "Biblioteca Nazionale" ;
     wdt:P31 wd:Q43229,
@@ -3663,6 +3748,11 @@
     skos:prefLabel "Trinity College" ;
     wdt:P31 wd:Q43229,
         wd:Q7075 .
+
+<https://mira.ie/entity/text/psalms> rdfs:label "Psalms" ;
+    owl:sameAs wd:Q41064 ;
+    skos:prefLabel "Psalms" ;
+    wdt:P31 wd:Q7725634 .
 
 <https://mira.ie/entity/library/leiden> rdfs:label "Universiteitsbibliotheek" ;
     skos:prefLabel "Universiteitsbibliotheek" ;

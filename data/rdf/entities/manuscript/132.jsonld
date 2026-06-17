@@ -3,12 +3,12 @@
     "@id": "https://mira.ie/entity/manuscript/132",
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": "Biblioteca Ambrosiana — I 61 sup."
+        "@value": "Biblioteca Ambrosiana — I 61 sup. (ff 1–89)"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
-        "@value": "Biblioteca Ambrosiana — I 61 sup."
+        "@value": "Biblioteca Ambrosiana — I 61 sup. (ff 1–89)"
       }
     ],
     "http://www.wikidata.org/prop/direct/P1071": [
@@ -40,7 +40,7 @@
     ],
     "http://www.wikidata.org/prop/direct/P217": [
       {
-        "@value": "I 61 sup."
+        "@value": "I 61 sup. (ff 1–89)"
       }
     ],
     "http://www.wikidata.org/prop/direct/P31": [
@@ -61,7 +61,7 @@
     "http://www.wikidata.org/prop/direct/P953": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
-        "@value": "http://foundationsirishculture.ie/record/?id=18"
+        "@value": "https://foundationsirishculture.ie/record/?id=18"
       }
     ]
   }

@@ -7,9 +7,9 @@
 >
   <rdf:Description rdf:about="https://mira.ie/entity/manuscript/269">
     <wdt:P31 rdf:resource="http://www.wikidata.org/entity/Q87167"/>
-    <wdt:P217>1</wdt:P217>
-    <rdfs:label>Bischöfliche Ordinariatsbibliothek — 1</rdfs:label>
-    <skos:prefLabel>Bischöfliche Ordinariatsbibliothek — 1</skos:prefLabel>
+    <wdt:P217>2</wdt:P217>
+    <rdfs:label>Bischöfliche Ordinariatsbibliothek — 2</rdfs:label>
+    <skos:prefLabel>Bischöfliche Ordinariatsbibliothek — 2</skos:prefLabel>
     <wdt:P195 rdf:resource="https://mira.ie/entity/library/augsburg"/>
     <wdt:P571 rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0786</wdt:P571>
     <wdt:P571 rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0815</wdt:P571>

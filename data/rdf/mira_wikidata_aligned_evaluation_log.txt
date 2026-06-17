@@ -1,39 +1,39 @@
 === MIrA XML → Wikidata-aligned RDF evaluation ===
-Date: 2026-06-16T20:14:03.049577
+Date: 2026-06-17T17:07:19.323717
 
-Combined triples: 3326
+Combined triples: 3412
 
 [Coverage]
-- entity_file_library: 71
-- entity_file_library_jsonld: 71
-- entity_file_library_rdfxml: 71
-- entity_file_library_ttl: 71
-- entity_file_manuscript: 300
-- entity_file_manuscript_jsonld: 300
-- entity_file_manuscript_rdfxml: 300
-- entity_file_manuscript_ttl: 300
-- entity_file_person: 10
-- entity_file_person_jsonld: 10
-- entity_file_person_rdfxml: 10
-- entity_file_person_ttl: 10
+- entity_file_library: 72
+- entity_file_library_jsonld: 72
+- entity_file_library_rdfxml: 72
+- entity_file_library_ttl: 72
+- entity_file_manuscript: 302
+- entity_file_manuscript_jsonld: 302
+- entity_file_manuscript_rdfxml: 302
+- entity_file_manuscript_ttl: 302
+- entity_file_person: 11
+- entity_file_person_jsonld: 11
+- entity_file_person_rdfxml: 11
+- entity_file_person_ttl: 11
 - entity_file_text: 7
 - entity_file_text_jsonld: 7
 - entity_file_text_rdfxml: 7
 - entity_file_text_ttl: 7
-- folios_seen_not_exported: 225
-- library_entities: 71
-- manuscript_entities: 300
-- manuscript_p1071: 322
-- manuscript_p1574: 49
-- manuscript_p195_local_library: 300
-- manuscript_p2048_cm: 215
-- manuscript_p2049_cm: 215
-- manuscript_p571_end: 294
+- folios_seen_not_exported: 258
+- library_entities: 72
+- manuscript_entities: 302
+- manuscript_p1071: 327
+- manuscript_p1574: 51
+- manuscript_p195_local_library: 302
+- manuscript_p2048_cm: 244
+- manuscript_p2049_cm: 244
+- manuscript_p571_end: 296
 - manuscript_p571_single_year_start_equals_end: 6
-- manuscript_p571_start: 294
+- manuscript_p571_start: 296
 - manuscript_p953: 83
-- people_seen_without_role: 105
-- person_entities: 10
+- people_seen_without_role: 106
+- person_entities: 11
 - person_wikidata_links: 9
 - text_entities: 7
 - text_wikidata_links: 4

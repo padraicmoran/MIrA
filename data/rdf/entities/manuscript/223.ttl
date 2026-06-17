@@ -16,6 +16,6 @@
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0800"^^xsd:gYear,
         "0801"^^xsd:gYear ;
-    wdt:P953 "http://digi.vatlib.it/view/bav_pal_lat_235/0013"^^xsd:anyURI,
-        "http://foundationsirishculture.ie/record/?id=5"^^xsd:anyURI .
+    wdt:P953 "https://digi.vatlib.it/view/bav_pal_lat_235/0013"^^xsd:anyURI,
+        "https://foundationsirishculture.ie/record/?id=5"^^xsd:anyURI .
 

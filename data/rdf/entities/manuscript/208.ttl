@@ -4,8 +4,8 @@
 @prefix wdt: <http://www.wikidata.org/prop/direct/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://mira.ie/entity/manuscript/208> rdfs:label "Cathedral library — I" ;
-    skos:prefLabel "Cathedral library — I" ;
+<https://mira.ie/entity/manuscript/208> rdfs:label "Cathedral Library — I" ;
+    skos:prefLabel "Cathedral Library — I" ;
     wdt:P1071 wd:Q25 ;
     wdt:P1574 <https://mira.ie/entity/text/gospels> ;
     wdt:P195 <https://mira.ie/entity/library/lichfield> ;

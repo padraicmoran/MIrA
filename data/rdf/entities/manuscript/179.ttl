@@ -9,10 +9,10 @@
     wdt:P1071 wd:Q22890 ;
     wdt:P195 <https://mira.ie/entity/library/schaffhausen> ;
     wdt:P2048 24.0 ;
-    wdt:P2049 14.0 ;
+    wdt:P2049 1.4 ;
     wdt:P217 "Min. 25 a" ;
     wdt:P31 wd:Q87167 ;
     wdt:P571 "0686"^^xsd:gYear,
         "0700"^^xsd:gYear ;
-    wdt:P953 "http://foundationsirishculture.ie/record/?id=53"^^xsd:anyURI .
+    wdt:P953 "https://foundationsirishculture.ie/record/?id=53"^^xsd:anyURI .
 

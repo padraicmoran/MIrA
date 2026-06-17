@@ -3,12 +3,12 @@
     "@id": "https://mira.ie/entity/library/lichfield",
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": "Cathedral library"
+        "@value": "Cathedral Library"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
-        "@value": "Cathedral library"
+        "@value": "Cathedral Library"
       }
     ],
     "http://www.wikidata.org/prop/direct/P31": [

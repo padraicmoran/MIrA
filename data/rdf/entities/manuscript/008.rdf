@@ -13,6 +13,7 @@
     <wdt:P195 rdf:resource="https://mira.ie/entity/library/cambrai"/>
     <wdt:P571 rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0763</wdt:P571>
     <wdt:P571 rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0790</wdt:P571>
+    <wdt:P1071 rdf:resource="http://www.wikidata.org/entity/Q181285"/>
     <wdt:P1071 rdf:resource="http://www.wikidata.org/entity/Q217768"/>
   </rdf:Description>
 </rdf:RDF>

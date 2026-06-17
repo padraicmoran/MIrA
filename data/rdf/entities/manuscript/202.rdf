@@ -15,6 +15,6 @@
     <wdt:P571 rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0825</wdt:P571>
     <wdt:P1071 rdf:resource="http://www.wikidata.org/entity/Q90"/>
     <wdt:P2048 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30</wdt:P2048>
-    <wdt:P2049 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">57</wdt:P2049>
+    <wdt:P2049 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.7</wdt:P2049>
   </rdf:Description>
 </rdf:RDF>

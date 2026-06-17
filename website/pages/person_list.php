@@ -1,7 +1,7 @@
-
-<h2>People</h2>
-
 <?php
+writeBreadcrumb('person', null);
+echo '<h2>People</h2>';
+
 if (file_exists('../data/other/people.xml')) {
 	$xml_people = simplexml_load_file('../data/other/people.xml');
 

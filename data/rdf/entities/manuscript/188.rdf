@@ -16,7 +16,7 @@
     <wdt:P1071 rdf:resource="http://www.wikidata.org/entity/Q22890"/>
     <wdt:P2048 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">27</wdt:P2048>
     <wdt:P2049 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">21</wdt:P2049>
-    <wdt:P953 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://foundationsirishculture.ie/record/?id=46</wdt:P953>
+    <wdt:P953 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://foundationsirishculture.ie/record/?id=46</wdt:P953>
     <wdt:P1574 rdf:resource="https://mira.ie/entity/text/gospels"/>
   </rdf:Description>
 </rdf:RDF>

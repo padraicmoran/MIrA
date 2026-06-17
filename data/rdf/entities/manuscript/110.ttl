@@ -6,7 +6,7 @@
 
 <https://mira.ie/entity/manuscript/110> rdfs:label "Trinity College — 52" ;
     skos:prefLabel "Trinity College — 52" ;
-    wdt:P1071 wd:Q22890 ;
+    wdt:P1071 wd:Q193452 ;
     wdt:P1574 <https://mira.ie/entity/text/gospels> ;
     wdt:P195 <https://mira.ie/entity/library/dublin_tcd> ;
     wdt:P2048 19.5 ;

@@ -30,7 +30,7 @@
     "http://www.wikidata.org/prop/direct/P2049": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#decimal",
-        "@value": "57"
+        "@value": "5.7"
       }
     ],
     "http://www.wikidata.org/prop/direct/P217": [

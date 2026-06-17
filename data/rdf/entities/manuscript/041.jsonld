@@ -24,6 +24,18 @@
         "@id": "https://mira.ie/entity/library/saint-omer"
       }
     ],
+    "http://www.wikidata.org/prop/direct/P2048": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "28.5"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P2049": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "20"
+      }
+    ],
     "http://www.wikidata.org/prop/direct/P217": [
       {
         "@value": "342 bis (fol. B)"
@@ -47,7 +59,7 @@
     "http://www.wikidata.org/prop/direct/P953": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
-        "@value": "http://foundationsirishculture.ie/record/?id=41"
+        "@value": "https://foundationsirishculture.ie/record/?id=41"
       }
     ]
   }

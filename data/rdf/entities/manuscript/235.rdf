@@ -13,6 +13,6 @@
     <wdt:P195 rdf:resource="https://mira.ie/entity/library/karlsruhe"/>
     <wdt:P571 rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0801</wdt:P571>
     <wdt:P571 rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0900</wdt:P571>
-    <wdt:P1071 rdf:resource="http://www.wikidata.org/entity/Q22890"/>
+    <wdt:P1071 rdf:resource="http://www.wikidata.org/entity/Q1102232"/>
   </rdf:Description>
 </rdf:RDF>
