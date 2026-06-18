@@ -10,16 +10,15 @@ if (file_exists('../data/other/texts.xml')) {
 		
 		// page title
 		writeBreadcrumb('text', '');
-		echo '<h2>';
+		echo '<h1>';
 		if ($text->author != '') echo $text->author . ', ';
 		if ($text->title['style'] == 'roman') echo $text->title;
 		else echo '<i>' . $text->title . '</i>';
-		 echo '</h2>';
+		 echo '</h1>';
 
 		// stable URL
 		$link = getLink('text', $id);
-		echo '<div class="text-secondary small">Stable URL: <a class="text-secondary" href="' . $link . '">https://mira.ie' . $link . '</a></div>';
-
+		echo '<div class="mb-4 text-secondary small">Stable URL: <a class="text-secondary" href="' . $link . '">https://mira.ie' . $link . '</a></div>';
 
 		// linked data
 		$links = $text->xpath('xref');
@@ -44,7 +43,7 @@ if (file_exists('../data/other/texts.xml')) {
 		}
 
 		// display results
-		listMSS($resultsSorted);
+		listMSS($resultsSorted, false);
 
 		// download
 		echo '<div class="text-secondary small mt-5">Download:

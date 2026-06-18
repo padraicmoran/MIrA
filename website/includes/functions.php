@@ -16,20 +16,20 @@ function getLink($type, $id) {
 }
 
 function makeMsHeading($ms) {
-	global $libraries;
-
-	$libraryID = strval($ms->identifier['libraryID']);
-	// get official shelfmark
-	$libraryShelfmark = $libraries[$libraryID]['city'] . ', ' . $libraries[$libraryID]['name'] . ', ' . $ms->identifier->shelfmark;
-	if (count($ms->identifier) > 1) $libraryShelfmark .= ', etc.';
+	// get shelfmark
+	$shelfmark = getShelfmark($ms);
 	// add common name if available
-	if ($ms->identifier->ms_name !='') {
-		$heading = $ms->identifier->ms_name . ' (' . $libraryShelfmark . ')';
-	}
-	else {
-		$heading = $libraryShelfmark;
-	}
+	if ($ms->identifier->ms_name !='')	$heading = $ms->identifier->ms_name . ' (' . $shelfmark . ')';
+	else 								$heading = $shelfmark;
 	return $heading;	
+}
+
+function getShelfmark($ms) {
+	global $libraries;
+	$libraryID = strval($ms->identifier['libraryID']);
+	$shelfmark = $libraries[$libraryID]['city'] . ', ' . $libraries[$libraryID]['name'] . ', ' . $ms->identifier->shelfmark;
+	if (count($ms->identifier) > 1) $shelfmark .= ', etc.';
+	return $shelfmark;
 }
 
 function writeBreadcrumb($type, $item) {

@@ -32,7 +32,7 @@ $otherRoutes = [
     'about'       => ['about', 'pages/static/about.php'],
     'about__bibliography' => ['about', 'pages/static/bibliography.php'],
     'about__versions'    => ['about', 'pages/static/versions.php'],
-    'about__data'        => ['about', 'pages/static/dat.php'],
+    'about__data'        => ['about', 'pages/static/data.php'],
     'xpath'       => ['', 'pages/xpath.php'],   // in development
 ];
 

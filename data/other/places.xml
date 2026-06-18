@@ -305,7 +305,7 @@
 
    <place id="ireland" type="region">
       <name>Ireland*</name>
-      <description></description>
+      <description>*'Ireland' is shorthand for the broader Gaelic world, including modern Scotland and Man.</description>
       <coords>54.2, -7.3</coords>
       <xref type="pleiades">https://pleiades.stoa.org/places/20487</xref>
       <xref type="viaf">https://viaf.org/viaf/158208597/</xref>

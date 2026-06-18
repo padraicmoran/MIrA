@@ -65,7 +65,7 @@ if ($xpath != '') {
 			// default output is manuscript table
 			else {
 				// display results
-				listMSS($results);
+				listMSS($results, false);
 			}
 		}
 	}

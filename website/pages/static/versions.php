@@ -1,16 +1,16 @@
 
-<!-- Main column -->
-<h2 class="mt-5 mb-4 display-5">Version history</h2>
+<h1 class="mt-5 mb-4">Version history</h1>
 
 <p>Current version:</p>
 
 <ul>
-<li>0.7 (dev). New data for columns and lines (supplied by Chiara Corongiu). Linked Open Data enabling partially implemented.</li>
+<li>1.0, 18 June 2026. Linked data implemented in var</li>
 </ul>
 
 <p>Previous versions:</p>
 
 <ul>
+<li>0.7 (beta), 9 June 2026. New data for columns and lines (supplied by Chiara Corongiu).</li>
 <li>0.6.2 (beta), 13 February 2025. Measurement units converted to cm.</li>
 <li>0.6.1 (beta), 12 February 2025. 7 new additions (mostly old palimpsests): MSS 
    <a href="/294">294</a>, 

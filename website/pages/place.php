@@ -8,23 +8,27 @@ if (file_exists('../data/other/places.xml')) {
 	$filter = $xml_places->xpath('//place[@id="' . $id . '"]');
 	if ($filter) {
 		$place = $filter[0];
+
+		writeBreadcrumb('place', '');
+		echo '<h1>' . $place->name . '</h1>';
+
+		// stable URL
+		$link = getLink('place', $id);
+		echo '<div class="mb-4 text-secondary small">Stable URL: <a class="text-secondary" href="' . $link . '">https://mira.ie' . $link . '</a></div>';
+
 ?>
 
 <div class="row">
 	<div class="col-lg-4">
 <?php
 
-		writeBreadcrumb('place', '');
-		echo '<h2>' . $place->name . '</h2>';
-
-		// stable URL
-		$link = getLink('place', $id);
-		echo '<div class="text-secondary small">Stable URL: <a class="text-secondary" href="' . $link . '">https://mira.ie' . $link . '</a></div>';
-
 		// other language versions
-		echo '<p class="mt-3">';
+		echo '<p class="mb-3">';
 		writeTrans($place->xpath('name'));
 		echo '</p>';
+
+		// description
+		if ($place->description) echo '<p class="mb-3">' . $place->description . '</p>';
 
 		// if region: show sub-locations
 		if ($place['type'] == 'region') {
@@ -88,7 +92,7 @@ if (file_exists('../data/other/places.xml')) {
 			}
 
 			// display results
-			listMSS($resultsSorted);
+			listMSS($resultsSorted, false);
 		}
 
 		// download

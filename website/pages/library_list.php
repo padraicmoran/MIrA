@@ -1,14 +1,14 @@
 <?php
-writeBreadcrumb('library', null);
-echo '<h2>Libraries</h2>';
 
 if (file_exists('../data/other/libraries.xml')) {
-	$xml_libraries = simplexml_load_file('../data/other/libraries.xml');
 
+	// load data
+	$xml_libraries = simplexml_load_file('../data/other/libraries.xml');
 	$matches = count($xml_libraries);
-	echo '<div class="d-inline-flex mt-2 mb-4 px-3 py-2 text-light small bg-mira rounded">' . $matches;
-	echo switchSgPl($matches, ' library', ' libraries');
-	echo '</div>';
+
+	// write header
+	writeBreadcrumb('library', null);
+	echo '<h1>Libraries <span class="badge rounded-pill small text-bg-success">' . $matches . '</span></h1>';
 
 	mapLibraries($xml_mss, false);
 
@@ -45,6 +45,9 @@ if (file_exists('../data/other/libraries.xml')) {
 </div>
 
 <?php
+}
+else {
+	'<div class="alert alert-danger">Data connection failed.</div>';
 }
 
 ?>

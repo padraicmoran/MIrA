@@ -1,9 +1,7 @@
 <?php
-/* 
-Results page for MS searches
-*/
+// Results page for MS searches
 
-function listMSS($results) {
+function listMSS($results, $primaryHeading) {
 	global $page, $id, $search, $searchCat, $searchLib;
 	global $libraries, $msCategories;
 
@@ -18,7 +16,12 @@ function listMSS($results) {
 		if ($filter != '' && isset($node->notes['categories']) && strpos($node->notes['categories'], '#' . $filter) === false) continue;
 		$resultsSorted[] = $node;
 	}
+	$matches = count($resultsSorted);	
 	
+	//	header
+	if ($primaryHeading) echo '<h1>Manuscripts <span class="badge rounded-pill text-bg-success">' . $matches . '</span></h1>';
+	else echo '<h2>Manuscripts <span class="badge rounded-pill text-bg-success">' . $matches . '</span></h2>';
+
 	// default sort is by city, library, shelfmark; change for other options below
 	usort($resultsSorted, 'sortShelfmarkIndexer');
 	usort($resultsSorted, 'sortShelfmark');
@@ -28,8 +31,9 @@ function listMSS($results) {
 //		elseif ($sort == 'origin') usort($resultsSorted, 'sortOrigin');
 //		elseif ($sort == 'prov') usort($resultsSorted, 'sortProv');
 
-	// total and results and sort form
-	echo '<div><form class="my-2 px-3 py-2 rounded bg-mira shadow d-inline-flex align-items-center text-light small" id="sortForm" action="/index.php">';
+
+	// sort form
+	echo '<div><form class="mt-3 my-2 px-3 py-2 rounded-pill text-bg-secondary d-inline-flex align-items-center text-light small" id="sortForm" action="/index.php">';
 
 	// pass information about current page
 	echo '<input type="hidden" name="page" value="' . $page  . '" />';
@@ -37,12 +41,8 @@ function listMSS($results) {
 	if ($search != '') echo '<input type="hidden" name="search" value="' . $search . '" />';
 	if ($searchCat != '') echo '<input type="hidden" name="cat" value="' . $searchCat . '" />';
 
-	// write total
-	$matches = count($resultsSorted);	
-	echo '' . $matches . switchSgPl($matches, ' manuscript', ' manuscripts') . '. &nbsp;';
-
 	// write sort options
-	echo '<label class="ms-4 me-2" for="sort">Sort by</label>';
+	echo '<label class="ms-0 me-2" for="sort">Sort by</label>';
 	echo '<select name="sort" class="" onchange="sortForm.submit(); ">';
 	writeOption('', 'location', $sort);
 	writeOption('script', 'script', $sort);
@@ -147,6 +147,7 @@ function listMSS($results) {
 
 </div>
 
+<h2 class="mt-5">Further information for this manuscript list</h2>
 <?php
 	mapLibraries($resultsSorted, true);
 	chartDates($resultsSorted);

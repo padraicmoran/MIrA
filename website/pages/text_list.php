@@ -1,15 +1,14 @@
 <?php
-writeBreadcrumb('text', null);
-echo '<h2>Texts</h2>';
 
 if (file_exists('../data/other/texts.xml')) {
+
+	// load data
 	$xml_texts = simplexml_load_file('../data/other/texts.xml');
-
 	$matches = count($xml_texts);
-	echo '<div class="d-inline-flex my-2 px-3 py-2 text-light small bg-mira	rounded">' . $matches;
-	echo switchSgPl($matches, ' text', ' texts');
-	echo '</div>';
 
+	// write header
+	writeBreadcrumb('text', null);
+	echo '<h1>Texts <span class="badge rounded-pill small text-bg-success">' . $matches . '</span></h1>';
 ?>
 
 <p>(Indexing is still in progress.)</p>
@@ -48,6 +47,9 @@ if (file_exists('../data/other/texts.xml')) {
 </div>
 
 <?php
+}
+else {
+	'<div class="alert alert-danger">Data connection failed.</div>';
 }
 
 ?>

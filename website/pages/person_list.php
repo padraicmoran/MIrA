@@ -1,14 +1,14 @@
 <?php
-writeBreadcrumb('person', null);
-echo '<h2>People</h2>';
 
 if (file_exists('../data/other/people.xml')) {
-	$xml_people = simplexml_load_file('../data/other/people.xml');
 
+	// load data
+	$xml_people = simplexml_load_file('../data/other/people.xml');
 	$matches = count($xml_people);
-	echo '<div class="d-inline-flex my-2 px-3 py-2 text-light small bg-mira rounded">' . $matches;
-	echo switchSgPl($matches, ' person', ' people');
-	echo '</div>';
+
+	// write header
+	writeBreadcrumb('person', null);
+	echo '<h1>People <span class="badge rounded-pill small text-bg-success">' . $matches . '</span></h1>';
 ?>
 
 <p>(Indexing is still in progress.)</p>
@@ -44,6 +44,9 @@ if (file_exists('../data/other/people.xml')) {
 </div>
 
 <?php
+}
+else {
+	'<div class="alert alert-danger">Data connection failed.</div>';
 }
 
 ?>

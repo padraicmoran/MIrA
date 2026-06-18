@@ -1,6 +1,5 @@
 <?php
-
-// process search inputs, return resutls
+// Process search inputs, return results (no HTML output)
 
 function searchMSS($xml_mss, $type, $target) {
 	global $libraries, $msCategories;

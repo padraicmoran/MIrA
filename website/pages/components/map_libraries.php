@@ -26,7 +26,7 @@ function mapLibraries($results, $showHeading) {
 		}
 	}
 
-	if ($showHeading) echo '<h3 class="mt-5">Manuscript libraries</h3>';
+	if ($showHeading) echo '<h3 class="mt-5">Map of manuscript libraries</h3>';
 	?>
 
 <div class="border border-secondary rounded shadow" id="mapLibrariesContainer" style="height: 480px; "></div>

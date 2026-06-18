@@ -10,14 +10,12 @@ if (file_exists('../data/other/people.xml')) {
 
 		// breadcrumb
 		writeBreadcrumb('person', '');
-		echo '<h2>';
-		echo '<a class="text-reset" href="/people/">People</a> ‣ ';
-		echo $person->firstNames . ' ' . $person->surname . '</h2>';
-		echo '<p>' . $person->lifetime . '</p>';
+		echo '<h1>' . $person->firstNames . ' ' . $person->surname . '</h1>';
+		if ($person->lifetime) echo '<p>' . $person->lifetime . '</p>';
 
 		// stable URL
 		$link = getLink('person', $id);
-		echo '<div class="text-secondary small mb-5">Stable URL: <a class="text-secondary" href="' . $link . '">https://mira.ie' . $link . '</a></div>';
+		echo '<div class="mb-4 text-secondary small mb-5">Stable URL: <a class="text-secondary" href="' . $link . '">https://mira.ie' . $link . '</a></div>';
 
 		// linked data
 		$links = $person->xpath('xref');
@@ -43,7 +41,7 @@ if (file_exists('../data/other/people.xml')) {
 			$resultsSorted[] = $node;
 		}
 		// display results
-		listMSS($resultsSorted);
+		listMSS($resultsSorted, false);
 
 		// download
 		echo '<div class="text-secondary small mt-5">Download:

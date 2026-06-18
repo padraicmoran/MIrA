@@ -1,47 +1,48 @@
 <?php
 
-// PROCESS SEARCH 
-// Load matches into $results object
-//
+// Check for category selection
 $searchCat = cleanInput('cat') ?? '';
 
-// display headers
-//
-// breadcrumb
-writeBreadcrumb('manuscript', null);
-
-echo '<h2>Manuscripts</h2>';
+// Process different search options (or none)
+// Keyword search
 if ($search != '') {
-	// keyword search
-	echo '<div class="d-inline-flex my-2 px-3 py-2 text-light small bg-mira rounded">Search: &ldquo;' .  $search . '&rdquo;</div>';
+	writeBreadcrumb('manuscript', 'Search');
+	echo '<div class="mt-2 mb-5 px-3 py-2 btn btn-primary rounded-pill">Search: &ldquo;' .  $search . '&rdquo;</div>';
 	$results = searchMSS($xml_mss, 'keyword', $search);
 }
-elseif ($searchCat != '') {
-	// browse by category 
-	if (isset($msCategories[$searchCat])) {
-		writeCategoryButton($searchCat, false);		 
-		$results = searchMSS($xml_mss, 'category', $searchCat);
-	}
+// Category search
+elseif ($searchCat != '' && isset($msCategories[$searchCat])) {
+	writeBreadcrumb('manuscript', 'Search');
+	echo '<div class="mt-3 mb-5">';
+	writeCategoryButton($searchCat, false);
+	echo '</div>';
+	$results = searchMSS($xml_mss, 'category', $searchCat);
 }
+// No search; show all entries
 else {
-	// show all entries
+	writeBreadcrumb('manuscript', null);
 	$results = searchMSS($xml_mss, null, null);
 }
 
-
-// check for coherent results, then prepare list
-//
+// Check for results, prepare list
 if (isset($results)) {
-
-	// check for matches
+	// Count matches
 	$matches = count($results);
-	if ($matches == 0) {
-		echo '<p class="mt-3 pb-5">No matches found.</p>';
+
+	// Display results
+	if ($matches > 0) {
+		listMSS($results, true);
 	}
 	else {
-		
-		// display results
-		listMSS($results);
+		// Notify no results
+		echo '<h1>Search results</h1>';
+		echo '<p class="mt-3">No matches found.</p>';
+		echo '<p>Try browsing 
+			<a href="/manuscripts">manuscripts</a>, 
+			<a href="/libraries">libraries</a>, 
+			<a href="/people">people</a>, 
+			<a href="/places">places</a>, 
+			<a href="/texts">texts</a>.</p>';
 	}
 }
 

@@ -10,11 +10,11 @@ if (file_exists('../data/other/libraries.xml')) {
 
 		// breadcrumb
 		writeBreadcrumb('library', '');
-		echo '<h2>' . $library->city . ', ' . $library->name . '</h2>';
+		echo '<h1>' . $library->city . ', ' . $library->name . '</h1>';
 
 		// stable URL
 		$link = getLink('library', $id);
-		echo '<div class="mb-5 text-secondary small">Stable URL: <a class="text-secondary" href="' . $link . '">https://mira.ie' . $link . '</a></div>';
+		echo '<div class="mb-4 text-secondary small">Stable URL: <a class="text-secondary" href="' . $link . '">https://mira.ie' . $link . '</a></div>';
 
 		// find related manuscripts
 		$results = $xml_mss->xpath('manuscript[identifier[@libraryID="' . $id . '"]]');
@@ -26,7 +26,7 @@ if (file_exists('../data/other/libraries.xml')) {
 			$resultsSorted[] = $node;
 		}
 		// display results
-		listMSS($resultsSorted);
+		listMSS($resultsSorted, false);
 
 		// download
 		echo '<div class="text-secondary small mt-5">Download:

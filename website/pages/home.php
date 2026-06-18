@@ -1,92 +1,63 @@
 
-<div class="col-lg-9">
+<!-- hero section -->
 
-<h2 class="mb-4 display-5">Manuscripts with Irish Associations (MIrA)</h2>
+<div class="container-fluid p-0 home-hero">
+    <div class="row g-0 h-100">
+        <div class="col-lg-6 p-2 p-md-4 p-lg-5 align-items-center bg-mira bg-gradient text-white" style="opacity: 0.85;">
+            <div class="mx-3 pt-5 pb-4 px-md-5 text-shadow">
 
-<h3 class="mb-4 display-7">Evidence for early Irish book culture, c. AD 600–1000</h3>
-
-<p>This resource aims to provide useful information for researchers on early Irish manuscript culture before c. AD 1000.
-("Irish" here is shorthand for the broader Gaelic world, including early medieval Scotland.)
-</p>
-<p>
-The catalogue currently contains <a href="/mss"><?php echo $totalMSS; ?> manuscripts</a>.
-Manuscripts are assigned to one or more categories.
-The principal criteria for inclusion are as follows:
-</p>
-
-<table class="table mb-5">
-<tr>
-	<td width="300"><?php writeCategoryButton('or-ire', true); ?></td>
-	<td>Written probably in Ireland.</td>
-	<td width="50" class="text-end">106</td>
-</tr>
-<tr>
-	<td><?php writeCategoryButton('sc-ire', true); ?></td>
-	<td>Written mostly in Irish script (106 from Ireland and 41 abroad).</td>
-	<td class="text-end">148</td>
-</tr>
-<tr>
-	<td><?php writeCategoryButton('vern', true); ?></td>
-	<td>Containing vernacular (Old Irish) content (mostly glosses).</td>
-	<td class="text-end">84</td>
-</tr>
-</table>
+<h1 class="display-5 mb-4" style="font-weight: 400;">
+Explore Ireland’s early medieval manuscript heritage
+</h1>
 
 <p>
-The following categories are also considered. The contents here are currently still very partial, and will be expanded in future updates:
+MIrA is a 
+catalogue of manuscripts written before c. AD 1000
+in Ireland, or in Irish script, or with
+other Irish connections.
 </p>
 
+<form class="mt-5 d-flex" action="/manuscripts" method="get">
+	<input class="form-control form-control-lg me-2" 
+		name="search" type="search"
+		placeholder="Search by manuscript name, keyword or MIrA number" aria-label="Search">
+	<button class="btn btn-success" type="submit">Search</button>
+</form>
 
-<table class="table">
-<tr>
-	<td><?php writeCategoryButton('scribe', true); ?></td>
-	<td>Named or known Irish scribe.</td>
-	<td class="text-end">41</td>
-</tr>
-<tr>
-	<td width="300"><?php writeCategoryButton('ex-ire', true); ?></td>
-	<td>Copied from an Irish exemplar.</td>
-	<td width="50" class="text-end">36</td>
-</tr>
-<tr>
-	<td><?php writeCategoryButton('text', true); ?></td>
-	<td>Latin texts of Irish authorship.</td>
-	<td class="text-end">22</td>
-</tr>
-<tr>
-	<td><?php writeCategoryButton('or-ins', true); ?></td>
-	<td>Of Insular origin, potentially in Ireland.</td>
-	<td class="text-end">11</td>
-</tr>
-<tr>
-	<td><?php writeCategoryButton('sc-ins', true); ?></td>
-	<td>Written in Insular, potentially Irish, script.</td>
-	<td class="text-end">12</td>
-</tr>
-<tr>
-	<td><?php writeCategoryButton('ex-ins', true); ?></td>
-	<td>Copied from an Insular exemplar, potentially Irish.</td>
-	<td class="text-end">4</td>
-</tr>
-<tr>
-	<td><?php writeCategoryButton('misc', true); ?></td>
-	<td>Minor Irish associations, e.g. Irish glosses or corrections, Irish influence on script.</td>
-	<td class="text-end">30</td>
-</tr>
-</table>
-
-<p>Read 
-	<a href="/about">about the project</a> |
-	<a href="/about">about the data</a>.
+<p class="mt-4">
+Or browse: 
+<a href="/manuscripts" class="badge bg-success text-decoration-none text-reset">301 manuscripts</a>
+<a href="/libraries" class="badge bg-success text-decoration-none text-reset">72 libraries</a>
+<a href="/places" class="badge bg-success text-decoration-none text-reset">51 places</a>
 </p>
 
+<p class="mt-5 small">
+	Read more <a href="/about" class="link-info">about the project</a>.
+</p>
+
+            </div>
+        </div>
+
+        <div class="col-lg-6"></div>
+	</div>
 </div>
 
 
-<div class="row mt-5 pb-4">
+
+<main class="container mt-2 pb-5" style="min-height: 400px; ">
+
+<!-- Cover image credit -->
+<div class="row">
+	<div class="col-lg-6"></div>
+	<div class="col-lg-6">
+		<p class="small text-secondary">Cover image: <a href="/manuscript/187/">St Gall Priscian</a>, p. 224.</p>
+	</div>
+</div>
+
+<div class="row mt-5 pb-4 gx-5">
 	<div class="col-lg-6">
 
-<h3>IIIF images</h3>
+<h2 class="mt-3 mb-3">How to view IIIF images</h2>
 
 <p>The catalogue makes use of <a href="https://iiif.io/" target="_blank">IIIF</a> services, where available (for 181 manuscripts currently). These facilitate:
 </p>
@@ -95,10 +66,10 @@ The following categories are also considered. The contents here are currently st
 <li>Inline display of manuscript images.</li>
 <li>Inclusion of information from library websites (where provided).</li>
 <li>Viewing different manuscripts side-by-side, including manuscripts now divided between different libraries, e.g. 
-	the <a href="205">Durham Gospel fragment</a>, 
-	<a href="030">Eutyches binding fragment</a>,
-	<a href="173">Fleury grammatical miscellany</a>, 
-	or <a href="219">Isidore binding fragment</a>.
+	the <a href="/manuscript/205">Durham Gospel fragment</a>, 
+	<a href="/manuscript/030">Eutyches binding fragment</a>,
+	<a href="/manuscript/173">Fleury grammatical miscellany</a>, 
+	or <a href="/manuscript/219">Isidore binding fragment</a>.
 </ul>
 
 <p>You can also compare side-by-side two or more manuscripts of your own selection using the <a href="mirador.php" target="_blank">Mirador viewer</a>. Watch this short video for instructions:
@@ -110,9 +81,4 @@ The following categories are also considered. The contents here are currently st
 <iframe class="rounded shadow" width="100%" height="380" src="https://www.youtube.com/embed/bFhAdUP1clw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 	</div>
-</div>
-
-<div class="col-lg-9 mt-5">
-
-
 </div>

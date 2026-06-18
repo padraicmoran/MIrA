@@ -1,4 +1,5 @@
 <?php
+// Information page for one manuscript
 
 $filter = $xml_mss->xpath('//manuscript[@id="' . $id . '"]');
 if ($filter) {
@@ -12,14 +13,20 @@ if ($filter) {
 
 	// breadcrumb
 	writeBreadcrumb('manuscript', 'MIrA ' . $id);
-	$heading = makeMsHeading($ms);
-	echo '<h1>' .  $heading . '</h1>';
-	// breadcrumb
 
+	// title
+	$shelfmark = getShelfmark($ms);
+	if ($ms->identifier->ms_name !='') {
+		echo '<h1>' . $ms->identifier->ms_name . '<h1>';
+		echo '<h2>' . $shelfmark . '</h2>';
+	}
+	else {
+		echo '<h1>' . $shelfmark . '</h1>';
+	}
 
 	// stable URL
 	$link = getLink('manuscript', $id);
-	echo '<div class="text-secondary small">Stable URL: <a class="text-secondary" href="' . $link . '">https://mira.ie' . $link . '</a></div>';
+	echo '<div class="mb-4 text-secondary small">Stable URL: <a class="text-secondary" href="' . $link . '">https://mira.ie' . $link . '</a></div>';
 
 	// write categories
 	if ($ms->notes['categories'] != '') {
@@ -54,7 +61,7 @@ if ($filter) {
 		$libraryID = strval($ms->identifier[$n]['libraryID']);	
 		$unit = $ms->identifier[$n]["unit"];
 
-		if ($identifierCount > 1) echo '<tr><td colspan="2"><h4 class="h6 mt-3 mb-0">UNIT ' . $unit . '</h4></td></tr>';
+		if ($identifierCount > 1) echo '<tr><td colspan="2"><h4 class="mt-4 mb-0">UNIT ' . $unit . '</h4></td></tr>';
 
 		writeRow('Country', $libraries[$libraryID]['country'], '', '');
 		writeRow('Library', $libraries[$libraryID]['city'] . ', ' . $libraries[$libraryID]['name'], '/library/' . $libraryID);
@@ -72,10 +79,10 @@ if ($filter) {
 	}
 
 	// description, incl. contents
-	echo '<tr><th colspan="2"><h3 class="h3 mt-5">Description</h3></th></tr>';
+	echo '<tr><th colspan="2"><h3 class="mt-5">Description</h3></th></tr>';
 	writeRow('MS type', $ms->description->type, '');
 	writeRow('No. of folios', $ms->description->folios, '');
-	writeRow('Page dimensions (cm)', $ms->description->page_h . ' (height) × ' . $ms->description->page_w . ' (width)', '');
+	if ($ms->description->page_h <> '') writeRow('Page dimensions (cm)', $ms->description->page_h . ' (height) × ' . $ms->description->page_w . ' (width)', '');
 	writeRow('Columns', $ms->description->cols, '');
 	writeRow('Lines', $ms->description->lines . indicativeLineHeight($ms->description->lines, $ms->description->page_h), '');
 	writeRow('Script', $ms->description->script, '');
@@ -99,7 +106,7 @@ if ($filter) {
 		echo '</td></tr>';
 	}
 
-	echo '<tr><th colspan="2"><h3 class="h3 mt-5">History</h3></th></tr>';
+	echo '<tr><th colspan="2"><h3 class="mt-5">History</h3></th></tr>';
 	writeRow('Dating', $ms->history->date_desc . ' (' . $ms->history->term_post . '–' . $ms->history->term_ante . ')', '');
 	writeRow('Origin', processData($ms->history->origin->asXML()), '');
 	writeRow('Provenance', processData($ms->history->provenance->asXML()), '');
@@ -112,12 +119,12 @@ if ($filter) {
 
 
 	if ($ms->notes != '') {
-		echo '<tr><th colspan="2"><h3 class="h3 mt-5">Notes</h3></th></tr>';
+		echo '<tr><th colspan="2"><h3 class="mt-5">Notes</h3></th></tr>';
 		echo '<tr><td colspan="2">' . processData($ms->notes->asXML()) . '</td></tr>';
 	}
 
 
-	echo '<tr><th colspan="2"><h3 class="h3 mt-5">References</h3></th></tr>';
+	echo '<tr><th colspan="2"><h3 class="mt-5">References</h3></th></tr>';
 	echo '<tr><td colspan="2">';
 	// make list of reference IDs for this MS entry
 	$refList = array();

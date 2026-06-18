@@ -1,6 +1,10 @@
 body {
 	font-family: Roboto, sans-serif;
-	font-size: 1.25em;
+	font-size: 1.2rem;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Source Serif 4', serif;
+    font-weight: 700;
 }
 
 nav, .bg-mira {
@@ -14,7 +18,7 @@ footer {
 
 a.navbar-brand {
 	font-weight: bold;
-	font-size: 1.1em;
+	font-size: 1.1rem;
 }
 a, a:hover, .leaflet-container a {
    text-decoration: none;
@@ -30,10 +34,10 @@ a[href^="https://"]:after, a[href^="https://"]:after {
     font-weight: bold;
 }
 a.btn {
-	font-size: 0.9em;
+	font-size: 0.9rem;
 }
 span.btn {
-	font-size: 0.6em;
+	font-size: 0.6rem;
 }
 
 .chartFullScreen {
@@ -50,6 +54,17 @@ span.btn {
    color: #0e300e; 
 }
 .hanging-indent {
-	padding-left: 1.5em; /* Adjust the value as needed */
-	text-indent: -1.5em; /* Adjust the value as needed */
+	padding-left: 1.5rem; /* Adjust the value as needed */
+	text-indent: -1.5rem; /* Adjust the value as needed */
+}
+
+.home-hero {
+	background-image: url('/images/header_0-4.jpg');
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.text-shadow {
+	text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
 }

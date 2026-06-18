@@ -1,15 +1,15 @@
 <?php
 
-writeBreadcrumb('place', null);
-echo '<h2>Places</h2>';
 
 if (file_exists('../data/other/places.xml')) {
-	$xml_places = simplexml_load_file('../data/other/places.xml');
 
+	// load data
+	$xml_places = simplexml_load_file('../data/other/places.xml');
 	$matches = count($xml_places->xpath('//place'));
-	echo '<div class="d-inline-flex mt-2 mb-4 px-3 py-2 text-light small bg-mira	rounded">' . $matches;
-	echo switchSgPl($matches, ' place', ' places');
-	echo '</div>';
+
+	// write header
+	writeBreadcrumb('place', null);
+	echo '<h1>Places <span class="badge rounded-pill small text-bg-success">' . $matches . '</span></h1>';
 
 	mapPlaces($xml_places, '');
 
@@ -39,6 +39,10 @@ if (file_exists('../data/other/places.xml')) {
 
 <?php
 }
+else {
+	'<div class="alert alert-danger">Data connection failed.</div>';
+}
+
 
 function writeRegion($place, $indent) {
 	$link = getLink('place', $place['id']);

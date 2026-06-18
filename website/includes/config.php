@@ -3,8 +3,11 @@
 Configuration options
 */
 
-$version = '0.7 dev';
+$version = '1.0';
 $versionDate = '2026';
-$debug = true;
+
+// debugging switch for local production site
+if ($_SERVER['SERVER_NAME'] == 'mira') $debug = true;
+else $debug = false;
 
 ?>

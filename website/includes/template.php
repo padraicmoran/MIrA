@@ -17,7 +17,7 @@ function templateTop($activeNavID) {
 		'children' => [
 			'bibliography' => 	['label' => 'Bibliography',     'url' => '/about/bibliography',    'title' => 'MIrA • Bibliography'],
 			'versions' => 		['label' => 'Version history',  'url' => '/about/versions',		  'title' => 'MIrA • Version history'],
-			//'data' => 			['label' => 'Data management',  'url' => '/about/data',			  'title' => 'MIrA • Data management'],
+			'data' => 			['label' => 'Data management',  'url' => '/about/data',			  'title' => 'MIrA • Data management'],
 		]],
 	];
 	if (isset($nav[$activeNavID])) $title = $nav[$activeNavID]['title'];
@@ -63,6 +63,7 @@ function templateTop($activeNavID) {
 
 	<!-- site styles -->
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" />
+	<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,200..900&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="/includes/mira.css" />
 
 	<!-- favicons -->
@@ -93,13 +94,13 @@ function templateTop($activeNavID) {
 
 	<!-- span class="text-light small opacity-50"><a style="color: inherit; text-decoration: none; " href="/about">v0.2 (beta)</a></span -->
 
-	<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	<button class="navbar-toggler fs-5 p-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 	<span class="navbar-toggler-icon"></span>
 	</button>
 
 
 	<div class="collapse navbar-collapse" id="navbarSupportedContent">
-		<ul class="navbar-nav ms-4 me-auto mb-2 mb-lg-0 small">
+		<ul class="navbar-nav ms-4 ms-auto me-auto mb-2 mb-lg-0">
 	<?php
 	foreach ($nav as $navID => $item):
 		$isActive    = ($navID === $activeNavID);
@@ -129,7 +130,7 @@ function templateTop($activeNavID) {
 		</ul>
 		<form class="d-flex" action="/manuscripts" method="get">
 			<input class="form-control me-2" name="search" type="search"
-				placeholder="MIrA number or keyword" aria-label="Search"
+				placeholder="Keyword or MIrA number" aria-label="Search"
 				value="<?= $search ?>">
 			<button class="btn btn-success" type="submit">Search</button>
 		</form>
@@ -139,13 +140,14 @@ function templateTop($activeNavID) {
 
 
 <?php
-// home page header
-if ($activeNavID == 'home') echo '<div class="container-fluid p-0 overflow-auto bg-dark"><a href="/110"><img class="img-fluid" src="/images/header_0-3.jpg" alt="Detail from the Book of Armagh"></a></div>';
+	// main content wrapper
+	// skip on home page
+	if ($activeNavID != 'home') {
 ?>
-
 <!-- main content holder -->
 <main class="container mt-5 pb-5" style="min-height: 400px; ">
 <?php
+	}
 }
 
 
@@ -154,8 +156,24 @@ function templateBottom() {
 ?>
 </main>
 
-<footer class="container-fluid mt-4 p-5 border-top">
+<footer class="container-fluid mt-4 py-5 px-2 px-lg-5 border-top">
 	<div class="container mb-0">
+		<div class="row">
+			<div class="col-lg-6 pb-2">
+
+<h3 class="h4">Manuscripts with Irish Associations</h3>
+<p>Irish manuscript culture before c. AD 1000</p>
+
+<p class="mt-4">
+	Access data via 
+	<a target="_blank" href="https://github.com/padraicmoran/MIrA/tree/master/data">GitHub</a> |
+	<a target="_blank" href="https://mira-sparql.universityofgalway.ie">SPARQL endpoint</a>
+</p>
+
+			</div>
+			<div class="col-lg-6">
+
+<h3 class="h5">How to cite:</h3>
 
 <p>Pádraic Moran, <i>Manuscripts with Irish Associations</i> (<i>MIrA</i>)</i>, 
 	version <?php echo $version; ?> (<?php echo $versionDate; ?>)
@@ -165,7 +183,8 @@ echo '&lt;<a class="text-reset" href="' . $_SERVER['REQUEST_URI'] . '">https://m
 echo '[accessed ' . date("j F Y") . ']';
 ?>
 </p>
-
+			</div>
+		</div>
 	</div>
 </footer>
 
