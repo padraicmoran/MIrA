@@ -8,10 +8,10 @@ if ($filter) {
 	$ms = $filter[0];
 	
 	//
-	// HEADERS 
+	// HEADER 
 	//
 
-	// breadcrumb
+	templateTop('manuscripts');
 	writeBreadcrumb('manuscript', 'MIrA ' . $id);
 
 	// title
@@ -163,9 +163,10 @@ if ($filter) {
 		<a class="text-secondary" href="/data/manuscript/' . $id . '.rdf">RDF</a>
 		</div>';
 }
+// no match, return 404
 else {
-	echo '<!-- MS not found -->';
-	require 'pages/home.php';
+	http_response_code(404);
+	include 'pages/404.php';
 }
 
 

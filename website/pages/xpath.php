@@ -4,6 +4,7 @@ if (isset($_GET['xpath'])) $xpath = $_GET['xpath'];
 else $xpath = null;
 $output = cleanInput('output') ?? '';
 
+templateTop('');
 ?>
 <h2>Advanced query</h2>
 

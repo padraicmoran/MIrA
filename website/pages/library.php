@@ -8,7 +8,8 @@ if (file_exists('../data/other/libraries.xml')) {
 	if ($filter) {
 		$library = $filter[0];
 
-		// breadcrumb
+		// header
+		templateTop('libraries');
 		writeBreadcrumb('library', '');
 		echo '<h1>' . $library->city . ', ' . $library->name . '</h1>';
 
@@ -36,9 +37,10 @@ if (file_exists('../data/other/libraries.xml')) {
 			</div>';
 
 	}
+	// no match, return 404
 	else {
-		// if no match, exit to general list
-		require 'pages/library_list.php';
+		http_response_code(404);
+		include 'pages/404.php';
 	}
 }
 

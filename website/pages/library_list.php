@@ -1,5 +1,6 @@
 <?php
 
+templateTop('libraries');
 if (file_exists('../data/other/libraries.xml')) {
 
 	// load data

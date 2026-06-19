@@ -9,6 +9,8 @@ if (file_exists('../data/other/places.xml')) {
 	if ($filter) {
 		$place = $filter[0];
 
+		// header
+		templateTop('places');
 		writeBreadcrumb('place', '');
 		echo '<h1>' . $place->name . '</h1>';
 
@@ -49,7 +51,7 @@ if (file_exists('../data/other/places.xml')) {
 		// if not region: check if part of a region
 		else {
 			$priorPlace = $xml_places->xpath('//place[@id="' . $id . '"]/ancestor::place');
-			if ($priorPlace) echo '<p>Part of region: <a href="' . getLink('places', $priorPlace[0]['id']) . '">' . $priorPlace[0]->name . '</a></p>';
+			if ($priorPlace) echo '<p>Part of region: <a href="' . getLink('place', $priorPlace[0]['id']) . '">' . $priorPlace[0]->name . '</a></p>';
 		}
 
 		// linked data
@@ -99,9 +101,10 @@ if (file_exists('../data/other/places.xml')) {
 #		echo '<div class="text-secondary small mt-5">Download <a class="text-secondary" href="/data/other/places.xml">XML data</a> for places.</div>';
 
 	}
+	// no match, return 404
 	else {
-		// if no match, exit to general list
-		require 'pages/places.php';
+		http_response_code(404);
+		include 'pages/404.php';
 	}
 }
 

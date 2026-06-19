@@ -1,6 +1,5 @@
 <?php
 
-
 if (file_exists('../data/other/places.xml')) {
 
 	// load data
@@ -8,6 +7,7 @@ if (file_exists('../data/other/places.xml')) {
 	$matches = count($xml_places->xpath('//place'));
 
 	// write header
+	templateTop('places');
 	writeBreadcrumb('place', null);
 	echo '<h1>Places <span class="badge rounded-pill small text-bg-success">' . $matches . '</span></h1>';
 

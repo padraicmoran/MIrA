@@ -1,9 +1,11 @@
-
+<?php
+templateTop('home');
+?>
 <!-- hero section -->
 
 <div class="container-fluid p-0 home-hero">
     <div class="row g-0 h-100">
-        <div class="col-lg-6 p-2 p-md-4 p-lg-5 align-items-center bg-mira bg-gradient text-white" style="opacity: 0.85;">
+        <div class="col-lg-6 p-2 p-md-4 p-lg-5 align-items-center bg-mira-opaque bg-gradient text-white">
             <div class="mx-3 pt-5 pb-4 px-md-5 text-shadow">
 
 <h1 class="display-5 mb-4" style="font-weight: 400;">
@@ -21,14 +23,14 @@ other Irish connections.
 	<input class="form-control form-control-lg me-2" 
 		name="search" type="search"
 		placeholder="Search by manuscript name, keyword or MIrA number" aria-label="Search">
-	<button class="btn btn-success" type="submit">Search</button>
+	<button class="btn btn-success opacity-1" type="submit">Search</button>
 </form>
 
 <p class="mt-4">
 Or browse: 
-<a href="/manuscripts" class="badge bg-success text-decoration-none text-reset">301 manuscripts</a>
-<a href="/libraries" class="badge bg-success text-decoration-none text-reset">72 libraries</a>
-<a href="/places" class="badge bg-success text-decoration-none text-reset">51 places</a>
+<a href="/manuscripts" class="badge bg-success text-decoration-none text-reset text-shadow-none">301 manuscripts</a>
+<a href="/libraries" class="badge bg-success text-decoration-none text-reset text-shadow-none">72 libraries</a>
+<a href="/places" class="badge bg-success text-decoration-none text-reset text-shadow-none">51 places</a>
 </p>
 
 <p class="mt-5 small">

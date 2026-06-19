@@ -10,6 +10,9 @@ h1, h2, h3, h4, h5, h6 {
 nav, .bg-mira {
 	background-color: #0e300e; 
 }
+.bg-mira-opaque {
+	background-color: rgba(14, 48, 14, 0.85);
+}
 
 footer {
 	background-color: #e7e7e0; 
@@ -67,4 +70,7 @@ span.btn {
 
 .text-shadow {
 	text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
+}
+.text-shadow-none {
+	text-shadow: none;
 }

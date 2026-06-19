@@ -1,4 +1,5 @@
 DirectoryIndex index.php
+ErrorDocument 404 /index.php?page=404
 
 RewriteEngine on
 

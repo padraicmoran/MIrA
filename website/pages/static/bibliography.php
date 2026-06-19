@@ -1,3 +1,6 @@
+<?php
+templateTop('about');
+?>
 
 <h1 class="mt-5 mb-4">Bibliography</h2>
 

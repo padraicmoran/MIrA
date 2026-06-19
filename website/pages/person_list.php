@@ -7,6 +7,7 @@ if (file_exists('../data/other/people.xml')) {
 	$matches = count($xml_people);
 
 	// write header
+	templateTop('people');
 	writeBreadcrumb('person', null);
 	echo '<h1>People <span class="badge rounded-pill small text-bg-success">' . $matches . '</span></h1>';
 ?>

@@ -87,16 +87,16 @@ function templateTop($activeNavID) {
 <nav class="navbar navbar-expand-lg navbar-dark sticky-md-top" style="z-index: 2000">
 	<div class="container-fluid px-5 py-2">
 
-	<a class="navbar-brand text-wrap" href="/">
-	<span class="bg-white p-1 rounded fw-bold text-dark" style="color: #0e300e !important; ">MIrA</span> 
-	<span class="text-nowrap">Manuscripts with Irish Associations</span>
-	</a>
-
-	<!-- span class="text-light small opacity-50"><a style="color: inherit; text-decoration: none; " href="/about">v0.2 (beta)</a></span -->
-
-	<button class="navbar-toggler fs-5 p-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-	<span class="navbar-toggler-icon"></span>
-	</button>
+	<!-- site branding and mobile nav toggler -->
+	 <div class="d-flex align-items-center flex-nowrap w-100 justify-content-between">
+		<a class="navbar-brand d-flex align-items-center gap-2 flex-shrink-1" href="/">
+			<span class="bg-white p-1 rounded fw-bold text-dark flex-shrink-0 me-2" style="color: #0e300e !important;">MIrA</span>
+			<span class="site-title" style="white-space: normal; line-height: 1.2;">Manuscripts with Irish Associations</span>
+		</a>
+		<button class="navbar-toggler fs-5 p-2 flex-shrink-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+	</div>
 
 
 	<div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -129,7 +129,8 @@ function templateTop($activeNavID) {
 	<?php endforeach ?>
 		</ul>
 		<form class="d-flex" action="/manuscripts" method="get">
-			<input class="form-control me-2" name="search" type="search"
+			<input class="form-control ms-4 me-2" style="width: 220px; "
+				name="search" type="search"
 				placeholder="Keyword or MIrA number" aria-label="Search"
 				value="<?= $search ?>">
 			<button class="btn btn-success" type="submit">Search</button>

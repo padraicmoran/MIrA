@@ -1,4 +1,6 @@
 <?php
+// header
+templateTop('manuscripts');
 
 // Check for category selection
 $searchCat = cleanInput('cat') ?? '';

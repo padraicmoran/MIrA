@@ -8,7 +8,8 @@ if (file_exists('../data/other/people.xml')) {
 	if ($filter) {
 		$person = $filter[0];
 
-		// breadcrumb
+		// header
+		templateTop('people');
 		writeBreadcrumb('person', '');
 		echo '<h1>' . $person->firstNames . ' ' . $person->surname . '</h1>';
 		if ($person->lifetime) echo '<p>' . $person->lifetime . '</p>';
@@ -51,9 +52,10 @@ if (file_exists('../data/other/people.xml')) {
 			</div>';
 
 	}
+	// no match, return 404
 	else {
-		// if no match, exit to general list
-		require 'pages/people.php';
+		http_response_code(404);
+		include 'pages/404.php';
 	}
 }
 
