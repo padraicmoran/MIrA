@@ -8,7 +8,7 @@ $search = cleanInput('search') ?? '';
 
 // if 404 called by server (see .htaccess)
 if ($page == '404') {
-	require 'pages/404.php';
+	require 'pages/static/404.php';
 	templateBottom();	
 	exit;
 }

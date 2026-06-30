@@ -9,7 +9,7 @@ if (file_exists('../data/other/people.xml')) {
 		$person = $filter[0];
 
 		// header
-		templateTop('people');
+		templateTop($nav, 'people');
 		writeBreadcrumb('person', '');
 		echo '<h1>' . $person->firstNames . ' ' . $person->surname . '</h1>';
 		if ($person->lifetime) echo '<p>' . $person->lifetime . '</p>';
@@ -55,7 +55,7 @@ if (file_exists('../data/other/people.xml')) {
 	// no match, return 404
 	else {
 		http_response_code(404);
-		include 'pages/404.php';
+		include 'pages/static/404.php';
 	}
 }
 

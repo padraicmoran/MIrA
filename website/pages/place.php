@@ -10,7 +10,7 @@ if (file_exists('../data/other/places.xml')) {
 		$place = $filter[0];
 
 		// header
-		templateTop('places');
+		templateTop($nav, 'places');
 		writeBreadcrumb('place', '');
 		echo '<h1>' . $place->name . '</h1>';
 
@@ -104,7 +104,7 @@ if (file_exists('../data/other/places.xml')) {
 	// no match, return 404
 	else {
 		http_response_code(404);
-		include 'pages/404.php';
+		include 'pages/static/404.php';
 	}
 }
 

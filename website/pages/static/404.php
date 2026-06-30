@@ -1,5 +1,5 @@
 <?php
-templateTop('');
+templateTop($nav, '');
 ?>
 
 <h1 class="mb-4">Resource not found</h1>

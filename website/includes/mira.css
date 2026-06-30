@@ -14,9 +14,10 @@ nav, .bg-mira {
 	background-color: rgba(14, 48, 14, 0.85);
 }
 
-footer {
+footer, .side-nav {
 	background-color: #e7e7e0; 
 }
+
 
 
 a.navbar-brand {

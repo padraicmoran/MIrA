@@ -2,24 +2,25 @@
 /*
 Standard page template
 */
+$nav = [
+	'home' => 			['label' => 'Home',        'url' => '/',            'title' => 'MIrA • Manuscripts with Irish Associations • Information about early Irish book culture'],
+	'manuscripts' =>	['label' => 'Manuscripts', 'url' => '/manuscripts', 'title' => 'MIrA • Manuscripts with Irish Associations • Manuscripts'],
+	'libraries' => 		['label' => 'Libraries',   'url' => '/libraries',   'title' => 'MIrA • Manuscripts with Irish Associations • Libraries'],
+	'people' => 		['label' => 'People',      'url' => '/people',      'title' => 'MIrA • Manuscripts with Irish Associations • People'],
+	'places' =>			['label' => 'Places',      'url' => '/places',      'title' => 'MIrA • Manuscripts with Irish Associations • Places'],
+	'texts' => 			['label' => 'Texts',       'url' => '/texts',       'title' => 'MIrA • Manuscripts with Irish Associations • Texts'],
+	'about' => 			['label' => 'About',       'url' => '/about',       'title' => 'MIrA • Manuscripts with Irish Associations • About',
+	'children' => [
+		'bibliography' => 	['label' => 'Bibliography',     'url' => '/about/bibliography',    'title' => 'MIrA • Bibliography'],
+		'versions' => 		['label' => 'Version history',  'url' => '/about/versions',		  'title' => 'MIrA • Version history'],
+		'data' => 			['label' => 'Data management',  'url' => '/about/data',			  'title' => 'MIrA • Data management'],
+	]],
+];
 
-function templateTop($activeNavID) {
+
+function templateTop($nav, $activeNavID) {
 	global $search;
 	
-	$nav = [
-		'home' => 			['label' => 'Home',        'url' => '/',            'title' => 'Manuscripts with Irish Associations • Information about early Irish book culture'],
-		'manuscripts' =>	['label' => 'Manuscripts', 'url' => '/manuscripts', 'title' => 'MIrA • Manuscripts'],
-		'libraries' => 		['label' => 'Libraries',   'url' => '/libraries',   'title' => 'MIrA • Libraries'],
-		'people' => 		['label' => 'People',      'url' => '/people',      'title' => 'MIrA • People'],
-		'places' =>			['label' => 'Places',      'url' => '/places',      'title' => 'MIrA • Places'],
-		'texts' => 			['label' => 'Texts',       'url' => '/texts',       'title' => 'MIrA • Texts'],
-		'about' => 			['label' => 'About',       'url' => '/about',       'title' => 'MIrA • About',
-		'children' => [
-			'bibliography' => 	['label' => 'Bibliography',     'url' => '/about/bibliography',    'title' => 'MIrA • Bibliography'],
-			'versions' => 		['label' => 'Version history',  'url' => '/about/versions',		  'title' => 'MIrA • Version history'],
-			'data' => 			['label' => 'Data management',  'url' => '/about/data',			  'title' => 'MIrA • Data management'],
-		]],
-	];
 	if (isset($nav[$activeNavID])) $title = $nav[$activeNavID]['title'];
 	else $title = $nav['home']['title'];
 
@@ -65,6 +66,8 @@ function templateTop($activeNavID) {
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" />
 	<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,200..900&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="/includes/mira.css" />
+
+	<script src="/includes/mira.js" />
 
 	<!-- favicons -->
 	<link rel="apple-touch-icon" href="/images/favicons/apple-touch-icon.png" sizes="180x180">
@@ -181,7 +184,7 @@ function templateBottom() {
 <?php
 // URL and date
 echo '&lt;<a class="text-reset" href="' . $_SERVER['REQUEST_URI'] . '">https://mira.ie' . $_SERVER['REQUEST_URI'] . '</a>&gt; ';
-echo '[accessed ' . date("j F Y") . ']';
+echo '(accessed ' . date("j F Y") . ')';
 ?>
 </p>
 			</div>

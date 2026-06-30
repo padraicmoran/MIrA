@@ -1,5 +1,8 @@
 <?php
-templateTop('about');
+require 'pages/components/subnav.php';
+
+templateTop($nav, 'about');
+writeSubnav($nav, 'about', 'data');
 ?>
 
 <h1 class="mt-5 mb-4">Data management</h1>

@@ -33,7 +33,16 @@
       <bibl id="duft_meyer_1954">Duft &amp; Meyer 1954: 72–74</bibl>
    </refs>
    <notes categories="#or-ire #sc-ire #scribe #vern">
-      Old Irish glosses. Scribes: Calvus Patricii [Maél Pátric] (pp 1–156), Coirbbre, Finguine, Donngus.
+      <p>Old Irish glosses.</p>
+      <p>Main scribes: 
+         <person>Calvus Patricii</person> (Maél Pátraic; wrote pp 1–156, named on p. <page canvas="154">157</page>), 
+         <person>Cobthach</person> (wrote pp 157–249, named on p. <page canvas="216">219</page>).
+      Other scribes:
+         <person>Donngus</person> (pp <page canvas="191">194</page>, <page canvas="204">207</page>),
+         <person>Finguine</person> (p. <page canvas="179">182</page>).
+      Other names:
+         <person>Máel Brigte</person> (p. <page canvas="200">203</page>).
+      </p>
    </notes>
    <revisionDesc>
       <change who="Pádraic Moran" when="2021-05-01">Created</change>

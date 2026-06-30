@@ -5451,23 +5451,23 @@
       <contents>
       	<summary>Marius Victorinus; Consentius; Isidore Iunior</summary>
 			<msItem>
-				<locus>inside front cover</locus>
+				<locus canvas="2">front paste down</locus>
 				<author>Origen</author>
 				<title>Homiliae in Heptateuchon interprete Rufino</title>
             <note>extract</note>
 			</msItem>
 			<msItem>
-				<locus>1ra–9rb</locus>
+				<locus canvas="3">1ra–9rb</locus>
 				<author>Isidore Iunior Hispalensis</author>
 				<title>De Vitiis</title>
 			</msItem>
 			<msItem>
-				<locus>9rb–15vb</locus>
+				<locus canvas="19">9rb–15vb</locus>
 				<author>Consentius</author>
 				<title>De barbarismis et metaplasmis</title>
 			</msItem>
 			<msItem>
-				<locus>15rb–16vb</locus>
+				<locus canvas="31">15rb–16vb</locus>
 				<author>Victorinus</author>
 				<title>De soloecismo et barbarismo</title>
 			</msItem>
@@ -6079,7 +6079,16 @@
       <bibl id="duft_meyer_1954">Duft &amp; Meyer 1954: 72–74</bibl>
    </refs>
    <notes categories="#or-ire #sc-ire #scribe #vern">
-      Old Irish glosses. Scribes: Calvus Patricii [Maél Pátric] (pp 1–156), Coirbbre, Finguine, Donngus.
+      <p>Old Irish glosses.</p>
+      <p>Main scribes: 
+         <person>Calvus Patricii</person> (Maél Pátraic; wrote pp 1–156, named on p. <page canvas="154">157</page>), 
+         <person>Cobthach</person> (wrote pp 157–249, named on p. <page canvas="216">219</page>).
+      Other scribes:
+         <person>Donngus</person> (pp <page canvas="191">194</page>, <page canvas="204">207</page>),
+         <person>Finguine</person> (p. <page canvas="179">182</page>).
+      Other names:
+         <person>Máel Brigte</person> (p. <page canvas="200">203</page>).
+      </p>
    </notes>
    <revisionDesc>
       <change who="Pádraic Moran" when="2021-05-01">Created</change>

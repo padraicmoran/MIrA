@@ -7,7 +7,7 @@ if (file_exists('../data/other/texts.xml')) {
 	$matches = count($xml_texts);
 
 	// write header
-	templateTop('texts');
+	templateTop($nav, 'texts');
 	writeBreadcrumb('text', null);
 	echo '<h1>Texts <span class="badge rounded-pill small text-bg-success">' . $matches . '</span></h1>';
 ?>

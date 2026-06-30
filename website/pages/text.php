@@ -9,7 +9,7 @@ if (file_exists('../data/other/texts.xml')) {
 		$text = $filter[0];
 		
 		// page title
-		templateTop('texts');
+		templateTop($nav, 'texts');
 		writeBreadcrumb('text', '');
 		echo '<h1>';
 		if ($text->author != '') echo $text->author . ', ';
@@ -57,7 +57,7 @@ if (file_exists('../data/other/texts.xml')) {
 	// no match, return 404
 	else {
 		http_response_code(404);
-		include 'pages/404.php';
+		include 'pages/static/404.php';
 	}
 }
 ?>

@@ -11,7 +11,7 @@ if ($filter) {
 	// HEADER 
 	//
 
-	templateTop('manuscripts');
+	templateTop($nav, 'manuscripts');
 	writeBreadcrumb('manuscript', 'MIrA ' . $id);
 
 	// title
@@ -96,7 +96,7 @@ if ($filter) {
 		echo '<table class="table table-sm">';
 		foreach ($ms->description->contents->msItem as $item) {
 			echo '<tr>';
-			echo '<td>' . $item->locus . '</td>';
+			echo '<td><a href="#miradorViewer" class="locus" data-canvas="' . $item->locus['canvas'] . '">' . $item->locus . '</a></td>';
 			echo '<td>' . $item->author . ', <i>' . $item->title . '</i> ';
 			if ($item->note) echo '(' . $item->note . ')';
 			echo '</td>';
@@ -166,7 +166,7 @@ if ($filter) {
 // no match, return 404
 else {
 	http_response_code(404);
-	include 'pages/404.php';
+	include 'pages/static/404.php';
 }
 
 
@@ -223,13 +223,15 @@ function parseThesaurusRef($ref) {
 // replace XML cross-references (data) with HTML links (application)
 function processData($str) {
 
-	$str = preg_replace('/<ms id="([0-9]*)">/', '<a href="\1">', $str);
+	$str = preg_replace('/<ms id="([0-9]+)">/', '<a href="$1">', $str);
 	$str = preg_replace('/<\/ms>/', '</a>', $str);
 
-	$str = preg_replace('/<person id="([a-z0-9_\-]*)">/', '<a href="/person/\1">', $str);
-	$str = preg_replace('/<place id="([a-z0-9_\-]*)">/', '<a href="/place/\1">', $str);
-	$str = preg_replace('/<text id="([a-z0-9_\-]*)">/', '<a href="/text/\1">', $str);
-	
+	$str = preg_replace('/<page canvas="([0-9]+)">/', '<a href="#miradorViewer" class="locus" data-canvas="$1">', $str);
+	$str = preg_replace('/<\/page>/', '</a>', $str);
+
+	$str = preg_replace('/<person id="([a-z0-9_\-]*)">/', '<a href="/person/$1">', $str);
+	$str = preg_replace('/<place id="([a-z0-9_\-]*)">/', '<a href="/place/$1">', $str);
+	$str = preg_replace('/<text id="([a-z0-9_\-]*)">/', '<a href="/text/$1">', $str);
 	$str = preg_replace('/<\/person>/', '</a>', $str);
 	$str = preg_replace('/<\/place>/', '</a>', $str);
 	$str = preg_replace('/<\/text>/', '</a>', $str);

@@ -11,7 +11,7 @@ function mirador($iiifLinks) {
 	// Mirador viewer code
 	?>
 
-<script src="https://unpkg.com/mirador@latest/dist/mirador.min.js"></script>
+<script src="https://unpkg.com/mirador@4.0.0/dist/mirador.min.js"></script>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500">
 <div id="miradorViewer" class="rounded shadow" style="position: relative; height: 700px; margin-bottom: 15px;">
 	<!-- spinner -->
@@ -22,7 +22,7 @@ function mirador($iiifLinks) {
 </div>
 
 <script type="text/javascript">
-var mirador = Mirador.viewer({
+const viewer = Mirador.viewer({
 	id: "miradorViewer",
 	catalog: [ 
 	<?php echo $manifestString; ?> 

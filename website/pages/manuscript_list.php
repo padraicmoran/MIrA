@@ -1,6 +1,6 @@
 <?php
 // header
-templateTop('manuscripts');
+templateTop($nav, 'manuscripts');
 
 // Check for category selection
 $searchCat = cleanInput('cat') ?? '';

@@ -9,7 +9,7 @@ if (file_exists('../data/other/libraries.xml')) {
 		$library = $filter[0];
 
 		// header
-		templateTop('libraries');
+		templateTop($nav, 'libraries');
 		writeBreadcrumb('library', '');
 		echo '<h1>' . $library->city . ', ' . $library->name . '</h1>';
 
@@ -40,7 +40,7 @@ if (file_exists('../data/other/libraries.xml')) {
 	// no match, return 404
 	else {
 		http_response_code(404);
-		include 'pages/404.php';
+		include 'pages/static/404.php';
 	}
 }
 

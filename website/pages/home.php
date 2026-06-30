@@ -1,5 +1,5 @@
 <?php
-templateTop('home');
+templateTop($nav, 'home');
 ?>
 <!-- hero section -->
 
